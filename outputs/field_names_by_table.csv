@@ -1,10 +1,10 @@
 table_key,format,stat_type,field_names
-test_batting,test,batting,cricinfo_id | unique_player_id | final_player_name | source_country_text | Player | Span | Mat | Inns | NO | Runs | HS | Ave | 100 | 50 | 0 | blank_col_12 | format | stat_type | source | source_url
-test_bowling,test,bowling,cricinfo_id | unique_player_id | final_player_name | source_country_text | Player | Span | Mat | Inns | Balls | Runs | Wkts | BBI | BBM | Ave | Econ | SR | 5 | 10 | blank_col_15 | format | stat_type | source | source_url
-test_fielding,test,fielding,cricinfo_id | unique_player_id | final_player_name | source_country_text | Player | Span | Mat | Inns | Dis | Ct | St | Ct Wk | Ct Fi | MD | D/I | blank_col_12 | format | stat_type | source | source_url
-odi_batting,odi,batting,cricinfo_id | unique_player_id | final_player_name | source_country_text | Player | Span | Mat | Inns | NO | Runs | HS | Ave | BF | SR | 100 | 50 | 0 | blank_col_14 | format | stat_type | source | source_url
-odi_bowling,odi,bowling,cricinfo_id | unique_player_id | final_player_name | source_country_text | Player | Span | Mat | Inns | Balls | Runs | Wkts | BBI | Ave | Econ | SR | 4 | 5 | blank_col_14 | format | stat_type | source | source_url
-odi_fielding,odi,fielding,cricinfo_id | unique_player_id | final_player_name | source_country_text | Player | Span | Mat | Inns | Dis | Ct | St | Ct Wk | Ct Fi | MD | D/I | blank_col_12 | format | stat_type | source | source_url
-t20i_batting,t20i,batting,cricinfo_id | unique_player_id | final_player_name | source_country_text | Player | Span | Mat | Inns | NO | Runs | HS | Ave | BF | SR | 100 | 50 | 0 | 4s | 6s | blank_col_16 | format | stat_type | source | source_url
-t20i_bowling,t20i,bowling,cricinfo_id | unique_player_id | final_player_name | source_country_text | Player | Span | Mat | Inns | Overs | Mdns | Runs | Wkts | BBI | Ave | Econ | SR | 4 | 5 | blank_col_15 | format | stat_type | source | source_url
-t20i_fielding,t20i,fielding,cricinfo_id | unique_player_id | final_player_name | source_country_text | Player | Span | Mat | Inns | Dis | Ct | St | Ct Wk | Ct Fi | MD | D/I | blank_col_12 | format | stat_type | source | source_url
+test_batting,test,batting,cricinfo_id | unique_player_id | final_player_name | source_country_text | Player | Span | Mat | Inns | NO | Runs | HS | Ave | BF | SR | 100 | 50 | 0 | 4s | 6s
+test_bowling,test,bowling,cricinfo_id | unique_player_id | final_player_name | source_country_text | Player | Span | Mat | Inns | Balls | Overs | Mdns | Runs | Wkts | BBI | BBM | Ave | Econ | SR | 4 | 5 | 10
+test_fielding,test,fielding,cricinfo_id | unique_player_id | final_player_name | source_country_text | Player | Span | Mat | Inns | Dis | Ct | St | Ct Wk | Ct Fi | MD | D/I
+odi_batting,odi,batting,cricinfo_id | unique_player_id | final_player_name | source_country_text | Player | Span | Mat | Inns | NO | Runs | HS | Ave | BF | SR | 100 | 50 | 0 | 4s | 6s
+odi_bowling,odi,bowling,cricinfo_id | unique_player_id | final_player_name | source_country_text | Player | Span | Mat | Inns | Balls | Overs | Mdns | Runs | Wkts | BBI | BBM | Ave | Econ | SR | 4 | 5 | 10
+odi_fielding,odi,fielding,cricinfo_id | unique_player_id | final_player_name | source_country_text | Player | Span | Mat | Inns | Dis | Ct | St | Ct Wk | Ct Fi | MD | D/I
+t20i_batting,t20i,batting,cricinfo_id | unique_player_id | final_player_name | source_country_text | Player | Span | Mat | Inns | NO | Runs | HS | Ave | BF | SR | 100 | 50 | 0 | 4s | 6s
+t20i_bowling,t20i,bowling,cricinfo_id | unique_player_id | final_player_name | source_country_text | Player | Span | Mat | Inns | Balls | Overs | Mdns | Runs | Wkts | BBI | BBM | Ave | Econ | SR | 4 | 5 | 10
+t20i_fielding,t20i,fielding,cricinfo_id | unique_player_id | final_player_name | source_country_text | Player | Span | Mat | Inns | Dis | Ct | St | Ct Wk | Ct Fi | MD | D/I

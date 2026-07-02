@@ -1,24 +1,18 @@
 # ============================================================
-# INTERNATIONAL CRICKET STATS PIPELINE
+# INTERNATIONAL CRICKET STATS PIPELINE - CLEAN VERSION
 # Source: ESPNcricinfo Statsguru
 #
-# Pulls:
-# - Test batting, bowling, fielding
-# - ODI batting, bowling, fielding
-# - T20I batting, bowling, fielding
-#
-# Outputs:
-# - outputs/raw/test_batting_raw.csv, etc.
-# - outputs/all_international_summary_flat.csv
-# - outputs/field_names_by_table.csv
-# - outputs/player_index.csv
-# - outputs/missing_cricinfo_ids.csv
-# - outputs/all_international_stats.json
+# Fix:
+# - Batting tables only keep batting columns
+# - Bowling tables only keep bowling columns
+# - Fielding tables only keep fielding columns
+# - No giant combined batting/bowling/fielding raw schema
+# - Every player keeps unique_player_id / cricinfo_id
 # ============================================================
 
 
 # ============================================================
-# 0. INSTALL PACKAGES
+# 0. PACKAGES
 # ============================================================
 
 packages <- c(
@@ -36,7 +30,7 @@ installed <- rownames(installed.packages())
 
 for (pkg in packages) {
   if (!pkg %in% installed) {
-    install.packages(pkg)
+    install.packages(pkg, repos = "https://cloud.r-project.org")
   }
 }
 
@@ -51,7 +45,7 @@ library(httr)
 
 
 # ============================================================
-# 1. BASIC SETTINGS
+# 1. SETTINGS
 # ============================================================
 
 BASE_URL <- "https://stats.espncricinfo.com/ci/engine/stats/index.html"
@@ -75,7 +69,109 @@ stat_types <- tribble(
 
 
 # ============================================================
-# 2. HELPER FUNCTIONS
+# 2. SEPARATE RAW SCHEMAS
+# ============================================================
+
+PLAYER_COLUMNS <- c(
+  "cricinfo_id",
+  "unique_player_id",
+  "final_player_name",
+  "source_country_text",
+  "Player"
+)
+
+BATTING_COLUMNS <- c(
+  PLAYER_COLUMNS,
+  "Span",
+  "Mat",
+  "Inns",
+  "NO",
+  "Runs",
+  "HS",
+  "Ave",
+  "BF",
+  "SR",
+  "100",
+  "50",
+  "0",
+  "4s",
+  "6s"
+)
+
+# I kept Runs/Ave/SR here because for bowling:
+# Runs = Runs conceded
+# Ave = Bowling average
+# SR = Bowling strike rate
+# Removing them would lose important bowling data.
+BOWLING_COLUMNS <- c(
+  PLAYER_COLUMNS,
+  "Span",
+  "Mat",
+  "Inns",
+  "Balls",
+  "Overs",
+  "Mdns",
+  "Runs",
+  "Wkts",
+  "BBI",
+  "BBM",
+  "Ave",
+  "Econ",
+  "SR",
+  "4",
+  "5",
+  "10"
+)
+
+FIELDING_COLUMNS <- c(
+  PLAYER_COLUMNS,
+  "Span",
+  "Mat",
+  "Inns",
+  "Dis",
+  "Ct",
+  "St",
+  "Ct Wk",
+  "Ct Fi",
+  "MD",
+  "D/I"
+)
+
+
+get_schema_for_type <- function(stat_type) {
+  if (stat_type == "batting") {
+    return(BATTING_COLUMNS)
+  }
+
+  if (stat_type == "bowling") {
+    return(BOWLING_COLUMNS)
+  }
+
+  if (stat_type == "fielding") {
+    return(FIELDING_COLUMNS)
+  }
+
+  stop(paste("Unknown stat_type:", stat_type))
+}
+
+
+apply_schema <- function(df, stat_type) {
+  schema <- get_schema_for_type(stat_type)
+
+  missing_cols <- setdiff(schema, names(df))
+
+  for (col in missing_cols) {
+    df[[col]] <- NA_character_
+  }
+
+  df <- df[, schema]
+
+  df
+}
+
+
+# ============================================================
+# 3. HELPERS
 # ============================================================
 
 build_statsguru_url <- function(class_id, stat_type, orderby, page = 1) {
@@ -148,14 +244,6 @@ extract_country_text <- function(x) {
 
 
 extract_cricinfo_id_from_href <- function(href) {
-  # Old Statsguru links often look like:
-  # /ci/content/player/253802.html
-  #
-  # Newer profile links may look like:
-  # /cricketers/virat-kohli-253802
-  #
-  # This handles both styles.
-
   id1 <- str_extract(href, "(?<=/player/)\\d+(?=\\.html)")
   id2 <- str_extract(href, "(?<=-)\\d+$")
 
@@ -247,8 +335,50 @@ has_next_page <- function(html) {
 }
 
 
+overs_to_balls <- function(overs_value) {
+  overs_text <- parse_text(overs_value)
+
+  if (is.na(overs_text)) {
+    return(NA_real_)
+  }
+
+  if (!str_detect(overs_text, "\\.")) {
+    return(parse_number(overs_text) * 6)
+  }
+
+  parts <- str_split(overs_text, "\\.", simplify = TRUE)
+
+  whole_overs <- suppressWarnings(as.numeric(parts[1]))
+  balls <- suppressWarnings(as.numeric(parts[2]))
+
+  if (is.na(whole_overs)) {
+    whole_overs <- 0
+  }
+
+  if (is.na(balls)) {
+    balls <- 0
+  }
+
+  whole_overs * 6 + balls
+}
+
+
+balls_to_overs_text <- function(balls_value) {
+  balls <- parse_number(balls_value)
+
+  if (is.na(balls)) {
+    return(NA_character_)
+  }
+
+  whole <- floor(balls / 6)
+  rem <- balls %% 6
+
+  paste0(whole, ".", rem)
+}
+
+
 # ============================================================
-# 3. READ ONE STATSGURU PAGE
+# 4. READ ONE STATSGURU PAGE
 # ============================================================
 
 read_statsguru_page <- function(url) {
@@ -270,7 +400,9 @@ read_statsguru_page <- function(url) {
     map_lgl(
       tables,
       function(tbl) {
-        "Player" %in% names(clean_colnames(tbl))
+        tbl <- as.data.frame(tbl, check.names = FALSE)
+        tbl <- clean_colnames(tbl)
+        "Player" %in% names(tbl)
       }
     )
   )[1]
@@ -294,7 +426,6 @@ read_statsguru_page <- function(url) {
       Player != "Player"
     )
 
-  # Extract player links from first column of the same table.
   row_nodes <- table_nodes[[table_index]] %>%
     html_elements("tr")
 
@@ -353,7 +484,7 @@ read_statsguru_page <- function(url) {
 
 
 # ============================================================
-# 4. READ ALL PAGES FOR ONE FORMAT + STAT TYPE
+# 5. READ ALL PAGES FOR ONE TABLE
 # ============================================================
 
 get_all_pages <- function(format_key, class_id, stat_type, orderby, max_pages = 200) {
@@ -379,17 +510,11 @@ get_all_pages <- function(format_key, class_id, stat_type, orderby, max_pages = 
     }
 
     df <- df %>%
-      mutate(
-        across(everything(), as.character),
-        format = as.character(format_key),
-        stat_type = as.character(stat_type),
-        source = "espncricinfo_statsguru",
-        source_url = as.character(url)
-      )
+      mutate(across(everything(), as.character)) %>%
+      apply_schema(stat_type)
 
     current_ids <- df$unique_player_id
 
-    # Safety check: if ESPN repeats a page, stop.
     if (page > 1 && all(current_ids %in% seen_ids)) {
       cat("Repeated page detected. Stopping:", format_key, stat_type, "\n")
       break
@@ -406,12 +531,15 @@ get_all_pages <- function(format_key, class_id, stat_type, orderby, max_pages = 
     Sys.sleep(1.5)
   }
 
-  bind_rows(all_pages)
+  all_pages %>%
+    map(~ mutate(.x, across(everything(), as.character))) %>%
+    map(~ apply_schema(.x, stat_type)) %>%
+    bind_rows()
 }
 
 
 # ============================================================
-# 5. SCRAPE ALL INTERNATIONAL SUMMARY TABLES
+# 6. SCRAPE TABLES
 # ============================================================
 
 all_tables <- list()
@@ -459,107 +587,129 @@ write_csv(
   "outputs/field_names_by_table.csv"
 )
 
-all_summary_flat <- all_tables %>%
-  map(~ mutate(.x, across(everything(), as.character))) %>%
-  bind_rows()
 
+# ============================================================
+# 7. CREATE SEPARATE COMBINED FILES BY STAT TYPE
+# ============================================================
 
-write_csv(
-  all_summary_flat,
-  "outputs/all_international_summary_flat.csv"
+all_batting <- bind_rows(
+  all_tables$test_batting %>% mutate(format = "test"),
+  all_tables$odi_batting %>% mutate(format = "odi"),
+  all_tables$t20i_batting %>% mutate(format = "t20i")
 )
 
-cat("Saved flat summary:", nrow(all_summary_flat), "rows\n")
+all_bowling <- bind_rows(
+  all_tables$test_bowling %>% mutate(format = "test"),
+  all_tables$odi_bowling %>% mutate(format = "odi"),
+  all_tables$t20i_bowling %>% mutate(format = "t20i")
+)
+
+all_fielding <- bind_rows(
+  all_tables$test_fielding %>% mutate(format = "test"),
+  all_tables$odi_fielding %>% mutate(format = "odi"),
+  all_tables$t20i_fielding %>% mutate(format = "t20i")
+)
+
+write_csv(all_batting, "outputs/all_international_batting.csv")
+write_csv(all_bowling, "outputs/all_international_bowling.csv")
+write_csv(all_fielding, "outputs/all_international_fielding.csv")
 
 
 # ============================================================
-# 6. CREATE PLAYER INDEX
+# 8. PLAYER INDEX
 # ============================================================
 
-player_index <- all_summary_flat %>%
-  select(
-    unique_player_id,
-    cricinfo_id,
-    final_player_name,
-    source_country_text
-  ) %>%
+player_index <- bind_rows(
+  all_batting %>% select(cricinfo_id, unique_player_id, final_player_name, source_country_text),
+  all_bowling %>% select(cricinfo_id, unique_player_id, final_player_name, source_country_text),
+  all_fielding %>% select(cricinfo_id, unique_player_id, final_player_name, source_country_text)
+) %>%
   distinct() %>%
   arrange(final_player_name)
 
-write_csv(
-  player_index,
-  "outputs/player_index.csv"
-)
+write_csv(player_index, "outputs/player_index.csv")
 
 missing_cricinfo_ids <- player_index %>%
   filter(is.na(cricinfo_id) | cricinfo_id == "")
 
-write_csv(
-  missing_cricinfo_ids,
-  "outputs/missing_cricinfo_ids.csv"
-)
+write_csv(missing_cricinfo_ids, "outputs/missing_cricinfo_ids.csv")
 
 
 # ============================================================
-# 7. CONVERT RAW ROWS INTO CLEAN NESTED STATS
+# 9. JSON CONVERSION
 # ============================================================
 
 row_to_batting <- function(row) {
-  hs <- parse_high_score(get_value(row, c("HS", "High Score", "HighScore")))
+  hs <- parse_high_score(get_value(row, c("HS")))
 
   list(
     Span = parse_text(get_value(row, c("Span"))),
     Start = parse_span_start(get_value(row, c("Span"))),
     End = parse_span_end(get_value(row, c("Span"))),
 
-    Matches = parse_number(get_value(row, c("Mat", "Matches"))),
-    Innings = parse_number(get_value(row, c("Inns", "Innings"))),
-    NotOuts = parse_number(get_value(row, c("NO", "Not Outs", "NotOuts"))),
+    Matches = parse_number(get_value(row, c("Mat"))),
+    Innings = parse_number(get_value(row, c("Inns"))),
+    NotOuts = parse_number(get_value(row, c("NO"))),
 
     Runs = parse_number(get_value(row, c("Runs"))),
     HighScore = hs$score,
     HighScoreNotOut = hs$not_out,
 
-    Average = parse_number(get_value(row, c("Ave", "Avg", "Average"))),
-    BallsFaced = parse_number(get_value(row, c("BF", "Balls Faced", "BallsFaced"))),
-    StrikeRate = parse_number(get_value(row, c("SR", "Strike Rate", "StrikeRate"))),
+    Average = parse_number(get_value(row, c("Ave"))),
+    BallsFaced = parse_number(get_value(row, c("BF"))),
+    StrikeRate = parse_number(get_value(row, c("SR"))),
 
-    Hundreds = parse_number(get_value(row, c("100", "100s", "X100", "Hundreds"))),
-    Fifties = parse_number(get_value(row, c("50", "50s", "X50", "Fifties"))),
-    Ducks = parse_number(get_value(row, c("0", "0s", "X0", "Ducks"))),
+    Hundreds = parse_number(get_value(row, c("100"))),
+    Fifties = parse_number(get_value(row, c("50"))),
+    Ducks = parse_number(get_value(row, c("0"))),
 
-    Fours = parse_number(get_value(row, c("4s", "Fours"))),
-    Sixes = parse_number(get_value(row, c("6s", "Sixes")))
+    Fours = parse_number(get_value(row, c("4s"))),
+    Sixes = parse_number(get_value(row, c("6s")))
   )
 }
 
 
 row_to_bowling <- function(row) {
+  raw_balls <- parse_number(get_value(row, c("Balls")))
+  raw_overs <- parse_text(get_value(row, c("Overs")))
+
+  calculated_balls <- ifelse(
+    is.na(raw_balls),
+    overs_to_balls(raw_overs),
+    raw_balls
+  )
+
+  calculated_overs <- ifelse(
+    is.na(raw_overs),
+    balls_to_overs_text(calculated_balls),
+    raw_overs
+  )
+
   list(
     Span = parse_text(get_value(row, c("Span"))),
     Start = parse_span_start(get_value(row, c("Span"))),
     End = parse_span_end(get_value(row, c("Span"))),
 
-    Matches = parse_number(get_value(row, c("Mat", "Matches"))),
-    Innings = parse_number(get_value(row, c("Inns", "Innings"))),
+    Matches = parse_number(get_value(row, c("Mat"))),
+    Innings = parse_number(get_value(row, c("Inns"))),
 
-    Balls = parse_number(get_value(row, c("Balls", "Ball"))),
-    Overs = parse_number(get_value(row, c("Overs", "O"))),
-    Maidens = parse_number(get_value(row, c("Mdns", "Maidens"))),
+    Balls = calculated_balls,
+    Overs = calculated_overs,
+    Maidens = parse_number(get_value(row, c("Mdns"))),
 
     RunsConceded = parse_number(get_value(row, c("Runs"))),
-    Wickets = parse_number(get_value(row, c("Wkts", "Wickets"))),
+    Wickets = parse_number(get_value(row, c("Wkts"))),
 
     BestBowlingInnings = parse_text(get_value(row, c("BBI"))),
     BestBowlingMatch = parse_text(get_value(row, c("BBM"))),
 
-    Average = parse_number(get_value(row, c("Ave", "Avg", "Average"))),
-    Economy = parse_number(get_value(row, c("Econ", "Economy"))),
-    StrikeRate = parse_number(get_value(row, c("SR", "Strike Rate", "StrikeRate"))),
+    Average = parse_number(get_value(row, c("Ave"))),
+    Economy = parse_number(get_value(row, c("Econ"))),
+    StrikeRate = parse_number(get_value(row, c("SR"))),
 
-    FourWickets = parse_number(get_value(row, c("4", "4w", "X4", "FourWickets"))),
-    FiveWickets = parse_number(get_value(row, c("5", "5w", "X5", "FiveWickets"))),
-    TenWickets = parse_number(get_value(row, c("10", "10w", "X10", "TenWickets")))
+    FourWickets = parse_number(get_value(row, c("4"))),
+    FiveWickets = parse_number(get_value(row, c("5"))),
+    TenWickets = parse_number(get_value(row, c("10")))
   )
 }
 
@@ -570,56 +720,130 @@ row_to_fielding <- function(row) {
     Start = parse_span_start(get_value(row, c("Span"))),
     End = parse_span_end(get_value(row, c("Span"))),
 
-    Matches = parse_number(get_value(row, c("Mat", "Matches"))),
-    Innings = parse_number(get_value(row, c("Inns", "Innings"))),
+    Matches = parse_number(get_value(row, c("Mat"))),
+    Innings = parse_number(get_value(row, c("Inns"))),
 
-    Dismissals = parse_number(get_value(row, c("Dis", "Dismissals"))),
-    Caught = parse_number(get_value(row, c("Ct", "Catches", "Caught"))),
-    Stumped = parse_number(get_value(row, c("St", "Stumped"))),
+    Dismissals = parse_number(get_value(row, c("Dis"))),
+    Caught = parse_number(get_value(row, c("Ct"))),
+    Stumped = parse_number(get_value(row, c("St"))),
 
-    CaughtBehind = parse_number(get_value(row, c("Ct Wk", "CtWk", "Caught Wicketkeeper"))),
-    CaughtFielder = parse_number(get_value(row, c("Ct Fi", "CtFi", "Caught Fielder"))),
+    CaughtBehind = parse_number(get_value(row, c("Ct Wk"))),
+    CaughtFielder = parse_number(get_value(row, c("Ct Fi"))),
 
-    MaxDismissalsInnings = parse_number(get_value(row, c("MD", "Max Dismissals")))
+    MaxDismissalsInnings = parse_number(get_value(row, c("MD"))),
+    DismissalsPerInnings = parse_number(get_value(row, c("D/I")))
   )
 }
 
 
-empty_format_stats <- function() {
+empty_batting_stats <- function() {
   list(
-    test = NULL,
-    odi = NULL,
-    t20i = NULL
+    Span = NA_character_,
+    Start = NA_integer_,
+    End = NA_integer_,
+    Matches = NA_real_,
+    Innings = NA_real_,
+    NotOuts = NA_real_,
+    Runs = NA_real_,
+    HighScore = NA_real_,
+    HighScoreNotOut = NA,
+    Average = NA_real_,
+    BallsFaced = NA_real_,
+    StrikeRate = NA_real_,
+    Hundreds = NA_real_,
+    Fifties = NA_real_,
+    Ducks = NA_real_,
+    Fours = NA_real_,
+    Sixes = NA_real_
   )
 }
 
 
+empty_bowling_stats <- function() {
+  list(
+    Span = NA_character_,
+    Start = NA_integer_,
+    End = NA_integer_,
+    Matches = NA_real_,
+    Innings = NA_real_,
+    Balls = NA_real_,
+    Overs = NA_character_,
+    Maidens = NA_real_,
+    RunsConceded = NA_real_,
+    Wickets = NA_real_,
+    BestBowlingInnings = NA_character_,
+    BestBowlingMatch = NA_character_,
+    Average = NA_real_,
+    Economy = NA_real_,
+    StrikeRate = NA_real_,
+    FourWickets = NA_real_,
+    FiveWickets = NA_real_,
+    TenWickets = NA_real_
+  )
+}
+
+
+empty_fielding_stats <- function() {
+  list(
+    Span = NA_character_,
+    Start = NA_integer_,
+    End = NA_integer_,
+    Matches = NA_real_,
+    Innings = NA_real_,
+    Dismissals = NA_real_,
+    Caught = NA_real_,
+    Stumped = NA_real_,
+    CaughtBehind = NA_real_,
+    CaughtFielder = NA_real_,
+    MaxDismissalsInnings = NA_real_,
+    DismissalsPerInnings = NA_real_
+  )
+}
+
+
+empty_format_group <- function(type) {
+  if (type == "batting") {
+    return(list(
+      test = empty_batting_stats(),
+      odi = empty_batting_stats(),
+      t20i = empty_batting_stats()
+    ))
+  }
+
+  if (type == "bowling") {
+    return(list(
+      test = empty_bowling_stats(),
+      odi = empty_bowling_stats(),
+      t20i = empty_bowling_stats()
+    ))
+  }
+
+  if (type == "fielding") {
+    return(list(
+      test = empty_fielding_stats(),
+      odi = empty_fielding_stats(),
+      t20i = empty_fielding_stats()
+    ))
+  }
+}
+
+
 # ============================================================
-# 8. BUILD NESTED JSON BY UNIQUE PLAYER ID
+# 10. BUILD NESTED JSON
 # ============================================================
 
-all_player_ids <- all_summary_flat %>%
+all_player_ids <- player_index %>%
   filter(!is.na(unique_player_id), unique_player_id != "") %>%
   pull(unique_player_id) %>%
-  unique()
-
-all_player_ids <- sort(all_player_ids)
+  unique() %>%
+  sort()
 
 nested_stats <- list()
 
 for (pid in all_player_ids) {
 
-  player_rows <- all_summary_flat %>%
-    filter(unique_player_id == pid)
-
-  player_meta <- player_rows %>%
-    select(
-      unique_player_id,
-      cricinfo_id,
-      final_player_name,
-      source_country_text
-    ) %>%
-    distinct() %>%
+  player_meta <- player_index %>%
+    filter(unique_player_id == pid) %>%
     slice(1)
 
   player_obj <- list(
@@ -630,31 +854,31 @@ for (pid in all_player_ids) {
       final_country = player_meta$source_country_text,
       source = "espncricinfo_statsguru"
     ),
-    batting = empty_format_stats(),
-    bowling = empty_format_stats(),
-    fielding = empty_format_stats()
+    batting = empty_format_group("batting"),
+    bowling = empty_format_group("bowling"),
+    fielding = empty_format_group("fielding")
   )
 
   for (fmt in c("test", "odi", "t20i")) {
 
-    batting_row <- player_rows %>%
-      filter(format == fmt, stat_type == "batting") %>%
+    batting_row <- all_batting %>%
+      filter(unique_player_id == pid, format == fmt) %>%
       slice(1)
 
     if (nrow(batting_row) == 1) {
       player_obj$batting[[fmt]] <- row_to_batting(batting_row)
     }
 
-    bowling_row <- player_rows %>%
-      filter(format == fmt, stat_type == "bowling") %>%
+    bowling_row <- all_bowling %>%
+      filter(unique_player_id == pid, format == fmt) %>%
       slice(1)
 
     if (nrow(bowling_row) == 1) {
       player_obj$bowling[[fmt]] <- row_to_bowling(bowling_row)
     }
 
-    fielding_row <- player_rows %>%
-      filter(format == fmt, stat_type == "fielding") %>%
+    fielding_row <- all_fielding %>%
+      filter(unique_player_id == pid, format == fmt) %>%
       slice(1)
 
     if (nrow(fielding_row) == 1) {
@@ -674,13 +898,29 @@ jsonlite::write_json(
   na = "null"
 )
 
+
+# ============================================================
+# 11. SUMMARY FILES
+# ============================================================
+
+summary_by_table <- tibble(
+  table = names(all_tables),
+  rows = map_int(all_tables, nrow),
+  fields = map_chr(all_tables, ~ paste(names(.x), collapse = " | "))
+)
+
+write_csv(summary_by_table, "outputs/summary_by_table.csv")
+
 cat("\n============================================================\n")
 cat("DONE\n")
 cat("============================================================\n")
-cat("Flat CSV: outputs/all_international_summary_flat.csv\n")
+cat("Raw files: outputs/raw\n")
+cat("Batting CSV: outputs/all_international_batting.csv\n")
+cat("Bowling CSV: outputs/all_international_bowling.csv\n")
+cat("Fielding CSV: outputs/all_international_fielding.csv\n")
 cat("Nested JSON: outputs/all_international_stats.json\n")
 cat("Player index: outputs/player_index.csv\n")
-cat("Field names: outputs/field_names_by_table.csv\n")
 cat("Missing IDs: outputs/missing_cricinfo_ids.csv\n")
+cat("Field names: outputs/field_names_by_table.csv\n")
 cat("Total unique players:", length(all_player_ids), "\n")
 cat("============================================================\n")
