@@ -1,5 +1,5 @@
 # ============================================================
-# RUN DETAIL CHUNK
+# RUN DETAIL CHUNK - SAFE DNB VERSION
 # Scrapes one target + page range for GitHub Actions
 #
 # Env vars:
@@ -43,11 +43,11 @@ if (is.na(DETAIL_TARGET) || DETAIL_TARGET == "") {
 }
 
 target_info <- tribble(
-  ~target,       ~format, ~class_id, ~stat_type, ~view,      ~orderby,
-  "test_batting", "test", 1,         "batting",  "innings", "balls_faced",
-  "odi_batting",  "odi",  2,         "batting",  "innings", "balls_faced",
-  "test_bowling", "test", 1,         "bowling",  "innings", "overs",
-  "odi_bowling",  "odi",  2,         "bowling",  "innings", "overs"
+  ~target,        ~format, ~class_id, ~stat_type, ~view,      ~orderby,
+  "test_batting", "test",  1,         "batting",  "innings", "balls_faced",
+  "odi_batting",  "odi",   2,         "batting",  "innings", "balls_faced",
+  "test_bowling", "test",  1,         "bowling",  "innings", "overs",
+  "odi_bowling",  "odi",   2,         "bowling",  "innings", "overs"
 )
 
 target_row <- target_info %>%
@@ -56,6 +56,99 @@ target_row <- target_info %>%
 
 if (nrow(target_row) != 1) {
   stop(paste("Unknown DETAIL_TARGET:", DETAIL_TARGET))
+}
+
+MISSING_TOKENS <- c(
+  "",
+  "-",
+  "NA",
+  "N/A",
+  "NAN",
+  "NULL",
+  "INF",
+  "DNB",
+  "TDNB",
+  "DID NOT BAT",
+  "DID NOT BOWL",
+  "ABSENT",
+  "ABSENT HURT",
+  "RETIRED HURT",
+  "RETIRED OUT",
+  "SUB",
+  "SUBSTITUTE",
+  "NOT REQUIRED",
+  "DID NOT FIELD"
+)
+
+is_missing_token <- function(x) {
+  x <- as.character(x)
+  x <- str_replace_all(x, "\u00a0", " ")
+  x <- str_squish(x)
+  x_upper <- str_to_upper(x)
+
+  is.na(x) | x_upper %in% MISSING_TOKENS
+}
+
+parse_text <- function(x) {
+  x <- as.character(x)
+  x <- str_replace_all(x, "\u00a0", " ")
+  x <- str_squish(x)
+
+  x[is_missing_token(x)] <- NA_character_
+
+  x
+}
+
+parse_number <- function(x) {
+  x <- as.character(x)
+  x <- str_replace_all(x, "\u00a0", " ")
+  x <- str_replace_all(x, ",", "")
+  x <- str_replace_all(x, "\\*", "")
+  x <- str_squish(x)
+
+  x[is_missing_token(x)] <- NA_character_
+
+  suppressWarnings(as.numeric(x))
+}
+
+overs_to_balls <- function(overs_value) {
+  overs_text <- parse_text(overs_value)
+
+  if (is.na(overs_text)) {
+    return(NA_real_)
+  }
+
+  if (!str_detect(overs_text, "\\.")) {
+    return(parse_number(overs_text) * 6)
+  }
+
+  parts <- str_split(overs_text, "\\.", simplify = TRUE)
+
+  whole_overs <- suppressWarnings(as.numeric(parts[1]))
+  balls <- suppressWarnings(as.numeric(parts[2]))
+
+  if (is.na(whole_overs)) {
+    whole_overs <- 0
+  }
+
+  if (is.na(balls)) {
+    balls <- 0
+  }
+
+  whole_overs * 6 + balls
+}
+
+balls_to_overs_text <- function(balls_value) {
+  balls <- parse_number(balls_value)
+
+  if (is.na(balls)) {
+    return(NA_character_)
+  }
+
+  whole <- floor(balls / 6)
+  rem <- balls %% 6
+
+  paste0(whole, ".", rem)
 }
 
 fetch_html <- function(url) {
@@ -116,58 +209,6 @@ make_slug <- function(x) {
     str_to_lower() %>%
     str_replace_all("[^a-z0-9]+", "_") %>%
     str_replace_all("^_+|_+$", "")
-}
-
-parse_number <- function(x) {
-  x <- as.character(x)
-  x <- str_replace_all(x, ",", "")
-  x <- str_replace_all(x, "\\*", "")
-  x <- str_squish(x)
-  x[x %in% c("", "-", "NA", "NaN", "Inf", "null")] <- NA_character_
-  suppressWarnings(as.numeric(x))
-}
-
-parse_text <- function(x) {
-  x <- as.character(x)
-  x <- str_replace_all(x, "\u00a0", " ")
-  x <- str_squish(x)
-  x[x %in% c("", "-", "NA", "null")] <- NA_character_
-  x
-}
-
-overs_to_balls <- function(overs_value) {
-  overs_text <- parse_text(overs_value)
-
-  if (is.na(overs_text)) {
-    return(NA_real_)
-  }
-
-  if (!str_detect(overs_text, "\\.")) {
-    return(parse_number(overs_text) * 6)
-  }
-
-  parts <- str_split(overs_text, "\\.", simplify = TRUE)
-
-  whole_overs <- suppressWarnings(as.numeric(parts[1]))
-  balls <- suppressWarnings(as.numeric(parts[2]))
-
-  if (is.na(whole_overs)) whole_overs <- 0
-  if (is.na(balls)) balls <- 0
-
-  whole_overs * 6 + balls
-}
-
-balls_to_overs_text <- function(balls_value) {
-  balls <- parse_number(balls_value)
-
-  if (is.na(balls)) {
-    return(NA_character_)
-  }
-
-  whole <- floor(balls / 6)
-  rem <- balls %% 6
-
-  paste0(whole, ".", rem)
 }
 
 has_next_page <- function(html) {
@@ -259,7 +300,12 @@ read_detail_page <- function(url) {
       unique_player_id = ifelse(
         !is.na(cricinfo_id) & cricinfo_id != "",
         cricinfo_id,
-        paste0("missing_", make_slug(clean_player_name(Player)), "_", make_slug(extract_country_text(Player)))
+        paste0(
+          "missing_",
+          make_slug(clean_player_name(Player)),
+          "_",
+          make_slug(extract_country_text(Player))
+        )
       ),
       final_player_name = clean_player_name(Player),
       source_country_text = extract_country_text(Player),
@@ -323,10 +369,26 @@ write_csv(raw, raw_file)
 log_line("Saved raw:", raw_file, "| Rows:", nrow(raw))
 
 if (nrow(raw) == 0) {
-  empty_summary <- tibble(
-    unique_player_id = character(),
-    format = character()
-  )
+  if (target_row$stat_type == "batting") {
+    empty_summary <- tibble(
+      unique_player_id = character(),
+      format = character(),
+      HasBattingDetail = logical(),
+      DetailBallsFaced = numeric(),
+      DetailFours = numeric(),
+      DetailSixes = numeric()
+    )
+  } else {
+    empty_summary <- tibble(
+      unique_player_id = character(),
+      format = character(),
+      HasBowlingDetail = logical(),
+      DetailBalls = numeric(),
+      DetailOvers = character(),
+      DetailMaidens = numeric(),
+      DetailRunsConceded = numeric()
+    )
+  }
 
   summary_file <- paste0("outputs/detail_chunks/", DETAIL_TARGET, "_", CHUNK_LABEL, "_summary.csv")
   write_csv(empty_summary, summary_file)
@@ -342,17 +404,23 @@ if (target_row$stat_type == "batting") {
   }
 
   summary <- raw %>%
+    mutate(
+      ParsedBF = parse_number(BF),
+      ParsedFours = parse_number(`4s`),
+      ParsedSixes = parse_number(`6s`)
+    ) %>%
     group_by(unique_player_id, format) %>%
     summarise(
-      DetailBallsFaced = sum(parse_number(BF), na.rm = TRUE),
-      DetailFours = sum(parse_number(`4s`), na.rm = TRUE),
-      DetailSixes = sum(parse_number(`6s`), na.rm = TRUE),
+      HasBattingDetail = any(!is.na(ParsedBF) | !is.na(ParsedFours) | !is.na(ParsedSixes)),
+      DetailBallsFaced = sum(ParsedBF, na.rm = TRUE),
+      DetailFours = sum(ParsedFours, na.rm = TRUE),
+      DetailSixes = sum(ParsedSixes, na.rm = TRUE),
       .groups = "drop"
     ) %>%
     mutate(
-      DetailBallsFaced = ifelse(DetailBallsFaced == 0, NA, DetailBallsFaced),
-      DetailFours = ifelse(DetailFours == 0, NA, DetailFours),
-      DetailSixes = ifelse(DetailSixes == 0, NA, DetailSixes)
+      DetailBallsFaced = ifelse(HasBattingDetail, DetailBallsFaced, NA),
+      DetailFours = ifelse(HasBattingDetail, DetailFours, NA),
+      DetailSixes = ifelse(HasBattingDetail, DetailSixes, NA)
     )
 }
 
@@ -365,22 +433,24 @@ if (target_row$stat_type == "bowling") {
 
   summary <- raw %>%
     mutate(
-      DetailBalls = map_dbl(Overs, overs_to_balls),
-      DetailMaidens = parse_number(Mdns),
-      DetailRunsConceded = parse_number(Runs)
+      ParsedOvers = parse_text(Overs),
+      ParsedBalls = map_dbl(ParsedOvers, overs_to_balls),
+      ParsedMdns = parse_number(Mdns),
+      ParsedRuns = parse_number(Runs)
     ) %>%
     group_by(unique_player_id, format) %>%
     summarise(
-      DetailBalls = sum(DetailBalls, na.rm = TRUE),
-      DetailMaidens = sum(DetailMaidens, na.rm = TRUE),
-      DetailRunsConceded = sum(DetailRunsConceded, na.rm = TRUE),
+      HasBowlingDetail = any(!is.na(ParsedBalls) | !is.na(ParsedMdns) | !is.na(ParsedRuns)),
+      DetailBalls = sum(ParsedBalls, na.rm = TRUE),
+      DetailMaidens = sum(ParsedMdns, na.rm = TRUE),
+      DetailRunsConceded = sum(ParsedRuns, na.rm = TRUE),
       .groups = "drop"
     ) %>%
     mutate(
-      DetailBalls = ifelse(DetailBalls == 0, NA, DetailBalls),
+      DetailBalls = ifelse(HasBowlingDetail, DetailBalls, NA),
       DetailOvers = map_chr(DetailBalls, balls_to_overs_text),
-      DetailMaidens = ifelse(DetailMaidens == 0, NA, DetailMaidens),
-      DetailRunsConceded = ifelse(DetailRunsConceded == 0, NA, DetailRunsConceded)
+      DetailMaidens = ifelse(HasBowlingDetail, DetailMaidens, NA),
+      DetailRunsConceded = ifelse(HasBowlingDetail, DetailRunsConceded, NA)
     )
 }
 

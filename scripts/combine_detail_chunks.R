@@ -1,7 +1,7 @@
 # ============================================================
-# COMBINE DETAIL CHUNKS
-# Downloads base outputs + detail chunk artifacts, combines them,
-# patches missing fields, and rebuilds enriched JSON.
+# COMBINE DETAIL CHUNKS - SAFE DNB VERSION
+# Combines chunk artifacts, patches missing fields, logs edits,
+# and rebuilds enriched JSON.
 # ============================================================
 
 library(dplyr)
@@ -16,31 +16,67 @@ log_line <- function(...) {
   flush.console()
 }
 
+MISSING_TOKENS <- c(
+  "",
+  "-",
+  "NA",
+  "N/A",
+  "NAN",
+  "NULL",
+  "INF",
+  "DNB",
+  "TDNB",
+  "DID NOT BAT",
+  "DID NOT BOWL",
+  "ABSENT",
+  "ABSENT HURT",
+  "RETIRED HURT",
+  "RETIRED OUT",
+  "SUB",
+  "SUBSTITUTE",
+  "NOT REQUIRED",
+  "DID NOT FIELD"
+)
+
+is_missing_token <- function(x) {
+  x <- as.character(x)
+  x <- str_replace_all(x, "\u00a0", " ")
+  x <- str_squish(x)
+  x_upper <- str_to_upper(x)
+
+  is.na(x) | x_upper %in% MISSING_TOKENS
+}
+
 safe_value <- function(x) {
   x <- as.character(x)
 
-  if (length(x) == 0 || is.na(x) || x == "" || x == "NA" || x == "null") {
+  if (length(x) == 0 || is.na(x) || is_missing_token(x)) {
     return("NA")
   }
 
   x
 }
 
-parse_number <- function(x) {
-  x <- as.character(x)
-  x <- str_replace_all(x, ",", "")
-  x <- str_replace_all(x, "\\*", "")
-  x <- str_squish(x)
-  x[x %in% c("", "-", "NA", "NaN", "Inf", "null")] <- NA_character_
-  suppressWarnings(as.numeric(x))
-}
-
 parse_text <- function(x) {
   x <- as.character(x)
   x <- str_replace_all(x, "\u00a0", " ")
   x <- str_squish(x)
-  x[x %in% c("", "-", "NA", "null")] <- NA_character_
+
+  x[is_missing_token(x)] <- NA_character_
+
   x
+}
+
+parse_number <- function(x) {
+  x <- as.character(x)
+  x <- str_replace_all(x, "\u00a0", " ")
+  x <- str_replace_all(x, ",", "")
+  x <- str_replace_all(x, "\\*", "")
+  x <- str_squish(x)
+
+  x[is_missing_token(x)] <- NA_character_
+
+  suppressWarnings(as.numeric(x))
 }
 
 parse_span_start <- function(span) {
@@ -91,8 +127,13 @@ overs_to_balls <- function(overs_value) {
   whole_overs <- suppressWarnings(as.numeric(parts[1]))
   balls <- suppressWarnings(as.numeric(parts[2]))
 
-  if (is.na(whole_overs)) whole_overs <- 0
-  if (is.na(balls)) balls <- 0
+  if (is.na(whole_overs)) {
+    whole_overs <- 0
+  }
+
+  if (is.na(balls)) {
+    balls <- 0
+  }
 
   whole_overs * 6 + balls
 }
@@ -154,22 +195,43 @@ log_field_edits <- function(before_df, after_df, stat_type, fields_to_check) {
 
 dir.create("outputs", showWarnings = FALSE)
 
-# Find base artifact outputs
 base_dirs <- list.dirs("downloaded_artifacts", recursive = TRUE, full.names = TRUE)
 
 base_batting_path <- base_dirs[file.exists(file.path(base_dirs, "outputs/all_international_batting.csv"))][1]
 base_bowling_path <- base_dirs[file.exists(file.path(base_dirs, "outputs/all_international_bowling.csv"))][1]
 base_fielding_path <- base_dirs[file.exists(file.path(base_dirs, "outputs/all_international_fielding.csv"))][1]
 
-if (is.na(base_batting_path)) stop("Cannot find base all_international_batting.csv")
-if (is.na(base_bowling_path)) stop("Cannot find base all_international_bowling.csv")
-if (is.na(base_fielding_path)) stop("Cannot find base all_international_fielding.csv")
+if (is.na(base_batting_path)) {
+  stop("Cannot find base all_international_batting.csv")
+}
+
+if (is.na(base_bowling_path)) {
+  stop("Cannot find base all_international_bowling.csv")
+}
+
+if (is.na(base_fielding_path)) {
+  stop("Cannot find base all_international_fielding.csv")
+}
 
 file.copy(file.path(base_batting_path, "outputs"), ".", recursive = TRUE, overwrite = TRUE)
 
-all_batting <- read_csv("outputs/all_international_batting.csv", show_col_types = FALSE, col_types = cols(.default = col_character()))
-all_bowling <- read_csv("outputs/all_international_bowling.csv", show_col_types = FALSE, col_types = cols(.default = col_character()))
-all_fielding <- read_csv("outputs/all_international_fielding.csv", show_col_types = FALSE, col_types = cols(.default = col_character()))
+all_batting <- read_csv(
+  "outputs/all_international_batting.csv",
+  show_col_types = FALSE,
+  col_types = cols(.default = col_character())
+)
+
+all_bowling <- read_csv(
+  "outputs/all_international_bowling.csv",
+  show_col_types = FALSE,
+  col_types = cols(.default = col_character())
+)
+
+all_fielding <- read_csv(
+  "outputs/all_international_fielding.csv",
+  show_col_types = FALSE,
+  col_types = cols(.default = col_character())
+)
 
 summary_files <- list.files(
   "downloaded_artifacts",
@@ -199,34 +261,71 @@ bowling_summaries <- all_summaries[
   )
 ]
 
-batting_enrichment <- bind_rows(batting_summaries) %>%
-  group_by(unique_player_id, format) %>%
-  summarise(
-    DetailBallsFaced = sum(parse_number(DetailBallsFaced), na.rm = TRUE),
-    DetailFours = sum(parse_number(DetailFours), na.rm = TRUE),
-    DetailSixes = sum(parse_number(DetailSixes), na.rm = TRUE),
-    .groups = "drop"
-  ) %>%
-  mutate(
-    DetailBallsFaced = ifelse(DetailBallsFaced == 0, NA, DetailBallsFaced),
-    DetailFours = ifelse(DetailFours == 0, NA, DetailFours),
-    DetailSixes = ifelse(DetailSixes == 0, NA, DetailSixes)
+if (length(batting_summaries) > 0) {
+  batting_enrichment <- bind_rows(batting_summaries) %>%
+    mutate(
+      HasBattingDetail = as.logical(HasBattingDetail),
+      DetailBallsFaced = parse_number(DetailBallsFaced),
+      DetailFours = parse_number(DetailFours),
+      DetailSixes = parse_number(DetailSixes)
+    ) %>%
+    group_by(unique_player_id, format) %>%
+    summarise(
+      HasBattingDetail = any(HasBattingDetail, na.rm = TRUE),
+      DetailBallsFaced = sum(DetailBallsFaced, na.rm = TRUE),
+      DetailFours = sum(DetailFours, na.rm = TRUE),
+      DetailSixes = sum(DetailSixes, na.rm = TRUE),
+      .groups = "drop"
+    ) %>%
+    mutate(
+      DetailBallsFaced = ifelse(HasBattingDetail, DetailBallsFaced, NA),
+      DetailFours = ifelse(HasBattingDetail, DetailFours, NA),
+      DetailSixes = ifelse(HasBattingDetail, DetailSixes, NA)
+    )
+} else {
+  batting_enrichment <- tibble(
+    unique_player_id = character(),
+    format = character(),
+    HasBattingDetail = logical(),
+    DetailBallsFaced = numeric(),
+    DetailFours = numeric(),
+    DetailSixes = numeric()
   )
+}
 
-bowling_enrichment <- bind_rows(bowling_summaries) %>%
-  group_by(unique_player_id, format) %>%
-  summarise(
-    DetailBalls = sum(parse_number(DetailBalls), na.rm = TRUE),
-    DetailMaidens = sum(parse_number(DetailMaidens), na.rm = TRUE),
-    DetailRunsConceded = sum(parse_number(DetailRunsConceded), na.rm = TRUE),
-    .groups = "drop"
-  ) %>%
-  mutate(
-    DetailBalls = ifelse(DetailBalls == 0, NA, DetailBalls),
-    DetailOvers = map_chr(DetailBalls, balls_to_overs_text),
-    DetailMaidens = ifelse(DetailMaidens == 0, NA, DetailMaidens),
-    DetailRunsConceded = ifelse(DetailRunsConceded == 0, NA, DetailRunsConceded)
+if (length(bowling_summaries) > 0) {
+  bowling_enrichment <- bind_rows(bowling_summaries) %>%
+    mutate(
+      HasBowlingDetail = as.logical(HasBowlingDetail),
+      DetailBalls = parse_number(DetailBalls),
+      DetailMaidens = parse_number(DetailMaidens),
+      DetailRunsConceded = parse_number(DetailRunsConceded)
+    ) %>%
+    group_by(unique_player_id, format) %>%
+    summarise(
+      HasBowlingDetail = any(HasBowlingDetail, na.rm = TRUE),
+      DetailBalls = sum(DetailBalls, na.rm = TRUE),
+      DetailMaidens = sum(DetailMaidens, na.rm = TRUE),
+      DetailRunsConceded = sum(DetailRunsConceded, na.rm = TRUE),
+      .groups = "drop"
+    ) %>%
+    mutate(
+      DetailBalls = ifelse(HasBowlingDetail, DetailBalls, NA),
+      DetailOvers = map_chr(DetailBalls, balls_to_overs_text),
+      DetailMaidens = ifelse(HasBowlingDetail, DetailMaidens, NA),
+      DetailRunsConceded = ifelse(HasBowlingDetail, DetailRunsConceded, NA)
+    )
+} else {
+  bowling_enrichment <- tibble(
+    unique_player_id = character(),
+    format = character(),
+    HasBowlingDetail = logical(),
+    DetailBalls = numeric(),
+    DetailOvers = character(),
+    DetailMaidens = numeric(),
+    DetailRunsConceded = numeric()
   )
+}
 
 write_csv(batting_enrichment, "outputs/batting_missing_fields_enrichment_combined.csv")
 write_csv(bowling_enrichment, "outputs/bowling_missing_fields_enrichment_combined.csv")
@@ -248,11 +347,11 @@ all_batting_before <- all_batting
 all_batting_enriched <- all_batting %>%
   left_join(batting_enrichment, by = c("unique_player_id", "format")) %>%
   mutate(
-    BF = ifelse(is.na(BF) | BF == "", as.character(DetailBallsFaced), as.character(BF)),
-    `4s` = ifelse(is.na(`4s`) | `4s` == "", as.character(DetailFours), as.character(`4s`)),
-    `6s` = ifelse(is.na(`6s`) | `6s` == "", as.character(DetailSixes), as.character(`6s`)),
+    BF = ifelse(is_missing_token(BF), as.character(DetailBallsFaced), as.character(BF)),
+    `4s` = ifelse(is_missing_token(`4s`), as.character(DetailFours), as.character(`4s`)),
+    `6s` = ifelse(is_missing_token(`6s`), as.character(DetailSixes), as.character(`6s`)),
     SR = ifelse(
-      (is.na(SR) | SR == "") &
+      is_missing_token(SR) &
         !is.na(parse_number(Runs)) &
         !is.na(parse_number(BF)) &
         parse_number(BF) > 0,
@@ -260,23 +359,33 @@ all_batting_enriched <- all_batting %>%
       as.character(SR)
     )
   ) %>%
-  select(-DetailBallsFaced, -DetailFours, -DetailSixes)
+  select(-HasBattingDetail, -DetailBallsFaced, -DetailFours, -DetailSixes)
 
-log_field_edits(all_batting_before, all_batting_enriched, "batting", c("BF", "SR", "4s", "6s"))
+log_field_edits(
+  all_batting_before,
+  all_batting_enriched,
+  "batting",
+  c("BF", "SR", "4s", "6s")
+)
 
 all_bowling_before <- all_bowling
 
 all_bowling_enriched <- all_bowling %>%
   left_join(bowling_enrichment, by = c("unique_player_id", "format")) %>%
   mutate(
-    Balls = ifelse(is.na(Balls) | Balls == "", as.character(DetailBalls), as.character(Balls)),
-    Overs = ifelse(is.na(Overs) | Overs == "", as.character(DetailOvers), as.character(Overs)),
-    Mdns = ifelse(is.na(Mdns) | Mdns == "", as.character(DetailMaidens), as.character(Mdns)),
-    Runs = ifelse(is.na(Runs) | Runs == "", as.character(DetailRunsConceded), as.character(Runs))
+    Balls = ifelse(is_missing_token(Balls), as.character(DetailBalls), as.character(Balls)),
+    Overs = ifelse(is_missing_token(Overs), as.character(DetailOvers), as.character(Overs)),
+    Mdns = ifelse(is_missing_token(Mdns), as.character(DetailMaidens), as.character(Mdns)),
+    Runs = ifelse(is_missing_token(Runs), as.character(DetailRunsConceded), as.character(Runs))
   ) %>%
-  select(-DetailBalls, -DetailOvers, -DetailMaidens, -DetailRunsConceded)
+  select(-HasBowlingDetail, -DetailBalls, -DetailOvers, -DetailMaidens, -DetailRunsConceded)
 
-log_field_edits(all_bowling_before, all_bowling_enriched, "bowling", c("Balls", "Overs", "Mdns", "Runs"))
+log_field_edits(
+  all_bowling_before,
+  all_bowling_enriched,
+  "bowling",
+  c("Balls", "Overs", "Mdns", "Runs")
+)
 
 write_csv(all_batting_enriched, "outputs/all_international_batting_enriched.csv")
 write_csv(all_bowling_enriched, "outputs/all_international_bowling_enriched.csv")
