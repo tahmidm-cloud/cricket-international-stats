@@ -1,0 +1,192 @@
+name: Cricket International Stats
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  base-summary:
+    name: Base summary scrape
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+
+      - name: Install system libraries
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
+
+      - name: Install R packages
+        run: |
+          Rscript -e 'install.packages(c("rvest","dplyr","purrr","stringr","tibble","readr","jsonlite","httr"), repos="https://cloud.r-project.org")'
+
+      - name: Run base scraper
+        run: |
+          Rscript international_stats_pipeline.R | tee base_run_log.txt
+
+      - name: Upload base outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: base-outputs
+          path: |
+            outputs/**
+            base_run_log.txt
+
+  detail-chunks:
+    name: Detail ${{ matrix.target }} pages ${{ matrix.start }}-${{ matrix.end }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    needs: base-summary
+
+    strategy:
+      fail-fast: false
+      matrix:
+        target:
+          - test_batting
+          - odi_batting
+          - test_bowling
+          - odi_bowling
+        include:
+          - chunk_label: chunk_001_100
+            start: 1
+            end: 100
+          - chunk_label: chunk_101_200
+            start: 101
+            end: 200
+          - chunk_label: chunk_201_300
+            start: 201
+            end: 300
+          - chunk_label: chunk_301_400
+            start: 301
+            end: 400
+          - chunk_label: chunk_401_500
+            start: 401
+            end: 500
+          - chunk_label: chunk_501_600
+            start: 501
+            end: 600
+          - chunk_label: chunk_601_700
+            start: 601
+            end: 700
+          - chunk_label: chunk_701_800
+            start: 701
+            end: 800
+          - chunk_label: chunk_801_900
+            start: 801
+            end: 900
+          - chunk_label: chunk_901_1000
+            start: 901
+            end: 1000
+          - chunk_label: chunk_1001_1100
+            start: 1001
+            end: 1100
+          - chunk_label: chunk_1101_1200
+            start: 1101
+            end: 1200
+          - chunk_label: chunk_1201_1300
+            start: 1201
+            end: 1300
+          - chunk_label: chunk_1301_1400
+            start: 1301
+            end: 1400
+          - chunk_label: chunk_1401_1500
+            start: 1401
+            end: 1500
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+
+      - name: Install system libraries
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
+
+      - name: Install R packages
+        run: |
+          Rscript -e 'install.packages(c("rvest","dplyr","purrr","stringr","tibble","readr","jsonlite","httr"), repos="https://cloud.r-project.org")'
+
+      - name: Run detail chunk
+        env:
+          DETAIL_TARGET: ${{ matrix.target }}
+          PAGE_START: ${{ matrix.start }}
+          PAGE_END: ${{ matrix.end }}
+          CHUNK_LABEL: ${{ matrix.chunk_label }}
+        run: |
+          Rscript scripts/run_detail_chunk.R | tee detail_${DETAIL_TARGET}_${CHUNK_LABEL}.txt
+
+      - name: Upload detail chunk
+        uses: actions/upload-artifact@v4
+        with:
+          name: detail-${{ matrix.target }}-${{ matrix.chunk_label }}
+          path: |
+            outputs/detail_chunks/**
+            detail_${{ matrix.target }}_${{ matrix.chunk_label }}.txt
+
+  combine-and-commit:
+    name: Combine chunks and commit outputs
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    needs:
+      - base-summary
+      - detail-chunks
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+
+      - name: Install system libraries
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
+
+      - name: Install R packages
+        run: |
+          Rscript -e 'install.packages(c("dplyr","purrr","stringr","tibble","readr","jsonlite"), repos="https://cloud.r-project.org")'
+
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: downloaded_artifacts
+
+      - name: Combine and rebuild JSON
+        run: |
+          Rscript scripts/combine_detail_chunks.R | tee combine_log.txt
+
+      - name: Upload final outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: final-cricket-stats
+          path: |
+            outputs/**
+            combine_log.txt
+
+      - name: Commit outputs back to repo
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add outputs
+          git add combine_log.txt
+
+          if git diff --cached --quiet; then
+            echo "No output changes to commit."
+          else
+            git commit -m "Update international cricket stats outputs"
+            git push
+          fi
