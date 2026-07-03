@@ -1,0 +1,132 @@
+name: ESPN Core Enrichment
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_players:
+        description: "Number of players to process. Use 0 for all players."
+        required: true
+        default: "0"
+      sleep_seconds:
+        description: "Delay between ESPN requests."
+        required: true
+        default: "0.4"
+      resolve_teams:
+        description: "Resolve ESPN team IDs to team names."
+        required: true
+        default: "1"
+      fetch_home:
+        description: "Probe ESPN player home endpoint for extra fields."
+        required: true
+        default: "1"
+      commit_outputs:
+        description: "Commit output CSV/JSON files back to repo. Use 1 yes, 0 no."
+        required: true
+        default: "1"
+
+permissions:
+  contents: write
+
+jobs:
+  espn-core-enrichment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pandas
+
+      - name: Restore ESPN cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            outputs/espn_core_cache
+            outputs/espn_team_cache
+            outputs/espn_home_cache
+          key: espn-core-cache-${{ github.run_id }}
+          restore-keys: |
+            espn-core-cache-
+
+      - name: Check required files
+        run: |
+          echo "Root files:"
+          ls -la
+
+          echo "Scripts:"
+          ls -la scripts || true
+
+          echo "Outputs:"
+          ls -la outputs || true
+
+          test -f scripts/fetch_espn_everything_possible.py
+          test -f outputs/player_index_enriched.csv
+
+      - name: Run ESPN core enrichment
+        env:
+          MAX_PLAYERS: ${{ github.event.inputs.max_players }}
+          SLEEP_SECONDS: ${{ github.event.inputs.sleep_seconds }}
+          RESOLVE_TEAMS: ${{ github.event.inputs.resolve_teams }}
+          FETCH_HOME: ${{ github.event.inputs.fetch_home }}
+        run: |
+          python scripts/fetch_espn_everything_possible.py
+
+      - name: Show report
+        run: |
+          echo "===== ESPN EVERYTHING REPORT ====="
+          cat outputs/espn_everything_report.csv || true
+
+          echo "===== ERRORS SAMPLE ====="
+          if [ -f outputs/espn_everything_errors.csv ]; then
+            head -40 outputs/espn_everything_errors.csv
+          fi
+
+          echo "===== OUTPUT FILES ====="
+          ls -lh outputs/espn_everything_profiles.csv || true
+          ls -lh outputs/espn_everything_profiles.json || true
+          ls -lh outputs/espn_team_reference.csv || true
+          ls -lh outputs/espn_home_probe.csv || true
+          ls -lh outputs/espn_everything_errors.csv || true
+          ls -lh outputs/espn_everything_report.csv || true
+
+      - name: Upload ESPN enrichment artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: espn-core-enrichment-outputs
+          path: |
+            outputs/espn_everything_profiles.csv
+            outputs/espn_everything_profiles.json
+            outputs/espn_team_reference.csv
+            outputs/espn_home_probe.csv
+            outputs/espn_everything_errors.csv
+            outputs/espn_everything_report.csv
+          if-no-files-found: warn
+
+      - name: Commit output files
+        if: ${{ github.event.inputs.commit_outputs == '1' }}
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add outputs/espn_everything_profiles.csv \
+                  outputs/espn_everything_profiles.json \
+                  outputs/espn_team_reference.csv \
+                  outputs/espn_home_probe.csv \
+                  outputs/espn_everything_errors.csv \
+                  outputs/espn_everything_report.csv
+
+          if git diff --cached --quiet; then
+            echo "No output changes to commit."
+          else
+            git commit -m "Add ESPN core enrichment outputs"
+            git push
+          fi
