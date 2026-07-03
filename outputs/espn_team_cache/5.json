@@ -1,0 +1,108 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5",
+  "id": "5",
+  "uid": "s:200~t:5",
+  "location": "New Zealand",
+  "name": "New Zealand",
+  "nickname": "New Zealand",
+  "abbreviation": "NZ",
+  "displayName": "New Zealand",
+  "shortDisplayName": "NZ",
+  "isNational": true,
+  "isActive": true,
+  "countryCode": "NZ",
+  "slug": "new-zealand",
+  "classes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2026-06-25T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/23813/events/1496573"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8604"
+  },
+  "color": "#b7c0c8",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/5/new-zealand",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/5/new-zealand",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=5;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "players",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/country.html?country=5",
+      "text": "Players",
+      "shortText": "Players",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "videos",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/current/video_audio/index.html?object=5",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

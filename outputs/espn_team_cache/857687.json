@@ -1,0 +1,77 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/857687",
+  "id": "857687",
+  "uid": "s:200~t:857687",
+  "location": "West Indies",
+  "name": "St Kitts and Nevis Patriots",
+  "nickname": "St Kitts and Nevis Patriots",
+  "abbreviation": "STKNP",
+  "displayName": "St Kitts and Nevis Patriots",
+  "shortDisplayName": "STKNP",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "st-kitts-and-nevis-patriots",
+  "classes": [
+    6,
+    16
+  ],
+  "event": {
+    "date": "2026-08-08T23:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8623/events/1534180"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8623"
+  },
+  "color": "#e90c0c",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/857687.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/857687/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/857687/st-kitts-and-nevis-patriots",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/857687/st-kitts-and-nevis-patriots",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "videos",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/current/video_audio/index.html?object=857687",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

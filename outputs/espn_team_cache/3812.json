@@ -1,0 +1,79 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3812",
+  "id": "3812",
+  "uid": "s:200~t:3812",
+  "location": "West Indies",
+  "name": "West Indies Under-19s",
+  "nickname": "West Indies Under-19s",
+  "abbreviation": "WI19",
+  "displayName": "West Indies Under-19s",
+  "shortDisplayName": "WI19",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "west-indies-under-19s",
+  "classes": [
+    5,
+    20,
+    21,
+    15
+  ],
+  "event": {
+    "date": "2026-01-28T07:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8368/events/1511882"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8368"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3812.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3812/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3812/west-indies-under-19s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3812/west-indies-under-19s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=3863;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/22",
+  "id": "22",
+  "uid": "s:200~t:22",
+  "location": "Israel",
+  "name": "Israel",
+  "nickname": "Israel",
+  "abbreviation": "ISR",
+  "displayName": "Israel",
+  "shortDisplayName": "ISR",
+  "isNational": true,
+  "isActive": true,
+  "countryCode": "IL",
+  "slug": "israel",
+  "classes": [
+    3,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2024-06-16T08:15Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20863/events/1436491"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/22.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/22/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/22/israel",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/22/israel",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=22;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "players",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/country.html?country=22",
+      "text": "Players",
+      "shortText": "Players",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}
