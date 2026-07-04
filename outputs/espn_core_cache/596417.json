@@ -1,0 +1,167 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/596417",
+  "id": "596417",
+  "guid": "4f08b2c4-1efc-0c2e-c140-49a7232fb81d",
+  "uid": "s:200~a:596417",
+  "type": "cricket",
+  "name": "Brydon Carse",
+  "firstName": "Brydon",
+  "middleName": "",
+  "lastName": "Carse",
+  "shortName": "Carse",
+  "fullName": "Brydon Alexander Carse",
+  "displayName": "Brydon Carse",
+  "weight": 0,
+  "height": 0.0,
+  "age": 30,
+  "dateOfBirthStr": "1995-07-31T00:00Z",
+  "dateOfBirth": "1995-07-31T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BLA",
+    "id": "BLA",
+    "name": "Bowling allrounder",
+    "abbreviation": "BLA",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BLA"
+    }
+  },
+  "battingName": "BA Carse",
+  "fieldingName": "Carse",
+  "country": 1,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55308"
+      },
+      "relation": "Father"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/924"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/925"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/594837"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204496"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1335273"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/628333"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/596417.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/596417/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1442205/events/1442215"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1442206/events/1442215"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1345943/events/1442215"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1227837/events/1239537"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1239530/events/1239537"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1239529/events/1239537"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1336040/events/1336048"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1336039/events/1336048"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/946647/events/946779"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1166902/events/1167054"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/783845/events/784087"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/596417.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

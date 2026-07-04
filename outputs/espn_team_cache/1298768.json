@@ -1,0 +1,76 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1298768",
+  "id": "1298768",
+  "uid": "s:200~t:1298768",
+  "location": "India",
+  "name": "Lucknow Super Giants",
+  "nickname": "Lucknow Super Giants",
+  "abbreviation": "LSG",
+  "displayName": "Lucknow Super Giants",
+  "shortDisplayName": "LSG",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "lucknow-super-giants",
+  "classes": [
+    6
+  ],
+  "event": {
+    "date": "2026-05-23T14:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8048/events/1529311"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8048"
+  },
+  "color": "#0057E2",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1298768.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1298768/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1298768/lucknow-super-giants",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1298768/lucknow-super-giants",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "videos",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/current/video_audio/index.html?object=1298768",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3872",
+  "id": "3872",
+  "uid": "s:200~t:3872",
+  "location": "Zimbabwe",
+  "name": "Zimbabwe XI",
+  "nickname": "Zimbabwe XI",
+  "abbreviation": "ZimXI",
+  "displayName": "Zimbabwe XI",
+  "shortDisplayName": "ZimXI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZW",
+  "slug": "zimbabwe-xi",
+  "classes": [
+    "4",
+    "5",
+    "6",
+    "14",
+    "15"
+  ],
+  "event": {
+    "date": "2023-03-19T07:15Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/21286/events/1364313"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3872.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3872/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3872/zimbabwe-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3872/zimbabwe-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

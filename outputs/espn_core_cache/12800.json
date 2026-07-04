@@ -1,0 +1,130 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/12800",
+  "id": "12800",
+  "guid": "56b1c84e-73b8-0e26-1c6e-410cf3b68998",
+  "uid": "s:200~a:12800",
+  "type": "cricket",
+  "name": "Arthur Fagg",
+  "firstName": "Arthur",
+  "middleName": "",
+  "lastName": "Fagg",
+  "shortName": "Fagg",
+  "fullName": "Arthur Edward Fagg",
+  "displayName": "Arthur Fagg",
+  "weight": 0,
+  "height": 0,
+  "age": 62,
+  "dateOfBirthStr": "1915-06-18T00:00Z",
+  "dateOfBirth": "1915-06-18T00:00Z",
+  "dateOfDeathStr": "1977-09-13T00:00Z",
+  "dateOfDeath": "1977-09-13T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "AE Fagg",
+  "fieldingName": "Fagg",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1098"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/12800/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60329/events/62639"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62288/events/62639"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60418/events/63006"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62282/events/63006"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60784/events/64945"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61365/events/64945"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/12800.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

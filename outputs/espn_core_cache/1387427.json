@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1387427",
+  "id": "1387427",
+  "guid": "67447a6e-c4a6-3a1a-a6bc-aafa78f4be0d",
+  "uid": "s:200~a:1387427",
+  "type": "cricket",
+  "name": "Zou Kui",
+  "firstName": "Zou",
+  "middleName": "",
+  "lastName": "Kui",
+  "shortName": "",
+  "fullName": "Zou Kui",
+  "displayName": "Zou Kui",
+  "weight": 0,
+  "height": 0,
+  "age": 25,
+  "dateOfBirthStr": "2001-05-07T00:00Z",
+  "dateOfBirth": "2001-05-07T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Zou Kui",
+  "fieldingName": "Zou Kui",
+  "country": 70,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/70"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/70.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CHN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/70"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1387427/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383058/events/1383109"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383060/events/1383109"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383057/events/1383109"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383057/events/1383109"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383058/events/1383109"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383060/events/1383109"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1387427.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

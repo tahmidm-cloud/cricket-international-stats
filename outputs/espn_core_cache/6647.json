@@ -1,0 +1,118 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/6647",
+  "id": "6647",
+  "guid": "5f254c48-0bcd-e468-4d92-d0afb34b9a65",
+  "uid": "s:200~a:6647",
+  "type": "cricket",
+  "name": "Sam Morris",
+  "firstName": "Sam",
+  "middleName": "",
+  "lastName": "Morris",
+  "shortName": "Morris",
+  "fullName": "Samuel Morris",
+  "displayName": "Sam Morris",
+  "weight": 0,
+  "height": 0.0,
+  "age": 76,
+  "dateOfBirthStr": "1855-06-22T00:00Z",
+  "dateOfBirth": "1855-06-22T00:00Z",
+  "dateOfDeathStr": "1931-09-20T00:00Z",
+  "dateOfDeath": "1931-09-20T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "S Morris",
+  "fieldingName": "Morris",
+  "country": 2,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/584"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/6647/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60268/events/62413"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61734/events/62413"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/6647.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

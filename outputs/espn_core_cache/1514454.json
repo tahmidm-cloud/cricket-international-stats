@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1514454",
+  "id": "1514454",
+  "guid": "ba9182ce-1dcc-37d4-9a57-e74f8f499eae",
+  "uid": "s:200~a:1514454",
+  "type": "cricket",
+  "name": "Andrija Curavic",
+  "firstName": "Andrija",
+  "middleName": "",
+  "lastName": "Curavic",
+  "shortName": "Curavic",
+  "fullName": "Andrija Curavic",
+  "displayName": "Andrija Curavic",
+  "weight": 0,
+  "height": 0.0,
+  "age": 40,
+  "dateOfBirthStr": "1986-06-18T00:00Z",
+  "dateOfBirth": "1986-06-18T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "A Curavic",
+  "fieldingName": "Curavic",
+  "country": 72,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/72"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/72.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CRT",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/72"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1514454/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1514469/events/1514473"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1514470/events/1514473"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1514469/events/1514473"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1514470/events/1514473"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1514454.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

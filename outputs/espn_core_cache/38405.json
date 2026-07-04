@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38405",
+  "id": "38405",
+  "guid": "577202f1-6694-ab21-b16a-4790aa9b2adb",
+  "uid": "s:200~a:38405",
+  "type": "cricket",
+  "name": "Warren Stott",
+  "firstName": "Warren",
+  "middleName": "",
+  "lastName": "Stott",
+  "shortName": "Stott",
+  "fullName": "Leslie Warren Stott",
+  "displayName": "Warren Stott",
+  "weight": 0,
+  "height": 0,
+  "age": 79,
+  "dateOfBirthStr": "1946-12-08T00:00Z",
+  "dateOfBirth": "1946-12-08T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "LW Stott",
+  "fieldingName": "Stott",
+  "country": 5,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2459"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38405/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60806/events/65051"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61593/events/65051"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62080/events/65051"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/38405.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

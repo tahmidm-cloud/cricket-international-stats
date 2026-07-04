@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1513983",
+  "id": "1513983",
+  "guid": "bbef812e-8aec-3610-bdbe-f0173b9e116a",
+  "uid": "s:200~a:1513983",
+  "type": "cricket",
+  "name": "Francois Zirahangaje",
+  "firstName": "Francois",
+  "middleName": "",
+  "lastName": "Zirahangaje",
+  "shortName": "",
+  "fullName": "Francois Zirahangaje",
+  "displayName": "Francois Zirahangaje",
+  "weight": 0,
+  "height": 0.0,
+  "age": 21,
+  "dateOfBirthStr": "2004-10-30T00:00Z",
+  "dateOfBirth": "2004-10-30T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "F Zirahangaje",
+  "fieldingName": "Zirahangaje",
+  "country": 140,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/140"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/140.png",
+    "width": 500,
+    "height": 500,
+    "alt": "RWN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/140"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1513983/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1513079/events/1513088"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1513080/events/1513088"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1513078/events/1513088"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1513078/events/1513088"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1513079/events/1513088"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1513080/events/1513088"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1513983.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/470772",
+  "id": "470772",
+  "guid": "2467941f-f8dc-74ec-89de-c1b62e7856a7",
+  "uid": "s:200~a:470772",
+  "type": "cricket",
+  "name": "Andrew Umeed",
+  "firstName": "Andrew",
+  "middleName": "",
+  "lastName": "Umeed",
+  "shortName": "Umeed",
+  "fullName": "Andrew Robert Isaac Umeed",
+  "displayName": "Andrew Umeed",
+  "weight": 0,
+  "height": 0.0,
+  "age": 30,
+  "dateOfBirthStr": "1996-04-19T00:00Z",
+  "dateOfBirth": "1996-04-19T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "ARI Umeed",
+  "fieldingName": "Umeed",
+  "country": 30,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1333"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1334"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1428"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1429"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/30.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SCOT",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/470772/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1421067/events/1421070"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1421066/events/1421070"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420525/events/1421070"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/875585/events/870877"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870857/events/870877"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1145657/events/1145673"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/554569/events/554534"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/526969/events/554534"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/554573/events/554534"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/470772.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

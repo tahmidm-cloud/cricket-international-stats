@@ -1,0 +1,157 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/807535",
+  "id": "807535",
+  "guid": "97da4bba-aae6-fbef-6344-8166ff586013",
+  "uid": "s:200~a:807535",
+  "type": "cricket",
+  "name": "Brad Wheal",
+  "firstName": "Brad",
+  "middleName": "",
+  "lastName": "Wheal",
+  "shortName": "Wheal",
+  "fullName": "Bradley Thomas James Wheal",
+  "displayName": "Brad Wheal",
+  "weight": 0,
+  "height": 0.0,
+  "age": 29,
+  "dateOfBirthStr": "1996-08-28T00:00Z",
+  "dateOfBirth": "1996-08-28T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "BTJ Wheal",
+  "fieldingName": "Wheal",
+  "country": 30,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1051"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1052"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3247"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204500"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1328788"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204494"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/807535.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/30.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SCOT",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/807535/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870869/events/952183"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/952169/events/952183"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/952169/events/953103"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/953101/events/953103"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/803387/events/804193"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870869/events/952183"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/952169/events/952183"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/953101/events/953103"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/952169/events/953103"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/807535.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

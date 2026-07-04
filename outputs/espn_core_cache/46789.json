@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/46789",
+  "id": "46789",
+  "guid": "a8604055-5785-c43e-314c-5d7a4ae05351",
+  "uid": "s:200~a:46789",
+  "type": "cricket",
+  "name": "Charles Prince",
+  "firstName": "Charles",
+  "middleName": "",
+  "lastName": "Prince",
+  "shortName": "Prince",
+  "fullName": "Charles Frederick Henry Prince",
+  "displayName": "Charles Prince",
+  "weight": 0,
+  "height": 0,
+  "age": 74,
+  "dateOfBirthStr": "1874-09-11T00:00Z",
+  "dateOfBirth": "1874-09-11T00:00Z",
+  "dateOfDeathStr": "1949-02-02T00:00Z",
+  "dateOfDeath": "1949-02-02T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "CFH Prince",
+  "fieldingName": "Prince",
+  "country": 3,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3168"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3208"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1148"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3357"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/46789/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60282/events/62454"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61693/events/62454"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/46789.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

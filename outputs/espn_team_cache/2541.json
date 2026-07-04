@@ -1,0 +1,56 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2541",
+  "id": "2541",
+  "uid": "s:200~t:2541",
+  "location": "New Zealand",
+  "name": "New Zealand Academy",
+  "nickname": "New Zealand Academy",
+  "abbreviation": "",
+  "displayName": "New Zealand Academy",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "NZ",
+  "slug": "new-zealand-academy",
+  "classes": [
+    4,
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2005-07-08T00:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8744/events/412118"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2541/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/2541/new-zealand-academy",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/2541/new-zealand-academy",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

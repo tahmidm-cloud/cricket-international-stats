@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1046595",
+  "id": "1046595",
+  "guid": "465a00cf-1637-4150-b0a7-f4a182004980",
+  "uid": "s:200~a:1046595",
+  "type": "cricket",
+  "name": "Sajid Liaqat",
+  "firstName": "Sajid",
+  "middleName": "",
+  "lastName": "Liaqat",
+  "shortName": "",
+  "fullName": "Sajid Liaqat",
+  "displayName": "Sajid Liaqat",
+  "weight": 0,
+  "height": 0.0,
+  "age": 40,
+  "dateOfBirthStr": "1985-08-24T00:00Z",
+  "dateOfBirth": "1985-08-24T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "Sajid Liaqat",
+  "fieldingName": "Sajid Liaqat",
+  "country": 36,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/36"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/36.png",
+    "width": 500,
+    "height": 500,
+    "alt": "GER",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/36"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1046595/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1183918/events/1183920"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1183919/events/1183920"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1183918/events/1183920"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1183919/events/1183920"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1046595.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

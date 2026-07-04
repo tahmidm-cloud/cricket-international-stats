@@ -1,0 +1,145 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/430105",
+  "id": "430105",
+  "guid": "ee5d7deb-baeb-682e-bc60-4ce19bd4c1ea",
+  "uid": "s:200~a:430105",
+  "type": "cricket",
+  "name": "Jaskaran Malhotra",
+  "firstName": "Jaskaran",
+  "middleName": "",
+  "lastName": "Malhotra",
+  "shortName": "Malhotra",
+  "fullName": "Jaskaran Singh Malhotra",
+  "displayName": "Jaskaran Malhotra",
+  "weight": 0,
+  "height": 0.0,
+  "age": 36,
+  "dateOfBirthStr": "1989-11-04T00:00Z",
+  "dateOfBirth": "1989-11-04T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WK",
+    "id": "WK",
+    "name": "Wicketkeeper",
+    "abbreviation": "WK",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WK"
+    }
+  },
+  "battingName": "JS Malhotra",
+  "fieldingName": "Malhotra",
+  "country": 11,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/11"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1752"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1381354"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/642417"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/11.png",
+    "width": 500,
+    "height": 500,
+    "alt": "USA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/11"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/430105/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1174815/events/1174844"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1174826/events/1174844"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1174827/events/1174844"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1177479/events/1177484"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1177480/events/1177484"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1134044/events/1134054"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1134040/events/1134054"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1177479/events/1177484"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1177480/events/1177484"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/430105.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

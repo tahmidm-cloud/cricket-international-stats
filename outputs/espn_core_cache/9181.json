@@ -1,0 +1,128 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/9181",
+  "id": "9181",
+  "guid": "32163946-84a6-fa57-b442-11010c6d396d",
+  "uid": "s:200~a:9181",
+  "type": "cricket",
+  "name": "Bill Bowes",
+  "firstName": "Bill",
+  "middleName": "",
+  "lastName": "Bowes",
+  "shortName": "Bowes",
+  "fullName": "William Eric Bowes",
+  "displayName": "Bill Bowes",
+  "weight": 0,
+  "height": 6.03,
+  "age": 79,
+  "dateOfBirthStr": "1908-07-25T00:00Z",
+  "dateOfBirth": "1908-07-25T00:00Z",
+  "dateOfDeathStr": "1987-09-04T00:00Z",
+  "dateOfDeath": "1987-09-04T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "WE Bowes",
+  "fieldingName": "Bowes",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1464"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/9181/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60320/events/62605"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62281/events/62605"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/9181.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

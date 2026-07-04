@@ -1,0 +1,118 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/18021",
+  "id": "18021",
+  "guid": "ef8d4e5c-1d69-133a-05de-cffd4ed2e510",
+  "uid": "s:200~a:18021",
+  "type": "cricket",
+  "name": "Stan Nichols",
+  "firstName": "Stan",
+  "middleName": "",
+  "lastName": "Nichols",
+  "shortName": "Nichols",
+  "fullName": "Morris Stanley Nichols",
+  "displayName": "Stan Nichols",
+  "weight": 0,
+  "height": 0.0,
+  "age": 60,
+  "dateOfBirthStr": "1900-10-06T00:00Z",
+  "dateOfBirth": "1900-10-06T00:00Z",
+  "dateOfDeathStr": "1961-01-26T00:00Z",
+  "dateOfDeath": "1961-01-26T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "MS Nichols",
+  "fieldingName": "Nichols",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/984"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/18021/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60312/events/62572"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61781/events/62572"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/18021.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

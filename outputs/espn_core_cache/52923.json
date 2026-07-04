@@ -1,0 +1,118 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52923",
+  "id": "52923",
+  "guid": "7b206cef-808d-3fb8-c061-e57f9c18ef9d",
+  "uid": "s:200~a:52923",
+  "type": "cricket",
+  "name": "Reg Scarlett",
+  "firstName": "Reg",
+  "middleName": "",
+  "lastName": "Scarlett",
+  "shortName": "Scarlett",
+  "fullName": "Reginald Osmond Scarlett",
+  "displayName": "Reg Scarlett",
+  "weight": 0,
+  "height": 0.0,
+  "age": 84,
+  "dateOfBirthStr": "1934-08-15T00:00Z",
+  "dateOfBirth": "1934-08-15T00:00Z",
+  "dateOfDeathStr": "2019-08-14T00:00Z",
+  "dateOfDeath": "2019-08-14T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "RO Scarlett",
+  "fieldingName": "Scarlett",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3751"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52923/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60386/events/62873"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61744/events/62873"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/52923.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

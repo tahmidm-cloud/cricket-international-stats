@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1114702",
+  "id": "1114702",
+  "uid": "s:200~t:1114702",
+  "location": "United Arab Emirates",
+  "name": "Eagles (UAE)",
+  "nickname": "Eagles (UAE)",
+  "abbreviation": "EAGLE",
+  "displayName": "Eagles (UAE)",
+  "shortDisplayName": "EAGLE",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AE",
+  "slug": "eagles-uae",
+  "classes": [
+    "15"
+  ],
+  "event": {
+    "date": "2017-07-10T16:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/17934/events/1113391"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1114702/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1114702/eagles-uae",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1114702/eagles-uae",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

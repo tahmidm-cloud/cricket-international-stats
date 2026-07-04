@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/467849",
+  "id": "467849",
+  "guid": "fa019cda-bbd1-21f9-0630-eda2d43233d3",
+  "uid": "s:200~a:467849",
+  "type": "cricket",
+  "name": "Mofassar Saeed",
+  "firstName": "Mofassar",
+  "middleName": "",
+  "lastName": "Saeed",
+  "shortName": "Saeed",
+  "fullName": "Usman Mofassar Saeed",
+  "displayName": "Mofassar Saeed",
+  "weight": 0,
+  "height": 0.0,
+  "age": 46,
+  "dateOfBirthStr": "1979-07-11T00:00Z",
+  "dateOfBirth": "1979-07-11T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Mofassar Saeed",
+  "fieldingName": "Mofassar Saeed",
+  "country": 124,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/124"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/124.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NOR",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/124"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/467849/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1439805/events/1439830"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1439808/events/1439830"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1439798/events/1439830"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1439808/events/1439830"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1439805/events/1439830"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1439798/events/1439830"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/467849.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

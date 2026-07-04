@@ -1,0 +1,158 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/22182",
+  "id": "22182",
+  "guid": "ff8d50f4-6046-7318-7d62-41cd4de3ba4c",
+  "uid": "s:200~a:22182",
+  "type": "cricket",
+  "name": "Michael Vaughan",
+  "firstName": "Michael",
+  "middleName": "",
+  "lastName": "Vaughan",
+  "shortName": "Vaughan",
+  "fullName": "Michael Paul Vaughan",
+  "displayName": "Michael Vaughan",
+  "weight": 0,
+  "height": 6.02,
+  "age": 51,
+  "dateOfBirthStr": "1974-10-29T00:00Z",
+  "dateOfBirth": "1974-10-29T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "MP Vaughan",
+  "fieldingName": "Vaughan",
+  "country": 1,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1319835"
+      },
+      "relation": "Son"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1166"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1464"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/22182/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61687/events/63860"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60681/events/63860"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61083/events/64704"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61786/events/64704"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/139019/events/211028"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/238219/events/211028"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/139019/events/211028"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/238219/events/211028"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326418/events/326423"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326416/events/326423"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326417/events/326420"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326416/events/326420"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/22182.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

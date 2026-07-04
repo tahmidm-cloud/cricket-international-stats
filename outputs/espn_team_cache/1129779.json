@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1129779",
+  "id": "1129779",
+  "uid": "s:200~t:1129779",
+  "location": "Nepal",
+  "name": "Chitwan Tigers",
+  "nickname": "Chitwan Tigers",
+  "abbreviation": "CT",
+  "displayName": "Chitwan Tigers",
+  "shortDisplayName": "CT",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "NP",
+  "slug": "chitwan-tigers",
+  "classes": [
+    "16"
+  ],
+  "event": {
+    "date": "2021-10-09T06:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18524/events/1278899"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1129779.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1129779/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1129779/chitwan-tigers",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1129779/chitwan-tigers",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

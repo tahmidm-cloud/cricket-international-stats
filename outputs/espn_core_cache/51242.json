@@ -1,0 +1,118 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/51242",
+  "id": "51242",
+  "guid": "f7d304b2-4bdd-34de-34d9-f3130148d672",
+  "uid": "s:200~a:51242",
+  "type": "cricket",
+  "name": "Robin Bynoe",
+  "firstName": "Robin",
+  "middleName": "",
+  "lastName": "Bynoe",
+  "shortName": "Bynoe",
+  "fullName": "Michael Robin Bynoe",
+  "displayName": "Robin Bynoe",
+  "weight": 0,
+  "height": 0,
+  "age": 85,
+  "dateOfBirthStr": "1941-02-23T00:00Z",
+  "dateOfBirth": "1941-02-23T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm medium",
+      "shortDescription": "Lm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm medium",
+      "shortDescription": "Lm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "MR Bynoe",
+  "fieldingName": "Bynoe",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3719"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/51242/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60381/events/62857"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61923/events/62857"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/51242.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

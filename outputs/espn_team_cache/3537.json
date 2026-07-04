@@ -1,0 +1,68 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3537",
+  "id": "3537",
+  "uid": "s:200~t:3537",
+  "location": "Sri Lanka",
+  "name": "Kurunegala Youth Cricket Club",
+  "nickname": "Kurunegala Youth Cricket Club",
+  "abbreviation": "KYCC",
+  "displayName": "Kurunegala Youth Cricket Club",
+  "shortDisplayName": "KYCC",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "kurunegala-youth-cricket-club",
+  "classes": [
+    4,
+    5,
+    6,
+    14,
+    15
+  ],
+  "event": {
+    "date": "2026-05-31T04:15Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18851/events/1535506"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20978"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3537.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3537/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3537/kurunegala-youth-cricket-club",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3537/kurunegala-youth-cricket-club",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

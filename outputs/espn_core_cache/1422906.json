@@ -1,0 +1,126 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1422906",
+  "id": "1422906",
+  "guid": "",
+  "uid": "s:200~a:1422906",
+  "type": "cricket",
+  "name": "Jermal Proctor",
+  "firstName": "Jermal",
+  "middleName": "",
+  "lastName": "Proctor",
+  "shortName": "Proctor",
+  "fullName": "Jermal Proctor",
+  "displayName": "Jermal Proctor",
+  "weight": 0,
+  "height": 0.0,
+  "age": 20,
+  "dateOfBirthStr": "2005-09-16T00:00Z",
+  "dateOfBirth": "2005-09-16T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "J Proctor",
+  "fieldingName": "Proctor",
+  "country": 12,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/12"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/12.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BER",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/12"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1422906/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1462861/events/1462882"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1462862/events/1462882"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1462863/events/1462882"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420553/events/1420582"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420567/events/1420582"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420549/events/1420582"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1462861/events/1462882"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1462862/events/1462882"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1462863/events/1462882"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1422906.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

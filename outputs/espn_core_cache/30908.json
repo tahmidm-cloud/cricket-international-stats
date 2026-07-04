@@ -1,0 +1,111 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/30908",
+  "id": "30908",
+  "guid": "a70daaf1-7063-bc56-f0d3-6207f01fd5b0",
+  "uid": "s:200~a:30908",
+  "type": "cricket",
+  "name": "Ebrahim Maka",
+  "firstName": "Ebrahim",
+  "middleName": "",
+  "lastName": "Maka",
+  "shortName": "Maka",
+  "fullName": "Ebrahim Suleman Maka",
+  "displayName": "Ebrahim Maka",
+  "weight": 0,
+  "height": 0.0,
+  "age": 72,
+  "dateOfBirthStr": "1922-03-05T00:00Z",
+  "dateOfBirth": "1922-03-05T00:00Z",
+  "dateOfDeathStr": "1994-11-07T00:00Z",
+  "dateOfDeath": "1994-11-07T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "ES Maka",
+  "fieldingName": "Maka",
+  "country": 6,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1729"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1603"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/30908/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60355/events/62744"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61529/events/62744"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/30908.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

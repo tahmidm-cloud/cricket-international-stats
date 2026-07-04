@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1096833",
+  "id": "1096833",
+  "guid": "3b94b2df-4cea-14d4-fa08-e201b961131f",
+  "uid": "s:200~a:1096833",
+  "type": "cricket",
+  "name": "Nestor Dhamba",
+  "firstName": "Nestor",
+  "middleName": "",
+  "lastName": "Dhamba",
+  "shortName": "Dhamba",
+  "fullName": "Nestor Dhamba",
+  "displayName": "Nestor Dhamba",
+  "weight": 0,
+  "height": 0.0,
+  "age": 36,
+  "dateOfBirthStr": "1990-02-19T00:00Z",
+  "dateOfBirth": "1990-02-19T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "N Dhamba",
+  "fieldingName": "Dhamba",
+  "country": 37,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/37"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/1096833.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/37.png",
+    "width": 500,
+    "height": 500,
+    "alt": "OMA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/37"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1096833/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1275291/events/1275250"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1196667/events/1275250"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1299556/events/1299584"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1299557/events/1299584"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1196667/events/1275250"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1275291/events/1275250"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1299557/events/1299584"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1299556/events/1299584"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1096833.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

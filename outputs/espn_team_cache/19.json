@@ -1,0 +1,107 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/19",
+  "id": "19",
+  "uid": "s:200~t:19",
+  "location": "Hong Kong",
+  "name": "Hong Kong",
+  "nickname": "Hong Kong",
+  "abbreviation": "HKG",
+  "displayName": "Hong Kong",
+  "shortDisplayName": "HKG",
+  "isNational": true,
+  "isActive": true,
+  "countryCode": "HK",
+  "slug": "hong-kong",
+  "classes": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2026-06-22T12:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20893/events/1539743"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20893"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/19.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/19/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/19/hong-kong",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/19/hong-kong",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=19;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "players",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/country.html?country=19",
+      "text": "Players",
+      "shortText": "Players",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "videos",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/current/video_audio/index.html?object=19",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/384355",
+  "id": "384355",
+  "guid": "aee8ebe6-1e7c-fda2-8d55-c821a982fdf3",
+  "uid": "s:200~a:384355",
+  "type": "cricket",
+  "name": "Anaru Kitchen",
+  "firstName": "Anaru",
+  "middleName": "",
+  "lastName": "Kitchen",
+  "shortName": "Kitchen",
+  "fullName": "Anaru Kyle Kitchen",
+  "displayName": "Anaru Kitchen",
+  "weight": 0,
+  "height": 0.0,
+  "age": 42,
+  "dateOfBirthStr": "1984-02-21T00:00Z",
+  "dateOfBirth": "1984-02-21T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "AK Kitchen",
+  "fieldingName": "Kitchen",
+  "country": 5,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2459"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2463"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2540"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2570"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/384355/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1115785/events/1115798"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1115788/events/1115798"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/369188/events/371866"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/369192/events/371881"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/369193/events/371828"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/384355.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

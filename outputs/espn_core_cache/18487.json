@@ -1,0 +1,118 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/18487",
+  "id": "18487",
+  "guid": "a37a4f84-eb93-db64-d6bc-ccef385f3b62",
+  "uid": "s:200~a:18487",
+  "type": "cricket",
+  "name": "Ted Peate",
+  "firstName": "Ted",
+  "middleName": "",
+  "lastName": "Peate",
+  "shortName": "Peate",
+  "fullName": "Edmund Peate",
+  "displayName": "Ted Peate",
+  "weight": 0,
+  "height": 0,
+  "age": 45,
+  "dateOfBirthStr": "1855-03-02T00:00Z",
+  "dateOfBirth": "1855-03-02T00:00Z",
+  "dateOfDeathStr": "1900-03-11T00:00Z",
+  "dateOfDeath": "1900-03-11T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "E Peate",
+  "fieldingName": "Peate",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1464"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/18487/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60263/events/62400"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61738/events/62400"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/18487.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

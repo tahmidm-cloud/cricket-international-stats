@@ -1,0 +1,118 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/36318",
+  "id": "36318",
+  "guid": "8d0d2f00-b45a-024d-5fbd-7649125be584",
+  "uid": "s:200~a:36318",
+  "type": "cricket",
+  "name": "Len Butterfield",
+  "firstName": "Len",
+  "middleName": "",
+  "lastName": "Butterfield",
+  "shortName": "",
+  "fullName": "Leonard Arthur Butterfield",
+  "displayName": "Len Butterfield",
+  "weight": 0,
+  "height": 0,
+  "age": 85,
+  "dateOfBirthStr": "1913-08-29T00:00Z",
+  "dateOfBirth": "1913-08-29T00:00Z",
+  "dateOfDeathStr": "1999-07-05T00:00Z",
+  "dateOfDeath": "1999-07-05T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "LA Butterfield",
+  "fieldingName": "Butterfield",
+  "country": 5,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2469"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/36318/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60335/events/62661"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61401/events/62661"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/36318.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

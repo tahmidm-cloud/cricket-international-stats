@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/596002",
+  "id": "596002",
+  "guid": "d5275372-eb3a-1176-530c-7faab6978fae",
+  "uid": "s:200~a:596002",
+  "type": "cricket",
+  "name": "Liam Roche",
+  "firstName": "Liam",
+  "middleName": "",
+  "lastName": "Roche",
+  "shortName": "Roche",
+  "fullName": "Liam Nicholas Roche",
+  "displayName": "Liam Roche",
+  "weight": 0,
+  "height": 0.0,
+  "age": 26,
+  "dateOfBirthStr": "1999-09-14T00:00Z",
+  "dateOfBirth": "1999-09-14T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "LN Roche",
+  "fieldingName": "Roche",
+  "country": 9,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/595168"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/594866"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3871"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/9.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ZIM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/596002/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1142909/events/1142920"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1142908/events/1142920"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1122738/events/1122755"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1122739/events/1122766"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1077460/events/1077467"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1077455/events/1077467"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/596002.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

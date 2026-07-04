@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3326",
+  "id": "3326",
+  "uid": "s:200~t:3326",
+  "location": "South Africa",
+  "name": "South African Universities",
+  "nickname": "South African Universities",
+  "abbreviation": "",
+  "displayName": "South African Universities",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZA",
+  "slug": "south-african-universities",
+  "classes": [
+    "4"
+  ],
+  "event": {
+    "date": "1990-01-30T08:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/16617/events/766217"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3326/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3326/south-african-universities",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3326/south-african-universities",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

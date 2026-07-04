@@ -1,0 +1,111 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/14249",
+  "id": "14249",
+  "guid": "a16da74c-5d69-1f01-6488-e19df86b2bbc",
+  "uid": "s:200~a:14249",
+  "type": "cricket",
+  "name": "Errol Holmes",
+  "firstName": "Errol",
+  "middleName": "",
+  "lastName": "Holmes",
+  "shortName": "Holmes",
+  "fullName": "Errol Reginald Thorold Holmes",
+  "displayName": "Errol Holmes",
+  "weight": 0,
+  "height": 0,
+  "age": 54,
+  "dateOfBirthStr": "1905-08-21T00:00Z",
+  "dateOfBirth": "1905-08-21T00:00Z",
+  "dateOfDeathStr": "1960-08-16T00:00Z",
+  "dateOfDeath": "1960-08-16T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "ERT Holmes",
+  "fieldingName": "Holmes",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/292457"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1358"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/14249/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60326/events/62624"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61755/events/62624"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/14249.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

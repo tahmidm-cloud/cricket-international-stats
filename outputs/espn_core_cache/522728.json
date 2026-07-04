@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/522728",
+  "id": "522728",
+  "guid": "39caf1f1-f057-8671-ecfb-1929e9b1ac99",
+  "uid": "s:200~a:522728",
+  "type": "cricket",
+  "name": "Mahiyu Bhatia",
+  "firstName": "Mahiyu",
+  "middleName": "",
+  "lastName": "Bhatia",
+  "shortName": "Bhatia",
+  "fullName": "Mahiyu Bhatia",
+  "displayName": "Mahiyu Bhatia",
+  "weight": 0,
+  "height": 0.0,
+  "age": 20,
+  "dateOfBirthStr": "2006-01-18T00:00Z",
+  "dateOfBirth": "2006-01-18T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "M Bhatia",
+  "fieldingName": "Bhatia",
+  "country": 23,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/23"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/23.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SGP",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/23"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/522728/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1494077/events/1494092"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1494078/events/1494092"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1494077/events/1494092"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1494078/events/1494092"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/522728.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

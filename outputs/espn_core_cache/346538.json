@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/346538",
+  "id": "346538",
+  "guid": "95f4c5da-638c-cbd1-283d-bb6778a2c874",
+  "uid": "s:200~a:346538",
+  "type": "cricket",
+  "name": "Isaac Aboagye",
+  "firstName": "Isaac",
+  "middleName": "",
+  "lastName": "Aboagye",
+  "shortName": "Aboagye",
+  "fullName": "Isaac Kofi Otuafo Aboagye",
+  "displayName": "Isaac Aboagye",
+  "weight": 0,
+  "height": 0.0,
+  "age": 30,
+  "dateOfBirthStr": "1995-12-27T00:00Z",
+  "dateOfBirth": "1995-12-27T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "IKO Aboagye",
+  "fieldingName": "Aboagye",
+  "country": 84,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/84"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/84.png",
+    "width": 500,
+    "height": 500,
+    "alt": "GHA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/84"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/346538/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1184248/events/1184258"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1184250/events/1184258"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1184251/events/1184258"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1184248/events/1184258"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1184250/events/1184258"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1184251/events/1184258"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/346538.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

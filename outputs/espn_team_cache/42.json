@@ -1,0 +1,86 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/42",
+  "id": "42",
+  "uid": "s:200~t:42",
+  "location": "Belgium",
+  "name": "Belgium",
+  "nickname": "Belgium",
+  "abbreviation": "BEL",
+  "displayName": "Belgium",
+  "shortDisplayName": "BEL",
+  "isNational": true,
+  "isActive": true,
+  "countryCode": "BE",
+  "slug": "belgium",
+  "classes": [
+    3,
+    15,
+    16
+  ],
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19487"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/42.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/42/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/42/belgium",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/42/belgium",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=42;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "players",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/country.html?country=42",
+      "text": "Players",
+      "shortText": "Players",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

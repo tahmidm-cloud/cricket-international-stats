@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1400096",
+  "id": "1400096",
+  "guid": "0ee3ecda-9343-3b3d-824a-1b7b6eb8faeb",
+  "uid": "s:200~a:1400096",
+  "type": "cricket",
+  "name": "Namsrai Bat-yalalt",
+  "firstName": "Namsrai",
+  "middleName": "",
+  "lastName": "Bat-yalalt",
+  "shortName": "Namsrai",
+  "fullName": "Bat-yalalt Namsrai",
+  "displayName": "Namsrai Bat-yalalt",
+  "weight": 0,
+  "height": 0.0,
+  "age": 23,
+  "dateOfBirthStr": "2003-05-09T00:00Z",
+  "dateOfBirth": "2003-05-09T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "B Namsrai",
+  "fieldingName": "Namsrai",
+  "country": 115,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/115"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/115.png",
+    "width": 500,
+    "height": 500,
+    "alt": "",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/115"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1400096/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1398685/events/1399104"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1399085/events/1399104"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1399086/events/1399104"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1398685/events/1399104"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1399085/events/1399104"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1399086/events/1399104"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1400096.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

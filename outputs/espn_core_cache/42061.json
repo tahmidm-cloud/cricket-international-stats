@@ -1,0 +1,145 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/42061",
+  "id": "42061",
+  "guid": "af8f2931-0654-e208-58e8-3b92b7b9c697",
+  "uid": "s:200~a:42061",
+  "type": "cricket",
+  "name": "Naushad Ali",
+  "firstName": "Naushad",
+  "middleName": "",
+  "lastName": "Ali",
+  "shortName": "",
+  "fullName": "Naushad Ali Rizvi",
+  "displayName": "Naushad Ali",
+  "weight": 0,
+  "height": 0.0,
+  "age": 79,
+  "dateOfBirthStr": "1943-10-01T00:00Z",
+  "dateOfBirth": "1943-10-01T00:00Z",
+  "dateOfDeathStr": "2023-08-20T00:00Z",
+  "dateOfDeath": "2023-08-20T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Naushad Ali",
+  "fieldingName": "Naushad Ali",
+  "country": 7,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1352120"
+      },
+      "relation": "Granddaughter"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2696"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2773"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2927"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2992"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2012"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3054"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3036"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/7.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAK",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/42061/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60407/events/62962"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61498/events/62962"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60696/events/63902"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62097/events/63902"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61061/events/64647"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61739/events/64647"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/42061.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

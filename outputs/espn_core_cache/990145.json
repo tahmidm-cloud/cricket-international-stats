@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/990145",
+  "id": "990145",
+  "guid": "3a3747a5-23ef-7aa8-1453-743ebf191f8f",
+  "uid": "s:200~a:990145",
+  "type": "cricket",
+  "name": "Darshit Patankar",
+  "firstName": "Darshit",
+  "middleName": "",
+  "lastName": "Patankar",
+  "shortName": "Darshit Patankar",
+  "fullName": "Darshit Rajendrakumar Patankar",
+  "displayName": "Darshit Patankar",
+  "weight": 0,
+  "height": 0.0,
+  "age": 28,
+  "dateOfBirthStr": "1998-05-22T00:00Z",
+  "dateOfBirth": "1998-05-22T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "DR Patankar",
+  "fieldingName": "Patankar",
+  "country": 45,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/45"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/45.png",
+    "width": 500,
+    "height": 500,
+    "alt": "MLT",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/45"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/990145/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1367717/events/1367726"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1367718/events/1367726"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1367720/events/1367726"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1367717/events/1367726"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1367718/events/1367726"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1367720/events/1367726"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/990145.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

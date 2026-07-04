@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1239299",
+  "id": "1239299",
+  "uid": "s:200~t:1239299",
+  "location": "Bangladesh",
+  "name": "Fortune Barishal",
+  "nickname": "Fortune Barishal",
+  "abbreviation": "BRSAL",
+  "displayName": "Fortune Barishal",
+  "shortDisplayName": "BRSAL",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "BD",
+  "slug": "fortune-barishal",
+  "classes": [
+    6
+  ],
+  "event": {
+    "date": "2025-02-07T12:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8653/events/1459582"
+  },
+  "color": "#24c2a8",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1239299.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1239299/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1239299/fortune-barishal",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1239299/fortune-barishal",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

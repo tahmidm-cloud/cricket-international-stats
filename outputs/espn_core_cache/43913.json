@@ -1,0 +1,146 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/43913",
+  "id": "43913",
+  "guid": "b5fe91dd-9852-b05f-e020-48669b5cf45d",
+  "uid": "s:200~a:43913",
+  "type": "cricket",
+  "name": "HD Ackerman",
+  "firstName": "HD",
+  "middleName": "",
+  "lastName": "Ackerman",
+  "shortName": "Ackerman",
+  "fullName": "Hylton Deon Ackerman",
+  "displayName": "HD Ackerman",
+  "weight": 0,
+  "height": 0.0,
+  "age": 53,
+  "dateOfBirthStr": "1973-02-14T00:00Z",
+  "dateOfBirth": "1973-02-14T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "HD Ackerman",
+  "fieldingName": "Ackerman",
+  "country": 3,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/43945"
+      },
+      "relation": "Father"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3360"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3199"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3231"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1133"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3249"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3353"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3357"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/43913.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/43913/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60656/events/63790"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61466/events/63790"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/134226/events/304944"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/43913.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

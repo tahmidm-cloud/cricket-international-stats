@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1203898",
+  "id": "1203898",
+  "guid": "8fa5dea4-c3a3-3410-9198-f3ef310a3c71",
+  "uid": "s:200~a:1203898",
+  "type": "cricket",
+  "name": "Hristo Lakov",
+  "firstName": "Hristo",
+  "middleName": "",
+  "lastName": "Lakov",
+  "shortName": "Lakov",
+  "fullName": "Hristo Lakov",
+  "displayName": "Hristo Lakov",
+  "weight": 0,
+  "height": 0.0,
+  "age": 34,
+  "dateOfBirthStr": "1991-07-15T00:00Z",
+  "dateOfBirth": "1991-07-15T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "H Lakov",
+  "fieldingName": "Lakov",
+  "country": 63,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/63"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/63.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BUL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/63"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1203898/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1203828/events/1203831"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1203829/events/1203831"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1203830/events/1203831"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1203828/events/1203831"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1203829/events/1203831"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1203830/events/1203831"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1203898.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

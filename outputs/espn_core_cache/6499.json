@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/6499",
+  "id": "6499",
+  "guid": "8cf5c52f-4432-5119-bd43-b8a337cfa113",
+  "uid": "s:200~a:6499",
+  "type": "cricket",
+  "name": "Geoff Marsh",
+  "firstName": "Geoff",
+  "middleName": "",
+  "lastName": "Marsh",
+  "shortName": "Marsh",
+  "fullName": "Geoffrey Robert Marsh",
+  "displayName": "Geoff Marsh",
+  "weight": 0,
+  "height": 0.0,
+  "age": 67,
+  "dateOfBirthStr": "1958-12-31T00:00Z",
+  "dateOfBirth": "1958-12-31T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "GR Marsh",
+  "fieldingName": "Marsh",
+  "country": 2,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/6683"
+      },
+      "relation": "Son"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/272450"
+      },
+      "relation": "Son"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/602"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/6499/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62298/events/63418"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60531/events/63418"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60857/events/65394"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62087/events/65394"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/323893/events/323801"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/323793/events/323801"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/6499.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

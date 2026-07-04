@@ -1,0 +1,131 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38707",
+  "id": "38707",
+  "guid": "6af7406c-17df-e3e8-16fa-171bf9fb41d7",
+  "uid": "s:200~a:38707",
+  "type": "cricket",
+  "name": "Bert Vance",
+  "firstName": "Bert",
+  "middleName": "",
+  "lastName": "Vance",
+  "shortName": "Vance",
+  "fullName": "Robert Howard Vance",
+  "displayName": "Bert Vance",
+  "weight": 0,
+  "height": 0.0,
+  "age": 71,
+  "dateOfBirthStr": "1955-03-31T00:00Z",
+  "dateOfBirth": "1955-03-31T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "RH Vance",
+  "fieldingName": "Vance",
+  "country": 5,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38718"
+      },
+      "relation": "Father"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2600"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38707/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60549/events/63479"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61771/events/63479"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60882/events/64326"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61771/events/64326"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/38707.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

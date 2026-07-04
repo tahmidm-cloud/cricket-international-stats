@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/13357",
+  "id": "13357",
+  "guid": "19a7c00d-3b1a-3f37-02a3-2f4d9174fddb",
+  "uid": "s:200~a:13357",
+  "type": "cricket",
+  "name": "Paul Gibb",
+  "firstName": "Paul",
+  "middleName": "",
+  "lastName": "Gibb",
+  "shortName": "Gibb",
+  "fullName": "Paul Antony Gibb",
+  "displayName": "Paul Gibb",
+  "weight": 0,
+  "height": 0,
+  "age": 64,
+  "dateOfBirthStr": "1913-07-11T00:00Z",
+  "dateOfBirth": "1913-07-11T00:00Z",
+  "dateOfDeathStr": "1977-12-07T00:00Z",
+  "dateOfDeath": "1977-12-07T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "PA Gibb",
+  "fieldingName": "Gibb",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/859"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/984"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1464"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/13357/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60333/events/62653"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61688/events/62653"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/13357.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1162763",
+  "id": "1162763",
+  "uid": "s:200~t:1162763",
+  "location": "Nepal",
+  "name": "Expert Dhangadi",
+  "nickname": "Expert Dhangadi",
+  "abbreviation": "ED",
+  "displayName": "Expert Dhangadi",
+  "shortDisplayName": "ED",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "NP",
+  "slug": "expert-dhangadi",
+  "classes": [
+    "16"
+  ],
+  "event": {
+    "date": "2019-12-23T05:45Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19003/events/1209677"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1162763.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1162763/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1162763/expert-dhangadi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1162763/expert-dhangadi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

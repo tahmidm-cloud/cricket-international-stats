@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1233056",
+  "id": "1233056",
+  "guid": "7223fb39-ae8a-3c74-8ba7-fb62df456461",
+  "uid": "s:200~a:1233056",
+  "type": "cricket",
+  "name": "Rohan Bhavesh Patel",
+  "firstName": "Rohan",
+  "middleName": "",
+  "lastName": "Patel",
+  "shortName": "Patel",
+  "fullName": "Rohan Bhavesh Patel",
+  "displayName": "Rohan Bhavesh Patel",
+  "weight": 0,
+  "height": 0.0,
+  "age": 31,
+  "dateOfBirthStr": "1994-10-30T00:00Z",
+  "dateOfBirth": "1994-10-30T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "RB Patel",
+  "fieldingName": "Patel",
+  "country": 63,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/63"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/63.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BUL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/63"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1233056/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1233061/events/1233064"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1233062/events/1233064"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1233061/events/1233064"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1233062/events/1233064"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1233056.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

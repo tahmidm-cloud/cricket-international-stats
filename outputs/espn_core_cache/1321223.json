@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1321223",
+  "id": "1321223",
+  "guid": "6cb5ff9e-616a-3680-8c20-15703ccfa423",
+  "uid": "s:200~a:1321223",
+  "type": "cricket",
+  "name": "Matthew Kostic",
+  "firstName": "Matthew",
+  "middleName": "",
+  "lastName": "Kostic",
+  "shortName": "Kostic",
+  "fullName": "Matthew Luke Kostic",
+  "displayName": "Matthew Kostic",
+  "weight": 0,
+  "height": 0.0,
+  "age": 26,
+  "dateOfBirthStr": "1999-12-05T00:00Z",
+  "dateOfBirth": "1999-12-05T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "ML Kostic",
+  "fieldingName": "Kostic",
+  "country": 891143,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/891143"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/891143.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SRB",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/891143"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1321223/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1317130/events/1317136"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1317131/events/1317136"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1317130/events/1317136"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1317131/events/1317136"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1321223.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

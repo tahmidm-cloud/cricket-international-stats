@@ -1,0 +1,130 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1284532",
+  "id": "1284532",
+  "guid": "df7c26b4-765e-3491-9798-ecf7f6455d16",
+  "uid": "s:200~a:1284532",
+  "type": "cricket",
+  "name": "Haider Ali",
+  "firstName": "Haider",
+  "middleName": "",
+  "lastName": "Ali",
+  "shortName": "",
+  "fullName": "Haider Ali Butt",
+  "displayName": "Haider Ali",
+  "weight": 0,
+  "height": 0.0,
+  "age": 28,
+  "dateOfBirthStr": "1997-10-22T00:00Z",
+  "dateOfBirth": "1997-10-22T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "Haider Butt",
+  "fieldingName": "Haider Butt",
+  "country": 57,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/57"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/57.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BHR",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/57"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1284532/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1284484/events/1284488"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1284483/events/1284488"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420549/events/1420569"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420562/events/1420569"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420563/events/1420569"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1284483/events/1284488"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1284484/events/1284488"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1284532.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

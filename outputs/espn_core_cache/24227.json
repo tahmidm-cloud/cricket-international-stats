@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24227",
+  "id": "24227",
+  "guid": "46b254c6-66f1-f9f7-6f6c-f4e2f8b1b6df",
+  "uid": "s:200~a:24227",
+  "type": "cricket",
+  "name": "Ilyas Gull",
+  "firstName": "Ilyas",
+  "middleName": "",
+  "lastName": "Gull",
+  "shortName": "Ilyas Gull",
+  "fullName": "Ilyas Gull",
+  "displayName": "Ilyas Gull",
+  "weight": 0,
+  "height": 0.0,
+  "age": 58,
+  "dateOfBirthStr": "1968-01-01T00:00Z",
+  "dateOfBirth": "1968-01-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Ilyas Gull",
+  "fieldingName": "Ilyas Gull",
+  "country": 19,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/19"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3442"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/19.png",
+    "width": 500,
+    "height": 500,
+    "alt": "HKG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/19"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24227/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61447/events/65706"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62188/events/65706"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61152/events/65706"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/143791/events/207414"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/305769/events/207414"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61152/events/65706"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61447/events/65706"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62188/events/65706"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/24227.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

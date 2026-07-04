@@ -1,0 +1,166 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/713811",
+  "id": "713811",
+  "guid": "7d31266b-97db-9748-1e7c-d36b4f418c6e",
+  "uid": "s:200~a:713811",
+  "type": "cricket",
+  "name": "Tinashe Kamunhukamwe",
+  "firstName": "Tinashe",
+  "middleName": "",
+  "lastName": "Kamunhukamwe",
+  "shortName": "",
+  "fullName": "Tinashe Stephen Kamunhukamwe",
+  "displayName": "Tinashe Kamunhukamwe",
+  "weight": 0,
+  "height": 0.0,
+  "age": 30,
+  "dateOfBirthStr": "1995-07-10T00:00Z",
+  "dateOfBirth": "1995-07-10T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "TS Kamunhukamwe",
+  "fieldingName": "Kamunhukamwe",
+  "country": 9,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/424005"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/424008"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1122743"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1037743"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/789719"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3864"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3868"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3871"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/9.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ZIM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/713811/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1142909/events/1142923"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1142908/events/1142923"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1214664/events/1214670"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1214661/events/1214670"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/935901/events/935945"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1122739/events/1122767"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1053959/events/1029653"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1029597/events/1029653"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/701087/events/700333"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/701089/events/700333"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/700273/events/700333"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/713811.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1390685",
+  "id": "1390685",
+  "guid": "827181ec-4be0-3d25-8c33-2d1bf3157c2c",
+  "uid": "s:200~a:1390685",
+  "type": "cricket",
+  "name": "Sheikh Rasik",
+  "firstName": "Sheikh",
+  "middleName": "",
+  "lastName": "Rasik",
+  "shortName": "Sheikh Rasik",
+  "fullName": "Sheikh Rasik",
+  "displayName": "Sheikh Rasik",
+  "weight": 0,
+  "height": 0.0,
+  "age": 31,
+  "dateOfBirthStr": "1994-08-25T00:00Z",
+  "dateOfBirth": "1994-08-25T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Sheikh Rasik",
+  "fieldingName": "Sheikh Rasik",
+  "country": 88,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/88"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/88.png",
+    "width": 500,
+    "height": 500,
+    "alt": "HUN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/88"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1390685/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1390165/events/1390167"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1390166/events/1390167"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1390165/events/1390167"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1390166/events/1390167"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1390685.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

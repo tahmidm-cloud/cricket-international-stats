@@ -1,0 +1,109 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/23965",
+  "id": "23965",
+  "guid": "270bf399-53f1-efc5-b17d-a395563a6011",
+  "uid": "s:200~a:23965",
+  "type": "cricket",
+  "name": "Parbhu Nana",
+  "firstName": "Parbhu",
+  "middleName": "",
+  "lastName": "Nana",
+  "shortName": "Nana",
+  "fullName": "Parbhu Govan Nana",
+  "displayName": "Parbhu Nana",
+  "weight": 0,
+  "height": 0.0,
+  "age": 0,
+  "dateOfBirthStr": "1933-08-17T00:00Z",
+  "dateOfBirth": "1933-08-17T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "PG Nana",
+  "fieldingName": "Nana",
+  "country": 14,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/14"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {},
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/14"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/23965/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60793/events/65036"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62069/events/65036"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62159/events/65036"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/23965.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24719",
+  "id": "24719",
+  "guid": "fb3ccc0e-0fc0-a4bd-440e-1497b60b61d3",
+  "uid": "s:200~a:24719",
+  "type": "cricket",
+  "name": "Ravi Shah",
+  "firstName": "Ravi",
+  "middleName": "",
+  "lastName": "Shah",
+  "shortName": "Shah",
+  "fullName": "Ravindu Dhirajlal Shah",
+  "displayName": "Ravi Shah",
+  "weight": 0,
+  "height": 0.0,
+  "age": 53,
+  "dateOfBirthStr": "1972-08-28T00:00Z",
+  "dateOfBirth": "1972-08-28T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "RD Shah",
+  "fieldingName": "Shah",
+  "country": 26,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/26"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2298"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/24719.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/26.png",
+    "width": 500,
+    "height": 500,
+    "alt": "KENYA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/26"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24719/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62193/events/66145"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62382/events/66145"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61027/events/66145"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/24719.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

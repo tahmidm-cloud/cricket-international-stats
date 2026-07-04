@@ -1,0 +1,150 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/646173",
+  "id": "646173",
+  "guid": "2472c137-6c72-74b9-058d-e5033d1481a4",
+  "uid": "s:200~a:646173",
+  "type": "cricket",
+  "name": "Kiplin Doriga",
+  "firstName": "Kiplin",
+  "middleName": "",
+  "lastName": "Doriga",
+  "shortName": "Doriga",
+  "fullName": "Kiplin Doriga",
+  "displayName": "Kiplin Doriga",
+  "weight": 0,
+  "height": 0.0,
+  "age": 30,
+  "dateOfBirthStr": "1995-10-18T00:00Z",
+  "dateOfBirth": "1995-10-18T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "K Doriga",
+  "fieldingName": "Doriga",
+  "country": 20,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/20"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3147"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/646173.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/20.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PNG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/20"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/646173/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1124081/events/1126321"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1126516/events/1126321"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1124078/events/1126321"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1176790/events/1176792"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1176786/events/1176792"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1124081/events/1126524"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1124080/events/1126524"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870857/events/1126524"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1126516/events/1126321"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1124081/events/1126321"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1124078/events/1126321"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1176790/events/1176792"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1176786/events/1176792"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/700273/events/700347"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/701119/events/700347"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/701121/events/700347"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/646173.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

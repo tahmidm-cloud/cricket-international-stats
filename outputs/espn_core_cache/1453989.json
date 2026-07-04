@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1453989",
+  "id": "1453989",
+  "guid": "e91a172e-396d-3147-a7ab-dbb0d47363aa",
+  "uid": "s:200~a:1453989",
+  "type": "cricket",
+  "name": "Julang Dzulfikar",
+  "firstName": "Julang",
+  "middleName": "",
+  "lastName": "Dzulfikar",
+  "shortName": "Dzulfikar",
+  "fullName": "Julang Dzulfikar",
+  "displayName": "Julang Dzulfikar",
+  "weight": 0,
+  "height": 0.0,
+  "age": 26,
+  "dateOfBirthStr": "1999-08-23T00:00Z",
+  "dateOfBirth": "1999-08-23T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "J Dzulfikar",
+  "fieldingName": "Dzulfikar",
+  "country": 91,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/91"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/91.png",
+    "width": 500,
+    "height": 500,
+    "alt": "INA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/91"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1453989/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1453884/events/1453912"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1453886/events/1453912"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1453887/events/1453912"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1453884/events/1453912"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1453886/events/1453912"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1453887/events/1453912"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1453989.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

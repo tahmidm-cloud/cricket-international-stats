@@ -1,0 +1,90 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/91",
+  "id": "91",
+  "uid": "s:200~t:91",
+  "location": "Indonesia",
+  "name": "Indonesia",
+  "nickname": "Indonesia",
+  "abbreviation": "INA",
+  "displayName": "Indonesia",
+  "shortDisplayName": "INA",
+  "isNational": true,
+  "isActive": true,
+  "countryCode": "ID",
+  "slug": "indonesia",
+  "classes": [
+    3,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2026-06-26T05:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/24128/events/1541809"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/24128"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/91.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/91/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/91/indonesia",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/91/indonesia",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=142;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "players",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/country.html?country=142",
+      "text": "Players",
+      "shortText": "Players",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

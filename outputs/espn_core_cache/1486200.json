@@ -1,0 +1,111 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1486200",
+  "id": "1486200",
+  "guid": "609e695a-a0cc-31e2-8b6e-15a54fc7341d",
+  "uid": "s:200~a:1486200",
+  "type": "cricket",
+  "name": "Mansoor Safi",
+  "firstName": "Mansoor",
+  "middleName": "",
+  "lastName": "Safi",
+  "shortName": "",
+  "fullName": "Mansoor Safi",
+  "displayName": "Mansoor Safi",
+  "weight": 0,
+  "height": 0.0,
+  "age": 25,
+  "dateOfBirthStr": "2001-01-01T00:00Z",
+  "dateOfBirth": "2001-01-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Mansoor Safi",
+  "fieldingName": "Mansoor Safi",
+  "country": 41,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/41"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/41.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUT",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/41"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1486200/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1486222/events/1486225"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1486223/events/1486225"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1486222/events/1486225"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1486223/events/1486225"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1486200.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

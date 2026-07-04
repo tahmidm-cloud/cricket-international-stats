@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/49003",
+  "id": "49003",
+  "guid": "b7d5b5bd-618f-6cb1-56dc-25b93f755f54",
+  "uid": "s:200~a:49003",
+  "type": "cricket",
+  "name": "Roshan Guneratne",
+  "firstName": "Roshan",
+  "middleName": "",
+  "lastName": "Guneratne",
+  "shortName": "Guneratne",
+  "fullName": "Roshan Punyajith Wijesinghe Guneratne",
+  "displayName": "Roshan Guneratne",
+  "weight": 0,
+  "height": 0.0,
+  "age": 43,
+  "dateOfBirthStr": "1962-01-26T00:00Z",
+  "dateOfBirth": "1962-01-26T00:00Z",
+  "dateOfDeathStr": "2005-07-21T00:00Z",
+  "dateOfDeath": "2005-07-21T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "RPW Guneratne",
+  "fieldingName": "Guneratne",
+  "country": 8,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3506"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3560"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/8.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/49003/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60510/events/63342"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61412/events/63342"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/49003.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

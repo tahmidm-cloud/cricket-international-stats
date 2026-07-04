@@ -1,0 +1,64 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1523800",
+  "id": "1523800",
+  "uid": "s:200~t:1523800",
+  "location": "Pakistan",
+  "name": "Rawalpindiz",
+  "nickname": "Rawalpindiz",
+  "abbreviation": "RWP",
+  "displayName": "Rawalpindiz",
+  "shortDisplayName": "RWP",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "PK",
+  "slug": "rawalpindiz",
+  "classes": [
+    6
+  ],
+  "event": {
+    "date": "2026-04-26T09:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8679/events/1527590"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8679"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1523800.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1523800/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1523800/rawalpindiz",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1523800/rawalpindiz",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

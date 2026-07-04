@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1176980",
+  "id": "1176980",
+  "uid": "s:200~t:1176980",
+  "location": "Estonia",
+  "name": "Estonia XI",
+  "nickname": "Estonia XI",
+  "abbreviation": "ES-XI",
+  "displayName": "Estonia XI",
+  "shortDisplayName": "ES-XI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "EE",
+  "slug": "estonia-xi",
+  "classes": [
+    16
+  ],
+  "event": {
+    "date": "2019-03-31T12:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19149/events/1175349"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1176980.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1176980/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1176980/estonia-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1176980/estonia-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1301600",
+  "id": "1301600",
+  "guid": "747bba85-0705-3206-b509-84a6d9c6579a",
+  "uid": "s:200~a:1301600",
+  "type": "cricket",
+  "name": "Umer Toor",
+  "firstName": "Umer",
+  "middleName": "",
+  "lastName": "Toor",
+  "shortName": "Umer Toor",
+  "fullName": "Umer Imtiaz Toor",
+  "displayName": "Umer Toor",
+  "weight": 0,
+  "height": 0.0,
+  "age": 35,
+  "dateOfBirthStr": "1991-04-09T00:00Z",
+  "dateOfBirth": "1991-04-09T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "Umer Toor",
+  "fieldingName": "Umer Toor",
+  "country": 57,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/57"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/57.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BHR",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/57"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1301600/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1299562/events/1299569"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1299563/events/1299569"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1299556/events/1299569"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1451884/events/1451894"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1451888/events/1451894"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1451889/events/1451894"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1299556/events/1299569"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1299562/events/1299569"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1299563/events/1299569"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1301600.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

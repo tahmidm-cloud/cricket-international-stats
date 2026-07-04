@@ -1,0 +1,108 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/22496",
+  "id": "22496",
+  "guid": "55677710-c7c4-e388-89da-c99ad35b1b89",
+  "uid": "s:200~a:22496",
+  "type": "cricket",
+  "name": "Arthur Wood",
+  "firstName": "Arthur",
+  "middleName": "",
+  "lastName": "Wood",
+  "shortName": "Wood",
+  "fullName": "Arthur Wood",
+  "displayName": "Arthur Wood",
+  "weight": 0,
+  "height": 0,
+  "age": 74,
+  "dateOfBirthStr": "1898-08-25T00:00Z",
+  "dateOfBirth": "1898-08-25T00:00Z",
+  "dateOfDeathStr": "1973-04-01T00:00Z",
+  "dateOfDeath": "1973-04-01T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "A Wood",
+  "fieldingName": "Wood",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1464"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/22496/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60332/events/62652"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61342/events/62652"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/22496.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1283106",
+  "id": "1283106",
+  "guid": "392b5ed7-0b75-3894-8b6e-245e26f6ab6e",
+  "uid": "s:200~a:1283106",
+  "type": "cricket",
+  "name": "Mohleki Leoela",
+  "firstName": "Mohleki",
+  "middleName": "",
+  "lastName": "Leoela",
+  "shortName": "",
+  "fullName": "Mohleki Elias Leoela",
+  "displayName": "Mohleki Leoela",
+  "weight": 0,
+  "height": 0,
+  "age": 24,
+  "dateOfBirthStr": "2002-03-01T00:00Z",
+  "dateOfBirth": "2002-03-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "ME Leoela",
+  "fieldingName": "Leoela",
+  "country": 108,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/108"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/108.png",
+    "width": 500,
+    "height": 500,
+    "alt": "LES",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/108"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1283106/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1282997/events/1283036"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1283005/events/1283036"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1282997/events/1283036"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1283005/events/1283036"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1283106.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

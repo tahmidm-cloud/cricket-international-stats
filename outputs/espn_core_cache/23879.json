@@ -1,0 +1,154 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/23879",
+  "id": "23879",
+  "guid": "c20d51b9-992e-8745-f189-e4ea72d493a1",
+  "uid": "s:200~a:23879",
+  "type": "cricket",
+  "name": "Shaheed Keshvani",
+  "firstName": "Shaheed",
+  "middleName": "",
+  "lastName": "Keshvani",
+  "shortName": "Keshvani",
+  "fullName": "Shaheed Keshvani",
+  "displayName": "Shaheed Keshvani",
+  "weight": 0,
+  "height": 0.0,
+  "age": 42,
+  "dateOfBirthStr": "1984-05-23T00:00Z",
+  "dateOfBirth": "1984-05-23T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "S Keshvani",
+  "fieldingName": "Keshvani",
+  "country": 17,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/746"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/17.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/23879/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/408327/events/408621"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/408328/events/408621"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440214/events/440218"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440159/events/440218"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440158/events/440218"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/408325/events/408335"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/408327/events/408335"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/408328/events/408621"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/408327/events/408621"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440214/events/440213"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440159/events/440213"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/330025/events/330040"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/330026/events/330040"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/125288/events/330040"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/23879.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

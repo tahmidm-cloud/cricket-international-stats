@@ -1,0 +1,137 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24827",
+  "id": "24827",
+  "guid": "2d04f412-6d99-ae78-0957-86835836be1a",
+  "uid": "s:200~a:24827",
+  "type": "cricket",
+  "name": "Gerrie Snyman",
+  "firstName": "Gerrie",
+  "middleName": "",
+  "lastName": "Snyman",
+  "shortName": "Gerrie",
+  "fullName": "Gerrie Snyman",
+  "displayName": "Gerrie Snyman",
+  "weight": 0,
+  "height": 0.0,
+  "age": 45,
+  "dateOfBirthStr": "1981-04-30T00:00Z",
+  "dateOfBirth": "1981-04-30T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "G Snyman",
+  "fieldingName": "Snyman",
+  "country": 28,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/28"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/28.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NAM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/28"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24827/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62374/events/65236"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61124/events/65236"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/134115/events/305721"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/305730/events/305721"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/529473/events/529479"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/523800/events/529479"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/24827.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

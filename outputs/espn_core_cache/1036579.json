@@ -1,0 +1,105 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1036579",
+  "id": "1036579",
+  "guid": "732d9205-090a-dc39-3a6d-e0215d6c61db",
+  "uid": "s:200~a:1036579",
+  "type": "cricket",
+  "name": "Declan Martel",
+  "firstName": "Declan",
+  "middleName": "",
+  "lastName": "Martel",
+  "shortName": "Martel",
+  "fullName": "Declan E Martel",
+  "displayName": "Declan Martel",
+  "weight": 0,
+  "height": 0.0,
+  "age": 27,
+  "dateOfBirthStr": "1998-11-17T00:00Z",
+  "dateOfBirth": "1998-11-17T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [],
+  "styles": [],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "DE Martel",
+  "fieldingName": "Martel",
+  "country": 1043,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/303454"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1043.png",
+    "width": 500,
+    "height": 500,
+    "alt": "GUE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1043"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1036579/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1310140/events/1310161"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1310143/events/1310161"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1310145/events/1310161"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1310140/events/1310161"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1310143/events/1310161"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1310145/events/1310161"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1036579.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

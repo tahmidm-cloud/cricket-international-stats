@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1143151",
+  "id": "1143151",
+  "guid": "e867294c-0cec-54a2-47ac-99d8d8b4ea02",
+  "uid": "s:200~a:1143151",
+  "type": "cricket",
+  "name": "Muhammed Manga",
+  "firstName": "Muhammed",
+  "middleName": "",
+  "lastName": "Manga",
+  "shortName": "",
+  "fullName": "Muhammed Manga",
+  "displayName": "Muhammed Manga",
+  "weight": 0,
+  "height": 0.0,
+  "age": 24,
+  "dateOfBirthStr": "2001-12-03T00:00Z",
+  "dateOfBirth": "2001-12-03T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Muhammed Manga",
+  "fieldingName": "Muhammed Manga",
+  "country": 82,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/82"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/82.png",
+    "width": 500,
+    "height": 500,
+    "alt": "GMB",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/82"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1143151/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343729/events/1343771"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343739/events/1343771"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343723/events/1343771"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343723/events/1343771"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343729/events/1343771"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343739/events/1343771"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1143151.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

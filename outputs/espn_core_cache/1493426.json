@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1493426",
+  "id": "1493426",
+  "guid": "687b8cda-167e-3334-8ff1-9a46f4a0c90b",
+  "uid": "s:200~a:1493426",
+  "type": "cricket",
+  "name": "Christopher Stamp",
+  "firstName": "Christopher",
+  "middleName": "",
+  "lastName": "Stamp",
+  "shortName": "Stamp",
+  "fullName": "Christopher John Stamp",
+  "displayName": "Christopher Stamp",
+  "weight": 0,
+  "height": 0.0,
+  "age": 24,
+  "dateOfBirthStr": "2001-09-25T00:00Z",
+  "dateOfBirth": "2001-09-25T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "CJ Stamp",
+  "fieldingName": "Stamp",
+  "country": 128,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/128"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/128.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PHI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/128"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1493426/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1490852/events/1490877"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1490853/events/1490877"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1490851/events/1490877"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1490851/events/1490877"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1490852/events/1490877"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1490853/events/1490877"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1493426.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

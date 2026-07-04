@@ -1,0 +1,118 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55997",
+  "id": "55997",
+  "guid": "95f6c44d-0699-0d12-12ad-095b46479c51",
+  "uid": "s:200~a:55997",
+  "type": "cricket",
+  "name": "Mazharul Haque",
+  "firstName": "Mazharul",
+  "middleName": "",
+  "lastName": "Haque",
+  "shortName": "",
+  "fullName": "Mohammad Mazharul Haque Chowdhuri",
+  "displayName": "Mazharul Haque",
+  "weight": 0,
+  "height": 0.0,
+  "age": 32,
+  "dateOfBirthStr": "1980-07-03T00:00Z",
+  "dateOfBirth": "1980-07-03T00:00Z",
+  "dateOfDeathStr": "2013-04-03T00:00Z",
+  "dateOfDeath": "2013-04-03T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Mazharul Haque",
+  "fieldingName": "Mazharul Haque",
+  "country": 25,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/682"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/25.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55997/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61114/events/66187"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61419/events/66187"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62191/events/66187"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/55997.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

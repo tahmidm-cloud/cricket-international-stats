@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1082758",
+  "id": "1082758",
+  "guid": "1ea90c81-f82f-e58a-b3de-bea92cd239a5",
+  "uid": "s:200~a:1082758",
+  "type": "cricket",
+  "name": "Vimal Kumar",
+  "firstName": "Vimal",
+  "middleName": "",
+  "lastName": "Kumar",
+  "shortName": "",
+  "fullName": "Vimal Kumar",
+  "displayName": "Vimal Kumar",
+  "weight": 0,
+  "height": 0.0,
+  "age": 46,
+  "dateOfBirthStr": "1979-11-18T00:00Z",
+  "dateOfBirth": "1979-11-18T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Vimal Kumar",
+  "fieldingName": "Vimal Kumar",
+  "country": 128,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/128"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/128.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PHI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/128"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1082758/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1176786/events/1176795"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1176790/events/1176795"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1176786/events/1176795"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1176790/events/1176795"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1082758.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

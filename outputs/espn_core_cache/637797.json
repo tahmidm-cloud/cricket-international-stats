@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/637797",
+  "id": "637797",
+  "guid": "f90bc661-18d6-4a6f-9ce9-092e5f38f629",
+  "uid": "s:200~a:637797",
+  "type": "cricket",
+  "name": "Miniru Kpaka",
+  "firstName": "Miniru",
+  "middleName": "",
+  "lastName": "Kpaka",
+  "shortName": "Kpaka",
+  "fullName": "Miniru Kpaka",
+  "displayName": "Miniru Kpaka",
+  "weight": 0,
+  "height": 0.0,
+  "age": 29,
+  "dateOfBirthStr": "1996-08-28T00:00Z",
+  "dateOfBirth": "1996-08-28T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "M Kpaka",
+  "fieldingName": "Kpaka",
+  "country": 145,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/402768"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/145.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SLE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/145"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/637797/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1283086/events/1283089"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1283087/events/1283089"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1283086/events/1283089"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1283087/events/1283089"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/637797.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

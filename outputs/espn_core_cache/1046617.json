@@ -1,0 +1,99 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1046617",
+  "id": "1046617",
+  "guid": "ea5b50fb-56da-3215-9ce7-bdc1ce63d6c2",
+  "uid": "s:200~a:1046617",
+  "type": "cricket",
+  "name": "Adam Orfila",
+  "firstName": "Adam",
+  "middleName": "",
+  "lastName": "Orfila",
+  "shortName": "Orfila",
+  "fullName": "Adam Orfila",
+  "displayName": "Adam Orfila",
+  "weight": 0,
+  "height": 0.0,
+  "age": 39,
+  "dateOfBirthStr": "1986-12-12T00:00Z",
+  "dateOfBirth": "1986-12-12T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [],
+  "styles": [],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "A Orfila",
+  "fieldingName": "Orfila",
+  "country": 18,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/18"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/18.png",
+    "width": 500,
+    "height": 500,
+    "alt": "GIBR",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/18"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1046617/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1201664/events/1201673"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1201666/events/1201673"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1201664/events/1201673"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1201666/events/1201673"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1046617.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

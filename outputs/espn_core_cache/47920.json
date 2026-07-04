@@ -1,0 +1,111 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/47920",
+  "id": "47920",
+  "guid": "fa56a1d8-4c0c-9585-d1f9-fc4abe4d31d7",
+  "uid": "s:200~a:47920",
+  "type": "cricket",
+  "name": "Owen Wynne",
+  "firstName": "Owen",
+  "middleName": "",
+  "lastName": "Wynne",
+  "shortName": "Wynne",
+  "fullName": "Owen Edgar Wynne",
+  "displayName": "Owen Wynne",
+  "weight": 0,
+  "height": 0,
+  "age": 56,
+  "dateOfBirthStr": "1919-06-01T00:00Z",
+  "dateOfBirth": "1919-06-01T00:00Z",
+  "dateOfDeathStr": "1975-07-13T00:00Z",
+  "dateOfDeath": "1975-07-13T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "OE Wynne",
+  "fieldingName": "Wynne",
+  "country": 3,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3231"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3357"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/47920/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60344/events/62695"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61696/events/62695"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/47920.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

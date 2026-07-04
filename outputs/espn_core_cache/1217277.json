@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1217277",
+  "id": "1217277",
+  "guid": "16c8b3c3-6fc6-37be-9caa-c3b2d4d3915a",
+  "uid": "s:200~a:1217277",
+  "type": "cricket",
+  "name": "Arshad Mazarzei",
+  "firstName": "Arshad",
+  "middleName": "",
+  "lastName": "Mazarzei",
+  "shortName": "",
+  "fullName": "Arshad Mazarzei",
+  "displayName": "Arshad Mazarzei",
+  "weight": 0,
+  "height": 0.0,
+  "age": 38,
+  "dateOfBirthStr": "1987-07-23T00:00Z",
+  "dateOfBirth": "1987-07-23T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Arshad Mazarzei",
+  "fieldingName": "Arshad Mazarzei",
+  "country": 97,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/97"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/97.png",
+    "width": 500,
+    "height": 500,
+    "alt": "Iran",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/97"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1217277/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1215141/events/1215152"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1215144/events/1215152"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1211166/events/1215152"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1211166/events/1215152"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1215141/events/1215152"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1215144/events/1215152"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1217277.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

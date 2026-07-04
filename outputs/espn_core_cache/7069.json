@@ -1,0 +1,157 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/7069",
+  "id": "7069",
+  "guid": "5d52d5cc-c2c4-7eee-2b39-1f4f8afa3cae",
+  "uid": "s:200~a:7069",
+  "type": "cricket",
+  "name": "Steve O'Keefe",
+  "firstName": "Steve",
+  "middleName": "",
+  "lastName": "O'Keefe",
+  "shortName": "O'Keefe",
+  "fullName": "Stephen Norman John O'Keefe",
+  "displayName": "Steve O'Keefe",
+  "weight": 0,
+  "height": 1.75,
+  "age": 41,
+  "dateOfBirthStr": "1984-12-09T00:00Z",
+  "dateOfBirth": "1984-12-09T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "SNJ O'Keefe",
+  "fieldingName": "O'Keefe",
+  "country": 2,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/49"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/474668"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/387"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509673"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/7069.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/7069/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/727905/events/727927"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/727915/events/727927"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/727907/events/727927"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/426350/events/426393"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/426347/events/426393"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/426337/events/426393"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/222345/events/226234"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/222037/events/229988"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/361245/events/361322"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/125288/events/330040"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/330025/events/330040"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/330026/events/330040"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/7069.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

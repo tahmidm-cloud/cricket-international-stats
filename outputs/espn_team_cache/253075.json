@@ -1,0 +1,55 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/253075",
+  "id": "253075",
+  "uid": "s:200~t:253075",
+  "location": "India",
+  "name": "India Emerging Players",
+  "nickname": "India Emerging Players",
+  "abbreviation": "IEP",
+  "displayName": "India Emerging Players",
+  "shortDisplayName": "IEP",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "india-emerging-players",
+  "classes": [
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2011-08-10T23:45Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8744/events/516202"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/253075/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/253075/india-emerging-players",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/253075/india-emerging-players",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

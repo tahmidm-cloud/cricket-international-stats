@@ -1,0 +1,108 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/51223",
+  "id": "51223",
+  "guid": "74e67454-ceec-b268-e3e4-a3a38b482bb5",
+  "uid": "s:200~a:51223",
+  "type": "cricket",
+  "name": "Alfie Binns",
+  "firstName": "Alfie",
+  "middleName": "",
+  "lastName": "Binns",
+  "shortName": "Binns",
+  "fullName": "Alfred Phillip Binns",
+  "displayName": "Alfie Binns",
+  "weight": 0,
+  "height": 0.0,
+  "age": 88,
+  "dateOfBirthStr": "1929-07-24T00:00Z",
+  "dateOfBirth": "1929-07-24T00:00Z",
+  "dateOfDeathStr": "2017-12-29T00:00Z",
+  "dateOfDeath": "2017-12-29T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "AP Binns",
+  "fieldingName": "Binns",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3751"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/51223/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60357/events/62751"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62316/events/62751"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/51223.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

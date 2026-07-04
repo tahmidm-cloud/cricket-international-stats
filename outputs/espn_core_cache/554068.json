@@ -1,0 +1,130 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/554068",
+  "id": "554068",
+  "guid": "bc6e2ee6-ae2b-90ae-966f-c39b82a758ee",
+  "uid": "s:200~a:554068",
+  "type": "cricket",
+  "name": "Amjad Mahboob",
+  "firstName": "Amjad",
+  "middleName": "",
+  "lastName": "Mahboob",
+  "shortName": "",
+  "fullName": "Amjad Mahboob",
+  "displayName": "Amjad Mahboob",
+  "weight": 0,
+  "height": 0.0,
+  "age": 45,
+  "dateOfBirthStr": "1981-02-16T00:00Z",
+  "dateOfBirth": "1981-02-16T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "Amjad Mahboob",
+  "fieldingName": "Amjad Mahboob",
+  "country": 23,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/23"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/23.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SGP",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/23"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/554068/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1190757/events/1190767"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1190756/events/1190767"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1200432/events/1200439"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1200434/events/1200439"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1200435/events/1200439"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1190756/events/1190767"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1190757/events/1190767"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/554068.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

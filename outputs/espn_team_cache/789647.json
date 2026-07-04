@@ -1,0 +1,67 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/789647",
+  "id": "789647",
+  "uid": "s:200~t:789647",
+  "location": "Afghanistan",
+  "name": "Speen Ghar Region",
+  "nickname": "Speen Ghar Region",
+  "abbreviation": "SGR",
+  "displayName": "Speen Ghar Region",
+  "shortDisplayName": "SGR",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AF",
+  "slug": "speen-ghar-region",
+  "classes": [
+    4,
+    5,
+    6,
+    14
+  ],
+  "event": {
+    "date": "2026-06-04T04:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/17954/events/1536548"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/17954"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/789647.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/789647/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/789647/speen-ghar-region",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/789647/speen-ghar-region",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

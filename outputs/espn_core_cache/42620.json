@@ -1,0 +1,161 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/42620",
+  "id": "42620",
+  "guid": "823b382a-66d4-5f61-65e3-5b1a98c4ad71",
+  "uid": "s:200~a:42620",
+  "type": "cricket",
+  "name": "Saleem Elahi",
+  "firstName": "Saleem",
+  "middleName": "",
+  "lastName": "Elahi",
+  "shortName": "",
+  "fullName": "Saleem Elahi",
+  "displayName": "Saleem Elahi",
+  "weight": 0,
+  "height": 0.0,
+  "age": 49,
+  "dateOfBirthStr": "1976-11-21T00:00Z",
+  "dateOfBirth": "1976-11-21T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "Saleem Elahi",
+  "fieldingName": "Saleem Elahi",
+  "country": 7,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/41262"
+      },
+      "relation": "Brother"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/43701"
+      },
+      "relation": "Brother"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/384524"
+      },
+      "relation": "Nephew"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2747"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2833"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3128"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/7.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAK",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/42620/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61485/events/63697"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60624/events/63697"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60973/events/64497"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61635/events/64497"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326612/events/326615"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326609/events/326615"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326610/events/326616"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326609/events/326616"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/42620.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

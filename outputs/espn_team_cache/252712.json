@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/252712",
+  "id": "252712",
+  "uid": "s:200~t:252712",
+  "location": "West Indies",
+  "name": "St Lucia",
+  "nickname": "St Lucia",
+  "abbreviation": "St Lu",
+  "displayName": "St Lucia",
+  "shortDisplayName": "St Lu",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "st-lucia",
+  "classes": [
+    "6"
+  ],
+  "event": {
+    "date": "2008-02-02T23:15Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18839/events/300883"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/252712/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/252712/st-lucia",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/252712/st-lucia",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

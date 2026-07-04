@@ -1,0 +1,130 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/29533",
+  "id": "29533",
+  "guid": "d54f7e52-3777-daec-118f-44b986171b4b",
+  "uid": "s:200~a:29533",
+  "type": "cricket",
+  "name": "Prince Indrajitsinhji",
+  "firstName": "Prince",
+  "middleName": "",
+  "lastName": "Indrajitsinhji",
+  "shortName": "",
+  "fullName": "Kumar Shri Madhavsinhji Jadeja Indrajitsinhji",
+  "displayName": "Prince Indrajitsinhji",
+  "weight": 0,
+  "height": 0.0,
+  "age": 73,
+  "dateOfBirthStr": "1937-06-15T00:00Z",
+  "dateOfBirth": "1937-06-15T00:00Z",
+  "dateOfDeathStr": "2011-03-12T00:00Z",
+  "dateOfDeath": "2011-03-12T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "KS Indrajitsinhji",
+  "fieldingName": "Indrajitsinhji",
+  "country": 6,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/19331"
+      },
+      "relation": "Uncle"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/35240"
+      },
+      "relation": "Cousin"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/29260"
+      },
+      "relation": "Cousin"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1668"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2070"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/29533/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60403/events/62952"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61420/events/62952"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/29533.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

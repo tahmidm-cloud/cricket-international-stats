@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1382877",
+  "id": "1382877",
+  "uid": "s:200~t:1382877",
+  "location": "Sri Lanka",
+  "name": "Galle Gallants",
+  "nickname": "Galle Gallants",
+  "abbreviation": "GAG",
+  "displayName": "Galle Gallants",
+  "shortDisplayName": "GAG",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "galle-gallants",
+  "classes": [
+    6
+  ],
+  "event": {
+    "date": "2026-07-17T14:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19943/events/1537331"
+  },
+  "color": "#0ed879",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1382877.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1382877/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1382877/galle-gallants",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1382877/galle-gallants",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

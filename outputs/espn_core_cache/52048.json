@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52048",
+  "id": "52048",
+  "guid": "fe47c6cc-e5fd-37ef-523b-d63de4950168",
+  "uid": "s:200~a:52048",
+  "type": "cricket",
+  "name": "Robert Haynes",
+  "firstName": "Robert",
+  "middleName": "",
+  "lastName": "Haynes",
+  "shortName": "Haynes",
+  "fullName": "Robert Christopher Haynes",
+  "displayName": "Robert Haynes",
+  "weight": 0,
+  "height": 0.0,
+  "age": 61,
+  "dateOfBirthStr": "1964-11-02T00:00Z",
+  "dateOfBirth": "1964-11-02T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "RC Haynes",
+  "fieldingName": "Haynes",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3751"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52048/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60897/events/65850"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61548/events/65850"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61962/events/65850"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325134/events/325136"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325133/events/325136"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/52048.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

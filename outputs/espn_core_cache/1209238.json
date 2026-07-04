@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1209238",
+  "id": "1209238",
+  "guid": "0d99fd67-6b55-309f-a791-596d4a155c85",
+  "uid": "s:200~a:1209238",
+  "type": "cricket",
+  "name": "Assad Borham",
+  "firstName": "Assad",
+  "middleName": "",
+  "lastName": "Borham",
+  "shortName": "",
+  "fullName": "Mohammed Assad Fazeer Borham",
+  "displayName": "Assad Borham",
+  "weight": 0,
+  "height": 0.0,
+  "age": 33,
+  "dateOfBirthStr": "1992-08-10T00:00Z",
+  "dateOfBirth": "1992-08-10T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Assad Borham",
+  "fieldingName": "Assad Borham",
+  "country": 136,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/136"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1208512"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/136.png",
+    "width": 500,
+    "height": 500,
+    "alt": "QAT",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/136"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1209238/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343824/events/1349379"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343828/events/1349379"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1349323/events/1349379"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1326336/events/1326347"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1200432/events/1326347"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343824/events/1349379"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343828/events/1349379"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1349323/events/1349379"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1209238.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

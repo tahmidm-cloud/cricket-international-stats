@@ -1,0 +1,151 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/594235",
+  "id": "594235",
+  "guid": "ab1c0b34-e398-79aa-61c3-bd574cf106f5",
+  "uid": "s:200~a:594235",
+  "type": "cricket",
+  "name": "Tshepo Moreki",
+  "firstName": "Tshepo",
+  "middleName": "",
+  "lastName": "Moreki",
+  "shortName": "Moreki",
+  "fullName": "Tshepo Lebohang Moreki",
+  "displayName": "Tshepo Moreki",
+  "weight": 0,
+  "height": 0.0,
+  "age": 32,
+  "dateOfBirthStr": "1993-10-07T00:00Z",
+  "dateOfBirth": "1993-10-07T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "TL Moreki",
+  "fieldingName": "Moreki",
+  "country": 3,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3360"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3245"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3247"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3304"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3324"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3357"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/594235/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1345943/events/1388221"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1388186/events/1388221"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1388187/events/1388221"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/577788/events/577842"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/670059/events/670267"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/577790/events/577959"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/593024/events/593033"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/593026/events/593033"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/594235.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

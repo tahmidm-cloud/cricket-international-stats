@@ -1,0 +1,111 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1453230",
+  "id": "1453230",
+  "guid": "dcb22d65-a2a5-3127-bf20-c2baa33880ce",
+  "uid": "s:200~a:1453230",
+  "type": "cricket",
+  "name": "Rhys Hartley",
+  "firstName": "Rhys",
+  "middleName": "",
+  "lastName": "Hartley",
+  "shortName": "Hartley",
+  "fullName": "Rhys Wiliam Hartley",
+  "displayName": "Rhys Hartley",
+  "weight": 0,
+  "height": 0.0,
+  "age": 32,
+  "dateOfBirthStr": "1994-03-14T00:00Z",
+  "dateOfBirth": "1994-03-14T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "RW Hartley",
+  "fieldingName": "Hartley",
+  "country": 891143,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/891143"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/891143.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SRB",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/891143"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1453230/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1452621/events/1452624"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1452622/events/1452624"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1452621/events/1452624"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1452622/events/1452624"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1453230.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

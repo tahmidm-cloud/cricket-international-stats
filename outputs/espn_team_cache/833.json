@@ -1,0 +1,56 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/833",
+  "id": "833",
+  "uid": "s:200~t:833",
+  "location": "England",
+  "name": "British Universities",
+  "nickname": "British Universities",
+  "abbreviation": "",
+  "displayName": "British Universities",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "british-universities",
+  "classes": [
+    "4",
+    "5",
+    "14",
+    "15"
+  ],
+  "event": {
+    "date": "2006-04-24T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/14638/events/225267"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/833/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/833/british-universities",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/833/british-universities",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

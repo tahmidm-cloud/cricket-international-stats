@@ -1,0 +1,149 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/4561",
+  "id": "4561",
+  "guid": "51425db9-5254-adc1-5bf7-34cb247daa87",
+  "uid": "s:200~a:4561",
+  "type": "cricket",
+  "name": "Trevor Chappell",
+  "firstName": "Trevor",
+  "middleName": "",
+  "lastName": "Chappell",
+  "shortName": "Chappell",
+  "fullName": "Trevor Martin Chappell",
+  "displayName": "Trevor Chappell",
+  "weight": 0,
+  "height": 0.0,
+  "age": 73,
+  "dateOfBirthStr": "1952-10-12T00:00Z",
+  "dateOfBirth": "1952-10-12T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT",
+    "id": "BT",
+    "name": "Batter",
+    "abbreviation": "BT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT"
+    }
+  },
+  "battingName": "TM Chappell",
+  "fieldingName": "Chappell",
+  "country": 2,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/7346"
+      },
+      "relation": "Grandfather"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/4560"
+      },
+      "relation": "Brother"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/4558"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/387"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/520"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/602"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/4561/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61357/events/63289"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60495/events/63289"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60812/events/65300"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62084/events/65300"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/4561.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

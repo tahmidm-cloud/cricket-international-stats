@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3163",
+  "id": "3163",
+  "uid": "s:200~t:3163",
+  "location": "South Africa",
+  "name": "Boland Academy",
+  "nickname": "Boland Academy",
+  "abbreviation": "",
+  "displayName": "Boland Academy",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZA",
+  "slug": "boland-academy",
+  "classes": [
+    "15"
+  ],
+  "event": {
+    "date": "2009-03-20T08:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/13703/events/396581"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3163/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3163/boland-academy",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3163/boland-academy",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

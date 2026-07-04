@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/387032",
+  "id": "387032",
+  "guid": "8c567c07-4872-1648-4cc5-132e929bb083",
+  "uid": "s:200~a:387032",
+  "type": "cricket",
+  "name": "Sonam Tobgay",
+  "firstName": "Sonam",
+  "middleName": "",
+  "lastName": "Tobgay",
+  "shortName": "Tobgay",
+  "fullName": "Sonam Tobgay",
+  "displayName": "Sonam Tobgay",
+  "weight": 0,
+  "height": 0.0,
+  "age": 36,
+  "dateOfBirthStr": "1990-03-25T00:00Z",
+  "dateOfBirth": "1990-03-25T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "S Tobgay",
+  "fieldingName": "Tobgay",
+  "country": 61,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/61"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/387028"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/385278"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/61.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BHU",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/61"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/387032/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1208598/events/1208606"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1208602/events/1208606"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1208598/events/1208606"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1208602/events/1208606"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/387032.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

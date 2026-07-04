@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1163304",
+  "id": "1163304",
+  "uid": "s:200~t:1163304",
+  "location": "United Arab Emirates",
+  "name": "Rajputs",
+  "nickname": "Rajputs",
+  "abbreviation": "RAJ",
+  "displayName": "Rajputs",
+  "shortDisplayName": "RAJ",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AE",
+  "slug": "rajputs",
+  "classes": [
+    "16"
+  ],
+  "event": {
+    "date": "2018-11-30T13:45Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18522/events/1163328"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1163304.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1163304/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1163304/rajputs",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1163304/rajputs",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

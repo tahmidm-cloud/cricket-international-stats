@@ -1,0 +1,108 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38743",
+  "id": "38743",
+  "guid": "58186095-c254-7bdb-2950-8b9954cce52f",
+  "uid": "s:200~a:38743",
+  "type": "cricket",
+  "name": "Les Watt",
+  "firstName": "Les",
+  "middleName": "",
+  "lastName": "Watt",
+  "shortName": "Watt",
+  "fullName": "Leslie Watt",
+  "displayName": "Les Watt",
+  "weight": 0,
+  "height": 0,
+  "age": 72,
+  "dateOfBirthStr": "1924-09-17T00:00Z",
+  "dateOfBirth": "1924-09-17T00:00Z",
+  "dateOfDeathStr": "1996-11-15T00:00Z",
+  "dateOfDeath": "1996-11-15T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "L Watt",
+  "fieldingName": "Watt",
+  "country": 5,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2570"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38743/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60365/events/62787"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61780/events/62787"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/38743.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

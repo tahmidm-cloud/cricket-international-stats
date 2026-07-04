@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/8222",
+  "id": "8222",
+  "guid": "a5bfd8a7-2ae5-69c8-3ba4-8c8c36d4e73c",
+  "uid": "s:200~a:8222",
+  "type": "cricket",
+  "name": "Bill Whitty",
+  "firstName": "Bill",
+  "middleName": "",
+  "lastName": "Whitty",
+  "shortName": "Whitty",
+  "fullName": "William James Whitty",
+  "displayName": "Bill Whitty",
+  "weight": 0,
+  "height": 0,
+  "age": 87,
+  "dateOfBirthStr": "1886-08-15T00:00Z",
+  "dateOfBirth": "1886-08-15T00:00Z",
+  "dateOfDeathStr": "1974-01-30T00:00Z",
+  "dateOfDeath": "1974-01-30T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm fast-medium",
+      "shortDescription": "Lfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm fast-medium",
+      "shortDescription": "Lfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "WJ Whitty",
+  "fieldingName": "Whitty",
+  "country": 2,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/387"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/520"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/8222/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60292/events/62496"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61356/events/62496"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/8222.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

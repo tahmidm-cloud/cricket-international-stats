@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/266268",
+  "id": "266268",
+  "guid": "58853685-351d-5bf9-08bd-c5b255caecf0",
+  "uid": "s:200~a:266268",
+  "type": "cricket",
+  "name": "Pite van Biljon",
+  "firstName": "Pite",
+  "middleName": "",
+  "lastName": "Biljon",
+  "shortName": "van Biljon",
+  "fullName": "Petrus Johannes van Biljon",
+  "displayName": "Pite van Biljon",
+  "weight": 0,
+  "height": 0.0,
+  "age": 40,
+  "dateOfBirthStr": "1986-04-15T00:00Z",
+  "dateOfBirth": "1986-04-15T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "PJ van Biljon",
+  "fieldingName": "van Biljon",
+  "country": 3,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3208"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3222"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3202"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3265"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/362855"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/266268.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/266268/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1185293/events/1185316"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1185294/events/1185316"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/256850/events/257115"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/256852/events/257223"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/528285/events/529820"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/266268.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

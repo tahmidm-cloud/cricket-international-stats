@@ -1,0 +1,118 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24776",
+  "id": "24776",
+  "guid": "6ef84c41-aeb1-1b48-ccc6-2e158c42b078",
+  "uid": "s:200~a:24776",
+  "type": "cricket",
+  "name": "Brijal Patel",
+  "firstName": "Brijal",
+  "middleName": "",
+  "lastName": "Patel",
+  "shortName": "Patel",
+  "fullName": "Brijal Jagdish Patel",
+  "displayName": "Brijal Patel",
+  "weight": 0,
+  "height": 0.0,
+  "age": 48,
+  "dateOfBirthStr": "1977-11-14T00:00Z",
+  "dateOfBirth": "1977-11-14T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "BJ Patel",
+  "fieldingName": "Patel",
+  "country": 26,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/26"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2299"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/24776.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/26.png",
+    "width": 500,
+    "height": 500,
+    "alt": "KENYA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/26"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24776/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61091/events/64724"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61953/events/64724"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/24776.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

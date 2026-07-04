@@ -1,0 +1,88 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/103",
+  "id": "103",
+  "uid": "s:200~t:103",
+  "location": "Saudi Arabia",
+  "name": "Saudi Arabia",
+  "nickname": "Saudi Arabia",
+  "abbreviation": "KSA",
+  "displayName": "Saudi Arabia",
+  "shortDisplayName": "KSA",
+  "isNational": true,
+  "isActive": true,
+  "countryCode": "SA",
+  "slug": "saudi-arabia",
+  "classes": [
+    3,
+    5,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2025-07-23T15:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/23767/events/1494769"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/103.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/103/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/103/saudi-arabia",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/103/saudi-arabia",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=154;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "players",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/country.html?country=154",
+      "text": "Players",
+      "shortText": "Players",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

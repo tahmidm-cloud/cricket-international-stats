@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1441658",
+  "id": "1441658",
+  "guid": "9f0bb3e4-fc1a-31f0-8a55-6cd6ab77ef41",
+  "uid": "s:200~a:1441658",
+  "type": "cricket",
+  "name": "Dinesh Matla",
+  "firstName": "Dinesh",
+  "middleName": "",
+  "lastName": "Matla",
+  "shortName": "Matla",
+  "fullName": "Dinesh Matla",
+  "displayName": "Dinesh Matla",
+  "weight": 0,
+  "height": 0.0,
+  "age": 31,
+  "dateOfBirthStr": "1994-08-27T00:00Z",
+  "dateOfBirth": "1994-08-27T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "D Matla",
+  "fieldingName": "Matla",
+  "country": 146,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/146"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/146.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SVN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/146"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1441658/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1440127/events/1440134"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1440128/events/1440134"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1440127/events/1440134"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1440128/events/1440134"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1441658.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

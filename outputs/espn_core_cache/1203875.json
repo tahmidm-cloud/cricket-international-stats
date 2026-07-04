@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1203875",
+  "id": "1203875",
+  "guid": "bfe4d619-f35f-331c-a88f-06e4e1569253",
+  "uid": "s:200~a:1203875",
+  "type": "cricket",
+  "name": "Nemanja Zimonjic",
+  "firstName": "Nemanja",
+  "middleName": "",
+  "lastName": "Zimonjic",
+  "shortName": "Zimonjic",
+  "fullName": "Nemanja Zimonjic",
+  "displayName": "Nemanja Zimonjic",
+  "weight": 0,
+  "height": 0.0,
+  "age": 22,
+  "dateOfBirthStr": "2003-11-15T00:00Z",
+  "dateOfBirth": "2003-11-15T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "N Zimonjic",
+  "fieldingName": "Zimonjic",
+  "country": 891143,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/891143"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/891143.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SRB",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/891143"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1203875/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1267300/events/1267305"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1267303/events/1267305"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1267300/events/1267305"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1267303/events/1267305"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1203875.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

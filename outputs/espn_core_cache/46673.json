@@ -1,0 +1,108 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/46673",
+  "id": "46673",
+  "guid": "b7758746-f4cb-82c0-3c10-bb6c691b9f2a",
+  "uid": "s:200~a:46673",
+  "type": "cricket",
+  "name": "Arthur Ochse",
+  "firstName": "Arthur",
+  "middleName": "",
+  "lastName": "Ochse",
+  "shortName": "Ochse",
+  "fullName": "Arthur Edward Ochse",
+  "displayName": "Arthur Ochse",
+  "weight": 0,
+  "height": 0.0,
+  "age": 48,
+  "dateOfBirthStr": "1870-03-11T00:00Z",
+  "dateOfBirth": "1870-03-11T00:00Z",
+  "dateOfDeathStr": "1918-04-11T00:00Z",
+  "dateOfDeath": "1918-04-11T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "AE Ochse",
+  "fieldingName": "Ochse",
+  "country": 3,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3231"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/46673/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60273/events/62426"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61689/events/62426"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/46673.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

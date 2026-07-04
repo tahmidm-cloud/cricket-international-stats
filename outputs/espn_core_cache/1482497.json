@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1482497",
+  "id": "1482497",
+  "guid": "174595e3-34c7-383c-9a59-22bb5d419e7a",
+  "uid": "s:200~a:1482497",
+  "type": "cricket",
+  "name": "Imtiaz Khan",
+  "firstName": "Imtiaz",
+  "middleName": "",
+  "lastName": "Khan",
+  "shortName": "",
+  "fullName": "Imtiaz Khan",
+  "displayName": "Imtiaz Khan",
+  "weight": 0,
+  "height": 0.0,
+  "age": 27,
+  "dateOfBirthStr": "1999-04-05T00:00Z",
+  "dateOfBirth": "1999-04-05T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Imtiaz Khan",
+  "fieldingName": "Imtiaz Khan",
+  "country": 103,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/103"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/103.png",
+    "width": 500,
+    "height": 500,
+    "alt": "KSA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/103"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1482497/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1482081/events/1482088"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1482082/events/1482088"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1482084/events/1482088"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1482081/events/1482088"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1482082/events/1482088"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1482084/events/1482088"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1482497.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

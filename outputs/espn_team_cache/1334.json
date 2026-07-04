@@ -1,0 +1,58 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1334",
+  "id": "1334",
+  "uid": "s:200~t:1334",
+  "location": "England",
+  "name": "Somerset 2nd XI",
+  "nickname": "Somerset 2nd XI",
+  "abbreviation": "So2XI",
+  "displayName": "Somerset 2nd XI",
+  "shortDisplayName": "So2XI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "somerset-2nd-xi",
+  "classes": [
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2026-06-30T10:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8861/events/1534512"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8861"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1334/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1334/somerset-2nd-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1334/somerset-2nd-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

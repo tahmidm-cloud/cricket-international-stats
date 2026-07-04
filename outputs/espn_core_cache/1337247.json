@@ -1,0 +1,120 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1337247",
+  "id": "1337247",
+  "guid": "a8004a1c-93ef-3285-ab58-9fd8d7561630",
+  "uid": "s:200~a:1337247",
+  "type": "cricket",
+  "name": "Karma Dorji",
+  "firstName": "Karma",
+  "middleName": "",
+  "lastName": "Dorji",
+  "shortName": "",
+  "fullName": "Karma Dorji",
+  "displayName": "Karma Dorji",
+  "weight": 0,
+  "height": 0.0,
+  "age": 19,
+  "dateOfBirthStr": "2006-08-25T00:00Z",
+  "dateOfBirth": "2006-08-25T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Karma Dorji",
+  "fieldingName": "Karma Dorji",
+  "country": 61,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/61"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/385278"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/61.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BHU",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/61"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1337247/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383057/events/1383102"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383059/events/1383102"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383060/events/1383102"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383057/events/1383102"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383059/events/1383102"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383060/events/1383102"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1337247.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

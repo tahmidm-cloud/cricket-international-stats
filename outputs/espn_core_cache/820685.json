@@ -1,0 +1,159 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/820685",
+  "id": "820685",
+  "guid": "05ab7add-9e5f-abdd-0ec1-29b155e42fd9",
+  "uid": "s:200~a:820685",
+  "type": "cricket",
+  "name": "Nicholas Kirton",
+  "firstName": "Nicholas",
+  "middleName": "",
+  "lastName": "Kirton",
+  "shortName": "Kirton",
+  "fullName": "Nicholas Rasheed Kirton",
+  "displayName": "Nicholas Kirton",
+  "weight": 0,
+  "height": 0.0,
+  "age": 28,
+  "dateOfBirthStr": "1998-05-06T00:00Z",
+  "dateOfBirth": "1998-05-06T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BTA",
+    "id": "BTA",
+    "name": "Batting allrounder",
+    "abbreviation": "BTA",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BTA"
+    }
+  },
+  "battingName": "NR Kirton",
+  "fieldingName": "Kirton",
+  "country": 17,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3719"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3723"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/315248"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/642415"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1150152"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1150150"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3812"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/17.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/820685/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1365091/events/1365094"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1365090/events/1365094"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1365085/events/1365094"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1199473/events/1199509"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1199487/events/1199509"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1199490/events/1199509"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1167366/events/1167378"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1133927/events/1133931"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1133922/events/1133931"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1133928/events/1133931"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1199490/events/1199509"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1199487/events/1199509"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1199473/events/1199509"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/820685.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

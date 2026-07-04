@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/51235",
+  "id": "51235",
+  "guid": "491f6e19-0e5e-f55a-90e8-fc0076644dfc",
+  "uid": "s:200~a:51235",
+  "type": "cricket",
+  "name": "Hendy Bryan",
+  "firstName": "Hendy",
+  "middleName": "",
+  "lastName": "Bryan",
+  "shortName": "Bryan",
+  "fullName": "Henderson Ricardo Bryan",
+  "displayName": "Hendy Bryan",
+  "weight": 0,
+  "height": 0.0,
+  "age": 56,
+  "dateOfBirthStr": "1970-03-17T00:00Z",
+  "dateOfBirth": "1970-03-17T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "HR Bryan",
+  "fieldingName": "Bryan",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3719"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3228"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/51235/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61045/events/64618"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61383/events/64618"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/51235.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/505204",
+  "id": "505204",
+  "uid": "s:200~t:505204",
+  "location": "England",
+  "name": "Unicorns A",
+  "nickname": "Unicorns A",
+  "abbreviation": "UniA",
+  "displayName": "Unicorns A",
+  "shortDisplayName": "UniA",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "unicorns-a",
+  "classes": [
+    15,
+    16
+  ],
+  "event": {
+    "date": "2013-08-27T11:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8860/events/603979"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/505204/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/505204/unicorns-a",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/505204/unicorns-a",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

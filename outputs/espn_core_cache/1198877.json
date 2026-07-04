@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1198877",
+  "id": "1198877",
+  "guid": "7da978d9-1e14-6694-8cce-6ff2abe55191",
+  "uid": "s:200~a:1198877",
+  "type": "cricket",
+  "name": "Abdullah Akbarjan",
+  "firstName": "Abdullah",
+  "middleName": "",
+  "lastName": "Akbarjan",
+  "shortName": "",
+  "fullName": "Abdullah Akbarjan",
+  "displayName": "Abdullah Akbarjan",
+  "weight": 0,
+  "height": 0.0,
+  "age": 36,
+  "dateOfBirthStr": "1990-01-01T00:00Z",
+  "dateOfBirth": "1990-01-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Abdullah Akbarjan",
+  "fieldingName": "Abdullah Akbarjan",
+  "country": 41,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/41"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/41.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUT",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/41"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1198877/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197819/events/1197842"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197821/events/1197842"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197819/events/1197842"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197821/events/1197842"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1198877.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

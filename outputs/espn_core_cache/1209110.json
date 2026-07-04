@@ -1,0 +1,151 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1209110",
+  "id": "1209110",
+  "guid": "dff9a221-0567-38e7-bd4c-b60c05d9f774",
+  "uid": "s:200~a:1209110",
+  "type": "cricket",
+  "name": "Basil Hameed",
+  "firstName": "Basil",
+  "middleName": "",
+  "lastName": "Hameed",
+  "shortName": "",
+  "fullName": "Basil Hameed",
+  "displayName": "Basil Hameed",
+  "weight": 0,
+  "height": 0.0,
+  "age": 34,
+  "dateOfBirthStr": "1992-04-15T00:00Z",
+  "dateOfBirth": "1992-04-15T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "Basil Hameed",
+  "fieldingName": "Basil Hameed",
+  "country": 27,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1346027"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1328788"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1344977"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1133698"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/1209110.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/27.png",
+    "width": 500,
+    "height": 500,
+    "alt": "UAE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1209110/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1206056/events/1206059"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1196667/events/1206059"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1211166/events/1215152"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1215141/events/1215152"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1215144/events/1215152"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1196667/events/1206059"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1206056/events/1206059"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1211166/events/1215152"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1215141/events/1215152"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1215144/events/1215152"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1209110.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

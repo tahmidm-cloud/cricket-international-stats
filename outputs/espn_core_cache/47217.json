@@ -1,0 +1,146 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/47217",
+  "id": "47217",
+  "guid": "86e98263-4c5b-2011-2773-e34c0c332b38",
+  "uid": "s:200~a:47217",
+  "type": "cricket",
+  "name": "Tip Snooke",
+  "firstName": "Tip",
+  "middleName": "",
+  "lastName": "Snooke",
+  "shortName": "Snooke",
+  "fullName": "Sibley John Snooke",
+  "displayName": "Tip Snooke",
+  "weight": 0,
+  "height": 0.0,
+  "age": 85,
+  "dateOfBirthStr": "1881-02-01T00:00Z",
+  "dateOfBirth": "1881-02-01T00:00Z",
+  "dateOfDeathStr": "1966-08-14T00:00Z",
+  "dateOfDeath": "1966-08-14T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "SJ Snooke",
+  "fieldingName": "Snooke",
+  "country": 3,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/47216"
+      },
+      "relation": "Brother"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/46317"
+      },
+      "relation": "Grandson"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/46192"
+      },
+      "relation": "Grandson"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3168"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1166"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3231"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3357"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/47217/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60289/events/62483"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61692/events/62483"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/47217.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

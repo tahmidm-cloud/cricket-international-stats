@@ -1,0 +1,58 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/925",
+  "id": "925",
+  "uid": "s:200~t:925",
+  "location": "England",
+  "name": "Durham 2nd XI",
+  "nickname": "Durham 2nd XI",
+  "abbreviation": "Du2XI",
+  "displayName": "Durham 2nd XI",
+  "shortDisplayName": "Du2XI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "durham-2nd-xi",
+  "classes": [
+    "14",
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2026-07-02T10:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8861/events/1534494"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8861"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/925/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/925/durham-2nd-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/925/durham-2nd-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/34814",
+  "id": "34814",
+  "guid": "4d4bdc80-ec24-5902-59cc-543c2d16ec1c",
+  "uid": "s:200~a:34814",
+  "type": "cricket",
+  "name": "Surendra Nath",
+  "firstName": "Surendra",
+  "middleName": "",
+  "lastName": "Nath",
+  "shortName": "Surendra Nath",
+  "fullName": "Surendra Nath",
+  "displayName": "Surendra Nath",
+  "weight": 0,
+  "height": 0.0,
+  "age": 75,
+  "dateOfBirthStr": "1937-01-04T00:00Z",
+  "dateOfBirth": "1937-01-04T00:00Z",
+  "dateOfDeathStr": "2012-05-05T00:00Z",
+  "dateOfDeath": "2012-05-05T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Surendranath",
+  "fieldingName": "Surendranath",
+  "country": 6,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2119"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/34814/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60379/events/62847"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61948/events/62847"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/34814.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

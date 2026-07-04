@@ -1,0 +1,132 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/873205",
+  "id": "873205",
+  "guid": "938aabb6-c95e-6a75-cca3-ee96a4477400",
+  "uid": "s:200~a:873205",
+  "type": "cricket",
+  "name": "Scott Cameron",
+  "firstName": "Scott",
+  "middleName": "",
+  "lastName": "Cameron",
+  "shortName": "Cameron",
+  "fullName": "Scott James Cameron",
+  "displayName": "Scott Cameron",
+  "weight": 0,
+  "height": 0.0,
+  "age": 29,
+  "dateOfBirthStr": "1996-09-24T00:00Z",
+  "dateOfBirth": "1996-09-24T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "SJ Cameron",
+  "fieldingName": "Cameron",
+  "country": 30,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/742061"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3448"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3450"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3451"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3452"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/30.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SCOT",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/873205/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1131269/events/1131277"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1131271/events/1131277"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1131273/events/1131277"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1131269/events/1131277"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1131271/events/1131277"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1131273/events/1131277"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/873205.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

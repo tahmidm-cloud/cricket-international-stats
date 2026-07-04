@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/243942",
+  "id": "243942",
+  "guid": "50ce5d42-2e2c-d431-8e97-76d1a0f93cab",
+  "uid": "s:200~a:243942",
+  "type": "cricket",
+  "name": "Dave Langford-Smith",
+  "firstName": "Dave",
+  "middleName": "",
+  "lastName": "Langford-Smith",
+  "shortName": "",
+  "fullName": "David Langford-Smith",
+  "displayName": "Dave Langford-Smith",
+  "weight": 0,
+  "height": 0.0,
+  "age": 49,
+  "dateOfBirthStr": "1976-12-07T00:00Z",
+  "dateOfBirth": "1976-12-07T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "D Langford-Smith",
+  "fieldingName": "Langford-Smith",
+  "country": 29,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/29"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/243942.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/29.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IRE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/29"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/243942/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/224899/events/225171"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/224900/events/225171"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/234441/events/247213"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/250654/events/247213"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/224866/events/224911"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/250800/events/224911"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/243942.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

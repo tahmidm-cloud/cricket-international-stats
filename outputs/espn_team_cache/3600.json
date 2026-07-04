@@ -1,0 +1,64 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3600",
+  "id": "3600",
+  "uid": "s:200~t:3600",
+  "location": "Sri Lanka",
+  "name": "Sri Lanka Cricket President's XI",
+  "nickname": "Sri Lanka Cricket President's XI",
+  "abbreviation": "SLCP",
+  "displayName": "Sri Lanka Cricket President's XI",
+  "shortDisplayName": "SLCP",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "sri-lanka-cricket-presidents-xi",
+  "classes": [
+    "4",
+    "5",
+    "14",
+    "15"
+  ],
+  "event": {
+    "date": "2023-07-11T04:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/21556/events/1385684"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3600.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3600/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3600/sri-lanka-cricket-presidents-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3600/sri-lanka-cricket-presidents-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

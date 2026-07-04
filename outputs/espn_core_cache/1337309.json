@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1337309",
+  "id": "1337309",
+  "guid": "62883d67-8e57-39fc-8cfd-689aa21b9216",
+  "uid": "s:200~a:1337309",
+  "type": "cricket",
+  "name": "Anucha Kalasi",
+  "firstName": "Anucha",
+  "middleName": "",
+  "lastName": "Kalasi",
+  "shortName": "Kalasi",
+  "fullName": "Anucha Kalasi",
+  "displayName": "Anucha Kalasi",
+  "weight": 0,
+  "height": 0.0,
+  "age": 20,
+  "dateOfBirthStr": "2006-06-27T00:00Z",
+  "dateOfBirth": "2006-06-27T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "A Kalasi",
+  "fieldingName": "Kalasi",
+  "country": 156,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3656"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/1337309.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/156.png",
+    "width": 500,
+    "height": 500,
+    "alt": "THA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/156"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1337309/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1399095/events/1399112"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1399103/events/1399112"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1398685/events/1399112"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1398685/events/1399112"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1399095/events/1399112"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1399103/events/1399112"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1337309.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/29290",
+  "id": "29290",
+  "guid": "893c36dd-4b79-859c-04a5-0399a25c831f",
+  "uid": "s:200~a:29290",
+  "type": "cricket",
+  "name": "Vijay Hazare",
+  "firstName": "Vijay",
+  "middleName": "",
+  "lastName": "Hazare",
+  "shortName": "Hazare",
+  "fullName": "Vijay Samuel Hazare",
+  "displayName": "Vijay Hazare",
+  "weight": 0,
+  "height": 0.0,
+  "age": 89,
+  "dateOfBirthStr": "1915-03-11T00:00Z",
+  "dateOfBirth": "1915-03-11T00:00Z",
+  "dateOfDeathStr": "2004-12-18T00:00Z",
+  "dateOfDeath": "2004-12-18T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "VS Hazare",
+  "fieldingName": "Hazare",
+  "country": 6,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/29461"
+      },
+      "relation": "Brother"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/29487"
+      },
+      "relation": "Son"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/29490"
+      },
+      "relation": "Nephew"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/29400"
+      },
+      "relation": "Nephew"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/29287"
+      },
+      "relation": "Grandson"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1559"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1650"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1905"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/29290.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/29290/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60336/events/62662"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62283/events/62662"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/29290.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

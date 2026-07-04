@@ -1,0 +1,130 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55502",
+  "id": "55502",
+  "guid": "8c065db5-6978-1a3b-bcf9-ca75f859f93c",
+  "uid": "s:200~a:55502",
+  "type": "cricket",
+  "name": "Adam Huckle",
+  "firstName": "Adam",
+  "middleName": "",
+  "lastName": "Huckle",
+  "shortName": "Huckle",
+  "fullName": "Adam George Huckle",
+  "displayName": "Adam Huckle",
+  "weight": 0,
+  "height": 0.0,
+  "age": 54,
+  "dateOfBirthStr": "1971-09-21T00:00Z",
+  "dateOfBirth": "1971-09-21T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "AG Huckle",
+  "fieldingName": "Huckle",
+  "country": 9,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3208"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3840"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/9.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ZIM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55502/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62101/events/63764"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60648/events/63764"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61013/events/66117"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62025/events/66117"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62196/events/66117"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/55502.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/953793",
+  "id": "953793",
+  "guid": "e1d288e8-3d49-8119-f090-574a69572048",
+  "uid": "s:200~a:953793",
+  "type": "cricket",
+  "name": "Cameron Stevenson",
+  "firstName": "Cameron",
+  "middleName": "",
+  "lastName": "Stevenson",
+  "shortName": "Stevenson",
+  "fullName": "Cameron Aaron Henry Stevenson",
+  "displayName": "Cameron Stevenson",
+  "weight": 0,
+  "height": 0.0,
+  "age": 33,
+  "dateOfBirthStr": "1992-10-30T00:00Z",
+  "dateOfBirth": "1992-10-30T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "CAH Stevenson",
+  "fieldingName": "Stevenson",
+  "country": 11,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/11"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509671"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/560"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1381353"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/11.png",
+    "width": 500,
+    "height": 500,
+    "alt": "USA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/11"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/953793/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1196667/events/1206059"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1206056/events/1206059"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1321451/events/1321470"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1321452/events/1321470"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1321457/events/1321470"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1036353/events/1036381"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1036435/events/1036479"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/897689/events/897709"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/953793.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/23768",
+  "id": "23768",
+  "guid": "472e5768-7b13-462a-69c0-10e6235bb9cc",
+  "uid": "s:200~a:23768",
+  "type": "cricket",
+  "name": "Franklyn Dennis",
+  "firstName": "Franklyn",
+  "middleName": "",
+  "lastName": "Dennis",
+  "shortName": "Dennis",
+  "fullName": "Franklyn Anthony Dennis",
+  "displayName": "Franklyn Dennis",
+  "weight": 0,
+  "height": 0,
+  "age": 78,
+  "dateOfBirthStr": "1947-09-26T00:00Z",
+  "dateOfBirth": "1947-09-26T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "FA Dennis",
+  "fieldingName": "Dennis",
+  "country": 17,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/752"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/17.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/23768/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60806/events/65053"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61460/events/65053"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61671/events/65053"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/23768.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

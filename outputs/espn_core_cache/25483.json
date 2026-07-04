@@ -1,0 +1,123 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/25483",
+  "id": "25483",
+  "guid": "872c4190-6376-37d5-3968-4a6a15fa2650",
+  "uid": "s:200~a:25483",
+  "type": "cricket",
+  "name": "Simon Smith",
+  "firstName": "Simon",
+  "middleName": "",
+  "lastName": "Smith",
+  "shortName": "Smith",
+  "fullName": "Simon James Stevenson Smith",
+  "displayName": "Simon Smith",
+  "weight": 0,
+  "height": 0.0,
+  "age": 46,
+  "dateOfBirthStr": "1979-12-08T00:00Z",
+  "dateOfBirth": "1979-12-08T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "SJS Smith",
+  "fieldingName": "Smith",
+  "country": 30,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/25483.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/30.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SCOT",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/25483/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440045/events/440100"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440098/events/440100"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/305737/events/305725"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/134115/events/305725"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/134077/events/412250"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/412302/events/412250"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440045/events/440100"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440098/events/440100"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/25483.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

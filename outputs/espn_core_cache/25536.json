@@ -1,0 +1,131 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/25536",
+  "id": "25536",
+  "guid": "1d230614-1b4b-c9ec-3975-c9379244f509",
+  "uid": "s:200~a:25536",
+  "type": "cricket",
+  "name": "Mazhar Hussain",
+  "firstName": "Mazhar",
+  "middleName": "",
+  "lastName": "Hussain",
+  "shortName": "",
+  "fullName": "Sheikh Mazhar Hussain",
+  "displayName": "Mazhar Hussain",
+  "weight": 0,
+  "height": 0,
+  "age": 58,
+  "dateOfBirthStr": "1967-10-25T00:00Z",
+  "dateOfBirth": "1967-10-25T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Mazhar Hussain",
+  "fieldingName": "Mazhar Hussain",
+  "country": 27,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/39779"
+      },
+      "relation": "Brother"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/42082"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2833"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/27.png",
+    "width": 500,
+    "height": 500,
+    "alt": "UAE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/25536/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60955/events/65826"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62364/events/65826"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/25536.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

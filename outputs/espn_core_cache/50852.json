@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/50852",
+  "id": "50852",
+  "guid": "6eadc771-44b4-0341-2f42-da5c38f5f1d2",
+  "uid": "s:200~a:50852",
+  "type": "cricket",
+  "name": "Kapila Wijegunawardene",
+  "firstName": "Kapila",
+  "middleName": "",
+  "lastName": "Wijegunawardene",
+  "shortName": "",
+  "fullName": "Kapila Indaka Weerakkody Wijegunawardene",
+  "displayName": "Kapila Wijegunawardene",
+  "weight": 0,
+  "height": 0.0,
+  "age": 61,
+  "dateOfBirthStr": "1964-11-23T00:00Z",
+  "dateOfBirth": "1964-11-23T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "KIW Wijegunawardene",
+  "fieldingName": "Wijegunawardene",
+  "country": 8,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3506"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/8.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/50852/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61594/events/63562"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60576/events/63562"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60889/events/65674"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61532/events/65674"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61646/events/65674"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/50852.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

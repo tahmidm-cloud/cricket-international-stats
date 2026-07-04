@@ -1,0 +1,64 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1516533",
+  "id": "1516533",
+  "uid": "s:200~t:1516533",
+  "location": "Bangladesh",
+  "name": "Sylhet Titans",
+  "nickname": "Sylhet Titans",
+  "abbreviation": "SYT",
+  "displayName": "Sylhet Titans",
+  "shortDisplayName": "SYT",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "BD",
+  "slug": "sylhet-titans",
+  "classes": [
+    6
+  ],
+  "event": {
+    "date": "2026-01-21T12:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8653/events/1516569"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8653"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1516533.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1516533/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1516533/sylhet-titans",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1516533/sylhet-titans",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

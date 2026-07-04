@@ -1,0 +1,158 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55787",
+  "id": "55787",
+  "guid": "b00af357-752e-9d95-b8af-e4baf9a40cc5",
+  "uid": "s:200~a:55787",
+  "type": "cricket",
+  "name": "Vusi Sibanda",
+  "firstName": "Vusi",
+  "middleName": "",
+  "lastName": "Sibanda",
+  "shortName": "Sibanda",
+  "fullName": "Vusimuzi Sibanda",
+  "displayName": "Vusi Sibanda",
+  "weight": 0,
+  "height": 0.0,
+  "age": 42,
+  "dateOfBirthStr": "1983-10-10T00:00Z",
+  "dateOfBirth": "1983-10-10T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "V Sibanda",
+  "fieldingName": "Sibanda",
+  "country": 9,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/213709"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/424006"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3858"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3859"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3872"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/55787.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/9.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ZIM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55787/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61912/events/64054"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60753/events/64054"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61138/events/64847"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61912/events/64847"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/287846/events/287856"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/287837/events/287856"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/286109/events/287856"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/255958/events/255960"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/55787.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

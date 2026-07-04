@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/50856",
+  "id": "50856",
+  "guid": "fa9e0f67-797d-338f-67c7-2ccb132301a7",
+  "uid": "s:200~a:50856",
+  "type": "cricket",
+  "name": "Piyal Wijetunge",
+  "firstName": "Piyal",
+  "middleName": "",
+  "lastName": "Wijetunge",
+  "shortName": "Wijetunge",
+  "fullName": "Piyal Kashyapa Wijetunge",
+  "displayName": "Piyal Wijetunge",
+  "weight": 0,
+  "height": 0,
+  "age": 54,
+  "dateOfBirthStr": "1971-08-06T00:00Z",
+  "dateOfBirth": "1971-08-06T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "PK Wijetunge",
+  "fieldingName": "Wijetunge",
+  "country": 8,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3493"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3533"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3549"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3630"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/8.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/50856/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61852/events/63618"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60596/events/63618"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326083/events/326094"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326082/events/326094"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326072/events/326094"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/50856.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

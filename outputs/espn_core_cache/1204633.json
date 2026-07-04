@@ -1,0 +1,99 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1204633",
+  "id": "1204633",
+  "guid": "64caa4e3-cc81-3f2c-ba94-f00877839c61",
+  "uid": "s:200~a:1204633",
+  "type": "cricket",
+  "name": "Aamer Ikram",
+  "firstName": "Aamer",
+  "middleName": "",
+  "lastName": "Ikram",
+  "shortName": "",
+  "fullName": "Aamer Ikram",
+  "displayName": "Aamer Ikram",
+  "weight": 0,
+  "height": 0.0,
+  "age": 46,
+  "dateOfBirthStr": "1979-07-07T00:00Z",
+  "dateOfBirth": "1979-07-07T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [],
+  "styles": [],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Aamer Ikram",
+  "fieldingName": "Aamer Ikram",
+  "country": 134,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/134"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/134.png",
+    "width": 500,
+    "height": 500,
+    "alt": "POR",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/134"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1204633/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1201664/events/1201668"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1201665/events/1201668"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1201664/events/1201668"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1201665/events/1201668"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1204633.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

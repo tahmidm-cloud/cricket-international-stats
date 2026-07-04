@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/565",
+  "id": "565",
+  "uid": "s:200~t:565",
+  "location": "Australia",
+  "name": "Tasmania Institute of Sport",
+  "nickname": "Tasmania Institute of Sport",
+  "abbreviation": "TASIS",
+  "displayName": "Tasmania Institute of Sport",
+  "shortDisplayName": "TASIS",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AU",
+  "slug": "tasmania-institute-of-sport",
+  "classes": [
+    "14",
+    "15"
+  ],
+  "event": {
+    "date": "2007-09-02T00:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/14250/events/308852"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/565/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/565/tasmania-institute-of-sport",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/565/tasmania-institute-of-sport",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

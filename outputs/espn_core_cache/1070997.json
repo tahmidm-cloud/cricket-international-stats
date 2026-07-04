@@ -1,0 +1,135 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1070997",
+  "id": "1070997",
+  "guid": "e5e76fd8-02cd-1250-d945-ebc1de2affb1",
+  "uid": "s:200~a:1070997",
+  "type": "cricket",
+  "name": "Connor Esterhuizen",
+  "firstName": "Connor",
+  "middleName": "",
+  "lastName": "Esterhuizen",
+  "shortName": "",
+  "fullName": "Connor Esterhuizen",
+  "displayName": "Connor Esterhuizen",
+  "weight": 0,
+  "height": 0.0,
+  "age": 25,
+  "dateOfBirthStr": "2001-05-31T00:00Z",
+  "dateOfBirth": "2001-05-31T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "C Esterhuizen",
+  "fieldingName": "Esterhuizen",
+  "country": 3,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1346027"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/594841"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1298769"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3249"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1328786"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1335271"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1381357"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3304"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1070997/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1491685/events/1491735"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1491686/events/1491735"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1334879/events/1334963"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1301452/events/1301455"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1334878/events/1334918"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1070997.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

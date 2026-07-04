@@ -1,0 +1,118 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/6319",
+  "id": "6319",
+  "guid": "50459226-2f4a-ef2f-fab1-638e5ac845e1",
+  "uid": "s:200~a:6319",
+  "type": "cricket",
+  "name": "Hammy Love",
+  "firstName": "Hammy",
+  "middleName": "",
+  "lastName": "Love",
+  "shortName": "Love",
+  "fullName": "Hampden Stanley Bray Love",
+  "displayName": "Hammy Love",
+  "weight": 0,
+  "height": 0.0,
+  "age": 73,
+  "dateOfBirthStr": "1895-08-10T00:00Z",
+  "dateOfBirth": "1895-08-10T00:00Z",
+  "dateOfDeathStr": "1969-07-22T00:00Z",
+  "dateOfDeath": "1969-07-22T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "HSB Love",
+  "fieldingName": "Love",
+  "country": 2,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/4565"
+      },
+      "relation": "Nephew"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/387"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/584"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/6319/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60321/events/62609"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61718/events/62609"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/6319.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

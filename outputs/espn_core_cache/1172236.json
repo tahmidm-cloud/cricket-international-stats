@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1172236",
+  "id": "1172236",
+  "guid": "a3836e9d-f19f-415c-a781-7a0cde848c7f",
+  "uid": "s:200~a:1172236",
+  "type": "cricket",
+  "name": "Shamsudheen Purat",
+  "firstName": "Shamsudheen",
+  "middleName": "",
+  "lastName": "Purat",
+  "shortName": "",
+  "fullName": "Shamsudheen Englam Purat",
+  "displayName": "Shamsudheen Purat",
+  "weight": 0,
+  "height": 0.0,
+  "age": 36,
+  "dateOfBirthStr": "1989-09-13T00:00Z",
+  "dateOfBirth": "1989-09-13T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Shamsudheen Purat",
+  "fieldingName": "Shamsudheen Purat",
+  "country": 103,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/103"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/103.png",
+    "width": 500,
+    "height": 500,
+    "alt": "KSA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/103"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1172236/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1171741/events/1171757"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1171745/events/1171757"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1171739/events/1171757"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1171739/events/1171757"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1171741/events/1171757"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1171745/events/1171757"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1172236.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

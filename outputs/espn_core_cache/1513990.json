@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1513990",
+  "id": "1513990",
+  "guid": "82dd614f-bb4c-37ca-b2a0-8d9b39277a27",
+  "uid": "s:200~a:1513990",
+  "type": "cricket",
+  "name": "Ibrahim Karim",
+  "firstName": "Ibrahim",
+  "middleName": "",
+  "lastName": "Karim",
+  "shortName": "",
+  "fullName": "Ibrahim Karim",
+  "displayName": "Ibrahim Karim",
+  "weight": 0,
+  "height": 0.0,
+  "age": 18,
+  "dateOfBirthStr": "2007-11-26T00:00Z",
+  "dateOfBirth": "2007-11-26T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Ibrahim Karim",
+  "fieldingName": "Ibrahim Karim",
+  "country": 145,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/145"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/145.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SLE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/145"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1513990/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1513080/events/1513087"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1513081/events/1513087"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1513078/events/1513087"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1513078/events/1513087"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1513080/events/1513087"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1513081/events/1513087"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1513990.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

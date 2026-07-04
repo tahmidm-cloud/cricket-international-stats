@@ -1,0 +1,120 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/23603",
+  "id": "23603",
+  "guid": "4744a835-ea50-3ba0-ad88-3efd5fed0781",
+  "uid": "s:200~a:23603",
+  "type": "cricket",
+  "name": "Martin Siri",
+  "firstName": "Martin",
+  "middleName": "",
+  "lastName": "Siri",
+  "shortName": "Siri",
+  "fullName": "R Martin Siri",
+  "displayName": "Martin Siri",
+  "weight": 0,
+  "height": 0.0,
+  "age": 47,
+  "dateOfBirthStr": "1979-04-20T00:00Z",
+  "dateOfBirth": "1979-04-20T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "RM Siri",
+  "fieldingName": "Siri",
+  "country": 21,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/184"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/21.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ARG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/21"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/23603/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1200186/events/1200206"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1200191/events/1200206"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/322096/events/314677"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/322097/events/314677"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/314541/events/314677"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1200186/events/1200206"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1200191/events/1200206"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/23603.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

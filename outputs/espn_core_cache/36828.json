@@ -1,0 +1,124 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/36828",
+  "id": "36828",
+  "guid": "c95b60bc-b61f-2177-15e6-4f12e15b4c5c",
+  "uid": "s:200~a:36828",
+  "type": "cricket",
+  "name": "Eric Dempster",
+  "firstName": "Eric",
+  "middleName": "",
+  "lastName": "Dempster",
+  "shortName": "Dempster",
+  "fullName": "Eric William Dempster",
+  "displayName": "Eric Dempster",
+  "weight": 0,
+  "height": 0.0,
+  "age": 86,
+  "dateOfBirthStr": "1925-01-25T00:00Z",
+  "dateOfBirth": "1925-01-25T00:00Z",
+  "dateOfDeathStr": "2011-08-15T00:00Z",
+  "dateOfDeath": "2011-08-15T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "EW Dempster",
+  "fieldingName": "Dempster",
+  "country": 5,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2600"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/36828/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60358/events/62757"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61850/events/62757"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60788/events/64150"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61411/events/64150"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/36828.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

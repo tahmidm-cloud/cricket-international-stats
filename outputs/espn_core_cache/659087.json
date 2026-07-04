@@ -1,0 +1,150 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/659087",
+  "id": "659087",
+  "guid": "136facb7-628b-1892-6a9e-d18721151b63",
+  "uid": "s:200~a:659087",
+  "type": "cricket",
+  "name": "Jake Dunford",
+  "firstName": "Jake",
+  "middleName": "",
+  "lastName": "Dunford",
+  "shortName": "Dunford",
+  "fullName": "Jake Samuel Edward Dunford",
+  "displayName": "Jake Dunford",
+  "weight": 0,
+  "height": 0.0,
+  "age": 32,
+  "dateOfBirthStr": "1994-06-24T00:00Z",
+  "dateOfBirth": "1994-06-24T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WK",
+    "id": "WK",
+    "name": "Wicketkeeper",
+    "abbreviation": "WK",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WK"
+    }
+  },
+  "battingName": "JSE Dunford",
+  "fieldingName": "Dunford",
+  "country": 218211,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/218211"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/928"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/414961"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/414960"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/303453"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1185"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1359"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/218211.png",
+    "width": 500,
+    "height": 500,
+    "alt": "JER",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/218211"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/659087/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1365085/events/1365094"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1365090/events/1365094"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1365091/events/1365094"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1185174/events/1185200"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1185199/events/1185200"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/946647/events/946767"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1207049/events/1207061"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1207052/events/1207061"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1207053/events/1207061"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1185174/events/1185200"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1185199/events/1185200"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/659087.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1650",
+  "id": "1650",
+  "uid": "s:200~t:1650",
+  "location": "India",
+  "name": "Central India",
+  "nickname": "Central India",
+  "abbreviation": "C-IND",
+  "displayName": "Central India",
+  "shortDisplayName": "C-IND",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "central-india",
+  "classes": [
+    "4"
+  ],
+  "event": {
+    "date": "1940-11-30T00:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8050/events/1496992"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1650/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1650/central-india",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1650/central-india",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

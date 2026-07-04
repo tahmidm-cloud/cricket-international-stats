@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1362934",
+  "id": "1362934",
+  "guid": "186ade41-89cf-3b52-9faa-acede2d364fb",
+  "uid": "s:200~a:1362934",
+  "type": "cricket",
+  "name": "Michael Charlie",
+  "firstName": "Michael",
+  "middleName": "",
+  "lastName": "Charlie",
+  "shortName": "",
+  "fullName": "Michael Charlie",
+  "displayName": "Michael Charlie",
+  "weight": 0,
+  "height": 0.0,
+  "age": 0,
+  "dateOfBirthStr": "",
+  "dateOfBirth": "",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Michael Charlie",
+  "fieldingName": "Michael Charlie",
+  "country": 20,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/20"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1362790"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/20.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PNG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/20"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1362934/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1398294/events/1398299"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1398291/events/1398299"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1451764/events/1451778"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1451766/events/1451778"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1451771/events/1451778"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1398291/events/1398299"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1398294/events/1398299"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1362934.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

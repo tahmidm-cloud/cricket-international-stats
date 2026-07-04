@@ -1,0 +1,155 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/40560",
+  "id": "40560",
+  "guid": "3f5a28a1-879c-172a-1a58-f9d7af2aedfd",
+  "uid": "s:200~a:40560",
+  "type": "cricket",
+  "name": "Imran Khan",
+  "firstName": "Imran",
+  "middleName": "",
+  "lastName": "Khan",
+  "shortName": "Imran Khan",
+  "fullName": "Imran Khan Niazi",
+  "displayName": "Imran Khan",
+  "weight": 0,
+  "height": 0.0,
+  "age": 73,
+  "dateOfBirthStr": "1952-10-05T00:00Z",
+  "dateOfBirth": "1952-10-05T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "Imran Khan",
+  "fieldingName": "Imran Khan",
+  "country": 7,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/40877"
+      },
+      "relation": "Cousin"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/41919"
+      },
+      "relation": "Cousin"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2682"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2833"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/387"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/292457"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3010"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1371"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1458"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/40560.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/7.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAK",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/40560/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61463/events/63073"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60436/events/63073"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60790/events/64953"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61452/events/64953"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/40560.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

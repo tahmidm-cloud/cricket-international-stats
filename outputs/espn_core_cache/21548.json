@@ -1,0 +1,130 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/21548",
+  "id": "21548",
+  "guid": "054cd9e2-4f69-12a5-4f69-69c2ac6f35c2",
+  "uid": "s:200~a:21548",
+  "type": "cricket",
+  "name": "Fred Titmus",
+  "firstName": "Fred",
+  "middleName": "",
+  "lastName": "Titmus",
+  "shortName": "Titmus",
+  "fullName": "Frederick John Titmus",
+  "displayName": "Fred Titmus",
+  "weight": 0,
+  "height": 0.0,
+  "age": 78,
+  "dateOfBirthStr": "1932-11-24T00:00Z",
+  "dateOfBirth": "1932-11-24T00:00Z",
+  "dateOfDeathStr": "2011-03-23T00:00Z",
+  "dateOfDeath": "2011-03-23T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "FJ Titmus",
+  "fieldingName": "Titmus",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1190"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3222"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1358"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/21548/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60367/events/62795"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61816/events/62795"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60792/events/64153"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61768/events/64153"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/21548.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

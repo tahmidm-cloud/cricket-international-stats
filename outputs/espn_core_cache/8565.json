@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/8565",
+  "id": "8565",
+  "guid": "2463caa8-eeb7-ba5e-e538-c31da6888cd5",
+  "uid": "s:200~a:8565",
+  "type": "cricket",
+  "name": "Ted Arnold",
+  "firstName": "Ted",
+  "middleName": "",
+  "lastName": "Arnold",
+  "shortName": "Arnold",
+  "fullName": "Edward George Arnold",
+  "displayName": "Ted Arnold",
+  "weight": 0,
+  "height": 0,
+  "age": 65,
+  "dateOfBirthStr": "1876-11-07T00:00Z",
+  "dateOfBirth": "1876-11-07T00:00Z",
+  "dateOfDeathStr": "1942-10-25T00:00Z",
+  "dateOfDeath": "1942-10-25T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "EG Arnold",
+  "fieldingName": "Arnold",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1148"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1458"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/8565/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60287/events/62473"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61702/events/62473"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/8565.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

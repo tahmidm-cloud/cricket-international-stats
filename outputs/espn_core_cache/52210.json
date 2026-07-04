@@ -1,0 +1,130 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52210",
+  "id": "52210",
+  "guid": "aa52b5d5-d6d1-314d-f529-7f09b07eac25",
+  "uid": "s:200~a:52210",
+  "type": "cricket",
+  "name": "Kerry Jeremy",
+  "firstName": "Kerry",
+  "middleName": "",
+  "lastName": "Jeremy",
+  "shortName": "Jeremy",
+  "fullName": "Kerry Clifford Bryan Jeremy",
+  "displayName": "Kerry Jeremy",
+  "weight": 0,
+  "height": 0.0,
+  "age": 46,
+  "dateOfBirthStr": "1980-02-06T00:00Z",
+  "dateOfBirth": "1980-02-06T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "KCB Jeremy",
+  "fieldingName": "Jeremy",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3716"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3717"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3762"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52210/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61073/events/66171"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61650/events/66171"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61954/events/66171"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/228881/events/252980"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/52210.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

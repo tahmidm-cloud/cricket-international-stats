@@ -1,0 +1,130 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1167838",
+  "id": "1167838",
+  "guid": "00d48ba6-6436-ea96-320e-857ffd7d9ca9",
+  "uid": "s:200~a:1167838",
+  "type": "cricket",
+  "name": "Ahmed Baladraf",
+  "firstName": "Ahmed",
+  "middleName": "",
+  "lastName": "Baladraf",
+  "shortName": "",
+  "fullName": "Ahmed Abdul Waheed Baladraf",
+  "displayName": "Ahmed Baladraf",
+  "weight": 0,
+  "height": 0.0,
+  "age": 23,
+  "dateOfBirthStr": "2003-04-11T00:00Z",
+  "dateOfBirth": "2003-04-11T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BTA",
+    "id": "BTA",
+    "name": "Batting allrounder",
+    "abbreviation": "BTA",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BTA"
+    }
+  },
+  "battingName": "Ahmed Baladraf",
+  "fieldingName": "Ahmed Baladraf",
+  "country": 103,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/103"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3157"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/103.png",
+    "width": 500,
+    "height": 500,
+    "alt": "KSA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/103"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1167838/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1392790/events/1392809"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1392797/events/1392809"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1392788/events/1392809"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1392788/events/1392809"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1392790/events/1392809"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1392797/events/1392809"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1167838.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/987",
+  "id": "987",
+  "uid": "s:200~t:987",
+  "location": "England",
+  "name": "Essex Cricket Board",
+  "nickname": "Essex Cricket Board",
+  "abbreviation": "",
+  "displayName": "Essex Cricket Board",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "essex-cricket-board",
+  "classes": [
+    "5"
+  ],
+  "event": {
+    "date": "2003-05-07T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8629/events/368934"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/987/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/987/essex-cricket-board",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/987/essex-cricket-board",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1471156",
+  "id": "1471156",
+  "guid": "176f43bc-9172-31f9-b6a4-8aaa1d4e6a0c",
+  "uid": "s:200~a:1471156",
+  "type": "cricket",
+  "name": "Asif Shaikh",
+  "firstName": "Asif",
+  "middleName": "",
+  "lastName": "Shaikh",
+  "shortName": "",
+  "fullName": "Asif Mohammad Ibrahim Shaikh",
+  "displayName": "Asif Shaikh",
+  "weight": 0,
+  "height": 0.0,
+  "age": 32,
+  "dateOfBirthStr": "1994-01-20T00:00Z",
+  "dateOfBirth": "1994-01-20T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [],
+  "styles": [],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Asif Shaikh",
+  "fieldingName": "Asif Shaikh",
+  "country": 57,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/57"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/57.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BHR",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/57"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1471156/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1471815/events/1471822"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1471814/events/1471822"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1451884/events/1471829"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1470689/events/1471829"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1470690/events/1471829"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1471814/events/1471822"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1471815/events/1471822"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1471156.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/46599",
+  "id": "46599",
+  "guid": "f0dc7b18-7646-de4d-5a52-bd1102f0ff14",
+  "uid": "s:200~a:46599",
+  "type": "cricket",
+  "name": "Mfuneko Ngam",
+  "firstName": "Mfuneko",
+  "middleName": "",
+  "lastName": "Ngam",
+  "shortName": "Ngam",
+  "fullName": "Mfuneko Ngam",
+  "displayName": "Mfuneko Ngam",
+  "weight": 0,
+  "height": 0.0,
+  "age": 47,
+  "dateOfBirthStr": "1979-01-29T00:00Z",
+  "dateOfBirth": "1979-01-29T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "M Ngam",
+  "fieldingName": "Ngam",
+  "country": 3,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3168"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3199"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3208"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3353"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/46599/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60696/events/63904"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62097/events/63904"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/134226/events/304952"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/46599.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

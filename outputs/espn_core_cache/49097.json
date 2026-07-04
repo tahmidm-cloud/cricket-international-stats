@@ -1,0 +1,111 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/49097",
+  "id": "49097",
+  "guid": "fc37a15d-9301-1aba-ec53-f9018c484107",
+  "uid": "s:200~a:49097",
+  "type": "cricket",
+  "name": "Mahes Goonatilleke",
+  "firstName": "Mahes",
+  "middleName": "",
+  "lastName": "Goonatilleke",
+  "shortName": "",
+  "fullName": "Hettiarachige Mahes Goonatilleke",
+  "displayName": "Mahes Goonatilleke",
+  "weight": 0,
+  "height": 0,
+  "age": 73,
+  "dateOfBirthStr": "1952-08-16T00:00Z",
+  "dateOfBirth": "1952-08-16T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "HM Goonatilleke",
+  "fieldingName": "Goonatilleke",
+  "country": 8,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/8.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/49097/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60499/events/63307"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61783/events/63307"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60819/events/64185"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61783/events/64185"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/49097.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

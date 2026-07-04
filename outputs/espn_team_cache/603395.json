@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/603395",
+  "id": "603395",
+  "uid": "s:200~t:603395",
+  "location": "Pakistan",
+  "name": "Faisalabad and Rawalpindi",
+  "nickname": "Faisalabad and Rawalpindi",
+  "abbreviation": "FsbRw",
+  "displayName": "Faisalabad and Rawalpindi",
+  "shortDisplayName": "FsbRw",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "PK",
+  "slug": "faisalabad-and-rawalpindi",
+  "classes": [
+    "5"
+  ],
+  "event": {
+    "date": "2013-02-10T04:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/12218/events/603398"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/603395/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/603395/faisalabad-and-rawalpindi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/603395/faisalabad-and-rawalpindi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

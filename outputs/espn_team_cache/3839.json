@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3839",
+  "id": "3839",
+  "uid": "s:200~t:3839",
+  "location": "Zimbabwe",
+  "name": "Masvingo",
+  "nickname": "Masvingo",
+  "abbreviation": "",
+  "displayName": "Masvingo",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZW",
+  "slug": "masvingo",
+  "classes": [
+    5
+  ],
+  "event": {
+    "date": "2006-02-05T07:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8757/events/264844"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3839/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3839/masvingo",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3839/masvingo",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/470752",
+  "id": "470752",
+  "guid": "9184d011-6058-bc58-6395-ae53cb4dacbf",
+  "uid": "s:200~a:470752",
+  "type": "cricket",
+  "name": "Ally Kimote",
+  "firstName": "Ally",
+  "middleName": "",
+  "lastName": "Kimote",
+  "shortName": "Kimote",
+  "fullName": "Ally Mpeka Kimote",
+  "displayName": "Ally Kimote",
+  "weight": 0,
+  "height": 0.0,
+  "age": 34,
+  "dateOfBirthStr": "1992-05-26T00:00Z",
+  "dateOfBirth": "1992-05-26T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "AM Kimote",
+  "fieldingName": "Kimote",
+  "country": 160,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/160"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/160.png",
+    "width": 500,
+    "height": 500,
+    "alt": "TAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/160"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/470752/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1283018/events/1283043"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1283591/events/1283043"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1283017/events/1283043"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420549/events/1420571"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420563/events/1420571"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420567/events/1420571"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1283017/events/1283043"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1283018/events/1283043"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1283591/events/1283043"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/470752.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

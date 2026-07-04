@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/51865",
+  "id": "51865",
+  "guid": "e4b6d993-40b9-9645-cecf-1c59403c6a16",
+  "uid": "s:200~a:51865",
+  "type": "cricket",
+  "name": "Shawn Findlay",
+  "firstName": "Shawn",
+  "middleName": "",
+  "lastName": "Findlay",
+  "shortName": "Findlay",
+  "fullName": "Shawn Eli Findlay",
+  "displayName": "Shawn Findlay",
+  "weight": 0,
+  "height": 0.0,
+  "age": 42,
+  "dateOfBirthStr": "1984-03-03T00:00Z",
+  "dateOfBirth": "1984-03-03T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT",
+    "id": "BT",
+    "name": "Batter",
+    "abbreviation": "BT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT"
+    }
+  },
+  "battingName": "SE Findlay",
+  "fieldingName": "Findlay",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3751"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3801"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/51865/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/319124/events/319146"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/319125/events/319146"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/366700/events/366707"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/366702/events/366707"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/125654/events/415446"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/312226/events/312229"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/254152/events/252982"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/228881/events/252982"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/51865.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

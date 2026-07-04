@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/928109",
+  "id": "928109",
+  "guid": "31de00ec-c719-4a30-a2cb-663c5a371dc5",
+  "uid": "s:200~a:928109",
+  "type": "cricket",
+  "name": "Kenneth Waiswa",
+  "firstName": "Kenneth",
+  "middleName": "",
+  "lastName": "Waiswa",
+  "shortName": "Waiswa",
+  "fullName": "Kenneth Waiswa",
+  "displayName": "Kenneth Waiswa",
+  "weight": 0,
+  "height": 0.0,
+  "age": 27,
+  "dateOfBirthStr": "1998-11-11T00:00Z",
+  "dateOfBirth": "1998-11-11T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "K Waiswa",
+  "fieldingName": "Waiswa",
+  "country": 35,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/35"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3666"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/35.png",
+    "width": 500,
+    "height": 500,
+    "alt": "UGA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/35"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/928109/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1215128/events/1215133"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1215129/events/1215133"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1207049/events/1207065"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1207053/events/1207065"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1207055/events/1207065"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1157346/events/1157399"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1157345/events/1157399"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/928109.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

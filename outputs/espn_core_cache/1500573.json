@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1500573",
+  "id": "1500573",
+  "guid": "",
+  "uid": "s:200~a:1500573",
+  "type": "cricket",
+  "name": "Ed Robinson",
+  "firstName": "Ed",
+  "middleName": "",
+  "lastName": "Robinson",
+  "shortName": "Robinson",
+  "fullName": "Edward Robinson",
+  "displayName": "Ed Robinson",
+  "weight": 0,
+  "height": 0.0,
+  "age": 17,
+  "dateOfBirthStr": "2008-11-05T00:00Z",
+  "dateOfBirth": "2008-11-05T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "E Robinson",
+  "fieldingName": "Robinson",
+  "country": 1043,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1043"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1043.png",
+    "width": 500,
+    "height": 500,
+    "alt": "GUE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1043"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1500573/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1498668/events/1498692"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1498670/events/1498692"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1498668/events/1498692"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1498670/events/1498692"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1500573.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

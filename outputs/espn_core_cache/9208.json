@@ -1,0 +1,134 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/9208",
+  "id": "9208",
+  "guid": "65b38733-cb3e-69b0-2767-70afab66e1b3",
+  "uid": "s:200~a:9208",
+  "type": "cricket",
+  "name": "Mike Brearley",
+  "firstName": "Mike",
+  "middleName": "",
+  "lastName": "Brearley",
+  "shortName": "Brearley",
+  "fullName": "John Michael Brearley",
+  "displayName": "Mike Brearley",
+  "weight": 0,
+  "height": 5.11,
+  "age": 84,
+  "dateOfBirthStr": "1942-04-28T00:00Z",
+  "dateOfBirth": "1942-04-28T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "JM Brearley",
+  "fieldingName": "Brearley",
+  "country": 1,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/9963"
+      },
+      "relation": "Father"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/859"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1190"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/9208/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61881/events/63163"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60460/events/63163"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61348/events/64958"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60799/events/64958"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/9208.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

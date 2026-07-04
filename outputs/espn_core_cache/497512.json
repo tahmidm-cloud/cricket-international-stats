@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/497512",
+  "id": "497512",
+  "guid": "1ba5f2e5-52dd-3fe5-d4c5-4d7d4fbcc7fb",
+  "uid": "s:200~a:497512",
+  "type": "cricket",
+  "name": "Adil Mehmood",
+  "firstName": "Adil",
+  "middleName": "",
+  "lastName": "Mehmood",
+  "shortName": "Mehmood",
+  "fullName": "Adil Mehmood",
+  "displayName": "Adil Mehmood",
+  "weight": 0,
+  "height": 0.0,
+  "age": 37,
+  "dateOfBirthStr": "1988-12-31T00:00Z",
+  "dateOfBirth": "1988-12-31T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "A Mehmood",
+  "fieldingName": "Mehmood",
+  "country": 19,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/19"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/497512.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/19.png",
+    "width": 500,
+    "height": 500,
+    "alt": "HKG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/19"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/497512/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/954131/events/966741"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/954135/events/966741"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/966595/events/966741"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/505981/events/505962"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/475041/events/505962"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870903/events/877507"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/497512.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

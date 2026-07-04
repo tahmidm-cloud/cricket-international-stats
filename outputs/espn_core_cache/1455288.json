@@ -1,0 +1,111 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1455288",
+  "id": "1455288",
+  "guid": "dc6ce3f0-eaf9-3442-ae08-17bf2d1bd02c",
+  "uid": "s:200~a:1455288",
+  "type": "cricket",
+  "name": "Manikandan Mariyappan",
+  "firstName": "Manikandan",
+  "middleName": "",
+  "lastName": "Mariyappan",
+  "shortName": "Mariyappan",
+  "fullName": "Manikandan Mariyappan",
+  "displayName": "Manikandan Mariyappan",
+  "weight": 0,
+  "height": 0.0,
+  "age": 29,
+  "dateOfBirthStr": "1996-07-31T00:00Z",
+  "dateOfBirth": "1996-07-31T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "M Mariyappan",
+  "fieldingName": "Mariyappan",
+  "country": 143,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/143"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/143.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SEY",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/143"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1455288/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1453892/events/1456013"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1456116/events/1456013"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1453892/events/1456013"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1456116/events/1456013"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1455288.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

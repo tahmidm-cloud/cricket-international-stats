@@ -1,0 +1,151 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/472153",
+  "id": "472153",
+  "guid": "0b771028-e6f6-3955-7dbf-0bc36d29cc5e",
+  "uid": "s:200~a:472153",
+  "type": "cricket",
+  "name": "Duncan Allan",
+  "firstName": "Duncan",
+  "middleName": "",
+  "lastName": "Allan",
+  "shortName": "Allan",
+  "fullName": "Duncan Iain Allan",
+  "displayName": "Duncan Allan",
+  "weight": 0,
+  "height": 0.0,
+  "age": 34,
+  "dateOfBirthStr": "1991-10-14T00:00Z",
+  "dateOfBirth": "1991-10-14T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT",
+    "id": "BT",
+    "name": "Batter",
+    "abbreviation": "BT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT"
+    }
+  },
+  "battingName": "DI Allan",
+  "fieldingName": "Allan",
+  "country": 26,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/26"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/315042"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/472224"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2296"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/45273"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/501"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/26.png",
+    "width": 500,
+    "height": 500,
+    "alt": "KENYA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/26"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/472153/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/518430/events/523482"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/523481/events/523482"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/543871/events/543883"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/543851/events/543883"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/543851/events/516849"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/504772/events/516849"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/518430/events/523482"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/523481/events/523482"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/538874/events/540217"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/472153.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1276393",
+  "id": "1276393",
+  "guid": "6372a88f-8c52-3c72-b699-77d53beed877",
+  "uid": "s:200~a:1276393",
+  "type": "cricket",
+  "name": "Sushant Modani",
+  "firstName": "Sushant",
+  "middleName": "",
+  "lastName": "Modani",
+  "shortName": "Modani",
+  "fullName": "Sushant Jayachandra Modani",
+  "displayName": "Sushant Modani",
+  "weight": 0,
+  "height": 0.0,
+  "age": 37,
+  "dateOfBirthStr": "1989-01-05T00:00Z",
+  "dateOfBirth": "1989-01-05T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "SJ Modani",
+  "fieldingName": "Modani",
+  "country": 11,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/11"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/1276393.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/11.png",
+    "width": 500,
+    "height": 500,
+    "alt": "USA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/11"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1276393/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1275293/events/1276293"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1276289/events/1276293"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1275292/events/1276293"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1291183/events/1291187"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1291182/events/1291187"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1275292/events/1276293"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1275293/events/1276293"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1276289/events/1276293"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1291182/events/1291187"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1291183/events/1291187"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1276393.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

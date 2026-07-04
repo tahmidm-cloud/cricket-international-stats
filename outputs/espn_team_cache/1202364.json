@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1202364",
+  "id": "1202364",
+  "uid": "s:200~t:1202364",
+  "location": "Hungary",
+  "name": "Hungary XI",
+  "nickname": "Hungary XI",
+  "abbreviation": "HU-XI",
+  "displayName": "Hungary XI",
+  "shortDisplayName": "HU-XI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "HU",
+  "slug": "hungary-xi",
+  "classes": [
+    "16"
+  ],
+  "event": {
+    "date": "2019-10-20T09:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19585/events/1202029"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1202364.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1202364/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1202364/hungary-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1202364/hungary-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

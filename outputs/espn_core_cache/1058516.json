@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1058516",
+  "id": "1058516",
+  "guid": "d2e3c172-f31e-802a-a772-70caa46e40ff",
+  "uid": "s:200~a:1058516",
+  "type": "cricket",
+  "name": "Dilip Nath",
+  "firstName": "Dilip",
+  "middleName": "",
+  "lastName": "Nath",
+  "shortName": "Nath",
+  "fullName": "Dilip Nath",
+  "displayName": "Dilip Nath",
+  "weight": 0,
+  "height": 0.0,
+  "age": 28,
+  "dateOfBirthStr": "1997-12-19T00:00Z",
+  "dateOfBirth": "1997-12-19T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "D Nath",
+  "fieldingName": "Nath",
+  "country": 33,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1057844"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/33.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NEP",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/33"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1058516/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1305490/events/1305500"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1305491/events/1305500"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1124079/events/1124087"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870869/events/1124087"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1305490/events/1305500"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1305491/events/1305500"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1058516.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1082719",
+  "id": "1082719",
+  "guid": "e5ad417f-114f-9688-4a61-f6b20cf0dd94",
+  "uid": "s:200~a:1082719",
+  "type": "cricket",
+  "name": "Maletino Maiava",
+  "firstName": "Maletino",
+  "middleName": "",
+  "lastName": "Maiava",
+  "shortName": "Maiava",
+  "fullName": "Maletino Lane Maiava",
+  "displayName": "Maletino Maiava",
+  "weight": 0,
+  "height": 0.0,
+  "age": 41,
+  "dateOfBirthStr": "1985-06-01T00:00Z",
+  "dateOfBirth": "1985-06-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "ML Maiava",
+  "fieldingName": "Maiava",
+  "country": 141,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/141"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/141.png",
+    "width": 500,
+    "height": 500,
+    "alt": "Samoa",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/141"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1082719/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1362240/events/1362243"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1362241/events/1362243"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1362239/events/1362243"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1362239/events/1362243"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1362240/events/1362243"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1362241/events/1362243"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1082719.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1182030",
+  "id": "1182030",
+  "guid": "f722bd20-f2be-b24a-18f7-6df909632989",
+  "uid": "s:200~a:1182030",
+  "type": "cricket",
+  "name": "Dilip Dahyabhai Ahir",
+  "firstName": "Dilip",
+  "middleName": "",
+  "lastName": "Ahir",
+  "shortName": "Dahyabhai",
+  "fullName": "Dilip Kumar Dahyabhai Ahir",
+  "displayName": "Dilip Dahyabhai Ahir",
+  "weight": 0,
+  "height": 0.0,
+  "age": 43,
+  "dateOfBirthStr": "1983-07-03T00:00Z",
+  "dateOfBirth": "1983-07-03T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "DK Dahyabhai Ahir",
+  "fieldingName": "Dahyabhai Ahir",
+  "country": 132,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/132"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/132.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/132"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1182030/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1181402/events/1181406"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1181403/events/1181406"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1181399/events/1181406"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1181399/events/1181406"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1181402/events/1181406"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1181403/events/1181406"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1182030.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

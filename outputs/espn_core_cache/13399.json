@@ -1,0 +1,134 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/13399",
+  "id": "13399",
+  "guid": "431af46d-1179-8ca2-56f1-b2dc597a88ec",
+  "uid": "s:200~a:13399",
+  "type": "cricket",
+  "name": "Graham Gooch",
+  "firstName": "Graham",
+  "middleName": "",
+  "lastName": "Gooch",
+  "shortName": "Gooch",
+  "fullName": "Graham Alan Gooch",
+  "displayName": "Graham Gooch",
+  "weight": 0,
+  "height": 6.0,
+  "age": 72,
+  "dateOfBirthStr": "1953-07-23T00:00Z",
+  "dateOfBirth": "1953-07-23T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "GA Gooch",
+  "fieldingName": "Gooch",
+  "country": 1,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/20063"
+      },
+      "relation": "Cousin"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/984"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3357"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/13399/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60456/events/63146"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61351/events/63146"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60796/events/64955"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61881/events/64955"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/13399.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

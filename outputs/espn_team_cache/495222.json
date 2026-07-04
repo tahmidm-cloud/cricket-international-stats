@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/495222",
+  "id": "495222",
+  "uid": "s:200~t:495222",
+  "location": "Sri Lanka",
+  "name": "Basnahira",
+  "nickname": "Basnahira",
+  "abbreviation": "BASNA",
+  "displayName": "Basnahira",
+  "shortDisplayName": "BASNA",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "basnahira",
+  "classes": [
+    5,
+    6
+  ],
+  "event": {
+    "date": "2013-01-25T04:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8868/events/600416"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/495222/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/495222/basnahira",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/495222/basnahira",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

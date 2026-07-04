@@ -1,0 +1,150 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/47739",
+  "id": "47739",
+  "guid": "e85b5ec6-2d69-bbf5-76f4-fba2f40c6a26",
+  "uid": "s:200~a:47739",
+  "type": "cricket",
+  "name": "Bert Vogler",
+  "firstName": "Bert",
+  "middleName": "",
+  "lastName": "Vogler",
+  "shortName": "Vogler",
+  "fullName": "Albert Edward Ernest Vogler",
+  "displayName": "Bert Vogler",
+  "weight": 0,
+  "height": 0.0,
+  "age": 69,
+  "dateOfBirthStr": "1876-11-28T00:00Z",
+  "dateOfBirth": "1876-11-28T00:00Z",
+  "dateOfDeathStr": "1946-08-09T00:00Z",
+  "dateOfDeath": "1946-08-09T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "AEE Vogler",
+  "fieldingName": "Vogler",
+  "country": 3,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3208"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1166"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1190"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3245"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3231"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/47739/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60289/events/62483"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61692/events/62483"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/47739.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

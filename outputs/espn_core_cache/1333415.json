@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1333415",
+  "id": "1333415",
+  "guid": "41463076-1a7b-3da6-8e73-d2ab0a2db44e",
+  "uid": "s:200~a:1333415",
+  "type": "cricket",
+  "name": "Usman Tariq",
+  "firstName": "Usman",
+  "middleName": "",
+  "lastName": "Tariq",
+  "shortName": "",
+  "fullName": "Usman Tariq",
+  "displayName": "Usman Tariq",
+  "weight": 0,
+  "height": 0.0,
+  "age": 28,
+  "dateOfBirthStr": "1998-01-01T00:00Z",
+  "dateOfBirth": "1998-01-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "Usman Tariq",
+  "fieldingName": "Usman Tariq",
+  "country": 7,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204574"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1346066"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1200537"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/953845"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/642421"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/7.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAK",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1333415/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1501888/events/1501897"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1501890/events/1501897"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1468159/events/1468163"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1453492/events/1453503"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1396834/events/1396914"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1333415.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

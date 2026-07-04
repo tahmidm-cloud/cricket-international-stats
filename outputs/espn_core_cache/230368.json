@@ -1,0 +1,157 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/230368",
+  "id": "230368",
+  "guid": "20b0da60-4c06-6d8e-7e73-e4220fda8b37",
+  "uid": "s:200~a:230368",
+  "type": "cricket",
+  "name": "Jon Holland",
+  "firstName": "Jon",
+  "middleName": "",
+  "lastName": "Holland",
+  "shortName": "Holland",
+  "fullName": "Jonathan Mark Holland",
+  "displayName": "Jon Holland",
+  "weight": 0,
+  "height": 1.81,
+  "age": 39,
+  "dateOfBirthStr": "1987-05-29T00:00Z",
+  "dateOfBirth": "1987-05-29T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "JM Holland",
+  "fieldingName": "Holland",
+  "country": 2,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509667"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/49"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/233"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/210"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/268"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509671"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/584"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/585"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/230368/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/995431/events/995453"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/995435/events/995453"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/361243/events/361251"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/361242/events/361280"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/361245/events/361325"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/309661/events/309684"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/309672/events/309684"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/223559/events/309684"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/230368.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

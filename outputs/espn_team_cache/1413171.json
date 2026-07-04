@@ -1,0 +1,65 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1413171",
+  "id": "1413171",
+  "uid": "s:200~t:1413171",
+  "location": "Pakistan",
+  "name": "Ghani Glass",
+  "nickname": "Ghani Glass",
+  "abbreviation": "GHG",
+  "displayName": "Ghani Glass",
+  "shortDisplayName": "GHG",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "PK",
+  "slug": "ghani-glass",
+  "classes": [
+    4,
+    5
+  ],
+  "event": {
+    "date": "2026-02-02T05:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8836/events/1517383"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8836"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1413171.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1413171/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1413171/ghani-glass",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1413171/ghani-glass",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

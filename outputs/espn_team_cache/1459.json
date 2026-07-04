@@ -1,0 +1,58 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1459",
+  "id": "1459",
+  "uid": "s:200~t:1459",
+  "location": "England",
+  "name": "Worcestershire 2nd XI",
+  "nickname": "Worcestershire 2nd XI",
+  "abbreviation": "Wo2XI",
+  "displayName": "Worcestershire 2nd XI",
+  "shortDisplayName": "Wo2XI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "worcestershire-2nd-xi",
+  "classes": [
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2026-06-30T10:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8861/events/1534512"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8861"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1459/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1459/worcestershire-2nd-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1459/worcestershire-2nd-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

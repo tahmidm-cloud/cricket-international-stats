@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1447960",
+  "id": "1447960",
+  "guid": "99069ee2-2fe5-370a-9c4e-24669eaf3f64",
+  "uid": "s:200~a:1447960",
+  "type": "cricket",
+  "name": "Sodbileg Gantulga",
+  "firstName": "Sodbileg",
+  "middleName": "",
+  "lastName": "Gantulga",
+  "shortName": "Gantulga",
+  "fullName": "Sodbileg Gantulga",
+  "displayName": "Sodbileg Gantulga",
+  "weight": 0,
+  "height": 0.0,
+  "age": 18,
+  "dateOfBirthStr": "2007-12-19T00:00Z",
+  "dateOfBirth": "2007-12-19T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "S Gantulga",
+  "fieldingName": "Gantulga",
+  "country": 115,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/115"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/115.png",
+    "width": 500,
+    "height": 500,
+    "alt": "",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/115"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1447960/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1446770/events/1447479"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1447465/events/1447479"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1447470/events/1447479"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1446770/events/1447479"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1447465/events/1447479"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1447470/events/1447479"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1447960.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

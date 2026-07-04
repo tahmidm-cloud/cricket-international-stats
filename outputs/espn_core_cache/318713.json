@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/318713",
+  "id": "318713",
+  "guid": "61203fcd-ea5f-dfcc-c4a6-487771d39ca5",
+  "uid": "s:200~a:318713",
+  "type": "cricket",
+  "name": "Chetan Suryawanshi",
+  "firstName": "Chetan",
+  "middleName": "",
+  "lastName": "Suryawanshi",
+  "shortName": "",
+  "fullName": "Chetan Ramchandra Suryawanshi",
+  "displayName": "Chetan Suryawanshi",
+  "weight": 0,
+  "height": 0.0,
+  "age": 41,
+  "dateOfBirthStr": "1985-02-24T00:00Z",
+  "dateOfBirth": "1985-02-24T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "CR Suryawanshi",
+  "fieldingName": "Suryawanshi",
+  "country": 23,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/23"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335971"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1916"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/23.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SGP",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/23"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/318713/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1190756/events/1190767"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1190757/events/1190767"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1190756/events/1190767"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1190757/events/1190767"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/318713.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

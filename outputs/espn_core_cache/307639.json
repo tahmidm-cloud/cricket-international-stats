@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/307639",
+  "id": "307639",
+  "guid": "2376199d-e732-4b6d-935e-8114f3169242",
+  "uid": "s:200~a:307639",
+  "type": "cricket",
+  "name": "Ahmad Faiz",
+  "firstName": "Ahmad",
+  "middleName": "",
+  "lastName": "Faiz",
+  "shortName": "Ahmed Faiz",
+  "fullName": "Ahmed Faiz Mohammad Noor",
+  "displayName": "Ahmad Faiz",
+  "weight": 0,
+  "height": 0.0,
+  "age": 38,
+  "dateOfBirthStr": "1988-02-12T00:00Z",
+  "dateOfBirth": "1988-02-12T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT",
+    "id": "BT",
+    "name": "Batter",
+    "abbreviation": "BT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT"
+    }
+  },
+  "battingName": "Ahmed Faiz",
+  "fieldingName": "Ahmed Faiz",
+  "country": 16,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/16"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2309"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/16.png",
+    "width": 500,
+    "height": 500,
+    "alt": "MAS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/16"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/307639/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1186475/events/1186488"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1186474/events/1186488"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1200433/events/1200438"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1200432/events/1200438"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1186475/events/1186488"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1186474/events/1186488"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/316951/events/316976"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/288278/events/316976"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/307639.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/45431",
+  "id": "45431",
+  "guid": "b41b0478-6c1a-7890-fd6f-bf0fbfec7251",
+  "uid": "s:200~a:45431",
+  "type": "cricket",
+  "name": "Claude Henderson",
+  "firstName": "Claude",
+  "middleName": "",
+  "lastName": "Henderson",
+  "shortName": "Henderson",
+  "fullName": "Claude William Henderson",
+  "displayName": "Claude Henderson",
+  "weight": 0,
+  "height": 0.0,
+  "age": 54,
+  "dateOfBirthStr": "1972-06-14T00:00Z",
+  "dateOfBirth": "1972-06-14T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "CW Henderson",
+  "fieldingName": "Henderson",
+  "country": 3,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/45433"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3161"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3360"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1133"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3249"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3357"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1460"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/45431.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/45431/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61836/events/63949"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60712/events/63949"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61092/events/64725"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61836/events/64725"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/134471/events/304791"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/45431.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

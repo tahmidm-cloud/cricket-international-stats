@@ -1,0 +1,145 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1394079",
+  "id": "1394079",
+  "guid": "f019ceec-2b25-3622-992d-22378d0a84d2",
+  "uid": "s:200~a:1394079",
+  "type": "cricket",
+  "name": "Jordan Neill",
+  "firstName": "Jordan",
+  "middleName": "",
+  "lastName": "Neill",
+  "shortName": "Neill",
+  "fullName": "Jordan Enno Neill",
+  "displayName": "Jordan Neill",
+  "weight": 0,
+  "height": 0.0,
+  "age": 20,
+  "dateOfBirthStr": "2005-09-03T00:00Z",
+  "dateOfBirth": "2005-09-03T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT",
+    "id": "BT",
+    "name": "Batter",
+    "abbreviation": "BT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT"
+    }
+  },
+  "battingName": "J Neill",
+  "fieldingName": "Neill",
+  "country": 29,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/29"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2230"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1089598"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/29.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IRE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/29"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1394079/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1506009/events/1506012"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1506008/events/1506012"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1472505/events/1472513"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1472504/events/1472513"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1506008/events/1506012"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1506009/events/1506012"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1429567/events/1429570"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1430827/events/1430828"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1394016/events/1394020"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1394015/events/1394020"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1394079.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/471045",
+  "id": "471045",
+  "guid": "762cda15-6cb8-8b0e-84ce-96a46bf9c8e8",
+  "uid": "s:200~a:471045",
+  "type": "cricket",
+  "name": "Hidde Overdijk",
+  "firstName": "Hidde",
+  "middleName": "",
+  "lastName": "Overdijk",
+  "shortName": "Overdijk",
+  "fullName": "Hidde C Overdijk",
+  "displayName": "Hidde Overdijk",
+  "weight": 0,
+  "height": 0.0,
+  "age": 30,
+  "dateOfBirthStr": "1996-04-29T00:00Z",
+  "dateOfBirth": "1996-04-29T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "HC Overdijk",
+  "fieldingName": "Overdijk",
+  "country": 15,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2406"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/15.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NED",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/15"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/471045/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1141830/events/1141835"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1141831/events/1141835"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1151832/events/1141835"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1141830/events/1141833"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1141831/events/1141833"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/471045.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

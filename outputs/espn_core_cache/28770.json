@@ -1,0 +1,130 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/28770",
+  "id": "28770",
+  "guid": "99761df2-3943-c34b-1e43-86dc7464ec24",
+  "uid": "s:200~a:28770",
+  "type": "cricket",
+  "name": "Devang Gandhi",
+  "firstName": "Devang",
+  "middleName": "",
+  "lastName": "Gandhi",
+  "shortName": "Gandhi",
+  "fullName": "Devang Jayant Gandhi",
+  "displayName": "Devang Gandhi",
+  "weight": 0,
+  "height": 0.0,
+  "age": 54,
+  "dateOfBirthStr": "1971-09-06T00:00Z",
+  "dateOfBirth": "1971-09-06T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "DJ Gandhi",
+  "fieldingName": "Gandhi",
+  "country": 6,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1572"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/987"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335973"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/28770/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62133/events/63848"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60676/events/63848"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62133/events/64634"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61055/events/64634"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/28770.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

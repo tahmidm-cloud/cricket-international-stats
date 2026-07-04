@@ -1,0 +1,170 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/41272",
+  "id": "41272",
+  "guid": "5a104b5e-1709-f3d9-355a-530ad25a4b24",
+  "uid": "s:200~a:41272",
+  "type": "cricket",
+  "name": "Maqsood Rana",
+  "firstName": "Maqsood",
+  "middleName": "",
+  "lastName": "Rana",
+  "shortName": "",
+  "fullName": "Maqsood Rana",
+  "displayName": "Maqsood Rana",
+  "weight": 0,
+  "height": 0.0,
+  "age": 53,
+  "dateOfBirthStr": "1972-08-01T00:00Z",
+  "dateOfBirth": "1972-08-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Maqsood Rana",
+  "fieldingName": "Maqsood Rana",
+  "country": 7,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/42881"
+      },
+      "relation": "Father"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/42637"
+      },
+      "relation": "Uncle"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/39026"
+      },
+      "relation": "Uncle"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/43218"
+      },
+      "relation": "Uncle"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/41261"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2833"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2918"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3054"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/7.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAK",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/41272/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61478/events/65454"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60900/events/65454"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325709/events/325713"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325710/events/325713"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326072/events/326088"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326082/events/326088"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326085/events/326088"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/41272.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

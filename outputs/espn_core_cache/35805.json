@@ -1,0 +1,164 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/35805",
+  "id": "35805",
+  "guid": "be669c4f-5b1e-967f-3bff-a27675d4a01c",
+  "uid": "s:200~a:35805",
+  "type": "cricket",
+  "name": "Venugopal Rao",
+  "firstName": "Venugopal",
+  "middleName": "",
+  "lastName": "Rao",
+  "shortName": "Rao",
+  "fullName": "Yalaka Venugopal Rao",
+  "displayName": "Venugopal Rao",
+  "weight": 0,
+  "height": 0.0,
+  "age": 44,
+  "dateOfBirthStr": "1982-02-26T00:00Z",
+  "dateOfBirth": "1982-02-26T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "Y Venugopal Rao",
+  "fieldingName": "Venugopal Rao",
+  "country": 6,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/28830"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1541"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335980"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335975"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1729"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1781"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1786"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1950"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/241522"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/628333"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/35805/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/214637/events/214634"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/211858/events/214634"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/290517/events/290524"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327392/events/327395"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327393/events/327395"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327392/events/327396"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327394/events/327396"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/35805.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1155522",
+  "id": "1155522",
+  "guid": "9f1ed304-8f76-8800-6a63-668c5328086a",
+  "uid": "s:200~a:1155522",
+  "type": "cricket",
+  "name": "Nurudeen Ibrahim",
+  "firstName": "Nurudeen",
+  "middleName": "",
+  "lastName": "Ibrahim",
+  "shortName": "",
+  "fullName": "Nurudeen Ibrahim",
+  "displayName": "Nurudeen Ibrahim",
+  "weight": 0,
+  "height": 0.0,
+  "age": 25,
+  "dateOfBirthStr": "2001-04-06T00:00Z",
+  "dateOfBirth": "2001-04-06T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [],
+  "styles": [],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Nurudeen Ibrahim",
+  "fieldingName": "Nurudeen Ibrahim",
+  "country": 84,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/84"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/84.png",
+    "width": 500,
+    "height": 500,
+    "alt": "GHA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/84"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1155522/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1400971/events/1400986"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1401038/events/1400986"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1401040/events/1400986"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1401040/events/1400986"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1400971/events/1400986"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1401038/events/1400986"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1155522.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

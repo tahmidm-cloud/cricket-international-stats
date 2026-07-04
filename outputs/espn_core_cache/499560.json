@@ -1,0 +1,155 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/499560",
+  "id": "499560",
+  "guid": "ddd61767-bf7c-2cfe-6183-8cd75e39869c",
+  "uid": "s:200~a:499560",
+  "type": "cricket",
+  "name": "Patrick Kruger",
+  "firstName": "Patrick",
+  "middleName": "",
+  "lastName": "Kruger",
+  "shortName": "Kruger",
+  "fullName": "Patrick Earl Kruger",
+  "displayName": "Patrick Kruger",
+  "weight": 0,
+  "height": 0.0,
+  "age": 31,
+  "dateOfBirthStr": "1995-02-03T00:00Z",
+  "dateOfBirth": "1995-02-03T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BTA",
+    "id": "BTA",
+    "name": "Batting allrounder",
+    "abbreviation": "BTA",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BTA"
+    }
+  },
+  "battingName": "PE Kruger",
+  "fieldingName": "Kruger",
+  "country": 3,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/276843"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3228"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3230"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3202"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3228"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/498899"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/253076"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1335273"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3353"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/499560/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1433350/events/1433364"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1433351/events/1433364"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/577788/events/577870"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/783841/events/784013"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/577790/events/577981"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/499560.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

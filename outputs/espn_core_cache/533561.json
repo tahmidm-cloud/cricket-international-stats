@@ -1,0 +1,142 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/533561",
+  "id": "533561",
+  "guid": "4e972be8-b194-3cfb-c700-6af2766adfa0",
+  "uid": "s:200~a:533561",
+  "type": "cricket",
+  "name": "Waqas Maqsood",
+  "firstName": "Waqas",
+  "middleName": "",
+  "lastName": "Maqsood",
+  "shortName": "Maqsood",
+  "fullName": "Waqas Maqsood",
+  "displayName": "Waqas Maqsood",
+  "weight": 0,
+  "height": 0.0,
+  "age": 38,
+  "dateOfBirthStr": "1987-11-04T00:00Z",
+  "dateOfBirth": "1987-11-04T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm fast-medium",
+      "shortDescription": "Lfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm fast-medium",
+      "shortDescription": "Lfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "Waqas Maqsood",
+  "fieldingName": "Waqas Maqsood",
+  "country": 7,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2705"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1238373"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1501376"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/953843"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/953835"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/533561.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/7.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAK",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/533561/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1157365/events/1157377"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1157366/events/1157377"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1159079/events/1157377"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/533993/events/534000"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/554252/events/554255"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/530192/events/533341"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/533561.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

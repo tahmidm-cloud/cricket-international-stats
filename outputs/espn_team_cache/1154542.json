@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1154542",
+  "id": "1154542",
+  "uid": "s:200~t:1154542",
+  "location": "Eswatini",
+  "name": "Swaziland Under-19s",
+  "nickname": "Swaziland Under-19s",
+  "abbreviation": "SWZ19",
+  "displayName": "Swaziland Under-19s",
+  "shortDisplayName": "SWZ19",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "swaziland-under-19s",
+  "classes": [
+    "15"
+  ],
+  "event": {
+    "date": "2018-08-25T08:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18832/events/1154580"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1154542.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1154542/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1154542/swaziland-under-19s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1154542/swaziland-under-19s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

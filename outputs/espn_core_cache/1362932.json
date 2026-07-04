@@ -1,0 +1,105 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1362932",
+  "id": "1362932",
+  "guid": "b1181356-fabb-365f-b497-1d68432a97a7",
+  "uid": "s:200~a:1362932",
+  "type": "cricket",
+  "name": "Matthew Faatea",
+  "firstName": "Matthew",
+  "middleName": "",
+  "lastName": "Faatea",
+  "shortName": "Faatea",
+  "fullName": "Matthew Taauso Mafoa Faatea",
+  "displayName": "Matthew Faatea",
+  "weight": 0,
+  "height": 0.0,
+  "age": 22,
+  "dateOfBirthStr": "2003-08-30T00:00Z",
+  "dateOfBirth": "2003-08-30T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [],
+  "styles": [],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "MTM Faatea",
+  "fieldingName": "Faatea",
+  "country": 141,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/141"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/141.png",
+    "width": 500,
+    "height": 500,
+    "alt": "Samoa",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/141"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1362932/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1362239/events/1362243"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1362240/events/1362243"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1362241/events/1362243"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1362239/events/1362243"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1362240/events/1362243"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1362241/events/1362243"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1362932.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

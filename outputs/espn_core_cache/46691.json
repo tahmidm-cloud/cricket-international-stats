@@ -1,0 +1,124 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/46691",
+  "id": "46691",
+  "guid": "e695a875-ccfe-60f2-7dc7-aaa51f004e4f",
+  "uid": "s:200~a:46691",
+  "type": "cricket",
+  "name": "Tuppy Owen-Smith",
+  "firstName": "Tuppy",
+  "middleName": "",
+  "lastName": "Owen-Smith",
+  "shortName": "Owen-Smith",
+  "fullName": "Harold Geoffrey Owen-Smith",
+  "displayName": "Tuppy Owen-Smith",
+  "weight": 0,
+  "height": 0,
+  "age": 81,
+  "dateOfBirthStr": "1909-02-18T00:00Z",
+  "dateOfBirth": "1909-02-18T00:00Z",
+  "dateOfDeathStr": "1990-02-28T00:00Z",
+  "dateOfDeath": "1990-02-28T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "HGO Owen-Smith",
+  "fieldingName": "Owen-Smith",
+  "country": 3,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1190"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/292457"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3357"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/46691/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60311/events/62567"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61821/events/62567"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/46691.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

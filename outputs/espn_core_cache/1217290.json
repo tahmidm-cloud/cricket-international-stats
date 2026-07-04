@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1217290",
+  "id": "1217290",
+  "guid": "89d7165e-69a6-3a93-83cb-8da2629b7850",
+  "uid": "s:200~a:1217290",
+  "type": "cricket",
+  "name": "Aphsal Ashraf",
+  "firstName": "Aphsal",
+  "middleName": "",
+  "lastName": "Ashraf",
+  "shortName": "",
+  "fullName": "Aphsal Ashraf",
+  "displayName": "Aphsal Ashraf",
+  "weight": 0,
+  "height": 0.0,
+  "age": 34,
+  "dateOfBirthStr": "1991-11-23T00:00Z",
+  "dateOfBirth": "1991-11-23T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BLA",
+    "id": "BLA",
+    "name": "Bowling allrounder",
+    "abbreviation": "BLA",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BLA"
+    }
+  },
+  "battingName": "Aphsal Ashraf",
+  "fieldingName": "Aphsal Ashraf",
+  "country": 38,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/38"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/38.png",
+    "width": 500,
+    "height": 500,
+    "alt": "KUW",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/38"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1217290/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1215148/events/1215154"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1215149/events/1215154"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1215141/events/1215154"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1215141/events/1215154"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1215148/events/1215154"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1215149/events/1215154"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1217290.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

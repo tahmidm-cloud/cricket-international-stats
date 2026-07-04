@@ -1,0 +1,154 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/4493",
+  "id": "4493",
+  "guid": "1057a22d-4f1d-8398-4155-4d439b99677b",
+  "uid": "s:200~a:4493",
+  "type": "cricket",
+  "name": "Dean Brownlie",
+  "firstName": "Dean",
+  "middleName": "",
+  "lastName": "Brownlie",
+  "shortName": "Brownlie",
+  "fullName": "Dean Graham Brownlie",
+  "displayName": "Dean Brownlie",
+  "weight": 0,
+  "height": 0.0,
+  "age": 41,
+  "dateOfBirthStr": "1984-07-30T00:00Z",
+  "dateOfBirth": "1984-07-30T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "DG Brownlie",
+  "fieldingName": "Brownlie",
+  "country": 5,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2469"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1101"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2540"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2516"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/625"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/626"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/4493/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/527011/events/527017"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/527008/events/527017"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/520581/events/520592"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/520583/events/520592"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/473905/events/473918"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/473914/events/473918"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/428880/events/428949"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/428881/events/428920"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/424919/events/424927"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/4493.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

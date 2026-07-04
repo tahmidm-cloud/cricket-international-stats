@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1230623",
+  "id": "1230623",
+  "guid": "befe57c1-5f25-35a1-8e7f-b4c2d4882a00",
+  "uid": "s:200~a:1230623",
+  "type": "cricket",
+  "name": "Saransh Kushretha",
+  "firstName": "Saransh",
+  "middleName": "",
+  "lastName": "Kushretha",
+  "shortName": "",
+  "fullName": "Saransh Kushretha",
+  "displayName": "Saransh Kushretha",
+  "weight": 0,
+  "height": 0,
+  "age": 41,
+  "dateOfBirthStr": "1984-12-29T00:00Z",
+  "dateOfBirth": "1984-12-29T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "S Kushretha",
+  "fieldingName": "Kushretha",
+  "country": 110,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/110"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/110.png",
+    "width": 500,
+    "height": 500,
+    "alt": "LUX",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/110"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1230623/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1229797/events/1229818"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1229798/events/1229818"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1229797/events/1229818"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1229798/events/1229818"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1230623.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

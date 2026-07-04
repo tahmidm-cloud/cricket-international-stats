@@ -1,0 +1,134 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/33943",
+  "id": "33943",
+  "guid": "c2e0d085-9864-b48b-cd86-22c1715279e7",
+  "uid": "s:200~a:33943",
+  "type": "cricket",
+  "name": "Ajay Sharma",
+  "firstName": "Ajay",
+  "middleName": "",
+  "lastName": "Sharma",
+  "shortName": "Sharma",
+  "fullName": "Ajay Kumar Sharma",
+  "displayName": "Ajay Sharma",
+  "weight": 0,
+  "height": 0.0,
+  "age": 62,
+  "dateOfBirthStr": "1964-04-03T00:00Z",
+  "dateOfBirth": "1964-04-03T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "AK Sharma",
+  "fieldingName": "Sharma",
+  "country": 6,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/339955"
+      },
+      "relation": "Son"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1668"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1752"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/33943/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60545/events/63469"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61942/events/63469"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60878/events/64315"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61942/events/64315"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/33943.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

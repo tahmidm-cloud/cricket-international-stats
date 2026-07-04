@@ -1,0 +1,158 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/220519",
+  "id": "220519",
+  "guid": "6cb33c0b-1245-d773-0d76-c1bc787d8ef3",
+  "uid": "s:200~a:220519",
+  "type": "cricket",
+  "name": "Rameez Shahzad",
+  "firstName": "Rameez",
+  "middleName": "",
+  "lastName": "Shahzad",
+  "shortName": "",
+  "fullName": "Rameez Shahzad",
+  "displayName": "Rameez Shahzad",
+  "weight": 0,
+  "height": 0.0,
+  "age": 38,
+  "dateOfBirthStr": "1987-11-30T00:00Z",
+  "dateOfBirth": "1987-11-30T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "Rameez Shahzad",
+  "fieldingName": "Rameez Shahzad",
+  "country": 27,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/25545"
+      },
+      "relation": "Father"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/925"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1163305"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1150153"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/27.png",
+    "width": 500,
+    "height": 500,
+    "alt": "UAE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/220519/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870869/events/997993"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/997987/events/997993"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1072201/events/1072206"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1069640/events/1072206"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/266241/events/222884"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/143791/events/222884"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/266243/events/222884"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870869/events/997993"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/997987/events/997993"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1069640/events/1072206"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1072201/events/1072206"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/220519.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

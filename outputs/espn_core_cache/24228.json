@@ -1,0 +1,123 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24228",
+  "id": "24228",
+  "guid": "8fd38109-db40-1722-2f43-18b0ef82d2e2",
+  "uid": "s:200~a:24228",
+  "type": "cricket",
+  "name": "Nasir Hameed",
+  "firstName": "Nasir",
+  "middleName": "",
+  "lastName": "Hameed",
+  "shortName": "",
+  "fullName": "Nasir Hameed",
+  "displayName": "Nasir Hameed",
+  "weight": 0,
+  "height": 0.0,
+  "age": 57,
+  "dateOfBirthStr": "1969-04-04T00:00Z",
+  "dateOfBirth": "1969-04-04T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Nasir Hameed",
+  "fieldingName": "Nasir Hameed",
+  "country": 19,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/19"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/19.png",
+    "width": 500,
+    "height": 500,
+    "alt": "HKG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/19"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24228/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61447/events/65710"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61511/events/65710"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61152/events/65710"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/305769/events/207414"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/143791/events/207414"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61511/events/65710"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61447/events/65710"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61152/events/65710"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/24228.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

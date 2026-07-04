@@ -1,0 +1,115 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/30019",
+  "id": "30019",
+  "guid": "994f2451-74ec-bd47-35c0-0e29d2ddfad3",
+  "uid": "s:200~a:30019",
+  "type": "cricket",
+  "name": "Hemant Kanitkar",
+  "firstName": "Hemant",
+  "middleName": "",
+  "lastName": "Kanitkar",
+  "shortName": "Kanitkar",
+  "fullName": "Hemant Shamsunder Kanitkar",
+  "displayName": "Hemant Kanitkar",
+  "weight": 0,
+  "height": 0.0,
+  "age": 72,
+  "dateOfBirthStr": "1942-12-08T00:00Z",
+  "dateOfBirth": "1942-12-08T00:00Z",
+  "dateOfDeathStr": "2015-06-09T00:00Z",
+  "dateOfDeath": "2015-06-09T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "HS Kanitkar",
+  "fieldingName": "Kanitkar",
+  "country": 6,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/30018"
+      },
+      "relation": "Son"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1905"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/30019/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60452/events/63131"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61940/events/63131"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/30019.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

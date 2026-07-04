@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/43919",
+  "id": "43919",
+  "guid": "cf8361eb-a309-561f-3bbd-c3ab53017787",
+  "uid": "s:200~a:43919",
+  "type": "cricket",
+  "name": "Paul Adams",
+  "firstName": "Paul",
+  "middleName": "",
+  "lastName": "Adams",
+  "shortName": "Adams",
+  "fullName": "Paul Regan Adams",
+  "displayName": "Paul Adams",
+  "weight": 0,
+  "height": 0.0,
+  "age": 49,
+  "dateOfBirthStr": "1977-01-20T00:00Z",
+  "dateOfBirth": "1977-01-20T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm wrist-spin",
+      "shortDescription": "Lws",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm wrist-spin",
+      "shortDescription": "Lws",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "PR Adams",
+  "fieldingName": "Adams",
+  "country": 3,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3360"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1392080"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3357"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/43919.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/43919/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61699/events/63703"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60625/events/63703"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61699/events/64511"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60979/events/64511"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/134226/events/304951"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/43919.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

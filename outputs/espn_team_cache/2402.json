@@ -1,0 +1,62 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2402",
+  "id": "2402",
+  "uid": "s:200~t:2402",
+  "location": "Netherlands",
+  "name": "Netherlands A",
+  "nickname": "Netherlands A",
+  "abbreviation": "NL-A",
+  "displayName": "Netherlands A",
+  "shortDisplayName": "NL-A",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "NL",
+  "slug": "netherlands-a",
+  "classes": [
+    "5",
+    "15"
+  ],
+  "event": {
+    "date": "2021-05-13T09:45Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20145/events/1262765"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2402.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2402/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/2402/netherlands-a",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/2402/netherlands-a",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

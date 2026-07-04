@@ -1,0 +1,161 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/9042",
+  "id": "9042",
+  "guid": "f3d25283-1a32-c756-cdca-df45fbef9709",
+  "uid": "s:200~a:9042",
+  "type": "cricket",
+  "name": "Gareth Batty",
+  "firstName": "Gareth",
+  "middleName": "",
+  "lastName": "Batty",
+  "shortName": "Batty",
+  "fullName": "Gareth Jon Batty",
+  "displayName": "Gareth Batty",
+  "weight": 0,
+  "height": 5.11,
+  "age": 48,
+  "dateOfBirthStr": "1977-10-13T00:00Z",
+  "dateOfBirth": "1977-10-13T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "GJ Batty",
+  "fieldingName": "Batty",
+  "country": 1,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/9043"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1358"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1362"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1458"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1464"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/9042.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/9042/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61803/events/64052"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60752/events/64052"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61122/events/65629"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61708/events/65629"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/352657/events/352674"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/352658/events/352674"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/124121/events/304746"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326890/events/326891"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326888/events/326891"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326888/events/326894"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326889/events/326894"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/9042.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

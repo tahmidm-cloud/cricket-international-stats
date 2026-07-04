@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1167320",
+  "id": "1167320",
+  "guid": "4d83bde0-332a-b00b-ac8b-9a87f324d469",
+  "uid": "s:200~a:1167320",
+  "type": "cricket",
+  "name": "Ferdinando Banunaek",
+  "firstName": "Ferdinando",
+  "middleName": "",
+  "lastName": "Banunaek",
+  "shortName": "Banunaek",
+  "fullName": "Ferdinando Banunaek",
+  "displayName": "Ferdinando Banunaek",
+  "weight": 0,
+  "height": 0.0,
+  "age": 24,
+  "dateOfBirthStr": "2001-10-25T00:00Z",
+  "dateOfBirth": "2001-10-25T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "F Banunaek",
+  "fieldingName": "Banunaek",
+  "country": 91,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/91"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/91.png",
+    "width": 500,
+    "height": 500,
+    "alt": "INA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/91"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1167320/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1333916/events/1333932"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1333917/events/1333932"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1333916/events/1333932"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1333917/events/1333932"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1167320.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

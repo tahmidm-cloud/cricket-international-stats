@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1542962",
+  "id": "1542962",
+  "guid": "ace33144-d11e-3a38-9194-e87bc2abc9fa",
+  "uid": "s:200~a:1542962",
+  "type": "cricket",
+  "name": "Jatin Madan",
+  "firstName": "Jatin",
+  "middleName": "",
+  "lastName": "Madan",
+  "shortName": "Madan",
+  "fullName": "Jatin Madan",
+  "displayName": "Jatin Madan",
+  "weight": 0,
+  "height": 0.0,
+  "age": 35,
+  "dateOfBirthStr": "1991-03-12T00:00Z",
+  "dateOfBirth": "1991-03-12T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "J Madan",
+  "fieldingName": "Madan",
+  "country": 110,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/110"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/110.png",
+    "width": 500,
+    "height": 500,
+    "alt": "LUX",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/110"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1542962/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1539461/events/1539476"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1539462/events/1539476"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1539463/events/1539476"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1539461/events/1539476"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1539462/events/1539476"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1539463/events/1539476"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1542962.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

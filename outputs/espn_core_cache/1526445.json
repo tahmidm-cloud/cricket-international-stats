@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1526445",
+  "id": "1526445",
+  "guid": "",
+  "uid": "s:200~a:1526445",
+  "type": "cricket",
+  "name": "Somnath Bharratt",
+  "firstName": "Somnath",
+  "middleName": "",
+  "lastName": "Bharratt",
+  "shortName": "Bharratt",
+  "fullName": "Somnath Bharratt",
+  "displayName": "Somnath Bharratt",
+  "weight": 0,
+  "height": 0.0,
+  "age": 37,
+  "dateOfBirthStr": "1989-06-19T00:00Z",
+  "dateOfBirth": "1989-06-19T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "S Bharratt",
+  "fieldingName": "Bharratt",
+  "country": 151,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/151"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/151.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SUR",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/151"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1526445/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1525154/events/1525167"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1525155/events/1525167"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1525152/events/1525167"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1525152/events/1525167"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1525154/events/1525167"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1525155/events/1525167"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1526445.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

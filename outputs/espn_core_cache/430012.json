@@ -1,0 +1,120 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/430012",
+  "id": "430012",
+  "guid": "9a9922bc-7b4a-58b7-f551-bf3e6d642a38",
+  "uid": "s:200~a:430012",
+  "type": "cricket",
+  "name": "Mohammad Yasin",
+  "firstName": "Mohammad",
+  "middleName": "",
+  "lastName": "Yasin",
+  "shortName": "Yasin",
+  "fullName": "Mohammad Yasin",
+  "displayName": "Mohammad Yasin",
+  "weight": 0,
+  "height": 0.0,
+  "age": 36,
+  "dateOfBirthStr": "1989-12-02T00:00Z",
+  "dateOfBirth": "1989-12-02T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Mohammad Yasin",
+  "fieldingName": "Mohammad Yasin",
+  "country": 149,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2831"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3095"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3095"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/149.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ESP",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/149"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/430012/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1339199/events/1339207"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1339200/events/1339207"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/427780/events/427825"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/496397/events/498252"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/645753/events/647041"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/430012.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

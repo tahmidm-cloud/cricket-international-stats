@@ -1,0 +1,141 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38924",
+  "id": "38924",
+  "guid": "f59bd575-57f5-a346-946f-b7e6d2ee9347",
+  "uid": "s:200~a:38924",
+  "type": "cricket",
+  "name": "BJ Watling",
+  "firstName": "BJ",
+  "middleName": "",
+  "lastName": "Watling",
+  "shortName": "Watling",
+  "fullName": "Bradley-John Watling",
+  "displayName": "BJ Watling",
+  "weight": 0,
+  "height": 0.0,
+  "age": 40,
+  "dateOfBirthStr": "1985-07-09T00:00Z",
+  "dateOfBirth": "1985-07-09T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "BJ Watling",
+  "fieldingName": "Watling",
+  "country": 5,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2560"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2516"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/38924.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38924/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/423771/events/423780"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/423768/events/423780"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/456661/events/456664"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/456659/events/456664"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/426718/events/426723"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/426716/events/426723"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/426715/events/426723"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/135689/events/135690"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/136243/events/411223"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/296300/events/305028"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/330017/events/330036"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/125288/events/330036"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/38924.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

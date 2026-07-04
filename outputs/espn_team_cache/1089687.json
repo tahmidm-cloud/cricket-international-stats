@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1089687",
+  "id": "1089687",
+  "uid": "s:200~t:1089687",
+  "location": "Nepal",
+  "name": "Kathmandu Goldens",
+  "nickname": "Kathmandu Goldens",
+  "abbreviation": "GOLD",
+  "displayName": "Kathmandu Goldens",
+  "shortDisplayName": "GOLD",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "NP",
+  "slug": "kathmandu-goldens",
+  "classes": [
+    "16"
+  ],
+  "event": {
+    "date": "2019-02-22T06:45Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/17913/events/1173338"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1089687.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1089687/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1089687/kathmandu-goldens",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1089687/kathmandu-goldens",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

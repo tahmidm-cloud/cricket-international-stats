@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1186263",
+  "id": "1186263",
+  "guid": "3bbdadd3-6374-1d24-20f5-756222f160ef",
+  "uid": "s:200~a:1186263",
+  "type": "cricket",
+  "name": "Paul Rarotoga",
+  "firstName": "Paul",
+  "middleName": "",
+  "lastName": "Rarotoga",
+  "shortName": "Rarotoga",
+  "fullName": "Paul Vailigi Rarotoga",
+  "displayName": "Paul Rarotoga",
+  "weight": 0,
+  "height": 0.0,
+  "age": 25,
+  "dateOfBirthStr": "2000-09-19T00:00Z",
+  "dateOfBirth": "2000-09-19T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "PV Rarotoga",
+  "fieldingName": "Rarotoga",
+  "country": 141,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/642559"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/141.png",
+    "width": 500,
+    "height": 500,
+    "alt": "Samoa",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/141"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1186263/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1362239/events/1362243"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1362240/events/1362243"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1362241/events/1362243"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1362239/events/1362243"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1362240/events/1362243"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1362241/events/1362243"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1186263.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

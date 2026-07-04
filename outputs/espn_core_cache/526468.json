@@ -1,0 +1,145 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/526468",
+  "id": "526468",
+  "guid": "12f6f0cc-65a8-5c46-8efc-1f1886b007f3",
+  "uid": "s:200~a:526468",
+  "type": "cricket",
+  "name": "Elliot Miles",
+  "firstName": "Elliot",
+  "middleName": "",
+  "lastName": "Miles",
+  "shortName": "Miles",
+  "fullName": "Eliot Jack Buster Miles",
+  "displayName": "Elliot Miles",
+  "weight": 0,
+  "height": 0.0,
+  "age": 29,
+  "dateOfBirthStr": "1997-06-26T00:00Z",
+  "dateOfBirth": "1997-06-26T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "EJB Miles",
+  "fieldingName": "Miles",
+  "country": 218211,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/218211"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/414961"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1185"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/218211.png",
+    "width": 500,
+    "height": 500,
+    "alt": "JER",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/218211"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/526468/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1365085/events/1365094"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1365090/events/1365094"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1365091/events/1365094"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1185199/events/1185200"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1185174/events/1185200"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1207049/events/1207061"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1207052/events/1207061"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1207053/events/1207061"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1185174/events/1185200"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1185199/events/1185200"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/526468.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/15501",
+  "id": "15501",
+  "guid": "f76e704e-a085-47b4-bfa6-4bf93a1953bd",
+  "uid": "s:200~a:15501",
+  "type": "cricket",
+  "name": "Geraint Jones",
+  "firstName": "Geraint",
+  "middleName": "",
+  "lastName": "Jones",
+  "shortName": "Jones",
+  "fullName": "Geraint Owen Jones",
+  "displayName": "Geraint Jones",
+  "weight": 0,
+  "height": 5.1,
+  "age": 49,
+  "dateOfBirthStr": "1976-07-14T00:00Z",
+  "dateOfBirth": "1976-07-14T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "GO Jones",
+  "fieldingName": "Jones",
+  "country": 20,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/20"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1034"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1098"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1101"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/15501.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/20.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PNG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/20"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/15501/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61746/events/64080"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60761/events/64080"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61151/events/66304"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61872/events/66304"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/139019/events/211028"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/238219/events/211028"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/124121/events/129665"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/15501.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

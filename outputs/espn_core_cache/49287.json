@@ -1,0 +1,148 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/49287",
+  "id": "49287",
+  "guid": "27855c90-06ec-cf2f-ba3e-c816520a44c1",
+  "uid": "s:200~a:49287",
+  "type": "cricket",
+  "name": "Chinthaka Jayasinghe",
+  "firstName": "Chinthaka",
+  "middleName": "",
+  "lastName": "Jayasinghe",
+  "shortName": "Jayasinghe",
+  "fullName": "Halwathurage Chinthaka Umesh Jayasinghe",
+  "displayName": "Chinthaka Jayasinghe",
+  "weight": 0,
+  "height": 6.01,
+  "age": 48,
+  "dateOfBirthStr": "1978-05-19T00:00Z",
+  "dateOfBirth": "1978-05-19T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "CU Jayasinghe",
+  "fieldingName": "Jayasinghe",
+  "country": 8,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3493"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3494"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3503"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/325786"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3554"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3590"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/8.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/49287/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/430869/events/430884"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/428635/events/430884"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/304926/events/304928"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327182/events/327187"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327183/events/327187"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327182/events/327190"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327184/events/327190"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/49287.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

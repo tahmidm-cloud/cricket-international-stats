@@ -1,0 +1,118 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1437339",
+  "id": "1437339",
+  "guid": "",
+  "uid": "s:200~a:1437339",
+  "type": "cricket",
+  "name": "Warna Narayana",
+  "firstName": "Warna",
+  "middleName": "",
+  "lastName": "Narayana",
+  "shortName": "Narayana",
+  "fullName": "Warna Samudra Lasantha Kumara Narayana",
+  "displayName": "Warna Narayana",
+  "weight": 0,
+  "height": 0.0,
+  "age": 34,
+  "dateOfBirthStr": "1991-12-19T00:00Z",
+  "dateOfBirth": "1991-12-19T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "WSLK Narayana",
+  "fieldingName": "Narayana",
+  "country": 984779,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/22"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {},
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/984779"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1437339/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1436461/events/1436475"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1436468/events/1436475"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1436449/events/1436475"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1436449/events/1436475"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1436461/events/1436475"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1436468/events/1436475"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1437339.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

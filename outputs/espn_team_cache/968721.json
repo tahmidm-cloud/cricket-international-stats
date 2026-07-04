@@ -1,0 +1,73 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/968721",
+  "id": "968721",
+  "uid": "s:200~t:968721",
+  "location": "India",
+  "name": "Rising Pune Supergiant",
+  "nickname": "Rising Pune Supergiant",
+  "abbreviation": "RPS",
+  "displayName": "Rising Pune Supergiant",
+  "shortDisplayName": "RPS",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "rising-pune-supergiant",
+  "classes": [
+    6
+  ],
+  "event": {
+    "date": "2017-05-21T14:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8048/events/1082650"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/968721.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/968721/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/968721/rising-pune-supergiant",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/968721/rising-pune-supergiant",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "videos",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/current/video_audio/index.html?object=968721",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

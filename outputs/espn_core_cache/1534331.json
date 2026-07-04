@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1534331",
+  "id": "1534331",
+  "guid": "4c9b90dc-cd07-3b72-a0e4-93cf8ca3c3ab",
+  "uid": "s:200~a:1534331",
+  "type": "cricket",
+  "name": "Piumal Karunarathna",
+  "firstName": "Piumal",
+  "middleName": "",
+  "lastName": "Karunarathna",
+  "shortName": "",
+  "fullName": "Piumal Eeshwara Acharige Karunarathna",
+  "displayName": "Piumal Karunarathna",
+  "weight": 0,
+  "height": 0,
+  "age": 31,
+  "dateOfBirthStr": "1995-02-19T00:00Z",
+  "dateOfBirth": "1995-02-19T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "PEA Karunarathna",
+  "fieldingName": "Karunarathna",
+  "country": 80,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/80"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/80.png",
+    "width": 500,
+    "height": 500,
+    "alt": "FIN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/80"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1534331/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1533383/events/1533397"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1533384/events/1533397"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1533383/events/1533397"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1533384/events/1533397"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1534331.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

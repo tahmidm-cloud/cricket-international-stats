@@ -1,0 +1,124 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/50249",
+  "id": "50249",
+  "guid": "936f847d-29cd-4321-669c-0f7a6aa1ec73",
+  "uid": "s:200~a:50249",
+  "type": "cricket",
+  "name": "Rumesh Ratnayake",
+  "firstName": "Rumesh",
+  "middleName": "",
+  "lastName": "Ratnayake",
+  "shortName": "Ratnayake",
+  "fullName": "Rumesh Joseph Ratnayake",
+  "displayName": "Rumesh Ratnayake",
+  "weight": 0,
+  "height": 0.0,
+  "age": 62,
+  "dateOfBirthStr": "1964-01-02T00:00Z",
+  "dateOfBirth": "1964-01-02T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "RJ Ratnayake",
+  "fieldingName": "Ratnayake",
+  "country": 8,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3554"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/8.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/50249/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60509/events/63340"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61620/events/63340"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60823/events/64194"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61636/events/64194"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/50249.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

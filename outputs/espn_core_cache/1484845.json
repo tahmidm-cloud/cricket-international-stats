@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1484845",
+  "id": "1484845",
+  "guid": "8b99c37d-b0e8-3dbd-bf20-c9d0a6f39b5a",
+  "uid": "s:200~a:1484845",
+  "type": "cricket",
+  "name": "Rafiulah Alokozai",
+  "firstName": "Rafiulah",
+  "middleName": "",
+  "lastName": "Alokozai",
+  "shortName": "",
+  "fullName": "Rafiulah Alokozai",
+  "displayName": "Rafiulah Alokozai",
+  "weight": 0,
+  "height": 0.0,
+  "age": 27,
+  "dateOfBirthStr": "1999-01-01T00:00Z",
+  "dateOfBirth": "1999-01-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Rafiulah Alokozai",
+  "fieldingName": "Rafiulah Alokozai",
+  "country": 42,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/42"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/42.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BEL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/42"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1484845/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1485340/events/1485348"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1485342/events/1485348"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1485340/events/1485348"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1485342/events/1485348"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1484845.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

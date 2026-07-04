@@ -1,0 +1,109 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/23950",
+  "id": "23950",
+  "guid": "537155d0-b9c6-596d-cd5a-e82c875b9caa",
+  "uid": "s:200~a:23950",
+  "type": "cricket",
+  "name": "Frasat Ali",
+  "firstName": "Frasat",
+  "middleName": "",
+  "lastName": "Ali",
+  "shortName": "Frasat Ali",
+  "fullName": "Frasat Ali Mughal",
+  "displayName": "Frasat Ali",
+  "weight": 0,
+  "height": 0.0,
+  "age": 73,
+  "dateOfBirthStr": "1949-07-31T00:00Z",
+  "dateOfBirth": "1949-07-31T00:00Z",
+  "dateOfDeathStr": "2022-10-13T00:00Z",
+  "dateOfDeath": "2022-10-13T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Frasat Ali",
+  "fieldingName": "Frasat Ali",
+  "country": 14,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/14"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {},
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/14"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/23950/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60793/events/65036"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62069/events/65036"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62159/events/65036"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/23950.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

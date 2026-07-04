@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3555",
+  "id": "3555",
+  "uid": "s:200~t:3555",
+  "location": "Sri Lanka",
+  "name": "North Central Province",
+  "nickname": "North Central Province",
+  "abbreviation": "",
+  "displayName": "North Central Province",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "north-central-province",
+  "classes": [
+    "4"
+  ],
+  "event": {
+    "date": "2005-03-01T04:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8869/events/222230"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3555/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3555/north-central-province",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3555/north-central-province",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

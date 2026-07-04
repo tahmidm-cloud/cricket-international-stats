@@ -1,0 +1,99 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1194059",
+  "id": "1194059",
+  "guid": "d9c2fee1-50aa-bb52-f6c0-bba30c42c3c6",
+  "uid": "s:200~a:1194059",
+  "type": "cricket",
+  "name": "Waqas Raja",
+  "firstName": "Waqas",
+  "middleName": "",
+  "lastName": "Raja",
+  "shortName": "Waqas Raja",
+  "fullName": "Waqas Arif Raja",
+  "displayName": "Waqas Raja",
+  "weight": 0,
+  "height": 0.0,
+  "age": 41,
+  "dateOfBirthStr": "1984-10-25T00:00Z",
+  "dateOfBirth": "1984-10-25T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [],
+  "styles": [],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Waqas Raja",
+  "fieldingName": "Waqas Raja",
+  "country": 80,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/80"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/80.png",
+    "width": 500,
+    "height": 500,
+    "alt": "FIN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/80"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1194059/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1192820/events/1192824"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1192821/events/1192824"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1192820/events/1192824"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1192821/events/1192824"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1194059.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

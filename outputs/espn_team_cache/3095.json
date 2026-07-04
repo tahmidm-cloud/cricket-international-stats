@@ -1,0 +1,56 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3095",
+  "id": "3095",
+  "uid": "s:200~t:3095",
+  "location": "Pakistan",
+  "name": "Sialkot Stallions",
+  "nickname": "Sialkot Stallions",
+  "abbreviation": "Sia",
+  "displayName": "Sialkot Stallions",
+  "shortDisplayName": "Sia",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "PK",
+  "slug": "sialkot-stallions",
+  "classes": [
+    4,
+    5,
+    6,
+    16
+  ],
+  "event": {
+    "date": "2015-05-18T14:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8660/events/872589"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3095/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3095/sialkot-stallions",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3095/sialkot-stallions",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

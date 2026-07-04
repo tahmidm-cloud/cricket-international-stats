@@ -1,0 +1,149 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/467403",
+  "id": "467403",
+  "guid": "8e950379-5702-7443-1367-e0cf65cdb847",
+  "uid": "s:200~a:467403",
+  "type": "cricket",
+  "name": "Joy Perera",
+  "firstName": "Joy",
+  "middleName": "",
+  "lastName": "Perera",
+  "shortName": "Perera",
+  "fullName": "Bentota Baduge Joy Lenin Perera",
+  "displayName": "Joy Perera",
+  "weight": 0,
+  "height": 0.0,
+  "age": 39,
+  "dateOfBirthStr": "1987-06-12T00:00Z",
+  "dateOfBirth": "1987-06-12T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "BBJL Perera",
+  "fieldingName": "Perera",
+  "country": 31,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/31"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/467404"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/31.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ITA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/31"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/467403/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1178992/events/1178995"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1178993/events/1178995"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1178994/events/1178995"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1207049/events/1207062"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1207054/events/1207062"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1207055/events/1207062"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/660283/events/660103"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/660297/events/660103"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/660011/events/660103"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/467403.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

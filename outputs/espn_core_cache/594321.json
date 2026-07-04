@@ -1,0 +1,126 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/594321",
+  "id": "594321",
+  "guid": "1c948643-0fdc-c75b-95e0-22f53dda4c8c",
+  "uid": "s:200~a:594321",
+  "type": "cricket",
+  "name": "Neil Mugabe",
+  "firstName": "Neil",
+  "middleName": "",
+  "lastName": "Mugabe",
+  "shortName": "Mugabe",
+  "fullName": "Neil Mugabe",
+  "displayName": "Neil Mugabe",
+  "weight": 0,
+  "height": 0.0,
+  "age": 31,
+  "dateOfBirthStr": "1995-03-31T00:00Z",
+  "dateOfBirth": "1995-03-31T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "N Mugabe",
+  "fieldingName": "Mugabe",
+  "country": 26,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/26"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3270"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/26.png",
+    "width": 500,
+    "height": 500,
+    "alt": "KENYA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/26"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/594321/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1411424/events/1411434"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1411425/events/1411434"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1411423/events/1411434"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1451764/events/1451776"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1451768/events/1451776"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1411423/events/1411434"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1411424/events/1411434"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1411425/events/1411434"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/594321.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

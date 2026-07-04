@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1502410",
+  "id": "1502410",
+  "guid": "9239d96d-a50d-3302-8d36-693fb4dde285",
+  "uid": "s:200~a:1502410",
+  "type": "cricket",
+  "name": "Banele Mngomezulu",
+  "firstName": "Banele",
+  "middleName": "",
+  "lastName": "Mngomezulu",
+  "shortName": "Mngomezulu",
+  "fullName": "Banele Mngomezulu",
+  "displayName": "Banele Mngomezulu",
+  "weight": 0,
+  "height": 0.0,
+  "age": 22,
+  "dateOfBirthStr": "2004-02-04T00:00Z",
+  "dateOfBirth": "2004-02-04T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "B Mngomezulu",
+  "fieldingName": "Mngomezulu",
+  "country": 300710,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/300710"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/300710.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SWZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/300710"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1502410/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1538207/events/1538210"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1538208/events/1538210"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1538207/events/1538210"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1538208/events/1538210"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1502410.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

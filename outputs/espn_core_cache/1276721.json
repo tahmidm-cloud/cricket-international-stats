@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1276721",
+  "id": "1276721",
+  "guid": "a7d7b562-aceb-3e4a-a5d3-f81e2cb11cfc",
+  "uid": "s:200~a:1276721",
+  "type": "cricket",
+  "name": "Pruthvikumar Machhi",
+  "firstName": "Pruthvikumar",
+  "middleName": "",
+  "lastName": "Machhi",
+  "shortName": "Machhi",
+  "fullName": "Pruthvikumar Damubhai Machhi",
+  "displayName": "Pruthvikumar Machhi",
+  "weight": 0,
+  "height": 0.0,
+  "age": 31,
+  "dateOfBirthStr": "1995-01-21T00:00Z",
+  "dateOfBirth": "1995-01-21T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "PD Machhi",
+  "fieldingName": "Machhi",
+  "country": 37,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/37"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/37.png",
+    "width": 500,
+    "height": 500,
+    "alt": "OMA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/37"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1276721/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1196667/events/1275254"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1275292/events/1275254"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1196667/events/1275254"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1275292/events/1275254"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1276721.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

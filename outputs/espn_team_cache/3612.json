@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3612",
+  "id": "3612",
+  "uid": "s:200~t:3612",
+  "location": "Sri Lanka",
+  "name": "Sri Lanka Masters",
+  "nickname": "Sri Lanka Masters",
+  "abbreviation": "SL-M",
+  "displayName": "Sri Lanka Masters",
+  "shortDisplayName": "SL-M",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "sri-lanka-masters",
+  "classes": [
+    15,
+    16
+  ],
+  "event": {
+    "date": "2025-03-14T14:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/23196/events/1474878"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3612/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3612/sri-lanka-masters",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3612/sri-lanka-masters",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

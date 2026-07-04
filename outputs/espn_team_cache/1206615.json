@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1206615",
+  "id": "1206615",
+  "uid": "s:200~t:1206615",
+  "location": "United Arab Emirates",
+  "name": "Qalandars",
+  "nickname": "Qalandars",
+  "abbreviation": "QAL",
+  "displayName": "Qalandars",
+  "shortDisplayName": "QAL",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AE",
+  "slug": "qalandars",
+  "classes": [
+    16
+  ],
+  "event": {
+    "date": "2021-02-06T13:15Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18522/events/1248777"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1206615.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1206615/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1206615/qalandars",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1206615/qalandars",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

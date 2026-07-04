@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2460",
+  "id": "2460",
+  "uid": "s:200~t:2460",
+  "location": "New Zealand",
+  "name": "Auckland A",
+  "nickname": "Auckland A",
+  "abbreviation": "",
+  "displayName": "Auckland A",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "NZ",
+  "slug": "auckland-a",
+  "classes": [
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2014-01-08T21:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8816/events/707163"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2460/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/2460/auckland-a",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/2460/auckland-a",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

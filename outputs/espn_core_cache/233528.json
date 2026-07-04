@@ -1,0 +1,161 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/233528",
+  "id": "233528",
+  "guid": "2076da15-0245-0a55-703b-58aac9e6d373",
+  "uid": "s:200~a:233528",
+  "type": "cricket",
+  "name": "Roger Mukasa",
+  "firstName": "Roger",
+  "middleName": "",
+  "lastName": "Mukasa",
+  "shortName": "Mukasa",
+  "fullName": "Roger Galwanao Mukasa",
+  "displayName": "Roger Mukasa",
+  "weight": 0,
+  "height": 0.0,
+  "age": 37,
+  "dateOfBirthStr": "1989-05-22T00:00Z",
+  "dateOfBirth": "1989-05-22T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT",
+    "id": "BT",
+    "name": "Batter",
+    "abbreviation": "BT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT"
+    }
+  },
+  "battingName": "RG Mukasa",
+  "fieldingName": "Mukasa",
+  "country": 35,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/26139"
+      },
+      "relation": "Brother"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/26127"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/35"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/527512"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3666"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/35.png",
+    "width": 500,
+    "height": 500,
+    "alt": "UGA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/35"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/233528/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1184249/events/1184260"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1184248/events/1184260"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/415153/events/415159"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/415157/events/415159"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/384067/events/390206"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/390260/events/390206"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/390280/events/390206"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/441774/events/441776"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/223559/events/309680"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/309665/events/309680"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/309664/events/309680"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/233528.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

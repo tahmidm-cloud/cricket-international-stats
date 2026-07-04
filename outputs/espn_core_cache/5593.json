@@ -1,0 +1,157 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/5593",
+  "id": "5593",
+  "guid": "46a35bd8-8048-c64b-e4d7-537ad044d184",
+  "uid": "s:200~a:5593",
+  "type": "cricket",
+  "name": "Nathan Hauritz",
+  "firstName": "Nathan",
+  "middleName": "",
+  "lastName": "Hauritz",
+  "shortName": "Hauritz",
+  "fullName": "Nathan Michael Hauritz",
+  "displayName": "Nathan Hauritz",
+  "weight": 0,
+  "height": 1.82,
+  "age": 44,
+  "dateOfBirthStr": "1981-10-18T00:00Z",
+  "dateOfBirth": "1981-10-18T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "NM Hauritz",
+  "fieldingName": "Hauritz",
+  "country": 2,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509668"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509671"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/387"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/459"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/5593.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/5593/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61430/events/64102"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60769/events/64102"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61104/events/64758"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61368/events/64758"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/390286/events/392615"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/390287/events/392615"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/398554/events/392615"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/231859/events/231858"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327402/events/327406"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327400/events/327406"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327401/events/327403"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327400/events/327403"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/5593.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

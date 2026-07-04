@@ -1,0 +1,145 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38920",
+  "id": "38920",
+  "guid": "4a9a49f6-8081-7bc9-1120-314fd9538f38",
+  "uid": "s:200~a:38920",
+  "type": "cricket",
+  "name": "Luke Woodcock",
+  "firstName": "Luke",
+  "middleName": "",
+  "lastName": "Woodcock",
+  "shortName": "Woodcock",
+  "fullName": "Luke James Woodcock",
+  "displayName": "Luke Woodcock",
+  "weight": 0,
+  "height": 0.0,
+  "age": 44,
+  "dateOfBirthStr": "1982-03-19T00:00Z",
+  "dateOfBirth": "1982-03-19T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "LJ Woodcock",
+  "fieldingName": "Woodcock",
+  "country": 5,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2540"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2600"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38920/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/473916/events/473925"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/473905/events/473925"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/473914/events/473919"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/473905/events/473919"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61500/events/431938"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/232574/events/264917"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/98826/events/327552"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327548/events/327552"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/98826/events/327560"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327547/events/327560"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/38920.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

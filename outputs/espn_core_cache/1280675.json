@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1280675",
+  "id": "1280675",
+  "guid": "8e34d6dd-5ff1-310b-afa9-fbd516188e30",
+  "uid": "s:200~a:1280675",
+  "type": "cricket",
+  "name": "Isae Niyomugabo",
+  "firstName": "Isae",
+  "middleName": "",
+  "lastName": "Niyomugabo",
+  "shortName": "",
+  "fullName": "Isae Niyomugabo",
+  "displayName": "Isae Niyomugabo",
+  "weight": 0,
+  "height": 0,
+  "age": 22,
+  "dateOfBirthStr": "2003-09-20T00:00Z",
+  "dateOfBirth": "2003-09-20T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "I Niyomugabo",
+  "fieldingName": "Niyomugabo",
+  "country": 140,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1154543"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/140.png",
+    "width": 500,
+    "height": 500,
+    "alt": "RWN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/140"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1280675/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1453889/events/1453931"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1453891/events/1453931"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1453894/events/1453931"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1453889/events/1453931"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1453891/events/1453931"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1453894/events/1453931"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1280675.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

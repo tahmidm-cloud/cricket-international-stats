@@ -1,0 +1,135 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/448074",
+  "id": "448074",
+  "guid": "500d1d35-3ee5-ad34-6a87-59b9049908d0",
+  "uid": "s:200~a:448074",
+  "type": "cricket",
+  "name": "Martin Coetzee",
+  "firstName": "Martin",
+  "middleName": "",
+  "lastName": "Coetzee",
+  "shortName": "Coetzee",
+  "fullName": "Martin Coetzee",
+  "displayName": "Martin Coetzee",
+  "weight": 0,
+  "height": 0.0,
+  "age": 37,
+  "dateOfBirthStr": "1988-10-12T00:00Z",
+  "dateOfBirth": "1988-10-12T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "M Coetzee",
+  "fieldingName": "Coetzee",
+  "country": 19,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/19"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3231"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/934450"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1512"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1256755"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3318"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3337"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/19.png",
+    "width": 500,
+    "height": 500,
+    "alt": "HKG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/19"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/448074/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1403272/events/1403289"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1403274/events/1403289"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1157393/events/1157450"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/422880/events/423260"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1157345/events/1157401"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1158694/events/1157401"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/448074.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

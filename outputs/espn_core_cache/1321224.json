@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1321224",
+  "id": "1321224",
+  "guid": "ca498b35-4f6f-3a54-a26b-7743ec77f6ea",
+  "uid": "s:200~a:1321224",
+  "type": "cricket",
+  "name": "Robin Vitas",
+  "firstName": "Robin",
+  "middleName": "",
+  "lastName": "Vitas",
+  "shortName": "Vitas",
+  "fullName": "Robin Luka Vitas",
+  "displayName": "Robin Vitas",
+  "weight": 0,
+  "height": 0.0,
+  "age": 45,
+  "dateOfBirthStr": "1980-12-12T00:00Z",
+  "dateOfBirth": "1980-12-12T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "RL Vitas",
+  "fieldingName": "Vitas",
+  "country": 891143,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/891143"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/891143.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SRB",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/891143"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1321224/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1317130/events/1317136"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1317131/events/1317136"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1317130/events/1317136"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1317131/events/1317136"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1321224.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

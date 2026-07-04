@@ -1,0 +1,47 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/451",
+  "id": "451",
+  "uid": "s:200~t:451",
+  "location": "Australia",
+  "name": "PINT Cricket Club",
+  "nickname": "PINT Cricket Club",
+  "abbreviation": "",
+  "displayName": "PINT Cricket Club",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AU",
+  "slug": "pint-cricket-club",
+  "classes": [],
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/451/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/451/pint-cricket-club",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/451/pint-cricket-club",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/36181",
+  "id": "36181",
+  "guid": "378dcd27-e7b1-e6c1-2ebe-d5d3ec6f0b94",
+  "uid": "s:200~a:36181",
+  "type": "cricket",
+  "name": "Mac Anderson",
+  "firstName": "Mac",
+  "middleName": "",
+  "lastName": "Anderson",
+  "shortName": "Anderson",
+  "fullName": "William McDougall Anderson",
+  "displayName": "Mac Anderson",
+  "weight": 0,
+  "height": 0,
+  "age": 60,
+  "dateOfBirthStr": "1919-10-08T00:00Z",
+  "dateOfBirth": "1919-10-08T00:00Z",
+  "dateOfDeathStr": "1979-12-21T00:00Z",
+  "dateOfDeath": "1979-12-21T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "WM Anderson",
+  "fieldingName": "Anderson",
+  "country": 5,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/36180"
+      },
+      "relation": "Son"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/36190"
+      },
+      "relation": "Grandson"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2469"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/36181/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60335/events/62661"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61401/events/62661"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/36181.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

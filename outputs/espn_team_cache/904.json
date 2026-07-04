@@ -1,0 +1,81 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/904",
+  "id": "904",
+  "uid": "s:200~t:904",
+  "location": "England",
+  "name": "Derbyshire",
+  "nickname": "Derbyshire",
+  "abbreviation": "DER",
+  "displayName": "Derbyshire",
+  "shortDisplayName": "DER",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "derbyshire",
+  "classes": [
+    4,
+    5,
+    6,
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2026-07-01T18:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8053/events/1512844"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8053"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/904.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/904/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/904/derbyshire",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/904/derbyshire",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "videos",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/current/video_audio/index.html?object=904",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

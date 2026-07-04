@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1255738",
+  "id": "1255738",
+  "uid": "s:200~t:1255738",
+  "location": "United Arab Emirates",
+  "name": "Bombay Deccan",
+  "nickname": "Bombay Deccan",
+  "abbreviation": "BD",
+  "displayName": "Bombay Deccan",
+  "shortDisplayName": "BD",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AE",
+  "slug": "bombay-deccan",
+  "classes": [
+    "16"
+  ],
+  "event": {
+    "date": "2021-04-10T14:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20044/events/1255784"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1255738.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1255738/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1255738/bombay-deccan",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1255738/bombay-deccan",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

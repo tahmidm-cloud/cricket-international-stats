@@ -1,0 +1,66 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1097992",
+  "id": "1097992",
+  "uid": "s:200~t:1097992",
+  "location": "Sri Lanka",
+  "name": "Kandy",
+  "nickname": "Kandy",
+  "abbreviation": "KAN",
+  "displayName": "Kandy",
+  "shortDisplayName": "KAN",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "kandy",
+  "classes": [
+    4,
+    5,
+    6
+  ],
+  "event": {
+    "date": "2026-04-25T04:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/21230/events/1529389"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/21230"
+  },
+  "color": "#bf2308",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1097992.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1097992/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1097992/kandy",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1097992/kandy",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

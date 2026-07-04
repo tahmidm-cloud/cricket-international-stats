@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1454413",
+  "id": "1454413",
+  "guid": "8536b771-f4ac-3c49-a20e-773054293c2e",
+  "uid": "s:200~a:1454413",
+  "type": "cricket",
+  "name": "Abhilash Patil",
+  "firstName": "Abhilash",
+  "middleName": "",
+  "lastName": "Patil",
+  "shortName": "",
+  "fullName": "Abhilash Patil",
+  "displayName": "Abhilash Patil",
+  "weight": 0,
+  "height": 0.0,
+  "age": 37,
+  "dateOfBirthStr": "1989-06-07T00:00Z",
+  "dateOfBirth": "1989-06-07T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Abhilash Patil",
+  "fieldingName": "Abhilash Patil",
+  "country": 114,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/114"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/114.png",
+    "width": 500,
+    "height": 500,
+    "alt": "MEX",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/114"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1454413/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1453877/events/1453909"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1453880/events/1453909"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1453874/events/1453909"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1453880/events/1453909"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1453877/events/1453909"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1453874/events/1453909"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1454413.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

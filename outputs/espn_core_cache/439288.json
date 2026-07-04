@@ -1,0 +1,154 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/439288",
+  "id": "439288",
+  "guid": "4b83f959-94b9-abc3-6562-8abac68d88d6",
+  "uid": "s:200~a:439288",
+  "type": "cricket",
+  "name": "Joe Mennie",
+  "firstName": "Joe",
+  "middleName": "",
+  "lastName": "Mennie",
+  "shortName": "Mennie",
+  "fullName": "Joe Matthew Mennie",
+  "displayName": "Joe Mennie",
+  "weight": 0,
+  "height": 1.9,
+  "age": 37,
+  "dateOfBirthStr": "1988-12-24T00:00Z",
+  "dateOfBirth": "1988-12-24T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "JM Mennie",
+  "fieldingName": "Mennie",
+  "country": 2,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509669"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509671"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/398"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/423867"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509670"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/520"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/423862"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509673"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/439288/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1000805/events/1000853"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1000821/events/1000853"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/936113/events/936137"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/936115/events/936137"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/527821/events/527827"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/527819/events/527854"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/566250/events/574252"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/574278/events/574252"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/439288.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

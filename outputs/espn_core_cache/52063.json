@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52063",
+  "id": "52063",
+  "guid": "7b4f3c5e-40da-ce33-9a66-2cf548de1443",
+  "uid": "s:200~a:52063",
+  "type": "cricket",
+  "name": "Michael Holding",
+  "firstName": "Michael",
+  "middleName": "",
+  "lastName": "Holding",
+  "shortName": "Holding",
+  "fullName": "Michael Anthony Holding",
+  "displayName": "Michael Holding",
+  "weight": 0,
+  "height": 0.0,
+  "age": 72,
+  "dateOfBirthStr": "1954-02-16T00:00Z",
+  "dateOfBirth": "1954-02-16T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "MA Holding",
+  "fieldingName": "Holding",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2469"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/904"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3751"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1116"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/560"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/52063.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52063/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61902/events/63150"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60457/events/63150"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61881/events/64955"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60796/events/64955"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/52063.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

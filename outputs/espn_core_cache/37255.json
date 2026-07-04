@@ -1,0 +1,131 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/37255",
+  "id": "37255",
+  "guid": "24ee5d93-f7c8-c8cf-6cfc-ea53bfa37901",
+  "uid": "s:200~a:37255",
+  "type": "cricket",
+  "name": "Hedley Howarth",
+  "firstName": "Hedley",
+  "middleName": "",
+  "lastName": "Howarth",
+  "shortName": "Howarth",
+  "fullName": "Hedley John Howarth",
+  "displayName": "Hedley Howarth",
+  "weight": 0,
+  "height": 0.0,
+  "age": 64,
+  "dateOfBirthStr": "1943-12-25T00:00Z",
+  "dateOfBirth": "1943-12-25T00:00Z",
+  "dateOfDeathStr": "2008-11-07T00:00Z",
+  "dateOfDeath": "2008-11-07T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "HJ Howarth",
+  "fieldingName": "Howarth",
+  "country": 5,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/37254"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2459"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/37255/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62076/events/63042"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60428/events/63042"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61499/events/64149"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60785/events/64149"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/37255.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

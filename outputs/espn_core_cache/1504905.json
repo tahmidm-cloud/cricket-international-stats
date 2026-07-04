@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1504905",
+  "id": "1504905",
+  "guid": "24e765c3-a8d4-3585-9d0a-4529dc7553b4",
+  "uid": "s:200~a:1504905",
+  "type": "cricket",
+  "name": "Hasnain Ul Wahab",
+  "firstName": "Hasnain",
+  "middleName": "",
+  "lastName": "Wahab",
+  "shortName": "",
+  "fullName": "Hasnain Ul Wahab",
+  "displayName": "Hasnain Ul Wahab",
+  "weight": 0,
+  "height": 0.0,
+  "age": 27,
+  "dateOfBirthStr": "1998-11-10T00:00Z",
+  "dateOfBirth": "1998-11-10T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Hasnain Ul Wahab",
+  "fieldingName": "Hasnain Ul Wahab",
+  "country": 37,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/37"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/37.png",
+    "width": 500,
+    "height": 500,
+    "alt": "OMA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/37"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1504905/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420525/events/1531701"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1531687/events/1531701"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1504940/events/1504942"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1503445/events/1504942"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420525/events/1531701"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1531687/events/1531701"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1504940/events/1504942"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1503445/events/1504942"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1504905.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

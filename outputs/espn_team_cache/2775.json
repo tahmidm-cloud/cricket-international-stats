@@ -1,0 +1,56 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2775",
+  "id": "2775",
+  "uid": "s:200~t:2775",
+  "location": "Pakistan",
+  "name": "Karachi Blues",
+  "nickname": "Karachi Blues",
+  "abbreviation": "KarBl",
+  "displayName": "Karachi Blues",
+  "shortDisplayName": "KarBl",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "PK",
+  "slug": "karachi-blues",
+  "classes": [
+    4,
+    5,
+    6,
+    14
+  ],
+  "event": {
+    "date": "2017-01-24T05:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/17927/events/1048125"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2775/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/2775/karachi-blues",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/2775/karachi-blues",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

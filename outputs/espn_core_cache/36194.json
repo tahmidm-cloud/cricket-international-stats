@@ -1,0 +1,130 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/36194",
+  "id": "36194",
+  "guid": "eac1ec7a-a498-2cdf-f76b-5cd6b0c39c1c",
+  "uid": "s:200~a:36194",
+  "type": "cricket",
+  "name": "Brent Arnel",
+  "firstName": "Brent",
+  "middleName": "",
+  "lastName": "Arnel",
+  "shortName": "Arnel",
+  "fullName": "Brent John Arnel",
+  "displayName": "Brent Arnel",
+  "weight": 0,
+  "height": 0.0,
+  "age": 47,
+  "dateOfBirthStr": "1979-01-03T00:00Z",
+  "dateOfBirth": "1979-01-03T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "BJ Arnel",
+  "fieldingName": "Arnel",
+  "country": 5,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2540"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2516"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/36194/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/423770/events/423789"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/423775/events/423789"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/228500/events/265451"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/230643/events/265476"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/232574/events/264917"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/36194.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

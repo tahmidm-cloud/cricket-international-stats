@@ -1,0 +1,130 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/216920",
+  "id": "216920",
+  "guid": "0fc9d2ca-0d9b-d051-449d-140eb517a54b",
+  "uid": "s:200~a:216920",
+  "type": "cricket",
+  "name": "Qaiser Ali",
+  "firstName": "Qaiser",
+  "middleName": "",
+  "lastName": "Ali",
+  "shortName": "Qaiser Ali",
+  "fullName": "Qaiser Ali",
+  "displayName": "Qaiser Ali",
+  "weight": 0,
+  "height": 0.0,
+  "age": 47,
+  "dateOfBirthStr": "1978-12-20T00:00Z",
+  "dateOfBirth": "1978-12-20T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT",
+    "id": "BT",
+    "name": "Batter",
+    "abbreviation": "BT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT"
+    }
+  },
+  "battingName": "Qaiser Ali",
+  "fieldingName": "Qaiser Ali",
+  "country": 17,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3054"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/216920.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/17.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/216920/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/251379/events/251480"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/251381/events/251480"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/143791/events/216946"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/305763/events/216946"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/251379/events/251480"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/251381/events/251480"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/216920.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

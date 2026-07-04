@@ -1,0 +1,78 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/302619",
+  "id": "302619",
+  "uid": "s:200~t:302619",
+  "location": "Japan",
+  "name": "Japan Under-19s",
+  "nickname": "Japan Under-19s",
+  "abbreviation": "JPN19",
+  "displayName": "Japan Under-19s",
+  "shortDisplayName": "JPN19",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "JP",
+  "slug": "japan-under-19s",
+  "classes": [
+    21,
+    14,
+    15
+  ],
+  "event": {
+    "date": "2026-01-24T07:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8368/events/1511874"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8368"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/302619.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/302619/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/302619/japan-under-19s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/302619/japan-under-19s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=4263;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1327558",
+  "id": "1327558",
+  "guid": "e0a1fc13-4ad4-32fd-9b8f-a7c8f472ebf5",
+  "uid": "s:200~a:1327558",
+  "type": "cricket",
+  "name": "Zeri Tomlinson",
+  "firstName": "Zeri",
+  "middleName": "",
+  "lastName": "Tomlinson",
+  "shortName": "Tomlinson",
+  "fullName": "Zeri Tomlinson",
+  "displayName": "Zeri Tomlinson",
+  "weight": 0,
+  "height": 0.0,
+  "age": 0,
+  "dateOfBirthStr": "",
+  "dateOfBirth": "",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [],
+  "styles": [],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Z Tomlinson",
+  "fieldingName": "Tomlinson",
+  "country": 12,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/12"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/12.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BER",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/12"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1327558/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1539721/events/1539738"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1539724/events/1539738"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1326851/events/1326857"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1326852/events/1326857"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1207049/events/1326857"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1539724/events/1539738"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1539721/events/1539738"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1327558.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

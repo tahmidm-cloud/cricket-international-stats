@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/32224",
+  "id": "32224",
+  "guid": "d28c5a99-b459-bbdb-d722-519efd53807c",
+  "uid": "s:200~a:32224",
+  "type": "cricket",
+  "name": "Iftikhar Ali Khan Pataudi",
+  "firstName": "Iftikhar",
+  "middleName": "",
+  "lastName": "Pataudi",
+  "shortName": "Pataudi",
+  "fullName": "Iftikhar Ali Khan Pataudi (Nawab of)",
+  "displayName": "Iftikhar Ali Khan Pataudi",
+  "weight": 0,
+  "height": 6.0,
+  "age": 41,
+  "dateOfBirthStr": "1910-03-16T00:00Z",
+  "dateOfBirth": "1910-03-16T00:00Z",
+  "dateOfDeathStr": "1952-01-05T00:00Z",
+  "dateOfDeath": "1952-01-05T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Nawab of Pataudisnr",
+  "fieldingName": "Pataudi",
+  "country": 6,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/32222"
+      },
+      "relation": "Son"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/29970"
+      },
+      "relation": "Grandson"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2001"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/292457"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2104"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2203"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1458"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/32224/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60321/events/62606"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61718/events/62606"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/32224.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

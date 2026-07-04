@@ -1,0 +1,68 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3203",
+  "id": "3203",
+  "uid": "s:200~t:3203",
+  "location": "South Africa",
+  "name": "Easterns",
+  "nickname": "Easterns",
+  "abbreviation": "EASTN",
+  "displayName": "Easterns",
+  "shortDisplayName": "EASTN",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZA",
+  "slug": "easterns",
+  "classes": [
+    4,
+    5,
+    6,
+    14,
+    15
+  ],
+  "event": {
+    "date": "2026-03-14T08:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20676/events/1501231"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20676"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3203.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3203/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3203/easterns",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3203/easterns",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

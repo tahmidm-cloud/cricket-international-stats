@@ -1,0 +1,65 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1357",
+  "id": "1357",
+  "uid": "s:200~t:1357",
+  "location": "England",
+  "name": "Suffolk",
+  "nickname": "Suffolk",
+  "abbreviation": "Sflok",
+  "displayName": "Suffolk",
+  "shortDisplayName": "Sflok",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "suffolk",
+  "classes": [
+    "4",
+    "5",
+    "14",
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2022-08-21T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20128/events/1317221"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1357.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1357/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1357/suffolk",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1357/suffolk",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

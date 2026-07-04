@@ -1,0 +1,78 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2012",
+  "id": "2012",
+  "uid": "s:200~t:2012",
+  "location": "India",
+  "name": "Punjab",
+  "nickname": "Punjab",
+  "abbreviation": "PNJB",
+  "displayName": "Punjab",
+  "shortDisplayName": "PNJB",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "punjab",
+  "classes": [
+    4,
+    5,
+    6
+  ],
+  "event": {
+    "date": "2026-01-29T04:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8050/events/1492508"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8890"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2012.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2012/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/2012/punjab",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/2012/punjab",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "videos",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/current/video_audio/index.html?object=2012",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

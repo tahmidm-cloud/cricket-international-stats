@@ -1,0 +1,149 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/53224",
+  "id": "53224",
+  "guid": "55bdc750-04d5-8bc2-f3be-2c4f50a9a6d2",
+  "uid": "s:200~a:53224",
+  "type": "cricket",
+  "name": "Vibart Wight",
+  "firstName": "Vibart",
+  "middleName": "",
+  "lastName": "Wight",
+  "shortName": "Wight",
+  "fullName": "Claude Vibart Wight",
+  "displayName": "Vibart Wight",
+  "weight": 0,
+  "height": 0.0,
+  "age": 67,
+  "dateOfBirthStr": "1902-07-28T00:00Z",
+  "dateOfBirth": "1902-07-28T00:00Z",
+  "dateOfDeathStr": "1969-10-04T00:00Z",
+  "dateOfDeath": "1969-10-04T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm bowler",
+      "shortDescription": "Rab",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm bowler",
+      "shortDescription": "Rab",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "CV Wight",
+  "fieldingName": "Wight",
+  "country": 4,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/53245"
+      },
+      "relation": "Brother"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/53315"
+      },
+      "relation": "Nephew"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/53316"
+      },
+      "relation": "Nephew"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/53225"
+      },
+      "relation": "Nephew"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/53344"
+      },
+      "relation": "Nephew"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3742"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/53224/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60309/events/62561"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61871/events/62561"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/53224.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

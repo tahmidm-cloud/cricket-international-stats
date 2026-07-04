@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/45273",
+  "id": "45273",
+  "uid": "s:200~t:45273",
+  "location": "Kenya",
+  "name": "Kongonis",
+  "nickname": "Kongonis",
+  "abbreviation": "Kngns",
+  "displayName": "Kongonis",
+  "shortDisplayName": "Kngns",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "KE",
+  "slug": "kongonis",
+  "classes": [
+    15,
+    16
+  ],
+  "event": {
+    "date": "2012-09-22T10:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8740/events/575506"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/45273/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/45273/kongonis",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/45273/kongonis",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

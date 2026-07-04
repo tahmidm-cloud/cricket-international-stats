@@ -1,0 +1,166 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1081442",
+  "id": "1081442",
+  "guid": "84a7037b-7252-bc65-c4a3-9bd5b330464d",
+  "uid": "s:200~a:1081442",
+  "type": "cricket",
+  "name": "Mayank Markande",
+  "firstName": "Mayank",
+  "middleName": "",
+  "lastName": "Markande",
+  "shortName": "Markande",
+  "fullName": "Mayank Markande",
+  "displayName": "Mayank Markande",
+  "weight": 0,
+  "height": 0.0,
+  "age": 28,
+  "dateOfBirthStr": "1997-11-11T00:00Z",
+  "dateOfBirth": "1997-11-11T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "M Markande",
+  "fieldingName": "Markande",
+  "country": 6,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1781"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1783"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1162441"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1779"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/260635"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1803"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1805"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1786"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335971"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335978"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2012"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2020"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335977"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/628333"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/1081442.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1081442/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1168237/events/1168247"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1168239/events/1168247"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1156773/events/1156945"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1118606/events/1118706"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1130660/events/1130713"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1081442.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

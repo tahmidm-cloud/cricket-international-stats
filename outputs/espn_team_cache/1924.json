@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1924",
+  "id": "1924",
+  "uid": "s:200~t:1924",
+  "location": "India",
+  "name": "Madhya Bharat",
+  "nickname": "Madhya Bharat",
+  "abbreviation": "",
+  "displayName": "Madhya Bharat",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "madhya-bharat",
+  "classes": [
+    4
+  ],
+  "event": {
+    "date": "1956-12-22T03:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8050/events/1506501"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1924/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1924/madhya-bharat",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1924/madhya-bharat",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

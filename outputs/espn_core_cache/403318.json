@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/403318",
+  "id": "403318",
+  "guid": "29d2fd8c-9acb-5cec-8fa1-1e086f1482e2",
+  "uid": "s:200~a:403318",
+  "type": "cricket",
+  "name": "Mark Bacarese",
+  "firstName": "Mark",
+  "middleName": "",
+  "lastName": "Bacarese",
+  "shortName": "Bacarese",
+  "fullName": "Mark O Bacarese",
+  "displayName": "Mark Bacarese",
+  "weight": 0,
+  "height": 0.0,
+  "age": 40,
+  "dateOfBirthStr": "1986-03-31T00:00Z",
+  "dateOfBirth": "1986-03-31T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "MO Bacarese",
+  "fieldingName": "Bacarese",
+  "country": 18,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/18"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/18.png",
+    "width": 500,
+    "height": 500,
+    "alt": "GIBR",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/18"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/403318/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1201664/events/1201669"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1201665/events/1201669"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1201666/events/1201669"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1201664/events/1201669"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1201665/events/1201669"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1201666/events/1201669"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/403318.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

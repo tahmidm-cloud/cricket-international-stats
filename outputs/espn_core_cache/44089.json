@@ -1,0 +1,160 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/44089",
+  "id": "44089",
+  "guid": "daf26bdb-6e04-ed9a-e976-9a9684af9899",
+  "uid": "s:200~a:44089",
+  "type": "cricket",
+  "name": "Gulam Bodi",
+  "firstName": "Gulam",
+  "middleName": "",
+  "lastName": "Bodi",
+  "shortName": "Bodi",
+  "fullName": "Gulam Hussain Bodi",
+  "displayName": "Gulam Bodi",
+  "weight": 0,
+  "height": 0.0,
+  "age": 47,
+  "dateOfBirthStr": "1979-01-04T00:00Z",
+  "dateOfBirth": "1979-01-04T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm wrist-spin",
+      "shortDescription": "Lws",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm wrist-spin",
+      "shortDescription": "Lws",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "GH Bodi",
+  "fieldingName": "Bodi",
+  "country": 3,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/213709"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335975"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3203"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3231"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3245"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3249"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3340"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3231"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/44089/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/300485/events/300486"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/300484/events/300486"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/298790/events/319112"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/287844/events/319112"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/134226/events/304944"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327264/events/327267"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327262/events/327267"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327262/events/327270"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327263/events/327270"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/44089.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

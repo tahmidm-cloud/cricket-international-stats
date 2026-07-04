@@ -1,0 +1,67 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3821",
+  "id": "3821",
+  "uid": "s:200~t:3821",
+  "location": "West Indies",
+  "name": "Windward Islands",
+  "nickname": "Windward Islands",
+  "abbreviation": "WWD",
+  "displayName": "Windward Islands",
+  "shortDisplayName": "WWD",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "windward-islands",
+  "classes": [
+    "4",
+    "5",
+    "6",
+    "16"
+  ],
+  "event": {
+    "date": "2026-04-26T14:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8893/events/1531961"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8893"
+  },
+  "color": "#026c74",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3821.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3821/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3821/windward-islands",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3821/windward-islands",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

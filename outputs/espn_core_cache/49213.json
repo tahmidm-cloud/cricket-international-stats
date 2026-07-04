@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/49213",
+  "id": "49213",
+  "guid": "43d6b612-bac4-0413-5eed-285013bf1871",
+  "uid": "s:200~a:49213",
+  "type": "cricket",
+  "name": "Vinothen John",
+  "firstName": "Vinothen",
+  "middleName": "",
+  "lastName": "John",
+  "shortName": "John",
+  "fullName": "Vinothen Bede John",
+  "displayName": "Vinothen John",
+  "weight": 0,
+  "height": 6.0,
+  "age": 66,
+  "dateOfBirthStr": "1960-05-27T00:00Z",
+  "dateOfBirth": "1960-05-27T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "VB John",
+  "fieldingName": "John",
+  "country": 8,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3493"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3550"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3554"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3630"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/8.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/49213/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61620/events/63340"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60509/events/63340"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61636/events/64191"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60823/events/64191"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/49213.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

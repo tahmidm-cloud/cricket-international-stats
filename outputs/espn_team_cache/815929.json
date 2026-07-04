@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/815929",
+  "id": "815929",
+  "uid": "s:200~t:815929",
+  "location": "South Africa",
+  "name": "Dolphins Cubs",
+  "nickname": "Dolphins Cubs",
+  "abbreviation": "DolCb",
+  "displayName": "Dolphins Cubs",
+  "shortDisplayName": "DolCb",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZA",
+  "slug": "dolphins-cubs",
+  "classes": [
+    15
+  ],
+  "event": {
+    "date": "2017-01-08T08:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8722/events/1074774"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/815929/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/815929/dolphins-cubs",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/815929/dolphins-cubs",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

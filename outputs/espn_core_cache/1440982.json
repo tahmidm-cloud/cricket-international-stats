@@ -1,0 +1,111 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1440982",
+  "id": "1440982",
+  "guid": "5c1499f0-43ca-31aa-b6c0-0984bef4b4b1",
+  "uid": "s:200~a:1440982",
+  "type": "cricket",
+  "name": "Braithyn Pecic",
+  "firstName": "Braithyn",
+  "middleName": "",
+  "lastName": "Pecic",
+  "shortName": "Pecic",
+  "fullName": "Braithyn Michael Pecic",
+  "displayName": "Braithyn Pecic",
+  "weight": 0,
+  "height": 0.0,
+  "age": 20,
+  "dateOfBirthStr": "2005-11-09T00:00Z",
+  "dateOfBirth": "2005-11-09T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "BM Pecic",
+  "fieldingName": "Pecic",
+  "country": 891143,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/891143"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/891143.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SRB",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/891143"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1440982/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1440127/events/1440132"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1440128/events/1440132"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1440127/events/1440132"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1440128/events/1440132"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1440982.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

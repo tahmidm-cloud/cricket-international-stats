@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/39881",
+  "id": "39881",
+  "guid": "01184763-88e5-0a59-59ad-5a76e2e24bb9",
+  "uid": "s:200~a:39881",
+  "type": "cricket",
+  "name": "Ali Asad",
+  "firstName": "Ali",
+  "middleName": "",
+  "lastName": "Asad",
+  "shortName": "Ali Asad",
+  "fullName": "Ali Asad Abbas",
+  "displayName": "Ali Asad",
+  "weight": 0,
+  "height": 0.0,
+  "age": 49,
+  "dateOfBirthStr": "1976-12-06T00:00Z",
+  "dateOfBirth": "1976-12-06T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Ali Asad",
+  "fieldingName": "Ali Asad",
+  "country": 27,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2833"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/27.png",
+    "width": 500,
+    "height": 500,
+    "alt": "UAE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/39881/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61152/events/65707"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61681/events/65707"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62334/events/65707"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/134115/events/305720"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/305729/events/305720"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/39881.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

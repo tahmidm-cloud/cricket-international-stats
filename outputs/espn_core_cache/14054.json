@@ -1,0 +1,170 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/14054",
+  "id": "14054",
+  "guid": "76224c07-8746-9593-ff50-175233d70891",
+  "uid": "s:200~a:14054",
+  "type": "cricket",
+  "name": "Steve Harmison",
+  "firstName": "Steve",
+  "middleName": "",
+  "lastName": "Harmison",
+  "shortName": "Harmison",
+  "fullName": "Stephen James Harmison",
+  "displayName": "Steve Harmison",
+  "weight": 0,
+  "height": 6.04,
+  "age": 47,
+  "dateOfBirthStr": "1978-10-23T00:00Z",
+  "dateOfBirth": "1978-10-23T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "SJ Harmison",
+  "fieldingName": "Harmison",
+  "country": 1,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/15169"
+      },
+      "relation": "Brother"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/15361"
+      },
+      "relation": "Brother"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1536491"
+      },
+      "relation": "Son"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/924"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/925"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/89"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3249"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/14054/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62276/events/63998"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60731/events/63998"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61122/events/65631"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61610/events/65631"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61708/events/65631"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/238219/events/211028"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/139019/events/211028"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/134471/events/304825"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327271/events/327274"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327272/events/327274"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/14054.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

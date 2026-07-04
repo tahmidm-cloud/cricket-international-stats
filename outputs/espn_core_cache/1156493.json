@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1156493",
+  "id": "1156493",
+  "guid": "3ca8ec3b-c913-f652-2c0a-2449cdb6e266",
+  "uid": "s:200~a:1156493",
+  "type": "cricket",
+  "name": "Corbin Liebenberg",
+  "firstName": "Corbin",
+  "middleName": "",
+  "lastName": "Liebenberg",
+  "shortName": "Liebenberg",
+  "fullName": "Corbin Liebenberg",
+  "displayName": "Corbin Liebenberg",
+  "weight": 0,
+  "height": 0.0,
+  "age": 24,
+  "dateOfBirthStr": "2002-02-11T00:00Z",
+  "dateOfBirth": "2002-02-11T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "C Liebenberg",
+  "fieldingName": "Liebenberg",
+  "country": 96,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/96"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/96.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IOM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/96"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1156493/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1229800/events/1229824"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1229801/events/1229824"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1229800/events/1229824"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1229801/events/1229824"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1156493.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1318875",
+  "id": "1318875",
+  "guid": "ab12c82d-0fdd-3e96-93b2-9a112f41cd33",
+  "uid": "s:200~a:1318875",
+  "type": "cricket",
+  "name": "Shiv Gill",
+  "firstName": "Shiv",
+  "middleName": "",
+  "lastName": "Gill",
+  "shortName": "Gill",
+  "fullName": "Shiv Karan Singh Gill",
+  "displayName": "Shiv Gill",
+  "weight": 0,
+  "height": 0.0,
+  "age": 41,
+  "dateOfBirthStr": "1985-01-06T00:00Z",
+  "dateOfBirth": "1985-01-06T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "SKS Gill",
+  "fieldingName": "Gill",
+  "country": 110,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/110"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/110.png",
+    "width": 500,
+    "height": 500,
+    "alt": "LUX",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/110"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1318875/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1318292/events/1318352"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1318293/events/1318352"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1318292/events/1318352"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1318293/events/1318352"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1318875.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

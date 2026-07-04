@@ -1,0 +1,155 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/35712",
+  "id": "35712",
+  "guid": "9a77fc38-9aa9-f070-50c2-5aa69bcc333e",
+  "uid": "s:200~a:35712",
+  "type": "cricket",
+  "name": "Gundappa Viswanath",
+  "firstName": "Gundappa",
+  "middleName": "",
+  "lastName": "Viswanath",
+  "shortName": "Viswanath",
+  "fullName": "Gundappa Rangnath Viswanath",
+  "displayName": "Gundappa Viswanath",
+  "weight": 0,
+  "height": 0.0,
+  "age": 77,
+  "dateOfBirthStr": "1949-02-12T00:00Z",
+  "dateOfBirth": "1949-02-12T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "GR Viswanath",
+  "fieldingName": "Viswanath",
+  "country": 6,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/28794"
+      },
+      "relation": "Brother-in-law"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/917051"
+      },
+      "relation": "Son"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1872"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1872"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/35712.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/35712/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61427/events/63052"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60431/events/63052"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61378/events/63851"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60677/events/63851"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60789/events/64951"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62274/events/64951"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62384/events/66218"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62022/events/66218"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61043/events/66218"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/35712.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

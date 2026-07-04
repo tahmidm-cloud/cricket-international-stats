@@ -1,0 +1,55 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/325787",
+  "id": "325787",
+  "uid": "s:200~t:325787",
+  "location": "Sri Lanka",
+  "name": "Ruhuna",
+  "nickname": "Ruhuna",
+  "abbreviation": "RU",
+  "displayName": "Ruhuna",
+  "shortDisplayName": "RU",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "ruhuna",
+  "classes": [
+    "4",
+    "5",
+    "6"
+  ],
+  "event": {
+    "date": "2013-01-28T04:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8868/events/600419"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/325787/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/325787/ruhuna",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/325787/ruhuna",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

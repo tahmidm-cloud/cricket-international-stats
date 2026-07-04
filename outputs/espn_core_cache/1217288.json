@@ -1,0 +1,126 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1217288",
+  "id": "1217288",
+  "guid": "0f18a22d-1b12-3b5a-9fd0-73e2178ed215",
+  "uid": "s:200~a:1217288",
+  "type": "cricket",
+  "name": "Usman Patel",
+  "firstName": "Usman",
+  "middleName": "",
+  "lastName": "Patel",
+  "shortName": "",
+  "fullName": "Usman Patel",
+  "displayName": "Usman Patel",
+  "weight": 0,
+  "height": 0.0,
+  "age": 35,
+  "dateOfBirthStr": "1990-09-19T00:00Z",
+  "dateOfBirth": "1990-09-19T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "Usman Patel",
+  "fieldingName": "Usman Patel",
+  "country": 38,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/38"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/38.png",
+    "width": 500,
+    "height": 500,
+    "alt": "KUW",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/38"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1217288/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1215148/events/1215154"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1215149/events/1215154"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1215141/events/1215154"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420549/events/1420570"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420564/events/1420570"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420565/events/1420570"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1215141/events/1215154"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1215148/events/1215154"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1215149/events/1215154"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1217288.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

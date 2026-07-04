@@ -1,0 +1,131 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52944",
+  "id": "52944",
+  "guid": "e1880b03-9dcd-e480-faf5-783d78f3f714",
+  "uid": "s:200~a:52944",
+  "type": "cricket",
+  "name": "Joe Solomon",
+  "firstName": "Joe",
+  "middleName": "",
+  "lastName": "Solomon",
+  "shortName": "Solomon",
+  "fullName": "Joseph Stanislaus Solomon",
+  "displayName": "Joe Solomon",
+  "weight": 0,
+  "height": 0.0,
+  "age": 93,
+  "dateOfBirthStr": "1930-08-26T00:00Z",
+  "dateOfBirth": "1930-08-26T00:00Z",
+  "dateOfDeathStr": "2023-12-08T00:00Z",
+  "dateOfDeath": "2023-12-08T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "JS Solomon",
+  "fieldingName": "Solomon",
+  "country": 4,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/53075"
+      },
+      "relation": "Son"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/53074"
+      },
+      "relation": "Nephew"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3742"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52944/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60379/events/62846"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61948/events/62846"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/52944.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

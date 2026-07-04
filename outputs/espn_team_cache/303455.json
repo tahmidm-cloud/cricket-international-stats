@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/303455",
+  "id": "303455",
+  "uid": "s:200~t:303455",
+  "location": "Isle of Man",
+  "name": "Isle of Man Under-19s",
+  "nickname": "Isle of Man Under-19s",
+  "abbreviation": "IoM19",
+  "displayName": "Isle of Man Under-19s",
+  "shortDisplayName": "IoM19",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IM",
+  "slug": "isle-of-man-under-19s",
+  "classes": [
+    "15"
+  ],
+  "event": {
+    "date": "2011-08-02T09:45Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8756/events/524748"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/303455.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/303455/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/303455/isle-of-man-under-19s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/303455/isle-of-man-under-19s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/37252",
+  "id": "37252",
+  "guid": "4f7b966b-6314-3e0b-75e2-ca31d0e9aed0",
+  "uid": "s:200~a:37252",
+  "type": "cricket",
+  "name": "Ken Hough",
+  "firstName": "Ken",
+  "middleName": "",
+  "lastName": "Hough",
+  "shortName": "Hough",
+  "fullName": "Kenneth William Hough",
+  "displayName": "Ken Hough",
+  "weight": 0,
+  "height": 0.0,
+  "age": 80,
+  "dateOfBirthStr": "1928-10-24T00:00Z",
+  "dateOfBirth": "1928-10-24T00:00Z",
+  "dateOfDeathStr": "2009-09-20T00:00Z",
+  "dateOfDeath": "2009-09-20T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "KW Hough",
+  "fieldingName": "Hough",
+  "country": 5,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2459"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/396"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2516"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/37252/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60382/events/62858"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61776/events/62858"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/37252.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

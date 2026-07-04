@@ -1,0 +1,130 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1255248",
+  "id": "1255248",
+  "guid": "a003e898-efdd-3f4a-9936-bfd4e64cb92a",
+  "uid": "s:200~a:1255248",
+  "type": "cricket",
+  "name": "Jordan Hermann",
+  "firstName": "Jordan",
+  "middleName": "",
+  "lastName": "Hermann",
+  "shortName": "Hermann",
+  "fullName": "Jordan Hermann",
+  "displayName": "Jordan Hermann",
+  "weight": 0,
+  "height": 0.0,
+  "age": 24,
+  "dateOfBirthStr": "2001-12-04T00:00Z",
+  "dateOfBirth": "2001-12-04T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "J Hermann",
+  "fieldingName": "Hermann",
+  "country": 3,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/596097"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3304"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3324"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1335273"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3353"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1255248/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1491685/events/1491735"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1491686/events/1491735"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1277885/events/1277893"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1334880/events/1334972"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1334878/events/1334893"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1255248.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

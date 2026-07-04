@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1509238",
+  "id": "1509238",
+  "guid": "",
+  "uid": "s:200~a:1509238",
+  "type": "cricket",
+  "name": "Luiz Gabriel Moras",
+  "firstName": "Luiz",
+  "middleName": "",
+  "lastName": "Moras",
+  "shortName": "Moras",
+  "fullName": "Luiz Gabriel Moras Frazao",
+  "displayName": "Luiz Gabriel Moras",
+  "weight": 0,
+  "height": 0.0,
+  "age": 17,
+  "dateOfBirthStr": "2009-01-26T00:00Z",
+  "dateOfBirth": "2009-01-26T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "LG Moras",
+  "fieldingName": "Moras",
+  "country": 66,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/66"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/66.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BRA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/66"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1509238/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1507414/events/1507419"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1507415/events/1507419"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1507414/events/1507419"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1507415/events/1507419"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1509238.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

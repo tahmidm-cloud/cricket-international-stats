@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24124",
+  "id": "24124",
+  "guid": "96b5d27e-575c-b01e-11da-7dc7a7fdf371",
+  "uid": "s:200~a:24124",
+  "type": "cricket",
+  "name": "Alexander French",
+  "firstName": "Alexander",
+  "middleName": "",
+  "lastName": "French",
+  "shortName": "French",
+  "fullName": "Alexander Niall French",
+  "displayName": "Alexander French",
+  "weight": 0,
+  "height": 0,
+  "age": 45,
+  "dateOfBirthStr": "1980-12-01T00:00Z",
+  "dateOfBirth": "1980-12-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "AN French",
+  "fieldingName": "French",
+  "country": 19,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/19"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/865"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1030"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1421"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/19.png",
+    "width": 500,
+    "height": 500,
+    "alt": "HKG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/19"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24124/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61152/events/65706"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61447/events/65706"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62188/events/65706"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/24124.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

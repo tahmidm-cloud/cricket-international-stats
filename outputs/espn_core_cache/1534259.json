@@ -1,0 +1,111 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1534259",
+  "id": "1534259",
+  "guid": "6f16bd63-fdc0-38d7-96ea-30aa45480891",
+  "uid": "s:200~a:1534259",
+  "type": "cricket",
+  "name": "Adeshlie Alias",
+  "firstName": "Adeshlie",
+  "middleName": "",
+  "lastName": "Alias",
+  "shortName": "",
+  "fullName": "Adeshlie Alias",
+  "displayName": "Adeshlie Alias",
+  "weight": 0,
+  "height": 0.0,
+  "age": 20,
+  "dateOfBirthStr": "2005-07-05T00:00Z",
+  "dateOfBirth": "2005-07-05T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Adeshlie Alias",
+  "fieldingName": "Adeshlie Alias",
+  "country": 16,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/16"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/16.png",
+    "width": 500,
+    "height": 500,
+    "alt": "MAS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/16"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1534259/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1533379/events/1533391"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1533380/events/1533391"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1533379/events/1533391"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1533380/events/1533391"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1534259.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3270",
+  "id": "3270",
+  "uid": "s:200~t:3270",
+  "location": "South Africa",
+  "name": "Northerns Under-19s",
+  "nickname": "Northerns Under-19s",
+  "abbreviation": "Nth19",
+  "displayName": "Northerns Under-19s",
+  "shortDisplayName": "Nth19",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZA",
+  "slug": "northerns-under-19s",
+  "classes": [
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2016-12-20T07:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8712/events/1072855"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3270/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3270/northerns-under-19s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3270/northerns-under-19s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

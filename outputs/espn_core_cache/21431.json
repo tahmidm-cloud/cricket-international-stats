@@ -1,0 +1,148 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/21431",
+  "id": "21431",
+  "guid": "9c2197c6-54d5-6768-6b32-c64098a59510",
+  "uid": "s:200~a:21431",
+  "type": "cricket",
+  "name": "Ajmal Shahzad",
+  "firstName": "Ajmal",
+  "middleName": "",
+  "lastName": "Shahzad",
+  "shortName": "Shahzad",
+  "fullName": "Ajmal Shahzad",
+  "displayName": "Ajmal Shahzad",
+  "weight": 0,
+  "height": 6.0,
+  "age": 40,
+  "dateOfBirthStr": "1985-07-27T00:00Z",
+  "dateOfBirth": "1985-07-27T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "A Shahzad",
+  "fieldingName": "Shahzad",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/952"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1116"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1464"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/21431.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/21431/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/426339/events/426402"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/426351/events/426402"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/426373/events/426422"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/426378/events/426422"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440943/events/440946"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440942/events/440946"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440941/events/440946"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/224862/events/225060"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/134077/events/412231"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/224867/events/225344"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/21431.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1500476",
+  "id": "1500476",
+  "guid": "88304786-c53b-3096-b3ea-af0c23c5b695",
+  "uid": "s:200~a:1500476",
+  "type": "cricket",
+  "name": "Sufyan Yousaf",
+  "firstName": "Sufyan",
+  "middleName": "",
+  "lastName": "Yousaf",
+  "shortName": "Sufyan",
+  "fullName": "Sufyan Yousaf",
+  "displayName": "Sufyan Yousaf",
+  "weight": 0,
+  "height": 0.0,
+  "age": 26,
+  "dateOfBirthStr": "1999-12-25T00:00Z",
+  "dateOfBirth": "1999-12-25T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "Sufyan Yousaf",
+  "fieldingName": "Sufyan Yousaf",
+  "country": 37,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/37"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/37.png",
+    "width": 500,
+    "height": 500,
+    "alt": "OMA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/37"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1500476/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1509844/events/1509859"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1509846/events/1509859"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1509850/events/1509859"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1509846/events/1509855"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1509847/events/1509855"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1509844/events/1509855"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1500476.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

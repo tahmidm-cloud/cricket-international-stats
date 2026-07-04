@@ -1,0 +1,151 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/56125",
+  "id": "56125",
+  "guid": "9b0dadb6-6315-5b86-5a95-664ee1f1e1e5",
+  "uid": "s:200~a:56125",
+  "type": "cricket",
+  "name": "Shohidul Islam",
+  "firstName": "Shohidul",
+  "middleName": "",
+  "lastName": "Islam",
+  "shortName": "",
+  "fullName": "MD Shohidul Islam",
+  "displayName": "Shohidul Islam",
+  "weight": 0,
+  "height": 5.11,
+  "age": 31,
+  "dateOfBirthStr": "1995-01-05T00:00Z",
+  "dateOfBirth": "1995-01-05T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BLA",
+    "id": "BLA",
+    "name": "Bowling allrounder",
+    "abbreviation": "BLA",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BLA"
+    }
+  },
+  "battingName": "Shohidul Islam",
+  "fieldingName": "Shohidul Islam",
+  "country": 25,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/662"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/942833"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/935277"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/683"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1239299"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1239301"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1060323"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1163305"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/233544"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1516533"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/25.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/56125/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1277971/events/1277976"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1277972/events/1277976"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/798085/events/798215"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1063043/events/1063070"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/56125.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

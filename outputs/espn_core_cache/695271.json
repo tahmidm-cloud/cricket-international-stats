@@ -1,0 +1,145 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/695271",
+  "id": "695271",
+  "guid": "aefe2481-2247-978f-c753-914fade06cd3",
+  "uid": "s:200~a:695271",
+  "type": "cricket",
+  "name": "Willem Myburgh",
+  "firstName": "Willem",
+  "middleName": "",
+  "lastName": "Myburgh",
+  "shortName": "Myburgh",
+  "fullName": "Willem Pieter Myburgh",
+  "displayName": "Willem Myburgh",
+  "weight": 0,
+  "height": 0.0,
+  "age": 25,
+  "dateOfBirthStr": "2000-12-01T00:00Z",
+  "dateOfBirth": "2000-12-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "WP Myburgh",
+  "fieldingName": "Myburgh",
+  "country": 28,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/28"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/595172"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/28.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NAM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/28"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/695271/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420525/events/1498181"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1498179/events/1498181"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1502138/events/1512728"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1521103/events/1512728"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1521118/events/1512728"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1444757/events/1444928"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420525/events/1498181"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1498179/events/1498181"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1521118/events/1512728"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1521103/events/1512728"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1502138/events/1512728"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/695271.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

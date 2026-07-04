@@ -1,0 +1,160 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/665053",
+  "id": "665053",
+  "guid": "8ab4a1e9-891f-3c61-d714-747ad9de6442",
+  "uid": "s:200~a:665053",
+  "type": "cricket",
+  "name": "Zak Crawley",
+  "firstName": "Zak",
+  "middleName": "",
+  "lastName": "Crawley",
+  "shortName": "Crawley",
+  "fullName": "Zak Crawley",
+  "displayName": "Zak Crawley",
+  "weight": 0,
+  "height": 0.0,
+  "age": 28,
+  "dateOfBirthStr": "1998-02-03T00:00Z",
+  "dateOfBirth": "1998-02-03T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "Z Crawley",
+  "fieldingName": "Crawley",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509669"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1098"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1101"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/465020"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/465021"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204500"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204496"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509670"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1335273"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/665053.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/665053/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1186749/events/1187672"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1186752/events/1187672"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1227837/events/1239537"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1239529/events/1239537"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1239530/events/1239537"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1031641/events/1059661"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1068072/events/1068499"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1127447/events/1127554"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/665053.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

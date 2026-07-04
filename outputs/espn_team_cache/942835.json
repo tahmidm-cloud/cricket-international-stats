@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/942835",
+  "id": "942835",
+  "uid": "s:200~t:942835",
+  "location": "Bangladesh",
+  "name": "Barisal Bulls",
+  "nickname": "Barisal Bulls",
+  "abbreviation": "BB",
+  "displayName": "Barisal Bulls",
+  "shortDisplayName": "BB",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "BD",
+  "slug": "barisal-bulls",
+  "classes": [
+    6
+  ],
+  "event": {
+    "date": "2016-12-03T07:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8653/events/1063083"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/942835.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/942835/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/942835/barisal-bulls",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/942835/barisal-bulls",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

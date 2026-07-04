@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1493435",
+  "id": "1493435",
+  "guid": "55cd41e7-aa4f-3b58-9d5a-ca2f461a9270",
+  "uid": "s:200~a:1493435",
+  "type": "cricket",
+  "name": "Michael Byrne",
+  "firstName": "Michael",
+  "middleName": "",
+  "lastName": "Byrne",
+  "shortName": "Byrne",
+  "fullName": "Michael David Byrne",
+  "displayName": "Michael Byrne",
+  "weight": 0,
+  "height": 0.0,
+  "age": 22,
+  "dateOfBirthStr": "2003-08-01T00:00Z",
+  "dateOfBirth": "2003-08-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "MD Byrne",
+  "fieldingName": "Byrne",
+  "country": 91,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/91"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/91.png",
+    "width": 500,
+    "height": 500,
+    "alt": "INA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/91"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1493435/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1490851/events/1490872"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1490852/events/1490872"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1490851/events/1490872"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1490852/events/1490872"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1493435.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

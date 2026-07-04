@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1287105",
+  "id": "1287105",
+  "guid": "1d26fbd0-66e0-3acd-8423-7075347fe475",
+  "uid": "s:200~a:1287105",
+  "type": "cricket",
+  "name": "Nikunj Ahir",
+  "firstName": "Nikunj",
+  "middleName": "",
+  "lastName": "Ahir",
+  "shortName": "Ahir",
+  "fullName": "Nikunj Ahir",
+  "displayName": "Nikunj Ahir",
+  "weight": 0,
+  "height": 0.0,
+  "age": 28,
+  "dateOfBirthStr": "1998-06-08T00:00Z",
+  "dateOfBirth": "1998-06-08T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "N Ahir",
+  "fieldingName": "Ahir",
+  "country": 132,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/132"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/132.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/132"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1287105/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1286658/events/1286672"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1286659/events/1286672"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1286663/events/1286672"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1286658/events/1286672"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1286659/events/1286672"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1286663/events/1286672"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1287105.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

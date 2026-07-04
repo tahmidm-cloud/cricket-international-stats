@@ -1,0 +1,58 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1191",
+  "id": "1191",
+  "uid": "s:200~t:1191",
+  "location": "England",
+  "name": "Middlesex 2nd XI",
+  "nickname": "Middlesex 2nd XI",
+  "abbreviation": "Mi2XI",
+  "displayName": "Middlesex 2nd XI",
+  "shortDisplayName": "Mi2XI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "middlesex-2nd-xi",
+  "classes": [
+    "14",
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2026-06-30T12:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8861/events/1534511"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8861"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1191/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1191/middlesex-2nd-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1191/middlesex-2nd-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

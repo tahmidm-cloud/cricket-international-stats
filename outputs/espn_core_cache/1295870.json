@@ -1,0 +1,126 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1295870",
+  "id": "1295870",
+  "guid": "7dfb7fc2-911b-367c-8fb3-5db6569c43d1",
+  "uid": "s:200~a:1295870",
+  "type": "cricket",
+  "name": "Ryan Ani",
+  "firstName": "Ryan",
+  "middleName": "",
+  "lastName": "Ani",
+  "shortName": "Ryan Ani",
+  "fullName": "Ryan Ani",
+  "displayName": "Ryan Ani",
+  "weight": 0,
+  "height": 0.0,
+  "age": 23,
+  "dateOfBirthStr": "2003-05-23T00:00Z",
+  "dateOfBirth": "2003-05-23T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Ryan Ani",
+  "fieldingName": "Ryan Ani",
+  "country": 20,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3147"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/20.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PNG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/20"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1295870/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1532628/events/1532642"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1532634/events/1532642"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1532636/events/1532642"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1532636/events/1532642"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1532634/events/1532642"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1532628/events/1532642"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1295074/events/1289811"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1295079/events/1289811"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1289790/events/1289811"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1295870.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

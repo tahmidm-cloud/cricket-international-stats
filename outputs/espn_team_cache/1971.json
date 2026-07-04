@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1971",
+  "id": "1971",
+  "uid": "s:200~t:1971",
+  "location": "India",
+  "name": "Northern India",
+  "nickname": "Northern India",
+  "abbreviation": "N IND",
+  "displayName": "Northern India",
+  "shortDisplayName": "N IND",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "northern-india",
+  "classes": [
+    "4"
+  ],
+  "event": {
+    "date": "0000-00-00T00:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8050/events/1490791"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1971/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1971/northern-india",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1971/northern-india",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

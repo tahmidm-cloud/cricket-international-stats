@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1387419",
+  "id": "1387419",
+  "guid": "12134f01-f765-3820-a6b8-9d5c2eda8a8c",
+  "uid": "s:200~a:1387419",
+  "type": "cricket",
+  "name": "Myat Thu Aung",
+  "firstName": "Myat",
+  "middleName": "",
+  "lastName": "Aung",
+  "shortName": "",
+  "fullName": "Myat Thu Aung",
+  "displayName": "Myat Thu Aung",
+  "weight": 0,
+  "height": 0,
+  "age": 22,
+  "dateOfBirthStr": "2004-06-17T00:00Z",
+  "dateOfBirth": "2004-06-17T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Myat Thu Aung",
+  "fieldingName": "Myat Thu Aung",
+  "country": 1116403,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1116403"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1116403.png",
+    "width": 500,
+    "height": 500,
+    "alt": "MYAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1116403"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1387419/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383057/events/1383107"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383060/events/1383107"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383057/events/1383107"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383060/events/1383107"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1387419.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

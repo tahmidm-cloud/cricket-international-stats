@@ -1,0 +1,130 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/16885",
+  "id": "16885",
+  "guid": "e6358767-1ad2-f7a8-693b-0174e9bbdd3b",
+  "uid": "s:200~a:16885",
+  "type": "cricket",
+  "name": "Devon Malcolm",
+  "firstName": "Devon",
+  "middleName": "",
+  "lastName": "Malcolm",
+  "shortName": "Malcolm",
+  "fullName": "Devon Eugene Malcolm",
+  "displayName": "Devon Malcolm",
+  "weight": 0,
+  "height": 0.0,
+  "age": 63,
+  "dateOfBirthStr": "1963-02-22T00:00Z",
+  "dateOfBirth": "1963-02-22T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "DE Malcolm",
+  "fieldingName": "Malcolm",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/904"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1133"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1221"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/16885/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61353/events/63511"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60559/events/63511"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60906/events/64997"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62071/events/64997"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/16885.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/989797",
+  "id": "989797",
+  "guid": "aa7254a8-5615-f4ad-673d-58c862c3b81c",
+  "uid": "s:200~a:989797",
+  "type": "cricket",
+  "name": "Jack Horrocks",
+  "firstName": "Jack",
+  "middleName": "",
+  "lastName": "Horrocks",
+  "shortName": "Horrocks",
+  "fullName": "Jack Horrocks",
+  "displayName": "Jack Horrocks",
+  "weight": 0,
+  "height": 0.0,
+  "age": 33,
+  "dateOfBirthStr": "1993-05-26T00:00Z",
+  "dateOfBirth": "1993-05-26T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm medium",
+      "shortDescription": "Lm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm medium",
+      "shortDescription": "Lm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "J Horrocks",
+  "fieldingName": "Horrocks",
+  "country": 18,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/18"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/18.png",
+    "width": 500,
+    "height": 500,
+    "alt": "GIBR",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/18"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/989797/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1367715/events/1367722"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1367716/events/1367722"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1367715/events/1367722"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1367716/events/1367722"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/989797.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/23900",
+  "id": "23900",
+  "guid": "cb4e8a20-1009-525a-b94e-75fdaad90559",
+  "uid": "s:200~a:23900",
+  "type": "cricket",
+  "name": "Surendra Seeraj",
+  "firstName": "Surendra",
+  "middleName": "",
+  "lastName": "Seeraj",
+  "shortName": "Seeraj",
+  "fullName": "Surendra Seeraj",
+  "displayName": "Surendra Seeraj",
+  "weight": 0,
+  "height": 0.0,
+  "age": 52,
+  "dateOfBirthStr": "1973-09-07T00:00Z",
+  "dateOfBirth": "1973-09-07T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT",
+    "id": "BT",
+    "name": "Batter",
+    "abbreviation": "BT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT"
+    }
+  },
+  "battingName": "S Seeraj",
+  "fieldingName": "Seeraj",
+  "country": 17,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/17.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/23900/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/251380/events/251470"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/251382/events/251470"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/251009/events/251470"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/251382/events/251470"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/251380/events/251470"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/251009/events/251470"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/23900.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

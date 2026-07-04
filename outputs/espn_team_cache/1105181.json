@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1105181",
+  "id": "1105181",
+  "uid": "s:200~t:1105181",
+  "location": "United Arab Emirates",
+  "name": "Abu Dhabi United",
+  "nickname": "Abu Dhabi United",
+  "abbreviation": "ADU",
+  "displayName": "Abu Dhabi United",
+  "shortDisplayName": "ADU",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AE",
+  "slug": "abu-dhabi-united",
+  "classes": [
+    "15"
+  ],
+  "event": {
+    "date": "2017-05-20T16:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/17903/events/1105259"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1105181/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1105181/abu-dhabi-united",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1105181/abu-dhabi-united",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

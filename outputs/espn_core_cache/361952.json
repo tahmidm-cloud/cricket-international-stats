@@ -1,0 +1,160 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/361952",
+  "id": "361952",
+  "guid": "781242f1-b1f5-60de-8c0c-804a75de725d",
+  "uid": "s:200~a:361952",
+  "type": "cricket",
+  "name": "Rizwan Cheema",
+  "firstName": "Rizwan",
+  "middleName": "",
+  "lastName": "Cheema",
+  "shortName": "Cheema",
+  "fullName": "Rizwan Ahmed Cheema",
+  "displayName": "Rizwan Cheema",
+  "weight": 0,
+  "height": 0.0,
+  "age": 47,
+  "dateOfBirthStr": "1978-08-15T00:00Z",
+  "dateOfBirth": "1978-08-15T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "Rizwan Cheema",
+  "fieldingName": "Rizwan Cheema",
+  "country": 17,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1195379"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/296706"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/549988"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/220064"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1387249"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1150151"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1150153"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/361952.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/17.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/361952/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/349898/events/349904"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325535/events/349904"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/361644/events/361654"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/361649/events/361654"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/408327/events/408335"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/408325/events/408335"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/349898/events/349904"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325535/events/349904"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/361644/events/361654"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/361649/events/361654"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/361952.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

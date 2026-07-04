@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/549985",
+  "id": "549985",
+  "uid": "s:200~t:549985",
+  "location": "Bangladesh",
+  "name": "Chittagong Kings",
+  "nickname": "Chittagong Kings",
+  "abbreviation": "Kings",
+  "displayName": "Chittagong Kings",
+  "shortDisplayName": "Kings",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "BD",
+  "slug": "chittagong-kings",
+  "classes": [
+    6
+  ],
+  "event": {
+    "date": "2025-02-07T12:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8653/events/1459582"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/549985.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/549985/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/549985/chittagong-kings",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/549985/chittagong-kings",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/48462",
+  "id": "48462",
+  "guid": "257d8b32-d540-85d4-87f2-2832e30dd253",
+  "uid": "s:200~a:48462",
+  "type": "cricket",
+  "name": "Aravinda de Silva",
+  "firstName": "Aravinda",
+  "middleName": "",
+  "lastName": "Silva",
+  "shortName": "de Silva",
+  "fullName": "Pinnaduwage Aravinda de Silva",
+  "displayName": "Aravinda de Silva",
+  "weight": 0,
+  "height": 0.0,
+  "age": 60,
+  "dateOfBirthStr": "1965-10-17T00:00Z",
+  "dateOfBirth": "1965-10-17T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BTA",
+    "id": "BTA",
+    "name": "Batting allrounder",
+    "abbreviation": "BTA",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BTA"
+    }
+  },
+  "battingName": "PA de Silva",
+  "fieldingName": "de Silva",
+  "country": 8,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2459"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1098"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3554"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/8.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/48462/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61589/events/63380"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60520/events/63380"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62118/events/64230"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60838/events/64230"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324148/events/324156"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324147/events/324156"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324149/events/324161"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324147/events/324161"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/48462.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/36294",
+  "id": "36294",
+  "guid": "72746c64-fd45-85a6-0520-ad8cf7230408",
+  "uid": "s:200~a:36294",
+  "type": "cricket",
+  "name": "Matthew Bell",
+  "firstName": "Matthew",
+  "middleName": "",
+  "lastName": "Bell",
+  "shortName": "Bell",
+  "fullName": "Matthew David Bell",
+  "displayName": "Matthew Bell",
+  "weight": 0,
+  "height": 0.0,
+  "age": 49,
+  "dateOfBirthStr": "1977-02-25T00:00Z",
+  "dateOfBirth": "1977-02-25T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "MD Bell",
+  "fieldingName": "Bell",
+  "country": 5,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2516"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2600"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/36294/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62318/events/63826"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60669/events/63826"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61033/events/66162"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62022/events/66162"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62140/events/66162"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/232574/events/264917"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326802/events/326803"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326800/events/326803"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326801/events/326806"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326800/events/326806"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/36294.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52434",
+  "id": "52434",
+  "guid": "511ac301-d9b2-4b2b-c5a7-a7c6774b71be",
+  "uid": "s:200~a:52434",
+  "type": "cricket",
+  "name": "Cyril Merry",
+  "firstName": "Cyril",
+  "middleName": "",
+  "lastName": "Merry",
+  "shortName": "Merry",
+  "fullName": "Cyril Arthur Merry",
+  "displayName": "Cyril Merry",
+  "weight": 0,
+  "height": 0,
+  "age": 53,
+  "dateOfBirthStr": "1911-01-20T00:00Z",
+  "dateOfBirth": "1911-01-20T00:00Z",
+  "dateOfDeathStr": "1964-04-19T00:00Z",
+  "dateOfDeath": "1964-04-19T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "CA Merry",
+  "fieldingName": "Merry",
+  "country": 4,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52567"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3790"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52434/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60323/events/62613"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61883/events/62613"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/52434.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/44656",
+  "id": "44656",
+  "guid": "76894e1c-b193-38b6-38d1-47fdcd2ed1d2",
+  "uid": "s:200~a:44656",
+  "type": "cricket",
+  "name": "Stephen Cook",
+  "firstName": "Stephen",
+  "middleName": "",
+  "lastName": "Cook",
+  "shortName": "Cook",
+  "fullName": "Stephen Craig Cook",
+  "displayName": "Stephen Cook",
+  "weight": 0,
+  "height": 0.0,
+  "age": 43,
+  "dateOfBirthStr": "1982-11-29T00:00Z",
+  "dateOfBirth": "1982-11-29T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "SC Cook",
+  "fieldingName": "Cook",
+  "country": 3,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/44465"
+      },
+      "relation": "Father"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/816099"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3231"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3249"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3304"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/44656.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/44656/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/800447/events/800467"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/800431/events/800467"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/134226/events/304955"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/98826/events/327552"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327548/events/327552"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/98826/events/327560"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327547/events/327560"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/44656.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

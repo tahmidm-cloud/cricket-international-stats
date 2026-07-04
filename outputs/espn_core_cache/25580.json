@@ -1,0 +1,129 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/25580",
+  "id": "25580",
+  "guid": "a645aa74-4f63-d6ad-ee3a-56550fe817c8",
+  "uid": "s:200~a:25580",
+  "type": "cricket",
+  "name": "Abdul Rehman",
+  "firstName": "Abdul",
+  "middleName": "",
+  "lastName": "Rehman",
+  "shortName": "",
+  "fullName": "Abdul Rehman",
+  "displayName": "Abdul Rehman",
+  "weight": 0,
+  "height": 0.0,
+  "age": 39,
+  "dateOfBirthStr": "1987-01-02T00:00Z",
+  "dateOfBirth": "1987-01-02T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "Abdul Rehman",
+  "fieldingName": "Abdul Rehman",
+  "country": 27,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3674"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/27.png",
+    "width": 500,
+    "height": 500,
+    "alt": "UAE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/25580/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61681/events/65707"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62334/events/65707"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61152/events/65707"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/271846/events/247222"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/234441/events/247222"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61152/events/65707"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61681/events/65707"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62334/events/65707"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/441774/events/441776"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/25580.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

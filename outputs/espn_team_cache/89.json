@@ -1,0 +1,68 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/89",
+  "id": "89",
+  "uid": "s:200~t:89",
+  "location": "",
+  "name": "World-XI",
+  "nickname": "World-XI",
+  "abbreviation": "World",
+  "displayName": "World-XI",
+  "shortDisplayName": "World",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "world-xi",
+  "classes": [
+    1,
+    2,
+    3,
+    15
+  ],
+  "event": {
+    "date": "2018-05-31T17:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18610/events/1141232"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/89/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/89/world-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/89/world-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=140;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/461281",
+  "id": "461281",
+  "guid": "afaaef28-6d89-af8a-b6e2-e45ad486d9f6",
+  "uid": "s:200~a:461281",
+  "type": "cricket",
+  "name": "Preston Mommsen",
+  "firstName": "Preston",
+  "middleName": "",
+  "lastName": "Mommsen",
+  "shortName": "Mommsen",
+  "fullName": "Preston Luke Mommsen",
+  "displayName": "Preston Mommsen",
+  "weight": 0,
+  "height": 0.0,
+  "age": 38,
+  "dateOfBirthStr": "1987-10-14T00:00Z",
+  "dateOfBirth": "1987-10-14T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "PL Mommsen",
+  "fieldingName": "Mommsen",
+  "country": 30,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/742061"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1101"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1133"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1134"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1222"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3448"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/461281.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/30.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SCOT",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/461281/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/442230/events/442232"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/442231/events/442232"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/532912/events/546411"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/543850/events/546411"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/546491/events/546411"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/442230/events/438894"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/408325/events/438894"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/442230/events/442232"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/442231/events/442232"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/523800/events/529479"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/529473/events/529479"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/461281.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

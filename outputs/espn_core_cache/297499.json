@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/297499",
+  "id": "297499",
+  "guid": "802dff0c-653b-8a16-b432-a0f2bd7677ff",
+  "uid": "s:200~a:297499",
+  "type": "cricket",
+  "name": "Simon Kerrigan",
+  "firstName": "Simon",
+  "middleName": "",
+  "lastName": "Kerrigan",
+  "shortName": "Kerrigan",
+  "fullName": "Simon Christopher Kerrigan",
+  "displayName": "Simon Kerrigan",
+  "weight": 0,
+  "height": 5.09,
+  "age": 37,
+  "dateOfBirthStr": "1989-05-10T00:00Z",
+  "dateOfBirth": "1989-05-10T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "SC Kerrigan",
+  "fieldingName": "Kerrigan",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/952"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1116"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1117"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1166"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/297499.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/297499/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/531603/events/566936"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/566894/events/566936"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/435128/events/435404"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/485039/events/492238"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/435130/events/435699"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/297499.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

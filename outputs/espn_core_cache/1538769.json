@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1538769",
+  "id": "1538769",
+  "guid": "e82cc263-1b4e-3429-8f71-8f97f465c8d5",
+  "uid": "s:200~a:1538769",
+  "type": "cricket",
+  "name": "Du Jianyao",
+  "firstName": "Du",
+  "middleName": "",
+  "lastName": "Jianyao",
+  "shortName": "Du Jianyao",
+  "fullName": "Du Jianyao",
+  "displayName": "Du Jianyao",
+  "weight": 0,
+  "height": 0.0,
+  "age": 21,
+  "dateOfBirthStr": "2005-03-17T00:00Z",
+  "dateOfBirth": "2005-03-17T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Du Jianyao",
+  "fieldingName": "Du Jianyao",
+  "country": 70,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/70"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/70.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CHN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/70"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1538769/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1538432/events/1538440"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1538433/events/1538440"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1538431/events/1538440"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1538431/events/1538440"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1538432/events/1538440"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1538433/events/1538440"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1538769.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

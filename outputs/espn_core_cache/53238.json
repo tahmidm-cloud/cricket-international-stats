@@ -1,0 +1,144 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/53238",
+  "id": "53238",
+  "guid": "ab66fbd2-ffa2-7779-efd5-3f5433adca52",
+  "uid": "s:200~a:53238",
+  "type": "cricket",
+  "name": "Frank Worrell",
+  "firstName": "Frank",
+  "middleName": "",
+  "lastName": "Worrell",
+  "shortName": "Worrell",
+  "fullName": "Frank Mortimer Maglinne Worrell",
+  "displayName": "Frank Worrell",
+  "weight": 0,
+  "height": 0.0,
+  "age": 42,
+  "dateOfBirthStr": "1924-08-01T00:00Z",
+  "dateOfBirth": "1924-08-01T00:00Z",
+  "dateOfDeathStr": "1967-03-13T00:00Z",
+  "dateOfDeath": "1967-03-13T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm fast-medium",
+      "shortDescription": "Lfm",
+      "type": "bowling"
+    },
+    {
+      "description": "Left-arm slow",
+      "shortDescription": "Ls",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm fast-medium",
+      "shortDescription": "Lfm",
+      "type": "bowling"
+    },
+    {
+      "description": "Left-arm slow",
+      "shortDescription": "Ls",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "FMM Worrell",
+  "fieldingName": "Worrell",
+  "country": 4,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/22523"
+      },
+      "relation": "Cousin"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/666685"
+      },
+      "relation": "Niece"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3719"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3751"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/53238.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/53238/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60341/events/62682"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61753/events/62682"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/53238.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

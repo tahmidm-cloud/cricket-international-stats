@@ -1,0 +1,124 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/379298",
+  "id": "379298",
+  "guid": "c3e793f3-b27c-9f43-63ad-c8f05d6ccbfa",
+  "uid": "s:200~a:379298",
+  "type": "cricket",
+  "name": "David Mauro",
+  "firstName": "David",
+  "middleName": "",
+  "lastName": "Mauro",
+  "shortName": "Mauro",
+  "fullName": "David Mauro",
+  "displayName": "David Mauro",
+  "weight": 0,
+  "height": 0.0,
+  "age": 42,
+  "dateOfBirthStr": "1983-10-31T00:00Z",
+  "dateOfBirth": "1983-10-31T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "D Mauro",
+  "fieldingName": "Mauro",
+  "country": 21,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/21"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/218192"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/21.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ARG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/21"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/379298/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1359782/events/1359787"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1359785/events/1359787"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1359782/events/1359787"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1359785/events/1359787"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/379298.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

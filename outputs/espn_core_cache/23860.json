@@ -1,0 +1,145 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/23860",
+  "id": "23860",
+  "guid": "3548c614-6690-c0d2-c08c-efdde5c160fb",
+  "uid": "s:200~a:23860",
+  "type": "cricket",
+  "name": "Sandeep Jyoti",
+  "firstName": "Sandeep",
+  "middleName": "",
+  "lastName": "Jyoti",
+  "shortName": "Jyoti",
+  "fullName": "Sandeep Jyoti",
+  "displayName": "Sandeep Jyoti",
+  "weight": 0,
+  "height": 0.0,
+  "age": 52,
+  "dateOfBirthStr": "1973-12-14T00:00Z",
+  "dateOfBirth": "1973-12-14T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT",
+    "id": "BT",
+    "name": "Batter",
+    "abbreviation": "BT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT"
+    }
+  },
+  "battingName": "S Jyoti",
+  "fieldingName": "Jyoti",
+  "country": 17,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/23860.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/17.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/23860/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/251009/events/251470"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/251380/events/251470"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/251382/events/251470"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/361644/events/361658"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/361648/events/361658"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/259381/events/247219"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/259382/events/247219"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/234441/events/247219"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/415474/events/415417"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/132765/events/415417"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/361648/events/361658"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/361644/events/361658"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/23860.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

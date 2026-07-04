@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/307195",
+  "id": "307195",
+  "guid": "db9e3149-c558-8a3b-3fa0-3672f785cfe6",
+  "uid": "s:200~a:307195",
+  "type": "cricket",
+  "name": "Sacha De Alwis",
+  "firstName": "Sacha",
+  "middleName": "",
+  "lastName": "Alwis",
+  "shortName": "",
+  "fullName": "Yeron Sacha De Alwis Seneveratne",
+  "displayName": "Sacha De Alwis",
+  "weight": 0,
+  "height": 0.0,
+  "age": 34,
+  "dateOfBirthStr": "1992-01-30T00:00Z",
+  "dateOfBirth": "1992-01-30T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "YSD Seneveratne",
+  "fieldingName": "Seneveratne",
+  "country": 39,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/39"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/758"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1238375"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/39.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CAY",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/39"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/307195/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197391/events/1197397"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197393/events/1197397"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197395/events/1197397"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1067752/events/1067768"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1256084/events/1256106"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197391/events/1197397"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197393/events/1197397"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197395/events/1197397"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/307195.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

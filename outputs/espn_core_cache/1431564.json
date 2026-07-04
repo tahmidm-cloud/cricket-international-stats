@@ -1,0 +1,111 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1431564",
+  "id": "1431564",
+  "guid": "0c0d28d1-8d49-3760-b0ff-97b4102d12c7",
+  "uid": "s:200~a:1431564",
+  "type": "cricket",
+  "name": "Hitesh Upadhyay",
+  "firstName": "Hitesh",
+  "middleName": "",
+  "lastName": "Upadhyay",
+  "shortName": "Upadhyay",
+  "fullName": "Hitesh Upadhyay",
+  "displayName": "Hitesh Upadhyay",
+  "weight": 0,
+  "height": 0.0,
+  "age": 45,
+  "dateOfBirthStr": "1980-08-10T00:00Z",
+  "dateOfBirth": "1980-08-10T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "H Upadhyay",
+  "fieldingName": "Upadhyay",
+  "country": 115,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/115"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/115.png",
+    "width": 500,
+    "height": 500,
+    "alt": "",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/115"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1431564/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1431095/events/1431120"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1431096/events/1431120"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1431095/events/1431120"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1431096/events/1431120"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1431564.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

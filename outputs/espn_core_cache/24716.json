@@ -1,0 +1,163 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24716",
+  "id": "24716",
+  "guid": "b3bc935a-cb8b-dad0-86b1-eb0bdf36ab95",
+  "uid": "s:200~a:24716",
+  "type": "cricket",
+  "name": "Ragheb Aga",
+  "firstName": "Ragheb",
+  "middleName": "",
+  "lastName": "Aga",
+  "shortName": "Aga",
+  "fullName": "Ragheb Gul Aga",
+  "displayName": "Ragheb Aga",
+  "weight": 0,
+  "height": 0.0,
+  "age": 41,
+  "dateOfBirthStr": "1984-07-10T00:00Z",
+  "dateOfBirth": "1984-07-10T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "RG Aga",
+  "fieldingName": "Aga",
+  "country": 26,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/26"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1371"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1373"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/24716.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/26.png",
+    "width": 500,
+    "height": 500,
+    "alt": "KENYA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/26"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24716/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62271/events/66198"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62375/events/66198"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61157/events/66198"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325544/events/354453"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/353665/events/354453"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325549/events/354453"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/125654/events/415451"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/415468/events/415451"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/135056/events/412119"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/134820/events/412119"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325549/events/354453"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325544/events/354453"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/353665/events/354453"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/96480/events/329955"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/329914/events/329955"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/329915/events/329955"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/24716.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

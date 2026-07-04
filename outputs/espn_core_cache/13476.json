@@ -1,0 +1,114 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/13476",
+  "id": "13476",
+  "guid": "3886abbc-e677-48e3-7a9c-f7abca9c92c9",
+  "uid": "s:200~a:13476",
+  "type": "cricket",
+  "name": "Billy Griffith",
+  "firstName": "Billy",
+  "middleName": "",
+  "lastName": "Griffith",
+  "shortName": "Griffith",
+  "fullName": "Stewart Cathie Griffith",
+  "displayName": "Billy Griffith",
+  "weight": 0,
+  "height": 0,
+  "age": 78,
+  "dateOfBirthStr": "1914-06-16T00:00Z",
+  "dateOfBirth": "1914-06-16T00:00Z",
+  "dateOfDeathStr": "1993-04-07T00:00Z",
+  "dateOfDeath": "1993-04-07T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "SC Griffith",
+  "fieldingName": "Griffith",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/859"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1358"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1371"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/13476/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60341/events/62682"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61753/events/62682"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/13476.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

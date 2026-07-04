@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/167",
+  "id": "167",
+  "uid": "s:200~t:167",
+  "location": "England",
+  "name": "World Masters",
+  "nickname": "World Masters",
+  "abbreviation": "",
+  "displayName": "World Masters",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "world-masters",
+  "classes": [
+    "16"
+  ],
+  "event": {
+    "date": "2009-09-02T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/13699/events/424030"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/167/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/167/world-masters",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/167/world-masters",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

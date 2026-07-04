@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1347292",
+  "id": "1347292",
+  "guid": "8393b9d2-1818-3759-a835-7f210f847823",
+  "uid": "s:200~a:1347292",
+  "type": "cricket",
+  "name": "Dario Macome",
+  "firstName": "Dario",
+  "middleName": "",
+  "lastName": "Macome",
+  "shortName": "",
+  "fullName": "Dario Vasco Macome",
+  "displayName": "Dario Macome",
+  "weight": 0,
+  "height": 0,
+  "age": 22,
+  "dateOfBirthStr": "2003-12-18T00:00Z",
+  "dateOfBirth": "2003-12-18T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "DV Macome",
+  "fieldingName": "Macome",
+  "country": 120,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/120"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/120.png",
+    "width": 500,
+    "height": 500,
+    "alt": "MOZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/120"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1347292/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343730/events/1343770"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343736/events/1343770"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343723/events/1343770"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343723/events/1343770"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343730/events/1343770"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343736/events/1343770"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1347292.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

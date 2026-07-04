@@ -1,0 +1,124 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/35577",
+  "id": "35577",
+  "guid": "72cb91ac-86cb-bcaf-1999-0e60d4a0cc4b",
+  "uid": "s:200~a:35577",
+  "type": "cricket",
+  "name": "Polly Umrigar",
+  "firstName": "Polly",
+  "middleName": "",
+  "lastName": "Umrigar",
+  "shortName": "Umrigar",
+  "fullName": "Pahlan Ratanji Umrigar",
+  "displayName": "Polly Umrigar",
+  "weight": 0,
+  "height": 0.0,
+  "age": 80,
+  "dateOfBirthStr": "1926-03-28T00:00Z",
+  "dateOfBirth": "1926-03-28T00:00Z",
+  "dateOfDeathStr": "2006-11-07T00:00Z",
+  "dateOfDeath": "2006-11-07T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "PR Umrigar",
+  "fieldingName": "Umrigar",
+  "country": 6,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1729"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1603"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1996"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/35577.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/35577/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60343/events/62691"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61938/events/62691"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/35577.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1277627",
+  "id": "1277627",
+  "guid": "e2fd8690-2fa9-3294-8224-f0630a7903de",
+  "uid": "s:200~a:1277627",
+  "type": "cricket",
+  "name": "Sanjay Krishnamurthi",
+  "firstName": "Sanjay",
+  "middleName": "",
+  "lastName": "Krishnamurthi",
+  "shortName": "Krishnamurthi",
+  "fullName": "Sanjay Prasad Krishnamurthi",
+  "displayName": "Sanjay Krishnamurthi",
+  "weight": 0,
+  "height": 0.0,
+  "age": 23,
+  "dateOfBirthStr": "2003-06-02T00:00Z",
+  "dateOfBirth": "2003-06-02T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "SP Krishnamurthi",
+  "fieldingName": "Krishnamurthi",
+  "country": 11,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/11"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1346029"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1877"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1328788"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1381357"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/584"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/11.png",
+    "width": 500,
+    "height": 500,
+    "alt": "USA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/11"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1277627/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1275291/events/1275249"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1275292/events/1275249"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1196667/events/1275249"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1468878/events/1473145"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1473143/events/1473145"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1196667/events/1275249"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1275291/events/1275249"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1275292/events/1275249"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1432722/events/1432729"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1277627.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

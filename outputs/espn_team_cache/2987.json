@@ -1,0 +1,56 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2987",
+  "id": "2987",
+  "uid": "s:200~t:2987",
+  "location": "Pakistan",
+  "name": "Pakistan Cricket Board XI",
+  "nickname": "Pakistan Cricket Board XI",
+  "abbreviation": "PCBXI",
+  "displayName": "Pakistan Cricket Board XI",
+  "shortDisplayName": "PCBXI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "PK",
+  "slug": "pakistan-cricket-board-xi",
+  "classes": [
+    4,
+    5,
+    14,
+    15
+  ],
+  "event": {
+    "date": "2012-01-11T06:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/12635/events/531626"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2987/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/2987/pakistan-cricket-board-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/2987/pakistan-cricket-board-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

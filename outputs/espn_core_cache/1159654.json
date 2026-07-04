@@ -1,0 +1,126 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1159654",
+  "id": "1159654",
+  "guid": "559c58a1-1ff9-f532-584c-76e5bc4a26c2",
+  "uid": "s:200~a:1159654",
+  "type": "cricket",
+  "name": "Rodrigo Thomas",
+  "firstName": "Rodrigo",
+  "middleName": "",
+  "lastName": "Thomas",
+  "shortName": "Thomas",
+  "fullName": "Rodrigo Augustine Thomas",
+  "displayName": "Rodrigo Thomas",
+  "weight": 0,
+  "height": 0.0,
+  "age": 35,
+  "dateOfBirthStr": "1991-01-24T00:00Z",
+  "dateOfBirth": "1991-01-24T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "RA Thomas",
+  "fieldingName": "Thomas",
+  "country": 17,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1150150"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/17.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1159654/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197391/events/1197397"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197393/events/1197397"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197395/events/1197397"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1161261/events/1161263"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1161260/events/1161263"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197391/events/1197397"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197393/events/1197397"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197395/events/1197397"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1159654.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

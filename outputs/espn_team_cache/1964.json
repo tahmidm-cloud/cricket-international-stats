@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1964",
+  "id": "1964",
+  "uid": "s:200~t:1964",
+  "location": "India",
+  "name": "Nawanagar",
+  "nickname": "Nawanagar",
+  "abbreviation": "NAW",
+  "displayName": "Nawanagar",
+  "shortDisplayName": "NAW",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "nawanagar",
+  "classes": [
+    "4"
+  ],
+  "event": {
+    "date": "1947-12-05T03:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8050/events/1497650"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1964/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1964/nawanagar",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1964/nawanagar",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

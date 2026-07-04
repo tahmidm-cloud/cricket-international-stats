@@ -1,0 +1,154 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52622",
+  "id": "52622",
+  "guid": "656edfb4-4c13-5fb2-ad92-28f53f95de54",
+  "uid": "s:200~a:52622",
+  "type": "cricket",
+  "name": "Nikita Miller",
+  "firstName": "Nikita",
+  "middleName": "",
+  "lastName": "Miller",
+  "shortName": "Miller",
+  "fullName": "Nikita O'Brien Miller",
+  "displayName": "Nikita Miller",
+  "weight": 0,
+  "height": 0.0,
+  "age": 44,
+  "dateOfBirthStr": "1982-05-16T00:00Z",
+  "dateOfBirth": "1982-05-16T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "NO Miller",
+  "fieldingName": "Miller",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3751"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3754"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/642415"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/642421"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3800"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/52622.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52622/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/380896/events/401071"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/401067/events/401071"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/319124/events/319146"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/319125/events/319146"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/401064/events/401076"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/380896/events/401076"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/135642/events/411121"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/141333/events/411154"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/333378/events/300886"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/300764/events/300886"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/52622.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

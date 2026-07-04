@@ -1,0 +1,66 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1101",
+  "id": "1101",
+  "uid": "s:200~t:1101",
+  "location": "England",
+  "name": "Kent 2nd XI",
+  "nickname": "Kent 2nd XI",
+  "abbreviation": "Ke2XI",
+  "displayName": "Kent 2nd XI",
+  "shortDisplayName": "Ke2XI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "kent-2nd-xi",
+  "classes": [
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2026-07-01T10:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8861/events/1534513"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8861"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1101.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1101/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1101/kent-2nd-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1101/kent-2nd-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204494",
+  "id": "1204494",
+  "uid": "s:200~t:1204494",
+  "location": "England",
+  "name": "Trent Rockets (Men)",
+  "nickname": "Trent Rockets (Men)",
+  "abbreviation": "TR-M",
+  "displayName": "Trent Rockets (Men)",
+  "shortDisplayName": "TR-M",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "trent-rockets-men",
+  "classes": [
+    "6"
+  ],
+  "event": {
+    "date": "2026-07-24T17:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19601/events/1521234"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19601"
+  },
+  "color": "#e9e10c",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1204494.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204494/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1204494/trent-rockets-men",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1204494/trent-rockets-men",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "videos",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/current/video_audio/index.html?object=1204494",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

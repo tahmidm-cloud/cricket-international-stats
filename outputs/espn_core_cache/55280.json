@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55280",
+  "id": "55280",
+  "guid": "b8e4c352-bb6c-e81b-96ca-9b24dfa7be27",
+  "uid": "s:200~a:55280",
+  "type": "cricket",
+  "name": "Iain Butchart",
+  "firstName": "Iain",
+  "middleName": "",
+  "lastName": "Butchart",
+  "shortName": "Butchart",
+  "fullName": "Iain Peter Butchart",
+  "displayName": "Iain Butchart",
+  "weight": 0,
+  "height": 0.0,
+  "age": 66,
+  "dateOfBirthStr": "1960-05-09T00:00Z",
+  "dateOfBirth": "1960-05-09T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "IP Butchart",
+  "fieldingName": "Butchart",
+  "country": 9,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3845"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/9.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ZIM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55280/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61490/events/63674"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60615/events/63674"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61987/events/65066"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61347/events/65066"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60832/events/65066"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/55280.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

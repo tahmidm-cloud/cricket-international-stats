@@ -1,0 +1,148 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/15876",
+  "id": "15876",
+  "guid": "a288ead3-1aa5-f52d-2642-40bf94a23a9e",
+  "uid": "s:200~a:15876",
+  "type": "cricket",
+  "name": "Rob Key",
+  "firstName": "Rob",
+  "middleName": "",
+  "lastName": "Key",
+  "shortName": "Key",
+  "fullName": "Robert William Trevor Key",
+  "displayName": "Rob Key",
+  "weight": 0,
+  "height": 6.01,
+  "age": 47,
+  "dateOfBirthStr": "1979-05-12T00:00Z",
+  "dateOfBirth": "1979-05-12T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "RWT Key",
+  "fieldingName": "Key",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1098"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1166"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/15876/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62276/events/63998"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60731/events/63998"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61131/events/66293"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61990/events/66293"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/391849/events/355991"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/335113/events/355991"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/134471/events/304812"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327225/events/327233"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327224/events/327233"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327262/events/327269"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327263/events/327269"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/15876.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

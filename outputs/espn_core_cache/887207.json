@@ -1,0 +1,162 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/887207",
+  "id": "887207",
+  "guid": "6e4bd4c0-1e1c-8e60-1ac7-39ba1040a5b7",
+  "uid": "s:200~a:887207",
+  "type": "cricket",
+  "name": "Ollie Pope",
+  "firstName": "Ollie",
+  "middleName": "",
+  "lastName": "Pope",
+  "shortName": "Pope",
+  "fullName": "Oliver John Douglas Pope",
+  "displayName": "Ollie Pope",
+  "weight": 0,
+  "height": 0.0,
+  "age": 28,
+  "dateOfBirthStr": "1998-01-02T00:00Z",
+  "dateOfBirth": "1998-01-02T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "OJ Pope",
+  "fieldingName": "Pope",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509667"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/952"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/971"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1346030"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204500"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1358"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1359"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/415110"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/517550"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/415111"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/415112"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204497"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/887207.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/887207/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1119531/events/1119550"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1119528/events/1119550"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1068073/events/1068512"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/946655/events/947509"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1068050/events/1068299"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/946665/events/947541"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/946667/events/947541"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/946665/events/947545"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/946669/events/947545"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/887207.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

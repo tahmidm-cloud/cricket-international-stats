@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1509244",
+  "id": "1509244",
+  "guid": "",
+  "uid": "s:200~a:1509244",
+  "type": "cricket",
+  "name": "Nathan Ingleston",
+  "firstName": "Nathan",
+  "middleName": "",
+  "lastName": "Ingleston",
+  "shortName": "",
+  "fullName": "Nathan Ingleston",
+  "displayName": "Nathan Ingleston",
+  "weight": 0,
+  "height": 0.0,
+  "age": 35,
+  "dateOfBirthStr": "1991-02-26T00:00Z",
+  "dateOfBirth": "1991-02-26T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Nathan Ingleston",
+  "fieldingName": "Nathan Ingleston",
+  "country": 132,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/132"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/132.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/132"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1509244/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1507414/events/1507418"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1507415/events/1507418"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1507416/events/1507418"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1507414/events/1507418"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1507415/events/1507418"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1507416/events/1507418"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1509244.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

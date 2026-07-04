@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1284213",
+  "id": "1284213",
+  "guid": "9c505fea-e0b3-3f90-82a0-4b72730ce84f",
+  "uid": "s:200~a:1284213",
+  "type": "cricket",
+  "name": "Deon Vosloo",
+  "firstName": "Deon",
+  "middleName": "",
+  "lastName": "Vosloo",
+  "shortName": "",
+  "fullName": "Deon Stephanus Vosloo",
+  "displayName": "Deon Vosloo",
+  "weight": 0,
+  "height": 0,
+  "age": 39,
+  "dateOfBirthStr": "1986-11-26T00:00Z",
+  "dateOfBirth": "1986-11-26T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "DS Vosloo",
+  "fieldingName": "Vosloo",
+  "country": 45,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/45"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/45.png",
+    "width": 500,
+    "height": 500,
+    "alt": "MLT",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/45"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1284213/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1282263/events/1282277"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1282266/events/1282277"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1282263/events/1282277"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1282266/events/1282277"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1284213.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

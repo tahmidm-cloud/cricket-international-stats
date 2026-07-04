@@ -1,0 +1,55 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/219323",
+  "id": "219323",
+  "uid": "s:200~t:219323",
+  "location": "Namibia",
+  "name": "Namibia Under-15s",
+  "nickname": "Namibia Under-15s",
+  "abbreviation": "NAM15",
+  "displayName": "Namibia Under-15s",
+  "shortDisplayName": "NAM15",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "NA",
+  "slug": "namibia-under-15s",
+  "classes": [
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2016-12-13T07:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8730/events/1071206"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/219323/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/219323/namibia-under-15s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/219323/namibia-under-15s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

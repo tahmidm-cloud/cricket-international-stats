@@ -1,0 +1,134 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/47558",
+  "id": "47558",
+  "guid": "925d23fc-1887-f768-aa61-fc9268a5e654",
+  "uid": "s:200~a:47558",
+  "type": "cricket",
+  "name": "Len Tuckett",
+  "firstName": "Len",
+  "middleName": "",
+  "lastName": "Tuckett",
+  "shortName": "Tuckett",
+  "fullName": "Lindsay Richard Tuckett",
+  "displayName": "Len Tuckett",
+  "weight": 0,
+  "height": 0,
+  "age": 77,
+  "dateOfBirthStr": "1885-04-19T00:00Z",
+  "dateOfBirth": "1885-04-19T00:00Z",
+  "dateOfDeathStr": "1963-04-08T00:00Z",
+  "dateOfDeath": "1963-04-08T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "LR Tuckett",
+  "fieldingName": "Tuckett",
+  "country": 3,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/44474"
+      },
+      "relation": "Brother-in-law"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/47559"
+      },
+      "relation": "Son"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3245"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3222"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/47558/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60300/events/62518"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61684/events/62518"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/47558.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

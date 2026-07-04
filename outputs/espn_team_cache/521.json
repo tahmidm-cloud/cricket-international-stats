@@ -1,0 +1,55 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/521",
+  "id": "521",
+  "uid": "s:200~t:521",
+  "location": "Australia",
+  "name": "South Australia Second XI",
+  "nickname": "South Australia Second XI",
+  "abbreviation": "SOA2",
+  "displayName": "South Australia Second XI",
+  "shortDisplayName": "SOA2",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AU",
+  "slug": "south-australia-second-xi",
+  "classes": [
+    "14",
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2020-03-08T23:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19591/events/1202181"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/521/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/521/south-australia-second-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/521/south-australia-second-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

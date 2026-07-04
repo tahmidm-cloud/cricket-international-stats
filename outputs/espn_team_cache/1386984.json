@@ -1,0 +1,62 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1386984",
+  "id": "1386984",
+  "uid": "s:200~t:1386984",
+  "location": "Nepal",
+  "name": "Nepal A",
+  "nickname": "Nepal A",
+  "abbreviation": "NEP-A",
+  "displayName": "Nepal A",
+  "shortDisplayName": "NEP-A",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "NP",
+  "slug": "nepal-a",
+  "classes": [
+    "5",
+    "6"
+  ],
+  "event": {
+    "date": "2024-04-07T03:45Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/22209/events/1426063"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1386984.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1386984/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1386984/nepal-a",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1386984/nepal-a",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

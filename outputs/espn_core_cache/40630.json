@@ -1,0 +1,151 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/40630",
+  "id": "40630",
+  "guid": "4ad70abc-9134-bac4-72d4-0766ab38c87b",
+  "uid": "s:200~a:40630",
+  "type": "cricket",
+  "name": "Inam-ul-Haq",
+  "firstName": "Inam-ul-Haq",
+  "middleName": "",
+  "lastName": "Inam-ul-Haq",
+  "shortName": "",
+  "fullName": "Inam-ul-Haq",
+  "displayName": "Inam-ul-Haq",
+  "weight": 0,
+  "height": 0.0,
+  "age": 47,
+  "dateOfBirthStr": "1979-01-07T00:00Z",
+  "dateOfBirth": "1979-01-07T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT",
+    "id": "BT",
+    "name": "Batter",
+    "abbreviation": "BT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT"
+    }
+  },
+  "battingName": "Inam-ul-Haq",
+  "fieldingName": "Inam-ul-Haq",
+  "country": 136,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/136"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3138"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2731"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3095"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3138"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/136.png",
+    "width": 500,
+    "height": 500,
+    "alt": "QAT",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/136"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/40630/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1171746/events/1171755"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1171741/events/1171755"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1171739/events/1171755"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1171746/events/1171755"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1171741/events/1171755"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1171739/events/1171755"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327248/events/327258"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327250/events/327258"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327249/events/327252"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327248/events/327252"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/40630.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

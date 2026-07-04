@@ -1,0 +1,134 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/31045",
+  "id": "31045",
+  "guid": "70aa798d-f453-54e9-4899-b6ab0e74862c",
+  "uid": "s:200~a:31045",
+  "type": "cricket",
+  "name": "Venatappa Muddiah",
+  "firstName": "Venatappa",
+  "middleName": "",
+  "lastName": "Muddiah",
+  "shortName": "Muddiah",
+  "fullName": "Venatappa Musandra Muddiah",
+  "displayName": "Venatappa Muddiah",
+  "weight": 0,
+  "height": 0.0,
+  "age": 80,
+  "dateOfBirthStr": "1929-06-08T00:00Z",
+  "dateOfBirth": "1929-06-08T00:00Z",
+  "dateOfDeathStr": "2009-10-01T00:00Z",
+  "dateOfDeath": "2009-10-01T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "VM Muddiah",
+  "fieldingName": "Muddiah",
+  "country": 6,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1764"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1872"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2119"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/31045/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60385/events/62868"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61422/events/62868"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/31045.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

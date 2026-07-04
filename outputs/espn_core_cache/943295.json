@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/943295",
+  "id": "943295",
+  "guid": "189d0348-b0dd-c656-83c7-248e4590909a",
+  "uid": "s:200~a:943295",
+  "type": "cricket",
+  "name": "Muhammad Kaleem",
+  "firstName": "Muhammad",
+  "middleName": "",
+  "lastName": "Kaleem",
+  "shortName": "Kaleem",
+  "fullName": "Muhammad Kaleem Burhan",
+  "displayName": "Muhammad Kaleem",
+  "weight": 0,
+  "height": 0.0,
+  "age": 40,
+  "dateOfBirthStr": "1985-10-01T00:00Z",
+  "dateOfBirth": "1985-10-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "Muhammad Kaleem",
+  "fieldingName": "Muhammad Kaleem",
+  "country": 27,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/27.png",
+    "width": 500,
+    "height": 500,
+    "alt": "UAE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/943295/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/967067/events/967081"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/952171/events/967081"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/952171/events/952187"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870857/events/952187"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870869/events/952189"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/952171/events/952189"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/967067/events/967081"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/952171/events/967081"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/943295.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

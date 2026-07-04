@@ -1,0 +1,142 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/6925",
+  "id": "6925",
+  "guid": "bfa3d210-1a2b-2b9a-f2fe-49dfc59449e4",
+  "uid": "s:200~a:6925",
+  "type": "cricket",
+  "name": "Matthew Nicholson",
+  "firstName": "Matthew",
+  "middleName": "",
+  "lastName": "Nicholson",
+  "shortName": "Nicholson",
+  "fullName": "Matthew James Nicholson",
+  "displayName": "Matthew Nicholson",
+  "weight": 0,
+  "height": 1.97,
+  "age": 51,
+  "dateOfBirthStr": "1974-10-02T00:00Z",
+  "dateOfBirth": "1974-10-02T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "MJ Nicholson",
+  "fieldingName": "Nicholson",
+  "country": 2,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/387"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1221"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1358"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/602"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/6925/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61732/events/63817"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60666/events/63817"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/231859/events/232046"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326653/events/326656"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326655/events/326656"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326501/events/326504"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326502/events/326504"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/6925.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1135735",
+  "id": "1135735",
+  "uid": "s:200~t:1135735",
+  "location": "West Indies",
+  "name": "Jamaica XI",
+  "nickname": "Jamaica XI",
+  "abbreviation": "JA-XI",
+  "displayName": "Jamaica XI",
+  "shortDisplayName": "JA-XI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "jamaica-xi",
+  "classes": [
+    14
+  ],
+  "event": {
+    "date": "2018-02-05T15:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18070/events/1122542"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1135735/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1135735/jamaica-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1135735/jamaica-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

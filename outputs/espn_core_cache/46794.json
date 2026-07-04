@@ -1,0 +1,131 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/46794",
+  "id": "46794",
+  "guid": "e6ea211e-b6f0-5dcb-c348-81de36e23e20",
+  "uid": "s:200~a:46794",
+  "type": "cricket",
+  "name": "Henry Promnitz",
+  "firstName": "Henry",
+  "middleName": "",
+  "lastName": "Promnitz",
+  "shortName": "Promnitz",
+  "fullName": "Henry Louis Ernest Promnitz",
+  "displayName": "Henry Promnitz",
+  "weight": 0,
+  "height": 0,
+  "age": 79,
+  "dateOfBirthStr": "1904-02-23T00:00Z",
+  "dateOfBirth": "1904-02-23T00:00Z",
+  "dateOfDeathStr": "1983-09-07T00:00Z",
+  "dateOfDeath": "1983-09-07T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm slow",
+      "shortDescription": "Rs",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm slow",
+      "shortDescription": "Rs",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "HLE Promnitz",
+  "fieldingName": "Promnitz",
+  "country": 3,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/45466"
+      },
+      "relation": "Nephew"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3168"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3228"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3222"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/46794/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60308/events/62554"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61697/events/62554"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/46794.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/20431",
+  "id": "20431",
+  "guid": "e218c9b7-1d3e-2f3b-4886-5625c7a4f9ad",
+  "uid": "s:200~a:20431",
+  "type": "cricket",
+  "name": "Graeme Swann",
+  "firstName": "Graeme",
+  "middleName": "",
+  "lastName": "Swann",
+  "shortName": "Swann",
+  "fullName": "Graeme Peter Swann",
+  "displayName": "Graeme Swann",
+  "weight": 0,
+  "height": 6.0,
+  "age": 47,
+  "dateOfBirthStr": "1979-03-24T00:00Z",
+  "dateOfBirth": "1979-03-24T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "GP Swann",
+  "fieldingName": "Swann",
+  "country": 1,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/20432"
+      },
+      "relation": "Father"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/20428"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1221"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1231"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/20431/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/361039/events/361050"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/361035/events/361050"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61059/events/66090"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61687/events/66090"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/300418/events/300435"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/300413/events/300435"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/124121/events/304746"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327225/events/327234"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327224/events/327234"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327262/events/327269"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327263/events/327269"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/20431.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/50671",
+  "id": "50671",
+  "guid": "eafe667c-9e07-86e0-e319-a464b5baa734",
+  "uid": "s:200~a:50671",
+  "type": "cricket",
+  "name": "Roy Silva",
+  "firstName": "Roy",
+  "middleName": "",
+  "lastName": "Silva",
+  "shortName": "Silva",
+  "fullName": "Kombu Roy Prasanga Silva",
+  "displayName": "Roy Silva",
+  "weight": 0,
+  "height": 5.1,
+  "age": 46,
+  "dateOfBirthStr": "1980-05-09T00:00Z",
+  "dateOfBirth": "1980-05-09T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "KRP Silva",
+  "fieldingName": "Silva",
+  "country": 11,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/11"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3503"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3507"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/325786"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3549"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3482"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/11.png",
+    "width": 500,
+    "height": 500,
+    "alt": "USA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/11"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/50671/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1177479/events/1177484"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1177480/events/1177484"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/304926/events/304934"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/50671.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

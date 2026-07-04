@@ -1,0 +1,109 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24010",
+  "id": "24010",
+  "guid": "f8f4abd0-e5e0-8239-b122-b16afbc7bb76",
+  "uid": "s:200~a:24010",
+  "type": "cricket",
+  "name": "Samuel Walusimbi",
+  "firstName": "Samuel",
+  "middleName": "",
+  "lastName": "Walusimbi",
+  "shortName": "Walusimbi",
+  "fullName": "Samuel Walusimbi",
+  "displayName": "Samuel Walusimbi",
+  "weight": 0,
+  "height": 0.0,
+  "age": 78,
+  "dateOfBirthStr": "",
+  "dateOfBirth": "",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm medium",
+      "shortDescription": "Lm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm medium",
+      "shortDescription": "Lm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "S Walusimbi",
+  "fieldingName": "Walusimbi",
+  "country": 14,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/14"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {},
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/14"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24010/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60793/events/65036"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62069/events/65036"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62159/events/65036"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/24010.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

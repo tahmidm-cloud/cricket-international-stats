@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3766",
+  "id": "3766",
+  "uid": "s:200~t:3766",
+  "location": "West Indies",
+  "name": "Montserrat",
+  "nickname": "Montserrat",
+  "abbreviation": "MONTS",
+  "displayName": "Montserrat",
+  "shortDisplayName": "MONTS",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "montserrat",
+  "classes": [
+    "6"
+  ],
+  "event": {
+    "date": "2008-02-08T23:15Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18839/events/300887"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3766/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3766/montserrat",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3766/montserrat",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

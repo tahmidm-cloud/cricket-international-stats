@@ -1,0 +1,155 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55269",
+  "id": "55269",
+  "guid": "252b412f-5cf6-9932-4460-7dc046b89e36",
+  "uid": "s:200~a:55269",
+  "type": "cricket",
+  "name": "Gary Brent",
+  "firstName": "Gary",
+  "middleName": "",
+  "lastName": "Brent",
+  "shortName": "Brent",
+  "fullName": "Gary Bazil Brent",
+  "displayName": "Gary Brent",
+  "weight": 0,
+  "height": 0.0,
+  "age": 50,
+  "dateOfBirthStr": "1976-01-13T00:00Z",
+  "dateOfBirth": "1976-01-13T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "GB Brent",
+  "fieldingName": "Brent",
+  "country": 9,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/553886"
+      },
+      "relation": "Cousin"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3827"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3830"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3831"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3837"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3855"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/55269.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/9.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ZIM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55269/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61615/events/63857"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60680/events/63857"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62007/events/64527"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60992/events/64527"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/264062/events/264065"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/264061/events/264065"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/264062/events/264065"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/264061/events/264065"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/55269.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

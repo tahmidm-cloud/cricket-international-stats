@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1174024",
+  "id": "1174024",
+  "guid": "31a2505e-6984-3f8e-f7ee-09021fdd041d",
+  "uid": "s:200~a:1174024",
+  "type": "cricket",
+  "name": "Sandeep Goud",
+  "firstName": "Sandeep",
+  "middleName": "",
+  "lastName": "Goud",
+  "shortName": "Goud",
+  "fullName": "Sandeep Goud",
+  "displayName": "Sandeep Goud",
+  "weight": 0,
+  "height": 0.0,
+  "age": 34,
+  "dateOfBirthStr": "1991-11-08T00:00Z",
+  "dateOfBirth": "1991-11-08T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "Sandeep Goud",
+  "fieldingName": "Sandeep Goud",
+  "country": 37,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/37"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1172502"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/1174024.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/37.png",
+    "width": 500,
+    "height": 500,
+    "alt": "OMA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/37"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1174024/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1174825/events/1174845"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1174827/events/1174845"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1172486/events/1172507"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1172484/events/1172507"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1172487/events/1173596"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1172484/events/1172507"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1172486/events/1172507"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1174024.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

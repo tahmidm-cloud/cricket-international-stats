@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1386878",
+  "id": "1386878",
+  "guid": "178d9841-590b-32d6-9ebd-af8f3a1496a1",
+  "uid": "s:200~a:1386878",
+  "type": "cricket",
+  "name": "Abdullah Rana",
+  "firstName": "Abdullah",
+  "middleName": "",
+  "lastName": "Rana",
+  "shortName": "",
+  "fullName": "Muhammad Abdullah Rana",
+  "displayName": "Abdullah Rana",
+  "weight": 0,
+  "height": 0.0,
+  "age": 42,
+  "dateOfBirthStr": "1984-06-18T00:00Z",
+  "dateOfBirth": "1984-06-18T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Abdullah Rana",
+  "fieldingName": "Abdullah Rana",
+  "country": 154,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/154"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/154.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SUI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/154"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1386878/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1384564/events/1384592"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1384569/events/1384592"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1384563/events/1384592"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1384563/events/1384592"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1384564/events/1384592"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1384569/events/1384592"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1386878.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

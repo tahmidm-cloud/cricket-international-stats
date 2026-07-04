@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1284223",
+  "id": "1284223",
+  "guid": "9f69423c-8f63-39d8-81ad-098023439f98",
+  "uid": "s:200~a:1284223",
+  "type": "cricket",
+  "name": "Ashwin Vinod",
+  "firstName": "Ashwin",
+  "middleName": "",
+  "lastName": "Vinod",
+  "shortName": "",
+  "fullName": "Ashwin Vinod",
+  "displayName": "Ashwin Vinod",
+  "weight": 0,
+  "height": 0,
+  "age": 29,
+  "dateOfBirthStr": "1997-07-01T00:00Z",
+  "dateOfBirth": "1997-07-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Ashwin Vinod",
+  "fieldingName": "Ashwin Vinod",
+  "country": 154,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/154"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/1284223.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/154.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SUI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/154"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1284223/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1282263/events/1282273"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1282264/events/1282273"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1282265/events/1282273"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1282263/events/1282273"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1282264/events/1282273"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1282265/events/1282273"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1284223.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/596404",
+  "id": "596404",
+  "guid": "84f0fc0c-a61d-d7a7-cee3-b54ff16d3716",
+  "uid": "s:200~a:596404",
+  "type": "cricket",
+  "name": "Stefano di Bartolomeo",
+  "firstName": "Stefano",
+  "middleName": "",
+  "lastName": "Bartolomeo",
+  "shortName": "",
+  "fullName": "Stefano di Bartolomeo",
+  "displayName": "Stefano di Bartolomeo",
+  "weight": 0,
+  "height": 0.0,
+  "age": 31,
+  "dateOfBirthStr": "1995-06-30T00:00Z",
+  "dateOfBirth": "1995-06-30T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "S di Bartolomeo",
+  "fieldingName": "di Bartolomeo",
+  "country": 31,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/31"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/594835"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/31.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ITA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/31"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/596404/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383042/events/1383069"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383043/events/1383069"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383037/events/1383069"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420552/events/1420568"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420553/events/1420568"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420549/events/1420568"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383037/events/1383069"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383042/events/1383069"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383043/events/1383069"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/596404.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

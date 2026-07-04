@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/50421",
+  "id": "50421",
+  "guid": "562bf227-1998-83c1-cdcf-88ce8b9234b2",
+  "uid": "s:200~a:50421",
+  "type": "cricket",
+  "name": "Athula Samarasekera",
+  "firstName": "Athula",
+  "middleName": "",
+  "lastName": "Samarasekera",
+  "shortName": "",
+  "fullName": "Maitipage Athula Rohitha Samarasekera",
+  "displayName": "Athula Samarasekera",
+  "weight": 0,
+  "height": 0.0,
+  "age": 64,
+  "dateOfBirthStr": "1961-08-05T00:00Z",
+  "dateOfBirth": "1961-08-05T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "MAR Samarasekera",
+  "fieldingName": "Samarasekera",
+  "country": 8,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3506"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/50421.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/8.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/50421/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61592/events/63489"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60553/events/63489"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60832/events/65065"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61461/events/65065"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61597/events/65065"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/50421.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

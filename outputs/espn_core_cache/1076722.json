@@ -1,0 +1,155 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1076722",
+  "id": "1076722",
+  "guid": "3e4d691f-03b7-fccc-b174-2859a4f76069",
+  "uid": "s:200~a:1076722",
+  "type": "cricket",
+  "name": "Will Sutherland",
+  "firstName": "Will",
+  "middleName": "",
+  "lastName": "Sutherland",
+  "shortName": "Sutherland",
+  "fullName": "William James Sutherland",
+  "displayName": "Will Sutherland",
+  "weight": 0,
+  "height": 0.0,
+  "age": 26,
+  "dateOfBirthStr": "1999-10-27T00:00Z",
+  "dateOfBirth": "1999-10-27T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "W Sutherland",
+  "fieldingName": "Sutherland",
+  "country": 2,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/7718"
+      },
+      "relation": "Father"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1071705"
+      },
+      "relation": "Sister"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/233"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/786485"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509671"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1076722/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1375839/events/1375848"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1375837/events/1375848"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1196060/events/1196125"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1000871/events/1076716"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1152510/events/1152512"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1089645/events/1089648"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1089647/events/1089649"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1089645/events/1089649"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1076722.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

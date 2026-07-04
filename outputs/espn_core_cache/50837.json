@@ -1,0 +1,137 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/50837",
+  "id": "50837",
+  "guid": "6c442b5f-04dd-0300-980e-6fa8b89fc973",
+  "uid": "s:200~a:50837",
+  "type": "cricket",
+  "name": "Ajith Weerakkody",
+  "firstName": "Ajith",
+  "middleName": "",
+  "lastName": "Weerakkody",
+  "shortName": "Weerakkody",
+  "fullName": "Ajith Priyantha Weerakkody",
+  "displayName": "Ajith Weerakkody",
+  "weight": 0,
+  "height": 0,
+  "age": 55,
+  "dateOfBirthStr": "1970-10-01T00:00Z",
+  "dateOfBirth": "1970-10-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "AP Weerakkody",
+  "fieldingName": "Weerakkody",
+  "country": 8,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1088390"
+      },
+      "relation": "Son"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3554"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/8.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/50837/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61665/events/65831"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62146/events/65831"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60955/events/65831"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326072/events/326094"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326082/events/326094"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326083/events/326094"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/50837.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

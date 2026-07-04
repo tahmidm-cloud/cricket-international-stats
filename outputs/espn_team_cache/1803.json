@@ -1,0 +1,91 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1803",
+  "id": "1803",
+  "uid": "s:200~t:1803",
+  "location": "India",
+  "name": "India Under-19s",
+  "nickname": "India Under-19s",
+  "abbreviation": "IND19",
+  "displayName": "India Under-19s",
+  "shortDisplayName": "IND19",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "india-under-19s",
+  "classes": [
+    20,
+    21,
+    14,
+    15
+  ],
+  "event": {
+    "date": "2026-07-04T04:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/24546/events/1543685"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8368"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1803.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1803/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1803/india-under-19s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1803/india-under-19s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=1854;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "videos",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/current/video_audio/index.html?object=1803",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

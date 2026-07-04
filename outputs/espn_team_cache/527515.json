@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/527515",
+  "id": "527515",
+  "uid": "s:200~t:527515",
+  "location": "Kenya",
+  "name": "Coast Pekee",
+  "nickname": "Coast Pekee",
+  "abbreviation": "Pekee",
+  "displayName": "Coast Pekee",
+  "shortDisplayName": "Pekee",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "KE",
+  "slug": "coast-pekee",
+  "classes": [
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2012-09-23T06:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8741/events/575525"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/527515/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/527515/coast-pekee",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/527515/coast-pekee",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1483032",
+  "id": "1483032",
+  "guid": "9f78047d-0a82-3f6a-938a-e9cf42e90618",
+  "uid": "s:200~a:1483032",
+  "type": "cricket",
+  "name": "Sachithra Tharanga",
+  "firstName": "Sachithra",
+  "middleName": "",
+  "lastName": "Tharanga",
+  "shortName": "Tharanga",
+  "fullName": "Sachithra Tharanga",
+  "displayName": "Sachithra Tharanga",
+  "weight": 0,
+  "height": 0.0,
+  "age": 42,
+  "dateOfBirthStr": "1983-12-05T00:00Z",
+  "dateOfBirth": "1983-12-05T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "S Tharanga",
+  "fieldingName": "Tharanga",
+  "country": 74,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1156257"
+      },
+      "relation": "Twin brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/74"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/74.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CYP",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/74"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1483032/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1496817/events/1496828"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1496818/events/1496828"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1496817/events/1496828"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1496818/events/1496828"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1483032.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

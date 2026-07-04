@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1447226",
+  "id": "1447226",
+  "guid": "0aedb30f-f973-3b19-83de-8e86a673c301",
+  "uid": "s:200~a:1447226",
+  "type": "cricket",
+  "name": "Milton Kavana",
+  "firstName": "Milton",
+  "middleName": "",
+  "lastName": "Kavana",
+  "shortName": "Kavana",
+  "fullName": "Milton Jonathan Mokoenga Kavana",
+  "displayName": "Milton Kavana",
+  "weight": 0,
+  "height": 0.0,
+  "age": 37,
+  "dateOfBirthStr": "1989-03-30T00:00Z",
+  "dateOfBirth": "1989-03-30T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "MJM Kavana",
+  "fieldingName": "Kavana",
+  "country": 71,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/71"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/71.png",
+    "width": 500,
+    "height": 500,
+    "alt": "COK",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/71"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1447226/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1444941/events/1444952"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1444943/events/1444952"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1444944/events/1444952"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1444941/events/1444952"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1444943/events/1444952"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1444944/events/1444952"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1447226.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

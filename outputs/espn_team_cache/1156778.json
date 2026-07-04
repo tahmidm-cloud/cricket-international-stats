@@ -1,0 +1,66 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1156778",
+  "id": "1156778",
+  "uid": "s:200~t:1156778",
+  "location": "India",
+  "name": "Jharkhand",
+  "nickname": "Jharkhand",
+  "abbreviation": "JHK",
+  "displayName": "Jharkhand",
+  "shortDisplayName": "JHK",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "jharkhand",
+  "classes": [
+    4,
+    5,
+    6
+  ],
+  "event": {
+    "date": "2026-02-06T03:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8050/events/1492518"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8890"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1156778.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1156778/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1156778/jharkhand",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1156778/jharkhand",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1284212",
+  "id": "1284212",
+  "guid": "b9acd707-d8cf-37e3-be86-86a3c9bbf67f",
+  "uid": "s:200~a:1284212",
+  "type": "cricket",
+  "name": "Zoheb Malek",
+  "firstName": "Zoheb",
+  "middleName": "",
+  "lastName": "Malek",
+  "shortName": "",
+  "fullName": "Zoheb Aziz Malek",
+  "displayName": "Zoheb Malek",
+  "weight": 0,
+  "height": 0,
+  "age": 37,
+  "dateOfBirthStr": "1988-12-13T00:00Z",
+  "dateOfBirth": "1988-12-13T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Zoheb Malek",
+  "fieldingName": "Zoheb Malek",
+  "country": 45,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/45"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/45.png",
+    "width": 500,
+    "height": 500,
+    "alt": "MLT",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/45"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1284212/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1282263/events/1282277"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1282266/events/1282277"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1282263/events/1282277"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1282266/events/1282277"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1284212.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

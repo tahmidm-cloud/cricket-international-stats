@@ -1,0 +1,47 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/543",
+  "id": "543",
+  "uid": "s:200~t:543",
+  "location": "Australia",
+  "name": "St George",
+  "nickname": "St George",
+  "abbreviation": "",
+  "displayName": "St George",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AU",
+  "slug": "st-george",
+  "classes": [],
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/543/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/543/st-george",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/543/st-george",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

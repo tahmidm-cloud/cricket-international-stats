@@ -1,0 +1,56 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/962",
+  "id": "962",
+  "uid": "s:200~t:962",
+  "location": "England",
+  "name": "ECB National Academy",
+  "nickname": "ECB National Academy",
+  "abbreviation": "",
+  "displayName": "ECB National Academy",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "ecb-national-academy",
+  "classes": [
+    4,
+    5,
+    14,
+    15
+  ],
+  "event": {
+    "date": "2006-11-29T04:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/14489/events/271099"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/962/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/962/ecb-national-academy",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/962/ecb-national-academy",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

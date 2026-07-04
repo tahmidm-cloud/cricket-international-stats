@@ -1,0 +1,155 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/526482",
+  "id": "526482",
+  "guid": "1418f953-45f2-ef50-856e-429db57ef273",
+  "uid": "s:200~a:526482",
+  "type": "cricket",
+  "name": "Sikander Zulfiqar",
+  "firstName": "Sikander",
+  "middleName": "",
+  "lastName": "Zulfiqar",
+  "shortName": "",
+  "fullName": "Sikander Zulfiqar",
+  "displayName": "Sikander Zulfiqar",
+  "weight": 0,
+  "height": 0.0,
+  "age": 29,
+  "dateOfBirthStr": "1997-03-28T00:00Z",
+  "dateOfBirth": "1997-03-28T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT",
+    "id": "BT",
+    "name": "Batter",
+    "abbreviation": "BT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT"
+    }
+  },
+  "battingName": "Sikander Zulfiqar",
+  "fieldingName": "Sikander Zulfiqar",
+  "country": 15,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24991"
+      },
+      "relation": "Father"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/526480"
+      },
+      "relation": "Twin brother"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/526481"
+      },
+      "relation": "Twin brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/15"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2406"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/742063"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/526482.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/15.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NED",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/15"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/526482/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/967067/events/967081"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/952171/events/967081"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870857/events/1068730"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1068725/events/1068730"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1104270/events/1104271"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/952171/events/967081"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/967067/events/967081"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/526482.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

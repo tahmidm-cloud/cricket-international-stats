@@ -1,0 +1,145 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/524094",
+  "id": "524094",
+  "guid": "6d0efa04-2266-4f5e-0578-9e5f625270ea",
+  "uid": "s:200~a:524094",
+  "type": "cricket",
+  "name": "Rajesh Pulami",
+  "firstName": "Rajesh",
+  "middleName": "",
+  "lastName": "Pulami",
+  "shortName": "Magar",
+  "fullName": "Rajesh Pulami Magar",
+  "displayName": "Rajesh Pulami",
+  "weight": 0,
+  "height": 0.0,
+  "age": 33,
+  "dateOfBirthStr": "1992-08-27T00:00Z",
+  "dateOfBirth": "1992-08-27T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "RP Magar",
+  "fieldingName": "Magar",
+  "country": 33,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/33"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1185"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2320"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/33.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NEP",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/33"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/524094/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/800057/events/802327"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/800047/events/802327"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/800045/events/802327"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/875565/events/870893"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870869/events/870893"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/800057/events/802327"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/800047/events/802327"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/800045/events/802327"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/554566/events/554527"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/526969/events/554527"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/524094.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

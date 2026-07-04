@@ -1,0 +1,145 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/43121",
+  "id": "43121",
+  "guid": "84e1cdeb-f679-5fef-e6ac-749dc90bfbd2",
+  "uid": "s:200~a:43121",
+  "type": "cricket",
+  "name": "Shaiman Anwar",
+  "firstName": "Shaiman",
+  "middleName": "",
+  "lastName": "Anwar",
+  "shortName": "Anwar",
+  "fullName": "Shaiman Anwar Butt",
+  "displayName": "Shaiman Anwar",
+  "weight": 0,
+  "height": 0.0,
+  "age": 47,
+  "dateOfBirthStr": "1979-03-15T00:00Z",
+  "dateOfBirth": "1979-03-15T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "Shaiman Anwar",
+  "fieldingName": "Shaiman Anwar",
+  "country": 27,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1150154"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3095"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3095"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/444603"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1150153"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/43121.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/27.png",
+    "width": 500,
+    "height": 500,
+    "alt": "UAE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/43121/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/681019/events/696763"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/696903/events/696763"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/696917/events/696763"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/628368/events/682903"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/696649/events/682903"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/696661/events/682903"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/225374/events/304966"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/43121.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

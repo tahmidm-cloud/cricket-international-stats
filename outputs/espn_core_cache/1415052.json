@@ -1,0 +1,151 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1415052",
+  "id": "1415052",
+  "guid": "1565cb50-cf0b-3c6a-964d-f676ac9537bb",
+  "uid": "s:200~a:1415052",
+  "type": "cricket",
+  "name": "Utkarsh Srivastava",
+  "firstName": "Utkarsh",
+  "middleName": "",
+  "lastName": "Srivastava",
+  "shortName": "Srivastava",
+  "fullName": "Utkarsh Srivastava",
+  "displayName": "Utkarsh Srivastava",
+  "weight": 0,
+  "height": 0.0,
+  "age": 19,
+  "dateOfBirthStr": "2007-02-18T00:00Z",
+  "dateOfBirth": "2007-02-18T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "U Srivastava",
+  "fieldingName": "Srivastava",
+  "country": 11,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/11"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3708"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/11.png",
+    "width": 500,
+    "height": 500,
+    "alt": "USA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/11"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1415052/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420525/events/1450705"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1450688/events/1450705"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1450683/events/1450821"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1450684/events/1450821"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1450815/events/1450821"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420525/events/1450705"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1450688/events/1450705"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1450815/events/1450821"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1450684/events/1450821"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1450683/events/1450821"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1399722/events/1399724"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1413233/events/1399724"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1413226/events/1399724"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1415052.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

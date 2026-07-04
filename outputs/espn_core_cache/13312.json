@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/13312",
+  "id": "13312",
+  "guid": "4a5b89aa-12c5-e3f8-9b3f-d4202ffcaf8a",
+  "uid": "s:200~a:13312",
+  "type": "cricket",
+  "name": "Nick Ferraby",
+  "firstName": "Nick",
+  "middleName": "",
+  "lastName": "Ferraby",
+  "shortName": "Ferraby",
+  "fullName": "Nicholas John Ferraby",
+  "displayName": "Nick Ferraby",
+  "weight": 0,
+  "height": 0.0,
+  "age": 43,
+  "dateOfBirthStr": "1983-05-31T00:00Z",
+  "dateOfBirth": "1983-05-31T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "NJ Ferraby",
+  "fieldingName": "Ferraby",
+  "country": 218211,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/218211"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/851"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1134"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1135"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/218211.png",
+    "width": 500,
+    "height": 500,
+    "alt": "JER",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/218211"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/13312/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1185174/events/1185200"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1185199/events/1185200"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/691679/events/692685"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1185199/events/1185200"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1185174/events/1185200"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/13312.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

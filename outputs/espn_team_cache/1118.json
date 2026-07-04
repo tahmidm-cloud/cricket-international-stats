@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1118",
+  "id": "1118",
+  "uid": "s:200~t:1118",
+  "location": "England",
+  "name": "Lancashire Cricket Board",
+  "nickname": "Lancashire Cricket Board",
+  "abbreviation": "",
+  "displayName": "Lancashire Cricket Board",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "lancashire-cricket-board",
+  "classes": [
+    "5",
+    "15"
+  ],
+  "event": {
+    "date": "2002-09-12T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8629/events/368915"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1118/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1118/lancashire-cricket-board",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1118/lancashire-cricket-board",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

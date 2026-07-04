@@ -1,0 +1,124 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/5611",
+  "id": "5611",
+  "guid": "b855ed71-5821-98c6-cfd6-9411702221e0",
+  "uid": "s:200~a:5611",
+  "type": "cricket",
+  "name": "Neil Hawke",
+  "firstName": "Neil",
+  "middleName": "",
+  "lastName": "Hawke",
+  "shortName": "Hawke",
+  "fullName": "Neil James Napier Hawke",
+  "displayName": "Neil Hawke",
+  "weight": 0,
+  "height": 0.0,
+  "age": 61,
+  "dateOfBirthStr": "1939-06-27T00:00Z",
+  "dateOfBirth": "1939-06-27T00:00Z",
+  "dateOfDeathStr": "2000-12-25T00:00Z",
+  "dateOfDeath": "2000-12-25T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "NJN Hawke",
+  "fieldingName": "Hawke",
+  "country": 2,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/520"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/560"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/602"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/5611/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60396/events/62925"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61727/events/62925"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/5611.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

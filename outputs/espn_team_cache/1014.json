@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1014",
+  "id": "1014",
+  "uid": "s:200~t:1014",
+  "location": "England",
+  "name": "Gentlemen of England",
+  "nickname": "Gentlemen of England",
+  "abbreviation": "",
+  "displayName": "Gentlemen of England",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "gentlemen-of-england",
+  "classes": [
+    "4",
+    "14"
+  ],
+  "event": {
+    "date": "1953-08-26T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/17447/events/585149"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1014/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1014/gentlemen-of-england",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1014/gentlemen-of-england",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1193549",
+  "id": "1193549",
+  "guid": "7abd120c-5bcf-c771-a950-c0c0bbdf31d8",
+  "uid": "s:200~a:1193549",
+  "type": "cricket",
+  "name": "Kristian Clarke",
+  "firstName": "Kristian",
+  "middleName": "",
+  "lastName": "Clarke",
+  "shortName": "Clarke",
+  "fullName": "Kristian David Charles Clarke",
+  "displayName": "Kristian Clarke",
+  "weight": 0,
+  "height": 0.0,
+  "age": 25,
+  "dateOfBirthStr": "2001-03-06T00:00Z",
+  "dateOfBirth": "2001-03-06T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "KDC Clarke",
+  "fieldingName": "Clarke",
+  "country": 5,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2560"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2516"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1193549/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1490228/events/1490231"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1490229/events/1490231"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1490230/events/1490234"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1490228/events/1490234"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1279954/events/1280000"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1328611/events/1328618"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1341190/events/1341194"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1193532/events/1193534"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1193531/events/1193534"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1193549.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

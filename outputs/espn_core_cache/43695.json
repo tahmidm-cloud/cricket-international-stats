@@ -1,0 +1,151 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/43695",
+  "id": "43695",
+  "guid": "7a291492-298f-de52-4627-ca68c45fa970",
+  "uid": "s:200~a:43695",
+  "type": "cricket",
+  "name": "Zaheer Abbas",
+  "firstName": "Zaheer",
+  "middleName": "",
+  "lastName": "Abbas",
+  "shortName": "",
+  "fullName": "Syed Zaheer Abbas Kirmani",
+  "displayName": "Zaheer Abbas",
+  "weight": 0,
+  "height": 0.0,
+  "age": 78,
+  "dateOfBirthStr": "1947-07-24T00:00Z",
+  "dateOfBirth": "1947-07-24T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "Zaheer Abbas",
+  "fieldingName": "Zaheer Abbas",
+  "country": 7,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2682"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1034"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2773"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3010"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3043"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3101"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/43695.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/7.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAK",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/43695/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62112/events/63048"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60430/events/63048"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61932/events/63627"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60599/events/63627"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60790/events/64953"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61452/events/64953"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61932/events/64439"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60947/events/64439"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/43695.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

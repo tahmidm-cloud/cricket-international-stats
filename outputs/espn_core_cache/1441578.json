@@ -1,0 +1,111 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1441578",
+  "id": "1441578",
+  "guid": "d9cde20c-3f2c-3ff5-8c08-e357fd94ae52",
+  "uid": "s:200~a:1441578",
+  "type": "cricket",
+  "name": "Shiva Mani",
+  "firstName": "Shiva",
+  "middleName": "",
+  "lastName": "Mani",
+  "shortName": "Mani",
+  "fullName": "Shiva Kumar Mani",
+  "displayName": "Shiva Mani",
+  "weight": 0,
+  "height": 0.0,
+  "age": 34,
+  "dateOfBirthStr": "1991-08-10T00:00Z",
+  "dateOfBirth": "1991-08-10T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [],
+  "styles": [],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "SK Mani",
+  "fieldingName": "Mani",
+  "country": 146,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/146"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/146.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SVN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/146"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1441578/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1534034/events/1534044"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1534037/events/1534044"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1534027/events/1534044"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1440128/events/1440132"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1440127/events/1440132"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1534027/events/1534044"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1534034/events/1534044"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1534037/events/1534044"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1441578.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/914467",
+  "id": "914467",
+  "guid": "150e7883-63b8-e8b2-46d2-9c624fc75064",
+  "uid": "s:200~a:914467",
+  "type": "cricket",
+  "name": "Anderson Phillip",
+  "firstName": "Anderson",
+  "middleName": "",
+  "lastName": "Phillip",
+  "shortName": "Phillip",
+  "fullName": "Anderson Phillip",
+  "displayName": "Anderson Phillip",
+  "weight": 0,
+  "height": 0.0,
+  "age": 29,
+  "dateOfBirthStr": "1996-08-22T00:00Z",
+  "dateOfBirth": "1996-08-22T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "A Phillip",
+  "fieldingName": "Phillip",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1199298"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/642421"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/642421"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3791"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/914467.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/914467/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1268315/events/1317148"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1317143/events/1317148"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1317144/events/1317148"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1227837/events/1252071"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1252062/events/1252071"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1252064/events/1252071"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1063295/events/1071096"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1203617/events/1203641"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/971665/events/1025669"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/914467.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

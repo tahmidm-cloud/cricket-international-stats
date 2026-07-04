@@ -1,0 +1,160 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/232489",
+  "id": "232489",
+  "guid": "eff76d91-f298-be1b-d52d-105fb9cabb25",
+  "uid": "s:200~a:232489",
+  "type": "cricket",
+  "name": "Rameez Raja",
+  "firstName": "Rameez",
+  "middleName": "",
+  "lastName": "Raja",
+  "shortName": "Rameez Raja",
+  "fullName": "Rameez Raja",
+  "displayName": "Rameez Raja",
+  "weight": 0,
+  "height": 0.0,
+  "age": 38,
+  "dateOfBirthStr": "1987-07-31T00:00Z",
+  "dateOfBirth": "1987-07-31T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "Rameez Raja(2)",
+  "fieldingName": "Rameez Raja",
+  "country": 7,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/549983"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2775"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2797"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/222258"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2775"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2938"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2964"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/953845"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3101"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3110"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/7.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAK",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/232489/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/504009/events/523735"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/504005/events/523735"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/242768/events/250683"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/341797/events/341840"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/519380/events/519388"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/328228/events/234067"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/234073/events/234067"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/232489.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

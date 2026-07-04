@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/493765",
+  "id": "493765",
+  "guid": "9cd6cea2-e41d-847a-748d-051812bd83c6",
+  "uid": "s:200~a:493765",
+  "type": "cricket",
+  "name": "Takudzwanashe Kaitano",
+  "firstName": "Takudzwanashe",
+  "middleName": "",
+  "lastName": "Kaitano",
+  "shortName": "Kaitano",
+  "fullName": "Takudzwanashe Kaitano",
+  "displayName": "Takudzwanashe Kaitano",
+  "weight": 0,
+  "height": 0.0,
+  "age": 33,
+  "dateOfBirthStr": "1993-06-15T00:00Z",
+  "dateOfBirth": "1993-06-15T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "T Kaitano",
+  "fieldingName": "Kaitano",
+  "country": 9,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/444903"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/287572"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/493765.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/9.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ZIM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/493765/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1267671/events/1267676"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1267672/events/1267676"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1227837/events/1294969"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1294726/events/1294969"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1294727/events/1294969"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1070889/events/1070909"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1122739/events/1122775"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1257981/events/1257988"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/493765.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

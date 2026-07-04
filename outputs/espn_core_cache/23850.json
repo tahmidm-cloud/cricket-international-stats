@@ -1,0 +1,158 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/23850",
+  "id": "23850",
+  "guid": "2b9ee044-0c9f-0f96-51b4-310a19ff703a",
+  "uid": "s:200~a:23850",
+  "type": "cricket",
+  "name": "Ian Billcliff",
+  "firstName": "Ian",
+  "middleName": "",
+  "lastName": "Billcliff",
+  "shortName": "Billcliff",
+  "fullName": "Ian Shaw Billcliff",
+  "displayName": "Ian Billcliff",
+  "weight": 0,
+  "height": 0.0,
+  "age": 53,
+  "dateOfBirthStr": "1972-10-26T00:00Z",
+  "dateOfBirth": "1972-10-26T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "IS Billcliff",
+  "fieldingName": "Billcliff",
+  "country": 17,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/36323"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2459"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2570"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2600"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/23850.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/17.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/23850/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61672/events/65239"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62179/events/65239"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61124/events/65239"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/410068/events/439497"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/441779/events/439497"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/446379/events/439497"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/410068/events/439497"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/446379/events/439497"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/441779/events/439497"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326344/events/326347"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326342/events/326347"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/23850.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

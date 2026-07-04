@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1178055",
+  "id": "1178055",
+  "guid": "d92751d9-638c-1913-b51e-35759b752cc3",
+  "uid": "s:200~a:1178055",
+  "type": "cricket",
+  "name": "Yalinde Nkanya",
+  "firstName": "Yalinde",
+  "middleName": "",
+  "lastName": "Nkanya",
+  "shortName": "Nkanya",
+  "fullName": "Yalinde Maurice Nkanya",
+  "displayName": "Yalinde Nkanya",
+  "weight": 0,
+  "height": 0.0,
+  "age": 23,
+  "dateOfBirthStr": "2003-06-22T00:00Z",
+  "dateOfBirth": "2003-06-22T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "YM Nkanya",
+  "fieldingName": "Nkanya",
+  "country": 160,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/160"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/297287"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/160.png",
+    "width": 500,
+    "height": 500,
+    "alt": "TAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/160"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1178055/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1332490/events/1332500"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1332494/events/1332500"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1332475/events/1332500"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420549/events/1420585"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420552/events/1420585"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420567/events/1420585"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1332475/events/1332500"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1332490/events/1332500"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1332494/events/1332500"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1178055.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

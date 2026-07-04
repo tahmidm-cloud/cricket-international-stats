@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1129328",
+  "id": "1129328",
+  "guid": "21a62aac-d851-eea2-bbf9-8d783e13d4f2",
+  "uid": "s:200~a:1129328",
+  "type": "cricket",
+  "name": "Teja Nidamanuru",
+  "firstName": "Teja",
+  "middleName": "",
+  "lastName": "Nidamanuru",
+  "shortName": "Nidamanuru",
+  "fullName": "Anil Teja Nidamanuru",
+  "displayName": "Teja Nidamanuru",
+  "weight": 0,
+  "height": 0.0,
+  "age": 31,
+  "dateOfBirthStr": "1994-08-22T00:00Z",
+  "dateOfBirth": "1994-08-22T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "AT Nidamanuru",
+  "fieldingName": "Nidamanuru",
+  "country": 15,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/15"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2459"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2460"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/1129328.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/15.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NED",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/15"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1129328/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1227837/events/1302349"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1302346/events/1302349"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1302347/events/1302349"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1321451/events/1321467"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1321458/events/1321467"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1321460/events/1321467"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1160244/events/1160266"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1118532/events/1118534"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1129328.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

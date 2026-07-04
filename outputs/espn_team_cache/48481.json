@@ -1,0 +1,64 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/48481",
+  "id": "48481",
+  "uid": "s:200~t:48481",
+  "location": "Sri Lanka",
+  "name": "Negombo Cricket Club",
+  "nickname": "Negombo Cricket Club",
+  "abbreviation": "NEGO",
+  "displayName": "Negombo Cricket Club",
+  "shortDisplayName": "NEGO",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "negombo-cricket-club",
+  "classes": [
+    4,
+    5,
+    6,
+    14
+  ],
+  "event": {
+    "date": "2025-02-28T04:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20978/events/1465860"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/48481.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/48481/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/48481/negombo-cricket-club",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/48481/negombo-cricket-club",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

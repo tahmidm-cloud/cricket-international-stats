@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/30923",
+  "id": "30923",
+  "guid": "617edd90-ff3f-6dea-cbe0-eab4572d1490",
+  "uid": "s:200~a:30923",
+  "type": "cricket",
+  "name": "Maninder Singh",
+  "firstName": "Maninder",
+  "middleName": "",
+  "lastName": "Singh",
+  "shortName": "",
+  "fullName": "Maninder Singh",
+  "displayName": "Maninder Singh",
+  "weight": 0,
+  "height": 0.0,
+  "age": 61,
+  "dateOfBirthStr": "1965-06-13T00:00Z",
+  "dateOfBirth": "1965-06-13T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "Maninder Singh",
+  "fieldingName": "Maninder Singh",
+  "country": 6,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1668"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1329"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/30923.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/30923/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62329/events/63330"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60507/events/63330"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62329/events/64200"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60825/events/64200"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324036/events/324054"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324034/events/324054"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324034/events/324051"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324035/events/324051"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/30923.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1195665",
+  "id": "1195665",
+  "guid": "03baa6ae-c0ef-4f57-5d96-cddecbffe99c",
+  "uid": "s:200~a:1195665",
+  "type": "cricket",
+  "name": "Patrick Gouge",
+  "firstName": "Patrick",
+  "middleName": "",
+  "lastName": "Gouge",
+  "shortName": "Gouge",
+  "fullName": "Patrick Bartholomew Gouge",
+  "displayName": "Patrick Gouge",
+  "weight": 0,
+  "height": 0.0,
+  "age": 23,
+  "dateOfBirthStr": "2003-02-03T00:00Z",
+  "dateOfBirth": "2003-02-03T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "PB Gouge",
+  "fieldingName": "Gouge",
+  "country": 218211,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/303453"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/218211.png",
+    "width": 500,
+    "height": 500,
+    "alt": "JER",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/218211"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1195665/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383039/events/1383087"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383046/events/1383087"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383037/events/1383087"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1451764/events/1451776"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1451768/events/1451776"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383037/events/1383087"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383039/events/1383087"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383046/events/1383087"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1195665.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

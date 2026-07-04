@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1172124",
+  "id": "1172124",
+  "guid": "ffee8d3c-5fc9-379c-fc06-737a157d86bb",
+  "uid": "s:200~a:1172124",
+  "type": "cricket",
+  "name": "Sarfaraz Ali",
+  "firstName": "Sarfaraz",
+  "middleName": "",
+  "lastName": "Ali",
+  "shortName": "",
+  "fullName": "Sarfaraz Ali",
+  "displayName": "Sarfaraz Ali",
+  "weight": 0,
+  "height": 0.0,
+  "age": 44,
+  "dateOfBirthStr": "1981-10-20T00:00Z",
+  "dateOfBirth": "1981-10-20T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "Sarfaraz Ali",
+  "fieldingName": "Sarfaraz Ali",
+  "country": 57,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/57"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/57.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BHR",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/57"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1172124/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1171740/events/1171752"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1171741/events/1171752"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1171739/events/1171752"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1171739/events/1171752"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1171740/events/1171752"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1171741/events/1171752"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1172124.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

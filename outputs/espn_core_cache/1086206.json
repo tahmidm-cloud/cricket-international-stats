@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1086206",
+  "id": "1086206",
+  "guid": "24a379de-ac03-0fcb-060b-688527c74f4c",
+  "uid": "s:200~a:1086206",
+  "type": "cricket",
+  "name": "Shermon Lewis",
+  "firstName": "Shermon",
+  "middleName": "",
+  "lastName": "Lewis",
+  "shortName": "Lewis",
+  "fullName": "Shermon Hakim Lewis",
+  "displayName": "Shermon Lewis",
+  "weight": 0,
+  "height": 0.0,
+  "age": 30,
+  "dateOfBirthStr": "1995-10-21T00:00Z",
+  "dateOfBirth": "1995-10-21T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "SH Lewis",
+  "fieldingName": "Lewis",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3800"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3821"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/1086206.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1086206/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1157748/events/1157752"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1157747/events/1157752"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1302347/events/1302351"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1302346/events/1302351"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1227837/events/1302351"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1063295/events/1071092"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1145656/events/1145665"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1145657/events/1145665"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1086206.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

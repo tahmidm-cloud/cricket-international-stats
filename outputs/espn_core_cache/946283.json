@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/946283",
+  "id": "946283",
+  "guid": "8f0319f2-cb2a-ae41-6f07-ef0c9a041fd7",
+  "uid": "s:200~a:946283",
+  "type": "cricket",
+  "name": "Cade Carmichael",
+  "firstName": "Cade",
+  "middleName": "",
+  "lastName": "Carmichael",
+  "shortName": "Carmichael",
+  "fullName": "Cade Mitchell Carmichael",
+  "displayName": "Cade Carmichael",
+  "weight": 0,
+  "height": 0.0,
+  "age": 24,
+  "dateOfBirthStr": "2002-03-08T00:00Z",
+  "dateOfBirth": "2002-03-08T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "C Carmichael",
+  "fieldingName": "Carmichael",
+  "country": 29,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/29"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/595167"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/29.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IRE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/29"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/946283/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1506009/events/1506012"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1506008/events/1506012"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1472504/events/1472511"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1472505/events/1472511"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1410093/events/1410333"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1410349/events/1410333"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1305418/events/1305433"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1305419/events/1305440"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/946283.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

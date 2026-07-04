@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1339055",
+  "id": "1339055",
+  "uid": "s:200~t:1339055",
+  "location": "Pakistan",
+  "name": "Gujranwala Giants",
+  "nickname": "Gujranwala Giants",
+  "abbreviation": "GG",
+  "displayName": "Gujranwala Giants",
+  "shortDisplayName": "GG",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "PK",
+  "slug": "gujranwala-giants",
+  "classes": [
+    16
+  ],
+  "event": {
+    "date": "2022-10-15T08:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/21072/events/1339075"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1339055/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1339055/gujranwala-giants",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1339055/gujranwala-giants",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

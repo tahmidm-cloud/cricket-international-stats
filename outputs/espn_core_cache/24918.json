@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24918",
+  "id": "24918",
+  "guid": "3b46457f-e5a2-8851-96fd-ca0eaff3b321",
+  "uid": "s:200~a:24918",
+  "type": "cricket",
+  "name": "Roland Lefebvre",
+  "firstName": "Roland",
+  "middleName": "",
+  "lastName": "Lefebvre",
+  "shortName": "Lefebvre",
+  "fullName": "Roland Philippe Lefebvre",
+  "displayName": "Roland Lefebvre",
+  "weight": 0,
+  "height": 0,
+  "age": 63,
+  "dateOfBirthStr": "1963-02-07T00:00Z",
+  "dateOfBirth": "1963-02-07T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "RP Lefebvre",
+  "fieldingName": "Lefebvre",
+  "country": 15,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/15"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2469"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1029"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1333"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/15.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NED",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/15"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24918/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60981/events/65160"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62137/events/65160"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62202/events/65160"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/24918.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

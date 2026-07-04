@@ -1,0 +1,80 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/560",
+  "id": "560",
+  "uid": "s:200~t:560",
+  "location": "Australia",
+  "name": "Tasmania",
+  "nickname": "Tasmania",
+  "abbreviation": "TAS",
+  "displayName": "Tasmania",
+  "shortDisplayName": "TAS",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AU",
+  "slug": "tasmania",
+  "classes": [
+    4,
+    5,
+    6,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2026-03-13T23:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8043/events/1495308"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8043"
+  },
+  "color": "#2fa305",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/560.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/560/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/560/tasmania",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/560/tasmania",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "videos",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/current/video_audio/index.html?object=560",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

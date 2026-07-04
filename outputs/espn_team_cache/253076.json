@@ -1,0 +1,68 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/253076",
+  "id": "253076",
+  "uid": "s:200~t:253076",
+  "location": "South Africa",
+  "name": "South Africa Emerging Players",
+  "nickname": "South Africa Emerging Players",
+  "abbreviation": "SA-EM",
+  "displayName": "South Africa Emerging Players",
+  "shortDisplayName": "SA-EM",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZA",
+  "slug": "south-africa-emerging-players",
+  "classes": [
+    5,
+    6,
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2026-03-14T08:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20676/events/1501231"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20676"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/253076.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/253076/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/253076/south-africa-emerging-players",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/253076/south-africa-emerging-players",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

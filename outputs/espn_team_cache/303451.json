@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/303451",
+  "id": "303451",
+  "uid": "s:200~t:303451",
+  "location": "Belgium",
+  "name": "Belgium Under-19s",
+  "nickname": "Belgium Under-19s",
+  "abbreviation": "BEL19",
+  "displayName": "Belgium Under-19s",
+  "shortDisplayName": "BEL19",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "BE",
+  "slug": "belgium-under-19s",
+  "classes": [
+    15
+  ],
+  "event": {
+    "date": "2018-08-08T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18802/events/1153459"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/303451.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/303451/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/303451/belgium-under-19s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/303451/belgium-under-19s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

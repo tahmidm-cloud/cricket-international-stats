@@ -1,0 +1,74 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/218201",
+  "id": "218201",
+  "uid": "s:200~t:218201",
+  "location": "Nigeria",
+  "name": "Nigeria Under-19s",
+  "nickname": "Nigeria Under-19s",
+  "abbreviation": "Nig19",
+  "displayName": "Nigeria Under-19s",
+  "shortDisplayName": "Nig19",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "NG",
+  "slug": "nigeria-under-19s",
+  "classes": [
+    "21",
+    "15"
+  ],
+  "event": {
+    "date": "2021-10-06T07:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20375/events/1278814"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/218201.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/218201/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/218201/nigeria-under-19s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/218201/nigeria-under-19s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=4073;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

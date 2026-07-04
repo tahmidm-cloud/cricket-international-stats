@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/56101",
+  "id": "56101",
+  "guid": "4d601a64-ff15-f32b-c292-e27fc41f1f87",
+  "uid": "s:200~a:56101",
+  "type": "cricket",
+  "name": "Shafiuddin Ahmed",
+  "firstName": "Shafiuddin",
+  "middleName": "",
+  "lastName": "Ahmed",
+  "shortName": "",
+  "fullName": "Shafiuddin Ahmed",
+  "displayName": "Shafiuddin Ahmed",
+  "weight": 0,
+  "height": 0.0,
+  "age": 53,
+  "dateOfBirthStr": "1973-06-01T00:00Z",
+  "dateOfBirth": "1973-06-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Shafiuddin Ahmed",
+  "fieldingName": "Shafiuddin Ahmed",
+  "country": 25,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/679"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/25.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/56101/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61013/events/66117"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62025/events/66117"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62196/events/66117"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/56101.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/217525",
+  "id": "217525",
+  "guid": "eb2f2945-7831-0bb5-f7b0-7aee02d58ff3",
+  "uid": "s:200~a:217525",
+  "type": "cricket",
+  "name": "Jalon Linton",
+  "firstName": "Jalon",
+  "middleName": "",
+  "lastName": "Linton",
+  "shortName": "Linton",
+  "fullName": "Jalon Linton",
+  "displayName": "Jalon Linton",
+  "weight": 0,
+  "height": 0.0,
+  "age": 42,
+  "dateOfBirthStr": "1984-03-11T00:00Z",
+  "dateOfBirth": "1984-03-11T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "J Linton",
+  "fieldingName": "Linton",
+  "country": 39,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/39"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/39.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CAY",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/39"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/217525/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1310138/events/1310156"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1310139/events/1310156"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/305761/events/217427"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/305763/events/217427"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/143791/events/217427"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/228881/events/252974"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/253129/events/252974"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/253130/events/252974"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/217525.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

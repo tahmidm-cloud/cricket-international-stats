@@ -1,0 +1,157 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1124283",
+  "id": "1124283",
+  "guid": "bd5e385a-84f5-745e-de2d-631d04c369cc",
+  "uid": "s:200~a:1124283",
+  "type": "cricket",
+  "name": "Aaron Hardie",
+  "firstName": "Aaron",
+  "middleName": "",
+  "lastName": "Hardie",
+  "shortName": "Hardie",
+  "fullName": "Aaron Mark Hardie",
+  "displayName": "Aaron Hardie",
+  "weight": 0,
+  "height": 0.0,
+  "age": 27,
+  "dateOfBirthStr": "1999-01-07T00:00Z",
+  "dateOfBirth": "1999-01-07T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "AM Hardie",
+  "fieldingName": "Hardie",
+  "country": 2,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/233"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509670"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/953833"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335973"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1381357"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1381353"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/423865"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1124283/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1373564/events/1373572"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1373562/events/1373572"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1373562/events/1373568"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1373563/events/1373568"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1150086/events/1150137"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1196059/events/1196105"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1152510/events/1152535"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1130656/events/1130657"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1130655/events/1130657"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1124283.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

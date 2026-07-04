@@ -1,0 +1,63 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3618",
+  "id": "3618",
+  "uid": "s:200~t:3618",
+  "location": "Sri Lanka",
+  "name": "Sri Lanka Under-23s",
+  "nickname": "Sri Lanka Under-23s",
+  "abbreviation": "SL23",
+  "displayName": "Sri Lanka Under-23s",
+  "shortDisplayName": "SL23",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "sri-lanka-under-23s",
+  "classes": [
+    5,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2019-12-09T07:15Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19679/events/1208614"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3618.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3618/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3618/sri-lanka-under-23s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3618/sri-lanka-under-23s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

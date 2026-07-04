@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1805",
+  "id": "1805",
+  "uid": "s:200~t:1805",
+  "location": "India",
+  "name": "India Under-23s",
+  "nickname": "India Under-23s",
+  "abbreviation": "IND23",
+  "displayName": "India Under-23s",
+  "shortDisplayName": "IND23",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "india-under-23s",
+  "classes": [
+    5,
+    15
+  ],
+  "event": {
+    "date": "2019-09-27T03:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19684/events/1209345"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1805/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1805/india-under-23s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1805/india-under-23s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

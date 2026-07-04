@@ -1,0 +1,149 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/47630",
+  "id": "47630",
+  "guid": "78d7f48b-ab6f-e9d5-35a4-eea60899a7b7",
+  "uid": "s:200~a:47630",
+  "type": "cricket",
+  "name": "Thami Tsolekile",
+  "firstName": "Thami",
+  "middleName": "",
+  "lastName": "Tsolekile",
+  "shortName": "Tsolekile",
+  "fullName": "Thami Lungisa Tsolekile",
+  "displayName": "Thami Tsolekile",
+  "weight": 0,
+  "height": 0.0,
+  "age": 45,
+  "dateOfBirthStr": "1980-10-09T00:00Z",
+  "dateOfBirth": "1980-10-09T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "TL Tsolekile",
+  "fieldingName": "Tsolekile",
+  "country": 3,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/785673"
+      },
+      "relation": "Cousin"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3360"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3249"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3304"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3357"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/47630/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61858/events/64109"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60773/events/64109"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/134226/events/304943"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327320/events/327324"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327322/events/327324"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327320/events/327327"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327321/events/327327"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/47630.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

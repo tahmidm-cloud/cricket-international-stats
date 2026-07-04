@@ -1,0 +1,168 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52812",
+  "id": "52812",
+  "guid": "03ceda10-6181-fef1-da15-c68a7b4233fd",
+  "uid": "s:200~a:52812",
+  "type": "cricket",
+  "name": "Viv Richards",
+  "firstName": "Viv",
+  "middleName": "",
+  "lastName": "Richards",
+  "shortName": "Richards",
+  "fullName": "Isaac Vivian Alexander Richards",
+  "displayName": "Viv Richards",
+  "weight": 0,
+  "height": 0.0,
+  "age": 74,
+  "dateOfBirthStr": "1952-03-07T00:00Z",
+  "dateOfBirth": "1952-03-07T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm slow",
+      "shortDescription": "Rs",
+      "type": "bowling"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm slow",
+      "shortDescription": "Rs",
+      "type": "bowling"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BTA",
+    "id": "BTA",
+    "name": "Batting allrounder",
+    "abbreviation": "BTA",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BTA"
+    }
+  },
+  "battingName": "IVA Richards",
+  "fieldingName": "Richards",
+  "country": 4,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52882"
+      },
+      "relation": "Brother"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52881"
+      },
+      "relation": "Half-brother"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52915"
+      },
+      "relation": "Son"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3733"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1029"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3762"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/459"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1333"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/52812.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52812/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61940/events/63131"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60452/events/63131"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60793/events/65038"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61591/events/65038"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61873/events/65038"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/52812.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

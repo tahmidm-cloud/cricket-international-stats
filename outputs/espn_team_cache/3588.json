@@ -1,0 +1,55 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3588",
+  "id": "3588",
+  "uid": "s:200~t:3588",
+  "location": "Sri Lanka",
+  "name": "Singha Sports Club",
+  "nickname": "Singha Sports Club",
+  "abbreviation": "SINGA",
+  "displayName": "Singha Sports Club",
+  "shortDisplayName": "SINGA",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "singha-sports-club",
+  "classes": [
+    4,
+    5,
+    6
+  ],
+  "event": {
+    "date": "2011-04-22T04:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8831/events/484303"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3588/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3588/singha-sports-club",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3588/singha-sports-club",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

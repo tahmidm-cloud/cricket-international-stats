@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2962",
+  "id": "2962",
+  "uid": "s:200~t:2962",
+  "location": "Pakistan",
+  "name": "Pakistan Under-16s",
+  "nickname": "Pakistan Under-16s",
+  "abbreviation": "Pak16",
+  "displayName": "Pakistan Under-16s",
+  "shortDisplayName": "Pak16",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "PK",
+  "slug": "pakistan-under-16s",
+  "classes": [
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2019-01-20T06:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19109/events/1171144"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2962/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/2962/pakistan-under-16s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/2962/pakistan-under-16s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

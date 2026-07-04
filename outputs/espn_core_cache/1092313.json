@@ -1,0 +1,144 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1092313",
+  "id": "1092313",
+  "guid": "fa36c1db-8b3d-f24c-5edf-a0baf3fb59f5",
+  "uid": "s:200~a:1092313",
+  "type": "cricket",
+  "name": "Rohail Nazir",
+  "firstName": "Rohail",
+  "middleName": "",
+  "lastName": "Nazir",
+  "shortName": "",
+  "fullName": "Rohail Nazir",
+  "displayName": "Rohail Nazir",
+  "weight": 0,
+  "height": 0.0,
+  "age": 24,
+  "dateOfBirthStr": "2001-10-10T00:00Z",
+  "dateOfBirth": "2001-10-10T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "Rohail Nazir",
+  "fieldingName": "Rohail Nazir",
+  "country": 7,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3001"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/953843"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/953835"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1117814"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2938"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2938"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/1092313.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/7.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAK",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1092313/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1399100/events/1399114"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1399098/events/1399114"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1398685/events/1399114"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1155658/events/1155661"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1155891/events/1155894"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1116106/events/1125654"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1125930/events/1125944"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1125939/events/1125944"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1125938/events/1125944"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1092313.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/277914",
+  "id": "277914",
+  "guid": "42b00d75-4330-c230-3bb9-f3a1ab3674f6",
+  "uid": "s:200~a:277914",
+  "type": "cricket",
+  "name": "Jeet Raval",
+  "firstName": "Jeet",
+  "middleName": "",
+  "lastName": "Raval",
+  "shortName": "Raval",
+  "fullName": "Jeet Ashok Raval",
+  "displayName": "Jeet Raval",
+  "weight": 0,
+  "height": 0.0,
+  "age": 37,
+  "dateOfBirthStr": "1988-09-22T00:00Z",
+  "dateOfBirth": "1988-09-22T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "JA Raval",
+  "fieldingName": "Raval",
+  "country": 5,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2459"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2560"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2516"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/277914/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1019991/events/1019993"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1019989/events/1019993"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/366700/events/366704"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/475379/events/475415"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/577196/events/580775"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/277221/events/277224"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/277222/events/277224"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/277223/events/277228"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/277221/events/277228"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/277914.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/212175",
+  "id": "212175",
+  "guid": "7500e9ad-d40f-e4dc-c037-16d6d6b42bcb",
+  "uid": "s:200~a:212175",
+  "type": "cricket",
+  "name": "Henry Osinde",
+  "firstName": "Henry",
+  "middleName": "",
+  "lastName": "Osinde",
+  "shortName": "Osinde",
+  "fullName": "Henry Osinde",
+  "displayName": "Henry Osinde",
+  "weight": 0,
+  "height": 0.0,
+  "age": 47,
+  "dateOfBirthStr": "1978-10-17T00:00Z",
+  "dateOfBirth": "1978-10-17T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "H Osinde",
+  "fieldingName": "Osinde",
+  "country": 17,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/212175.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/17.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/212175/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/219427/events/247359"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/244203/events/247359"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/250632/events/247359"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/353665/events/354455"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325549/events/354455"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325543/events/354455"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/143791/events/216946"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/305763/events/216946"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/143738/events/212651"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/266305/events/212651"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/266297/events/212651"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325543/events/354455"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325549/events/354455"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/353665/events/354455"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/212175.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

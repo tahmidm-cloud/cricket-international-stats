@@ -1,0 +1,128 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1510115",
+  "id": "1510115",
+  "guid": "be22e633-5d5f-374a-bbbe-b7e875f72d57",
+  "uid": "s:200~a:1510115",
+  "type": "cricket",
+  "name": "Suhail Sattar",
+  "firstName": "Suhail",
+  "middleName": "",
+  "lastName": "Sattar",
+  "shortName": "",
+  "fullName": "Muhammad Suhail Sattar",
+  "displayName": "Suhail Sattar",
+  "weight": 0,
+  "height": 0.0,
+  "age": 51,
+  "dateOfBirthStr": "1974-11-21T00:00Z",
+  "dateOfBirth": "1974-11-21T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Suhail Sattar",
+  "fieldingName": "Suhail Sattar",
+  "country": 1508259,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1510112"
+      },
+      "relation": "Son"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1508259"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1508259.png",
+    "width": 500,
+    "height": 500,
+    "alt": "",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1508259"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1510115/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1508260/events/1508270"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1508263/events/1508270"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1508260/events/1508270"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1508263/events/1508270"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1510115.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

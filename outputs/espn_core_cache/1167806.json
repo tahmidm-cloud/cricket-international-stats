@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1167806",
+  "id": "1167806",
+  "guid": "487388a0-3fb8-5881-78e9-e3a5cc5ec77e",
+  "uid": "s:200~a:1167806",
+  "type": "cricket",
+  "name": "Muzahir Raza",
+  "firstName": "Muzahir",
+  "middleName": "",
+  "lastName": "Raza",
+  "shortName": "",
+  "fullName": "Muhammad Muzahir Raza",
+  "displayName": "Muzahir Raza",
+  "weight": 0,
+  "height": 0.0,
+  "age": 24,
+  "dateOfBirthStr": "2002-05-05T00:00Z",
+  "dateOfBirth": "2002-05-05T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BLA",
+    "id": "BLA",
+    "name": "Bowling allrounder",
+    "abbreviation": "BLA",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BLA"
+    }
+  },
+  "battingName": "Muzahir Raza",
+  "fieldingName": "Muzahir Raza",
+  "country": 37,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/37"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2611"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/37.png",
+    "width": 500,
+    "height": 500,
+    "alt": "OMA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/37"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1167806/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420525/events/1457464"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1455711/events/1457464"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1454815/events/1454819"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1454814/events/1454819"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1455711/events/1457464"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420525/events/1457464"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1455335/events/1455338"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1455711/events/1455338"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1167806.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

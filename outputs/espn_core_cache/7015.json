@@ -1,0 +1,115 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/7015",
+  "id": "7015",
+  "guid": "69b90630-8ce5-0cf3-267f-6da68a38b768",
+  "uid": "s:200~a:7015",
+  "type": "cricket",
+  "name": "Norm O'Neill",
+  "firstName": "Norm",
+  "middleName": "",
+  "lastName": "O'Neill",
+  "shortName": "O'Neill",
+  "fullName": "Norman Clifford Louis O'Neill",
+  "displayName": "Norm O'Neill",
+  "weight": 0,
+  "height": 0.0,
+  "age": 71,
+  "dateOfBirthStr": "1937-02-19T00:00Z",
+  "dateOfBirth": "1937-02-19T00:00Z",
+  "dateOfDeathStr": "2008-03-03T00:00Z",
+  "dateOfDeath": "2008-03-03T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "NCL O'Neill",
+  "fieldingName": "O'Neill",
+  "country": 2,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/7013"
+      },
+      "relation": "Son"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/387"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/7015/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60380/events/62850"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61728/events/62850"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/7015.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/23799",
+  "id": "23799",
+  "guid": "7e76780c-7dff-e300-a14f-56f2c49852d5",
+  "uid": "s:200~a:23799",
+  "type": "cricket",
+  "name": "Don Maxwell",
+  "firstName": "Don",
+  "middleName": "",
+  "lastName": "Maxwell",
+  "shortName": "Maxwell",
+  "fullName": "Donovan Elliot Sylvester Maxwell",
+  "displayName": "Don Maxwell",
+  "weight": 0,
+  "height": 0.0,
+  "age": 55,
+  "dateOfBirthStr": "1971-02-23T00:00Z",
+  "dateOfBirth": "1971-02-23T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "DES Maxwell",
+  "fieldingName": "Maxwell",
+  "country": 17,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/23799.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/17.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/23799/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/244203/events/247360"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/250631/events/247360"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/250632/events/247360"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/305741/events/135204"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/134115/events/135204"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/23799.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

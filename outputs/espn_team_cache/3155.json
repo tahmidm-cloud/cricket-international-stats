@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3155",
+  "id": "3155",
+  "uid": "s:200~t:3155",
+  "location": "Qatar",
+  "name": "Qatar Under-19s",
+  "nickname": "Qatar Under-19s",
+  "abbreviation": "Qat19",
+  "displayName": "Qatar Under-19s",
+  "shortDisplayName": "Qat19",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "QA",
+  "slug": "qatar-under-19s",
+  "classes": [
+    15
+  ],
+  "event": {
+    "date": "2022-10-04T05:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19037/events/1337089"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3155.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3155/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3155/qatar-under-19s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3155/qatar-under-19s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

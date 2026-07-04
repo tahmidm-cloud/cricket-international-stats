@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/597781",
+  "id": "597781",
+  "uid": "s:200~t:597781",
+  "location": "South Africa",
+  "name": "North West Invitation XI",
+  "nickname": "North West Invitation XI",
+  "abbreviation": "NWINV",
+  "displayName": "North West Invitation XI",
+  "shortDisplayName": "NWINV",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZA",
+  "slug": "north-west-invitation-xi",
+  "classes": [
+    15
+  ],
+  "event": {
+    "date": "2012-12-21T08:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8712/events/597794"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/597781/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/597781/north-west-invitation-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/597781/north-west-invitation-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

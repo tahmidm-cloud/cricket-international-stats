@@ -1,0 +1,163 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/7252",
+  "id": "7252",
+  "guid": "d57082fb-f608-0dbc-74a9-88401d9e8f85",
+  "uid": "s:200~a:7252",
+  "type": "cricket",
+  "name": "Tim Paine",
+  "firstName": "Tim",
+  "middleName": "",
+  "lastName": "Paine",
+  "shortName": "Paine",
+  "fullName": "Timothy David Paine",
+  "displayName": "Tim Paine",
+  "weight": 0,
+  "height": 1.8,
+  "age": 41,
+  "dateOfBirthStr": "1984-12-08T00:00Z",
+  "dateOfBirth": "1984-12-08T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "TD Paine",
+  "fieldingName": "Paine",
+  "country": 2,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/49"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509669"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/474666"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/560"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/89"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/7252.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/7252/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/426346/events/426394"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/426337/events/426394"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/426350/events/426394"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/373839/events/350042"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/345967/events/350042"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/350031/events/350050"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/345967/events/350050"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/222345/events/229280"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/222037/events/227215"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/231859/events/231858"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/330026/events/330040"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/330025/events/330040"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/125288/events/330040"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/7252.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

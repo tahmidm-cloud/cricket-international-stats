@@ -1,0 +1,145 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/13985",
+  "id": "13985",
+  "guid": "5faf1ede-e275-e60b-cf6e-0fd7797b2fdd",
+  "uid": "s:200~a:13985",
+  "type": "cricket",
+  "name": "Aftab Habib",
+  "firstName": "Aftab",
+  "middleName": "",
+  "lastName": "Habib",
+  "shortName": "Habib",
+  "fullName": "Aftab Habib",
+  "displayName": "Aftab Habib",
+  "weight": 0,
+  "height": 5.09,
+  "age": 54,
+  "dateOfBirthStr": "1972-02-07T00:00Z",
+  "dateOfBirth": "1972-02-07T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "A Habib",
+  "fieldingName": "Habib",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/814"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2469"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/984"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1133"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1190"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/13985/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62074/events/63841"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60674/events/63841"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/124121/events/304770"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326208/events/326214"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326209/events/326214"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326111/events/326116"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326112/events/326116"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/13985.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

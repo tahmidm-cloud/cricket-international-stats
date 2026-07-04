@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1338631",
+  "id": "1338631",
+  "guid": "0d87e976-02c8-34fc-8e97-60d7693e5c9e",
+  "uid": "s:200~a:1338631",
+  "type": "cricket",
+  "name": "Aamir Lal",
+  "firstName": "Aamir",
+  "middleName": "",
+  "lastName": "Lal",
+  "shortName": "Aamir Lal",
+  "fullName": "Aamir Lal",
+  "displayName": "Aamir Lal",
+  "weight": 0,
+  "height": 0.0,
+  "age": 35,
+  "dateOfBirthStr": "1990-08-10T00:00Z",
+  "dateOfBirth": "1990-08-10T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Aamir Lal",
+  "fieldingName": "Aamir Lal",
+  "country": 144,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/144"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/144.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SKOR",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/144"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1338631/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1333916/events/1336951"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1336948/events/1336951"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1336949/events/1336951"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1333916/events/1336951"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1336948/events/1336951"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1336949/events/1336951"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1338631.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

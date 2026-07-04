@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1155588",
+  "id": "1155588",
+  "guid": "49ba2d76-69d0-5a22-ad5f-8b6045089646",
+  "uid": "s:200~a:1155588",
+  "type": "cricket",
+  "name": "Ts'episo Chaoana",
+  "firstName": "Ts'episo",
+  "middleName": "",
+  "lastName": "Chaoana",
+  "shortName": "Chaoana",
+  "fullName": "Ts'episo David Chaoana",
+  "displayName": "Ts'episo Chaoana",
+  "weight": 0,
+  "height": 0.0,
+  "age": 24,
+  "dateOfBirthStr": "2001-10-06T00:00Z",
+  "dateOfBirth": "2001-10-06T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "TD Chaoana",
+  "fieldingName": "Chaoana",
+  "country": 108,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1154545"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/108.png",
+    "width": 500,
+    "height": 500,
+    "alt": "LES",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/108"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1155588/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1282997/events/1283022"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1283005/events/1283022"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1283006/events/1283022"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1282997/events/1283022"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1283005/events/1283022"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1283006/events/1283022"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1155588.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

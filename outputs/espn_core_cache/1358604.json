@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1358604",
+  "id": "1358604",
+  "guid": "c08f34f1-d452-3e99-963e-a3ec7abea82c",
+  "uid": "s:200~a:1358604",
+  "type": "cricket",
+  "name": "Shafat Ali Syed",
+  "firstName": "Shafat",
+  "middleName": "",
+  "lastName": "Syed",
+  "shortName": "",
+  "fullName": "Shafat Ali Syed",
+  "displayName": "Shafat Ali Syed",
+  "weight": 0,
+  "height": 0.0,
+  "age": 30,
+  "dateOfBirthStr": "1996-03-17T00:00Z",
+  "dateOfBirth": "1996-03-17T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm medium",
+      "shortDescription": "Lm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm medium",
+      "shortDescription": "Lm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Shafat Ali Syed",
+  "fieldingName": "Shafat Ali Syed",
+  "country": 149,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/149"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/149.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ESP",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/149"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1358604/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1354796/events/1354798"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1354797/events/1354798"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1354796/events/1354798"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1354797/events/1354798"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1358604.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

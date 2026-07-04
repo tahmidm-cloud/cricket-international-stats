@@ -1,0 +1,126 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1143532",
+  "id": "1143532",
+  "guid": "328ef0f5-73e8-48dd-71d2-fbfb8aa2c3e7",
+  "uid": "s:200~a:1143532",
+  "type": "cricket",
+  "name": "Shahbaz Badar",
+  "firstName": "Shahbaz",
+  "middleName": "",
+  "lastName": "Badar",
+  "shortName": "",
+  "fullName": "Shahbaz Badar",
+  "displayName": "Shahbaz Badar",
+  "weight": 0,
+  "height": 0.0,
+  "age": 34,
+  "dateOfBirthStr": "1991-09-15T00:00Z",
+  "dateOfBirth": "1991-09-15T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "Shahbaz Badar",
+  "fieldingName": "Shahbaz Badar",
+  "country": 57,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/57"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/57.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BHR",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/57"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1143532/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1171740/events/1171752"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1171741/events/1171752"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1171739/events/1171752"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420562/events/1420569"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420563/events/1420569"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420549/events/1420569"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1171739/events/1171752"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1171740/events/1171752"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1171741/events/1171752"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1143532.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

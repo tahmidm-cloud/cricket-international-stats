@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/523825",
+  "id": "523825",
+  "guid": "33e69e2e-103b-6994-1f46-02040404c8ba",
+  "uid": "s:200~a:523825",
+  "type": "cricket",
+  "name": "Ali Saleem",
+  "firstName": "Ali",
+  "middleName": "",
+  "lastName": "Saleem",
+  "shortName": "Ali Saleem",
+  "fullName": "Ali Saleem",
+  "displayName": "Ali Saleem",
+  "weight": 0,
+  "height": 0.0,
+  "age": 46,
+  "dateOfBirthStr": "1979-09-13T00:00Z",
+  "dateOfBirth": "1979-09-13T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Ali Saleem",
+  "fieldingName": "Ali Saleem",
+  "country": 124,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/124"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/124.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NOR",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/124"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/523825/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1310143/events/1310161"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1310145/events/1310161"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1310140/events/1310161"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1310140/events/1310161"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1310143/events/1310161"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1310145/events/1310161"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/523825.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

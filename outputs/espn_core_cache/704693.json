@@ -1,0 +1,159 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/704693",
+  "id": "704693",
+  "guid": "b847214a-70a5-b5dd-fb6e-af82d9189569",
+  "uid": "s:200~a:704693",
+  "type": "cricket",
+  "name": "Lahiru Udara",
+  "firstName": "Lahiru",
+  "middleName": "",
+  "lastName": "Udara",
+  "shortName": "Udara",
+  "fullName": "Lahiru Udara Igalagamage",
+  "displayName": "Lahiru Udara",
+  "weight": 0,
+  "height": 5.08,
+  "age": 32,
+  "dateOfBirthStr": "1993-11-27T00:00Z",
+  "dateOfBirth": "1993-11-27T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "LU Igalagamage",
+  "fieldingName": "Igalagamage",
+  "country": 8,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3506"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1238372"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1238372"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1238372"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1238375"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1238375"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1238373"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1097992"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3554"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3590"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3606"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/8.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/704693/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1472510/events/1485503"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1485499/events/1485503"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1485500/events/1485503"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1398685/events/1399115"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1399101/events/1399115"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1400832/events/1399115"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/690379/events/690389"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/687801/events/687891"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/854813/events/854825"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/704693.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

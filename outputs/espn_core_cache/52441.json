@@ -1,0 +1,146 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52441",
+  "id": "52441",
+  "guid": "8e2f0b43-ba41-a6e3-e36c-088496d0dae0",
+  "uid": "s:200~a:52441",
+  "type": "cricket",
+  "name": "Deryck Murray",
+  "firstName": "Deryck",
+  "middleName": "",
+  "lastName": "Murray",
+  "shortName": "Murray",
+  "fullName": "Deryck Lance Murray",
+  "displayName": "Deryck Murray",
+  "weight": 0,
+  "height": 0.0,
+  "age": 83,
+  "dateOfBirthStr": "1943-05-20T00:00Z",
+  "dateOfBirth": "1943-05-20T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "DL Murray",
+  "fieldingName": "Murray",
+  "country": 4,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52602"
+      },
+      "relation": "Father"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/859"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1231"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3790"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1428"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/52441.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52441/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61874/events/62929"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60398/events/62929"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60787/events/64949"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61877/events/64949"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60926/events/65005"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61462/events/65005"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/52441.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

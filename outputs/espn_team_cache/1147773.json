@@ -1,0 +1,62 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1147773",
+  "id": "1147773",
+  "uid": "s:200~t:1147773",
+  "location": "Nepal",
+  "name": "Province Number 2",
+  "nickname": "Province Number 2",
+  "abbreviation": "PROV2",
+  "displayName": "Province Number 2",
+  "shortDisplayName": "PROV2",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "NP",
+  "slug": "province-number-2",
+  "classes": [
+    15,
+    16
+  ],
+  "event": {
+    "date": "2022-01-14T07:15Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/21118/events/1296146"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1147773.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1147773/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1147773/province-number-2",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1147773/province-number-2",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

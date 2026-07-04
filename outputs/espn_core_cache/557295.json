@@ -1,0 +1,154 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/557295",
+  "id": "557295",
+  "guid": "40350a20-2d49-b7ec-9d52-0f9c9a447a19",
+  "uid": "s:200~a:557295",
+  "type": "cricket",
+  "name": "Hilton Cartwright",
+  "firstName": "Hilton",
+  "middleName": "",
+  "lastName": "Cartwright",
+  "shortName": "Cartwright",
+  "fullName": "Hilton William Raymond Cartwright",
+  "displayName": "Hilton Cartwright",
+  "weight": 0,
+  "height": 0.0,
+  "age": 34,
+  "dateOfBirthStr": "1992-02-14T00:00Z",
+  "dateOfBirth": "1992-02-14T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "HWR Cartwright",
+  "fieldingName": "Cartwright",
+  "country": 2,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1051"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509672"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204498"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509670"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204495"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/602"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/625"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/423865"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/557295.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/557295/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1000871/events/1000885"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1000875/events/1000885"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1116555/events/1119496"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1116552/events/1119496"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/576078/events/576099"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/576079/events/576120"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/571220/events/571236"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/557295.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

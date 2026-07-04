@@ -1,0 +1,120 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1398224",
+  "id": "1398224",
+  "guid": "3a903109-a254-3c90-92a0-f5a88b898d91",
+  "uid": "s:200~a:1398224",
+  "type": "cricket",
+  "name": "Abdullah Fazal",
+  "firstName": "Abdullah",
+  "middleName": "",
+  "lastName": "Fazal",
+  "shortName": "",
+  "fullName": "Abdullah Fazal",
+  "displayName": "Abdullah Fazal",
+  "weight": 0,
+  "height": 0.0,
+  "age": 23,
+  "dateOfBirthStr": "2003-01-16T00:00Z",
+  "dateOfBirth": "2003-01-16T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "Abdullah Fazal",
+  "fieldingName": "Abdullah Fazal",
+  "country": 7,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2788"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1523800"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/7.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAK",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1398224/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1472510/events/1532486"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1532478/events/1532486"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1532479/events/1532486"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1457166/events/1457175"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1476873/events/1476878"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1398224.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

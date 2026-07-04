@@ -1,0 +1,126 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/823339",
+  "id": "823339",
+  "guid": "be6ce46a-3789-b3a9-d8af-1924ea09e760",
+  "uid": "s:200~a:823339",
+  "type": "cricket",
+  "name": "Ahmer Bin Nasir",
+  "firstName": "Ahmer",
+  "middleName": "",
+  "lastName": "Nasir",
+  "shortName": "Ahmer Bin",
+  "fullName": "Ahmer Bin Nasir",
+  "displayName": "Ahmer Bin Nasir",
+  "weight": 0,
+  "height": 0.0,
+  "age": 32,
+  "dateOfBirthStr": "1993-12-11T00:00Z",
+  "dateOfBirth": "1993-12-11T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Ahmer Bin",
+  "fieldingName": "Ahmer Bin",
+  "country": 57,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/57"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2775"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/57.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BHR",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/57"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/823339/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1344774/events/1344783"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1344778/events/1344783"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1344779/events/1344783"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/782297/events/783333"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/820191/events/820237"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1344779/events/1344783"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1344774/events/1344783"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1344778/events/1344783"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/823339.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

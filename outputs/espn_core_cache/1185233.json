@@ -1,0 +1,124 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1185233",
+  "id": "1185233",
+  "guid": "5ec269fa-1714-7d9a-eae5-ce46e9c6a56f",
+  "uid": "s:200~a:1185233",
+  "type": "cricket",
+  "name": "Bibek Yadav",
+  "firstName": "Bibek",
+  "middleName": "",
+  "lastName": "Yadav",
+  "shortName": "Yadav",
+  "fullName": "Bibek Kumar Yadav",
+  "displayName": "Bibek Yadav",
+  "weight": 0,
+  "height": 0.0,
+  "age": 22,
+  "dateOfBirthStr": "2003-10-07T00:00Z",
+  "dateOfBirth": "2003-10-07T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BLA",
+    "id": "BLA",
+    "name": "Bowling allrounder",
+    "abbreviation": "BLA",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BLA"
+    }
+  },
+  "battingName": "B Yadav",
+  "fieldingName": "Yadav",
+  "country": 33,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/33"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1147773"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/33.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NEP",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/33"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1185233/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1299557/events/1299593"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1299591/events/1299593"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1299557/events/1299593"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1299591/events/1299593"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1185233.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

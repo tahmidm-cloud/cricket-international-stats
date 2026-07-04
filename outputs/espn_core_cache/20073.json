@@ -1,0 +1,151 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/20073",
+  "id": "20073",
+  "guid": "ea621463-01cf-0bad-1c77-62611592cfcb",
+  "uid": "s:200~a:20073",
+  "type": "cricket",
+  "name": "Chris Schofield",
+  "firstName": "Chris",
+  "middleName": "",
+  "lastName": "Schofield",
+  "shortName": "Schofield",
+  "fullName": "Christopher Paul Schofield",
+  "displayName": "Chris Schofield",
+  "weight": 0,
+  "height": 6.01,
+  "age": 47,
+  "dateOfBirthStr": "1978-10-06T00:00Z",
+  "dateOfBirth": "1978-10-06T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BLA",
+    "id": "BLA",
+    "name": "Bowling allrounder",
+    "abbreviation": "BLA",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BLA"
+    }
+  },
+  "battingName": "CP Schofield",
+  "fieldingName": "Schofield",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/873"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1116"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1357"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1358"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/20073/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61988/events/63883"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60689/events/63883"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/287846/events/287858"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/287845/events/287858"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/286109/events/287858"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/124121/events/304752"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327225/events/327234"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327224/events/327234"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327263/events/327269"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327262/events/327269"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/20073.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

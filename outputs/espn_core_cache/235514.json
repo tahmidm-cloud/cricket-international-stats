@@ -1,0 +1,151 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/235514",
+  "id": "235514",
+  "guid": "b51d1559-2fb8-4a1c-7636-4a653db17b5d",
+  "uid": "s:200~a:235514",
+  "type": "cricket",
+  "name": "Brian Vitori",
+  "firstName": "Brian",
+  "middleName": "",
+  "lastName": "Vitori",
+  "shortName": "Vitori",
+  "fullName": "Brian Vitalis Vitori",
+  "displayName": "Brian Vitori",
+  "weight": 0,
+  "height": 0.0,
+  "age": 36,
+  "dateOfBirthStr": "1990-02-22T00:00Z",
+  "dateOfBirth": "1990-02-22T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm fast-medium",
+      "shortDescription": "Lfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm fast-medium",
+      "shortDescription": "Lfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "BV Vitori",
+  "fieldingName": "Vitori",
+  "country": 9,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3839"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/424007"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/287572"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3858"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3872"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/235514.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/9.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ZIM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/235514/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/504002/events/522245"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/504003/events/522245"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/504002/events/522246"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/504004/events/522246"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/572476/events/533272"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/531597/events/533272"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/336461/events/336491"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/235024/events/264839"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/342325/events/342330"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/235514.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

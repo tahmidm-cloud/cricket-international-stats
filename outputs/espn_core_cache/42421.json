@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/42421",
+  "id": "42421",
+  "guid": "d94a1c0b-d723-594f-95e2-10e0e7322e9e",
+  "uid": "s:200~a:42421",
+  "type": "cricket",
+  "name": "Rashid Khan",
+  "firstName": "Rashid",
+  "middleName": "",
+  "lastName": "Khan",
+  "shortName": "",
+  "fullName": "Rashid Khan",
+  "displayName": "Rashid Khan",
+  "weight": 0,
+  "height": 0.0,
+  "age": 66,
+  "dateOfBirthStr": "1959-12-15T00:00Z",
+  "dateOfBirth": "1959-12-15T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "Rashid Khan",
+  "fieldingName": "Rashid Khan",
+  "country": 7,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2773"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3010"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3043"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3101"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/7.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAK",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/42421/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61629/events/63311"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60501/events/63311"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60811/events/64175"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61914/events/64175"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325099/events/325101"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325100/events/325101"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/42421.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/833595",
+  "id": "833595",
+  "uid": "s:200~t:833595",
+  "location": "South Africa",
+  "name": "Menlopark High School",
+  "nickname": "Menlopark High School",
+  "abbreviation": "MENLO",
+  "displayName": "Menlopark High School",
+  "shortDisplayName": "MENLO",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZA",
+  "slug": "menlopark-high-school",
+  "classes": [
+    "16"
+  ],
+  "event": {
+    "date": "2015-02-22T07:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8713/events/833691"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/833595/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/833595/menlopark-high-school",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/833595/menlopark-high-school",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

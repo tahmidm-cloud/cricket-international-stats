@@ -1,0 +1,155 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/13411",
+  "id": "13411",
+  "guid": "23d65af6-561a-e290-ed81-97fcfe22b970",
+  "uid": "s:200~a:13411",
+  "type": "cricket",
+  "name": "Darren Gough",
+  "firstName": "Darren",
+  "middleName": "",
+  "lastName": "Gough",
+  "shortName": "Gough",
+  "fullName": "Darren Gough",
+  "displayName": "Darren Gough",
+  "weight": 0,
+  "height": 5.11,
+  "age": 55,
+  "dateOfBirthStr": "1970-09-18T00:00Z",
+  "dateOfBirth": "1970-09-18T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "D Gough",
+  "fieldingName": "Gough",
+  "country": 1,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/555564"
+      },
+      "relation": "Son"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/984"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1464"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/13411/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62077/events/63648"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60606/events/63648"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60956/events/65011"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62077/events/65011"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/238219/events/211028"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/139019/events/211028"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/134471/events/304815"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325716/events/325723"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325718/events/325723"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326111/events/326114"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326112/events/326114"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/13411.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

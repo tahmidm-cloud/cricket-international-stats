@@ -1,0 +1,142 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/53216",
+  "id": "53216",
+  "guid": "3bbcf104-1231-fb7c-7e2b-ccb48f0fbe81",
+  "uid": "s:200~a:53216",
+  "type": "cricket",
+  "name": "Courtney Walsh",
+  "firstName": "Courtney",
+  "middleName": "",
+  "lastName": "Walsh",
+  "shortName": "Walsh",
+  "fullName": "Courtney Andrew Walsh",
+  "displayName": "Courtney Walsh",
+  "weight": 0,
+  "height": 0.0,
+  "age": 63,
+  "dateOfBirthStr": "1962-10-30T00:00Z",
+  "dateOfBirth": "1962-10-30T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "CA Walsh",
+  "fieldingName": "Walsh",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1034"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3751"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/53216.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/53216/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61908/events/63383"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60522/events/63383"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60847/events/65375"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61608/events/65375"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61908/events/65375"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324116/events/324120"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324119/events/324120"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324116/events/324124"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324117/events/324124"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/53216.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/46942",
+  "id": "46942",
+  "guid": "1b73b8dd-0622-d3f5-12ef-bd9a89969484",
+  "uid": "s:200~a:46942",
+  "type": "cricket",
+  "name": "Aaron Phangiso",
+  "firstName": "Aaron",
+  "middleName": "",
+  "lastName": "Phangiso",
+  "shortName": "Phangiso",
+  "fullName": "Aaron Mpho Phangiso",
+  "displayName": "Aaron Phangiso",
+  "weight": 0,
+  "height": 0.0,
+  "age": 42,
+  "dateOfBirthStr": "1984-01-21T00:00Z",
+  "dateOfBirth": "1984-01-21T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "AM Phangiso",
+  "fieldingName": "Phangiso",
+  "country": 3,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3231"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1335270"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3249"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3265"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3270"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3304"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3305"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3324"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3340"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/46942.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/46942/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/567345/events/567360"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/567339/events/567360"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/567339/events/567354"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/567343/events/567354"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/141440/events/142230"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/141508/events/411462"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/219193/events/233620"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327709/events/327715"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/124714/events/327715"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/46942.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

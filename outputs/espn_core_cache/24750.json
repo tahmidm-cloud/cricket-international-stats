@@ -1,0 +1,160 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24750",
+  "id": "24750",
+  "guid": "3c318f6e-bee0-59c9-74a9-3c092494d88e",
+  "uid": "s:200~a:24750",
+  "type": "cricket",
+  "name": "Morris Ouma",
+  "firstName": "Morris",
+  "middleName": "",
+  "lastName": "Ouma",
+  "shortName": "Ouma",
+  "fullName": "Morris Amollo Ouma",
+  "displayName": "Morris Ouma",
+  "weight": 0,
+  "height": 0.0,
+  "age": 43,
+  "dateOfBirthStr": "1982-11-08T00:00Z",
+  "dateOfBirth": "1982-11-08T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "MA Ouma",
+  "fieldingName": "Ouma",
+  "country": 26,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/26"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/213709"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/527515"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/472151"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/24750.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/26.png",
+    "width": 500,
+    "height": 500,
+    "alt": "KENYA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/26"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24750/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62271/events/66198"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62375/events/66198"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61157/events/66198"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/287847/events/287854"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/287842/events/287854"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/286109/events/287854"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/125654/events/415443"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/415468/events/415443"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/286109/events/287854"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/287842/events/287854"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/287847/events/287854"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/79009/events/329861"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/329754/events/329861"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/329755/events/329861"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/24750.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

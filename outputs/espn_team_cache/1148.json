@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1148",
+  "id": "1148",
+  "uid": "s:200~t:1148",
+  "location": "England",
+  "name": "London County",
+  "nickname": "London County",
+  "abbreviation": "LdnCy",
+  "displayName": "London County",
+  "shortDisplayName": "LdnCy",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "london-county",
+  "classes": [
+    "4"
+  ],
+  "event": {
+    "date": "1904-06-23T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/17654/events/576621"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1148/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1148/london-county",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1148/london-county",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38418",
+  "id": "38418",
+  "guid": "d5414dae-d789-aecb-4a7e-ca0436f50fb3",
+  "uid": "s:200~a:38418",
+  "type": "cricket",
+  "name": "Shanan Stewart",
+  "firstName": "Shanan",
+  "middleName": "",
+  "lastName": "Stewart",
+  "shortName": "Stewart",
+  "fullName": "Shanan Luke Stewart",
+  "displayName": "Shanan Stewart",
+  "weight": 0,
+  "height": 0.0,
+  "age": 44,
+  "dateOfBirthStr": "1982-06-21T00:00Z",
+  "dateOfBirth": "1982-06-21T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "SL Stewart",
+  "fieldingName": "Stewart",
+  "country": 5,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2469"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2540"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38418/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/423777/events/423794"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/423770/events/423794"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/232574/events/264919"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/98826/events/327552"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327548/events/327552"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/329759/events/329863"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/329758/events/329863"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/79009/events/329863"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/38418.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

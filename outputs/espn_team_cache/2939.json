@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2939",
+  "id": "2939",
+  "uid": "s:200~t:2939",
+  "location": "Pakistan",
+  "name": "Pakistan Cricket Academy",
+  "nickname": "Pakistan Cricket Academy",
+  "abbreviation": "PkAcd",
+  "displayName": "Pakistan Cricket Academy",
+  "shortDisplayName": "PkAcd",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "PK",
+  "slug": "pakistan-cricket-academy",
+  "classes": [
+    14,
+    15
+  ],
+  "event": {
+    "date": "2008-09-28T07:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/13883/events/362399"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2939/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/2939/pakistan-cricket-academy",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/2939/pakistan-cricket-academy",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/8535",
+  "id": "8535",
+  "guid": "34e8112d-080f-c820-174a-a2477f728b7a",
+  "uid": "s:200~a:8535",
+  "type": "cricket",
+  "name": "Dennis Amiss",
+  "firstName": "Dennis",
+  "middleName": "",
+  "lastName": "Amiss",
+  "shortName": "Amiss",
+  "fullName": "Dennis Leslie Amiss",
+  "displayName": "Dennis Amiss",
+  "weight": 0,
+  "height": 5.11,
+  "age": 83,
+  "dateOfBirthStr": "1943-04-07T00:00Z",
+  "dateOfBirth": "1943-04-07T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "DL Amiss",
+  "fieldingName": "Amiss",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1428"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/8535/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60415/events/62995"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61880/events/62995"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60784/events/64944"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61365/events/64944"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/8535.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

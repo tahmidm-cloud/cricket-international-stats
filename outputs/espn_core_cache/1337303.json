@@ -1,0 +1,126 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1337303",
+  "id": "1337303",
+  "guid": "6fa15331-c11e-329f-a2f9-3310256c0c01",
+  "uid": "s:200~a:1337303",
+  "type": "cricket",
+  "name": "Sidhant Srikanth",
+  "firstName": "Sidhant",
+  "middleName": "",
+  "lastName": "Srikanth",
+  "shortName": "Srikanth",
+  "fullName": "Sidhant Srikanth",
+  "displayName": "Sidhant Srikanth",
+  "weight": 0,
+  "height": 0.0,
+  "age": 21,
+  "dateOfBirthStr": "2005-01-07T00:00Z",
+  "dateOfBirth": "2005-01-07T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "S Srikanth",
+  "fieldingName": "Srikanth",
+  "country": 23,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3477"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/23.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SGP",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/23"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1337303/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343824/events/1349390"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343828/events/1349390"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1349323/events/1349390"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343824/events/1343830"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343825/events/1343830"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1200432/events/1343830"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343824/events/1349390"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343828/events/1349390"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1349323/events/1349390"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1337303.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

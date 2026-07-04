@@ -1,0 +1,65 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/776163",
+  "id": "776163",
+  "uid": "s:200~t:776163",
+  "location": "Afghanistan",
+  "name": "Boost Defenders",
+  "nickname": "Boost Defenders",
+  "abbreviation": "BDD",
+  "displayName": "Boost Defenders",
+  "shortDisplayName": "BDD",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AF",
+  "slug": "boost-defenders",
+  "classes": [
+    6,
+    16
+  ],
+  "event": {
+    "date": "2026-07-02T04:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18041/events/1543639"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18041"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/776163.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/776163/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/776163/boost-defenders",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/776163/boost-defenders",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

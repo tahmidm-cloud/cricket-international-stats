@@ -1,0 +1,157 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/298197",
+  "id": "298197",
+  "guid": "b28c335e-a32d-6423-352e-88305bc9c043",
+  "uid": "s:200~a:298197",
+  "type": "cricket",
+  "name": "Matthew Parker",
+  "firstName": "Matthew",
+  "middleName": "",
+  "lastName": "Parker",
+  "shortName": "Parker",
+  "fullName": "Matthew Archibald Parker",
+  "displayName": "Matthew Parker",
+  "weight": 0,
+  "height": 0.0,
+  "age": 36,
+  "dateOfBirthStr": "1990-03-02T00:00Z",
+  "dateOfBirth": "1990-03-02T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "MA Parker",
+  "fieldingName": "Parker",
+  "country": 30,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3448"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3449"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3450"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3451"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/298197.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/30.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SCOT",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/298197/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/442230/events/442232"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/442231/events/442232"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/546482/events/546442"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/543850/events/546442"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/532912/events/546442"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/408325/events/438894"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/442230/events/438894"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/383316/events/382845"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/373948/events/382845"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/532912/events/546426"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/546486/events/546426"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/543850/events/546426"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/298197.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/34103",
+  "id": "34103",
+  "guid": "05d7d8f2-a773-98f2-c84f-6a0015741dc7",
+  "uid": "s:200~a:34103",
+  "type": "cricket",
+  "name": "Kris Srikkanth",
+  "firstName": "Kris",
+  "middleName": "",
+  "lastName": "Srikkanth",
+  "shortName": "Srikkanth",
+  "fullName": "Krishnamachari Srikkanth",
+  "displayName": "Kris Srikkanth",
+  "weight": 0,
+  "height": 0.0,
+  "age": 66,
+  "dateOfBirthStr": "1959-12-21T00:00Z",
+  "dateOfBirth": "1959-12-21T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "K Srikkanth",
+  "fieldingName": "Srikkanth",
+  "country": 6,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/34101"
+      },
+      "relation": "Son"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/26798"
+      },
+      "relation": "Son"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2133"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/34103/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61792/events/63298"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60497/events/63298"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60817/events/64180"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61792/events/64180"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325100/events/325101"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325099/events/325101"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/34103.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

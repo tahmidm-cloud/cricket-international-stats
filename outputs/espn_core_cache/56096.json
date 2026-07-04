@@ -1,0 +1,124 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/56096",
+  "id": "56096",
+  "guid": "1b43d098-0b29-9553-ca15-cd6d637c2e42",
+  "uid": "s:200~a:56096",
+  "type": "cricket",
+  "name": "Sajjad Ahmed",
+  "firstName": "Sajjad",
+  "middleName": "",
+  "lastName": "Ahmed",
+  "shortName": "",
+  "fullName": "Sajjad Ahmed",
+  "displayName": "Sajjad Ahmed",
+  "weight": 0,
+  "height": 0,
+  "age": 52,
+  "dateOfBirthStr": "1974-05-20T00:00Z",
+  "dateOfBirth": "1974-05-20T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "Sajjad Ahmed",
+  "fieldingName": "Sajjad Ahmed",
+  "country": 25,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/682"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/683"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/25.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/56096/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60971/events/65685"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62199/events/65685"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62372/events/65685"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/56096.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1063358",
+  "id": "1063358",
+  "guid": "b83103a3-8266-ee4b-0d35-2fa7b5eb37d8",
+  "uid": "s:200~a:1063358",
+  "type": "cricket",
+  "name": "Lee Kangmin",
+  "firstName": "Lee",
+  "middleName": "",
+  "lastName": "Kangmin",
+  "shortName": "",
+  "fullName": "Lee Kangmin",
+  "displayName": "Lee Kangmin",
+  "weight": 0,
+  "height": 0.0,
+  "age": 31,
+  "dateOfBirthStr": "1994-11-17T00:00Z",
+  "dateOfBirth": "1994-11-17T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Lee Kangmin",
+  "fieldingName": "Lee Kangmin",
+  "country": 144,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/144"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/144.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SKOR",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/144"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1063358/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1336948/events/1336952"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1336949/events/1336952"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1336948/events/1336952"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1336949/events/1336952"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1063358.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

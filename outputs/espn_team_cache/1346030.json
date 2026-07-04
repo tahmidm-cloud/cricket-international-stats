@@ -1,0 +1,65 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1346030",
+  "id": "1346030",
+  "uid": "s:200~t:1346030",
+  "location": "United Arab Emirates",
+  "name": "Gulf Giants",
+  "nickname": "Gulf Giants",
+  "abbreviation": "GG",
+  "displayName": "Gulf Giants",
+  "shortDisplayName": "GG",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AE",
+  "slug": "gulf-giants",
+  "classes": [
+    "6",
+    "16"
+  ],
+  "event": {
+    "date": "2025-12-28T14:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20921/events/1501347"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20921"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1346030.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1346030/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1346030/gulf-giants",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1346030/gulf-giants",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

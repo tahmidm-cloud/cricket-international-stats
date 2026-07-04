@@ -1,0 +1,214 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1182529",
+  "id": "1182529",
+  "guid": "cf4d26ea-6aeb-114b-7215-3433b2f1fe73",
+  "uid": "s:200~a:1182529",
+  "type": "cricket",
+  "name": "Noor Ahmad",
+  "firstName": "Noor",
+  "middleName": "",
+  "lastName": "Ahmad",
+  "shortName": "Noor Ahmad",
+  "fullName": "Noor Ahmad Lakanwal",
+  "displayName": "Noor Ahmad",
+  "weight": 0,
+  "height": 0.0,
+  "age": 21,
+  "dateOfBirthStr": "2005-01-03T00:00Z",
+  "dateOfBirth": "2005-01-03T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm wrist-spin",
+      "shortDescription": "Lws",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm wrist-spin",
+      "shortDescription": "Lws",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "Noor Ahmad",
+  "fieldingName": "Noor Ahmad",
+  "country": 40,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/40"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/228132"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335974"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/935277"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1238375"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1238375"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1238375"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1346066"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1335272"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1238373"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1298769"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1238374"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1137258"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/953835"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204499"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509671"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/953833"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/953845"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1133698"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/642417"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204575"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204575"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1381353"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/642421"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204497"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/40.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AFG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/40"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1182529/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1340531/events/1340534"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1340530/events/1340534"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1227837/events/1340534"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1310920/events/1310948"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1310918/events/1310948"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1179613/events/1179626"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1234664/events/1234669"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1202450/events/1202452"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1199131/events/1199140"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1199135/events/1199140"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1199134/events/1199140"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1182529.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

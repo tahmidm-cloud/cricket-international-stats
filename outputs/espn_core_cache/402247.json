@@ -1,0 +1,160 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/402247",
+  "id": "402247",
+  "guid": "d13afe1c-1b5f-eb8e-c8cd-3d816c2f242c",
+  "uid": "s:200~a:402247",
+  "type": "cricket",
+  "name": "Izatullah Dawlatzai",
+  "firstName": "Izatullah",
+  "middleName": "",
+  "lastName": "Dawlatzai",
+  "shortName": "Izat",
+  "fullName": "Izatullah Dawlatzai",
+  "displayName": "Izatullah Dawlatzai",
+  "weight": 0,
+  "height": 0.0,
+  "age": 35,
+  "dateOfBirthStr": "1991-05-10T00:00Z",
+  "dateOfBirth": "1991-05-10T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "Izatullah Dawlatzai",
+  "fieldingName": "Izatullah Dawlatzai",
+  "country": 36,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/40"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/36"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/228132"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/402247.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/36.png",
+    "width": 500,
+    "height": 500,
+    "alt": "GER",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/36"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/402247/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/470623/events/470625"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/470622/events/470625"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/546490/events/546418"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/532912/events/546418"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/523801/events/546418"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/470622/events/438900"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/408325/events/438900"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/470623/events/470625"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/470622/events/470625"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/546478/events/546406"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/532912/events/546406"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/523801/events/546406"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440615/events/431994"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/418157/events/431994"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440618/events/431994"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/402247.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

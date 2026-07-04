@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/36603",
+  "id": "36603",
+  "guid": "5aa37a14-7498-e098-dd98-e4118392db8b",
+  "uid": "s:200~a:36603",
+  "type": "cricket",
+  "name": "Ewen Chatfield",
+  "firstName": "Ewen",
+  "middleName": "",
+  "lastName": "Chatfield",
+  "shortName": "Chatfield",
+  "fullName": "Ewen John Chatfield",
+  "displayName": "Ewen Chatfield",
+  "weight": 0,
+  "height": 0.0,
+  "age": 76,
+  "dateOfBirthStr": "1950-07-03T00:00Z",
+  "dateOfBirth": "1950-07-03T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "EJ Chatfield",
+  "fieldingName": "Chatfield",
+  "country": 5,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2600"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/36603/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61768/events/63144"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60455/events/63144"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62080/events/65058"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61888/events/65058"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60806/events/65058"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/36603.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

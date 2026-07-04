@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1195137",
+  "id": "1195137",
+  "uid": "s:200~t:1195137",
+  "location": "Ireland",
+  "name": "Ireland Academy",
+  "nickname": "Ireland Academy",
+  "abbreviation": "I-ACD",
+  "displayName": "Ireland Academy",
+  "shortDisplayName": "I-ACD",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IE",
+  "slug": "ireland-academy",
+  "classes": [
+    15
+  ],
+  "event": {
+    "date": "2019-07-18T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19426/events/1195140"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1195137/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1195137/ireland-academy",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1195137/ireland-academy",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

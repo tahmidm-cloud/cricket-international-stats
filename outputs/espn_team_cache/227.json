@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/227",
+  "id": "227",
+  "uid": "s:200~t:227",
+  "location": "Australia",
+  "name": "Australia Masters",
+  "nickname": "Australia Masters",
+  "abbreviation": "AUS-M",
+  "displayName": "Australia Masters",
+  "shortDisplayName": "AUS-M",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AU",
+  "slug": "australia-masters",
+  "classes": [
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2025-03-13T14:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/23196/events/1474877"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/227/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/227/australia-masters",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/227/australia-masters",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

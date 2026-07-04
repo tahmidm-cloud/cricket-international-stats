@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/303338",
+  "id": "303338",
+  "guid": "a38ec247-6453-9f22-d7ca-c7954d75d916",
+  "uid": "s:200~a:303338",
+  "type": "cricket",
+  "name": "Bashir Shah",
+  "firstName": "Bashir",
+  "middleName": "",
+  "lastName": "Shah",
+  "shortName": "",
+  "fullName": "Syed Bashir Ahmed Shah",
+  "displayName": "Bashir Shah",
+  "weight": 0,
+  "height": 0.0,
+  "age": 43,
+  "dateOfBirthStr": "1983-04-06T00:00Z",
+  "dateOfBirth": "1983-04-06T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Bashir Shah",
+  "fieldingName": "Bashir Shah",
+  "country": 13,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/13"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/13.png",
+    "width": 500,
+    "height": 500,
+    "alt": "DEN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/13"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/303338/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1185178/events/1185184"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1185174/events/1185184"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1185163/events/1185184"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/322098/events/314675"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/314541/events/314675"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/532912/events/546413"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/546495/events/546413"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/546496/events/546413"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/303338.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

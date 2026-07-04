@@ -1,0 +1,76 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1328786",
+  "id": "1328786",
+  "uid": "s:200~t:1328786",
+  "location": "South Africa",
+  "name": "MI Cape Town",
+  "nickname": "MI Cape Town",
+  "abbreviation": "MICT",
+  "displayName": "MI Cape Town",
+  "shortDisplayName": "MICT",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZA",
+  "slug": "mi-cape-town",
+  "classes": [
+    6
+  ],
+  "event": {
+    "date": "2026-01-18T13:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/21275/events/1494281"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/21275"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1328786.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1328786/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1328786/mi-cape-town",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1328786/mi-cape-town",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "videos",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/current/video_audio/index.html?object=1328786",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

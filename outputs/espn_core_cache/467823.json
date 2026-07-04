@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/467823",
+  "id": "467823",
+  "guid": "24404921-b799-8582-a613-c51dadd93572",
+  "uid": "s:200~a:467823",
+  "type": "cricket",
+  "name": "Julian Freyone",
+  "firstName": "Julian",
+  "middleName": "",
+  "lastName": "Freyone",
+  "shortName": "Freyone",
+  "fullName": "Julian D Freyone",
+  "displayName": "Julian Freyone",
+  "weight": 0,
+  "height": 0.0,
+  "age": 32,
+  "dateOfBirthStr": "1994-05-07T00:00Z",
+  "dateOfBirth": "1994-05-07T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "JD Freyone",
+  "fieldingName": "Freyone",
+  "country": 18,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/18"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1487"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1488"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/18.png",
+    "width": 500,
+    "height": 500,
+    "alt": "GIBR",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/18"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/467823/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1201664/events/1201669"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1201665/events/1201669"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1201666/events/1201669"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1201664/events/1201669"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1201665/events/1201669"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1201666/events/1201669"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/467823.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

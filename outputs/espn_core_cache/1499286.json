@@ -1,0 +1,111 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1499286",
+  "id": "1499286",
+  "guid": "487dff00-7d18-3b53-a408-b93fb2f25f82",
+  "uid": "s:200~a:1499286",
+  "type": "cricket",
+  "name": "Ajhar Alam",
+  "firstName": "Ajhar",
+  "middleName": "",
+  "lastName": "Alam",
+  "shortName": "Ajhar Alam",
+  "fullName": "Ajhar Alam",
+  "displayName": "Ajhar Alam",
+  "weight": 0,
+  "height": 0.0,
+  "age": 30,
+  "dateOfBirthStr": "1995-12-10T00:00Z",
+  "dateOfBirth": "1995-12-10T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Ajhar Alam",
+  "fieldingName": "Ajhar Alam",
+  "country": 75,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/75"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/75.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CZK-R",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/75"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1499286/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1499008/events/1499011"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1499009/events/1499011"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1499008/events/1499011"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1499009/events/1499011"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1499286.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

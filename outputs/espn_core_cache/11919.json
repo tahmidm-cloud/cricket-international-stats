@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/11919",
+  "id": "11919",
+  "guid": "555dcade-127a-fafa-51f5-fe4392faeab3",
+  "uid": "s:200~a:11919",
+  "type": "cricket",
+  "name": "Arthur Dolphin",
+  "firstName": "Arthur",
+  "middleName": "",
+  "lastName": "Dolphin",
+  "shortName": "Dolphin",
+  "fullName": "Arthur Dolphin",
+  "displayName": "Arthur Dolphin",
+  "weight": 0,
+  "height": 0.0,
+  "age": 56,
+  "dateOfBirthStr": "1885-12-24T00:00Z",
+  "dateOfBirth": "1885-12-24T00:00Z",
+  "dateOfDeathStr": "1942-10-23T00:00Z",
+  "dateOfDeath": "1942-10-23T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "A Dolphin",
+  "fieldingName": "Dolphin",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2001"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1464"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/11919/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60301/events/62524"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61711/events/62524"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60323/events/62613"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61883/events/62613"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/11919.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

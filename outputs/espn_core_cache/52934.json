@@ -1,0 +1,158 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52934",
+  "id": "52934",
+  "guid": "65ba3a2d-7b83-ce38-c52c-5dcc1b6487b8",
+  "uid": "s:200~a:52934",
+  "type": "cricket",
+  "name": "Phil Simmons",
+  "firstName": "Phil",
+  "middleName": "",
+  "lastName": "Simmons",
+  "shortName": "Simmons",
+  "fullName": "Philip Verant Simmons",
+  "displayName": "Phil Simmons",
+  "weight": 0,
+  "height": 0.0,
+  "age": 63,
+  "dateOfBirthStr": "1963-04-18T00:00Z",
+  "dateOfBirth": "1963-04-18T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BTA",
+    "id": "BTA",
+    "name": "Batting allrounder",
+    "abbreviation": "BTA",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BTA"
+    }
+  },
+  "battingName": "PV Simmons",
+  "fieldingName": "Simmons",
+  "country": 4,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/53116"
+      },
+      "relation": "Nephew"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3168"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/924"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3203"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1133"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3790"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1421"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/52934.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52934/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61942/events/63469"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60545/events/63469"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60876/events/65099"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61919/events/65099"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324116/events/324120"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324119/events/324120"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324116/events/324124"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324117/events/324124"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/52934.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/40170",
+  "id": "40170",
+  "guid": "efdf429d-5991-ddf5-c59d-c2822a755509",
+  "uid": "s:200~a:40170",
+  "type": "cricket",
+  "name": "Fayyaz Ahmed",
+  "firstName": "Fayyaz",
+  "middleName": "",
+  "lastName": "Ahmed",
+  "shortName": "Fayyaz",
+  "fullName": "Fayyaz Ahmed",
+  "displayName": "Fayyaz Ahmed",
+  "weight": 0,
+  "height": 0.0,
+  "age": 43,
+  "dateOfBirthStr": "1983-05-12T00:00Z",
+  "dateOfBirth": "1983-05-12T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "Fayyaz Ahmed",
+  "fieldingName": "Fayyaz Ahmed",
+  "country": 27,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/342154"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2731"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/27.png",
+    "width": 500,
+    "height": 500,
+    "alt": "UAE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/40170/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/736495/events/736503"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/736531/events/736503"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/736535/events/736503"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/875401/events/875481"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/875575/events/875481"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/875579/events/875481"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/441774/events/441776"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/40170.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

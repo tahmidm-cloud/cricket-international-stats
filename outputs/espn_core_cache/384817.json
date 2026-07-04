@@ -1,0 +1,141 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/384817",
+  "id": "384817",
+  "guid": "280eeeb7-333a-456d-17bd-382fa3efef13",
+  "uid": "s:200~a:384817",
+  "type": "cricket",
+  "name": "Andri Berenger",
+  "firstName": "Andri",
+  "middleName": "",
+  "lastName": "Berenger",
+  "shortName": "Berenger",
+  "fullName": "Andri Raffaelo Berenger",
+  "displayName": "Andri Berenger",
+  "weight": 0,
+  "height": 0.0,
+  "age": 34,
+  "dateOfBirthStr": "1991-08-29T00:00Z",
+  "dateOfBirth": "1991-08-29T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "AR Berenger",
+  "fieldingName": "Berenger",
+  "country": 136,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/136"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3506"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3629"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3630"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3617"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/384817.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/136.png",
+    "width": 500,
+    "height": 500,
+    "alt": "QAT",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/136"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/384817/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/794603/events/803795"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/803793/events/803795"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1284483/events/1284488"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1284484/events/1284488"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/367457/events/367644"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/367455/events/367515"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/443038/events/443047"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/422012/events/422018"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/422011/events/422018"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/384817.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

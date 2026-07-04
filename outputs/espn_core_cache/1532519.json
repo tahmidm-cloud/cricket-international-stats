@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1532519",
+  "id": "1532519",
+  "guid": "04e6718b-785b-3ee6-8f48-73fe1a78e8bc",
+  "uid": "s:200~a:1532519",
+  "type": "cricket",
+  "name": "Waldo Smith",
+  "firstName": "Waldo",
+  "middleName": "",
+  "lastName": "Smith",
+  "shortName": "Smith",
+  "fullName": "Waldo Smith",
+  "displayName": "Waldo Smith",
+  "weight": 0,
+  "height": 0.0,
+  "age": 18,
+  "dateOfBirthStr": "2008-05-09T00:00Z",
+  "dateOfBirth": "2008-05-09T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "W Smith",
+  "fieldingName": "Smith",
+  "country": 28,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/28"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/28.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NAM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/28"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1532519/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1529136/events/1529147"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1529138/events/1529147"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1529136/events/1529147"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1529138/events/1529147"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1532519.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

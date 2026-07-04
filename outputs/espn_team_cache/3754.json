@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3754",
+  "id": "3754",
+  "uid": "s:200~t:3754",
+  "location": "West Indies",
+  "name": "Jamaica Select XI",
+  "nickname": "Jamaica Select XI",
+  "abbreviation": "JAMSL",
+  "displayName": "Jamaica Select XI",
+  "shortDisplayName": "JAMSL",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "jamaica-select-xi",
+  "classes": [
+    4,
+    14
+  ],
+  "event": {
+    "date": "2014-06-02T15:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/11708/events/730589"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3754/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3754/jamaica-select-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3754/jamaica-select-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

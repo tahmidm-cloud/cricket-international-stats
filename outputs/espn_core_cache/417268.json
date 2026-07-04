@@ -1,0 +1,165 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/417268",
+  "id": "417268",
+  "guid": "74150ff9-8507-f932-984d-421694323487",
+  "uid": "s:200~a:417268",
+  "type": "cricket",
+  "name": "Matthew Cross",
+  "firstName": "Matthew",
+  "middleName": "",
+  "lastName": "Cross",
+  "shortName": "Cross",
+  "fullName": "Matthew Henry Cross",
+  "displayName": "Matthew Cross",
+  "weight": 0,
+  "height": 0.0,
+  "age": 33,
+  "dateOfBirthStr": "1992-10-15T00:00Z",
+  "dateOfBirth": "1992-10-15T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "MH Cross",
+  "fieldingName": "Cross",
+  "country": 30,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/985"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1128"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1185"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1150152"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1231"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1232"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3449"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3450"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3451"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/417268.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/30.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SCOT",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/417268/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/696917/events/696731"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/696905/events/696731"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/681019/events/696731"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/631555/events/631573"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/631132/events/631573"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/592756/events/593318"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/593746/events/593336"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/592757/events/593336"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/631555/events/631573"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/631132/events/631573"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/552670/events/554522"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/554569/events/554522"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/526969/events/554522"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/417268.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

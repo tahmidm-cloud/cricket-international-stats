@@ -1,0 +1,167 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/364300",
+  "id": "364300",
+  "guid": "b6e093ed-e917-3801-330e-49f6af266697",
+  "uid": "s:200~a:364300",
+  "type": "cricket",
+  "name": "Tim Gruijters",
+  "firstName": "Tim",
+  "middleName": "",
+  "lastName": "Gruijters",
+  "shortName": "Gruijters",
+  "fullName": "Timothy George Johannus Gruijters",
+  "displayName": "Tim Gruijters",
+  "weight": 0,
+  "height": 0.0,
+  "age": 34,
+  "dateOfBirthStr": "1991-08-28T00:00Z",
+  "dateOfBirth": "1991-08-28T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "TGJ Gruijters",
+  "fieldingName": "Gruijters",
+  "country": 15,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/348092"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/15"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2405"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2406"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2407"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2408"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/364300.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/15.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NED",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/15"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/364300/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/442229/events/441782"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440573/events/441782"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/543850/events/546463"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/546490/events/546463"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/532912/events/546463"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/546490/events/516847"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/504772/events/516847"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/523801/events/516847"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/442229/events/441782"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440573/events/441782"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/537231/events/538734"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/538727/events/538734"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/538728/events/538734"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/364300.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

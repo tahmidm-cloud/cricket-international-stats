@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/941",
+  "id": "941",
+  "uid": "s:200~t:941",
+  "location": "England",
+  "name": "England Cricket Board XI",
+  "nickname": "England Cricket Board XI",
+  "abbreviation": "ECBXI",
+  "displayName": "England Cricket Board XI",
+  "shortDisplayName": "ECBXI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "england-cricket-board-xi",
+  "classes": [
+    5
+  ],
+  "event": {
+    "date": "2018-06-17T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18701/events/1145668"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/941/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/941/england-cricket-board-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/941/england-cricket-board-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

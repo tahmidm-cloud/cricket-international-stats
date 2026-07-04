@@ -1,0 +1,125 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/51644",
+  "id": "51644",
+  "guid": "7cc75a4c-fcfa-8dee-b262-2d837908397a",
+  "uid": "s:200~a:51644",
+  "type": "cricket",
+  "name": "Frank de Caires",
+  "firstName": "Frank",
+  "middleName": "",
+  "lastName": "Caires",
+  "shortName": "de Caires",
+  "fullName": "Francis Ignatius de Caires",
+  "displayName": "Frank de Caires",
+  "weight": 0,
+  "height": 0,
+  "age": 49,
+  "dateOfBirthStr": "1909-05-12T00:00Z",
+  "dateOfBirth": "1909-05-12T00:00Z",
+  "dateOfDeathStr": "1959-02-02T00:00Z",
+  "dateOfDeath": "1959-02-02T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm bowler",
+      "shortDescription": "Rab",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm bowler",
+      "shortDescription": "Rab",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "FI de Caires",
+  "fieldingName": "de Caires",
+  "country": 4,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1115195"
+      },
+      "relation": "Great-grandson"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3742"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/51644/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60313/events/62576"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61749/events/62576"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/51644.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

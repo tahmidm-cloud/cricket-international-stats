@@ -1,0 +1,144 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1159641",
+  "id": "1159641",
+  "guid": "f1b88b4e-f3f7-12dd-31b4-8a89f4cf32b8",
+  "uid": "s:200~a:1159641",
+  "type": "cricket",
+  "name": "Monank Patel",
+  "firstName": "Monank",
+  "middleName": "",
+  "lastName": "Patel",
+  "shortName": "Patel",
+  "fullName": "Monank Dilipbhai Patel",
+  "displayName": "Monank Patel",
+  "weight": 0,
+  "height": 0.0,
+  "age": 33,
+  "dateOfBirthStr": "1993-05-01T00:00Z",
+  "dateOfBirth": "1993-05-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "MD Patel",
+  "fieldingName": "Patel",
+  "country": 11,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/11"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1734"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1735"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1328788"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1381355"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1344977"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1133698"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/1159641.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/11.png",
+    "width": 500,
+    "height": 500,
+    "alt": "USA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/11"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1159641/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1174815/events/1174844"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1174826/events/1174844"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1174827/events/1174844"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1177480/events/1177484"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1177479/events/1177484"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1161262/events/1161271"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1161260/events/1161271"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1177480/events/1177484"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1177479/events/1177484"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1159641.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

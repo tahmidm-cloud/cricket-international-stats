@@ -1,0 +1,49 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/940841",
+  "id": "940841",
+  "uid": "s:200~t:940841",
+  "location": "Sri Lanka",
+  "name": "Colombo Commandos",
+  "nickname": "Colombo Commandos",
+  "abbreviation": "COLCO",
+  "displayName": "Colombo Commandos",
+  "shortDisplayName": "COLCO",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "colombo-commandos",
+  "classes": [
+    6
+  ],
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/940841/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/940841/colombo-commandos",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/940841/colombo-commandos",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

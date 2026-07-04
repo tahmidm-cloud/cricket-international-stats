@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/28092",
+  "id": "28092",
+  "guid": "9d8cf9e9-acde-e387-1b44-2b6149957119",
+  "uid": "s:200~a:28092",
+  "type": "cricket",
+  "name": "Dilawar Hussain",
+  "firstName": "Dilawar",
+  "middleName": "",
+  "lastName": "Hussain",
+  "shortName": "",
+  "fullName": "Dilawar Hussain",
+  "displayName": "Dilawar Hussain",
+  "weight": 0,
+  "height": 0.0,
+  "age": 60,
+  "dateOfBirthStr": "1907-03-19T00:00Z",
+  "dateOfBirth": "1907-03-19T00:00Z",
+  "dateOfDeathStr": "1967-08-26T00:00Z",
+  "dateOfDeath": "1967-08-26T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Dilawar Hussain",
+  "fieldingName": "Dilawar Hussain",
+  "country": 6,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/29898"
+      },
+      "relation": "Brother"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/43591"
+      },
+      "relation": "Son"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/42166"
+      },
+      "relation": "Son"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1650"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1955"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1971"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2161"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/28092/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60324/events/62617"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61789/events/62617"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/28092.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

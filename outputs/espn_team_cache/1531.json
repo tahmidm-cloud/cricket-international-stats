@@ -1,0 +1,55 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1531",
+  "id": "1531",
+  "uid": "s:200~t:1531",
+  "location": "India",
+  "name": "Air India",
+  "nickname": "Air India",
+  "abbreviation": "",
+  "displayName": "Air India",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "air-india",
+  "classes": [
+    "14",
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2014-02-18T03:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8702/events/719623"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1531/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1531/air-india",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1531/air-india",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

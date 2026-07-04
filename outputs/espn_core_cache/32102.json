@@ -1,0 +1,144 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/32102",
+  "id": "32102",
+  "guid": "a7eaddcb-2cf7-de6d-d665-dc4c45565748",
+  "uid": "s:200~a:32102",
+  "type": "cricket",
+  "name": "Naman Ojha",
+  "firstName": "Naman",
+  "middleName": "",
+  "lastName": "Ojha",
+  "shortName": "Ojha",
+  "fullName": "Naman Vinaykumar Ojha",
+  "displayName": "Naman Ojha",
+  "weight": 0,
+  "height": 0.0,
+  "age": 42,
+  "dateOfBirthStr": "1983-07-20T00:00Z",
+  "dateOfBirth": "1983-07-20T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "NV Ojha",
+  "fieldingName": "Ojha",
+  "country": 6,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1632"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335975"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1781"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1941"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1392079"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335977"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/628333"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/32102.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/32102/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/895057/events/895777"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/895769/events/895777"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/452140/events/452150"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/452142/events/452150"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/452144/events/452150"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/452142/events/452153"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/452143/events/452153"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/290517/events/290832"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/32102.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

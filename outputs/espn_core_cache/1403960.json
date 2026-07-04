@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1403960",
+  "id": "1403960",
+  "guid": "",
+  "uid": "s:200~a:1403960",
+  "type": "cricket",
+  "name": "Pratik Singh Bais",
+  "firstName": "Pratik",
+  "middleName": "",
+  "lastName": "Bais",
+  "shortName": "",
+  "fullName": "Pratik Singh Bais",
+  "displayName": "Pratik Singh Bais",
+  "weight": 0,
+  "height": 0,
+  "age": 28,
+  "dateOfBirthStr": "1998-02-20T00:00Z",
+  "dateOfBirth": "1998-02-20T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "PS Bais",
+  "fieldingName": "Bais",
+  "country": 114,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/114"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/114.png",
+    "width": 500,
+    "height": 500,
+    "alt": "MEX",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/114"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1403960/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1403276/events/1403297"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1403280/events/1403297"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1403281/events/1403297"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1403276/events/1403297"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1403280/events/1403297"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1403281/events/1403297"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1403960.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

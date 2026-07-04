@@ -1,0 +1,134 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/40565",
+  "id": "40565",
+  "guid": "3fcb2991-d7b0-a910-b453-6a73fb01b830",
+  "uid": "s:200~a:40565",
+  "type": "cricket",
+  "name": "Imtiaz Ahmed",
+  "firstName": "Imtiaz",
+  "middleName": "",
+  "lastName": "Ahmed",
+  "shortName": "",
+  "fullName": "Imtiaz Ahmed",
+  "displayName": "Imtiaz Ahmed",
+  "weight": 0,
+  "height": 0.0,
+  "age": 88,
+  "dateOfBirthStr": "1928-01-05T00:00Z",
+  "dateOfBirth": "1928-01-05T00:00Z",
+  "dateOfDeathStr": "2016-12-31T00:00Z",
+  "dateOfDeath": "2016-12-31T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "Imtiaz Ahmed",
+  "fieldingName": "Imtiaz Ahmed",
+  "country": 7,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/338942"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1971"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2937"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2012"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2119"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/7.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAK",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/40565/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60355/events/62741"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61529/events/62741"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/40565.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

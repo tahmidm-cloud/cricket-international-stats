@@ -1,0 +1,130 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/307242",
+  "id": "307242",
+  "guid": "058f00de-3826-fad0-5dc5-0e796f0b3f93",
+  "uid": "s:200~a:307242",
+  "type": "cricket",
+  "name": "Roderick Mitchell",
+  "firstName": "Roderick",
+  "middleName": "",
+  "lastName": "Mitchell",
+  "shortName": "Mitchell",
+  "fullName": "Roderick P Mitchell",
+  "displayName": "Roderick Mitchell",
+  "weight": 0,
+  "height": 0.0,
+  "age": 37,
+  "dateOfBirthStr": "1989-06-25T00:00Z",
+  "dateOfBirth": "1989-06-25T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "RP Mitchell",
+  "fieldingName": "Mitchell",
+  "country": 60,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/60"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/304300"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/60.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BHM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/60"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/307242/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1286661/events/1286668"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1286662/events/1286668"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1286658/events/1286668"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1286658/events/1286668"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1286661/events/1286668"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1286662/events/1286668"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/307242.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

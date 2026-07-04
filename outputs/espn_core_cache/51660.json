@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/51660",
+  "id": "51660",
+  "guid": "e8578934-6d5e-9520-bf02-47360883483d",
+  "uid": "s:200~a:51660",
+  "type": "cricket",
+  "name": "Travis Dowlin",
+  "firstName": "Travis",
+  "middleName": "",
+  "lastName": "Dowlin",
+  "shortName": "Dowlin",
+  "fullName": "Travis Montague Dowlin",
+  "displayName": "Travis Dowlin",
+  "weight": 0,
+  "height": 0.0,
+  "age": 49,
+  "dateOfBirthStr": "1977-02-24T00:00Z",
+  "dateOfBirth": "1977-02-24T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT",
+    "id": "BT",
+    "name": "Batter",
+    "abbreviation": "BT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT"
+    }
+  },
+  "battingName": "TM Dowlin",
+  "fieldingName": "Dowlin",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3742"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/354385"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3800"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/51660.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/51660/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/380896/events/401071"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/401067/events/401071"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/380896/events/401073"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/401066/events/401073"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/380896/events/401076"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/401064/events/401076"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/228881/events/252981"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/51660.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

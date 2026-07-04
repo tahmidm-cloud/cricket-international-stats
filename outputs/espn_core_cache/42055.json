@@ -1,0 +1,130 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/42055",
+  "id": "42055",
+  "guid": "29f77d65-9950-bd62-f439-c255258266f5",
+  "uid": "s:200~a:42055",
+  "type": "cricket",
+  "name": "Naseer Malik",
+  "firstName": "Naseer",
+  "middleName": "",
+  "lastName": "Malik",
+  "shortName": "",
+  "fullName": "Naseer Ahmed Malik",
+  "displayName": "Naseer Malik",
+  "weight": 0,
+  "height": 0,
+  "age": 49,
+  "dateOfBirthStr": "1950-02-01T00:00Z",
+  "dateOfBirth": "1950-02-01T00:00Z",
+  "dateOfDeathStr": "1999-08-01T00:00Z",
+  "dateOfDeath": "1999-08-01T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Naseer Malik",
+  "fieldingName": "Naseer Malik",
+  "country": 7,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2773"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2820"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2918"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3101"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/7.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAK",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/42055/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60793/events/65037"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61351/events/65037"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61450/events/65037"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/42055.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

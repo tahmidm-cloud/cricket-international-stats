@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1325905",
+  "id": "1325905",
+  "guid": "96b63eb9-23b0-3e28-a49e-d13085907333",
+  "uid": "s:200~a:1325905",
+  "type": "cricket",
+  "name": "Nouman Butt",
+  "firstName": "Nouman",
+  "middleName": "",
+  "lastName": "Butt",
+  "shortName": "",
+  "fullName": "Nouman Shehzad Butt",
+  "displayName": "Nouman Butt",
+  "weight": 0,
+  "height": 0,
+  "age": 41,
+  "dateOfBirthStr": "1985-04-14T00:00Z",
+  "dateOfBirth": "1985-04-14T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Nouman Butt",
+  "fieldingName": "Nouman Butt",
+  "country": 124,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/124"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/124.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NOR",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/124"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1325905/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1370766/events/1370782"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1370768/events/1370782"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1370766/events/1370782"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1370768/events/1370782"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1325905.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

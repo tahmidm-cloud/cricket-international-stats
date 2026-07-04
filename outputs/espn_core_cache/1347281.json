@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1347281",
+  "id": "1347281",
+  "guid": "",
+  "uid": "s:200~a:1347281",
+  "type": "cricket",
+  "name": "Phumlani Sibiya",
+  "firstName": "Phumlani",
+  "middleName": "",
+  "lastName": "Sibiya",
+  "shortName": "",
+  "fullName": "Phumlani Sibiya",
+  "displayName": "Phumlani Sibiya",
+  "weight": 0,
+  "height": 0,
+  "age": 35,
+  "dateOfBirthStr": "1991-02-13T00:00Z",
+  "dateOfBirth": "1991-02-13T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "P Sibiya",
+  "fieldingName": "Sibiya",
+  "country": 300710,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/300710"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/300710.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SWZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/300710"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1347281/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343723/events/1343769"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343728/events/1343769"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343729/events/1343769"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343729/events/1343769"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343723/events/1343769"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343728/events/1343769"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1347281.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

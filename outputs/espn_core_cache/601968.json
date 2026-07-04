@@ -1,0 +1,152 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/601968",
+  "id": "601968",
+  "guid": "029efbff-a9b4-a11d-a388-2032a43e426e",
+  "uid": "s:200~a:601968",
+  "type": "cricket",
+  "name": "Tagenarine Chanderpaul",
+  "firstName": "Tagenarine",
+  "middleName": "",
+  "lastName": "Chanderpaul",
+  "shortName": "",
+  "fullName": "Tagenarine Chanderpaul",
+  "displayName": "Tagenarine Chanderpaul",
+  "weight": 0,
+  "height": 0.0,
+  "age": 30,
+  "dateOfBirthStr": "1996-05-31T00:00Z",
+  "dateOfBirth": "1996-05-31T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "T Chanderpaul",
+  "fieldingName": "Chanderpaul",
+  "country": 4,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/51469"
+      },
+      "relation": "Father"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/18631"
+      },
+      "relation": "Uncle"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3742"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3746"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3812"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/601968.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/601968/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1349486/events/1317484"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1317465/events/1317484"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1268315/events/1317484"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/592834/events/592846"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/805715/events/805721"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/669961/events/669985"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/669981/events/669985"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/601968.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

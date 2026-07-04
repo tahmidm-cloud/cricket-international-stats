@@ -1,0 +1,160 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1050545",
+  "id": "1050545",
+  "guid": "d262808a-cabd-e8f4-5d5f-d3dabb275908",
+  "uid": "s:200~a:1050545",
+  "type": "cricket",
+  "name": "Xavier Bartlett",
+  "firstName": "Xavier",
+  "middleName": "",
+  "lastName": "Bartlett",
+  "shortName": "Bartlett",
+  "fullName": "Xavier Colin Bartlett",
+  "displayName": "Xavier Bartlett",
+  "weight": 0,
+  "height": 0.0,
+  "age": 27,
+  "dateOfBirthStr": "1998-12-17T00:00Z",
+  "dateOfBirth": "1998-12-17T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "XC Bartlett",
+  "fieldingName": "Bartlett",
+  "country": 2,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/233"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509668"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335973"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/459"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/460"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1381357"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1050545/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1375839/events/1375847"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1375837/events/1375847"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1375841/events/1375852"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1375837/events/1375852"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1196060/events/1196118"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1022329/events/1012763"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1012739/events/1012763"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1226769/events/1226872"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1116872/events/1116899"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1116882/events/1116899"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1116883/events/1116899"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1050545.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

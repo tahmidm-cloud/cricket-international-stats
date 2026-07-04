@@ -1,0 +1,160 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1356971",
+  "id": "1356971",
+  "guid": "428d6e3a-3665-30bf-b83d-bef47bc2a859",
+  "uid": "s:200~a:1356971",
+  "type": "cricket",
+  "name": "Shamar Joseph",
+  "firstName": "Shamar",
+  "middleName": "",
+  "lastName": "Joseph",
+  "shortName": "Shamar Joseph",
+  "fullName": "Shamar Joseph",
+  "displayName": "Shamar Joseph",
+  "weight": 0,
+  "height": 0.0,
+  "age": 26,
+  "dateOfBirthStr": "1999-08-31T00:00Z",
+  "dateOfBirth": "1999-08-31T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "S Joseph",
+  "fieldingName": "Joseph",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1346029"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1335272"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3742"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/642413"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/953843"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1298768"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/953833"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1356971/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1345943/events/1375845"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1375837/events/1375845"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1375838/events/1375845"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1433355/events/1433371"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1433354/events/1433371"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1433351/events/1433362"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1433350/events/1433362"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1356625/events/1356627"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1401765/events/1401784"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1369538/events/1369587"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1356971.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

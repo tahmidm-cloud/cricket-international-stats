@@ -1,0 +1,63 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1200533",
+  "id": "1200533",
+  "uid": "s:200~t:1200533",
+  "location": "Pakistan",
+  "name": "Southern Punjab 2nd XI (Pakistan)",
+  "nickname": "Southern Punjab 2nd XI (Pakistan)",
+  "abbreviation": "SP-2",
+  "displayName": "Southern Punjab 2nd XI (Pakistan)",
+  "shortDisplayName": "SP-2",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "PK",
+  "slug": "southern-punjab-2nd-xi-pakistan",
+  "classes": [
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2022-12-29T05:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20341/events/1349426"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1200533.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1200533/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1200533/southern-punjab-2nd-xi-pakistan",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1200533/southern-punjab-2nd-xi-pakistan",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

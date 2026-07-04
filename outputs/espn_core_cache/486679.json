@@ -1,0 +1,157 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/486679",
+  "id": "486679",
+  "guid": "949757fe-e69c-f06c-479b-07514af03112",
+  "uid": "s:200~a:486679",
+  "type": "cricket",
+  "name": "Duanne Olivier",
+  "firstName": "Duanne",
+  "middleName": "",
+  "lastName": "Olivier",
+  "shortName": "Olivier",
+  "fullName": "Duanne Olivier",
+  "displayName": "Duanne Olivier",
+  "weight": 0,
+  "height": 0.0,
+  "age": 34,
+  "dateOfBirthStr": "1992-05-09T00:00Z",
+  "dateOfBirth": "1992-05-09T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "D Olivier",
+  "fieldingName": "Olivier",
+  "country": 3,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3222"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1238374"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1162631"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3202"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3270"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3324"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1464"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/486679.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/486679/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/936121/events/936151"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/936119/events/936151"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1144139/events/1144156"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1144137/events/1144156"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/469551/events/469645"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/469538/events/469736"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/528285/events/529820"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/492514/events/492542"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/492515/events/492542"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/486679.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

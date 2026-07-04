@@ -1,0 +1,142 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1027779",
+  "id": "1027779",
+  "guid": "ae8472b0-f6eb-6724-fe84-a386e1aa0658",
+  "uid": "s:200~a:1027779",
+  "type": "cricket",
+  "name": "Christopher McBride",
+  "firstName": "Christopher",
+  "middleName": "",
+  "lastName": "McBride",
+  "shortName": "McBride",
+  "fullName": "Christopher M McBride",
+  "displayName": "Christopher McBride",
+  "weight": 0,
+  "height": 0.0,
+  "age": 27,
+  "dateOfBirthStr": "1999-06-26T00:00Z",
+  "dateOfBirth": "1999-06-26T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "CM McBride",
+  "fieldingName": "McBride",
+  "country": 30,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/925"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/30.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SCOT",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1027779/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1308239/events/1308248"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1308243/events/1308248"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1196667/events/1308248"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1485936/events/1485938"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1485935/events/1485938"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1196667/events/1308248"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1308239/events/1308248"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1308243/events/1308248"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1485935/events/1485938"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1485936/events/1485938"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1027779.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

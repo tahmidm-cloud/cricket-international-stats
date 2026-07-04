@@ -1,0 +1,55 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3022",
+  "id": "3022",
+  "uid": "s:200~t:3022",
+  "location": "Pakistan",
+  "name": "Punjab (Pakistan)",
+  "nickname": "Punjab (Pakistan)",
+  "abbreviation": "PNJB",
+  "displayName": "Punjab (Pakistan)",
+  "shortDisplayName": "PNJB",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "PK",
+  "slug": "punjab-pakistan",
+  "classes": [
+    4,
+    5,
+    6
+  ],
+  "event": {
+    "date": "2019-04-11T09:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/17924/events/1178887"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3022/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3022/punjab-pakistan",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3022/punjab-pakistan",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

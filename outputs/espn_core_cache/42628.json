@@ -1,0 +1,154 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/42628",
+  "id": "42628",
+  "guid": "471897e0-d31d-7a7a-1042-4401e8b29255",
+  "uid": "s:200~a:42628",
+  "type": "cricket",
+  "name": "Saqlain Mushtaq",
+  "firstName": "Saqlain",
+  "middleName": "",
+  "lastName": "Mushtaq",
+  "shortName": "",
+  "fullName": "Saqlain Mushtaq",
+  "displayName": "Saqlain Mushtaq",
+  "weight": 0,
+  "height": 0.0,
+  "age": 49,
+  "dateOfBirthStr": "1976-12-29T00:00Z",
+  "dateOfBirth": "1976-12-29T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "Saqlain Mushtaq",
+  "fieldingName": "Saqlain Mushtaq",
+  "country": 7,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/29"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2761"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/340365"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3010"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1358"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1371"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/42628.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/7.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAK",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/42628/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61635/events/63690"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60621/events/63690"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61635/events/64497"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60973/events/64497"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/124121/events/129926"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326802/events/326803"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326800/events/326803"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326609/events/326616"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326610/events/326616"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/42628.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

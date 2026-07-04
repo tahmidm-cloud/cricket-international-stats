@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1437340",
+  "id": "1437340",
+  "guid": "9233d9f4-a304-3ffb-9de9-591c5284e0e8",
+  "uid": "s:200~a:1437340",
+  "type": "cricket",
+  "name": "Yarden Divekar",
+  "firstName": "Yarden",
+  "middleName": "",
+  "lastName": "Divekar",
+  "shortName": "Divekar",
+  "fullName": "Yarden Divekar",
+  "displayName": "Yarden Divekar",
+  "weight": 0,
+  "height": 0.0,
+  "age": 29,
+  "dateOfBirthStr": "1996-11-08T00:00Z",
+  "dateOfBirth": "1996-11-08T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Y Divekar",
+  "fieldingName": "Divekar",
+  "country": 22,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/22"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/22.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ISR",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/22"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1437340/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1436461/events/1436475"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1436468/events/1436475"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1436449/events/1436475"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1436449/events/1436475"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1436461/events/1436475"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1436468/events/1436475"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1437340.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

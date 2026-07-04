@@ -1,0 +1,111 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1046637",
+  "id": "1046637",
+  "guid": "b5d8eff0-0916-69a0-2dd6-5cbbac269e43",
+  "uid": "s:200~a:1046637",
+  "type": "cricket",
+  "name": "Awais Ahmed",
+  "firstName": "Awais",
+  "middleName": "",
+  "lastName": "Ahmed",
+  "shortName": "",
+  "fullName": "Awais Ahmed",
+  "displayName": "Awais Ahmed",
+  "weight": 0,
+  "height": 0.0,
+  "age": 35,
+  "dateOfBirthStr": "1991-05-02T00:00Z",
+  "dateOfBirth": "1991-05-02T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Awais Ahmed",
+  "fieldingName": "Awais Ahmed",
+  "country": 149,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/149"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/149.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ESP",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/149"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1046637/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1175337/events/1175344"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1175339/events/1175344"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1175337/events/1175344"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1175339/events/1175344"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1046637.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

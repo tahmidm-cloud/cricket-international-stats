@@ -1,0 +1,86 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/149",
+  "id": "149",
+  "uid": "s:200~t:149",
+  "location": "Spain",
+  "name": "Spain",
+  "nickname": "Spain",
+  "abbreviation": "ESP",
+  "displayName": "Spain",
+  "shortDisplayName": "ESP",
+  "isNational": true,
+  "isActive": true,
+  "countryCode": "ES",
+  "slug": "spain",
+  "classes": [
+    "3",
+    "16"
+  ],
+  "event": {
+    "date": "2025-12-07T09:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/24069/events/1514476"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/149.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/149/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/149/spain",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/149/spain",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=200;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "players",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/country.html?country=200",
+      "text": "Players",
+      "shortText": "Players",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

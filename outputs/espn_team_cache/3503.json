@@ -1,0 +1,68 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3503",
+  "id": "3503",
+  "uid": "s:200~t:3503",
+  "location": "Sri Lanka",
+  "name": "Chilaw Marians Cricket Club",
+  "nickname": "Chilaw Marians Cricket Club",
+  "abbreviation": "CHLM",
+  "displayName": "Chilaw Marians Cricket Club",
+  "shortDisplayName": "CHLM",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "chilaw-marians-cricket-club",
+  "classes": [
+    4,
+    5,
+    6,
+    14,
+    15
+  ],
+  "event": {
+    "date": "2026-02-05T04:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20978/events/1511685"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20978"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3503.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3503/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3503/chilaw-marians-cricket-club",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3503/chilaw-marians-cricket-club",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

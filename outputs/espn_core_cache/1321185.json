@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1321185",
+  "id": "1321185",
+  "guid": "bf9ad5bd-2814-3d42-93d5-9af77be4263f",
+  "uid": "s:200~a:1321185",
+  "type": "cricket",
+  "name": "Kuldeep Gholiya",
+  "firstName": "Kuldeep",
+  "middleName": "",
+  "lastName": "Gholiya",
+  "shortName": "Kuldeep",
+  "fullName": "Kuldeep Gholiya",
+  "displayName": "Kuldeep Gholiya",
+  "weight": 0,
+  "height": 0.0,
+  "age": 36,
+  "dateOfBirthStr": "1990-02-04T00:00Z",
+  "dateOfBirth": "1990-02-04T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Kuldeep",
+  "fieldingName": "Kuldeep",
+  "country": 134,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/134"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/134.png",
+    "width": 500,
+    "height": 500,
+    "alt": "POR",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/134"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1321185/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1320959/events/1320972"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1320967/events/1320972"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1320968/events/1320972"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1320959/events/1320972"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1320967/events/1320972"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1320968/events/1320972"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1321185.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

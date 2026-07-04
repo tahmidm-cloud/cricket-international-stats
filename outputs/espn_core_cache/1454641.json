@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1454641",
+  "id": "1454641",
+  "guid": "98dc9129-628d-3a49-be26-f1cfc3685a25",
+  "uid": "s:200~a:1454641",
+  "type": "cricket",
+  "name": "Yusuf Kachhalia",
+  "firstName": "Yusuf",
+  "middleName": "",
+  "lastName": "Kachhalia",
+  "shortName": "Kachhalia",
+  "fullName": "Yusuf Ibrahim Kachhalia",
+  "displayName": "Yusuf Kachhalia",
+  "weight": 0,
+  "height": 0.0,
+  "age": 30,
+  "dateOfBirthStr": "1995-08-15T00:00Z",
+  "dateOfBirth": "1995-08-15T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "YI Kachhalia",
+  "fieldingName": "Kachhalia",
+  "country": 132,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/132"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/132.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/132"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1454641/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1462863/events/1462877"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1462864/events/1462877"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1462861/events/1462877"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1462861/events/1462877"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1462863/events/1462877"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1462864/events/1462877"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1454641.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1082768",
+  "id": "1082768",
+  "guid": "c96d6647-b41a-2123-b08b-0a48b543cdd1",
+  "uid": "s:200~a:1082768",
+  "type": "cricket",
+  "name": "Kuldeep Singh",
+  "firstName": "Kuldeep",
+  "middleName": "",
+  "lastName": "Singh",
+  "shortName": "",
+  "fullName": "Kuldeep Singh",
+  "displayName": "Kuldeep Singh",
+  "weight": 0,
+  "height": 0.0,
+  "age": 28,
+  "dateOfBirthStr": "1997-09-25T00:00Z",
+  "dateOfBirth": "1997-09-25T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [],
+  "styles": [],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "Kuldeep Singh",
+  "fieldingName": "Kuldeep Singh",
+  "country": 128,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/128"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/128.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PHI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/128"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1082768/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1176786/events/1176792"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1176790/events/1176792"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1176786/events/1176792"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1176790/events/1176792"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1082768.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1310708",
+  "id": "1310708",
+  "guid": "c35c29e7-d938-381d-a998-f28b29bea95b",
+  "uid": "s:200~a:1310708",
+  "type": "cricket",
+  "name": "Patrick Heron",
+  "firstName": "Patrick",
+  "middleName": "",
+  "lastName": "Heron",
+  "shortName": "Heron",
+  "fullName": "Patrick Heron",
+  "displayName": "Patrick Heron",
+  "weight": 0,
+  "height": 0.0,
+  "age": 29,
+  "dateOfBirthStr": "1996-09-29T00:00Z",
+  "dateOfBirth": "1996-09-29T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "P Heron",
+  "fieldingName": "Heron",
+  "country": 39,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/39"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1494147"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/39.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CAY",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/39"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1310708/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1310138/events/1310156"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1310139/events/1310156"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1310138/events/1310156"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1310139/events/1310156"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1310708.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

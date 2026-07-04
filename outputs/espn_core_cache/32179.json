@@ -1,0 +1,129 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/32179",
+  "id": "32179",
+  "guid": "d302673f-500e-5fdf-3350-5d5942717660",
+  "uid": "s:200~a:32179",
+  "type": "cricket",
+  "name": "Chandrakant Pandit",
+  "firstName": "Chandrakant",
+  "middleName": "",
+  "lastName": "Pandit",
+  "shortName": "Pandit",
+  "fullName": "Chandrakant Sitaram Pandit",
+  "displayName": "Chandrakant Pandit",
+  "weight": 0,
+  "height": 0.0,
+  "age": 64,
+  "dateOfBirthStr": "1961-09-30T00:00Z",
+  "dateOfBirth": "1961-09-30T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "CS Pandit",
+  "fieldingName": "Pandit",
+  "country": 6,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1550"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1941"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1603"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/32179/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62287/events/63433"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60535/events/63433"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62147/events/65812"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62365/events/65812"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60863/events/65812"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325099/events/325101"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325100/events/325101"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/32179.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

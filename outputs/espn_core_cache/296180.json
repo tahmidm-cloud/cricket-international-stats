@@ -1,0 +1,111 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/296180",
+  "id": "296180",
+  "guid": "25a2d62d-571c-43b4-b679-b7f6e92fed62",
+  "uid": "s:200~a:296180",
+  "type": "cricket",
+  "name": "Sekove Ravoka",
+  "firstName": "Sekove",
+  "middleName": "",
+  "lastName": "Ravoka",
+  "shortName": "Ravoka",
+  "fullName": "Sekove Ravoka",
+  "displayName": "Sekove Ravoka",
+  "weight": 0,
+  "height": 0.0,
+  "age": 40,
+  "dateOfBirthStr": "1986-06-27T00:00Z",
+  "dateOfBirth": "1986-06-27T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "S Ravoka",
+  "fieldingName": "Ravoka",
+  "country": 10,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/10"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/10.png",
+    "width": 500,
+    "height": 500,
+    "alt": "Fiji",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/10"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/296180/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1333912/events/1333918"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1333913/events/1333918"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1333912/events/1333918"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1333913/events/1333918"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/296180.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

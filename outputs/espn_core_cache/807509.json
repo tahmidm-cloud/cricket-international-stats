@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/807509",
+  "id": "807509",
+  "guid": "52508901-f388-f99a-3b92-6ca71e2d250e",
+  "uid": "s:200~a:807509",
+  "type": "cricket",
+  "name": "Emmanuel Sebareme",
+  "firstName": "Emmanuel",
+  "middleName": "",
+  "lastName": "Sebareme",
+  "shortName": "Sebareme",
+  "fullName": "Emmanuel Sebareme",
+  "displayName": "Emmanuel Sebareme",
+  "weight": 0,
+  "height": 0.0,
+  "age": 30,
+  "dateOfBirthStr": "1995-12-19T00:00Z",
+  "dateOfBirth": "1995-12-19T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BLA",
+    "id": "BLA",
+    "name": "Bowling allrounder",
+    "abbreviation": "BLA",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BLA"
+    }
+  },
+  "battingName": "E Sebareme",
+  "fieldingName": "Sebareme",
+  "country": 140,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/815933"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3321"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3357"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3366"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/140.png",
+    "width": 500,
+    "height": 500,
+    "alt": "RWN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/140"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/807509/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1282997/events/1283021"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1283004/events/1283021"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/783823/events/783939"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/783841/events/784035"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/864677/events/903731"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/903717/events/903731"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/807509.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

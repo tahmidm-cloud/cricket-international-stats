@@ -1,0 +1,74 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/642415",
+  "id": "642415",
+  "uid": "s:200~t:642415",
+  "location": "West Indies",
+  "name": "Jamaica Tallawahs",
+  "nickname": "Jamaica Tallawahs",
+  "abbreviation": "JT",
+  "displayName": "Jamaica Tallawahs",
+  "shortDisplayName": "JT",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "jamaica-tallawahs",
+  "classes": [
+    6,
+    16
+  ],
+  "event": {
+    "date": "2023-09-22T23:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8623/events/1369590"
+  },
+  "color": "#e6de05",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/642415.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/642415/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/642415/jamaica-tallawahs",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/642415/jamaica-tallawahs",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "videos",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/current/video_audio/index.html?object=642415",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

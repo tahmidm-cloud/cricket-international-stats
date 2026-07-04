@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1174143",
+  "id": "1174143",
+  "guid": "55b54ad1-1cb8-aea9-4195-560c7a25af4a",
+  "uid": "s:200~a:1174143",
+  "type": "cricket",
+  "name": "Rafiullah",
+  "firstName": "Rafiullah",
+  "middleName": "",
+  "lastName": "Rafiullah",
+  "shortName": "Rafiullah",
+  "fullName": "Rafiullah",
+  "displayName": "Rafiullah",
+  "weight": 0,
+  "height": 0.0,
+  "age": 29,
+  "dateOfBirthStr": "1996-08-16T00:00Z",
+  "dateOfBirth": "1996-08-16T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "Rafiullah",
+  "fieldingName": "Rafiullah",
+  "country": 37,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/37"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1172502"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/37.png",
+    "width": 500,
+    "height": 500,
+    "alt": "OMA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/37"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1174143/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1344775/events/1344782"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1344774/events/1344782"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1386989/events/1387005"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1386987/events/1387005"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1386983/events/1387005"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1344775/events/1344782"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1344774/events/1344782"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1174143.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

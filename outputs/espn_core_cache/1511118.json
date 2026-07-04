@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1511118",
+  "id": "1511118",
+  "guid": "0913c777-a16b-3830-972d-b2a7f0ade1d6",
+  "uid": "s:200~a:1511118",
+  "type": "cricket",
+  "name": "Shafiq Jan",
+  "firstName": "Shafiq",
+  "middleName": "",
+  "lastName": "Jan",
+  "shortName": "Shafiq Jan",
+  "fullName": "Shafiq Jan",
+  "displayName": "Shafiq Jan",
+  "weight": 0,
+  "height": 0.0,
+  "age": 32,
+  "dateOfBirthStr": "1994-02-02T00:00Z",
+  "dateOfBirth": "1994-02-02T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "Shafiq Jan",
+  "fieldingName": "Shafiq Jan",
+  "country": 37,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/37"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/37.png",
+    "width": 500,
+    "height": 500,
+    "alt": "OMA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/37"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1511118/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1509844/events/1509859"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1509846/events/1509859"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1509850/events/1509859"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1509846/events/1509855"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1509847/events/1509855"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1509844/events/1509855"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1511118.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

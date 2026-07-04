@@ -1,0 +1,169 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/446101",
+  "id": "446101",
+  "guid": "d4d7e9f9-89e2-e62a-0a96-ff43340ab61f",
+  "uid": "s:200~a:446101",
+  "type": "cricket",
+  "name": "Shannon Gabriel",
+  "firstName": "Shannon",
+  "middleName": "",
+  "lastName": "Gabriel",
+  "shortName": "Gabriel",
+  "fullName": "Shannon Terry Gabriel",
+  "displayName": "Shannon Gabriel",
+  "weight": 0,
+  "height": 0.0,
+  "age": 38,
+  "dateOfBirthStr": "1988-04-28T00:00Z",
+  "dateOfBirth": "1988-04-28T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "ST Gabriel",
+  "fieldingName": "Gabriel",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204576"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/642411"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1034"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/473930"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/642417"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3790"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/642421"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3791"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/527123"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3800"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1458"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/446101.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/446101/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/534184/events/534205"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/534187/events/534205"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/932869/events/932863"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/932847/events/932863"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/593977/events/593987"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/593978/events/593987"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/439586/events/439597"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/477411/events/477434"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/412734/events/452650"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/446101.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38965",
+  "id": "38965",
+  "guid": "4a3b336b-28d0-8d61-dfbf-26a8ea0d9842",
+  "uid": "s:200~a:38965",
+  "type": "cricket",
+  "name": "Aamer Malik",
+  "firstName": "Aamer",
+  "middleName": "",
+  "lastName": "Malik",
+  "shortName": "",
+  "fullName": "Aamer Malik",
+  "displayName": "Aamer Malik",
+  "weight": 0,
+  "height": 0.0,
+  "age": 63,
+  "dateOfBirthStr": "1963-01-03T00:00Z",
+  "dateOfBirth": "1963-01-03T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "Aamer Malik",
+  "fieldingName": "Aamer Malik",
+  "country": 7,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3138"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2833"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3010"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3028"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/7.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAK",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38965/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61761/events/63471"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60546/events/63471"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61494/events/64327"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60883/events/64327"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324075/events/324082"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324077/events/324082"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324076/events/324097"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324075/events/324097"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/38965.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1126002",
+  "id": "1126002",
+  "guid": "e50c0d60-1e07-c623-ce87-7bc42f7281ac",
+  "uid": "s:200~a:1126002",
+  "type": "cricket",
+  "name": "Fahad Nawaz",
+  "firstName": "Fahad",
+  "middleName": "",
+  "lastName": "Nawaz",
+  "shortName": "",
+  "fullName": "Fahad Nawaz",
+  "displayName": "Fahad Nawaz",
+  "weight": 0,
+  "height": 0.0,
+  "age": 26,
+  "dateOfBirthStr": "2000-01-15T00:00Z",
+  "dateOfBirth": "2000-01-15T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "Fahad Nawaz",
+  "fieldingName": "Fahad Nawaz",
+  "country": 27,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1346027"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1501377"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3675"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/1126002.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/27.png",
+    "width": 500,
+    "height": 500,
+    "alt": "UAE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1126002/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1170452/events/1170454"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1170451/events/1170454"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1298134/events/1298144"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1333753/events/1298144"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1333759/events/1298144"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1170451/events/1170454"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1170452/events/1170454"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1333759/events/1298144"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1333753/events/1298144"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1298134/events/1298144"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1126002.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

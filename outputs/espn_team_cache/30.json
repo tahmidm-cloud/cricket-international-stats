@@ -1,0 +1,107 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30",
+  "id": "30",
+  "uid": "s:200~t:30",
+  "location": "Scotland",
+  "name": "Scotland",
+  "nickname": "Scotland",
+  "abbreviation": "SCOT",
+  "displayName": "Scotland",
+  "shortDisplayName": "SCOT",
+  "isNational": true,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "scotland",
+  "classes": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2026-05-20T03:45Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19439/events/1531706"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8604"
+  },
+  "color": "#90d091",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/30.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/30/scotland",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/30/scotland",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=30;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "players",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/country.html?country=30",
+      "text": "Players",
+      "shortText": "Players",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "videos",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/current/video_audio/index.html?object=30",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

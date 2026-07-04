@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1628",
+  "id": "1628",
+  "uid": "s:200~t:1628",
+  "location": "India",
+  "name": "Cricket Club of India",
+  "nickname": "Cricket Club of India",
+  "abbreviation": "CCInd",
+  "displayName": "Cricket Club of India",
+  "shortDisplayName": "CCInd",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "cricket-club-of-india",
+  "classes": [
+    4,
+    16
+  ],
+  "event": {
+    "date": "2014-08-24T03:45Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8865/events/769471"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1628/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1628/cricket-club-of-india",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1628/cricket-club-of-india",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

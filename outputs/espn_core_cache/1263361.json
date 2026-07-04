@@ -1,0 +1,154 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1263361",
+  "id": "1263361",
+  "guid": "ee36e727-2fbc-3c78-91a2-0da1a0992d51",
+  "uid": "s:200~a:1263361",
+  "type": "cricket",
+  "name": "Matthew Humphreys",
+  "firstName": "Matthew",
+  "middleName": "",
+  "lastName": "Humphreys",
+  "shortName": "Humphreys",
+  "fullName": "Matthew James Humphreys",
+  "displayName": "Matthew Humphreys",
+  "weight": 0,
+  "height": 0.0,
+  "age": 23,
+  "dateOfBirthStr": "2002-09-28T00:00Z",
+  "dateOfBirth": "2002-09-28T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "MJ Humphreys",
+  "fieldingName": "Humphreys",
+  "country": 29,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/29"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2230"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1007379"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/29.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IRE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/29"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1263361/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1363445/events/1363448"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1363446/events/1363448"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1355711/events/1355718"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1355710/events/1355718"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1355712/events/1355722"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1355710/events/1355722"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1363446/events/1363448"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1363445/events/1363448"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1305418/events/1305423"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1305419/events/1305434"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1295657/events/1295658"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1295079/events/1295658"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1295071/events/1295658"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1263361.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

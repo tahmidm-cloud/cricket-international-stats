@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/649437",
+  "id": "649437",
+  "guid": "1caf38a4-1e9d-be08-e04b-dbf4af1c8b44",
+  "uid": "s:200~a:649437",
+  "type": "cricket",
+  "name": "Charles Harrison",
+  "firstName": "Charles",
+  "middleName": "",
+  "lastName": "Harrison",
+  "shortName": "Harrison",
+  "fullName": "Charles V Harrison",
+  "displayName": "Charles Harrison",
+  "weight": 0,
+  "height": 0.0,
+  "age": 42,
+  "dateOfBirthStr": "1983-12-29T00:00Z",
+  "dateOfBirth": "1983-12-29T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "CV Harrison",
+  "fieldingName": "Harrison",
+  "country": 18,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/18"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/18.png",
+    "width": 500,
+    "height": 500,
+    "alt": "GIBR",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/18"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/649437/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1272979/events/1273136"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1272980/events/1273136"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1272981/events/1273136"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1272979/events/1273136"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1272980/events/1273136"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1272981/events/1273136"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/649437.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

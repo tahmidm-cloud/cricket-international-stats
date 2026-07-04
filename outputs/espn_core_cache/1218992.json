@@ -1,0 +1,145 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1218992",
+  "id": "1218992",
+  "guid": "41601709-292b-3568-9f58-ce4d3c9c66f2",
+  "uid": "s:200~a:1218992",
+  "type": "cricket",
+  "name": "Gerhard Janse van Rensburg",
+  "firstName": "Gerhard",
+  "middleName": "",
+  "lastName": "Rensburg",
+  "shortName": "van Rensburg",
+  "fullName": "Gerhard Janse van Rensburg",
+  "displayName": "Gerhard Janse van Rensburg",
+  "weight": 0,
+  "height": 0.0,
+  "age": 21,
+  "dateOfBirthStr": "2004-11-15T00:00Z",
+  "dateOfBirth": "2004-11-15T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "GJ van Rensburg",
+  "fieldingName": "van Rensburg",
+  "country": 28,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/28"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1219136"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1219134"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2317"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/28.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NAM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/28"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1218992/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1424737/events/1424757"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1424743/events/1424757"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1424747/events/1424757"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1424737/events/1424757"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1424743/events/1424757"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1424747/events/1424757"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1413222/events/1399732"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1413228/events/1399732"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1399722/events/1399732"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1218992.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

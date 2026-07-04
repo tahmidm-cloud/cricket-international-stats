@@ -1,0 +1,137 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24723",
+  "id": "24723",
+  "guid": "5dc2cceb-0f1a-0651-cc84-28528b8039f1",
+  "uid": "s:200~a:24723",
+  "type": "cricket",
+  "name": "Tony Suji",
+  "firstName": "Tony",
+  "middleName": "",
+  "lastName": "Suji",
+  "shortName": "Suji",
+  "fullName": "Otieno Suji Ondik",
+  "displayName": "Tony Suji",
+  "weight": 0,
+  "height": 0.0,
+  "age": 50,
+  "dateOfBirthStr": "1976-02-05T00:00Z",
+  "dateOfBirth": "1976-02-05T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "AO Suji",
+  "fieldingName": "Suji",
+  "country": 26,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24725"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/26"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2288"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/24723.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/26.png",
+    "width": 500,
+    "height": 500,
+    "alt": "KENYA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/26"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24723/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61538/events/66055"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60990/events/66055"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/287839/events/306991"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/306979/events/306991"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/287839/events/306991"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/306979/events/306991"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/24723.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

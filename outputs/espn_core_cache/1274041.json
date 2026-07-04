@@ -1,0 +1,111 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1274041",
+  "id": "1274041",
+  "guid": "c6aca036-a961-300f-a143-991e8b3b176a",
+  "uid": "s:200~a:1274041",
+  "type": "cricket",
+  "name": "Zulfiqar Ali Shah",
+  "firstName": "Zulfiqar",
+  "middleName": "",
+  "lastName": "Shah",
+  "shortName": "",
+  "fullName": "Zulfiqar Ali Shah",
+  "displayName": "Zulfiqar Ali Shah",
+  "weight": 0,
+  "height": 0,
+  "age": 44,
+  "dateOfBirthStr": "1982-06-15T00:00Z",
+  "dateOfBirth": "1982-06-15T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Zulfiqar Ali Shah",
+  "fieldingName": "Zulfiqar Ali Shah",
+  "country": 134,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/134"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/134.png",
+    "width": 500,
+    "height": 500,
+    "alt": "POR",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/134"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1274041/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1272979/events/1273140"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1272980/events/1273140"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1272979/events/1273140"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1272980/events/1273140"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1274041.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

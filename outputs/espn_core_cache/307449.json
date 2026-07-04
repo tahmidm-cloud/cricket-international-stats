@@ -1,0 +1,148 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/307449",
+  "id": "307449",
+  "guid": "64024093-a29c-c88b-e926-6db2c43f3f5f",
+  "uid": "s:200~a:307449",
+  "type": "cricket",
+  "name": "Chris Douglas",
+  "firstName": "Chris",
+  "middleName": "",
+  "lastName": "Douglas",
+  "shortName": "Douglas",
+  "fullName": "Chris Ryan McCallan Douglas",
+  "displayName": "Chris Douglas",
+  "weight": 0,
+  "height": 0.0,
+  "age": 36,
+  "dateOfBirthStr": "1989-11-20T00:00Z",
+  "dateOfBirth": "1989-11-20T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "CRM Douglas",
+  "fieldingName": "Douglas",
+  "country": 12,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/12"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/733"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/12.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BER",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/12"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/307449/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/349898/events/349904"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325535/events/349904"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/292158/events/325564"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/354114/events/325564"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/349898/events/349904"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325535/events/349904"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/660281/events/660129"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/660275/events/660129"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/660011/events/660129"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/316937/events/316977"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/328731/events/316977"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/288278/events/316977"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/307449.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

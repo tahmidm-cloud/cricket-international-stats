@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1335146",
+  "id": "1335146",
+  "guid": "47509f8a-b02d-33f5-94f5-de4c9bd1d436",
+  "uid": "s:200~a:1335146",
+  "type": "cricket",
+  "name": "Gagandeep Singh",
+  "firstName": "Gagandeep",
+  "middleName": "",
+  "lastName": "Singh",
+  "shortName": "",
+  "fullName": "Gagandeep Singh",
+  "displayName": "Gagandeep Singh",
+  "weight": 0,
+  "height": 0.0,
+  "age": 32,
+  "dateOfBirthStr": "1994-02-19T00:00Z",
+  "dateOfBirth": "1994-02-19T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Gagandeep Singh",
+  "fieldingName": "Gagandeep Singh",
+  "country": 84,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/84"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/84.png",
+    "width": 500,
+    "height": 500,
+    "alt": "GHA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/84"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1335146/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1332491/events/1332498"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1332492/events/1332498"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1332475/events/1332498"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1332475/events/1332498"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1332491/events/1332498"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1332492/events/1332498"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1335146.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

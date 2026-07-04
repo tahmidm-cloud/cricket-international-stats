@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1274038",
+  "id": "1274038",
+  "guid": "9478be09-0450-3587-b4e8-db760f926630",
+  "uid": "s:200~a:1274038",
+  "type": "cricket",
+  "name": "Rahul Bhardwaj",
+  "firstName": "Rahul",
+  "middleName": "",
+  "lastName": "Bhardwaj",
+  "shortName": "",
+  "fullName": "Rahul Bhardwaj",
+  "displayName": "Rahul Bhardwaj",
+  "weight": 0,
+  "height": 0,
+  "age": 40,
+  "dateOfBirthStr": "1986-02-25T00:00Z",
+  "dateOfBirth": "1986-02-25T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "R Bhardwaj",
+  "fieldingName": "Bhardwaj",
+  "country": 134,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/134"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/134.png",
+    "width": 500,
+    "height": 500,
+    "alt": "POR",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/134"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1274038/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1272979/events/1273140"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1272980/events/1273140"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1272979/events/1273140"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1272980/events/1273140"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1274038.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

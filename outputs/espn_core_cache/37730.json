@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/37730",
+  "id": "37730",
+  "guid": "2393ced7-735c-e29a-028a-43714c7adcd7",
+  "uid": "s:200~a:37730",
+  "type": "cricket",
+  "name": "Danny Morrison",
+  "firstName": "Danny",
+  "middleName": "",
+  "lastName": "Morrison",
+  "shortName": "Morrison",
+  "fullName": "Daniel Kyle Morrison",
+  "displayName": "Danny Morrison",
+  "weight": 0,
+  "height": 0.0,
+  "age": 60,
+  "dateOfBirthStr": "1966-02-03T00:00Z",
+  "dateOfBirth": "1966-02-03T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "DK Morrison",
+  "fieldingName": "Morrison",
+  "country": 5,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2459"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1116"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/37730/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62088/events/63473"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60547/events/63473"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62134/events/65114"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60876/events/65114"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324750/events/324759"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324748/events/324759"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324749/events/324751"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324748/events/324751"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/37730.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/37111",
+  "id": "37111",
+  "guid": "ec906ced-76a3-1cc9-4f21-32fc74c60e9d",
+  "uid": "s:200~a:37111",
+  "type": "cricket",
+  "name": "Mark Gillespie",
+  "firstName": "Mark",
+  "middleName": "",
+  "lastName": "Gillespie",
+  "shortName": "Gillespie",
+  "fullName": "Mark Raymond Gillespie",
+  "displayName": "Mark Gillespie",
+  "weight": 0,
+  "height": 0.0,
+  "age": 46,
+  "dateOfBirthStr": "1979-10-17T00:00Z",
+  "dateOfBirth": "1979-10-17T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "MR Gillespie",
+  "fieldingName": "Gillespie",
+  "country": 5,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2540"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2565"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2600"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/37111/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/298785/events/298794"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/287842/events/298794"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/251040/events/251489"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/251037/events/251489"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/251042/events/251487"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/251037/events/251487"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/232574/events/264917"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327337/events/327341"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327339/events/327341"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327337/events/327345"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327338/events/327345"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/37111.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

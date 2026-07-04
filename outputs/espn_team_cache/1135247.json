@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1135247",
+  "id": "1135247",
+  "uid": "s:200~t:1135247",
+  "location": "Switzerland",
+  "name": "Palace Diamonds",
+  "nickname": "Palace Diamonds",
+  "abbreviation": "DIAMO",
+  "displayName": "Palace Diamonds",
+  "shortDisplayName": "DIAMO",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "CH",
+  "slug": "palace-diamonds",
+  "classes": [
+    "16"
+  ],
+  "event": {
+    "date": "2018-02-09T11:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18572/events/1135251"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1135247/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1135247/palace-diamonds",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1135247/palace-diamonds",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

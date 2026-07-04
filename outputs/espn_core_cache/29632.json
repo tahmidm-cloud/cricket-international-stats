@@ -1,0 +1,158 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/29632",
+  "id": "29632",
+  "guid": "bfc19bd5-ea69-86dc-9c4a-6c331e5dad76",
+  "uid": "s:200~a:29632",
+  "type": "cricket",
+  "name": "Ajay Jadeja",
+  "firstName": "Ajay",
+  "middleName": "",
+  "lastName": "Jadeja",
+  "shortName": "Jadeja",
+  "fullName": "Ajaysinhji Jadeja",
+  "displayName": "Ajay Jadeja",
+  "weight": 0,
+  "height": 0.0,
+  "age": 55,
+  "dateOfBirthStr": "1971-02-01T00:00Z",
+  "dateOfBirth": "1971-02-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "A Jadeja",
+  "fieldingName": "Jadeja",
+  "country": 6,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/27886"
+      },
+      "relation": "Uncle"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1668"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1757"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1828"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/241522"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/29632.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/29632/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62289/events/63586"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60585/events/63586"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60924/events/65126"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61605/events/65126"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62295/events/65126"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325710/events/325711"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325709/events/325711"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326085/events/326088"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326082/events/326088"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326072/events/326088"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/29632.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1518",
+  "id": "1518",
+  "uid": "s:200~t:1518",
+  "location": "Hong Kong",
+  "name": "Hong Kong Under-19s",
+  "nickname": "Hong Kong Under-19s",
+  "abbreviation": "HK19",
+  "displayName": "Hong Kong Under-19s",
+  "shortDisplayName": "HK19",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "HK",
+  "slug": "hong-kong-under-19s",
+  "classes": [
+    21,
+    15
+  ],
+  "event": {
+    "date": "2024-12-20T03:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/23104/events/1465183"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1518.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1518/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1518/hong-kong-under-19s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1518/hong-kong-under-19s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=1569;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

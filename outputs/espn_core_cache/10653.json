@@ -1,0 +1,149 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/10653",
+  "id": "10653",
+  "guid": "38bcd9d3-ce2d-9923-5da9-21713dc21857",
+  "uid": "s:200~a:10653",
+  "type": "cricket",
+  "name": "David Capel",
+  "firstName": "David",
+  "middleName": "",
+  "lastName": "Capel",
+  "shortName": "Capel",
+  "fullName": "David John Capel",
+  "displayName": "David Capel",
+  "weight": 0,
+  "height": 6.0,
+  "age": 57,
+  "dateOfBirthStr": "1963-02-06T00:00Z",
+  "dateOfBirth": "1963-02-06T00:00Z",
+  "dateOfDeathStr": "2020-09-02T00:00Z",
+  "dateOfDeath": "2020-09-02T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "DJ Capel",
+  "fieldingName": "Capel",
+  "country": 1,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/627722"
+      },
+      "relation": "Son"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3208"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1221"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/10653/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61448/events/63463"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60544/events/63463"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62361/events/65739"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60874/events/65739"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61808/events/65739"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324119/events/324120"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324116/events/324120"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324117/events/324124"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324116/events/324124"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/10653.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

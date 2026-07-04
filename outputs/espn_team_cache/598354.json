@@ -1,0 +1,65 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/598354",
+  "id": "598354",
+  "uid": "s:200~t:598354",
+  "location": "Bangladesh",
+  "name": "South Zone (Bangladesh)",
+  "nickname": "South Zone (Bangladesh)",
+  "abbreviation": "SZBSH",
+  "displayName": "South Zone (Bangladesh)",
+  "shortDisplayName": "SZBSH",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "BD",
+  "slug": "south-zone-bangladesh",
+  "classes": [
+    "4",
+    "5"
+  ],
+  "event": {
+    "date": "2026-04-21T03:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8701/events/1533067"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8701"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/598354.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/598354/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/598354/south-zone-bangladesh",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/598354/south-zone-bangladesh",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

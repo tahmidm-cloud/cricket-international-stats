@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2311",
+  "id": "2311",
+  "uid": "s:200~t:2311",
+  "location": "Maldives",
+  "name": "Maldives Under-19s",
+  "nickname": "Maldives Under-19s",
+  "abbreviation": "MDV19",
+  "displayName": "Maldives Under-19s",
+  "shortDisplayName": "MDV19",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "MV",
+  "slug": "maldives-under-19s",
+  "classes": [
+    "15"
+  ],
+  "event": {
+    "date": "2018-12-14T02:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19037/events/1166869"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2311.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2311/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/2311/maldives-under-19s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/2311/maldives-under-19s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

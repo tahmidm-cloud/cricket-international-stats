@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1082744",
+  "id": "1082744",
+  "guid": "1fd0e4ee-1547-0999-a24e-684d206c549b",
+  "uid": "s:200~a:1082744",
+  "type": "cricket",
+  "name": "Muhaddis Muhaddis",
+  "firstName": "Muhaddis",
+  "middleName": "",
+  "lastName": "Muhaddis",
+  "shortName": "",
+  "fullName": "Muhaddis Muhaddis",
+  "displayName": "Muhaddis Muhaddis",
+  "weight": 0,
+  "height": 0.0,
+  "age": 33,
+  "dateOfBirthStr": "1992-10-04T00:00Z",
+  "dateOfBirth": "1992-10-04T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Muhaddis Muhaddis",
+  "fieldingName": "Muhaddis Muhaddis",
+  "country": 91,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/91"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/91.png",
+    "width": 500,
+    "height": 500,
+    "alt": "INA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/91"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1082744/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1370773/events/1370792"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1370774/events/1370792"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1370776/events/1370792"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1370773/events/1370792"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1370774/events/1370792"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1370776/events/1370792"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1082744.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

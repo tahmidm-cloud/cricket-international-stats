@@ -1,0 +1,57 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/859",
+  "id": "859",
+  "uid": "s:200~t:859",
+  "location": "England",
+  "name": "Cambridge University",
+  "nickname": "Cambridge University",
+  "abbreviation": "CambU",
+  "displayName": "Cambridge University",
+  "shortDisplayName": "CambU",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "cambridge-university",
+  "classes": [
+    "4",
+    "5",
+    "14",
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2020-09-03T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19656/events/1231230"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/859/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/859/cambridge-university",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/859/cambridge-university",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

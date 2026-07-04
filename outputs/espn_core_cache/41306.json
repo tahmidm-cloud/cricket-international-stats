@@ -1,0 +1,155 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/41306",
+  "id": "41306",
+  "guid": "1fa2547e-8574-a58b-73c9-dd03354a296c",
+  "uid": "s:200~a:41306",
+  "type": "cricket",
+  "name": "Moin Khan",
+  "firstName": "Moin",
+  "middleName": "",
+  "lastName": "Khan",
+  "shortName": "Moin Khan",
+  "fullName": "Mohammad Moin Khan",
+  "displayName": "Moin Khan",
+  "weight": 0,
+  "height": 0.0,
+  "age": 54,
+  "dateOfBirthStr": "1971-09-23T00:00Z",
+  "dateOfBirth": "1971-09-23T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "Moin Khan",
+  "fieldingName": "Moin Khan",
+  "country": 7,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/42047"
+      },
+      "relation": "Brother"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1137262"
+      },
+      "relation": "Son"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2773"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3010"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/41306.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/7.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAK",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/41306/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61922/events/63541"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60570/events/63541"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60909/events/64360"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61922/events/64360"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/225374/events/304963"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325710/events/325712"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325709/events/325712"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326038/events/326053"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326036/events/326053"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/41306.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

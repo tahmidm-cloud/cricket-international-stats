@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/414985",
+  "id": "414985",
+  "guid": "36ba3a48-7c78-1973-6868-dfd6d37627ee",
+  "uid": "s:200~a:414985",
+  "type": "cricket",
+  "name": "Vinoo Tewarie",
+  "firstName": "Vinoo",
+  "middleName": "",
+  "lastName": "Tewarie",
+  "shortName": "Tewarie",
+  "fullName": "Vinoo Arsh Baldewpersad Tewarie",
+  "displayName": "Vinoo Tewarie",
+  "weight": 0,
+  "height": 0.0,
+  "age": 34,
+  "dateOfBirthStr": "1991-09-15T00:00Z",
+  "dateOfBirth": "1991-09-15T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "VAB Tewarie",
+  "fieldingName": "Tewarie",
+  "country": 15,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/15"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2405"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2406"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2407"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2408"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/15.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NED",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/15"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/414985/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/492583/events/504779"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/518430/events/504779"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/492583/events/504779"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/518430/events/504779"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/414985.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1184436",
+  "id": "1184436",
+  "guid": "d0b9abd5-d8e6-8b66-cfdd-2f0462669f98",
+  "uid": "s:200~a:1184436",
+  "type": "cricket",
+  "name": "James Rew",
+  "firstName": "James",
+  "middleName": "",
+  "lastName": "Rew",
+  "shortName": "Rew",
+  "fullName": "James Edward Kenneth Rew",
+  "displayName": "James Rew",
+  "weight": 0,
+  "height": 0.0,
+  "age": 22,
+  "dateOfBirthStr": "2004-01-11T00:00Z",
+  "dateOfBirth": "2004-01-11T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "JEK Rew",
+  "fieldingName": "Rew",
+  "country": 1,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1379431"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/952"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/971"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1133698"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1333"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1334"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/1184436.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1184436/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1472510/events/1496572"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1496491/events/1496572"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1496492/events/1496572"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1239527/events/1269781"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1250123/events/1250193"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1313561/events/1313566"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1311231/events/1311236"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1311232/events/1311236"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1275787/events/1275788"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1275786/events/1275788"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1184436.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

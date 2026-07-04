@@ -1,0 +1,124 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1209272",
+  "id": "1209272",
+  "guid": "e7b8f0c4-7a63-374e-81ba-b9cd4e0e8191",
+  "uid": "s:200~a:1209272",
+  "type": "cricket",
+  "name": "Adnan Mirza",
+  "firstName": "Adnan",
+  "middleName": "",
+  "lastName": "Mirza",
+  "shortName": "",
+  "fullName": "Adnan Mirza",
+  "displayName": "Adnan Mirza",
+  "weight": 0,
+  "height": 0.0,
+  "age": 37,
+  "dateOfBirthStr": "1989-02-16T00:00Z",
+  "dateOfBirth": "1989-02-16T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Adnan Mirza",
+  "fieldingName": "Adnan Mirza",
+  "country": 136,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/136"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1208513"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/136.png",
+    "width": 500,
+    "height": 500,
+    "alt": "QAT",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/136"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1209272/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1392788/events/1392803"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1392797/events/1392803"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1392788/events/1392803"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1392797/events/1392803"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1209272.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

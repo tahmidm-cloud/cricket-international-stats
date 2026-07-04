@@ -1,0 +1,142 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1241218",
+  "id": "1241218",
+  "guid": "cb712c3f-3ed5-3169-b79b-e0c5876713c4",
+  "uid": "s:200~a:1241218",
+  "type": "cricket",
+  "name": "Adhitya Shetty",
+  "firstName": "Adhitya",
+  "middleName": "",
+  "lastName": "Shetty",
+  "shortName": "",
+  "fullName": "Adhitya Shetty",
+  "displayName": "Adhitya Shetty",
+  "weight": 0,
+  "height": 0.0,
+  "age": 21,
+  "dateOfBirthStr": "2004-07-05T00:00Z",
+  "dateOfBirth": "2004-07-05T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "Adhitya Shetty",
+  "fieldingName": "Adhitya Shetty",
+  "country": 27,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1346027"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1288991"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3670"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/27.png",
+    "width": 500,
+    "height": 500,
+    "alt": "UAE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1241218/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1376997/events/1377006"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1376996/events/1377006"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1376997/events/1377006"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1376996/events/1377006"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1406886/events/1406911"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1295068/events/1289795"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1289790/events/1289795"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1295069/events/1289795"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1241218.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1247348",
+  "id": "1247348",
+  "uid": "s:200~t:1247348",
+  "location": "Nepal",
+  "name": "Lumbini Province",
+  "nickname": "Lumbini Province",
+  "abbreviation": "LP",
+  "displayName": "Lumbini Province",
+  "shortDisplayName": "LP",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "NP",
+  "slug": "lumbini-province",
+  "classes": [
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2026-04-15T03:45Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/11132/events/1527974"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/11132"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1247348.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1247348/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1247348/lumbini-province",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1247348/lumbini-province",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

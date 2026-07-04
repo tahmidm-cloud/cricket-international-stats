@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1287084",
+  "id": "1287084",
+  "guid": "f5db3efb-2d97-34dc-9b15-32ebf7ed6dd7",
+  "uid": "s:200~a:1287084",
+  "type": "cricket",
+  "name": "Tomas Rossi",
+  "firstName": "Tomas",
+  "middleName": "",
+  "lastName": "Rossi",
+  "shortName": "",
+  "fullName": "Tomas Rossi",
+  "displayName": "Tomas Rossi",
+  "weight": 0,
+  "height": 0,
+  "age": 25,
+  "dateOfBirthStr": "2001-03-28T00:00Z",
+  "dateOfBirth": "2001-03-28T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "T Rossi",
+  "fieldingName": "Rossi",
+  "country": 21,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/21"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/21.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ARG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/21"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1287084/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1286658/events/1286671"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1286661/events/1286671"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1286664/events/1286671"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1286658/events/1286671"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1286661/events/1286671"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1286664/events/1286671"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1287084.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

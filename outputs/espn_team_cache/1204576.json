@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204576",
+  "id": "1204576",
+  "uid": "s:200~t:1204576",
+  "location": "United Arab Emirates",
+  "name": "Bangla Tigers",
+  "nickname": "Bangla Tigers",
+  "abbreviation": "BAT",
+  "displayName": "Bangla Tigers",
+  "shortDisplayName": "BAT",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AE",
+  "slug": "bangla-tigers",
+  "classes": [
+    16
+  ],
+  "event": {
+    "date": "2024-11-30T09:15Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18522/events/1459873"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1204576.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204576/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1204576/bangla-tigers",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1204576/bangla-tigers",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

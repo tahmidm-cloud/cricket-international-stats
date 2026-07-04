@@ -1,0 +1,105 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1362928",
+  "id": "1362928",
+  "guid": "ac9c444a-cf01-3a97-8f2b-6a9f40f6af49",
+  "uid": "s:200~a:1362928",
+  "type": "cricket",
+  "name": "Maene Tuilaepa",
+  "firstName": "Maene",
+  "middleName": "",
+  "lastName": "Tuilaepa",
+  "shortName": "Tuilaepa",
+  "fullName": "Maene Tuilaepa",
+  "displayName": "Maene Tuilaepa",
+  "weight": 0,
+  "height": 0.0,
+  "age": 20,
+  "dateOfBirthStr": "2005-07-25T00:00Z",
+  "dateOfBirth": "2005-07-25T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [],
+  "styles": [],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "M Tuilaepa",
+  "fieldingName": "Tuilaepa",
+  "country": 141,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/141"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/141.png",
+    "width": 500,
+    "height": 500,
+    "alt": "Samoa",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/141"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1362928/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1362239/events/1362243"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1362240/events/1362243"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1362241/events/1362243"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1362239/events/1362243"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1362240/events/1362243"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1362241/events/1362243"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1362928.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

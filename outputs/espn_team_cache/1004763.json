@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1004763",
+  "id": "1004763",
+  "uid": "s:200~t:1004763",
+  "location": "Hong Kong",
+  "name": "Galaxy Gladiators Lantau",
+  "nickname": "Galaxy Gladiators Lantau",
+  "abbreviation": "GGL",
+  "displayName": "Galaxy Gladiators Lantau",
+  "shortDisplayName": "GGL",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "HK",
+  "slug": "galaxy-gladiators-lantau",
+  "classes": [
+    16
+  ],
+  "event": {
+    "date": "2018-02-11T06:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/11027/events/1125489"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1004763/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1004763/galaxy-gladiators-lantau",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1004763/galaxy-gladiators-lantau",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

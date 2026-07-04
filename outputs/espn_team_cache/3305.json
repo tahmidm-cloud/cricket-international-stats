@@ -1,0 +1,57 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3305",
+  "id": "3305",
+  "uid": "s:200~t:3305",
+  "location": "South Africa",
+  "name": "South Africa Academy",
+  "nickname": "South Africa Academy",
+  "abbreviation": "",
+  "displayName": "South Africa Academy",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZA",
+  "slug": "south-africa-academy",
+  "classes": [
+    "4",
+    "5",
+    "14",
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2011-08-23T08:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/12789/events/524990"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3305/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3305/south-africa-academy",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3305/south-africa-academy",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

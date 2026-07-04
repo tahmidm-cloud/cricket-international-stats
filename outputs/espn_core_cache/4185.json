@@ -1,0 +1,154 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/4185",
+  "id": "4185",
+  "guid": "7f40b0c3-bba3-7826-56a0-dd6637fe3c97",
+  "uid": "s:200~a:4185",
+  "type": "cricket",
+  "name": "Nathan Bracken",
+  "firstName": "Nathan",
+  "middleName": "",
+  "lastName": "Bracken",
+  "shortName": "Bracken",
+  "fullName": "Nathan Wade Bracken",
+  "displayName": "Nathan Bracken",
+  "weight": 0,
+  "height": 1.95,
+  "age": 48,
+  "dateOfBirthStr": "1977-09-12T00:00Z",
+  "dateOfBirth": "1977-09-12T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm fast-medium",
+      "shortDescription": "Lfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm fast-medium",
+      "shortDescription": "Lfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "NW Bracken",
+  "fieldingName": "Bracken",
+  "country": 2,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1034"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/387"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335970"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1458"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/4185/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62294/events/64059"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60755/events/64059"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61080/events/65601"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61897/events/65601"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/226335/events/226374"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/209671/events/226374"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61481/events/145241"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326935/events/326937"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326934/events/326937"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326934/events/326940"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326936/events/326940"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/4185.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

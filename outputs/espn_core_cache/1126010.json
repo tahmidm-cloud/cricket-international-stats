@@ -1,0 +1,132 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1126010",
+  "id": "1126010",
+  "guid": "5dbf6631-e69e-4fd4-6c8a-f0b8092a0697",
+  "uid": "s:200~a:1126010",
+  "type": "cricket",
+  "name": "Syed Haider",
+  "firstName": "Syed",
+  "middleName": "",
+  "lastName": "Haider",
+  "shortName": "",
+  "fullName": "Syed Muhammad Haider Shah",
+  "displayName": "Syed Haider",
+  "weight": 0,
+  "height": 0.0,
+  "age": 25,
+  "dateOfBirthStr": "2001-04-26T00:00Z",
+  "dateOfBirth": "2001-04-26T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "Syed Haider",
+  "fieldingName": "Syed Haider",
+  "country": 27,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1346029"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3675"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/27.png",
+    "width": 500,
+    "height": 500,
+    "alt": "UAE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1126010/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1426424/events/1426460"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1426425/events/1426460"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1426427/events/1426460"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1426427/events/1426460"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1426425/events/1426460"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1426424/events/1426460"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1209456/events/1204703"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1209457/events/1204703"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1204639/events/1204703"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1126010.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

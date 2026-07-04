@@ -1,0 +1,157 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/235521",
+  "id": "235521",
+  "guid": "7283a036-0d7a-a200-459f-66e61cc7dfbf",
+  "uid": "s:200~a:235521",
+  "type": "cricket",
+  "name": "Tafadzwa Kamungozi",
+  "firstName": "Tafadzwa",
+  "middleName": "",
+  "lastName": "Kamungozi",
+  "shortName": "Kamungozi",
+  "fullName": "Tafadzwa Paul Kamungozi",
+  "displayName": "Tafadzwa Kamungozi",
+  "weight": 0,
+  "height": 0.0,
+  "age": 39,
+  "dateOfBirthStr": "1987-06-08T00:00Z",
+  "dateOfBirth": "1987-06-08T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "TP Kamungozi",
+  "fieldingName": "Kamungozi",
+  "country": 9,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/287573"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3839"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/424008"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/424007"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/287572"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3858"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/235521.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/9.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ZIM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/235521/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/760771/events/760781"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/760773/events/760781"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/255958/events/257470"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/255959/events/257470"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/628368/events/682901"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/696645/events/682901"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/696653/events/682901"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/289201/events/290122"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/235024/events/264839"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/255958/events/255960"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/235521.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

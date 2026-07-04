@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1387247",
+  "id": "1387247",
+  "uid": "s:200~t:1387247",
+  "location": "Canada",
+  "name": "Bangla Tigers Mississauga",
+  "nickname": "Bangla Tigers Mississauga",
+  "abbreviation": "BTM",
+  "displayName": "Bangla Tigers Mississauga",
+  "shortDisplayName": "BTM",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "CA",
+  "slug": "bangla-tigers-mississauga",
+  "classes": [
+    "16"
+  ],
+  "event": {
+    "date": "2024-08-09T20:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18746/events/1444000"
+  },
+  "color": "#22a02a",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1387247.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1387247/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1387247/bangla-tigers-mississauga",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1387247/bangla-tigers-mississauga",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

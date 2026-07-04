@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/919527",
+  "id": "919527",
+  "guid": "d2ffb08b-5d3d-6a61-729b-4869c933ae80",
+  "uid": "s:200~a:919527",
+  "type": "cricket",
+  "name": "Cameron McAuslan",
+  "firstName": "Cameron",
+  "middleName": "",
+  "lastName": "McAuslan",
+  "shortName": "McAuslan",
+  "fullName": "Cameron McAuslan",
+  "displayName": "Cameron McAuslan",
+  "weight": 0,
+  "height": 0.0,
+  "age": 28,
+  "dateOfBirthStr": "1998-06-01T00:00Z",
+  "dateOfBirth": "1998-06-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "C McAuslan",
+  "fieldingName": "McAuslan",
+  "country": 19,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/918641"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/19.png",
+    "width": 500,
+    "height": 500,
+    "alt": "HKG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/19"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/919527/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1077598/events/1078659"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1078649/events/1078659"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1077595/events/1078659"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870857/events/1126524"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1124080/events/1126524"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1124081/events/1126524"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1077595/events/1078659"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1077598/events/1078659"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1078649/events/1078659"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/919527.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

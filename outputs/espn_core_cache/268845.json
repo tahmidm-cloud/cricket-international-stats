@@ -1,0 +1,157 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/268845",
+  "id": "268845",
+  "guid": "82662079-5321-4627-d5ca-4fb7317850a4",
+  "uid": "s:200~a:268845",
+  "type": "cricket",
+  "name": "Lahiru Gamage",
+  "firstName": "Lahiru",
+  "middleName": "",
+  "lastName": "Gamage",
+  "shortName": "Gamage",
+  "fullName": "Panagamuwa Lahiru Sampath Gamage",
+  "displayName": "Lahiru Gamage",
+  "weight": 0,
+  "height": 0.0,
+  "age": 38,
+  "dateOfBirthStr": "1988-04-05T00:00Z",
+  "dateOfBirth": "1988-04-05T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "PLS Gamage",
+  "fieldingName": "Gamage",
+  "country": 8,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/221730"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3503"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3554"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3566"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3588"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3590"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3599"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3636"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/8.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/268845/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1120278/events/1120285"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1120279/events/1120285"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1120280/events/1120285"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/790869/events/792289"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/790875/events/792289"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/260051/events/264452"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/260052/events/268927"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/443038/events/443047"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/268845.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

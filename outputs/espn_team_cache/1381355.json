@@ -1,0 +1,65 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1381355",
+  "id": "1381355",
+  "uid": "s:200~t:1381355",
+  "location": "United States of America",
+  "name": "MI New York",
+  "nickname": "MI New York",
+  "abbreviation": "MI NY",
+  "displayName": "MI New York",
+  "shortDisplayName": "MI NY",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "mi-new-york",
+  "classes": [
+    6,
+    16
+  ],
+  "event": {
+    "date": "2026-07-03T01:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/21266/events/1528573"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/21266"
+  },
+  "color": "#005ea0",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1381355.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1381355/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1381355/mi-new-york",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1381355/mi-new-york",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

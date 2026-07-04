@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/233409",
+  "id": "233409",
+  "guid": "0a10ab86-fe01-7220-727b-35c9958c0517",
+  "uid": "s:200~a:233409",
+  "type": "cricket",
+  "name": "Amrit Bhattarai",
+  "firstName": "Amrit",
+  "middleName": "",
+  "lastName": "Bhattarai",
+  "shortName": "Bhattarai",
+  "fullName": "Amrit Bhattarai",
+  "displayName": "Amrit Bhattarai",
+  "weight": 0,
+  "height": 0.0,
+  "age": 35,
+  "dateOfBirthStr": "1990-12-30T00:00Z",
+  "dateOfBirth": "1990-12-30T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm medium",
+      "shortDescription": "Lm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm medium",
+      "shortDescription": "Lm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "A Bhattarai",
+  "fieldingName": "Bhattarai",
+  "country": 33,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/33"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2320"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/233409.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/33.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NEP",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/33"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/233409/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/800057/events/802327"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/800047/events/802327"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/800045/events/802327"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/546494/events/546474"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/546478/events/546474"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/532912/events/546474"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/309666/events/235945"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/223559/events/235945"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/309669/events/235945"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/233409.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2706",
+  "id": "2706",
+  "uid": "s:200~t:2706",
+  "location": "Pakistan",
+  "name": "Faisalabad Region",
+  "nickname": "Faisalabad Region",
+  "abbreviation": "FSLB",
+  "displayName": "Faisalabad Region",
+  "shortDisplayName": "FSLB",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "PK",
+  "slug": "faisalabad-region",
+  "classes": [
+    4,
+    5,
+    6,
+    14
+  ],
+  "event": {
+    "date": "2026-03-13T11:15Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8660/events/1527135"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8660"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2706.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2706/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/2706/faisalabad-region",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/2706/faisalabad-region",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

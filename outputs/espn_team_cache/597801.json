@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/597801",
+  "id": "597801",
+  "uid": "s:200~t:597801",
+  "location": "South Africa",
+  "name": "South Africa Schools XI",
+  "nickname": "South Africa Schools XI",
+  "abbreviation": "SASch",
+  "displayName": "South Africa Schools XI",
+  "shortDisplayName": "SASch",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZA",
+  "slug": "south-africa-schools-xi",
+  "classes": [
+    "15"
+  ],
+  "event": {
+    "date": "2012-12-21T08:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8712/events/597793"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/597801/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/597801/south-africa-schools-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/597801/south-africa-schools-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

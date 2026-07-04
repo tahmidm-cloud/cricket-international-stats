@@ -1,0 +1,130 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/226156",
+  "id": "226156",
+  "guid": "8294a92f-f796-93db-47f5-a467035b08cf",
+  "uid": "s:200~a:226156",
+  "type": "cricket",
+  "name": "Neville Liyanage",
+  "firstName": "Neville",
+  "middleName": "",
+  "lastName": "Liyanage",
+  "shortName": "Liyanage",
+  "fullName": "Neville Cristy Kumara Liyanage",
+  "displayName": "Neville Liyanage",
+  "weight": 0,
+  "height": 0.0,
+  "age": 50,
+  "dateOfBirthStr": "1975-10-09T00:00Z",
+  "dateOfBirth": "1975-10-09T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm medium-fast",
+      "shortDescription": "Lmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm medium-fast",
+      "shortDescription": "Lmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "NCK Liyanage",
+  "fieldingName": "Liyanage",
+  "country": 16,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/16"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/861953"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3588"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/16.png",
+    "width": 500,
+    "height": 500,
+    "alt": "MAS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/16"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/226156/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1186474/events/1186488"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1186475/events/1186488"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/240623/events/264934"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/223838/events/265015"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/221341/events/265557"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/226156.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

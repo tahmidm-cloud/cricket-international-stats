@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/245288",
+  "id": "245288",
+  "guid": "f77e683c-56e8-a77b-e397-d40228fdad84",
+  "uid": "s:200~a:245288",
+  "type": "cricket",
+  "name": "Thinus Fourie",
+  "firstName": "Thinus",
+  "middleName": "",
+  "lastName": "Fourie",
+  "shortName": "Fourie",
+  "fullName": "Marthinus Jacobus Fourie",
+  "displayName": "Thinus Fourie",
+  "weight": 0,
+  "height": 0.0,
+  "age": 46,
+  "dateOfBirthStr": "1979-07-23T00:00Z",
+  "dateOfBirth": "1979-07-23T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "MJ Fourie",
+  "fieldingName": "Fourie",
+  "country": 29,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/29"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2223"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/29.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IRE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/29"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/245288/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/258449/events/293071"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/293067/events/293071"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/293358/events/247223"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/294821/events/247223"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/234441/events/247223"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/243268/events/250661"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/250655/events/250661"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/250658/events/250661"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/353228/events/353230"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/245288.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

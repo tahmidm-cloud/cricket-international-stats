@@ -1,0 +1,148 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/460756",
+  "id": "460756",
+  "guid": "271a32e8-ed66-abb4-c48a-1d9569a8e02c",
+  "uid": "s:200~a:460756",
+  "type": "cricket",
+  "name": "Alex Lees",
+  "firstName": "Alex",
+  "middleName": "",
+  "lastName": "Lees",
+  "shortName": "Lees",
+  "fullName": "Alexander Zak Lees",
+  "displayName": "Alex Lees",
+  "weight": 0,
+  "height": 0.0,
+  "age": 33,
+  "dateOfBirthStr": "1993-04-14T00:00Z",
+  "dateOfBirth": "1993-04-14T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "AZ Lees",
+  "fieldingName": "Lees",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/924"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/952"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/323579"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1464"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1465"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/361805"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1470"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/460756/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1256716/events/1256726"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1256718/events/1256726"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1268315/events/1256726"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/435396/events/435860"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/485039/events/492349"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/592761/events/593683"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/460756.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

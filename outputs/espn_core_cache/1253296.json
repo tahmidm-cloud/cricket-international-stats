@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1253296",
+  "id": "1253296",
+  "guid": "caa9a3e3-b248-3dc4-939b-5c945b5e2705",
+  "uid": "s:200~a:1253296",
+  "type": "cricket",
+  "name": "Thomas Mayes",
+  "firstName": "Thomas",
+  "middleName": "",
+  "lastName": "Mayes",
+  "shortName": "Mayes",
+  "fullName": "Thomas Mayes",
+  "displayName": "Thomas Mayes",
+  "weight": 0,
+  "height": 0.0,
+  "age": 25,
+  "dateOfBirthStr": "2001-01-04T00:00Z",
+  "dateOfBirth": "2001-01-04T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "T Mayes",
+  "fieldingName": "Mayes",
+  "country": 29,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/29"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/256841"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/29.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IRE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/29"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1253296/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1528531/events/1528547"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1528529/events/1528547"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1472504/events/1472511"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1472505/events/1472511"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1336035/events/1348343"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1305418/events/1305430"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1259521/events/1259551"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1253296.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

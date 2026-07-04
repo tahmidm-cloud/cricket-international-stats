@@ -1,0 +1,89 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/72",
+  "id": "72",
+  "uid": "s:200~t:72",
+  "location": "Croatia",
+  "name": "Croatia",
+  "nickname": "Croatia",
+  "abbreviation": "CRT",
+  "displayName": "Croatia",
+  "shortDisplayName": "CRT",
+  "isNational": true,
+  "isActive": true,
+  "countryCode": "HR",
+  "slug": "croatia",
+  "classes": [
+    3,
+    16
+  ],
+  "event": {
+    "date": "2026-05-23T12:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20863/events/1534060"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20863"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/72.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/72/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/72/croatia",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/72/croatia",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=123;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "players",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/country.html?country=123",
+      "text": "Players",
+      "shortText": "Players",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

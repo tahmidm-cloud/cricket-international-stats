@@ -1,0 +1,166 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/633374",
+  "id": "633374",
+  "guid": "68eeeda5-fe77-a9c5-1c65-48503ce4aeef",
+  "uid": "s:200~a:633374",
+  "type": "cricket",
+  "name": "Zia-ur-Rehman",
+  "firstName": "Zia-ur-Rehman",
+  "middleName": "",
+  "lastName": "Zia-ur-Rehman",
+  "shortName": "",
+  "fullName": "Zia-ur-Rehman Akbar",
+  "displayName": "Zia-ur-Rehman",
+  "weight": 0,
+  "height": 0.0,
+  "age": 28,
+  "dateOfBirthStr": "1997-12-30T00:00Z",
+  "dateOfBirth": "1997-12-30T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BLA",
+    "id": "BLA",
+    "name": "Bowling allrounder",
+    "abbreviation": "BLA",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BLA"
+    }
+  },
+  "battingName": "Zia-ur-Rehman",
+  "fieldingName": "Zia-ur-Rehman",
+  "country": 40,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/40"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/603606"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1088912"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/228132"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/789649"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/942833"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/776161"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/789651"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1013573"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/40.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AFG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/40"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/633374/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1416069/events/1416073"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1416068/events/1416073"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1377003/events/1377014"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1377001/events/1377014"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1124055/events/1124056"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1079254/events/1079256"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1079255/events/1079256"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1120167/events/1120168"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/701101/events/700357"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/709339/events/700357"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/700273/events/700357"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/633374.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

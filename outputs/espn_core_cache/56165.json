@@ -1,0 +1,105 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/56165",
+  "id": "56165",
+  "guid": "27e4c9ea-c111-60d9-5ee4-298923ea0c25",
+  "uid": "s:200~a:56165",
+  "type": "cricket",
+  "name": "Zahid Razzak",
+  "firstName": "Zahid",
+  "middleName": "",
+  "lastName": "Razzak",
+  "shortName": "",
+  "fullName": "Shah Mohammad Zahid Razzak",
+  "displayName": "Zahid Razzak",
+  "weight": 0,
+  "height": 0.0,
+  "age": 58,
+  "dateOfBirthStr": "1967-08-02T00:00Z",
+  "dateOfBirth": "1967-08-02T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Zahid Razzak",
+  "fieldingName": "Zahid Razzak",
+  "country": 25,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/25.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/56165/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60889/events/65675"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62349/events/65675"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/56165.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

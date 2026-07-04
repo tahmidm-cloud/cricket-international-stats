@@ -1,0 +1,130 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/56035",
+  "id": "56035",
+  "guid": "a7a6fd65-2bc9-ac49-452f-0266887e9954",
+  "uid": "s:200~a:56035",
+  "type": "cricket",
+  "name": "Naimur Rahman",
+  "firstName": "Naimur",
+  "middleName": "",
+  "lastName": "Rahman",
+  "shortName": "",
+  "fullName": "Naimur Rahman",
+  "displayName": "Naimur Rahman",
+  "weight": 0,
+  "height": 0.0,
+  "age": 51,
+  "dateOfBirthStr": "1974-09-19T00:00Z",
+  "dateOfBirth": "1974-09-19T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "Naimur Rahman",
+  "fieldingName": "Naimur Rahman",
+  "country": 25,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/682"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/683"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/25.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/56035/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62353/events/63898"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60694/events/63898"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62199/events/65688"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61549/events/65688"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60971/events/65688"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/56035.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

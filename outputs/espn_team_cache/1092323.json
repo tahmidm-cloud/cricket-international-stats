@@ -1,0 +1,64 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1092323",
+  "id": "1092323",
+  "uid": "s:200~t:1092323",
+  "location": "Afghanistan",
+  "name": "Pamir Stars",
+  "nickname": "Pamir Stars",
+  "abbreviation": "PS",
+  "displayName": "Pamir Stars",
+  "shortDisplayName": "PS",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AF",
+  "slug": "pamir-stars",
+  "classes": [
+    "16"
+  ],
+  "event": {
+    "date": "2025-10-17T13:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/22683/events/1506418"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/22683"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1092323.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1092323/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1092323/pamir-stars",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1092323/pamir-stars",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

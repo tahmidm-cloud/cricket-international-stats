@@ -1,0 +1,158 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1295851",
+  "id": "1295851",
+  "guid": "63ee600c-65d8-3a80-b6a6-93602f8acd71",
+  "uid": "s:200~a:1295851",
+  "type": "cricket",
+  "name": "Joel Davies",
+  "firstName": "Joel",
+  "middleName": "",
+  "lastName": "Davies",
+  "shortName": "Davies",
+  "fullName": "Joel Derek Davies",
+  "displayName": "Joel Davies",
+  "weight": 0,
+  "height": 0.0,
+  "age": 22,
+  "dateOfBirthStr": "2003-09-28T00:00Z",
+  "dateOfBirth": "2003-09-28T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "JD Davies",
+  "fieldingName": "Davies",
+  "country": 2,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1076377"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/233"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509673"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509674"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1295851/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1532475/events/1532483"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1532477/events/1532483"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1495274/events/1495295"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1495275/events/1495325"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1324623/events/1324652"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1356632/events/1356637"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1356633/events/1356637"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1356632/events/1356639"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1356635/events/1356639"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1356636/events/1356642"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1356632/events/1356642"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1295851.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

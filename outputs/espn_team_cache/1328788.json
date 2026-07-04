@@ -1,0 +1,77 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1328788",
+  "id": "1328788",
+  "uid": "s:200~t:1328788",
+  "location": "United Arab Emirates",
+  "name": "MI Emirates",
+  "nickname": "MI Emirates",
+  "abbreviation": "MIE",
+  "displayName": "MI Emirates",
+  "shortDisplayName": "MIE",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AE",
+  "slug": "mi-emirates",
+  "classes": [
+    6,
+    16
+  ],
+  "event": {
+    "date": "2026-01-04T14:50Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20921/events/1501351"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20921"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1328788.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1328788/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1328788/mi-emirates",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1328788/mi-emirates",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "videos",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/current/video_audio/index.html?object=1328788",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

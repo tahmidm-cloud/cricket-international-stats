@@ -1,0 +1,114 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/36069",
+  "id": "36069",
+  "guid": "d977d077-c76d-d621-154f-14d4ffe029d7",
+  "uid": "s:200~a:36069",
+  "type": "cricket",
+  "name": "Vijay Yadav",
+  "firstName": "Vijay",
+  "middleName": "",
+  "lastName": "Yadav",
+  "shortName": "Yadav",
+  "fullName": "Vijay Yadav",
+  "displayName": "Vijay Yadav",
+  "weight": 0,
+  "height": 0,
+  "age": 59,
+  "dateOfBirthStr": "1967-03-14T00:00Z",
+  "dateOfBirth": "1967-03-14T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "V Yadav",
+  "fieldingName": "Yadav",
+  "country": 6,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1757"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/36069/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60591/events/63604"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62017/events/63604"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60932/events/64405"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62289/events/64405"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/36069.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

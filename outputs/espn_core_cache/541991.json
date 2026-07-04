@@ -1,0 +1,150 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/541991",
+  "id": "541991",
+  "guid": "3a00b36e-5876-e3c1-b05c-5d5c6ae186f2",
+  "uid": "s:200~a:541991",
+  "type": "cricket",
+  "name": "JP Kotze",
+  "firstName": "JP",
+  "middleName": "",
+  "lastName": "Kotze",
+  "shortName": "Kotze",
+  "fullName": "Jean-Pierre Kotze",
+  "displayName": "JP Kotze",
+  "weight": 0,
+  "height": 0.0,
+  "age": 32,
+  "dateOfBirthStr": "1994-04-23T00:00Z",
+  "dateOfBirth": "1994-04-23T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT",
+    "id": "BT",
+    "name": "Batter",
+    "abbreviation": "BT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT"
+    }
+  },
+  "battingName": "JP Kotze",
+  "fieldingName": "Kotze",
+  "country": 28,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/28"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1459536"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3237"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1494149"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2317"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/28.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NAM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/28"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/541991/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1174827/events/1174845"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1174825/events/1174845"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197506/events/1197508"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197505/events/1197508"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/577993/events/577882"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/577788/events/577882"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/518430/events/661887"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/660293/events/661887"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/577993/events/577974"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/577790/events/577974"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/709341/events/700343"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/709339/events/700343"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/700273/events/700343"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/541991.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

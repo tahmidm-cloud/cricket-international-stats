@@ -1,0 +1,55 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/210",
+  "id": "210",
+  "uid": "s:200~t:210",
+  "location": "Australia",
+  "name": "Australian Institute of Sport",
+  "nickname": "Australian Institute of Sport",
+  "abbreviation": "AIS",
+  "displayName": "Australian Institute of Sport",
+  "shortDisplayName": "AIS",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AU",
+  "slug": "australian-institute-of-sport",
+  "classes": [
+    "14",
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2011-08-10T23:45Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8744/events/516202"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/210/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/210/australian-institute-of-sport",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/210/australian-institute-of-sport",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

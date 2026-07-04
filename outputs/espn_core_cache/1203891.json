@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1203891",
+  "id": "1203891",
+  "guid": "edaf5fca-15b0-3170-8f3e-d8ab278aafd3",
+  "uid": "s:200~a:1203891",
+  "type": "cricket",
+  "name": "Sakib Hasan",
+  "firstName": "Sakib",
+  "middleName": "",
+  "lastName": "Hasan",
+  "shortName": "",
+  "fullName": "Sakib Hasan",
+  "displayName": "Sakib Hasan",
+  "weight": 0,
+  "height": 0.0,
+  "age": 35,
+  "dateOfBirthStr": "1991-03-01T00:00Z",
+  "dateOfBirth": "1991-03-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Sakib Hasan",
+  "fieldingName": "Sakib Hasan",
+  "country": 891143,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/891143"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/891143.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SRB",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/891143"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1203891/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1203828/events/1203831"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1203829/events/1203831"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1203830/events/1203831"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1203828/events/1203831"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1203829/events/1203831"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1203830/events/1203831"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1203891.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

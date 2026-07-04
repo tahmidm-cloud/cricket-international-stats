@@ -1,0 +1,87 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/113",
+  "id": "113",
+  "uid": "s:200~t:113",
+  "location": "Maldives",
+  "name": "Maldives",
+  "nickname": "Maldives",
+  "abbreviation": "MDV",
+  "displayName": "Maldives",
+  "shortDisplayName": "MDV",
+  "isNational": true,
+  "isActive": true,
+  "countryCode": "MV",
+  "slug": "maldives",
+  "classes": [
+    "3",
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2024-10-25T04:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/22993/events/1453920"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/113.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/113/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/113/maldives",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/113/maldives",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=164;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "players",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/country.html?country=164",
+      "text": "Players",
+      "shortText": "Players",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

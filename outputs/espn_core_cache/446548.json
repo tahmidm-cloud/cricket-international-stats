@@ -1,0 +1,157 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/446548",
+  "id": "446548",
+  "guid": "5b873683-bbae-a263-2de8-e327a8a3f7dc",
+  "uid": "s:200~a:446548",
+  "type": "cricket",
+  "name": "Scott Boland",
+  "firstName": "Scott",
+  "middleName": "",
+  "lastName": "Boland",
+  "shortName": "Boland",
+  "fullName": "Scott Michael Boland",
+  "displayName": "Scott Boland",
+  "weight": 0,
+  "height": 0.0,
+  "age": 37,
+  "dateOfBirthStr": "1989-04-11T00:00Z",
+  "dateOfBirth": "1989-04-11T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "SM Boland",
+  "fieldingName": "Boland",
+  "country": 2,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/302"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509669"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509672"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/968721"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/584"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/423864"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/446548.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/446548/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1263452/events/1263464"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1263453/events/1263464"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1268315/events/1263464"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/895801/events/895807"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/895803/events/895807"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/895801/events/895819"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/895805/events/895819"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/527821/events/527831"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/527819/events/527869"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/641477/events/654085"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/446548.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/308328",
+  "id": "308328",
+  "uid": "s:200~t:308328",
+  "location": "Botswana",
+  "name": "Botswana Under-19s",
+  "nickname": "Botswana Under-19s",
+  "abbreviation": "Bot19",
+  "displayName": "Botswana Under-19s",
+  "shortDisplayName": "Bot19",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "BW",
+  "slug": "botswana-under-19s",
+  "classes": [
+    "15"
+  ],
+  "event": {
+    "date": "2018-08-23T07:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18832/events/1154575"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/308328.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/308328/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/308328/botswana-under-19s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/308328/botswana-under-19s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

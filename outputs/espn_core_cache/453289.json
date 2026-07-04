@@ -1,0 +1,154 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/453289",
+  "id": "453289",
+  "guid": "97528451-8424-b9ee-bed4-ec555db3bbcd",
+  "uid": "s:200~a:453289",
+  "type": "cricket",
+  "name": "Neville Madziva",
+  "firstName": "Neville",
+  "middleName": "",
+  "lastName": "Madziva",
+  "shortName": "Madziva",
+  "fullName": "Neville Madziva",
+  "displayName": "Neville Madziva",
+  "weight": 0,
+  "height": 0.0,
+  "age": 34,
+  "dateOfBirthStr": "1991-08-02T00:00Z",
+  "dateOfBirth": "1991-08-02T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "N Madziva",
+  "fieldingName": "Madziva",
+  "country": 9,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/424006"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/444903"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1150152"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3858"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/789719"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3864"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3866"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3868"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/9.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ZIM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/453289/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/736425/events/736437"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/736433/events/736437"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/885951/events/885969"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/885957/events/885969"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/474532/events/474561"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/530690/events/530723"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/538874/events/540221"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/453289.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/50422",
+  "id": "50422",
+  "guid": "06007284-f170-14d5-40ca-02a644dbbd01",
+  "uid": "s:200~a:50422",
+  "type": "cricket",
+  "name": "Dulip Samaraweera",
+  "firstName": "Dulip",
+  "middleName": "",
+  "lastName": "Samaraweera",
+  "shortName": "",
+  "fullName": "Dulip Prasanna Samaraweera",
+  "displayName": "Dulip Samaraweera",
+  "weight": 0,
+  "height": 0.0,
+  "age": 54,
+  "dateOfBirthStr": "1972-02-12T00:00Z",
+  "dateOfBirth": "1972-02-12T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "DP Samaraweera",
+  "fieldingName": "Samaraweera",
+  "country": 8,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/50424"
+      },
+      "relation": "Brother"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/49894"
+      },
+      "relation": "Brother-in-law"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3507"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/8.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/50422/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61932/events/63627"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60599/events/63627"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61959/events/65857"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61665/events/65857"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60945/events/65857"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/304926/events/304932"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/50422.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

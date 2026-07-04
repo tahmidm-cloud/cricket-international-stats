@@ -1,0 +1,169 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/48284",
+  "id": "48284",
+  "guid": "f30f2e58-5a34-0e03-fc0c-d0d92fa14c87",
+  "uid": "s:200~a:48284",
+  "type": "cricket",
+  "name": "Malinga Bandara",
+  "firstName": "Malinga",
+  "middleName": "",
+  "lastName": "Bandara",
+  "shortName": "Bandara",
+  "fullName": "Herath Mudiyanselage Charitha Malinga Bandara",
+  "displayName": "Malinga Bandara",
+  "weight": 0,
+  "height": 0.0,
+  "age": 46,
+  "dateOfBirthStr": "1979-12-31T00:00Z",
+  "dateOfBirth": "1979-12-31T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "HMCM Bandara",
+  "fieldingName": "Bandara",
+  "country": 8,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/325785"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3521"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1034"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3530"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1098"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3554"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3570"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3636"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/48284.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/8.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/48284/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62123/events/63801"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60661/events/63801"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/226336/events/226392"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/226338/events/226392"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/251042/events/251488"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/251037/events/251488"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/221341/events/265537"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327393/events/327395"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327392/events/327395"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/298815/events/329623"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/329611/events/329623"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/329612/events/329623"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/48284.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

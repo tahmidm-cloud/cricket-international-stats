@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/30912",
+  "id": "30912",
+  "guid": "85201bba-2b42-9c84-26b2-efc7d2a1d9ef",
+  "uid": "s:200~a:30912",
+  "type": "cricket",
+  "name": "Ashok Malhotra",
+  "firstName": "Ashok",
+  "middleName": "",
+  "lastName": "Malhotra",
+  "shortName": "Malhotra",
+  "fullName": "Ashok Omprakash Malhotra",
+  "displayName": "Ashok Malhotra",
+  "weight": 0,
+  "height": 0.0,
+  "age": 69,
+  "dateOfBirthStr": "1957-01-26T00:00Z",
+  "dateOfBirth": "1957-01-26T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "AO Malhotra",
+  "fieldingName": "Malhotra",
+  "country": 6,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1572"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1757"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/30912/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60497/events/63302"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61792/events/63302"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60817/events/64182"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61792/events/64182"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/30912.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

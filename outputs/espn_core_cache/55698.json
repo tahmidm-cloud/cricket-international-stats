@@ -1,0 +1,157 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55698",
+  "id": "55698",
+  "guid": "8d787d27-168d-68a1-a728-3d707d0f7a38",
+  "uid": "s:200~a:55698",
+  "type": "cricket",
+  "name": "Ray Price",
+  "firstName": "Ray",
+  "middleName": "",
+  "lastName": "Price",
+  "shortName": "Price",
+  "fullName": "Raymond William Price",
+  "displayName": "Ray Price",
+  "weight": 0,
+  "height": 0.0,
+  "age": 50,
+  "dateOfBirthStr": "1976-06-12T00:00Z",
+  "dateOfBirth": "1976-06-12T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "RW Price",
+  "fieldingName": "Price",
+  "country": 9,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3845"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/424005"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3846"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335978"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/287571"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1458"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3872"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/55698.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/9.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ZIM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55698/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61615/events/63859"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60680/events/63859"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61114/events/66182"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62013/events/66182"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62343/events/66182"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/369765/events/361653"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/361644/events/361653"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/361648/events/361653"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/135893/events/304855"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/55698.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1287094",
+  "id": "1287094",
+  "guid": "9b46c1dd-a244-34b3-82b5-5787ba3d8137",
+  "uid": "s:200~a:1287094",
+  "type": "cricket",
+  "name": "Bhumeshwar Jagroo",
+  "firstName": "Bhumeshwar",
+  "middleName": "",
+  "lastName": "Jagroo",
+  "shortName": "Jagroo",
+  "fullName": "Bhumeshwar Jagroo",
+  "displayName": "Bhumeshwar Jagroo",
+  "weight": 0,
+  "height": 0.0,
+  "age": 31,
+  "dateOfBirthStr": "1994-12-20T00:00Z",
+  "dateOfBirth": "1994-12-20T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "B Jagroo",
+  "fieldingName": "Jagroo",
+  "country": 60,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/60"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/60.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BHM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/60"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1287094/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1286658/events/1286671"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1286661/events/1286671"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1286664/events/1286671"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1286658/events/1286671"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1286661/events/1286671"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1286664/events/1286671"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1287094.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

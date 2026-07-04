@@ -1,0 +1,148 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/215058",
+  "id": "215058",
+  "guid": "2d2edeae-7f6a-0a60-b32a-3a114d45da3d",
+  "uid": "s:200~a:215058",
+  "type": "cricket",
+  "name": "Stephen Parry",
+  "firstName": "Stephen",
+  "middleName": "",
+  "lastName": "Parry",
+  "shortName": "Parry",
+  "fullName": "Stephen David Parry",
+  "displayName": "Stephen Parry",
+  "weight": 0,
+  "height": 6.0,
+  "age": 40,
+  "dateOfBirthStr": "1986-01-12T00:00Z",
+  "dateOfBirth": "1986-01-12T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "SD Parry",
+  "fieldingName": "Parry",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509668"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/898"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/952"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1116"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1117"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1166"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/215058.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/215058/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/636529/events/636534"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/636530/events/636534"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/636531/events/636537"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/636529/events/636537"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/268017/events/268294"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/373948/events/382855"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/382428/events/383136"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/215058.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

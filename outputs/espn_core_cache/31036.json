@@ -1,0 +1,126 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/31036",
+  "id": "31036",
+  "guid": "c7fe01b3-56fb-a05b-70fd-37d94dc4a6b3",
+  "uid": "s:200~a:31036",
+  "type": "cricket",
+  "name": "Nayan Mongia",
+  "firstName": "Nayan",
+  "middleName": "",
+  "lastName": "Mongia",
+  "shortName": "Mongia",
+  "fullName": "Nayan Ramlal Mongia",
+  "displayName": "Nayan Mongia",
+  "weight": 0,
+  "height": 0.0,
+  "age": 56,
+  "dateOfBirthStr": "1969-12-19T00:00Z",
+  "dateOfBirth": "1969-12-19T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WK",
+    "id": "WK",
+    "name": "Wicketkeeper",
+    "abbreviation": "WK",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WK"
+    }
+  },
+  "battingName": "NR Mongia",
+  "fieldingName": "Mongia",
+  "country": 6,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1559"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/31036.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/31036/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61639/events/63631"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60601/events/63631"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61639/events/64445"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60950/events/64445"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325313/events/325316"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325315/events/325316"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325314/events/325318"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325313/events/325318"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/31036.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

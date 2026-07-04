@@ -1,0 +1,145 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55438",
+  "id": "55438",
+  "guid": "879d08db-61f7-3fdb-de30-40b11fa21039",
+  "uid": "s:200~a:55438",
+  "type": "cricket",
+  "name": "Travis Friend",
+  "firstName": "Travis",
+  "middleName": "",
+  "lastName": "Friend",
+  "shortName": "Friend",
+  "fullName": "Travis John Friend",
+  "displayName": "Travis Friend",
+  "weight": 0,
+  "height": 0.0,
+  "age": 45,
+  "dateOfBirthStr": "1981-01-07T00:00Z",
+  "dateOfBirth": "1981-01-07T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BLA",
+    "id": "BLA",
+    "name": "Bowling allrounder",
+    "abbreviation": "BLA",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BLA"
+    }
+  },
+  "battingName": "TJ Friend",
+  "fieldingName": "Friend",
+  "country": 9,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/904"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/905"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3846"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3859"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/55438.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/9.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ZIM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55438/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62307/events/63935"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60707/events/63935"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61072/events/64669"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62103/events/64669"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/135893/events/304894"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/79009/events/329859"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/329750/events/329859"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/329751/events/329859"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/55438.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

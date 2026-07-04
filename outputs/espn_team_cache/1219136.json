@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1219136",
+  "id": "1219136",
+  "uid": "s:200~t:1219136",
+  "location": "Namibia",
+  "name": "BA Blasting",
+  "nickname": "BA Blasting",
+  "abbreviation": "BAB",
+  "displayName": "BA Blasting",
+  "shortDisplayName": "BAB",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "NA",
+  "slug": "ba-blasting",
+  "classes": [
+    "16"
+  ],
+  "event": {
+    "date": "2022-03-27T07:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19817/events/1304505"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1219136.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1219136/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1219136/ba-blasting",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1219136/ba-blasting",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

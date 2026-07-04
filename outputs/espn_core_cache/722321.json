@@ -1,0 +1,142 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/722321",
+  "id": "722321",
+  "guid": "bf8d209f-b92f-98ac-83f5-92e1f1684caf",
+  "uid": "s:200~a:722321",
+  "type": "cricket",
+  "name": "Tafadzwa Tsiga",
+  "firstName": "Tafadzwa",
+  "middleName": "",
+  "lastName": "Tsiga",
+  "shortName": "Tsiga",
+  "fullName": "Tafadzwa Emmanuel Tsiga",
+  "displayName": "Tafadzwa Tsiga",
+  "weight": 0,
+  "height": 0.0,
+  "age": 31,
+  "dateOfBirthStr": "1994-07-13T00:00Z",
+  "dateOfBirth": "1994-07-13T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "TE Tsiga",
+  "fieldingName": "Tsiga",
+  "country": 9,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/424008"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/287571"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1122743"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/424007"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/287572"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3868"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/9.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ZIM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/722321/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1350678/events/1350681"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1350679/events/1350681"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/691359/events/691425"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/691365/events/691389"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1176920/events/1176922"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/722321.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

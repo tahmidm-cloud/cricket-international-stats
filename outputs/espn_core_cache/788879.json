@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/788879",
+  "id": "788879",
+  "guid": "17c97379-99b0-104a-94cd-6666a6b22278",
+  "uid": "s:200~a:788879",
+  "type": "cricket",
+  "name": "Nauman Anwar",
+  "firstName": "Nauman",
+  "middleName": "",
+  "lastName": "Anwar",
+  "shortName": "Nauman",
+  "fullName": "Nauman Anwar",
+  "displayName": "Nauman Anwar",
+  "weight": 0,
+  "height": 0.0,
+  "age": 30,
+  "dateOfBirthStr": "1995-10-12T00:00Z",
+  "dateOfBirth": "1995-10-12T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "Nauman Anwar",
+  "fieldingName": "Nauman Anwar",
+  "country": 11,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/953835"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1381359"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3095"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1392080"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/11.png",
+    "width": 500,
+    "height": 500,
+    "alt": "USA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/11"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/788879/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/868505/events/868725"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/868719/events/868725"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/782297/events/783325"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/820193/events/820269"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/871187/events/872563"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/788879.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

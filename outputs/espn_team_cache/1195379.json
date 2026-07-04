@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1195379",
+  "id": "1195379",
+  "uid": "s:200~t:1195379",
+  "location": "Canada",
+  "name": "Brampton Wolves",
+  "nickname": "Brampton Wolves",
+  "abbreviation": "BRW",
+  "displayName": "Brampton Wolves",
+  "shortDisplayName": "BRW",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "CA",
+  "slug": "brampton-wolves",
+  "classes": [
+    16
+  ],
+  "event": {
+    "date": "2024-08-10T16:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18746/events/1444001"
+  },
+  "color": "#e07c0b",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1195379.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1195379/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1195379/brampton-wolves",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1195379/brampton-wolves",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/217472",
+  "id": "217472",
+  "uid": "s:200~t:217472",
+  "location": "Sri Lanka",
+  "name": "Sri Lanka Board XI",
+  "nickname": "Sri Lanka Board XI",
+  "abbreviation": "SLCXI",
+  "displayName": "Sri Lanka Board XI",
+  "shortDisplayName": "SLCXI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "sri-lanka-board-xi",
+  "classes": [
+    4,
+    5,
+    14,
+    15
+  ],
+  "event": {
+    "date": "2018-11-01T04:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18602/events/1163555"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/217472.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/217472/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/217472/sri-lanka-board-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/217472/sri-lanka-board-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

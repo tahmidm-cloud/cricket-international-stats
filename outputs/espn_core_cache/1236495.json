@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1236495",
+  "id": "1236495",
+  "guid": "8469a579-b086-3742-bf4c-39b09de411b7",
+  "uid": "s:200~a:1236495",
+  "type": "cricket",
+  "name": "Taranjeet Singh",
+  "firstName": "Taranjeet",
+  "middleName": "",
+  "lastName": "Singh",
+  "shortName": "",
+  "fullName": "Taranjeet Singh",
+  "displayName": "Taranjeet Singh",
+  "weight": 0,
+  "height": 0.0,
+  "age": 40,
+  "dateOfBirthStr": "1985-12-07T00:00Z",
+  "dateOfBirth": "1985-12-07T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Taranjeet Singh",
+  "fieldingName": "Taranjeet Singh",
+  "country": 137,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/137"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/137.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ROM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/137"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1236495/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1267301/events/1267304"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1267302/events/1267304"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1267300/events/1267304"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1235828/events/1235830"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1235827/events/1235830"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1267300/events/1267304"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1267301/events/1267304"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1267302/events/1267304"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1236495.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

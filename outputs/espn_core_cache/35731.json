@@ -1,0 +1,160 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/35731",
+  "id": "35731",
+  "guid": "a7b09d79-f174-5cd8-36e3-b820f9433797",
+  "uid": "s:200~a:35731",
+  "type": "cricket",
+  "name": "Vinay Kumar",
+  "firstName": "Vinay",
+  "middleName": "",
+  "lastName": "Kumar",
+  "shortName": "Vinay",
+  "fullName": "Ranganath Vinay Kumar",
+  "displayName": "Vinay Kumar",
+  "weight": 0,
+  "height": 0.0,
+  "age": 42,
+  "dateOfBirthStr": "1984-02-12T00:00Z",
+  "dateOfBirth": "1984-02-12T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "R Vinay Kumar",
+  "fieldingName": "Vinay Kumar",
+  "country": 6,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1781"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1872"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/474668"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335971"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335978"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335970"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2095"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/35731.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/35731/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/518945/events/518952"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/518944/events/518952"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/452140/events/452146"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/452142/events/452146"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/412671/events/412699"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/412727/events/412699"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/412728/events/412699"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/135657/events/411314"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/411501/events/411559"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/290517/events/290526"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/35731.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

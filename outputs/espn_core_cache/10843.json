@@ -1,0 +1,154 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/10843",
+  "id": "10843",
+  "guid": "54786aa3-b897-7f5d-5922-ec588590c031",
+  "uid": "s:200~a:10843",
+  "type": "cricket",
+  "name": "Chris Cowdrey",
+  "firstName": "Chris",
+  "middleName": "",
+  "lastName": "Cowdrey",
+  "shortName": "Cowdrey",
+  "fullName": "Christopher Stuart Cowdrey",
+  "displayName": "Chris Cowdrey",
+  "weight": 0,
+  "height": 6.0,
+  "age": 68,
+  "dateOfBirthStr": "1957-10-20T00:00Z",
+  "dateOfBirth": "1957-10-20T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "CS Cowdrey",
+  "fieldingName": "Cowdrey",
+  "country": 1,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/27742"
+      },
+      "relation": "Grandfather"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/10846"
+      },
+      "relation": "Father"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/10844"
+      },
+      "relation": "Brother"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/422592"
+      },
+      "relation": "Son"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1029"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1098"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/10843/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61797/events/63391"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60524/events/63391"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60846/events/64252"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61797/events/64252"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324972/events/324975"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324973/events/324975"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/323962/events/323964"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/323963/events/323964"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/10843.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

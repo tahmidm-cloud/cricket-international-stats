@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2795",
+  "id": "2795",
+  "uid": "s:200~t:2795",
+  "location": "Pakistan",
+  "name": "Karachi University",
+  "nickname": "Karachi University",
+  "abbreviation": "KarUn",
+  "displayName": "Karachi University",
+  "shortDisplayName": "KarUn",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "PK",
+  "slug": "karachi-university",
+  "classes": [
+    16
+  ],
+  "event": {
+    "date": "2014-07-23T09:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8850/events/758461"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2795/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/2795/karachi-university",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/2795/karachi-university",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

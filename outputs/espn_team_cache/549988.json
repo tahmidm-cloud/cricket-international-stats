@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/549988",
+  "id": "549988",
+  "uid": "s:200~t:549988",
+  "location": "Bangladesh",
+  "name": "Rajshahi Royals",
+  "nickname": "Rajshahi Royals",
+  "abbreviation": "RR",
+  "displayName": "Rajshahi Royals",
+  "shortDisplayName": "RR",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "BD",
+  "slug": "rajshahi-royals",
+  "classes": [
+    6
+  ],
+  "event": {
+    "date": "2020-01-17T13:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8653/events/1208112"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/549988.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/549988/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/549988/rajshahi-royals",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/549988/rajshahi-royals",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

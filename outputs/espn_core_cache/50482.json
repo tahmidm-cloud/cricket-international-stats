@@ -1,0 +1,144 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/50482",
+  "id": "50482",
+  "guid": "d67d1686-ae2b-e507-5f5f-cce5b19a3944",
+  "uid": "s:200~a:50482",
+  "type": "cricket",
+  "name": "Kaushal Silva",
+  "firstName": "Kaushal",
+  "middleName": "",
+  "lastName": "Silva",
+  "shortName": "Silva",
+  "fullName": "Jayan Kaushal Silva",
+  "displayName": "Kaushal Silva",
+  "weight": 0,
+  "height": 0.0,
+  "age": 40,
+  "dateOfBirthStr": "1986-05-27T00:00Z",
+  "dateOfBirth": "1986-05-27T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "JK Silva",
+  "fieldingName": "Silva",
+  "country": 8,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/325784"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3630"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3590"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3599"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3599"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3617"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3632"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/50482.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/8.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/50482/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/530465/events/530425"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/530421/events/530425"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/530420/events/530425"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/221341/events/265539"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/124802/events/327763"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327752/events/327763"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/124802/events/327765"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327753/events/327765"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/50482.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

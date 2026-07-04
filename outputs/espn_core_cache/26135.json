@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/26135",
+  "id": "26135",
+  "guid": "4ab42956-294d-607c-637a-1d6c6d29c969",
+  "uid": "s:200~a:26135",
+  "type": "cricket",
+  "name": "Kenneth Kamyuka",
+  "firstName": "Kenneth",
+  "middleName": "",
+  "lastName": "Kamyuka",
+  "shortName": "Kamyuka",
+  "fullName": "Kenneth Kamyuka",
+  "displayName": "Kenneth Kamyuka",
+  "weight": 0,
+  "height": 0.0,
+  "age": 44,
+  "dateOfBirthStr": "1981-12-05T00:00Z",
+  "dateOfBirth": "1981-12-05T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "K Kamyuka",
+  "fieldingName": "Kamyuka",
+  "country": 17,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/35"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/17.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/26135/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/518430/events/660825"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/661849/events/660825"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/134115/events/305721"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/305730/events/305721"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/266301/events/212612"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/266302/events/212612"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/143738/events/212612"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/660011/events/660171"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/660277/events/660171"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/26135.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

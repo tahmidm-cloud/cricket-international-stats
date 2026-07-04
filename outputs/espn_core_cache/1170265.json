@@ -1,0 +1,157 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1170265",
+  "id": "1170265",
+  "guid": "60cfbcd3-1275-6108-6451-874e9d095fc7",
+  "uid": "s:200~a:1170265",
+  "type": "cricket",
+  "name": "Tilak Varma",
+  "firstName": "Tilak",
+  "middleName": "",
+  "lastName": "Varma",
+  "shortName": "Tilak Varma",
+  "fullName": "Namboori Thakur Tilak Varma",
+  "displayName": "Tilak Varma",
+  "weight": 0,
+  "height": 0.0,
+  "age": 23,
+  "dateOfBirthStr": "2002-11-08T00:00Z",
+  "dateOfBirth": "2002-11-08T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BTA",
+    "id": "BTA",
+    "name": "Batting allrounder",
+    "abbreviation": "BTA",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BTA"
+    }
+  },
+  "battingName": "NT Tilak Varma",
+  "fieldingName": "Tilak Varma",
+  "country": 6,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1764"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1781"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1803"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335978"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2095"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/1170265.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1170265/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1391280/events/1388412"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1391279/events/1388412"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1388374/events/1388412"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1381204/events/1381217"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1381201/events/1381217"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1156773/events/1157064"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1196774/events/1200725"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1156774/events/1157190"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1192828/events/1192840"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1192832/events/1192840"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1192831/events/1192840"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1170265.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

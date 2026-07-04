@@ -1,0 +1,49 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/503",
+  "id": "503",
+  "uid": "s:200~t:503",
+  "location": "Australia",
+  "name": "Scarborough",
+  "nickname": "Scarborough",
+  "abbreviation": "",
+  "displayName": "Scarborough",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AU",
+  "slug": "scarborough",
+  "classes": [
+    "15"
+  ],
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/503/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/503/scarborough",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/503/scarborough",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

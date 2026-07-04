@@ -1,0 +1,66 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1359",
+  "id": "1359",
+  "uid": "s:200~t:1359",
+  "location": "England",
+  "name": "Surrey 2nd XI",
+  "nickname": "Surrey 2nd XI",
+  "abbreviation": "Sr2XI",
+  "displayName": "Surrey 2nd XI",
+  "shortDisplayName": "Sr2XI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "surrey-2nd-xi",
+  "classes": [
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2026-06-29T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8861/events/1534506"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8861"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1359.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1359/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1359/surrey-2nd-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1359/surrey-2nd-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

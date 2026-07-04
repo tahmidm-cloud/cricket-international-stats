@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/308440",
+  "id": "308440",
+  "guid": "02eeeeb8-a7b7-0063-f05d-c5daca9cfcff",
+  "uid": "s:200~a:308440",
+  "type": "cricket",
+  "name": "Deusdedit Muhumuza",
+  "firstName": "Deusdedit",
+  "middleName": "",
+  "lastName": "Muhumuza",
+  "shortName": "Muhumuza",
+  "fullName": "Deusdedit Muhumuza",
+  "displayName": "Deusdedit Muhumuza",
+  "weight": 0,
+  "height": 0.0,
+  "age": 36,
+  "dateOfBirthStr": "1989-09-30T00:00Z",
+  "dateOfBirth": "1989-09-30T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "D Muhumuza",
+  "fieldingName": "Muhumuza",
+  "country": 35,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/35"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3666"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/35.png",
+    "width": 500,
+    "height": 500,
+    "alt": "UGA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/35"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/308440/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1184248/events/1184260"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1184249/events/1184260"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/441774/events/441775"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440099/events/441761"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440098/events/441761"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/308440.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24798",
+  "id": "24798",
+  "guid": "66f87649-31bf-983c-d373-a7c88344303f",
+  "uid": "s:200~a:24798",
+  "type": "cricket",
+  "name": "Burton van Rooi",
+  "firstName": "Burton",
+  "middleName": "",
+  "lastName": "Rooi",
+  "shortName": "van Rooi",
+  "fullName": "Burton Oliver van Rooi",
+  "displayName": "Burton van Rooi",
+  "weight": 0,
+  "height": 0,
+  "age": 43,
+  "dateOfBirthStr": "1982-07-09T00:00Z",
+  "dateOfBirth": "1982-07-09T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "BO van Rooi",
+  "fieldingName": "van Rooi",
+  "country": 28,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/308411"
+      },
+      "relation": "Nephew"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/28"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/28.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NAM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/28"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24798/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62292/events/65257"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62373/events/65257"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61124/events/65257"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/267223/events/257119"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/256850/events/257119"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/329748/events/329857"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/329747/events/329857"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/79009/events/329857"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/24798.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

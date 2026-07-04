@@ -1,0 +1,111 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1338613",
+  "id": "1338613",
+  "guid": "689509dc-122e-39e6-b2b5-182d7e088f1f",
+  "uid": "s:200~a:1338613",
+  "type": "cricket",
+  "name": "Lachlan Yamamoto-Lake",
+  "firstName": "Lachlan",
+  "middleName": "",
+  "lastName": "Yamamoto-Lake",
+  "shortName": "",
+  "fullName": "Lachlan Yamamoto-Lake",
+  "displayName": "Lachlan Yamamoto-Lake",
+  "weight": 0,
+  "height": 0.0,
+  "age": 23,
+  "dateOfBirthStr": "2002-10-22T00:00Z",
+  "dateOfBirth": "2002-10-22T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "L Yamamoto-Lake",
+  "fieldingName": "Yamamoto-Lake",
+  "country": 32,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/32"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/32.png",
+    "width": 500,
+    "height": 500,
+    "alt": "JPN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/32"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1338613/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1333916/events/1333930"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1333917/events/1333930"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1333916/events/1333930"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1333917/events/1333930"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1338613.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1013577",
+  "id": "1013577",
+  "uid": "s:200~t:1013577",
+  "location": "Afghanistan",
+  "name": "Kabul",
+  "nickname": "Kabul",
+  "abbreviation": "KABUL",
+  "displayName": "Kabul",
+  "shortDisplayName": "KABUL",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AF",
+  "slug": "kabul",
+  "classes": [
+    4,
+    5,
+    14,
+    15
+  ],
+  "event": {
+    "date": "2023-03-20T04:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20613/events/1361419"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1013577/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1013577/kabul",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1013577/kabul",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

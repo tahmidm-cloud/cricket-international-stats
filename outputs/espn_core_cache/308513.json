@@ -1,0 +1,105 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/308513",
+  "id": "308513",
+  "guid": "c060fc6f-3a77-500a-dec9-8aa50c609acb",
+  "uid": "s:200~a:308513",
+  "type": "cricket",
+  "name": "Peter Ananya",
+  "firstName": "Peter",
+  "middleName": "",
+  "lastName": "Ananya",
+  "shortName": "Ananya",
+  "fullName": "Peter K Ananya",
+  "displayName": "Peter Ananya",
+  "weight": 0,
+  "height": 0.0,
+  "age": 38,
+  "dateOfBirthStr": "1988-06-23T00:00Z",
+  "dateOfBirth": "1988-06-23T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [],
+  "styles": [],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "PK Ananya",
+  "fieldingName": "Ananya",
+  "country": 84,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/308350"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/84.png",
+    "width": 500,
+    "height": 500,
+    "alt": "GHA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/84"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/308513/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1450709/events/1450752"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1450712/events/1450752"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1450713/events/1450752"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1450709/events/1450752"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1450712/events/1450752"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1450713/events/1450752"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/308513.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

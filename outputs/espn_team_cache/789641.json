@@ -1,0 +1,67 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/789641",
+  "id": "789641",
+  "uid": "s:200~t:789641",
+  "location": "Afghanistan",
+  "name": "Band-e-Amir Region",
+  "nickname": "Band-e-Amir Region",
+  "abbreviation": "BEAR",
+  "displayName": "Band-e-Amir Region",
+  "shortDisplayName": "BEAR",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AF",
+  "slug": "band-e-amir-region",
+  "classes": [
+    "4",
+    "5",
+    "6",
+    "14"
+  ],
+  "event": {
+    "date": "2026-06-01T04:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/17954/events/1536546"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/17954"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/789641.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/789641/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/789641/band-e-amir-region",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/789641/band-e-amir-region",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

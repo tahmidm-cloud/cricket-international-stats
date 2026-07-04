@@ -1,0 +1,161 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/10870",
+  "id": "10870",
+  "guid": "811bbea0-34c0-7e83-bc02-6f64f0abbf0f",
+  "uid": "s:200~a:10870",
+  "type": "cricket",
+  "name": "John Crawley",
+  "firstName": "John",
+  "middleName": "",
+  "lastName": "Crawley",
+  "shortName": "Crawley",
+  "fullName": "John Paul Crawley",
+  "displayName": "John Crawley",
+  "weight": 0,
+  "height": 6.02,
+  "age": 54,
+  "dateOfBirthStr": "1971-09-21T00:00Z",
+  "dateOfBirth": "1971-09-21T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "JP Crawley",
+  "fieldingName": "Crawley",
+  "country": 1,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/10872"
+      },
+      "relation": "Brother"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/10976"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/859"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1051"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1116"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/10870/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61812/events/63649"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60607/events/63649"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61993/events/65524"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61706/events/65524"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60964/events/65524"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/124121/events/129610"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325718/events/325721"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325716/events/325721"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326112/events/326114"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326111/events/326114"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/10870.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

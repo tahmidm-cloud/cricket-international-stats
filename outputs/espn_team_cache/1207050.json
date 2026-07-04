@@ -1,0 +1,62 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1207050",
+  "id": "1207050",
+  "uid": "s:200~t:1207050",
+  "location": "Oman",
+  "name": "Oman A",
+  "nickname": "Oman A",
+  "abbreviation": "OMA-A",
+  "displayName": "Oman A",
+  "shortDisplayName": "OMA-A",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "OM",
+  "slug": "oman-a",
+  "classes": [
+    "5",
+    "16"
+  ],
+  "event": {
+    "date": "2023-07-18T08:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/17914/events/1387013"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1207050.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1207050/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1207050/oman-a",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1207050/oman-a",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1411900",
+  "id": "1411900",
+  "guid": "b7079c90-eefc-38af-9ff4-d18897253971",
+  "uid": "s:200~a:1411900",
+  "type": "cricket",
+  "name": "Yayin Kiran Rai",
+  "firstName": "Yayin",
+  "middleName": "",
+  "lastName": "Rai",
+  "shortName": "Rai",
+  "fullName": "Yayin Kiran Rai",
+  "displayName": "Yayin Kiran Rai",
+  "weight": 0,
+  "height": 0.0,
+  "age": 17,
+  "dateOfBirthStr": "2009-02-04T00:00Z",
+  "dateOfBirth": "2009-02-04T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "YK Rai",
+  "fieldingName": "Rai",
+  "country": 27,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3675"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/27.png",
+    "width": 500,
+    "height": 500,
+    "alt": "UAE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1411900/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1509846/events/1509859"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1509850/events/1509859"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1509844/events/1509859"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1509846/events/1509859"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1509850/events/1509859"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1509844/events/1509859"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1513710/events/1513717"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1513704/events/1513717"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1411900.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

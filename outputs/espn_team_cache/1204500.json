@@ -1,0 +1,76 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204500",
+  "id": "1204500",
+  "uid": "s:200~t:1204500",
+  "location": "England",
+  "name": "London Spirit (Men)",
+  "nickname": "London Spirit (Men)",
+  "abbreviation": "LS-M",
+  "displayName": "London Spirit (Men)",
+  "shortDisplayName": "LS-M",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "london-spirit-men",
+  "classes": [
+    6
+  ],
+  "event": {
+    "date": "2026-07-23T17:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19601/events/1521233"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19601"
+  },
+  "color": "#0830f7",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1204500.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204500/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1204500/london-spirit-men",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1204500/london-spirit-men",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "videos",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/current/video_audio/index.html?object=1204500",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

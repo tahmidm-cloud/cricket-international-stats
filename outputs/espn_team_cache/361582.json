@@ -1,0 +1,63 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/361582",
+  "id": "361582",
+  "uid": "s:200~t:361582",
+  "location": "Sri Lanka",
+  "name": "Sri Lanka Cricket XI",
+  "nickname": "Sri Lanka Cricket XI",
+  "abbreviation": "SLCXI",
+  "displayName": "Sri Lanka Cricket XI",
+  "shortDisplayName": "SLCXI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "sri-lanka-cricket-xi",
+  "classes": [
+    5,
+    14,
+    15
+  ],
+  "event": {
+    "date": "2022-07-11T04:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20818/events/1320952"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/361582.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/361582/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/361582/sri-lanka-cricket-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/361582/sri-lanka-cricket-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

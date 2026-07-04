@@ -1,0 +1,135 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/317250",
+  "id": "317250",
+  "guid": "8f0e7fc7-9983-7c74-e451-1afa01ba119d",
+  "uid": "s:200~a:317250",
+  "type": "cricket",
+  "name": "Anop Santosh",
+  "firstName": "Anop",
+  "middleName": "",
+  "lastName": "Santosh",
+  "shortName": "Santosh",
+  "fullName": "Anop Ravi Santosh Kumar",
+  "displayName": "Anop Santosh",
+  "weight": 0,
+  "height": 0.0,
+  "age": 35,
+  "dateOfBirthStr": "1991-06-23T00:00Z",
+  "dateOfBirth": "1991-06-23T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "Anop Santosh",
+  "fieldingName": "Anop Santosh",
+  "country": 17,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1150152"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3010"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2964"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1501381"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/17.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/317250/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420525/events/1482568"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1482562/events/1482568"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/313839/events/313861"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/446088/events/446147"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/424240/events/424245"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/424242/events/424245"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/424240/events/424244"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/424243/events/424244"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/317250.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

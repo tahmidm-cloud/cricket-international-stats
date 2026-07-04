@@ -1,0 +1,90 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/64",
+  "id": "64",
+  "uid": "s:200~t:64",
+  "location": "Belize",
+  "name": "Belize",
+  "nickname": "Belize",
+  "abbreviation": "Blz",
+  "displayName": "Belize",
+  "shortDisplayName": "Blz",
+  "isNational": true,
+  "isActive": true,
+  "countryCode": "BZ",
+  "slug": "belize",
+  "classes": [
+    3,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2026-06-27T13:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/24527/events/1539737"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/24527"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/64.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/64/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/64/belize",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/64/belize",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=115;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "players",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/country.html?country=115",
+      "text": "Players",
+      "shortText": "Players",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

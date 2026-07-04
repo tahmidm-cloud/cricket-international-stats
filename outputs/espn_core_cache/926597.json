@@ -1,0 +1,145 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/926597",
+  "id": "926597",
+  "guid": "928ad8de-0639-fc32-8136-b44367aa4f77",
+  "uid": "s:200~a:926597",
+  "type": "cricket",
+  "name": "Aminul Islam",
+  "firstName": "Aminul",
+  "middleName": "",
+  "lastName": "Islam",
+  "shortName": "",
+  "fullName": "Aminul Islam Biplob",
+  "displayName": "Aminul Islam",
+  "weight": 0,
+  "height": 0.0,
+  "age": 26,
+  "dateOfBirthStr": "1999-11-06T00:00Z",
+  "dateOfBirth": "1999-11-06T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "Aminul Islam",
+  "fieldingName": "Aminul Islam",
+  "country": 25,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/927307"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/671"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1239299"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1060323"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/926597.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/25.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/926597/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197136/events/1197143"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197135/events/1197143"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1202854/events/1202897"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1135515/events/1135529"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1175889/events/1175894"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1072718/events/1071859"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1071840/events/1071859"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1072721/events/1071859"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/926597.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

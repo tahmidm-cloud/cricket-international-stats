@@ -1,0 +1,145 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/481803",
+  "id": "481803",
+  "guid": "c9998031-2782-68d2-33a5-4e580d73fec0",
+  "uid": "s:200~a:481803",
+  "type": "cricket",
+  "name": "Glenton Stuurman",
+  "firstName": "Glenton",
+  "middleName": "",
+  "lastName": "Stuurman",
+  "shortName": "Stuurman",
+  "fullName": "Glenton Anric Stuurman",
+  "displayName": "Glenton Stuurman",
+  "weight": 0,
+  "height": 0.0,
+  "age": 33,
+  "dateOfBirthStr": "1992-08-10T00:00Z",
+  "dateOfBirth": "1992-08-10T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "GA Stuurman",
+  "fieldingName": "Stuurman",
+  "country": 3,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3337"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/423294"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3353"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/481803.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/481803/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1288966/events/1288981"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1288965/events/1288981"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1268315/events/1288981"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1242968/events/1243020"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1242975/events/1243020"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/670057/events/670149"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/670059/events/670297"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/670755/events/670297"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/670061/events/670419"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/481803.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

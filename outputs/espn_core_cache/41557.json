@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/41557",
+  "id": "41557",
+  "guid": "6c8594a9-8ed7-bd3f-6f8c-4033d662f9ec",
+  "uid": "s:200~a:41557",
+  "type": "cricket",
+  "name": "Mohammad Ayub",
+  "firstName": "Mohammad",
+  "middleName": "",
+  "lastName": "Ayub",
+  "shortName": "",
+  "fullName": "Mohammad Ayub Dogar",
+  "displayName": "Mohammad Ayub",
+  "weight": 0,
+  "height": 0.0,
+  "age": 46,
+  "dateOfBirthStr": "1979-09-13T00:00Z",
+  "dateOfBirth": "1979-09-13T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "Mohammad Ayub",
+  "fieldingName": "Mohammad Ayub",
+  "country": 7,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/713883"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3022"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3090"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3095"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3095"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/7.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAK",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/41557/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/562333/events/562444"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/562434/events/562444"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/369896/events/369913"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/41557.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

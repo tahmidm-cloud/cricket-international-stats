@@ -1,0 +1,111 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1318868",
+  "id": "1318868",
+  "guid": "9a7da098-ba68-3d87-9e23-08e8d03b09c5",
+  "uid": "s:200~a:1318868",
+  "type": "cricket",
+  "name": "Alester Kadowaki Fleming",
+  "firstName": "Alester",
+  "middleName": "",
+  "lastName": "Fleming",
+  "shortName": "",
+  "fullName": "Alester Kadowaki Fleming",
+  "displayName": "Alester Kadowaki Fleming",
+  "weight": 0,
+  "height": 0.0,
+  "age": 28,
+  "dateOfBirthStr": "1997-08-21T00:00Z",
+  "dateOfBirth": "1997-08-21T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "A Kadowaki Fleming",
+  "fieldingName": "Kadowaki Fleming",
+  "country": 32,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/32"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/32.png",
+    "width": 500,
+    "height": 500,
+    "alt": "JPN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/32"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1318868/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1431095/events/1431124"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1431096/events/1431124"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1431095/events/1431124"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1431096/events/1431124"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1318868.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

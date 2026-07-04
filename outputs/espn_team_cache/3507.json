@@ -1,0 +1,68 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3507",
+  "id": "3507",
+  "uid": "s:200~t:3507",
+  "location": "Sri Lanka",
+  "name": "Colts Cricket Club",
+  "nickname": "Colts Cricket Club",
+  "abbreviation": "COLT",
+  "displayName": "Colts Cricket Club",
+  "shortDisplayName": "COLT",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "colts-cricket-club",
+  "classes": [
+    4,
+    5,
+    6,
+    14,
+    15
+  ],
+  "event": {
+    "date": "2026-05-31T04:15Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18851/events/1535511"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20978"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3507.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3507/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3507/colts-cricket-club",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3507/colts-cricket-club",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

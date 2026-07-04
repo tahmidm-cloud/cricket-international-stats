@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1701",
+  "id": "1701",
+  "uid": "s:200~t:1701",
+  "location": "India",
+  "name": "Eastern Punjab",
+  "nickname": "Eastern Punjab",
+  "abbreviation": "EPNJB",
+  "displayName": "Eastern Punjab",
+  "shortDisplayName": "EPNJB",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "eastern-punjab",
+  "classes": [
+    "4"
+  ],
+  "event": {
+    "date": "1960-02-08T03:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8050/events/1526766"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1701/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1701/eastern-punjab",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1701/eastern-punjab",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

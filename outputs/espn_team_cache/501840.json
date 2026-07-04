@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/501840",
+  "id": "501840",
+  "uid": "s:200~t:501840",
+  "location": "South Africa",
+  "name": "Waterkloof High School",
+  "nickname": "Waterkloof High School",
+  "abbreviation": "Water",
+  "displayName": "Waterkloof High School",
+  "shortDisplayName": "Water",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZA",
+  "slug": "waterkloof-high-school",
+  "classes": [
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2014-10-05T07:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8884/events/781213"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/501840/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/501840/waterkloof-high-school",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/501840/waterkloof-high-school",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

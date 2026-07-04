@@ -1,0 +1,73 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1121244",
+  "id": "1121244",
+  "uid": "s:200~t:1121244",
+  "location": "Bangladesh",
+  "name": "Sylhet Strikers",
+  "nickname": "Sylhet Strikers",
+  "abbreviation": "SYS",
+  "displayName": "Sylhet Strikers",
+  "shortDisplayName": "SYS",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "BD",
+  "slug": "sylhet-strikers",
+  "classes": [
+    6
+  ],
+  "event": {
+    "date": "2025-01-30T12:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8653/events/1459576"
+  },
+  "color": "#128233",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1121244.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1121244/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1121244/sylhet-strikers",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1121244/sylhet-strikers",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "videos",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/current/video_audio/index.html?object=1121244",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

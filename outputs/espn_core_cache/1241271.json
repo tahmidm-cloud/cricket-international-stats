@@ -1,0 +1,145 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1241271",
+  "id": "1241271",
+  "guid": "aac2ab05-a987-3fd8-ad21-66d25558fb1c",
+  "uid": "s:200~a:1241271",
+  "type": "cricket",
+  "name": "Muhammad Farooq",
+  "firstName": "Muhammad",
+  "middleName": "",
+  "lastName": "Farooq",
+  "shortName": "",
+  "fullName": "Muhammad Momand Farooq",
+  "displayName": "Muhammad Farooq",
+  "weight": 0,
+  "height": 0.0,
+  "age": 33,
+  "dateOfBirthStr": "1992-10-05T00:00Z",
+  "dateOfBirth": "1992-10-05T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "Muhammad Farooq",
+  "fieldingName": "Muhammad Farooq",
+  "country": 27,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1346029"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1241088"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/27.png",
+    "width": 500,
+    "height": 500,
+    "alt": "UAE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1241271/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420525/events/1450695"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1450684/events/1450695"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1426427/events/1426456"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1426433/events/1426456"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1426424/events/1426456"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1450684/events/1450695"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420525/events/1450695"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1426424/events/1426456"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1426427/events/1426456"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1426433/events/1426456"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1241271.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

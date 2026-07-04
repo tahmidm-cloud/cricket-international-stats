@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/23685",
+  "id": "23685",
+  "guid": "74664627-b030-2fb3-e637-b3557274211d",
+  "uid": "s:200~a:23685",
+  "type": "cricket",
+  "name": "Kevin Hurdle",
+  "firstName": "Kevin",
+  "middleName": "",
+  "lastName": "Hurdle",
+  "shortName": "Hurdle",
+  "fullName": "Kevin Andre Dean Hurdle",
+  "displayName": "Kevin Hurdle",
+  "weight": 0,
+  "height": 0.0,
+  "age": 49,
+  "dateOfBirthStr": "1976-12-30T00:00Z",
+  "dateOfBirth": "1976-12-30T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "KAD Hurdle",
+  "fieldingName": "Hurdle",
+  "country": 12,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/12"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/736"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/23685.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/12.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BER",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/12"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/23685/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/219427/events/247361"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/244203/events/247361"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/250631/events/247361"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/305741/events/135204"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/134115/events/135204"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/244203/events/247361"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/250631/events/247361"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/219427/events/247361"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/23685.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

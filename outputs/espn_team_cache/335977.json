@@ -1,0 +1,77 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335977",
+  "id": "335977",
+  "uid": "s:200~t:335977",
+  "location": "India",
+  "name": "Rajasthan Royals",
+  "nickname": "Rajasthan Royals",
+  "abbreviation": "RR",
+  "displayName": "Rajasthan Royals",
+  "shortDisplayName": "RR",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "rajasthan-royals",
+  "classes": [
+    6,
+    16
+  ],
+  "event": {
+    "date": "2026-05-29T14:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8048/events/1535464"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8048"
+  },
+  "color": "#c511e8",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/335977.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335977/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/335977/rajasthan-royals",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/335977/rajasthan-royals",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "videos",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/current/video_audio/index.html?object=335977",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

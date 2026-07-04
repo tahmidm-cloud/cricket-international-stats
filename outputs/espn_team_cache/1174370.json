@@ -1,0 +1,56 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1174370",
+  "id": "1174370",
+  "uid": "s:200~t:1174370",
+  "location": "India",
+  "name": "India A Under-19s",
+  "nickname": "India A Under-19s",
+  "abbreviation": "IAU19",
+  "displayName": "India A Under-19s",
+  "shortDisplayName": "IAU19",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "india-a-under-19s",
+  "classes": [
+    15
+  ],
+  "event": {
+    "date": "2025-11-30T03:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/24144/events/1508491"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/24144"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1174370/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1174370/india-a-under-19s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1174370/india-a-under-19s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/8231",
+  "id": "8231",
+  "guid": "6272a01e-6634-2bcf-1b85-5a24a7b1914d",
+  "uid": "s:200~a:8231",
+  "type": "cricket",
+  "name": "Brad Williams",
+  "firstName": "Brad",
+  "middleName": "",
+  "lastName": "Williams",
+  "shortName": "Williams",
+  "fullName": "Brad Andrew Williams",
+  "displayName": "Brad Williams",
+  "weight": 0,
+  "height": 1.83,
+  "age": 51,
+  "dateOfBirthStr": "1974-11-20T00:00Z",
+  "dateOfBirth": "1974-11-20T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "BA Williams",
+  "fieldingName": "Williams",
+  "country": 2,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/195"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/49"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/233"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/452"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/584"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/597"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/602"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/603"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/649"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/8231/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61991/events/64049"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60750/events/64049"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62085/events/65615"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61098/events/65615"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326503/events/326510"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326501/events/326510"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326502/events/326504"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326501/events/326504"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/8231.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1334805",
+  "id": "1334805",
+  "guid": "c63a1f3c-3c87-3bb0-92f1-7c23db844963",
+  "uid": "s:200~a:1334805",
+  "type": "cricket",
+  "name": "Aaftab Limdawala",
+  "firstName": "Aaftab",
+  "middleName": "",
+  "lastName": "Limdawala",
+  "shortName": "Limdawala",
+  "fullName": "Aaftab Limdawala",
+  "displayName": "Aaftab Limdawala",
+  "weight": 0,
+  "height": 0.0,
+  "age": 22,
+  "dateOfBirthStr": "2004-06-18T00:00Z",
+  "dateOfBirth": "2004-06-18T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "A Limdawala",
+  "fieldingName": "Limdawala",
+  "country": 118,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/118"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/118.png",
+    "width": 500,
+    "height": 500,
+    "alt": "MWI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/118"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1334805/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1332493/events/1332502"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1332494/events/1332502"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1332475/events/1332502"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1332475/events/1332502"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1332493/events/1332502"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1332494/events/1332502"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1334805.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

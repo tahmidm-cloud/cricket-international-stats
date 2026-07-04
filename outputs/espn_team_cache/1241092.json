@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1241092",
+  "id": "1241092",
+  "uid": "s:200~t:1241092",
+  "location": "United Arab Emirates",
+  "name": "Dubai",
+  "nickname": "Dubai",
+  "abbreviation": "DBX",
+  "displayName": "Dubai",
+  "shortDisplayName": "DBX",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AE",
+  "slug": "dubai",
+  "classes": [
+    16
+  ],
+  "event": {
+    "date": "2020-12-24T09:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19967/events/1244756"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1241092/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1241092/dubai",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1241092/dubai",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

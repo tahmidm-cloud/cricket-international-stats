@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204575",
+  "id": "1204575",
+  "uid": "s:200~t:1204575",
+  "location": "United Arab Emirates",
+  "name": "Team Abu Dhabi",
+  "nickname": "Team Abu Dhabi",
+  "abbreviation": "TAD",
+  "displayName": "Team Abu Dhabi",
+  "shortDisplayName": "TAD",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AE",
+  "slug": "team-abu-dhabi",
+  "classes": [
+    16
+  ],
+  "event": {
+    "date": "2024-12-01T16:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18522/events/1459879"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1204575.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204575/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1204575/team-abu-dhabi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1204575/team-abu-dhabi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

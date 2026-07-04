@@ -1,0 +1,161 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1071473",
+  "id": "1071473",
+  "guid": "795705b1-3154-1bc5-b673-580b7243aa12",
+  "uid": "s:200~a:1071473",
+  "type": "cricket",
+  "name": "Jan Nicol Loftie-Eaton",
+  "firstName": "Jan",
+  "middleName": "",
+  "lastName": "Loftie-Eaton",
+  "shortName": "",
+  "fullName": "Jan Nicol Loftie-Eaton",
+  "displayName": "Jan Nicol Loftie-Eaton",
+  "weight": 0,
+  "height": 0.0,
+  "age": 25,
+  "dateOfBirthStr": "2001-03-15T00:00Z",
+  "dateOfBirth": "2001-03-15T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BTA",
+    "id": "BTA",
+    "name": "Batting allrounder",
+    "abbreviation": "BTA",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BTA"
+    }
+  },
+  "battingName": "JN Loftie-Eaton",
+  "fieldingName": "Loftie-Eaton",
+  "country": 28,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/28"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/219323"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/1071473.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/28.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NAM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/28"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1071473/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1290879/events/1290882"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1196667/events/1290882"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1257403/events/1257404"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1257402/events/1257404"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1124637/events/1123507"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1123432/events/1123507"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1124637/events/1123578"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1123439/events/1123578"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1157394/events/1157405"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1157345/events/1157405"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1116878/events/1116897"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1116872/events/1116897"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1116879/events/1116897"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1071473.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

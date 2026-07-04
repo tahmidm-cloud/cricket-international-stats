@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1434629",
+  "id": "1434629",
+  "guid": "094105cc-ae9a-3b8b-8add-2be5b4ebd1ab",
+  "uid": "s:200~a:1434629",
+  "type": "cricket",
+  "name": "Waleed Waqar",
+  "firstName": "Waleed",
+  "middleName": "",
+  "lastName": "Waqar",
+  "shortName": "",
+  "fullName": "Waleed Waqar",
+  "displayName": "Waleed Waqar",
+  "weight": 0,
+  "height": 0.0,
+  "age": 24,
+  "dateOfBirthStr": "2002-01-30T00:00Z",
+  "dateOfBirth": "2002-01-30T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Waleed Waqar",
+  "fieldingName": "Waleed Waqar",
+  "country": 63,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/63"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/63.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BUL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/63"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1434629/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1434149/events/1434155"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1434151/events/1434155"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1434152/events/1434155"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1434149/events/1434155"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1434151/events/1434155"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1434152/events/1434155"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1434629.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

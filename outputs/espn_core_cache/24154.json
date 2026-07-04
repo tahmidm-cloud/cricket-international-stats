@@ -1,0 +1,145 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24154",
+  "id": "24154",
+  "guid": "f34a6768-afd6-4040-6068-955c1d7662db",
+  "uid": "s:200~a:24154",
+  "type": "cricket",
+  "name": "Roy Lamsam",
+  "firstName": "Roy",
+  "middleName": "",
+  "lastName": "Lamsam",
+  "shortName": "Lamsam",
+  "fullName": "John Patrick Roy Lamsam",
+  "displayName": "Roy Lamsam",
+  "weight": 0,
+  "height": 0.0,
+  "age": 46,
+  "dateOfBirthStr": "1980-05-15T00:00Z",
+  "dateOfBirth": "1980-05-15T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "JPR Lamsam",
+  "fieldingName": "Lamsam",
+  "country": 19,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/19"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1518"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/19.png",
+    "width": 500,
+    "height": 500,
+    "alt": "HKG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/19"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24154/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61447/events/65706"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62188/events/65706"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61152/events/65706"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870857/events/870873"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870903/events/870873"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61152/events/65706"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61447/events/65706"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62188/events/65706"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/532912/events/546412"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/546492/events/546412"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/546494/events/546412"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/24154.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

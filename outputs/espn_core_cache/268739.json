@@ -1,0 +1,172 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/268739",
+  "id": "268739",
+  "guid": "539fc693-2cf2-b984-24e7-1e0066a7be17",
+  "uid": "s:200~a:268739",
+  "type": "cricket",
+  "name": "Ajantha Mendis",
+  "firstName": "Ajantha",
+  "middleName": "",
+  "lastName": "Mendis",
+  "shortName": "Mendis",
+  "fullName": "Balapuwaduge Ajantha Winslow Mendis",
+  "displayName": "Ajantha Mendis",
+  "weight": 0,
+  "height": 0.0,
+  "age": 41,
+  "dateOfBirthStr": "1985-03-11T00:00Z",
+  "dateOfBirth": "1985-03-11T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "BAW Mendis",
+  "fieldingName": "Mendis",
+  "country": 8,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/523350"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/549986"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1051"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/659495"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335971"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/953847"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/704"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/474666"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/48436"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3599"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/325788"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/8.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/268739/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/343728/events/343729"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/343726/events/343729"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/319119/events/319134"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/319121/events/319134"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/369765/events/361653"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/361648/events/361653"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/361644/events/361653"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/260051/events/264415"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/260052/events/264478"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/281543/events/281545"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/268739.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

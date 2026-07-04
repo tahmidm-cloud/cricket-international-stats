@@ -1,0 +1,157 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/41310",
+  "id": "41310",
+  "guid": "0d59106b-58c1-3bb9-629d-d3a1944acd97",
+  "uid": "s:200~a:41310",
+  "type": "cricket",
+  "name": "Mujahid Jamshed",
+  "firstName": "Mujahid",
+  "middleName": "",
+  "lastName": "Jamshed",
+  "shortName": "",
+  "fullName": "Mujahid Jamshed",
+  "displayName": "Mujahid Jamshed",
+  "weight": 0,
+  "height": 0.0,
+  "age": 54,
+  "dateOfBirthStr": "1971-12-01T00:00Z",
+  "dateOfBirth": "1971-12-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "Mujahid Jamshed",
+  "fieldingName": "Mujahid Jamshed",
+  "country": 7,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2731"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2747"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2761"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2833"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2936"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3039"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3054"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3085"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3090"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/7.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAK",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/41310/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61471/events/65548"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60995/events/65548"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326037/events/326048"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326036/events/326048"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326072/events/326088"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326085/events/326088"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326082/events/326088"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/41310.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

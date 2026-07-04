@@ -1,0 +1,69 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3278",
+  "id": "3278",
+  "uid": "s:200~t:3278",
+  "location": "South Africa",
+  "name": "North West",
+  "nickname": "North West",
+  "abbreviation": "NWEST",
+  "displayName": "North West",
+  "shortDisplayName": "NWEST",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZA",
+  "slug": "north-west",
+  "classes": [
+    4,
+    5,
+    6,
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2026-03-22T08:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20675/events/1501203"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20675"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3278.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3278/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3278/north-west",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3278/north-west",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

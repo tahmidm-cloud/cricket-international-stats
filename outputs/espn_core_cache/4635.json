@@ -1,0 +1,124 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/4635",
+  "id": "4635",
+  "guid": "5586f529-95f6-54ea-2ced-3748748be90d",
+  "uid": "s:200~a:4635",
+  "type": "cricket",
+  "name": "George Coulthard",
+  "firstName": "George",
+  "middleName": "",
+  "lastName": "Coulthard",
+  "shortName": "Coulthard",
+  "fullName": "George Coulthard",
+  "displayName": "George Coulthard",
+  "weight": 0,
+  "height": 0,
+  "age": 27,
+  "dateOfBirthStr": "1856-08-01T00:00Z",
+  "dateOfBirth": "1856-08-01T00:00Z",
+  "dateOfDeathStr": "1883-10-22T00:00Z",
+  "dateOfDeath": "1883-10-22T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "G Coulthard",
+  "fieldingName": "Coulthard",
+  "country": 2,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/584"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/4635/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60263/events/62401"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61738/events/62401"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60261/events/62398"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61733/events/62398"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/4635.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

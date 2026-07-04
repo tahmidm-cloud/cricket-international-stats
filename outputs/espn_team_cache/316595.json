@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/316595",
+  "id": "316595",
+  "uid": "s:200~t:316595",
+  "location": "India",
+  "name": "Mumbai Champs",
+  "nickname": "Mumbai Champs",
+  "abbreviation": "MumCh",
+  "displayName": "Mumbai Champs",
+  "shortDisplayName": "MumCh",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "mumbai-champs",
+  "classes": [
+    15,
+    16
+  ],
+  "event": {
+    "date": "2008-11-06T14:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8049/events/371338"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/316595/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/316595/mumbai-champs",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/316595/mumbai-champs",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

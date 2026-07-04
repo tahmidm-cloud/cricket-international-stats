@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/722",
+  "id": "722",
+  "uid": "s:200~t:722",
+  "location": "Bangladesh",
+  "name": "Victoria Sporting Club",
+  "nickname": "Victoria Sporting Club",
+  "abbreviation": "VSC",
+  "displayName": "Victoria Sporting Club",
+  "shortDisplayName": "VSC",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "BD",
+  "slug": "victoria-sporting-club",
+  "classes": [
+    5
+  ],
+  "event": {
+    "date": "2017-06-08T03:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8738/events/1099085"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/722/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/722/victoria-sporting-club",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/722/victoria-sporting-club",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

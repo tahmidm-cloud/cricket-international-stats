@@ -1,0 +1,138 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/12877",
+  "id": "12877",
+  "guid": "807c3ae2-f0f7-b96f-e702-35fe088aafbe",
+  "uid": "s:200~a:12877",
+  "type": "cricket",
+  "name": "James Foster",
+  "firstName": "James",
+  "middleName": "",
+  "lastName": "Foster",
+  "shortName": "Foster",
+  "fullName": "James Savin Foster",
+  "displayName": "James Foster",
+  "weight": 0,
+  "height": 6.0,
+  "age": 46,
+  "dateOfBirthStr": "1980-04-15T00:00Z",
+  "dateOfBirth": "1980-04-15T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "JS Foster",
+  "fieldingName": "Foster",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/928"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/984"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1166"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2516"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/12877/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61791/events/63961"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60717/events/63961"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61093/events/64728"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61742/events/64728"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/391849/events/355991"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/335113/events/355991"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/124121/events/304748"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327400/events/327406"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327402/events/327406"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/12877.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

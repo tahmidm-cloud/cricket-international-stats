@@ -1,0 +1,66 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1098939",
+  "id": "1098939",
+  "uid": "s:200~t:1098939",
+  "location": "Nepal",
+  "name": "Nepal Police Club",
+  "nickname": "Nepal Police Club",
+  "abbreviation": "NPC",
+  "displayName": "Nepal Police Club",
+  "shortDisplayName": "NPC",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "NP",
+  "slug": "nepal-police-club",
+  "classes": [
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2026-04-15T03:45Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/11132/events/1527975"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/11132"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1098939.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1098939/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1098939/nepal-police-club",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1098939/nepal-police-club",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

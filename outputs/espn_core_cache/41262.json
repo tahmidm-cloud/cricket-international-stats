@@ -1,0 +1,164 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/41262",
+  "id": "41262",
+  "guid": "44f56d3e-fbcb-edc5-51c4-9fc436e1aa21",
+  "uid": "s:200~a:41262",
+  "type": "cricket",
+  "name": "Manzoor Elahi",
+  "firstName": "Manzoor",
+  "middleName": "",
+  "lastName": "Elahi",
+  "shortName": "",
+  "fullName": "Manzoor Elahi",
+  "displayName": "Manzoor Elahi",
+  "weight": 0,
+  "height": 0.0,
+  "age": 63,
+  "dateOfBirthStr": "1963-04-15T00:00Z",
+  "dateOfBirth": "1963-04-15T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "Manzoor Elahi",
+  "fieldingName": "Manzoor Elahi",
+  "country": 7,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/43701"
+      },
+      "relation": "Brother"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/42620"
+      },
+      "relation": "Brother"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/384524"
+      },
+      "relation": "Son"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3138"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2833"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2904"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3028"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/7.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAK",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/41262/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62331/events/63382"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60521/events/63382"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62331/events/64239"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60843/events/64239"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324075/events/324082"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324077/events/324082"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324076/events/324097"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324075/events/324097"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/41262.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

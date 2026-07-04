@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/53230",
+  "id": "53230",
+  "guid": "dc69d253-0ab4-be2d-5509-90f8611e1bfb",
+  "uid": "s:200~a:53230",
+  "type": "cricket",
+  "name": "David Williams",
+  "firstName": "David",
+  "middleName": "",
+  "lastName": "Williams",
+  "shortName": "Williams",
+  "fullName": "David Williams",
+  "displayName": "David Williams",
+  "weight": 0,
+  "height": 0.0,
+  "age": 62,
+  "dateOfBirthStr": "1963-11-04T00:00Z",
+  "dateOfBirth": "1963-11-04T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "D Williams",
+  "fieldingName": "Williams",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3790"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/53230/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61839/events/63574"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60580/events/63574"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60878/events/64316"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61942/events/64316"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324116/events/324120"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324119/events/324120"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324116/events/324124"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324117/events/324124"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/53230.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

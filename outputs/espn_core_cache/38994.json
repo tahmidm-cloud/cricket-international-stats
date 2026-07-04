@@ -1,0 +1,151 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38994",
+  "id": "38994",
+  "guid": "2f1fce9b-59cd-dc51-0071-c9f23167e05b",
+  "uid": "s:200~a:38994",
+  "type": "cricket",
+  "name": "Ali Naqvi",
+  "firstName": "Ali",
+  "middleName": "",
+  "lastName": "Naqvi",
+  "shortName": "Ali Naqvi",
+  "fullName": "Syed Ali Urooj Naqvi",
+  "displayName": "Ali Naqvi",
+  "weight": 0,
+  "height": 0.0,
+  "age": 49,
+  "dateOfBirthStr": "1977-03-19T00:00Z",
+  "dateOfBirth": "1977-03-19T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Ali Naqvi",
+  "fieldingName": "Ali Naqvi",
+  "country": 7,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2614"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2761"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2773"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2831"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2675"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3020"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/7.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAK",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38994/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61841/events/63766"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60649/events/63766"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1196667/events/1358081"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1358065/events/1358081"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1358068/events/1358081"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1339583/events/1339614"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1339584/events/1339614"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/238596/events/264781"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/38994.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/423522",
+  "id": "423522",
+  "uid": "s:200~t:423522",
+  "location": "South Africa",
+  "name": "Proteas",
+  "nickname": "Proteas",
+  "abbreviation": "Prot",
+  "displayName": "Proteas",
+  "shortDisplayName": "Prot",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZA",
+  "slug": "proteas",
+  "classes": [
+    "15"
+  ],
+  "event": {
+    "date": "2009-09-04T08:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/13497/events/423527"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/423522/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/423522/proteas",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/423522/proteas",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

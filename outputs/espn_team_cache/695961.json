@@ -1,0 +1,63 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/695961",
+  "id": "695961",
+  "uid": "s:200~t:695961",
+  "location": "Sri Lanka",
+  "name": "Sri Lanka A Emerging Players",
+  "nickname": "Sri Lanka A Emerging Players",
+  "abbreviation": "SLAEM",
+  "displayName": "Sri Lanka A Emerging Players",
+  "shortDisplayName": "SLAEM",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "sri-lanka-a-emerging-players",
+  "classes": [
+    "4",
+    "14",
+    "15"
+  ],
+  "event": {
+    "date": "2015-08-24T04:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/11338/events/904143"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/695961.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/695961/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/695961/sri-lanka-a-emerging-players",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/695961/sri-lanka-a-emerging-players",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/926851",
+  "id": "926851",
+  "guid": "f167c349-5201-84db-cf03-5098a861c4de",
+  "uid": "s:200~a:926851",
+  "type": "cricket",
+  "name": "Mukesh Kumar",
+  "firstName": "Mukesh",
+  "middleName": "",
+  "lastName": "Kumar",
+  "shortName": "Mukesh",
+  "fullName": "Mukesh Kumar",
+  "displayName": "Mukesh Kumar",
+  "weight": 0,
+  "height": 0.0,
+  "age": 32,
+  "dateOfBirthStr": "1993-10-12T00:00Z",
+  "dateOfBirth": "1993-10-12T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "Mukesh Kumar",
+  "fieldingName": "Mukesh Kumar",
+  "country": 6,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1572"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335975"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1690"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1781"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2059"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/926851.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/926851/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1381201/events/1381213"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1381202/events/1381213"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1345943/events/1381213"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1381201/events/1381214"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1381203/events/1381214"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1381204/events/1381217"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1381201/events/1381217"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/901105/events/901789"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/901115/events/901985"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/901113/events/902161"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/926851.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

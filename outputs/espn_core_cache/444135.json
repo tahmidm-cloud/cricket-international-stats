@@ -1,0 +1,163 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/444135",
+  "id": "444135",
+  "guid": "f388bb2b-7f3e-c306-5448-a74ba8555e66",
+  "uid": "s:200~a:444135",
+  "type": "cricket",
+  "name": "Sohag Gazi",
+  "firstName": "Sohag",
+  "middleName": "",
+  "lastName": "Gazi",
+  "shortName": "Sohag Gazi",
+  "fullName": "Sohag Gazi",
+  "displayName": "Sohag Gazi",
+  "weight": 0,
+  "height": 0.0,
+  "age": 34,
+  "dateOfBirthStr": "1991-08-05T00:00Z",
+  "dateOfBirth": "1991-08-05T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "Sohag Gazi",
+  "fieldingName": "Sohag Gazi",
+  "country": 25,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/668"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/271443"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/662"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/549985"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/598354"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/549989"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1121244"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1121244"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/444135.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/25.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/444135/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/586566/events/587469"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/586600/events/587469"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/586601/events/587471"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/586566/events/587471"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/586602/events/587476"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/586566/events/587476"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440848/events/440852"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/482606/events/477194"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/537765/events/537769"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/537763/events/537769"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/444135.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

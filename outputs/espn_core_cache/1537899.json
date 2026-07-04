@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1537899",
+  "id": "1537899",
+  "guid": "78104eaf-219e-3565-b3c3-511d762d1563",
+  "uid": "s:200~a:1537899",
+  "type": "cricket",
+  "name": "Faris Al Balushi",
+  "firstName": "Faris",
+  "middleName": "",
+  "lastName": "Balushi",
+  "shortName": "",
+  "fullName": "Faris Al Balushi",
+  "displayName": "Faris Al Balushi",
+  "weight": 0,
+  "height": 0.0,
+  "age": 29,
+  "dateOfBirthStr": "1997-05-21T00:00Z",
+  "dateOfBirth": "1997-05-21T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Faris Al Balushi",
+  "fieldingName": "Faris Al Balushi",
+  "country": 37,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/37"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/37.png",
+    "width": 500,
+    "height": 500,
+    "alt": "OMA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/37"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1537899/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1538431/events/1538451"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1538436/events/1538451"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1538438/events/1538451"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1538438/events/1538451"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1538431/events/1538451"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1538436/events/1538451"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1537899.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

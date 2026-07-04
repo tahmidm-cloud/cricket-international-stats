@@ -1,0 +1,151 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/533953",
+  "id": "533953",
+  "guid": "671bd0cf-22b1-f76b-5075-47aed713db0b",
+  "uid": "s:200~a:533953",
+  "type": "cricket",
+  "name": "Najeeb Tarakai",
+  "firstName": "Najeeb",
+  "middleName": "",
+  "lastName": "Tarakai",
+  "shortName": "",
+  "fullName": "Najeeb Tarakai",
+  "displayName": "Najeeb Tarakai",
+  "weight": 0,
+  "height": 0.0,
+  "age": 29,
+  "dateOfBirthStr": "1991-02-02T00:00Z",
+  "dateOfBirth": "1991-02-02T00:00Z",
+  "dateOfDeathStr": "2020-10-06T00:00Z",
+  "dateOfDeath": "2020-10-06T00:00Z",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "Najeeb Tarakai",
+  "fieldingName": "Najeeb Tarakai",
+  "country": 40,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/40"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/533330"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/789643"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/40.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AFG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/40"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/533953/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1040471/events/1040499"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1040465/events/1040499"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1040469/events/1040499"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/628368/events/682897"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/696641/events/682897"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/756017/events/756043"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/759263/events/756043"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1040465/events/1040499"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1040469/events/1040499"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1040471/events/1040499"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/530192/events/533342"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/534279/events/533342"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/533953.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

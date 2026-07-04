@@ -1,0 +1,154 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/817069",
+  "id": "817069",
+  "guid": "2b6d240d-c572-b522-f916-9cad2ecc0ee1",
+  "uid": "s:200~a:817069",
+  "type": "cricket",
+  "name": "Navneet Dhaliwal",
+  "firstName": "Navneet",
+  "middleName": "",
+  "lastName": "Dhaliwal",
+  "shortName": "Dhaliwal",
+  "fullName": "Navneet Singh Dhaliwal",
+  "displayName": "Navneet Dhaliwal",
+  "weight": 0,
+  "height": 0.0,
+  "age": 37,
+  "dateOfBirthStr": "1988-10-10T00:00Z",
+  "dateOfBirth": "1988-10-10T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "NS Dhaliwal",
+  "fieldingName": "Dhaliwal",
+  "country": 17,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1150154"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1387247"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1387249"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1150150"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/817069.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/17.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/817069/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420215/events/1420220"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420216/events/1420220"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197391/events/1197397"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197393/events/1197397"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197395/events/1197397"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/812813/events/812777"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/812821/events/812777"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/812771/events/812777"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/875401/events/875463"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/875569/events/875463"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/875583/events/875463"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/817069.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

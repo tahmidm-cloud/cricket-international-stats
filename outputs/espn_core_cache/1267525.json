@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1267525",
+  "id": "1267525",
+  "guid": "cef9c7f2-64ec-33c3-9180-1e5a004d3c69",
+  "uid": "s:200~a:1267525",
+  "type": "cricket",
+  "name": "Alkinoos Manatos",
+  "firstName": "Alkinoos",
+  "middleName": "",
+  "lastName": "Manatos",
+  "shortName": "",
+  "fullName": "Alkinoos Manatos",
+  "displayName": "Alkinoos Manatos",
+  "weight": 0,
+  "height": 0,
+  "age": 19,
+  "dateOfBirthStr": "2006-11-30T00:00Z",
+  "dateOfBirth": "2006-11-30T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm medium-fast",
+      "shortDescription": "Lmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm medium-fast",
+      "shortDescription": "Lmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "A Manatos",
+  "fieldingName": "Manatos",
+  "country": 86,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/86"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/86.png",
+    "width": 500,
+    "height": 500,
+    "alt": "GRC",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/86"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1267525/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1267300/events/1267306"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1267302/events/1267306"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1267303/events/1267306"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1267303/events/1267306"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1267300/events/1267306"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1267302/events/1267306"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1267525.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

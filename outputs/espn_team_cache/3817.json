@@ -1,0 +1,65 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3817",
+  "id": "3817",
+  "uid": "s:200~t:3817",
+  "location": "West Indies",
+  "name": "West Indies XI",
+  "nickname": "West Indies XI",
+  "abbreviation": "WIXI",
+  "displayName": "West Indies XI",
+  "shortDisplayName": "WIXI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "west-indies-xi",
+  "classes": [
+    "4",
+    "5",
+    "6",
+    "14",
+    "15"
+  ],
+  "event": {
+    "date": "2011-10-03T12:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/12732/events/533460"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3817.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3817/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3817/west-indies-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3817/west-indies-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

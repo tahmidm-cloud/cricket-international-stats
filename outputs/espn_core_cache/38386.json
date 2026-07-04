@@ -1,0 +1,130 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38386",
+  "id": "38386",
+  "guid": "20d9b8ce-3f3b-50f9-f885-cee1ca4ba298",
+  "uid": "s:200~a:38386",
+  "type": "cricket",
+  "name": "David Sewell",
+  "firstName": "David",
+  "middleName": "",
+  "lastName": "Sewell",
+  "shortName": "Sewell",
+  "fullName": "David Graham Sewell",
+  "displayName": "David Sewell",
+  "weight": 0,
+  "height": 0,
+  "age": 48,
+  "dateOfBirthStr": "1977-10-20T00:00Z",
+  "dateOfBirth": "1977-10-20T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm fast-medium",
+      "shortDescription": "Lfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm fast-medium",
+      "shortDescription": "Lfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "DG Sewell",
+  "fieldingName": "Sewell",
+  "country": 5,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2570"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38386/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62101/events/63765"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60648/events/63765"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326935/events/326937"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326934/events/326937"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326936/events/326940"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326934/events/326940"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/38386.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

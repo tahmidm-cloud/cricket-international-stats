@@ -1,0 +1,56 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1270",
+  "id": "1270",
+  "uid": "s:200~t:1270",
+  "location": "England",
+  "name": "PCA Masters XI",
+  "nickname": "PCA Masters XI",
+  "abbreviation": "PCAXI",
+  "displayName": "PCA Masters XI",
+  "shortDisplayName": "PCAXI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "pca-masters-xi",
+  "classes": [
+    6,
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2013-07-25T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/12148/events/656231"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1270/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1270/pca-masters-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1270/pca-masters-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1163305",
+  "id": "1163305",
+  "uid": "s:200~t:1163305",
+  "location": "United Arab Emirates",
+  "name": "Northern Warriors",
+  "nickname": "Northern Warriors",
+  "abbreviation": "NW",
+  "displayName": "Northern Warriors",
+  "shortDisplayName": "NW",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AE",
+  "slug": "northern-warriors",
+  "classes": [
+    14,
+    16
+  ],
+  "event": {
+    "date": "2025-11-27T16:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18522/events/1511501"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18522"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1163305.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1163305/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1163305/northern-warriors",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1163305/northern-warriors",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

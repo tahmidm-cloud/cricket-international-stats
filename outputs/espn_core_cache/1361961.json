@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1361961",
+  "id": "1361961",
+  "guid": "64c94c5d-2557-3dd6-a690-fc0d126f979d",
+  "uid": "s:200~a:1361961",
+  "type": "cricket",
+  "name": "Abid Ullah Shah",
+  "firstName": "Abid",
+  "middleName": "",
+  "lastName": "Shah",
+  "shortName": "",
+  "fullName": "Abid Ullah Halim A Shah",
+  "displayName": "Abid Ullah Shah",
+  "weight": 0,
+  "height": 0.0,
+  "age": 23,
+  "dateOfBirthStr": "2003-04-17T00:00Z",
+  "dateOfBirth": "2003-04-17T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Abid Ullah Shah",
+  "fieldingName": "Abid Ullah Shah",
+  "country": 57,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/57"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/57.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BHR",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/57"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1361961/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1538431/events/1538443"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1538437/events/1538443"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1538438/events/1538443"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1470690/events/1471837"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1471817/events/1471837"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1451884/events/1471837"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1538431/events/1538443"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1538438/events/1538443"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1538437/events/1538443"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1361961.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

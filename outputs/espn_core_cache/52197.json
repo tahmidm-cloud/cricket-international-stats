@@ -1,0 +1,157 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52197",
+  "id": "52197",
+  "guid": "eb9cd34d-0ae0-7ed3-9409-91c0da9e390a",
+  "uid": "s:200~a:52197",
+  "type": "cricket",
+  "name": "Danza Hyatt",
+  "firstName": "Danza",
+  "middleName": "",
+  "lastName": "Hyatt",
+  "shortName": "Hyatt",
+  "fullName": "Danza Pacino Hyatt",
+  "displayName": "Danza Hyatt",
+  "weight": 0,
+  "height": 0.0,
+  "age": 43,
+  "dateOfBirthStr": "1983-03-17T00:00Z",
+  "dateOfBirth": "1983-03-17T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "DP Hyatt",
+  "fieldingName": "Hyatt",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/642409"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3751"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/642415"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1392079"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/599860"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3800"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3801"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/52197.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52197/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/489197/events/489223"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/489200/events/489223"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/489196/events/489212"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/489203/events/489212"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/125654/events/415439"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/415468/events/415439"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/141333/events/411161"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/333378/events/300886"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/300764/events/300886"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/52197.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

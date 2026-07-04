@@ -1,0 +1,142 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1058938",
+  "id": "1058938",
+  "guid": "16e4b7ce-12a9-bd32-7b07-2728ddfbb07c",
+  "uid": "s:200~a:1058938",
+  "type": "cricket",
+  "name": "Wasim Ali",
+  "firstName": "Wasim",
+  "middleName": "",
+  "lastName": "Ali",
+  "shortName": "Wasim Ali",
+  "fullName": "Wasim Ali",
+  "displayName": "Wasim Ali",
+  "weight": 0,
+  "height": 0.0,
+  "age": 27,
+  "dateOfBirthStr": "1998-12-07T00:00Z",
+  "dateOfBirth": "1998-12-07T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BTA",
+    "id": "BTA",
+    "name": "Batting allrounder",
+    "abbreviation": "BTA",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BTA"
+    }
+  },
+  "battingName": "Wasim Ali",
+  "fieldingName": "Wasim Ali",
+  "country": 37,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/37"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2611"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/1058938.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/37.png",
+    "width": 500,
+    "height": 500,
+    "alt": "OMA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/37"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1058938/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1196667/events/1302622"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1302611/events/1302622"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1302612/events/1302622"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1172487/events/1172510"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1172484/events/1172510"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1302612/events/1302622"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1302611/events/1302622"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1196667/events/1302622"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1172487/events/1172510"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1172484/events/1172510"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1058938.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

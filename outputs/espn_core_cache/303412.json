@@ -1,0 +1,142 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/303412",
+  "id": "303412",
+  "guid": "70c6f0fe-6447-8e95-9c07-dc2c0ea2991a",
+  "uid": "s:200~a:303412",
+  "type": "cricket",
+  "name": "Ryan Flannigan",
+  "firstName": "Ryan",
+  "middleName": "",
+  "lastName": "Flannigan",
+  "shortName": "Flannigan",
+  "fullName": "Ryan Flannigan",
+  "displayName": "Ryan Flannigan",
+  "weight": 0,
+  "height": 0.0,
+  "age": 38,
+  "dateOfBirthStr": "1988-06-30T00:00Z",
+  "dateOfBirth": "1988-06-30T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "R Flannigan",
+  "fieldingName": "Flannigan",
+  "country": 30,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3452"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/303412.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/30.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SCOT",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/303412/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/450499/events/450501"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/450500/events/450501"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/532912/events/546411"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/543850/events/546411"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/546491/events/546411"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/408325/events/438895"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/450499/events/438895"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/435396/events/435858"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/523800/events/529479"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/529473/events/529479"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/303412.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

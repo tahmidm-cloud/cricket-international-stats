@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/385283",
+  "id": "385283",
+  "uid": "s:200~t:385283",
+  "location": "China",
+  "name": "China Under-19s",
+  "nickname": "China Under-19s",
+  "abbreviation": "CHN19",
+  "displayName": "China Under-19s",
+  "shortDisplayName": "CHN19",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "CN",
+  "slug": "china-under-19s",
+  "classes": [
+    "15"
+  ],
+  "event": {
+    "date": "2018-12-13T02:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19037/events/1166866"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/385283.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/385283/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/385283/china-under-19s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/385283/china-under-19s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

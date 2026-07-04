@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1447222",
+  "id": "1447222",
+  "guid": "448dcecb-175c-3ba3-8df2-fa58a0bc6d16",
+  "uid": "s:200~a:1447222",
+  "type": "cricket",
+  "name": "Sunia Yalimaiwai",
+  "firstName": "Sunia",
+  "middleName": "",
+  "lastName": "Yalimaiwai",
+  "shortName": "Yalimaiwai",
+  "fullName": "Sunia Tuiwai Yalimaiwai",
+  "displayName": "Sunia Yalimaiwai",
+  "weight": 0,
+  "height": 0.0,
+  "age": 20,
+  "dateOfBirthStr": "2006-05-13T00:00Z",
+  "dateOfBirth": "2006-05-13T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "ST Yalimaiwai",
+  "fieldingName": "Yalimaiwai",
+  "country": 10,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/10"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/10.png",
+    "width": 500,
+    "height": 500,
+    "alt": "Fiji",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/10"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1447222/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1444943/events/1444957"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1444945/events/1444957"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1444941/events/1444957"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1444941/events/1444957"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1444943/events/1444957"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1444945/events/1444957"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1447222.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

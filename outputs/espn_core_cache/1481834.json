@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1481834",
+  "id": "1481834",
+  "guid": "acfa33d2-fcb9-301d-9c78-6a9860a2303b",
+  "uid": "s:200~a:1481834",
+  "type": "cricket",
+  "name": "Shivam Sharma",
+  "firstName": "Shivam",
+  "middleName": "",
+  "lastName": "Sharma",
+  "shortName": "",
+  "fullName": "Shivam Sharma",
+  "displayName": "Shivam Sharma",
+  "weight": 0,
+  "height": 0.0,
+  "age": 28,
+  "dateOfBirthStr": "1998-03-27T00:00Z",
+  "dateOfBirth": "1998-03-27T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "Shivam Sharma",
+  "fieldingName": "Shivam Sharma",
+  "country": 17,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/17.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1481834/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420525/events/1482564"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1482562/events/1482564"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1481280/events/1481309"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1480825/events/1481309"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1482562/events/1482564"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420525/events/1482564"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1480825/events/1481309"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1481280/events/1481309"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1481834.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

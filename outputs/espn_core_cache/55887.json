@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55887",
+  "id": "55887",
+  "guid": "093a85a0-1069-82bb-683c-cb45a123ac96",
+  "uid": "s:200~a:55887",
+  "type": "cricket",
+  "name": "Fahim Muntasir",
+  "firstName": "Fahim",
+  "middleName": "",
+  "lastName": "Muntasir",
+  "shortName": "",
+  "fullName": "Fahim Muntasir Rahman",
+  "displayName": "Fahim Muntasir",
+  "weight": 0,
+  "height": 0.0,
+  "age": 45,
+  "dateOfBirthStr": "1980-11-01T00:00Z",
+  "dateOfBirth": "1980-11-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Fahim Muntasir",
+  "fieldingName": "Fahim Muntasir",
+  "country": 25,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/682"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/25.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55887/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61535/events/63972"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60721/events/63972"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61096/events/64733"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62023/events/64733"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/329605/events/329619"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/329604/events/329619"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/298815/events/329619"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/55887.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

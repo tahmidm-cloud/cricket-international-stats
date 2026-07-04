@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3268",
+  "id": "3268",
+  "uid": "s:200~t:3268",
+  "location": "South Africa",
+  "name": "Northerns XI",
+  "nickname": "Northerns XI",
+  "abbreviation": "NTHXI",
+  "displayName": "Northerns XI",
+  "shortDisplayName": "NTHXI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZA",
+  "slug": "northerns-xi",
+  "classes": [
+    15
+  ],
+  "event": {
+    "date": "2014-12-22T07:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8712/events/812603"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3268/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3268/northerns-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3268/northerns-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

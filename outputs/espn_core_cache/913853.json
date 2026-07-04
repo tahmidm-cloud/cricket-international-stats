@@ -1,0 +1,151 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/913853",
+  "id": "913853",
+  "guid": "2a4b0fe3-35bc-8bf2-e80e-dc32051d72b8",
+  "uid": "s:200~a:913853",
+  "type": "cricket",
+  "name": "Lalit Rajbanshi",
+  "firstName": "Lalit",
+  "middleName": "",
+  "lastName": "Rajbanshi",
+  "shortName": "Rajbanshi",
+  "fullName": "Lalit Narayan Rajbanshi",
+  "displayName": "Lalit Rajbanshi",
+  "weight": 0,
+  "height": 0.0,
+  "age": 27,
+  "dateOfBirthStr": "1999-02-27T00:00Z",
+  "dateOfBirth": "1999-02-27T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "LN Rajbanshi",
+  "fieldingName": "Rajbanshi",
+  "country": 33,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/33"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1129778"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2320"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1162760"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/913853.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/33.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NEP",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/33"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/913853/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1170452/events/1170454"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1170451/events/1170454"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1141830/events/1141835"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1141831/events/1141835"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1151832/events/1141835"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1205545/events/1205548"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1136875/events/1133000"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1132997/events/1133000"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1141830/events/1141835"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1141831/events/1141835"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1151832/events/1141835"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/913853.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/934450",
+  "id": "934450",
+  "uid": "s:200~t:934450",
+  "location": "Hong Kong",
+  "name": "Hong Kong A",
+  "nickname": "Hong Kong A",
+  "abbreviation": "HKG A",
+  "displayName": "Hong Kong A",
+  "shortDisplayName": "HKG A",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "HK",
+  "slug": "hong-kong-a",
+  "classes": [
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2025-02-03T01:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/23173/events/1470694"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/934450.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/934450/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/934450/hong-kong-a",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/934450/hong-kong-a",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "videos",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/current/video_audio/index.html?object=934450",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/14",
+  "id": "14",
+  "uid": "s:200~t:14",
+  "location": "East (and Central) Africa",
+  "name": "East and Central Africa",
+  "nickname": "East and Central Africa",
+  "abbreviation": "E&CA",
+  "displayName": "East and Central Africa",
+  "shortDisplayName": "E&CA",
+  "isNational": true,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "east-and-central-africa",
+  "classes": [
+    "2",
+    "4",
+    "15"
+  ],
+  "event": {
+    "date": "2001-07-06T15:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8038/events/66842"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/14/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/14/east-and-central-africa",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/14/east-and-central-africa",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=14;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "players",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/country.html?country=14",
+      "text": "Players",
+      "shortText": "Players",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

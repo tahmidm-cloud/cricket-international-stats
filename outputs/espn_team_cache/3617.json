@@ -1,0 +1,80 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3617",
+  "id": "3617",
+  "uid": "s:200~t:3617",
+  "location": "Sri Lanka",
+  "name": "Sri Lanka Under-19s",
+  "nickname": "Sri Lanka Under-19s",
+  "abbreviation": "SL19",
+  "displayName": "Sri Lanka Under-19s",
+  "shortDisplayName": "SL19",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "sri-lanka-under-19s",
+  "classes": [
+    20,
+    21,
+    22,
+    14,
+    15
+  ],
+  "event": {
+    "date": "2026-07-04T04:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/24546/events/1543685"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8368"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3617.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3617/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3617/sri-lanka-under-19s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3617/sri-lanka-under-19s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=3668;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

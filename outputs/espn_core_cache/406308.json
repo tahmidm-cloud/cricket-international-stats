@@ -1,0 +1,145 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/406308",
+  "id": "406308",
+  "guid": "0490e654-0c60-c63f-c7a7-ce5d6824eb20",
+  "uid": "s:200~a:406308",
+  "type": "cricket",
+  "name": "Nigel Jones",
+  "firstName": "Nigel",
+  "middleName": "",
+  "lastName": "Jones",
+  "shortName": "Jones",
+  "fullName": "Nigel Geoffrey Jones",
+  "displayName": "Nigel Jones",
+  "weight": 0,
+  "height": 0.0,
+  "age": 44,
+  "dateOfBirthStr": "1982-04-22T00:00Z",
+  "dateOfBirth": "1982-04-22T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "NG Jones",
+  "fieldingName": "Jones",
+  "country": 29,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/29"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/444010"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2223"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2588"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/406308.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/29.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IRE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/29"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/406308/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/449745/events/450371"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/450368/events/450371"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/450369/events/450371"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/441778/events/439511"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/446378/events/439511"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/410068/events/439511"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/448296/events/448364"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440158/events/440226"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440159/events/440226"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/406308.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/51462",
+  "id": "51462",
+  "guid": "81e5ccb6-ca18-5029-04d3-b6108dfbccfa",
+  "uid": "s:200~a:51462",
+  "type": "cricket",
+  "name": "Sherwin Campbell",
+  "firstName": "Sherwin",
+  "middleName": "",
+  "lastName": "Campbell",
+  "shortName": "Campbell",
+  "fullName": "Sherwin Legay Campbell",
+  "displayName": "Sherwin Campbell",
+  "weight": 0,
+  "height": 0.0,
+  "age": 55,
+  "dateOfBirthStr": "1970-11-01T00:00Z",
+  "dateOfBirth": "1970-11-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "SL Campbell",
+  "fieldingName": "Campbell",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3719"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/924"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/51462.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/51462/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61927/events/63675"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60616/events/63675"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60962/events/65997"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61946/events/65997"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326198/events/326203"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326199/events/326203"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/51462.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

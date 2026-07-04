@@ -1,0 +1,123 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/51113",
+  "id": "51113",
+  "guid": "db8a3f49-1826-2e01-f73c-a0ebe8d3a801",
+  "uid": "s:200~a:51113",
+  "type": "cricket",
+  "name": "Richard Austin",
+  "firstName": "Richard",
+  "middleName": "",
+  "lastName": "Austin",
+  "shortName": "Austin",
+  "fullName": "Richard Arkwright Austin",
+  "displayName": "Richard Austin",
+  "weight": 0,
+  "height": 0.0,
+  "age": 60,
+  "dateOfBirthStr": "1954-09-05T00:00Z",
+  "dateOfBirth": "1954-09-05T00:00Z",
+  "dateOfDeathStr": "2015-02-07T00:00Z",
+  "dateOfDeath": "2015-02-07T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "RA Austin",
+  "fieldingName": "Austin",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3751"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3812"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/51113/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61386/events/63206"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60472/events/63206"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60801/events/64163"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61386/events/64163"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324973/events/324974"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324972/events/324974"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/51113.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

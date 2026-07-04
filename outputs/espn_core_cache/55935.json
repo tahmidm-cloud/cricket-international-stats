@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55935",
+  "id": "55935",
+  "guid": "aac9821c-3fea-2d1c-6bc4-8562d213eab3",
+  "uid": "s:200~a:55935",
+  "type": "cricket",
+  "name": "Javed Omer",
+  "firstName": "Javed",
+  "middleName": "",
+  "lastName": "Omer",
+  "shortName": "Javed Omar",
+  "fullName": "Mohammad Javed Omer Belim",
+  "displayName": "Javed Omer",
+  "weight": 0,
+  "height": 0.0,
+  "age": 49,
+  "dateOfBirthStr": "1976-11-25T00:00Z",
+  "dateOfBirth": "1976-11-25T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "Javed Omar",
+  "fieldingName": "Javed Omar",
+  "country": 25,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/662"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/675"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/682"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/55935.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/25.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55935/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62182/events/63930"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60705/events/63930"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60971/events/65685"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62199/events/65685"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62372/events/65685"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/55935.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

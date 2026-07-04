@@ -1,0 +1,55 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3054",
+  "id": "3054",
+  "uid": "s:200~t:3054",
+  "location": "Pakistan",
+  "name": "Rawalpindi",
+  "nickname": "Rawalpindi",
+  "abbreviation": "Rams",
+  "displayName": "Rawalpindi",
+  "shortDisplayName": "Rams",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "PK",
+  "slug": "rawalpindi",
+  "classes": [
+    4,
+    5,
+    6
+  ],
+  "event": {
+    "date": "2018-12-25T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8660/events/1168565"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3054/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3054/rawalpindi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3054/rawalpindi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

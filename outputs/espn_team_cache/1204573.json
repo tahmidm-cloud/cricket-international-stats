@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204573",
+  "id": "1204573",
+  "uid": "s:200~t:1204573",
+  "location": "United Arab Emirates",
+  "name": "Karnataka Tuskers",
+  "nickname": "Karnataka Tuskers",
+  "abbreviation": "KT",
+  "displayName": "Karnataka Tuskers",
+  "shortDisplayName": "KT",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AE",
+  "slug": "karnataka-tuskers",
+  "classes": [
+    "16"
+  ],
+  "event": {
+    "date": "2019-11-22T16:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18522/events/1204600"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1204573.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204573/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1204573/karnataka-tuskers",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1204573/karnataka-tuskers",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

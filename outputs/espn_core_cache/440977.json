@@ -1,0 +1,148 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/440977",
+  "id": "440977",
+  "guid": "9f8b1139-10a4-84e6-936b-04ee4f690729",
+  "uid": "s:200~a:440977",
+  "type": "cricket",
+  "name": "Parth Desai",
+  "firstName": "Parth",
+  "middleName": "",
+  "lastName": "Desai",
+  "shortName": "Desai",
+  "fullName": "Parth Ajaykumar Desai",
+  "displayName": "Parth Desai",
+  "weight": 0,
+  "height": 0.0,
+  "age": 35,
+  "dateOfBirthStr": "1990-12-11T00:00Z",
+  "dateOfBirth": "1990-12-11T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "PA Desai",
+  "fieldingName": "Desai",
+  "country": 17,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/746"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/440977.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/17.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/440977/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/448362/events/448370"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/448359/events/448370"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/546488/events/546473"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/543850/events/546473"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/532912/events/546473"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/461814/events/438897"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/408325/events/438897"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/448362/events/450743"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/448362/events/448371"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440622/events/431996"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440621/events/431996"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/418157/events/431996"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/440977.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

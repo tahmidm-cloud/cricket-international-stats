@@ -1,0 +1,151 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/530814",
+  "id": "530814",
+  "guid": "30b93cae-4d0c-4da4-4d86-fdd23a5c3f48",
+  "uid": "s:200~a:530814",
+  "type": "cricket",
+  "name": "Marquino Mindley",
+  "firstName": "Marquino",
+  "middleName": "",
+  "lastName": "Mindley",
+  "shortName": "Mindley",
+  "fullName": "Marquino Junior Mindley",
+  "displayName": "Marquino Mindley",
+  "weight": 0,
+  "height": 0.0,
+  "age": 31,
+  "dateOfBirthStr": "1994-12-29T00:00Z",
+  "dateOfBirth": "1994-12-29T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "MJ Mindley",
+  "fieldingName": "Mindley",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3751"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/642415"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3756"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3812"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/530814/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1268315/events/1317485"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1317465/events/1317485"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1349486/events/1317485"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1433359/events/1433381"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1433357/events/1433381"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/787103/events/787111"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/805715/events/805723"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/554572/events/554554"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/526969/events/554554"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/554577/events/554554"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/530814.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

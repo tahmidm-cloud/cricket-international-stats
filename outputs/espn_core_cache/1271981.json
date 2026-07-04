@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1271981",
+  "id": "1271981",
+  "guid": "18f808b4-0ef3-3e30-ac5e-3f0e93c697c6",
+  "uid": "s:200~a:1271981",
+  "type": "cricket",
+  "name": "Hevit Jackson",
+  "firstName": "Hevit",
+  "middleName": "",
+  "lastName": "Jackson",
+  "shortName": "Jackson",
+  "fullName": "Hevit Alodin Jackson",
+  "displayName": "Hevit Jackson",
+  "weight": 0,
+  "height": 0.0,
+  "age": 29,
+  "dateOfBirthStr": "1996-08-05T00:00Z",
+  "dateOfBirth": "1996-08-05T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "HA Jackson",
+  "fieldingName": "Jackson",
+  "country": 34,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/34"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/34.png",
+    "width": 500,
+    "height": 500,
+    "alt": "Fran",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/34"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1271981/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1271443/events/1271446"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1271444/events/1271446"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1271442/events/1271446"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1271442/events/1271446"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1271443/events/1271446"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1271444/events/1271446"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1271981.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

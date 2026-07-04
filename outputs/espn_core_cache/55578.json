@@ -1,0 +1,158 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55578",
+  "id": "55578",
+  "guid": "35434856-67f2-58e2-9a61-930744695236",
+  "uid": "s:200~a:55578",
+  "type": "cricket",
+  "name": "Dougie Marillier",
+  "firstName": "Dougie",
+  "middleName": "",
+  "lastName": "Marillier",
+  "shortName": "Marillier",
+  "fullName": "Douglas Anthony Marillier",
+  "displayName": "Dougie Marillier",
+  "weight": 0,
+  "height": 0.0,
+  "age": 48,
+  "dateOfBirthStr": "1978-04-24T00:00Z",
+  "dateOfBirth": "1978-04-24T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "DA Marillier",
+  "fieldingName": "Marillier",
+  "country": 9,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55625"
+      },
+      "relation": "Father"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55617"
+      },
+      "relation": "Brother"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/354260"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3846"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/55578.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/9.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ZIM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55578/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62003/events/63912"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60699/events/63912"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61072/events/64669"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62103/events/64669"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/414289/events/414375"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327225/events/327233"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327224/events/327233"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327224/events/327236"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327226/events/327236"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/55578.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

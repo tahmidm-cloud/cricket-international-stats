@@ -1,0 +1,47 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2345",
+  "id": "2345",
+  "uid": "s:200~t:2345",
+  "location": "Netherlands",
+  "name": "Excelsior",
+  "nickname": "Excelsior",
+  "abbreviation": "",
+  "displayName": "Excelsior",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "NL",
+  "slug": "excelsior",
+  "classes": [],
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2345/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/2345/excelsior",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/2345/excelsior",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

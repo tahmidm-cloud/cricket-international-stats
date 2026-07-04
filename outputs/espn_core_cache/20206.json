@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/20206",
+  "id": "20206",
+  "guid": "747d6bdb-2861-365b-2ee4-0ae851bc25c2",
+  "uid": "s:200~a:20206",
+  "type": "cricket",
+  "name": "Wilf Slack",
+  "firstName": "Wilf",
+  "middleName": "",
+  "lastName": "Slack",
+  "shortName": "Slack",
+  "fullName": "Wilfred Norris Slack",
+  "displayName": "Wilf Slack",
+  "weight": 0,
+  "height": 5.1,
+  "age": 34,
+  "dateOfBirthStr": "1954-12-12T00:00Z",
+  "dateOfBirth": "1954-12-12T00:00Z",
+  "dateOfDeathStr": "1989-01-15T00:00Z",
+  "dateOfDeath": "1989-01-15T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "WN Slack",
+  "fieldingName": "Slack",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1190"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3821"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/20206/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60533/events/63425"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61750/events/63425"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60858/events/64275"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61750/events/64275"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/20206.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3448",
+  "id": "3448",
+  "uid": "s:200~t:3448",
+  "location": "Scotland",
+  "name": "Scotland A",
+  "nickname": "Scotland A",
+  "abbreviation": "ScotA",
+  "displayName": "Scotland A",
+  "shortDisplayName": "ScotA",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "scotland-a",
+  "classes": [
+    "14",
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2019-06-11T11:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19300/events/1186864"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3448/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3448/scotland-a",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3448/scotland-a",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

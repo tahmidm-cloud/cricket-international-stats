@@ -1,0 +1,135 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/598905",
+  "id": "598905",
+  "guid": "f878f7e9-3c97-f163-8ba3-31500e668c9b",
+  "uid": "s:200~a:598905",
+  "type": "cricket",
+  "name": "Imran Butt",
+  "firstName": "Imran",
+  "middleName": "",
+  "lastName": "Butt",
+  "shortName": "Imran Butt",
+  "fullName": "Imran Butt",
+  "displayName": "Imran Butt",
+  "weight": 0,
+  "height": 0.0,
+  "age": 30,
+  "dateOfBirthStr": "1995-12-27T00:00Z",
+  "dateOfBirth": "1995-12-27T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "Imran Butt",
+  "fieldingName": "Imran Butt",
+  "country": 7,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2836"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/953847"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/222254"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/598905.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/7.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAK",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/598905/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1242973/events/1243017"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1242968/events/1243017"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1195334/events/1243017"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/597556/events/597562"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/623046/events/623058"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/779411/events/781071"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/593184/events/593702"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/593183/events/593702"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/593185/events/593702"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/598905.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

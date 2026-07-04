@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1493427",
+  "id": "1493427",
+  "guid": "f659f87f-5891-328c-99f0-176ea149d6ee",
+  "uid": "s:200~a:1493427",
+  "type": "cricket",
+  "name": "Mark Manalo",
+  "firstName": "Mark",
+  "middleName": "",
+  "lastName": "Manalo",
+  "shortName": "Manalo",
+  "fullName": "Mark Christian Espiritu Manalo",
+  "displayName": "Mark Manalo",
+  "weight": 0,
+  "height": 0.0,
+  "age": 35,
+  "dateOfBirthStr": "1991-02-24T00:00Z",
+  "dateOfBirth": "1991-02-24T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "MCE Manalo",
+  "fieldingName": "Manalo",
+  "country": 128,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/128"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/128.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PHI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/128"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1493427/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1490851/events/1490874"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1490852/events/1490874"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1490853/events/1490874"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1490853/events/1490874"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1490851/events/1490874"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1490852/events/1490874"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1493427.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

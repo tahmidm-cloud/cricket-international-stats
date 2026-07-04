@@ -1,0 +1,63 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1272892",
+  "id": "1272892",
+  "uid": "s:200~t:1272892",
+  "location": "Zimbabwe",
+  "name": "Zimbabwe Emerging Players",
+  "nickname": "Zimbabwe Emerging Players",
+  "abbreviation": "ZM-EM",
+  "displayName": "Zimbabwe Emerging Players",
+  "shortDisplayName": "ZM-EM",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZW",
+  "slug": "zimbabwe-emerging-players",
+  "classes": [
+    "14",
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2024-08-17T07:15Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/22814/events/1445437"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1272892.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1272892/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1272892/zimbabwe-emerging-players",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1272892/zimbabwe-emerging-players",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

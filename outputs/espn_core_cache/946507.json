@@ -1,0 +1,151 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/946507",
+  "id": "946507",
+  "guid": "8609ad29-ec87-3dd0-abde-0cccc3ae3e84",
+  "uid": "s:200~a:946507",
+  "type": "cricket",
+  "name": "Tadiwanashe Marumani",
+  "firstName": "Tadiwanashe",
+  "middleName": "",
+  "lastName": "Marumani",
+  "shortName": "Marumani",
+  "fullName": "Tadiwanashe Marumani",
+  "displayName": "Tadiwanashe Marumani",
+  "weight": 0,
+  "height": 0.0,
+  "age": 24,
+  "dateOfBirthStr": "2002-01-02T00:00Z",
+  "dateOfBirth": "2002-01-02T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "T Marumani",
+  "fieldingName": "Marumani",
+  "country": 9,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/424005"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/424007"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/595168"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/946507.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/9.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ZIM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/946507/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1267671/events/1267677"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1267673/events/1267677"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1227837/events/1267677"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1257181/events/1257183"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1257180/events/1257183"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1241564/events/1255128"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1257979/events/1258002"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1257981/events/1257985"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1211756/events/1211800"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1209432/events/1211800"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1209430/events/1211800"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/946507.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

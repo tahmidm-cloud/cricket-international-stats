@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1155533",
+  "id": "1155533",
+  "guid": "249f80a7-56a0-ae5e-149d-e4bdd3a74ffb",
+  "uid": "s:200~a:1155533",
+  "type": "cricket",
+  "name": "Eric Turay",
+  "firstName": "Eric",
+  "middleName": "",
+  "lastName": "Turay",
+  "shortName": "Turay",
+  "fullName": "Eric Musa Turay",
+  "displayName": "Eric Turay",
+  "weight": 0,
+  "height": 0.0,
+  "age": 21,
+  "dateOfBirthStr": "2004-12-05T00:00Z",
+  "dateOfBirth": "2004-12-05T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "EM Turay",
+  "fieldingName": "Turay",
+  "country": 145,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/402768"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/145.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SLE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/145"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1155533/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1535407/events/1535418"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1535409/events/1535418"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1535406/events/1535418"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1535406/events/1535418"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1535407/events/1535418"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1535409/events/1535418"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1155533.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

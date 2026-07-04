@@ -1,0 +1,90 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/36",
+  "id": "36",
+  "uid": "s:200~t:36",
+  "location": "Germany",
+  "name": "Germany",
+  "nickname": "Germany",
+  "abbreviation": "GER",
+  "displayName": "Germany",
+  "shortDisplayName": "GER",
+  "isNational": true,
+  "isActive": true,
+  "countryCode": "DE",
+  "slug": "germany",
+  "classes": [
+    3,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2026-06-20T09:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/24475/events/1539475"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/23776"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/36.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/36/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/36/germany",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/36/germany",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=35;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "players",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/country.html?country=35",
+      "text": "Players",
+      "shortText": "Players",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

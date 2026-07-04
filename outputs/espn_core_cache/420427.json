@@ -1,0 +1,160 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/420427",
+  "id": "420427",
+  "guid": "2a4820ae-1561-073a-3e11-e890979fc806",
+  "uid": "s:200~a:420427",
+  "type": "cricket",
+  "name": "Sese Bau",
+  "firstName": "Sese",
+  "middleName": "",
+  "lastName": "Bau",
+  "shortName": "Bau",
+  "fullName": "Sese Bau",
+  "displayName": "Sese Bau",
+  "weight": 0,
+  "height": 0.0,
+  "age": 34,
+  "dateOfBirthStr": "1992-06-23T00:00Z",
+  "dateOfBirth": "1992-06-23T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "S Bau",
+  "fieldingName": "Bau",
+  "country": 20,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/20"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3147"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/420427.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/20.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PNG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/20"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/420427/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1026843/events/1026847"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1026839/events/1026847"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/952175/events/954733"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/954729/events/954733"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/952173/events/954733"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/911025/events/911053"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/911023/events/911053"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870857/events/911053"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870915/events/870887"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870869/events/870887"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/875401/events/875537"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/875571/events/875537"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/875581/events/875537"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440630/events/432001"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440631/events/432001"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/418157/events/432001"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/420427.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

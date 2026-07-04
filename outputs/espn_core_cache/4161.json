@@ -1,0 +1,158 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/4161",
+  "id": "4161",
+  "guid": "f395d030-009f-9dc4-3466-8df0ac28a970",
+  "uid": "s:200~a:4161",
+  "type": "cricket",
+  "name": "Greg Blewett",
+  "firstName": "Greg",
+  "middleName": "",
+  "lastName": "Blewett",
+  "shortName": "Blewett",
+  "fullName": "Gregory Scott Blewett",
+  "displayName": "Greg Blewett",
+  "weight": 0,
+  "height": 1.83,
+  "age": 54,
+  "dateOfBirthStr": "1971-10-29T00:00Z",
+  "dateOfBirth": "1971-10-29T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "GS Blewett",
+  "fieldingName": "Blewett",
+  "country": 2,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/4162"
+      },
+      "relation": "Father"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1098"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1231"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/520"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1464"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/4161/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61706/events/63666"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60612/events/63666"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60967/events/66018"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61410/events/66018"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61849/events/66018"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/124121/events/129665"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326251/events/326252"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326249/events/326252"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326250/events/326255"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326249/events/326255"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/4161.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

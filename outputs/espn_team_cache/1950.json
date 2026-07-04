@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1950",
+  "id": "1950",
+  "uid": "s:200~t:1950",
+  "location": "India",
+  "name": "Madras Rubber Factory",
+  "nickname": "Madras Rubber Factory",
+  "abbreviation": "MRF",
+  "displayName": "Madras Rubber Factory",
+  "shortDisplayName": "MRF",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "madras-rubber-factory",
+  "classes": [
+    "14",
+    "15"
+  ],
+  "event": {
+    "date": "2014-02-18T03:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8702/events/719615"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1950/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1950/madras-rubber-factory",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1950/madras-rubber-factory",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1195674",
+  "id": "1195674",
+  "guid": "7334102f-f0fe-7328-93e9-c8378cef9a23",
+  "uid": "s:200~a:1195674",
+  "type": "cricket",
+  "name": "Tomas Mackintosh",
+  "firstName": "Tomas",
+  "middleName": "",
+  "lastName": "Mackintosh",
+  "shortName": "Mackintosh",
+  "fullName": "Tomas Scott Sabater Mackintosh",
+  "displayName": "Tomas Mackintosh",
+  "weight": 0,
+  "height": 0.0,
+  "age": 23,
+  "dateOfBirthStr": "2003-01-11T00:00Z",
+  "dateOfBirth": "2003-01-11T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "TSS Mackintosh",
+  "fieldingName": "Mackintosh",
+  "country": 30,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/924"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/925"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3452"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/30.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SCOT",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1195674/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1358062/events/1358075"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1196667/events/1358075"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383037/events/1383081"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383040/events/1383081"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1310355/events/1297742"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1297661/events/1297964"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383040/events/1383081"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1383037/events/1383081"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1209454/events/1204680"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1204639/events/1204680"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1209457/events/1204680"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1195674.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

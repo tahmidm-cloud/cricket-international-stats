@@ -1,0 +1,145 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/233648",
+  "id": "233648",
+  "guid": "13e855f9-324e-ff08-c9d8-39a9ec0d73ec",
+  "uid": "s:200~a:233648",
+  "type": "cricket",
+  "name": "Alex Doolan",
+  "firstName": "Alex",
+  "middleName": "",
+  "lastName": "Doolan",
+  "shortName": "Doolan",
+  "fullName": "Alexander James Doolan",
+  "displayName": "Alex Doolan",
+  "weight": 0,
+  "height": 1.83,
+  "age": 40,
+  "dateOfBirthStr": "1985-11-29T00:00Z",
+  "dateOfBirth": "1985-11-29T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "AJ Doolan",
+  "fieldingName": "Doolan",
+  "country": 2,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/4972"
+      },
+      "relation": "Father"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509668"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509669"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/341"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/509671"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/513"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/560"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/561"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/567"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/568"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/233648/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/648635/events/648673"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/648637/events/648673"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/361243/events/361264"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/474013/events/474051"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/411984/events/417703"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/233648.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

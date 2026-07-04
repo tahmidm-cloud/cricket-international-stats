@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/361805",
+  "id": "361805",
+  "uid": "s:200~t:361805",
+  "location": "England",
+  "name": "Yorkshire Academy",
+  "nickname": "Yorkshire Academy",
+  "abbreviation": "",
+  "displayName": "Yorkshire Academy",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "yorkshire-academy",
+  "classes": [
+    "15"
+  ],
+  "event": {
+    "date": "2008-06-23T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/14036/events/384200"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/361805/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/361805/yorkshire-academy",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/361805/yorkshire-academy",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

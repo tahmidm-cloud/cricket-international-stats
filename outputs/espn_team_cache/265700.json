@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/265700",
+  "id": "265700",
+  "uid": "s:200~t:265700",
+  "location": "South Africa",
+  "name": "Transvaal (SACB)",
+  "nickname": "Transvaal (SACB)",
+  "abbreviation": "",
+  "displayName": "Transvaal (SACB)",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZA",
+  "slug": "transvaal-sacb",
+  "classes": [
+    4
+  ],
+  "event": {
+    "date": "1991-03-09T08:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8769/events/265987"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/265700/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/265700/transvaal-sacb",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/265700/transvaal-sacb",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

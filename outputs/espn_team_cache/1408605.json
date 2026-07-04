@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1408605",
+  "id": "1408605",
+  "uid": "s:200~t:1408605",
+  "location": "India",
+  "name": "Urbanrisers Hyderabad",
+  "nickname": "Urbanrisers Hyderabad",
+  "abbreviation": "URH",
+  "displayName": "Urbanrisers Hyderabad",
+  "shortDisplayName": "URH",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "urbanrisers-hyderabad",
+  "classes": [
+    "16"
+  ],
+  "event": {
+    "date": "2023-12-09T13:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20569/events/1408625"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1408605.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1408605/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1408605/urbanrisers-hyderabad",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1408605/urbanrisers-hyderabad",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

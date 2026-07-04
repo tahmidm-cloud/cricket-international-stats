@@ -1,0 +1,135 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1193304",
+  "id": "1193304",
+  "guid": "ac1280c8-285c-7b46-947e-224d785e3bb7",
+  "uid": "s:200~a:1193304",
+  "type": "cricket",
+  "name": "Rahul Jariwala",
+  "firstName": "Rahul",
+  "middleName": "",
+  "lastName": "Jariwala",
+  "shortName": "Jariwala",
+  "fullName": "Rahul Mihir Jariwala",
+  "displayName": "Rahul Jariwala",
+  "weight": 0,
+  "height": 0.0,
+  "age": 22,
+  "dateOfBirthStr": "2004-06-03T00:00Z",
+  "dateOfBirth": "2004-06-03T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "RM Jariwala",
+  "fieldingName": "Jariwala",
+  "country": 11,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/11"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1381359"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3708"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/11.png",
+    "width": 500,
+    "height": 500,
+    "alt": "USA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/11"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1193304/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1312776/events/1312803"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1196667/events/1312803"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1480825/events/1481305"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1481278/events/1481305"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1481281/events/1481305"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1196667/events/1312803"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1312776/events/1312803"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1480825/events/1481305"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1481278/events/1481305"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1481281/events/1481305"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1193304.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

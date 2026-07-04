@@ -1,0 +1,148 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/30750",
+  "id": "30750",
+  "guid": "669bf5c2-e261-02db-1dda-2f4e85d3c795",
+  "uid": "s:200~a:30750",
+  "type": "cricket",
+  "name": "VVS Laxman",
+  "firstName": "VVS",
+  "middleName": "",
+  "lastName": "Laxman",
+  "shortName": "Laxman",
+  "fullName": "Vangipurappu Venkata Sai Laxman",
+  "displayName": "VVS Laxman",
+  "weight": 0,
+  "height": 0.0,
+  "age": 51,
+  "dateOfBirthStr": "1974-11-01T00:00Z",
+  "dateOfBirth": "1974-11-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "VVS Laxman",
+  "fieldingName": "Laxman",
+  "country": 6,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335980"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1764"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/474668"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1116"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/30750.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/30750/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61859/events/63724"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60635/events/63724"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62016/events/66141"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61024/events/66141"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/313494/events/335986"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326655/events/326656"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326653/events/326656"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326653/events/326659"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326654/events/326659"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/30750.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

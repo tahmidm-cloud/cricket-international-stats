@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2833",
+  "id": "2833",
+  "uid": "s:200~t:2833",
+  "location": "Pakistan",
+  "name": "Lahore",
+  "nickname": "Lahore",
+  "abbreviation": "",
+  "displayName": "Lahore",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "PK",
+  "slug": "lahore",
+  "classes": [
+    "5",
+    "15"
+  ],
+  "event": {
+    "date": "2008-05-10T04:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/14011/events/350624"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2833/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/2833/lahore",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/2833/lahore",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

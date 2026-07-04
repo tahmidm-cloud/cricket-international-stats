@@ -1,0 +1,68 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3561",
+  "id": "3561",
+  "uid": "s:200~t:3561",
+  "location": "Sri Lanka",
+  "name": "Nugegoda Sports Welfare Club",
+  "nickname": "Nugegoda Sports Welfare Club",
+  "abbreviation": "NSWC",
+  "displayName": "Nugegoda Sports Welfare Club",
+  "shortDisplayName": "NSWC",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "nugegoda-sports-welfare-club",
+  "classes": [
+    4,
+    5,
+    6,
+    14,
+    16
+  ],
+  "event": {
+    "date": "2026-05-31T08:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18851/events/1535508"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20978"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3561.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3561/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3561/nugegoda-sports-welfare-club",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3561/nugegoda-sports-welfare-club",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

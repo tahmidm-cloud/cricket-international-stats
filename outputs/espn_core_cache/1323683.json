@@ -1,0 +1,154 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1323683",
+  "id": "1323683",
+  "guid": "8c06af5c-99b4-3aad-b41b-d51162af349d",
+  "uid": "s:200~a:1323683",
+  "type": "cricket",
+  "name": "Aaron Johnson",
+  "firstName": "Aaron",
+  "middleName": "",
+  "lastName": "Johnson",
+  "shortName": "Johnson",
+  "fullName": "Aaron Johnson",
+  "displayName": "Aaron Johnson",
+  "weight": 0,
+  "height": 0.0,
+  "age": 35,
+  "dateOfBirthStr": "1991-03-16T00:00Z",
+  "dateOfBirth": "1991-03-16T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT",
+    "id": "BT",
+    "name": "Batter",
+    "abbreviation": "BT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT"
+    }
+  },
+  "battingName": "A Johnson",
+  "fieldingName": "Johnson",
+  "country": 17,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1195379"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1195379"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1323615"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/17.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1323683/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1365091/events/1365094"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1365090/events/1365094"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1365085/events/1365094"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1344774/events/1344783"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1344778/events/1344783"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1344779/events/1344783"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343827/events/1343832"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1200432/events/1343832"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1343828/events/1343832"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1344779/events/1344783"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1344778/events/1344783"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1344774/events/1344783"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1323683.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/50429",
+  "id": "50429",
+  "guid": "2e054081-f587-51f7-33e7-1b959f922222",
+  "uid": "s:200~a:50429",
+  "type": "cricket",
+  "name": "Jayantha Silva",
+  "firstName": "Jayantha",
+  "middleName": "",
+  "lastName": "Silva",
+  "shortName": "Silva",
+  "fullName": "Kelaniyage Jayantha Silva",
+  "displayName": "Jayantha Silva",
+  "weight": 0,
+  "height": 0,
+  "age": 53,
+  "dateOfBirthStr": "1973-06-02T00:00Z",
+  "dateOfBirth": "1973-06-02T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "KJ Silva",
+  "fieldingName": "Silva",
+  "country": 8,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3493"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3535"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3630"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/8.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/50429/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61609/events/63707"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60627/events/63707"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60970/events/64494"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61623/events/64494"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326360/events/326361"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325639/events/326361"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/50429.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

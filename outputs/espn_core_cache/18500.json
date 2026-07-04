@@ -1,0 +1,115 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/18500",
+  "id": "18500",
+  "guid": "c5711700-a8e1-e2a9-2319-6ef0b385123d",
+  "uid": "s:200~a:18500",
+  "type": "cricket",
+  "name": "Frank Penn",
+  "firstName": "Frank",
+  "middleName": "",
+  "lastName": "Penn",
+  "shortName": "Penn",
+  "fullName": "Frank Penn",
+  "displayName": "Frank Penn",
+  "weight": 0,
+  "height": 0.0,
+  "age": 65,
+  "dateOfBirthStr": "1851-03-07T00:00Z",
+  "dateOfBirth": "1851-03-07T00:00Z",
+  "dateOfDeathStr": "1916-12-26T00:00Z",
+  "dateOfDeath": "1916-12-26T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "F Penn",
+  "fieldingName": "Penn",
+  "country": 1,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/13733"
+      },
+      "relation": "Brother-in-law"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1098"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/18500/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60262/events/62399"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61336/events/62399"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/18500.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

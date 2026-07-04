@@ -1,0 +1,142 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/943275",
+  "id": "943275",
+  "guid": "8fe3482c-4ad4-df16-9b83-cbc00997f4ef",
+  "uid": "s:200~a:943275",
+  "type": "cricket",
+  "name": "Imran Haider",
+  "firstName": "Imran",
+  "middleName": "",
+  "lastName": "Haider",
+  "shortName": "",
+  "fullName": "Imran Haider",
+  "displayName": "Imran Haider",
+  "weight": 0,
+  "height": 0.0,
+  "age": 38,
+  "dateOfBirthStr": "1987-10-31T00:00Z",
+  "dateOfBirth": "1987-10-31T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "Imran Haider",
+  "fieldingName": "Imran Haider",
+  "country": 27,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2865"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/222256"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1178277"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/27.png",
+    "width": 500,
+    "height": 500,
+    "alt": "UAE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/943275/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1077595/events/1078660"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1078649/events/1078660"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1069640/events/1072208"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1072201/events/1072208"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/313839/events/313902"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/341797/events/341876"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1069640/events/1072208"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1072201/events/1072208"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/943275.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

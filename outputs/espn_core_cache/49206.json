@@ -1,0 +1,114 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/49206",
+  "id": "49206",
+  "guid": "376b56bc-6254-6ed7-0787-14d700f668e0",
+  "uid": "s:200~a:49206",
+  "type": "cricket",
+  "name": "Rohan Jayasekera",
+  "firstName": "Rohan",
+  "middleName": "",
+  "lastName": "Jayasekera",
+  "shortName": "Jayasekera",
+  "fullName": "Rohan Stanley Amarasiriwardene Jayasekera",
+  "displayName": "Rohan Jayasekera",
+  "weight": 0,
+  "height": 0.0,
+  "age": 68,
+  "dateOfBirthStr": "1957-12-07T00:00Z",
+  "dateOfBirth": "1957-12-07T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "RSA Jayasekera",
+  "fieldingName": "Jayasekera",
+  "country": 8,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/8.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/49206/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60501/events/63313"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61629/events/63313"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60819/events/64184"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61783/events/64184"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/49206.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

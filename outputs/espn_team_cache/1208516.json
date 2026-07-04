@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1208516",
+  "id": "1208516",
+  "uid": "s:200~t:1208516",
+  "location": "Qatar",
+  "name": "Heat Stormers",
+  "nickname": "Heat Stormers",
+  "abbreviation": "HS",
+  "displayName": "Heat Stormers",
+  "shortDisplayName": "HS",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "QA",
+  "slug": "heat-stormers",
+  "classes": [
+    "15"
+  ],
+  "event": {
+    "date": "2019-12-14T18:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19674/events/1208557"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1208516/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1208516/heat-stormers",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1208516/heat-stormers",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

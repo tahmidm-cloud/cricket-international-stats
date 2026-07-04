@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/276539",
+  "id": "276539",
+  "guid": "3c7c9630-9dac-2e13-a7ff-78d260f506c3",
+  "uid": "s:200~a:276539",
+  "type": "cricket",
+  "name": "Josclyn Pitcher",
+  "firstName": "Josclyn",
+  "middleName": "",
+  "lastName": "Pitcher",
+  "shortName": "Pitcher",
+  "fullName": "Arthur Dominique Josclyn Pitcher",
+  "displayName": "Josclyn Pitcher",
+  "weight": 0,
+  "height": 0.0,
+  "age": 44,
+  "dateOfBirthStr": "1981-11-20T00:00Z",
+  "dateOfBirth": "1981-11-20T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "ADJ Pitcher",
+  "fieldingName": "Pitcher",
+  "country": 12,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/12"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/12.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BER",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/12"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/276539/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/266603/events/267387"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/278260/events/267387"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/258002/events/267387"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/292158/events/292298"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/296573/events/292298"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/258002/events/267387"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/266603/events/267387"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/278260/events/267387"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/276539.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

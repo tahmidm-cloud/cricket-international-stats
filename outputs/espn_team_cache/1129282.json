@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1129282",
+  "id": "1129282",
+  "uid": "s:200~t:1129282",
+  "location": "United Arab Emirates",
+  "name": "Kerala Knights",
+  "nickname": "Kerala Knights",
+  "abbreviation": "KK",
+  "displayName": "Kerala Knights",
+  "shortDisplayName": "KK",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AE",
+  "slug": "kerala-knights",
+  "classes": [
+    16
+  ],
+  "event": {
+    "date": "2018-11-30T11:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18522/events/1163327"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1129282.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1129282/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1129282/kerala-knights",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1129282/kerala-knights",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

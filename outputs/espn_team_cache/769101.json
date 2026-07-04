@@ -1,0 +1,49 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/769101",
+  "id": "769101",
+  "uid": "s:200~t:769101",
+  "location": "United States of America",
+  "name": "South East Region",
+  "nickname": "South East Region",
+  "abbreviation": "SER",
+  "displayName": "South East Region",
+  "shortDisplayName": "SER",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "south-east-region",
+  "classes": [
+    "16"
+  ],
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/769101/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/769101/south-east-region",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/769101/south-east-region",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

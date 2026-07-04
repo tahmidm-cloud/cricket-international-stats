@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1481333",
+  "id": "1481333",
+  "guid": "3c432344-2c2a-3f07-91fd-d2e1ead4631a",
+  "uid": "s:200~a:1481333",
+  "type": "cricket",
+  "name": "Sidue Hunter",
+  "firstName": "Sidue",
+  "middleName": "",
+  "lastName": "Hunter",
+  "shortName": "",
+  "fullName": "Sidue Hunter",
+  "displayName": "Sidue Hunter",
+  "weight": 0,
+  "height": 0,
+  "age": 37,
+  "dateOfBirthStr": "1989-05-07T00:00Z",
+  "dateOfBirth": "1989-05-07T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "S Hunter",
+  "fieldingName": "Hunter",
+  "country": 1480823,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1480823"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1480823.png",
+    "width": 500,
+    "height": 500,
+    "alt": "TCL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1480823"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1481333/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1480822/events/1481296"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1481288/events/1481296"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1480822/events/1481296"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1481288/events/1481296"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1481333.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

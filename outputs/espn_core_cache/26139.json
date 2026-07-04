@@ -1,0 +1,149 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/26139",
+  "id": "26139",
+  "guid": "e85e9f01-81cc-ffcc-98df-a7c7b3b84135",
+  "uid": "s:200~a:26139",
+  "type": "cricket",
+  "name": "Frank Nsubuga",
+  "firstName": "Frank",
+  "middleName": "",
+  "lastName": "Nsubuga",
+  "shortName": "Nsubuga",
+  "fullName": "Franco Nsubuga",
+  "displayName": "Frank Nsubuga",
+  "weight": 0,
+  "height": 0.0,
+  "age": 45,
+  "dateOfBirthStr": "1980-08-28T00:00Z",
+  "dateOfBirth": "1980-08-28T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "F Nsubuga",
+  "fieldingName": "Nsubuga",
+  "country": 35,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/26127"
+      },
+      "relation": "Brother"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/233528"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/14"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/35"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/35.png",
+    "width": 500,
+    "height": 500,
+    "alt": "UGA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/35"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/26139/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1184249/events/1184260"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1184248/events/1184260"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/134115/events/305721"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/305730/events/305721"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/266301/events/212612"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/143738/events/212612"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/266302/events/212612"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/441774/events/441776"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/26139.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

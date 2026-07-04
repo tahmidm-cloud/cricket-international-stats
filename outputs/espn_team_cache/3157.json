@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3157",
+  "id": "3157",
+  "uid": "s:200~t:3157",
+  "location": "Saudi Arabia",
+  "name": "Saudi Arabia Under-19s",
+  "nickname": "Saudi Arabia Under-19s",
+  "abbreviation": "KSA19",
+  "displayName": "Saudi Arabia Under-19s",
+  "shortDisplayName": "KSA19",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "SA",
+  "slug": "saudi-arabia-under-19s",
+  "classes": [
+    15
+  ],
+  "event": {
+    "date": "2022-10-03T05:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19037/events/1337087"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3157.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3157/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3157/saudi-arabia-under-19s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3157/saudi-arabia-under-19s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

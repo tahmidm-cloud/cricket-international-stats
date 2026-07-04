@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1881",
+  "id": "1881",
+  "uid": "s:200~t:1881",
+  "location": "India",
+  "name": "Karnataka XI",
+  "nickname": "Karnataka XI",
+  "abbreviation": "",
+  "displayName": "Karnataka XI",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "karnataka-xi",
+  "classes": [
+    "14"
+  ],
+  "event": {
+    "date": "2007-09-16T03:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/14226/events/311969"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1881/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1881/karnataka-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1881/karnataka-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

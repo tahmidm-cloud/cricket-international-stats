@@ -1,0 +1,162 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/35320",
+  "id": "35320",
+  "guid": "a1acb553-2846-5228-8118-b17630166ee8",
+  "uid": "s:200~a:35320",
+  "type": "cricket",
+  "name": "Sachin Tendulkar",
+  "firstName": "Sachin",
+  "middleName": "",
+  "lastName": "Tendulkar",
+  "shortName": "Tendulkar",
+  "fullName": "Sachin Ramesh Tendulkar",
+  "displayName": "Sachin Tendulkar",
+  "weight": 0,
+  "height": 5.05,
+  "age": 53,
+  "dateOfBirthStr": "1973-04-24T00:00Z",
+  "dateOfBirth": "1973-04-24T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "SR Tendulkar",
+  "fieldingName": "Tendulkar",
+  "country": 6,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1148776"
+      },
+      "relation": "Son"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/55"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1603"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335978"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1464"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/35320.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/35320/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62328/events/63513"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60560/events/63513"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60899/events/64346"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62328/events/64346"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/255953/events/255954"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/249039/events/255954"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/255953/events/255954"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/249039/events/255954"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/35320.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

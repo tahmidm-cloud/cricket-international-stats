@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1509249",
+  "id": "1509249",
+  "guid": "",
+  "uid": "s:200~a:1509249",
+  "type": "cricket",
+  "name": "Sumeet Lahiri",
+  "firstName": "Sumeet",
+  "middleName": "",
+  "lastName": "Lahiri",
+  "shortName": "Lahiri",
+  "fullName": "Sumeet Kumar Lahiri",
+  "displayName": "Sumeet Lahiri",
+  "weight": 0,
+  "height": 0.0,
+  "age": 31,
+  "dateOfBirthStr": "1994-10-14T00:00Z",
+  "dateOfBirth": "1994-10-14T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "SK Lahiri",
+  "fieldingName": "Lahiri",
+  "country": 114,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/114"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/114.png",
+    "width": 500,
+    "height": 500,
+    "alt": "MEX",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/114"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1509249/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1507414/events/1507418"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1507415/events/1507418"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1507416/events/1507418"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1507414/events/1507418"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1507415/events/1507418"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1507416/events/1507418"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1509249.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

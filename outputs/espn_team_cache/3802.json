@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3802",
+  "id": "3802",
+  "uid": "s:200~t:3802",
+  "location": "West Indies",
+  "name": "West Indies Cricket Board XI",
+  "nickname": "West Indies Cricket Board XI",
+  "abbreviation": "WCBXI",
+  "displayName": "West Indies Cricket Board XI",
+  "shortDisplayName": "WCBXI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "west-indies-cricket-board-xi",
+  "classes": [
+    "4",
+    "5"
+  ],
+  "event": {
+    "date": "2004-05-22T14:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/15013/events/141181"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3802/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3802/west-indies-cricket-board-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3802/west-indies-cricket-board-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

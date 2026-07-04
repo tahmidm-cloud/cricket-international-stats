@@ -1,0 +1,130 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/307825",
+  "id": "307825",
+  "guid": "c244fb4a-e533-2f2b-93b7-6ccc01440c60",
+  "uid": "s:200~a:307825",
+  "type": "cricket",
+  "name": "Haroon Shahid",
+  "firstName": "Haroon",
+  "middleName": "",
+  "lastName": "Shahid",
+  "shortName": "",
+  "fullName": "Haroon Shahid",
+  "displayName": "Haroon Shahid",
+  "weight": 0,
+  "height": 0.0,
+  "age": 35,
+  "dateOfBirthStr": "1991-06-30T00:00Z",
+  "dateOfBirth": "1991-06-30T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Haroon Shahid",
+  "fieldingName": "Haroon Shahid",
+  "country": 38,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/38"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2303"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/38.png",
+    "width": 500,
+    "height": 500,
+    "alt": "KUW",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/38"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/307825/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1328466/events/1328469"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1328468/events/1328469"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1328465/events/1328469"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1328465/events/1328469"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1328466/events/1328469"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1328468/events/1328469"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/307825.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

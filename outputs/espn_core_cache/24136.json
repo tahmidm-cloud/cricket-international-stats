@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24136",
+  "id": "24136",
+  "guid": "5106ec44-511e-52cb-f6da-12f191d7c0b3",
+  "uid": "s:200~a:24136",
+  "type": "cricket",
+  "name": "Manoj Cheruparambil",
+  "firstName": "Manoj",
+  "middleName": "",
+  "lastName": "Cheruparambil",
+  "shortName": "",
+  "fullName": "Manoj Cheruparambil",
+  "displayName": "Manoj Cheruparambil",
+  "weight": 0,
+  "height": 0,
+  "age": 46,
+  "dateOfBirthStr": "1979-10-24T00:00Z",
+  "dateOfBirth": "1979-10-24T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "M Cheruparambil",
+  "fieldingName": "Cheruparambil",
+  "country": 19,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/19"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/19.png",
+    "width": 500,
+    "height": 500,
+    "alt": "HKG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/19"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24136/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61447/events/65706"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62188/events/65706"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61152/events/65706"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/143791/events/207414"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/305769/events/207414"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61152/events/65706"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61447/events/65706"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62188/events/65706"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/24136.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

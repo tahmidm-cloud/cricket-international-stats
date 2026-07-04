@@ -1,0 +1,67 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/789649",
+  "id": "789649",
+  "uid": "s:200~t:789649",
+  "location": "Afghanistan",
+  "name": "Amo Region",
+  "nickname": "Amo Region",
+  "abbreviation": "AMOR",
+  "displayName": "Amo Region",
+  "shortDisplayName": "AMOR",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AF",
+  "slug": "amo-region",
+  "classes": [
+    4,
+    5,
+    6,
+    14
+  ],
+  "event": {
+    "date": "2026-06-04T04:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/17954/events/1536548"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/17954"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/789649.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/789649/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/789649/amo-region",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/789649/amo-region",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

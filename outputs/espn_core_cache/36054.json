@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/36054",
+  "id": "36054",
+  "guid": "359657d7-3259-0898-c01d-24ce24ca26c3",
+  "uid": "s:200~a:36054",
+  "type": "cricket",
+  "name": "Jai Prakash Yadav",
+  "firstName": "Jai",
+  "middleName": "",
+  "lastName": "Yadav",
+  "shortName": "Yadav",
+  "fullName": "Jai Prakash Yadav",
+  "displayName": "Jai Prakash Yadav",
+  "weight": 0,
+  "height": 5.1,
+  "age": 51,
+  "dateOfBirthStr": "1974-08-07T00:00Z",
+  "dateOfBirth": "1974-08-07T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Jai P Yadav",
+  "fieldingName": "Yadav",
+  "country": 6,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/316591"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1941"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1823"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/36054/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61116/events/64785"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61947/events/64785"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/425302/events/426492"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/36054.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

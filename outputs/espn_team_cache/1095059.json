@@ -1,0 +1,66 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1095059",
+  "id": "1095059",
+  "uid": "s:200~t:1095059",
+  "location": "Sri Lanka",
+  "name": "Galle",
+  "nickname": "Galle",
+  "abbreviation": "GALLE",
+  "displayName": "Galle",
+  "shortDisplayName": "GALLE",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "galle",
+  "classes": [
+    4,
+    5,
+    6
+  ],
+  "event": {
+    "date": "2026-04-25T04:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/21230/events/1529390"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/21230"
+  },
+  "color": "#0e65d8",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1095059.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1095059/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1095059/galle",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1095059/galle",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

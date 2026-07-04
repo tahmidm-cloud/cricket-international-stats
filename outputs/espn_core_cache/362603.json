@@ -1,0 +1,141 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/362603",
+  "id": "362603",
+  "guid": "b2305463-55eb-45a6-d964-3177e3413407",
+  "uid": "s:200~a:362603",
+  "type": "cricket",
+  "name": "Shafiqullah",
+  "firstName": "Shafiqullah",
+  "middleName": "",
+  "lastName": "Shafiqullah",
+  "shortName": "Shafiq",
+  "fullName": "Shafiqullah Shafiq",
+  "displayName": "Shafiqullah",
+  "weight": 0,
+  "height": 0.0,
+  "age": 36,
+  "dateOfBirthStr": "1989-08-07T00:00Z",
+  "dateOfBirth": "1989-08-07T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "Shafiqullah",
+  "fieldingName": "Shafiqullah",
+  "country": 40,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/40"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/789647"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1121244"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/40.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AFG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/40"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/362603/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/415167/events/415173"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/415169/events/415173"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440158/events/440224"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440159/events/440224"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440215/events/440224"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1124055/events/1124065"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/390269/events/390201"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/390270/events/390201"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/384067/events/390201"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440159/events/440224"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440215/events/440224"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440158/events/440224"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/362603.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

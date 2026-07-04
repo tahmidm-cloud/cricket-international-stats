@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2614",
+  "id": "2614",
+  "uid": "s:200~t:2614",
+  "location": "Pakistan",
+  "name": "Abbottabad",
+  "nickname": "Abbottabad",
+  "abbreviation": "Abbot",
+  "displayName": "Abbottabad",
+  "shortDisplayName": "Abbot",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "PK",
+  "slug": "abbottabad",
+  "classes": [
+    "4"
+  ],
+  "event": {
+    "date": "2014-01-16T05:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8840/events/677963"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2614/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/2614/abbottabad",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/2614/abbottabad",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55700",
+  "id": "55700",
+  "guid": "62481353-a82c-bf87-e29a-7758014f6e66",
+  "uid": "s:200~a:55700",
+  "type": "cricket",
+  "name": "Andy Pycroft",
+  "firstName": "Andy",
+  "middleName": "",
+  "lastName": "Pycroft",
+  "shortName": "Pycroft",
+  "fullName": "Andrew John Pycroft",
+  "displayName": "Andy Pycroft",
+  "weight": 0,
+  "height": 0.0,
+  "age": 70,
+  "dateOfBirthStr": "1956-06-06T00:00Z",
+  "dateOfBirth": "1956-06-06T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "AJ Pycroft",
+  "fieldingName": "Pycroft",
+  "country": 9,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3357"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/55700.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/9.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ZIM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55700/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62304/events/63583"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60583/events/63583"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/380710/events/380712"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/380709/events/380712"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60832/events/65066"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61347/events/65066"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61987/events/65066"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/380711/events/380715"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/380709/events/380715"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/403360/events/403385"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/403357/events/403385"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/55700.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

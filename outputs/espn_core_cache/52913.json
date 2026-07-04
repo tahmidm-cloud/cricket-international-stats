@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52913",
+  "id": "52913",
+  "guid": "9f644d68-ee5e-18a5-0c9e-c77deab906bb",
+  "uid": "s:200~a:52913",
+  "type": "cricket",
+  "name": "Ryan Ramdass",
+  "firstName": "Ryan",
+  "middleName": "",
+  "lastName": "Ramdass",
+  "shortName": "Ramdass",
+  "fullName": "Ryan Rakesh Ramdass",
+  "displayName": "Ryan Ramdass",
+  "weight": 0,
+  "height": 0.0,
+  "age": 43,
+  "dateOfBirthStr": "1983-07-03T00:00Z",
+  "dateOfBirth": "1983-07-03T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "RR Ramdass",
+  "fieldingName": "Ramdass",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3742"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52913/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/213894/events/214009"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/209584/events/214009"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/211858/events/214852"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/209584/events/214852"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/415468/events/415439"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/125654/events/415439"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/132765/events/415414"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/52913.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

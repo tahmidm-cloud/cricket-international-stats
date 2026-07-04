@@ -1,0 +1,143 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/6502",
+  "id": "6502",
+  "guid": "9ac62650-e912-8367-f02a-e0ae82f8fa1e",
+  "uid": "s:200~a:6502",
+  "type": "cricket",
+  "name": "Rod Marsh",
+  "firstName": "Rod",
+  "middleName": "",
+  "lastName": "Marsh",
+  "shortName": "Marsh",
+  "fullName": "Rodney William Marsh",
+  "displayName": "Rod Marsh",
+  "weight": 0,
+  "height": 0.0,
+  "age": 74,
+  "dateOfBirthStr": "1947-11-04T00:00Z",
+  "dateOfBirth": "1947-11-04T00:00Z",
+  "dateOfDeathStr": "2022-03-04T00:00Z",
+  "dateOfDeath": "2022-03-04T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "RW Marsh",
+  "fieldingName": "Marsh",
+  "country": 2,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/246667"
+      },
+      "relation": "Son"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/6497"
+      },
+      "relation": "Son"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/6867"
+      },
+      "relation": "Son"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/602"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/6502/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60433/events/63060"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61725/events/63060"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60783/events/64148"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61725/events/64148"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/6502.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

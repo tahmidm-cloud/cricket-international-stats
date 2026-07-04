@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1485",
+  "id": "1485",
+  "uid": "s:200~t:1485",
+  "location": "France",
+  "name": "France Under-19s",
+  "nickname": "France Under-19s",
+  "abbreviation": "FRA19",
+  "displayName": "France Under-19s",
+  "shortDisplayName": "FRA19",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "FR",
+  "slug": "france-under-19s",
+  "classes": [
+    "15"
+  ],
+  "event": {
+    "date": "2019-08-01T09:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19421/events/1194318"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1485.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1485/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1485/france-under-19s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1485/france-under-19s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

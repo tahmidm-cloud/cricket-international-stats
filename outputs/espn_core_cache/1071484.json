@@ -1,0 +1,161 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1071484",
+  "id": "1071484",
+  "guid": "898e3102-09f9-1946-6836-b728e00df043",
+  "uid": "s:200~a:1071484",
+  "type": "cricket",
+  "name": "Brian Bennett",
+  "firstName": "Brian",
+  "middleName": "",
+  "lastName": "Bennett",
+  "shortName": "Bennett",
+  "fullName": "Brian John Bennett",
+  "displayName": "Brian Bennett",
+  "weight": 0,
+  "height": 0.0,
+  "age": 22,
+  "dateOfBirthStr": "2003-11-10T00:00Z",
+  "dateOfBirth": "2003-11-10T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "BJ Bennett",
+  "fieldingName": "Bennett",
+  "country": 9,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1071485"
+      },
+      "relation": "Twin brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/953833"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/595168"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3871"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/1071484.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/9.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ZIM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1071484/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1431078/events/1431085"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1431077/events/1431085"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1444643/events/1444649"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1444642/events/1444649"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1408099/events/1408103"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1408100/events/1408103"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1335411/events/1335429"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1402932/events/1402937"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1360019/events/1360026"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1295071/events/1295658"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1295079/events/1295658"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1295657/events/1295658"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1071484.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

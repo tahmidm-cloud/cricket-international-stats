@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/753989",
+  "id": "753989",
+  "uid": "s:200~t:753989",
+  "location": "England",
+  "name": "Elite International Cricket Academy",
+  "nickname": "Elite International Cricket Academy",
+  "abbreviation": "Elite",
+  "displayName": "Elite International Cricket Academy",
+  "shortDisplayName": "Elite",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "elite-international-cricket-academy",
+  "classes": [
+    "15"
+  ],
+  "event": {
+    "date": "2015-07-23T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/11434/events/906199"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/753989/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/753989/elite-international-cricket-academy",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/753989/elite-international-cricket-academy",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

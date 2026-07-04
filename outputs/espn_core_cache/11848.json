@@ -1,0 +1,145 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/11848",
+  "id": "11848",
+  "guid": "49dadce9-7bda-d284-5ab5-20b416c3e3ee",
+  "uid": "s:200~a:11848",
+  "type": "cricket",
+  "name": "Richard Dawson",
+  "firstName": "Richard",
+  "middleName": "",
+  "lastName": "Dawson",
+  "shortName": "Dawson",
+  "fullName": "Richard Kevin James Dawson",
+  "displayName": "Richard Dawson",
+  "weight": 0,
+  "height": 6.04,
+  "age": 45,
+  "dateOfBirthStr": "1980-08-04T00:00Z",
+  "dateOfBirth": "1980-08-04T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "RKJ Dawson",
+  "fieldingName": "Dawson",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/833"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/909"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1034"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1221"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1464"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/11848/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61791/events/63961"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60717/events/63961"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/134471/events/304788"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327337/events/327341"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327339/events/327341"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327337/events/327345"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327338/events/327345"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/11848.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

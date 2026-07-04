@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/626111",
+  "id": "626111",
+  "guid": "b5b4c02b-5012-42db-b1f5-b5e41fab6087",
+  "uid": "s:200~a:626111",
+  "type": "cricket",
+  "name": "Salman Faris",
+  "firstName": "Salman",
+  "middleName": "",
+  "lastName": "Faris",
+  "shortName": "",
+  "fullName": "Salman Faris",
+  "displayName": "Salman Faris",
+  "weight": 0,
+  "height": 0.0,
+  "age": 40,
+  "dateOfBirthStr": "1985-11-18T00:00Z",
+  "dateOfBirth": "1985-11-18T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "Salman Faris",
+  "fieldingName": "Salman Faris",
+  "country": 27,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/27.png",
+    "width": 500,
+    "height": 500,
+    "alt": "UAE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/626111/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/681019/events/696763"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/696903/events/696763"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/696917/events/696763"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/681019/events/696701"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/696903/events/696701"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/696921/events/696701"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/592253/events/592265"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/592252/events/592265"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/626111.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

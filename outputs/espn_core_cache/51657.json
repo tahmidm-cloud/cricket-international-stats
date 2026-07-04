@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/51657",
+  "id": "51657",
+  "guid": "35cb8497-37e9-e857-af47-d10a92c2caea",
+  "uid": "s:200~a:51657",
+  "type": "cricket",
+  "name": "Jeff Dujon",
+  "firstName": "Jeff",
+  "middleName": "",
+  "lastName": "Dujon",
+  "shortName": "Dujon",
+  "fullName": "Peter Jeffrey Leroy Dujon",
+  "displayName": "Jeff Dujon",
+  "weight": 0,
+  "height": 0.0,
+  "age": 70,
+  "dateOfBirthStr": "1956-05-28T00:00Z",
+  "dateOfBirth": "1956-05-28T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "PJL Dujon",
+  "fieldingName": "Dujon",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3751"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/51657.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/51657/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61900/events/63304"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60498/events/63304"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60816/events/65322"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61476/events/65322"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61900/events/65322"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324972/events/324974"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324973/events/324974"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/51657.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/672",
+  "id": "672",
+  "uid": "s:200~t:672",
+  "location": "Bangladesh",
+  "name": "Bangladesh Under-19s",
+  "nickname": "Bangladesh Under-19s",
+  "abbreviation": "BAN19",
+  "displayName": "Bangladesh Under-19s",
+  "shortDisplayName": "BAN19",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "BD",
+  "slug": "bangladesh-under-19s",
+  "classes": [
+    20,
+    21,
+    22,
+    14,
+    15
+  ],
+  "event": {
+    "date": "2026-01-31T07:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8368/events/1511886"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8368"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/672.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/672/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/672/bangladesh-under-19s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/672/bangladesh-under-19s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=723;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/8845",
+  "id": "8845",
+  "guid": "0de1055f-aedf-ea44-1325-178717c9bf5a",
+  "uid": "s:200~a:8845",
+  "type": "cricket",
+  "name": "Tim Ambrose",
+  "firstName": "Tim",
+  "middleName": "",
+  "lastName": "Ambrose",
+  "shortName": "Ambrose",
+  "fullName": "Timothy Raymond Ambrose",
+  "displayName": "Tim Ambrose",
+  "weight": 0,
+  "height": 5.07,
+  "age": 43,
+  "dateOfBirthStr": "1982-12-01T00:00Z",
+  "dateOfBirth": "1982-12-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "TR Ambrose",
+  "fieldingName": "Ambrose",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1392079"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1371"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1428"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/8845/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/300415/events/300442"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/300413/events/300442"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/296889/events/296904"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/296896/events/296904"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/296889/events/296903"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/296894/events/296903"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/124121/events/129610"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/8845.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

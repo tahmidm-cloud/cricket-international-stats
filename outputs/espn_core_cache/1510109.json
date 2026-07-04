@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1510109",
+  "id": "1510109",
+  "guid": "29df4bfb-669e-3b9a-898f-60a529ad58f3",
+  "uid": "s:200~a:1510109",
+  "type": "cricket",
+  "name": "Paing Win",
+  "firstName": "Paing",
+  "middleName": "",
+  "lastName": "Win",
+  "shortName": "Win",
+  "fullName": "Paing Pyae Son Win",
+  "displayName": "Paing Win",
+  "weight": 0,
+  "height": 0.0,
+  "age": 16,
+  "dateOfBirthStr": "2010-02-25T00:00Z",
+  "dateOfBirth": "2010-02-25T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "PPS Win",
+  "fieldingName": "Win",
+  "country": 1116403,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1116403"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1116403.png",
+    "width": 500,
+    "height": 500,
+    "alt": "MYAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1116403"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1510109/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1508262/events/1508274"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1508263/events/1508274"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1508260/events/1508274"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1508260/events/1508274"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1508262/events/1508274"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1508263/events/1508274"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1510109.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

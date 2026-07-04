@@ -1,0 +1,151 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/308410",
+  "id": "308410",
+  "guid": "65437390-4d09-7ea1-8d2f-9faadf0730e8",
+  "uid": "s:200~a:308410",
+  "type": "cricket",
+  "name": "Pikky Ya France",
+  "firstName": "Pikky",
+  "middleName": "",
+  "lastName": "France",
+  "shortName": "Ya France",
+  "fullName": "Helao Nafidi Ya France",
+  "displayName": "Pikky Ya France",
+  "weight": 0,
+  "height": 0.0,
+  "age": 36,
+  "dateOfBirthStr": "1990-04-23T00:00Z",
+  "dateOfBirth": "1990-04-23T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "HN Ya France",
+  "fieldingName": "Ya France",
+  "country": 28,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/28"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2317"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/308410.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/28.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NAM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/28"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/308410/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1174827/events/1174845"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1174825/events/1174845"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197506/events/1197507"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197505/events/1197507"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/469560/events/469637"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/469551/events/469637"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/469560/events/469728"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/469538/events/469728"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/529473/events/529481"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/523800/events/529481"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/316938/events/316973"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/288278/events/316973"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/334219/events/316973"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/308410.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

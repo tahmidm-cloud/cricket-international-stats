@@ -1,0 +1,111 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1471899",
+  "id": "1471899",
+  "guid": "d7114f96-4d30-3418-bf0c-2d1084f63337",
+  "uid": "s:200~a:1471899",
+  "type": "cricket",
+  "name": "Hari Kukreja",
+  "firstName": "Hari",
+  "middleName": "",
+  "lastName": "Kukreja",
+  "shortName": "Kukreja",
+  "fullName": "Hari Krishna Kukreja",
+  "displayName": "Hari Kukreja",
+  "weight": 0,
+  "height": 0.0,
+  "age": 25,
+  "dateOfBirthStr": "2000-09-11T00:00Z",
+  "dateOfBirth": "2000-09-11T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [],
+  "styles": [],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "HK Kukreja",
+  "fieldingName": "Kukreja",
+  "country": 23,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/23"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/23.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SGP",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/23"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1471899/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1482081/events/1482093"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1482084/events/1482093"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1482085/events/1482093"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1471817/events/1471828"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1451884/events/1471828"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1482081/events/1482093"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1482084/events/1482093"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1482085/events/1482093"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1471899.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

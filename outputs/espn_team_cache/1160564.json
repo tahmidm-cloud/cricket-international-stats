@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1160564",
+  "id": "1160564",
+  "uid": "s:200~t:1160564",
+  "location": "Afghanistan",
+  "name": "Paktia Panthers",
+  "nickname": "Paktia Panthers",
+  "abbreviation": "PP",
+  "displayName": "Paktia Panthers",
+  "shortDisplayName": "PP",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AF",
+  "slug": "paktia-panthers",
+  "classes": [
+    "6"
+  ],
+  "event": {
+    "date": "2018-10-20T16:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18936/events/1160590"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1160564.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1160564/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1160564/paktia-panthers",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1160564/paktia-panthers",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

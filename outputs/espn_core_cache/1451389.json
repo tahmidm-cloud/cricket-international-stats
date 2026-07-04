@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1451389",
+  "id": "1451389",
+  "guid": "",
+  "uid": "s:200~a:1451389",
+  "type": "cricket",
+  "name": "Nivek Tanner",
+  "firstName": "Nivek",
+  "middleName": "",
+  "lastName": "Tanner",
+  "shortName": "Tanner",
+  "fullName": "Nivek Tanner",
+  "displayName": "Nivek Tanner",
+  "weight": 0,
+  "height": 0.0,
+  "age": 25,
+  "dateOfBirthStr": "2000-09-26T00:00Z",
+  "dateOfBirth": "2000-09-26T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "N Tanner",
+  "fieldingName": "Tanner",
+  "country": 128,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/128"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/128.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PHI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/128"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1451389/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1450717/events/1450767"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1450734/events/1450767"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1450715/events/1450767"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1450715/events/1450767"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1450717/events/1450767"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1450734/events/1450767"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1451389.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

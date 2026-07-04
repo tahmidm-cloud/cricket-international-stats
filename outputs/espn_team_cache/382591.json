@@ -1,0 +1,63 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/382591",
+  "id": "382591",
+  "uid": "s:200~t:382591",
+  "location": "Pakistan",
+  "name": "Islamabad Region",
+  "nickname": "Islamabad Region",
+  "abbreviation": "ISB",
+  "displayName": "Islamabad Region",
+  "shortDisplayName": "ISB",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "PK",
+  "slug": "islamabad-region",
+  "classes": [
+    4,
+    6,
+    14,
+    15
+  ],
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1523747"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/382591.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/382591/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/382591/islamabad-region",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/382591/islamabad-region",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

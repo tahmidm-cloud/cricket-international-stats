@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/252127",
+  "id": "252127",
+  "uid": "s:200~t:252127",
+  "location": "",
+  "name": "European XI",
+  "nickname": "European XI",
+  "abbreviation": "Europ",
+  "displayName": "European XI",
+  "shortDisplayName": "Europ",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "european-xi",
+  "classes": [
+    "14",
+    "15"
+  ],
+  "event": {
+    "date": "2007-06-07T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/14372/events/297160"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/252127/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/252127/european-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/252127/european-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/576786",
+  "id": "576786",
+  "uid": "s:200~t:576786",
+  "location": "South Africa",
+  "name": "Rowlin Cricket Academy",
+  "nickname": "Rowlin Cricket Academy",
+  "abbreviation": "Rowli",
+  "displayName": "Rowlin Cricket Academy",
+  "shortDisplayName": "Rowli",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZA",
+  "slug": "rowlin-cricket-academy",
+  "classes": [
+    "16"
+  ],
+  "event": {
+    "date": "2014-08-23T01:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8865/events/769457"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/576786/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/576786/rowlin-cricket-academy",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/576786/rowlin-cricket-academy",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

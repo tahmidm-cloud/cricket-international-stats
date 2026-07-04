@@ -1,0 +1,148 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/407265",
+  "id": "407265",
+  "guid": "0a1ae20e-afb2-b510-096d-38b672a09641",
+  "uid": "s:200~a:407265",
+  "type": "cricket",
+  "name": "Josh Davey",
+  "firstName": "Josh",
+  "middleName": "",
+  "lastName": "Davey",
+  "shortName": "Davey",
+  "fullName": "Joshua Henry Davey",
+  "displayName": "Josh Davey",
+  "weight": 0,
+  "height": 0.0,
+  "age": 35,
+  "dateOfBirthStr": "1990-08-03T00:00Z",
+  "dateOfBirth": "1990-08-03T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "JH Davey",
+  "fieldingName": "Davey",
+  "country": 30,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1190"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1191"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1333"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1334"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1357"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/407265.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/30.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SCOT",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/407265/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/442230/events/442232"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/442231/events/442232"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/567068/events/567204"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/567201/events/567204"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/567202/events/567204"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/435398/events/435560"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/435131/events/435564"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/435130/events/435761"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/407265.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

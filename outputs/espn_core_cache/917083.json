@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/917083",
+  "id": "917083",
+  "guid": "39305948-0d2a-d8b4-9dcc-5f3e51f044f3",
+  "uid": "s:200~a:917083",
+  "type": "cricket",
+  "name": "Vejai Hirlal",
+  "firstName": "Vejai",
+  "middleName": "",
+  "lastName": "Hirlal",
+  "shortName": "Hirlal",
+  "fullName": "Vejai Hirlal",
+  "displayName": "Vejai Hirlal",
+  "weight": 0,
+  "height": 0.0,
+  "age": 44,
+  "dateOfBirthStr": "1982-04-03T00:00Z",
+  "dateOfBirth": "1982-04-03T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "V Hirlal",
+  "fieldingName": "Hirlal",
+  "country": 151,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/151"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/151.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SUR",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/151"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/917083/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1462863/events/1462877"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1462864/events/1462877"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1462861/events/1462877"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1462861/events/1462877"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1462863/events/1462877"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1462864/events/1462877"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/917083.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

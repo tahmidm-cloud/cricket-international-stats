@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1163303",
+  "id": "1163303",
+  "uid": "s:200~t:1163303",
+  "location": "United Arab Emirates",
+  "name": "Sindhis",
+  "nickname": "Sindhis",
+  "abbreviation": "SIND",
+  "displayName": "Sindhis",
+  "shortDisplayName": "SIND",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AE",
+  "slug": "sindhis",
+  "classes": [
+    16
+  ],
+  "event": {
+    "date": "2018-11-30T16:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18522/events/1163329"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1163303.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1163303/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1163303/sindhis",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1163303/sindhis",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

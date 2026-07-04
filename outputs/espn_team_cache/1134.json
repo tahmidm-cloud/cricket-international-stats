@@ -1,0 +1,58 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1134",
+  "id": "1134",
+  "uid": "s:200~t:1134",
+  "location": "England",
+  "name": "Leicestershire 2nd XI",
+  "nickname": "Leicestershire 2nd XI",
+  "abbreviation": "Le2XI",
+  "displayName": "Leicestershire 2nd XI",
+  "shortDisplayName": "Le2XI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "leicestershire-2nd-xi",
+  "classes": [
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2026-06-24T13:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8861/events/1534497"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8861"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1134/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1134/leicestershire-2nd-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1134/leicestershire-2nd-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/6565",
+  "id": "6565",
+  "guid": "629dd791-c502-8f3d-9e3c-962e3e16db4a",
+  "uid": "s:200~a:6565",
+  "type": "cricket",
+  "name": "Glenn McGrath",
+  "firstName": "Glenn",
+  "middleName": "",
+  "lastName": "McGrath",
+  "shortName": "McGrath",
+  "fullName": "Glenn Donald McGrath",
+  "displayName": "Glenn McGrath",
+  "weight": 0,
+  "height": 1.95,
+  "age": 56,
+  "dateOfBirthStr": "1970-02-09T00:00Z",
+  "dateOfBirth": "1970-02-09T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "GD McGrath",
+  "fieldingName": "McGrath",
+  "country": 2,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335975"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/89"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1190"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/387"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1458"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/6565/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62086/events/63621"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60597/events/63621"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60948/events/65507"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61824/events/65507"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/238218/events/211048"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61407/events/211048"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/238218/events/211048"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61407/events/211048"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/6565.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

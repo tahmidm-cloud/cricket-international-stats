@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/8520",
+  "id": "8520",
+  "guid": "876096bd-5623-8695-6af1-4e7a805c29f9",
+  "uid": "s:200~a:8520",
+  "type": "cricket",
+  "name": "Mark Alleyne",
+  "firstName": "Mark",
+  "middleName": "",
+  "lastName": "Alleyne",
+  "shortName": "Alleyne",
+  "fullName": "Mark Wayne Alleyne",
+  "displayName": "Mark Alleyne",
+  "weight": 0,
+  "height": 5.1,
+  "age": 58,
+  "dateOfBirthStr": "1968-05-23T00:00Z",
+  "dateOfBirth": "1968-05-23T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "MW Alleyne",
+  "fieldingName": "Alleyne",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1034"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1166"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/8520/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61732/events/65570"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61038/events/65570"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/124121/events/304747"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324770/events/324779"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324776/events/324779"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324770/events/324777"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324774/events/324777"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/8520.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

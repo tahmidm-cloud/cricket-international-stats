@@ -1,0 +1,64 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/777391",
+  "id": "777391",
+  "uid": "s:200~t:777391",
+  "location": "India",
+  "name": "Mysuru Warriors",
+  "nickname": "Mysuru Warriors",
+  "abbreviation": "MYSW",
+  "displayName": "Mysuru Warriors",
+  "shortDisplayName": "MYSW",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "mysuru-warriors",
+  "classes": [
+    16
+  ],
+  "event": {
+    "date": "2026-07-03T09:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/22014/events/1542329"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/22014"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/777391.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/777391/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/777391/mysuru-warriors",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/777391/mysuru-warriors",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

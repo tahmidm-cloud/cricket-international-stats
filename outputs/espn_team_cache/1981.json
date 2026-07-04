@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1981",
+  "id": "1981",
+  "uid": "s:200~t:1981",
+  "location": "India",
+  "name": "Northern Punjab",
+  "nickname": "Northern Punjab",
+  "abbreviation": "NTHPN",
+  "displayName": "Northern Punjab",
+  "shortDisplayName": "NTHPN",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "northern-punjab",
+  "classes": [
+    4
+  ],
+  "event": {
+    "date": "1967-12-19T03:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8050/events/1529833"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1981/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1981/northern-punjab",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1981/northern-punjab",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1155556",
+  "id": "1155556",
+  "guid": "d5fcb643-ef29-a599-0948-04481a967ff7",
+  "uid": "s:200~a:1155556",
+  "type": "cricket",
+  "name": "Abdallah Jabiri",
+  "firstName": "Abdallah",
+  "middleName": "",
+  "lastName": "Jabiri",
+  "shortName": "Jabiri",
+  "fullName": "Abdallah Juma Jabiri",
+  "displayName": "Abdallah Jabiri",
+  "weight": 0,
+  "height": 0.0,
+  "age": 23,
+  "dateOfBirthStr": "2003-02-28T00:00Z",
+  "dateOfBirth": "2003-02-28T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "AJ Jabiri",
+  "fieldingName": "Jabiri",
+  "country": 160,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/297287"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/160.png",
+    "width": 500,
+    "height": 500,
+    "alt": "TAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/160"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1155556/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1342332/events/1342335"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1342333/events/1342335"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1342332/events/1342335"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1342333/events/1342335"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1155556.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

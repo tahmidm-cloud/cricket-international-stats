@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/465",
+  "id": "465",
+  "uid": "s:200~t:465",
+  "location": "Australia",
+  "name": "Queensland Country",
+  "nickname": "Queensland Country",
+  "abbreviation": "",
+  "displayName": "Queensland Country",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AU",
+  "slug": "queensland-country",
+  "classes": [
+    "14",
+    "15"
+  ],
+  "event": {
+    "date": "2009-01-02T00:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/13885/events/389976"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/465/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/465/queensland-country",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/465/queensland-country",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/56222",
+  "id": "56222",
+  "guid": "dc01ebc2-9310-9349-e5ad-3456eb8f247f",
+  "uid": "s:200~a:56222",
+  "type": "cricket",
+  "name": "Anisur Rahman",
+  "firstName": "Anisur",
+  "middleName": "",
+  "lastName": "Rahman",
+  "shortName": "",
+  "fullName": "Anisur Rahman",
+  "displayName": "Anisur Rahman",
+  "weight": 0,
+  "height": 0.0,
+  "age": 55,
+  "dateOfBirthStr": "1971-03-01T00:00Z",
+  "dateOfBirth": "1971-03-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-arm medium-fast",
+      "shortDescription": "Lmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-arm medium-fast",
+      "shortDescription": "Lmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "Anisur Rahman",
+  "fieldingName": "Anisur Rahman",
+  "country": 25,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/662"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/679"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/25.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/56222/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62199/events/65685"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62372/events/65685"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60971/events/65685"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/690333/events/690357"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/690345/events/690357"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/586566/events/587476"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/586602/events/587476"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/56222.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/520130",
+  "id": "520130",
+  "guid": "98d6a3ec-d3ed-ecee-84fd-14d24fdacb5a",
+  "uid": "s:200~a:520130",
+  "type": "cricket",
+  "name": "Oliver Webster",
+  "firstName": "Oliver",
+  "middleName": "",
+  "lastName": "Webster",
+  "shortName": "Webster",
+  "fullName": "Oliver James Webster",
+  "displayName": "Oliver Webster",
+  "weight": 0,
+  "height": 0.0,
+  "age": 41,
+  "dateOfBirthStr": "1985-06-19T00:00Z",
+  "dateOfBirth": "1985-06-19T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [],
+  "styles": [],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "OJ Webster",
+  "fieldingName": "Webster",
+  "country": 96,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/96"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/96.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IOM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/96"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/520130/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1229800/events/1229824"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1229801/events/1229824"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1229800/events/1229824"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1229801/events/1229824"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/520130.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

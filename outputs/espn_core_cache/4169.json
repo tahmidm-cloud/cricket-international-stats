@@ -1,0 +1,157 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/4169",
+  "id": "4169",
+  "guid": "1e19d153-16b9-81fa-1559-9386fa1c18c5",
+  "uid": "s:200~a:4169",
+  "type": "cricket",
+  "name": "David Boon",
+  "firstName": "David",
+  "middleName": "",
+  "lastName": "Boon",
+  "shortName": "Boon",
+  "fullName": "David Clarence Boon",
+  "displayName": "David Boon",
+  "weight": 0,
+  "height": 0.0,
+  "age": 65,
+  "dateOfBirthStr": "1960-12-29T00:00Z",
+  "dateOfBirth": "1960-12-29T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "DC Boon",
+  "fieldingName": "Boon",
+  "country": 2,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/924"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/560"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/4169/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61908/events/63384"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60522/events/63384"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/504005/events/523731"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/504006/events/523731"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61895/events/65372"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60835/events/65372"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/504005/events/523732"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/504007/events/523732"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/504005/events/523735"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/504009/events/523735"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324029/events/324031"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324027/events/324031"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/323793/events/323802"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/323893/events/323802"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/4169.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

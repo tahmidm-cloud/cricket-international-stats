@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/553116",
+  "id": "553116",
+  "uid": "s:200~t:553116",
+  "location": "South Africa",
+  "name": "Impi",
+  "nickname": "Impi",
+  "abbreviation": "Impi",
+  "displayName": "Impi",
+  "shortDisplayName": "Impi",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZA",
+  "slug": "impi",
+  "classes": [
+    6
+  ],
+  "event": {
+    "date": "2012-03-21T12:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8656/events/530361"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/553116/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/553116/impi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/553116/impi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

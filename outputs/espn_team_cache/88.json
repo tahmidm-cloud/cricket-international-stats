@@ -1,0 +1,89 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/88",
+  "id": "88",
+  "uid": "s:200~t:88",
+  "location": "Hungary",
+  "name": "Hungary",
+  "nickname": "Hungary",
+  "abbreviation": "HUN",
+  "displayName": "Hungary",
+  "shortDisplayName": "HUN",
+  "isNational": true,
+  "isActive": true,
+  "countryCode": "HU",
+  "slug": "hungary",
+  "classes": [
+    3,
+    16
+  ],
+  "event": {
+    "date": "2026-06-28T07:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/24533/events/1542989"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19487"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/88.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/88/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/88/hungary",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/88/hungary",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=139;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "players",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/country.html?country=139",
+      "text": "Players",
+      "shortText": "Players",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

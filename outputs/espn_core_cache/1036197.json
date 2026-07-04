@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1036197",
+  "id": "1036197",
+  "guid": "71ec569d-fd78-0166-a39f-fed9bd3b6f37",
+  "uid": "s:200~a:1036197",
+  "type": "cricket",
+  "name": "Philippe Boissevain",
+  "firstName": "Philippe",
+  "middleName": "",
+  "lastName": "Boissevain",
+  "shortName": "Boissevain",
+  "fullName": "Philippe Ronald Peter Boissevain",
+  "displayName": "Philippe Boissevain",
+  "weight": 0,
+  "height": 0.0,
+  "age": 25,
+  "dateOfBirthStr": "2000-10-18T00:00Z",
+  "dateOfBirth": "2000-10-18T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "PRP Boissevain",
+  "fieldingName": "Boissevain",
+  "country": 15,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/15"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2408"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/15.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NED",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/15"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1036197/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1260083/events/1260085"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1260082/events/1260085"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1191002/events/1191006"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1191001/events/1191006"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1262762/events/1262763"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1262761/events/1262763"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1191001/events/1191006"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1191002/events/1191006"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1036197.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

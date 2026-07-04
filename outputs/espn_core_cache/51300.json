@@ -1,0 +1,145 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/51300",
+  "id": "51300",
+  "guid": "cf618db5-481a-6136-7c84-cb9777e432d5",
+  "uid": "s:200~a:51300",
+  "type": "cricket",
+  "name": "David Bernard",
+  "firstName": "David",
+  "middleName": "",
+  "lastName": "Bernard",
+  "shortName": "Bernard",
+  "fullName": "David Eddison Bernard",
+  "displayName": "David Bernard",
+  "weight": 0,
+  "height": 0.0,
+  "age": 44,
+  "dateOfBirthStr": "1981-07-19T00:00Z",
+  "dateOfBirth": "1981-07-19T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "DE Bernard",
+  "fieldingName": "Bernard",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3751"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/642415"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3798"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3800"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/51300.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/51300/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61389/events/64025"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60741/events/64025"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61128/events/64824"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61389/events/64824"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/380896/events/401076"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/401064/events/401076"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/300764/events/300886"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/333378/events/300886"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/51300.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

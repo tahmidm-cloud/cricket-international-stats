@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/514782",
+  "id": "514782",
+  "uid": "s:200~t:514782",
+  "location": "Sri Lanka",
+  "name": "Uva Next",
+  "nickname": "Uva Next",
+  "abbreviation": "UvNxt",
+  "displayName": "Uva Next",
+  "shortDisplayName": "UvNxt",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "uva-next",
+  "classes": [
+    6,
+    16
+  ],
+  "event": {
+    "date": "2012-10-11T11:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8082/events/574250"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/514782/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/514782/uva-next",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/514782/uva-next",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

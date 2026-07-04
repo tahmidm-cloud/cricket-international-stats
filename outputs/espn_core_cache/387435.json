@@ -1,0 +1,151 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/387435",
+  "id": "387435",
+  "guid": "759cbfd4-79bd-c4db-1105-b120eab9c7ad",
+  "uid": "s:200~a:387435",
+  "type": "cricket",
+  "name": "Vani Morea",
+  "firstName": "Vani",
+  "middleName": "",
+  "lastName": "Morea",
+  "shortName": "Morea",
+  "fullName": "Vani Vagi Morea",
+  "displayName": "Vani Morea",
+  "weight": 0,
+  "height": 0.0,
+  "age": 43,
+  "dateOfBirthStr": "1983-03-13T00:00Z",
+  "dateOfBirth": "1983-03-13T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "VV Morea",
+  "fieldingName": "Morea",
+  "country": 20,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/20"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/387435.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/20.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PNG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/20"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/387435/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/765549/events/791633"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/791625/events/791633"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/791627/events/791633"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/875585/events/875545"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/875571/events/875545"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/875401/events/875545"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870915/events/870879"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870857/events/870879"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/505978/events/505956"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/475041/events/505956"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/505979/events/505956"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/546494/events/546429"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/546478/events/546429"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/532912/events/546429"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/387435.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

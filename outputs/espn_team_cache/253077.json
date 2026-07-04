@@ -1,0 +1,55 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/253077",
+  "id": "253077",
+  "uid": "s:200~t:253077",
+  "location": "Australia",
+  "name": "Australia Centre of Excellence",
+  "nickname": "Australia Centre of Excellence",
+  "abbreviation": "ACOE",
+  "displayName": "Australia Centre of Excellence",
+  "shortDisplayName": "ACOE",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AU",
+  "slug": "australia-centre-of-excellence",
+  "classes": [
+    "14",
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2010-12-23T00:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8766/events/500178"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/253077/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/253077/australia-centre-of-excellence",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/253077/australia-centre-of-excellence",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/777389",
+  "id": "777389",
+  "uid": "s:200~t:777389",
+  "location": "India",
+  "name": "Hubli Tigers",
+  "nickname": "Hubli Tigers",
+  "abbreviation": "HUT",
+  "displayName": "Hubli Tigers",
+  "shortDisplayName": "HUT",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "hubli-tigers",
+  "classes": [
+    16
+  ],
+  "event": {
+    "date": "2026-07-03T13:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/22014/events/1542330"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/22014"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/777389.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/777389/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/777389/hubli-tigers",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/777389/hubli-tigers",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

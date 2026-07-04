@@ -1,0 +1,148 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1185557",
+  "id": "1185557",
+  "guid": "8aaacf77-8be9-d58e-231c-69a55b87cf96",
+  "uid": "s:200~a:1185557",
+  "type": "cricket",
+  "name": "Aakash Chand",
+  "firstName": "Aakash",
+  "middleName": "",
+  "lastName": "Chand",
+  "shortName": "",
+  "fullName": "Aakash Chand",
+  "displayName": "Aakash Chand",
+  "weight": 0,
+  "height": 0.0,
+  "age": 21,
+  "dateOfBirthStr": "2004-12-18T00:00Z",
+  "dateOfBirth": "2004-12-18T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Aakash Chand",
+  "fieldingName": "Aakash Chand",
+  "country": 33,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2320"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1147778"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1290551"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/33.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NEP",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/33"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1185557/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420215/events/1420221"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420216/events/1420221"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1423435/events/1423439"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1423436/events/1423439"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420215/events/1420221"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420216/events/1420221"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1423435/events/1423439"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1423436/events/1423439"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1413230/events/1399730"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1413239/events/1399730"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1399722/events/1399730"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1185557.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

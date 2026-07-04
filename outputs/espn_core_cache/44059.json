@@ -1,0 +1,124 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/44059",
+  "id": "44059",
+  "guid": "02a52192-078c-1846-4e47-ad9536549455",
+  "uid": "s:200~a:44059",
+  "type": "cricket",
+  "name": "Rolland Beaumont",
+  "firstName": "Rolland",
+  "middleName": "",
+  "lastName": "Beaumont",
+  "shortName": "Beaumont",
+  "fullName": "Rolland Beaumont",
+  "displayName": "Rolland Beaumont",
+  "weight": 0,
+  "height": 0,
+  "age": 74,
+  "dateOfBirthStr": "1884-02-04T00:00Z",
+  "dateOfBirth": "1884-02-04T00:00Z",
+  "dateOfDeathStr": "1958-05-25T00:00Z",
+  "dateOfDeath": "1958-05-25T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm bowler",
+      "shortDescription": "Rab",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm bowler",
+      "shortDescription": "Rab",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "R Beaumont",
+  "fieldingName": "Beaumont",
+  "country": 3,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3231"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/44059/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60296/events/62387"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60297/events/62387"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61337/events/62387"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61809/events/62387"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/44059.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

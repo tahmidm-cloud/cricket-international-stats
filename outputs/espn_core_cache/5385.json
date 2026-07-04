@@ -1,0 +1,148 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/5385",
+  "id": "5385",
+  "guid": "2df5eb8c-8b28-5b61-f8fd-1cd1bb2f0e3c",
+  "uid": "s:200~a:5385",
+  "type": "cricket",
+  "name": "Dave Gilbert",
+  "firstName": "Dave",
+  "middleName": "",
+  "lastName": "Gilbert",
+  "shortName": "Gilbert",
+  "fullName": "David Robert Gilbert",
+  "displayName": "Dave Gilbert",
+  "weight": 0,
+  "height": 0.0,
+  "age": 65,
+  "dateOfBirthStr": "1960-12-29T00:00Z",
+  "dateOfBirth": "1960-12-29T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "DR Gilbert",
+  "fieldingName": "Gilbert",
+  "country": 2,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1034"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/387"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/560"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/5385/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61363/events/63408"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60527/events/63408"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1538288/events/1538297"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1538289/events/1538297"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62087/events/65391"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60857/events/65391"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1426544/events/1426549"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1426545/events/1426549"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1488306/events/1488326"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1488308/events/1488326"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/5385.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

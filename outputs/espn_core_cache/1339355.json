@@ -1,0 +1,132 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1339355",
+  "id": "1339355",
+  "guid": "ccbf5e4c-a462-3d3b-acda-e054ee1426bb",
+  "uid": "s:200~a:1339355",
+  "type": "cricket",
+  "name": "Azan Awais",
+  "firstName": "Azan",
+  "middleName": "",
+  "lastName": "Awais",
+  "shortName": "Azan Awais",
+  "fullName": "Azan Awais",
+  "displayName": "Azan Awais",
+  "weight": 0,
+  "height": 0.0,
+  "age": 21,
+  "dateOfBirthStr": "2004-10-10T00:00Z",
+  "dateOfBirth": "2004-10-10T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "Azan Awais",
+  "fieldingName": "Azan Awais",
+  "country": 7,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1339055"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2964"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/7.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAK",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1339355/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1472510/events/1532486"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1532478/events/1532486"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1532479/events/1532486"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1457166/events/1457173"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1450245/events/1450267"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1372071/events/1372078"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1372069/events/1372078"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1372069/events/1372079"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1372074/events/1372079"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1339355.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

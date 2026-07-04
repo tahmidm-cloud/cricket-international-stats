@@ -1,0 +1,124 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/30135",
+  "id": "30135",
+  "guid": "72d16893-a555-3280-d9c6-37522cae4474",
+  "uid": "s:200~a:30135",
+  "type": "cricket",
+  "name": "Pochiah Krishnamurthy",
+  "firstName": "Pochiah",
+  "middleName": "",
+  "lastName": "Krishnamurthy",
+  "shortName": "",
+  "fullName": "Pochiah Krishnamurthy",
+  "displayName": "Pochiah Krishnamurthy",
+  "weight": 0,
+  "height": 0,
+  "age": 51,
+  "dateOfBirthStr": "1947-07-12T00:00Z",
+  "dateOfBirth": "1947-07-12T00:00Z",
+  "dateOfDeathStr": "1999-01-28T00:00Z",
+  "dateOfDeath": "1999-01-28T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "P Krishnamurthy",
+  "fieldingName": "Krishnamurthy",
+  "country": 6,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1764"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/30135/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60434/events/63066"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62312/events/63066"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60795/events/64157"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62323/events/64157"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/30135.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/42814",
+  "id": "42814",
+  "guid": "b128d299-4dfa-6aae-764a-eb08c012c2af",
+  "uid": "s:200~a:42814",
+  "type": "cricket",
+  "name": "Shakeel Ansar",
+  "firstName": "Shakeel",
+  "middleName": "",
+  "lastName": "Ansar",
+  "shortName": "Ansar",
+  "fullName": "Shakeel Ansar",
+  "displayName": "Shakeel Ansar",
+  "weight": 0,
+  "height": 0.0,
+  "age": 47,
+  "dateOfBirthStr": "1978-11-11T00:00Z",
+  "dateOfBirth": "1978-11-11T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "Shakeel Ansar",
+  "fieldingName": "Shakeel Ansar",
+  "country": 7,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2731"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1117814"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2675"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3090"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3095"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3095"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3088"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3138"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/7.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAK",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/42814/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/562387/events/562437"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/562333/events/562437"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/369896/events/369900"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327070/events/327071"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327068/events/327071"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327068/events/327077"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327069/events/327077"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/42814.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

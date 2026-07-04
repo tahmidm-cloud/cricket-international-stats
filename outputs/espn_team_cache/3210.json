@@ -1,0 +1,49 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3210",
+  "id": "3210",
+  "uid": "s:200~t:3210",
+  "location": "South Africa",
+  "name": "Eastern Province B",
+  "nickname": "Eastern Province B",
+  "abbreviation": "",
+  "displayName": "Eastern Province B",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZA",
+  "slug": "eastern-province-b",
+  "classes": [
+    "4"
+  ],
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3210/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3210/eastern-province-b",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3210/eastern-province-b",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

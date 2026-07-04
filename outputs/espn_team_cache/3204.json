@@ -1,0 +1,55 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3204",
+  "id": "3204",
+  "uid": "s:200~t:3204",
+  "location": "South Africa",
+  "name": "Easterns Under-19s",
+  "nickname": "Easterns Under-19s",
+  "abbreviation": "Eas19",
+  "displayName": "Easterns Under-19s",
+  "shortDisplayName": "Eas19",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZA",
+  "slug": "easterns-under-19s",
+  "classes": [
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2016-12-20T07:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8712/events/1072857"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3204/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3204/easterns-under-19s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3204/easterns-under-19s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

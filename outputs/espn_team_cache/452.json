@@ -1,0 +1,65 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/452",
+  "id": "452",
+  "uid": "s:200~t:452",
+  "location": "Australia",
+  "name": "Prime Minister's XI",
+  "nickname": "Prime Minister's XI",
+  "abbreviation": "PM-XI",
+  "displayName": "Prime Minister's XI",
+  "shortDisplayName": "PM-XI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AU",
+  "slug": "prime-ministers-xi",
+  "classes": [
+    4,
+    6,
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2025-11-29T03:40Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/22976/events/1510919"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/452.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/452/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/452/prime-ministers-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/452/prime-ministers-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/946483",
+  "id": "946483",
+  "guid": "a03c8a58-2db5-58e2-e19d-81885bb75454",
+  "uid": "s:200~a:946483",
+  "type": "cricket",
+  "name": "Nqabayomzi Peter",
+  "firstName": "Nqabayomzi",
+  "middleName": "",
+  "lastName": "Peter",
+  "shortName": "Peter",
+  "fullName": "Nqabayomzi Peter",
+  "displayName": "Nqabayomzi Peter",
+  "weight": 0,
+  "height": 0.0,
+  "age": 24,
+  "dateOfBirthStr": "2001-12-09T00:00Z",
+  "dateOfBirth": "2001-12-09T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "N Peter",
+  "fieldingName": "Peter",
+  "country": 3,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/485972"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1335274"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/946483/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1445814/events/1445819"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1445815/events/1445819"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1445816/events/1445819"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1433350/events/1433363"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1433351/events/1433363"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1444755/events/1444897"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1394544/events/1394685"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1277887/events/1277952"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/946483.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

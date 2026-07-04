@@ -1,0 +1,114 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/18619",
+  "id": "18619",
+  "guid": "26a78c80-b9e0-3fa3-74bc-e09f85566bff",
+  "uid": "s:200~a:18619",
+  "type": "cricket",
+  "name": "Fred Price",
+  "firstName": "Fred",
+  "middleName": "",
+  "lastName": "Price",
+  "shortName": "Price",
+  "fullName": "Wilfred Frederick Frank Price",
+  "displayName": "Fred Price",
+  "weight": 0,
+  "height": 0.0,
+  "age": 66,
+  "dateOfBirthStr": "1902-04-25T00:00Z",
+  "dateOfBirth": "1902-04-25T00:00Z",
+  "dateOfDeathStr": "1969-01-13T00:00Z",
+  "dateOfDeath": "1969-01-13T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "WFF Price",
+  "fieldingName": "Price",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1190"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/18619/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60332/events/62651"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61342/events/62651"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60402/events/62949"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61332/events/62949"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/18619.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

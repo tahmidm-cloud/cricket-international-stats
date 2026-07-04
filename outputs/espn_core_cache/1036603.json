@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1036603",
+  "id": "1036603",
+  "guid": "48fe0522-d938-06f1-1d97-1aa904d4263d",
+  "uid": "s:200~a:1036603",
+  "type": "cricket",
+  "name": "Saud Munir",
+  "firstName": "Saud",
+  "middleName": "",
+  "lastName": "Munir ",
+  "shortName": "Saud",
+  "fullName": "Saud Munir ",
+  "displayName": "Saud Munir",
+  "weight": 0,
+  "height": 0.0,
+  "age": 27,
+  "dateOfBirthStr": "1998-12-11T00:00Z",
+  "dateOfBirth": "1998-12-11T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Saud Munir",
+  "fieldingName": "Saud Munir",
+  "country": 13,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/13"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/773"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/985"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/1036603.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/13.png",
+    "width": 500,
+    "height": 500,
+    "alt": "DEN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/13"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1036603/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1320964/events/1320980"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1320959/events/1320980"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1200432/events/1326337"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1326332/events/1326337"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1320959/events/1320980"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1320964/events/1320980"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1036603.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

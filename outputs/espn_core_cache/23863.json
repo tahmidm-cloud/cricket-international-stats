@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/23863",
+  "id": "23863",
+  "guid": "55211663-c291-8691-8180-43defa64f0ee",
+  "uid": "s:200~a:23863",
+  "type": "cricket",
+  "name": "Haninder Dhillon",
+  "firstName": "Haninder",
+  "middleName": "",
+  "lastName": "Dhillon",
+  "shortName": "Dhillon",
+  "fullName": "Haninder Singh Dhillon",
+  "displayName": "Haninder Dhillon",
+  "weight": 0,
+  "height": 0.0,
+  "age": 49,
+  "dateOfBirthStr": "1976-10-27T00:00Z",
+  "dateOfBirth": "1976-10-27T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm slow",
+      "shortDescription": "Rs",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm slow",
+      "shortDescription": "Rs",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "HS Dhillon",
+  "fieldingName": "Dhillon",
+  "country": 17,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/17.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/17"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/23863/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/219427/events/247359"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/244203/events/247359"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/250632/events/247359"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/305739/events/141278"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/134115/events/141278"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/143738/events/212611"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/266297/events/212611"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/266298/events/212611"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/23863.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/633410",
+  "id": "633410",
+  "guid": "43b0cdfa-63db-7f19-374a-e14eb9e159fd",
+  "uid": "s:200~a:633410",
+  "type": "cricket",
+  "name": "Simandeep Singh",
+  "firstName": "Simandeep",
+  "middleName": "",
+  "lastName": "Singh",
+  "shortName": "",
+  "fullName": "Simandeep Pansotra Singh",
+  "displayName": "Simandeep Singh",
+  "weight": 0,
+  "height": 0.0,
+  "age": 31,
+  "dateOfBirthStr": "1995-06-20T00:00Z",
+  "dateOfBirth": "1995-06-20T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "Simandeep Singh",
+  "fieldingName": "Simandeep Singh",
+  "country": 19,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/19"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1518"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1004759"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1521"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/633410.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/19.png",
+    "width": 500,
+    "height": 500,
+    "alt": "HKG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/19"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/633410/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1132997/events/1133023"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1134532/events/1133023"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1134538/events/1133023"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1199477/events/1199500"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1199473/events/1199500"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1199476/events/1199500"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1134538/events/1133016"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1132997/events/1133016"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1136875/events/1133016"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1199473/events/1199500"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1199476/events/1199500"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1199477/events/1199500"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/633410.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1078695",
+  "id": "1078695",
+  "guid": "3013cd4a-a7e1-050f-e8a1-ce12d84cc247",
+  "uid": "s:200~a:1078695",
+  "type": "cricket",
+  "name": "Mikyle Louis",
+  "firstName": "Mikyle",
+  "middleName": "",
+  "lastName": "Louis",
+  "shortName": "Louis",
+  "fullName": "Mikyle Louis",
+  "displayName": "Mikyle Louis",
+  "weight": 0,
+  "height": 0.0,
+  "age": 25,
+  "dateOfBirthStr": "2000-08-19T00:00Z",
+  "dateOfBirth": "2000-08-19T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "M Louis",
+  "fieldingName": "Louis",
+  "country": 4,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/775421"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/857687"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3812"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1078695/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1345943/events/1385691"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1385669/events/1385691"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1385670/events/1385691"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1419858/events/1419861"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1078120/events/1078134"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1428674/events/1428680"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1108505/events/1108515"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1108506/events/1108515"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1078695.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

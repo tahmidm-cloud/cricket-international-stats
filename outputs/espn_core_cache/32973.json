@@ -1,0 +1,157 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/32973",
+  "id": "32973",
+  "guid": "f7b549cd-212c-e538-3c74-b44746d872f8",
+  "uid": "s:200~a:32973",
+  "type": "cricket",
+  "name": "Pankaj Singh",
+  "firstName": "Pankaj",
+  "middleName": "",
+  "lastName": "Singh",
+  "shortName": "Pankaj",
+  "fullName": "Pankaj Singh",
+  "displayName": "Pankaj Singh",
+  "weight": 0,
+  "height": 0.0,
+  "age": 41,
+  "dateOfBirthStr": "1985-05-06T00:00Z",
+  "dateOfBirth": "1985-05-06T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "Pankaj Singh",
+  "fieldingName": "Pankaj Singh",
+  "country": 6,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1632"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/260635"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1334537"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1156782"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2037"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/241522"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335977"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335970"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/32973/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/667697/events/667715"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/667693/events/667715"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/452140/events/452150"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/452142/events/452150"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/452144/events/452150"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/135657/events/411375"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/236756/events/265223"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/290517/events/290532"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/32973.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

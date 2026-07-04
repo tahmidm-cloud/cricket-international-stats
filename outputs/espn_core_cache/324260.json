@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/324260",
+  "id": "324260",
+  "guid": "1a2f2b57-bdb0-f0ac-e216-96faeec71408",
+  "uid": "s:200~a:324260",
+  "type": "cricket",
+  "name": "Sarel Erwee",
+  "firstName": "Sarel",
+  "middleName": "",
+  "lastName": "Erwee",
+  "shortName": "Erwee",
+  "fullName": "Sarel Johannes Erwee",
+  "displayName": "Sarel Erwee",
+  "weight": 0,
+  "height": 0.0,
+  "age": 36,
+  "dateOfBirthStr": "1989-11-10T00:00Z",
+  "dateOfBirth": "1989-11-10T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "SJ Erwee",
+  "fieldingName": "Erwee",
+  "country": 3,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3199"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/256900"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/321754"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1335273"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/324260.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/324260/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1268315/events/1288981"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1288965/events/1288981"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1288966/events/1288981"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/359845/events/359951"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/298955/events/299172"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/528285/events/529839"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/324260.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

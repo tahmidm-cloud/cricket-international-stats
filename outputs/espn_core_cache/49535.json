@@ -1,0 +1,160 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/49535",
+  "id": "49535",
+  "guid": "b8050302-7250-7f80-0fcd-442e6e13f1c5",
+  "uid": "s:200~a:49535",
+  "type": "cricket",
+  "name": "Nuwan Kulasekara",
+  "firstName": "Nuwan",
+  "middleName": "",
+  "lastName": "Kulasekara",
+  "shortName": "Kulasekara",
+  "fullName": "Kulasekara Mudiyanselage Dinesh Nuwan Kulasekara",
+  "displayName": "Nuwan Kulasekara",
+  "weight": 0,
+  "height": 0.0,
+  "age": 43,
+  "dateOfBirthStr": "1982-07-22T00:00Z",
+  "dateOfBirth": "1982-07-22T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "KMDN Kulasekara",
+  "fieldingName": "Kulasekara",
+  "country": 8,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/49536"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/325784"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335974"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3507"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/523350"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3521"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/659495"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1392083"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1371"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/49535.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/8.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/49535/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61619/events/64133"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60782/events/64133"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61137/events/64846"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61785/events/64846"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/361649/events/361656"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/361648/events/361656"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/361644/events/361656"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/304926/events/304932"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/49535.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

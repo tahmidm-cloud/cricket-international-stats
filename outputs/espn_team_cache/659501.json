@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/659501",
+  "id": "659501",
+  "uid": "s:200~t:659501",
+  "location": "Sri Lanka",
+  "name": "Ruhuna Reds",
+  "nickname": "Ruhuna Reds",
+  "abbreviation": "RuhRd",
+  "displayName": "Ruhuna Reds",
+  "shortDisplayName": "RuhRd",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "ruhuna-reds",
+  "classes": [
+    6
+  ],
+  "event": {
+    "date": "2013-08-14T04:15Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8673/events/659511"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/659501/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/659501/ruhuna-reds",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/659501/ruhuna-reds",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

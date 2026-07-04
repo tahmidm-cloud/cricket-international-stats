@@ -1,0 +1,65 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1147778",
+  "id": "1147778",
+  "uid": "s:200~t:1147778",
+  "location": "Nepal",
+  "name": "Sudur Paschim Province",
+  "nickname": "Sudur Paschim Province",
+  "abbreviation": "SPP",
+  "displayName": "Sudur Paschim Province",
+  "shortDisplayName": "SPP",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "NP",
+  "slug": "sudur-paschim-province",
+  "classes": [
+    15,
+    16
+  ],
+  "event": {
+    "date": "2026-04-17T03:45Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/11132/events/1527976"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/11132"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1147778.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1147778/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1147778/sudur-paschim-province",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1147778/sudur-paschim-province",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

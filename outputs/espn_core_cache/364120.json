@@ -1,0 +1,111 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/364120",
+  "id": "364120",
+  "guid": "cd49c564-623b-1087-dc83-e7b3ccf4bbb9",
+  "uid": "s:200~a:364120",
+  "type": "cricket",
+  "name": "Turan Brown",
+  "firstName": "Turan",
+  "middleName": "",
+  "lastName": "Brown",
+  "shortName": "Brown",
+  "fullName": "Turan Brown",
+  "displayName": "Turan Brown",
+  "weight": 0,
+  "height": 0.0,
+  "age": 31,
+  "dateOfBirthStr": "1994-08-30T00:00Z",
+  "dateOfBirth": "1994-08-30T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [],
+  "styles": [],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "T Brown",
+  "fieldingName": "Brown",
+  "country": 60,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/60"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/363919"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/304300"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/60.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BHM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/60"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/364120/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1359781/events/1359792"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1359783/events/1359792"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1359778/events/1359792"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1359778/events/1359792"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1359781/events/1359792"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1359783/events/1359792"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/364120.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

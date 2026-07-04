@@ -1,0 +1,142 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/232356",
+  "id": "232356",
+  "guid": "0c23a66b-c381-2dad-103d-8dec312eae4c",
+  "uid": "s:200~a:232356",
+  "type": "cricket",
+  "name": "Ronnie Hira",
+  "firstName": "Ronnie",
+  "middleName": "",
+  "lastName": "Hira",
+  "shortName": "Hira",
+  "fullName": "Roneel Magan Hira",
+  "displayName": "Ronnie Hira",
+  "weight": 0,
+  "height": 0.0,
+  "age": 39,
+  "dateOfBirthStr": "1987-01-23T00:00Z",
+  "dateOfBirth": "1987-01-23T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "RM Hira",
+  "fieldingName": "Hira",
+  "country": 5,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2459"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2540"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2560"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/232356/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/520581/events/520595"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/520584/events/520595"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/254418/events/254473"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/254419/events/254497"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/254417/events/254456"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/309659/events/235845"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/309660/events/235845"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/223559/events/235845"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/232356.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

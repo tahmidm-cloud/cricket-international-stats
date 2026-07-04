@@ -1,0 +1,130 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1196500",
+  "id": "1196500",
+  "guid": "",
+  "uid": "s:200~a:1196500",
+  "type": "cricket",
+  "name": "Zawar Farid",
+  "firstName": "Zawar",
+  "middleName": "",
+  "lastName": "Farid",
+  "shortName": "",
+  "fullName": "Zawar Farid",
+  "displayName": "Zawar Farid",
+  "weight": 0,
+  "height": 0.0,
+  "age": 33,
+  "dateOfBirthStr": "1992-07-25T00:00Z",
+  "dateOfBirth": "1992-07-25T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "Zawar Farid",
+  "fieldingName": "Zawar Farid",
+  "country": 984779,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1346027"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1501376"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/1196500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {},
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/984779"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1196500/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1196667/events/1211169"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1215150/events/1211169"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1191002/events/1191007"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1191001/events/1191007"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1196667/events/1211169"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1215150/events/1211169"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1191001/events/1191007"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1191002/events/1191007"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1196500.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

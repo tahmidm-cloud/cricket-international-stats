@@ -1,0 +1,58 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1035",
+  "id": "1035",
+  "uid": "s:200~t:1035",
+  "location": "England",
+  "name": "Gloucestershire 2nd XI",
+  "nickname": "Gloucestershire 2nd XI",
+  "abbreviation": "GL2XI",
+  "displayName": "Gloucestershire 2nd XI",
+  "shortDisplayName": "GL2XI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "gloucestershire-2nd-xi",
+  "classes": [
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2026-06-29T12:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8861/events/1534508"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8861"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1035/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1035/gloucestershire-2nd-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1035/gloucestershire-2nd-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

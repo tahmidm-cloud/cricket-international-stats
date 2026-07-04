@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/36837",
+  "id": "36837",
+  "guid": "b544bcd4-44c9-e94c-e8a8-a34b85bc1a77",
+  "uid": "s:200~a:36837",
+  "type": "cricket",
+  "name": "Graham Dowling",
+  "firstName": "Graham",
+  "middleName": "",
+  "lastName": "Dowling",
+  "shortName": "Dowling",
+  "fullName": "Graham Thorne Dowling",
+  "displayName": "Graham Dowling",
+  "weight": 0,
+  "height": 0.0,
+  "age": 89,
+  "dateOfBirthStr": "1937-03-04T00:00Z",
+  "dateOfBirth": "1937-03-04T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "GT Dowling",
+  "fieldingName": "Dowling",
+  "country": 5,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2469"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/36837/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62096/events/62907"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60393/events/62907"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60627/events/63706"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61609/events/63706"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60978/events/65527"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61609/events/65527"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61909/events/65527"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/36837.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

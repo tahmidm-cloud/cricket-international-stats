@@ -1,0 +1,81 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/520",
+  "id": "520",
+  "uid": "s:200~t:520",
+  "location": "Australia",
+  "name": "South Australia",
+  "nickname": "South Australia",
+  "abbreviation": "SOA",
+  "displayName": "South Australia",
+  "shortDisplayName": "SOA",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AU",
+  "slug": "south-australia",
+  "classes": [
+    4,
+    5,
+    6,
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2026-03-25T23:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8043/events/1495309"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8043"
+  },
+  "color": "#f70808",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/520.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/520/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/520/south-australia",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/520/south-australia",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "videos",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/current/video_audio/index.html?object=520",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/23700",
+  "id": "23700",
+  "guid": "c0c15818-9cd0-a0d4-6777-02a01bea3e17",
+  "uid": "s:200~a:23700",
+  "type": "cricket",
+  "name": "Chris Foggo",
+  "firstName": "Chris",
+  "middleName": "",
+  "lastName": "Foggo",
+  "shortName": "Foggo",
+  "fullName": "Christopher Ray Foggo",
+  "displayName": "Chris Foggo",
+  "weight": 0,
+  "height": 0.0,
+  "age": 44,
+  "dateOfBirthStr": "1982-05-07T00:00Z",
+  "dateOfBirth": "1982-05-07T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT",
+    "id": "BT",
+    "name": "Batter",
+    "abbreviation": "BT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT"
+    }
+  },
+  "battingName": "CR Foggo",
+  "fieldingName": "Foggo",
+  "country": 12,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/12"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/174"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/12.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BER",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/12"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/23700/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325535/events/325568"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325536/events/325568"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325550/events/354456"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/353665/events/354456"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/354451/events/354456"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/143791/events/216946"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/305763/events/216946"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/266296/events/212620"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/266307/events/212620"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/143738/events/212620"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325550/events/354456"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/353665/events/354456"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/354451/events/354456"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/79009/events/329856"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/83729/events/329856"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/329722/events/329856"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/23700.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

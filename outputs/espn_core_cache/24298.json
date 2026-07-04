@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24298",
+  "id": "24298",
+  "guid": "c8e72486-0f26-f4d1-d48a-d601c2b006a5",
+  "uid": "s:200~a:24298",
+  "type": "cricket",
+  "name": "Ryan Haire",
+  "firstName": "Ryan",
+  "middleName": "",
+  "lastName": "Haire",
+  "shortName": "Haire",
+  "fullName": "Ryan Samuel Haire",
+  "displayName": "Ryan Haire",
+  "weight": 0,
+  "height": 0.0,
+  "age": 45,
+  "dateOfBirthStr": "1981-05-01T00:00Z",
+  "dateOfBirth": "1981-05-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT",
+    "id": "BT",
+    "name": "Batter",
+    "abbreviation": "BT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT"
+    }
+  },
+  "battingName": "RS Haire",
+  "fieldingName": "Haire",
+  "country": 29,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/29"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/29.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IRE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/29"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24298/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325539/events/325554"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325540/events/325554"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/296889/events/325554"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/296889/events/325554"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325539/events/325554"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325540/events/325554"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/79009/events/329858"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/329749/events/329858"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/24298.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

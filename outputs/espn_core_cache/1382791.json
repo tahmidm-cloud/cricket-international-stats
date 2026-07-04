@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1382791",
+  "id": "1382791",
+  "guid": "204eaf62-30b5-37e9-96a9-60bc1e03ee43",
+  "uid": "s:200~a:1382791",
+  "type": "cricket",
+  "name": "Muhammet Kursat",
+  "firstName": "Muhammet",
+  "middleName": "",
+  "lastName": "Kursat",
+  "shortName": "",
+  "fullName": "Muhammet Kursat Canbaz",
+  "displayName": "Muhammet Kursat",
+  "weight": 0,
+  "height": 0.0,
+  "age": 19,
+  "dateOfBirthStr": "2007-01-18T00:00Z",
+  "dateOfBirth": "2007-01-18T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Muhammet Kursat",
+  "fieldingName": "Muhammet Kursat",
+  "country": 158,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/158"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/158.png",
+    "width": 500,
+    "height": 500,
+    "alt": "TKY",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/158"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1382791/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1381445/events/1381453"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1381446/events/1381453"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1381444/events/1381453"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1381444/events/1381453"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1381445/events/1381453"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1381446/events/1381453"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1382791.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

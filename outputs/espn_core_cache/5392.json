@@ -1,0 +1,157 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/5392",
+  "id": "5392",
+  "guid": "f335cf0f-616d-04bf-406d-56114940b14c",
+  "uid": "s:200~a:5392",
+  "type": "cricket",
+  "name": "Jason Gillespie",
+  "firstName": "Jason",
+  "middleName": "",
+  "lastName": "Gillespie",
+  "shortName": "Gillespie",
+  "fullName": "Jason Neil Gillespie",
+  "displayName": "Jason Gillespie",
+  "weight": 0,
+  "height": 1.95,
+  "age": 51,
+  "dateOfBirthStr": "1975-04-19T00:00Z",
+  "dateOfBirth": "1975-04-19T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "JN Gillespie",
+  "fieldingName": "Gillespie",
+  "country": 2,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/340366"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1029"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/520"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1464"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/5392/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61894/events/63730"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60637/events/63730"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60987/events/65983"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61417/events/65983"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/238219/events/211028"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/139019/events/211028"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/238219/events/211028"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/139019/events/211028"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326653/events/326656"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326655/events/326656"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326653/events/326659"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326654/events/326659"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/5392.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/26853",
+  "id": "26853",
+  "guid": "894987d9-dc77-8484-7175-2db03b247cd0",
+  "uid": "s:200~a:26853",
+  "type": "cricket",
+  "name": "Subroto Banerjee",
+  "firstName": "Subroto",
+  "middleName": "",
+  "lastName": "Banerjee",
+  "shortName": "Banerjee",
+  "fullName": "Subroto Tara Banerjee",
+  "displayName": "Subroto Banerjee",
+  "weight": 0,
+  "height": 0.0,
+  "age": 57,
+  "dateOfBirthStr": "1969-02-13T00:00Z",
+  "dateOfBirth": "1969-02-13T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "ST Banerjee",
+  "fieldingName": "Banerjee",
+  "country": 6,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/27347"
+      },
+      "relation": "Father"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1572"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1690"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1803"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1803"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1786"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2059"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2202"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/26853/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62295/events/63565"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60577/events/63565"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62295/events/65479"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61898/events/65479"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60921/events/65479"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325313/events/325316"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325315/events/325316"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325314/events/325319"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325313/events/325319"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/26853.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

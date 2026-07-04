@@ -1,0 +1,65 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1197532",
+  "id": "1197532",
+  "uid": "s:200~t:1197532",
+  "location": "Hong Kong",
+  "name": "United Services Recreation Club",
+  "nickname": "United Services Recreation Club",
+  "abbreviation": "USRC",
+  "displayName": "United Services Recreation Club",
+  "shortDisplayName": "USRC",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "HK",
+  "slug": "united-services-recreation-club",
+  "classes": [
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2026-03-08T05:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19481/events/1521656"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19481"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1197532.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1197532/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1197532/united-services-recreation-club",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1197532/united-services-recreation-club",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

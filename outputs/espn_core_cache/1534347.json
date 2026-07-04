@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1534347",
+  "id": "1534347",
+  "guid": "2a89f850-7e1f-3582-a388-ce26fdcc7c00",
+  "uid": "s:200~a:1534347",
+  "type": "cricket",
+  "name": "Viliame Waqavakatoga",
+  "firstName": "Viliame",
+  "middleName": "",
+  "lastName": "Waqavakatoga",
+  "shortName": "",
+  "fullName": "Viliame Matai Waqavakatoga",
+  "displayName": "Viliame Waqavakatoga",
+  "weight": 0,
+  "height": 0,
+  "age": 20,
+  "dateOfBirthStr": "2006-01-08T00:00Z",
+  "dateOfBirth": "2006-01-08T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "VM Waqavakatoga",
+  "fieldingName": "Waqavakatoga",
+  "country": 10,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/10"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/10.png",
+    "width": 500,
+    "height": 500,
+    "alt": "Fiji",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/10"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1534347/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1532631/events/1532638"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1532632/events/1532638"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1532628/events/1532638"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1532628/events/1532638"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1532631/events/1532638"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1532632/events/1532638"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1534347.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

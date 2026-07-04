@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/395057",
+  "id": "395057",
+  "guid": "1416fcad-7087-4d0a-7d57-e4a37dafc7e0",
+  "uid": "s:200~a:395057",
+  "type": "cricket",
+  "name": "Seth Rance",
+  "firstName": "Seth",
+  "middleName": "",
+  "lastName": "Rance",
+  "shortName": "Rance",
+  "fullName": "Seth Hayden Arnold Rance",
+  "displayName": "Seth Rance",
+  "weight": 0,
+  "height": 0.0,
+  "age": 38,
+  "dateOfBirthStr": "1987-08-23T00:00Z",
+  "dateOfBirth": "1987-08-23T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "SHA Rance",
+  "fieldingName": "Rance",
+  "country": 5,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2482"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2483"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/388449"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/395057/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1033359/events/1033363"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1096994/events/1033363"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1115788/events/1115798"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1115785/events/1115798"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/369188/events/371869"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/428881/events/428920"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/424919/events/424936"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/395057.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

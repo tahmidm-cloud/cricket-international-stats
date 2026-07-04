@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1208515",
+  "id": "1208515",
+  "uid": "s:200~t:1208515",
+  "location": "Qatar",
+  "name": "Falcon Hunters",
+  "nickname": "Falcon Hunters",
+  "abbreviation": "FH",
+  "displayName": "Falcon Hunters",
+  "shortDisplayName": "FH",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "QA",
+  "slug": "falcon-hunters",
+  "classes": [
+    15
+  ],
+  "event": {
+    "date": "2019-12-16T16:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19674/events/1208561"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1208515/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1208515/falcon-hunters",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1208515/falcon-hunters",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

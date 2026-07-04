@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/218209",
+  "id": "218209",
+  "uid": "s:200~t:218209",
+  "location": "Zambia",
+  "name": "Zambia Under-19s",
+  "nickname": "Zambia Under-19s",
+  "abbreviation": "Zam19",
+  "displayName": "Zambia Under-19s",
+  "shortDisplayName": "Zam19",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZM",
+  "slug": "zambia-under-19s",
+  "classes": [
+    "15"
+  ],
+  "event": {
+    "date": "2013-05-30T07:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/17911/events/637055"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/218209.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/218209/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/218209/zambia-under-19s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/218209/zambia-under-19s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

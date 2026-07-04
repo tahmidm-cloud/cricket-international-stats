@@ -1,0 +1,149 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/31813",
+  "id": "31813",
+  "guid": "fd4adf07-7b90-fc59-f90d-f62fe4673a1e",
+  "uid": "s:200~a:31813",
+  "type": "cricket",
+  "name": "C.S. Nayudu",
+  "firstName": "C.S.",
+  "middleName": "",
+  "lastName": "Nayudu",
+  "shortName": "Nayudu",
+  "fullName": "Cottari Subbanna Nayudu",
+  "displayName": "C.S. Nayudu",
+  "weight": 0,
+  "height": 0.0,
+  "age": 88,
+  "dateOfBirthStr": "1914-04-18T00:00Z",
+  "dateOfBirth": "1914-04-18T00:00Z",
+  "dateOfDeathStr": "2002-11-22T00:00Z",
+  "dateOfDeath": "2002-11-22T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "CS Nayudu",
+  "fieldingName": "Nayudu",
+  "country": 6,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/31811"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1541"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1559"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1572"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1650"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1659"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1747"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1751"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1941"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2161"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/31813/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60324/events/62617"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61789/events/62617"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/31813.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

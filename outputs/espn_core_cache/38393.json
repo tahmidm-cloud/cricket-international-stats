@@ -1,0 +1,148 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38393",
+  "id": "38393",
+  "guid": "ebd7dfd2-3ba1-d095-197e-f8b0390c42d1",
+  "uid": "s:200~a:38393",
+  "type": "cricket",
+  "name": "Mathew Sinclair",
+  "firstName": "Mathew",
+  "middleName": "",
+  "lastName": "Sinclair",
+  "shortName": "Sinclair",
+  "fullName": "Mathew Stuart Sinclair",
+  "displayName": "Mathew Sinclair",
+  "weight": 0,
+  "height": 0.0,
+  "age": 50,
+  "dateOfBirthStr": "1975-11-09T00:00Z",
+  "dateOfBirth": "1975-11-09T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "MS Sinclair",
+  "fieldingName": "Sinclair",
+  "country": 5,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2482"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38393/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61924/events/63869"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60683/events/63869"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61404/events/64654"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61062/events/64654"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61407/events/211048"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/238218/events/211048"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/238218/events/211048"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61407/events/211048"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326935/events/326937"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326934/events/326937"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326934/events/326940"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326936/events/326940"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/38393.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

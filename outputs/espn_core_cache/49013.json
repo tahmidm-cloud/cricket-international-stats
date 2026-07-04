@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/49013",
+  "id": "49013",
+  "guid": "b9fee43c-a05c-680a-c96f-f66d0e2105bc",
+  "uid": "s:200~a:49013",
+  "type": "cricket",
+  "name": "Manjula Guruge",
+  "firstName": "Manjula",
+  "middleName": "",
+  "lastName": "Guruge",
+  "shortName": "Guruge",
+  "fullName": "Asanka Manjula Guruge",
+  "displayName": "Manjula Guruge",
+  "weight": 0,
+  "height": 0.0,
+  "age": 45,
+  "dateOfBirthStr": "1981-02-14T00:00Z",
+  "dateOfBirth": "1981-02-14T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm fast-medium",
+      "shortDescription": "Lfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm fast-medium",
+      "shortDescription": "Lfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "AM Guruge",
+  "fieldingName": "Guruge",
+  "country": 27,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3588"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/49013.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/27.png",
+    "width": 500,
+    "height": 500,
+    "alt": "UAE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/49013/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/696917/events/696763"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/696903/events/696763"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/681019/events/696763"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/696661/events/682903"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/696649/events/682903"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/628368/events/682903"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/660011/events/660095"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/660301/events/660095"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/49013.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

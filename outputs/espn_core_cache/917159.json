@@ -1,0 +1,166 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/917159",
+  "id": "917159",
+  "guid": "8bb3d8af-ea8d-877d-9236-4447249fb0d8",
+  "uid": "s:200~a:917159",
+  "type": "cricket",
+  "name": "Prasidh Krishna",
+  "firstName": "Prasidh",
+  "middleName": "",
+  "lastName": "Krishna",
+  "shortName": "Prasidh",
+  "fullName": "Muralikrishna Prasidh Krishna",
+  "displayName": "Prasidh Krishna",
+  "weight": 0,
+  "height": 0.0,
+  "age": 30,
+  "dateOfBirthStr": "1996-02-19T00:00Z",
+  "dateOfBirth": "1996-02-19T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "M Prasidh Krishna",
+  "fieldingName": "Prasidh Krishna",
+  "country": 6,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/777393"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1298769"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1781"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1872"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335971"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/777391"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335977"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2059"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/917159.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/917159/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1345943/events/1387603"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1387592/events/1387603"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1387596/events/1387603"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1227837/events/1243393"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1243364/events/1243393"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1243370/events/1243393"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1384631/events/1384634"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1384632/events/1384634"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/918003/events/918031"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1053437/events/1053725"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1130660/events/1133401"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/917159.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

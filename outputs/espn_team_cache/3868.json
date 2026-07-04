@@ -1,0 +1,66 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3868",
+  "id": "3868",
+  "uid": "s:200~t:3868",
+  "location": "Zimbabwe",
+  "name": "Zimbabwe Select XI",
+  "nickname": "Zimbabwe Select XI",
+  "abbreviation": "ZimSL",
+  "displayName": "Zimbabwe Select XI",
+  "shortDisplayName": "ZimSL",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZW",
+  "slug": "zimbabwe-select-xi",
+  "classes": [
+    4,
+    5,
+    6,
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2022-06-02T07:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20680/events/1317891"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3868.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3868/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3868/zimbabwe-select-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3868/zimbabwe-select-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

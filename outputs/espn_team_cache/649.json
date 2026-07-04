@@ -1,0 +1,55 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/649",
+  "id": "649",
+  "uid": "s:200~t:649",
+  "location": "Australia",
+  "name": "Young Australia",
+  "nickname": "Young Australia",
+  "abbreviation": "",
+  "displayName": "Young Australia",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AU",
+  "slug": "young-australia",
+  "classes": [
+    "4",
+    "5",
+    "15"
+  ],
+  "event": {
+    "date": "1995-08-17T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/16269/events/575664"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/649/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/649/young-australia",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/649/young-australia",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

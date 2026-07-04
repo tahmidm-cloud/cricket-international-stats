@@ -1,0 +1,138 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1168667",
+  "id": "1168667",
+  "guid": "774c3eeb-ee2b-264c-0d6f-eac4799174b0",
+  "uid": "s:200~a:1168667",
+  "type": "cricket",
+  "name": "Joshua Da Silva",
+  "firstName": "Joshua",
+  "middleName": "",
+  "lastName": "Silva",
+  "shortName": "Da Silva",
+  "fullName": "Joshua Da Silva",
+  "displayName": "Joshua Da Silva",
+  "weight": 0,
+  "height": 0.0,
+  "age": 28,
+  "dateOfBirthStr": "1998-06-19T00:00Z",
+  "dateOfBirth": "1998-06-19T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "J Da Silva",
+  "fieldingName": "Da Silva",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/857687"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/642421"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3790"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1203621"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/1168667.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1168667/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1195334/events/1233958"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1233943/events/1233958"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1233945/events/1233958"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1227837/events/1244022"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1244017/events/1244022"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1244018/events/1244022"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1167366/events/1167371"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1203617/events/1203640"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1226319/events/1227866"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1168667.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

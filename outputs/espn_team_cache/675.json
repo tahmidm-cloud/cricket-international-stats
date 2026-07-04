@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/675",
+  "id": "675",
+  "uid": "s:200~t:675",
+  "location": "Bangladesh",
+  "name": "Biman Bangladesh",
+  "nickname": "Biman Bangladesh",
+  "abbreviation": "Biman",
+  "displayName": "Biman Bangladesh",
+  "shortDisplayName": "Biman",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "BD",
+  "slug": "biman-bangladesh",
+  "classes": [
+    4,
+    5
+  ],
+  "event": {
+    "date": "2010-12-30T03:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8738/events/494804"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/675/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/675/biman-bangladesh",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/675/biman-bangladesh",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

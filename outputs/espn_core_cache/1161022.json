@@ -1,0 +1,129 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1161022",
+  "id": "1161022",
+  "guid": "c1488167-97e6-6093-1003-81e4075a0092",
+  "uid": "s:200~a:1161022",
+  "type": "cricket",
+  "name": "Sundeep Jora",
+  "firstName": "Sundeep",
+  "middleName": "",
+  "lastName": "Jora",
+  "shortName": "Jora",
+  "fullName": "Sundeep Jora",
+  "displayName": "Sundeep Jora",
+  "weight": 0,
+  "height": 0.0,
+  "age": 24,
+  "dateOfBirthStr": "2001-10-20T00:00Z",
+  "dateOfBirth": "2001-10-20T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "S Jora",
+  "fieldingName": "Jora",
+  "country": 33,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/33"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1098941"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2320"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/1161022.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/33.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NEP",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/33"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1161022/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1170452/events/1170456"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1170451/events/1170456"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1170451/events/1170457"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1170453/events/1170457"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1170451/events/1170456"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1170452/events/1170456"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1170451/events/1170457"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1170453/events/1170457"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1161022.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/501",
+  "id": "501",
+  "uid": "s:200~t:501",
+  "location": "Australia",
+  "name": "South Brisbane",
+  "nickname": "South Brisbane",
+  "abbreviation": "",
+  "displayName": "South Brisbane",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AU",
+  "slug": "south-brisbane",
+  "classes": [],
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/501/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/501/south-brisbane",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/501/south-brisbane",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

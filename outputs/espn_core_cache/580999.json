@@ -1,0 +1,99 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/580999",
+  "id": "580999",
+  "guid": "56fe0463-769c-1568-3650-4732388d68c1",
+  "uid": "s:200~a:580999",
+  "type": "cricket",
+  "name": "Damir Svilicic",
+  "firstName": "Damir",
+  "middleName": "",
+  "lastName": "Svilicic",
+  "shortName": "Svilicic",
+  "fullName": "Damir Svilicic",
+  "displayName": "Damir Svilicic",
+  "weight": 0,
+  "height": 0.0,
+  "age": 31,
+  "dateOfBirthStr": "1994-12-02T00:00Z",
+  "dateOfBirth": "1994-12-02T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [],
+  "styles": [],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "D Svilicic",
+  "fieldingName": "Svilicic",
+  "country": 72,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/72"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/72.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CRT",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/72"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/580999/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1514469/events/1514473"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1514470/events/1514473"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1514469/events/1514473"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1514470/events/1514473"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/580999.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

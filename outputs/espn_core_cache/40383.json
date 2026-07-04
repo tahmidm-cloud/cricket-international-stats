@@ -1,0 +1,154 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/40383",
+  "id": "40383",
+  "guid": "8c387919-338d-e720-35bc-409e806de7e3",
+  "uid": "s:200~a:40383",
+  "type": "cricket",
+  "name": "Humayun Farhat",
+  "firstName": "Humayun",
+  "middleName": "",
+  "lastName": "Farhat",
+  "shortName": "Humayun",
+  "fullName": "Humayun Farhat",
+  "displayName": "Humayun Farhat",
+  "weight": 0,
+  "height": 0.0,
+  "age": 45,
+  "dateOfBirthStr": "1981-01-24T00:00Z",
+  "dateOfBirth": "1981-01-24T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Humayun Farhat",
+  "fieldingName": "Humayun Farhat",
+  "country": 7,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/40582"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2616"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2747"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/344711"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2833"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/340365"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2958"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/7.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAK",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/40383/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61501/events/63924"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60703/events/63924"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61654/events/65789"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61542/events/65789"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61086/events/65789"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/238596/events/264780"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327084/events/327086"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327082/events/327086"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327211/events/327217"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327208/events/327217"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/40383.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

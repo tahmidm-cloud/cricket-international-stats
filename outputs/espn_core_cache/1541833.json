@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1541833",
+  "id": "1541833",
+  "guid": "",
+  "uid": "s:200~a:1541833",
+  "type": "cricket",
+  "name": "Kamron Xolmuradov",
+  "firstName": "Kamron",
+  "middleName": "",
+  "lastName": "Xolmuradov",
+  "shortName": "",
+  "fullName": "Kamron Xolmuradov",
+  "displayName": "Kamron Xolmuradov",
+  "weight": 0,
+  "height": 0,
+  "age": 19,
+  "dateOfBirthStr": "2007-01-03T00:00Z",
+  "dateOfBirth": "2007-01-03T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "K Xolmuradov",
+  "fieldingName": "Xolmuradov",
+  "country": 1541779,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1541779"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1541779.png",
+    "width": 500,
+    "height": 500,
+    "alt": "",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1541779"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1541833/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1541797/events/1541809"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1541798/events/1541809"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1541801/events/1541809"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1541801/events/1541809"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1541797/events/1541809"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1541798/events/1541809"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1541833.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

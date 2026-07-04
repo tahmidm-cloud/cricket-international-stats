@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1102",
+  "id": "1102",
+  "uid": "s:200~t:1102",
+  "location": "England",
+  "name": "Kent Cricket Board",
+  "nickname": "Kent Cricket Board",
+  "abbreviation": "",
+  "displayName": "Kent Cricket Board",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "kent-cricket-board",
+  "classes": [
+    "5"
+  ],
+  "event": {
+    "date": "2003-05-07T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8629/events/368935"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1102/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1102/kent-cricket-board",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1102/kent-cricket-board",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

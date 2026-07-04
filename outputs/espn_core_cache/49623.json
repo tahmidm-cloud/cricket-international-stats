@@ -1,0 +1,145 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/49623",
+  "id": "49623",
+  "guid": "7b2e135e-097a-89c7-7ede-fd624b43b247",
+  "uid": "s:200~a:49623",
+  "type": "cricket",
+  "name": "Ranjan Madugalle",
+  "firstName": "Ranjan",
+  "middleName": "",
+  "lastName": "Madugalle",
+  "shortName": "Madugalle",
+  "fullName": "Ranjan Senerath Madugalle",
+  "displayName": "Ranjan Madugalle",
+  "weight": 0,
+  "height": 0.0,
+  "age": 67,
+  "dateOfBirthStr": "1959-04-22T00:00Z",
+  "dateOfBirth": "1959-04-22T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "RS Madugalle",
+  "fieldingName": "Madugalle",
+  "country": 8,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3554"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/8.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/49623/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61783/events/63307"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60499/events/63307"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62005/events/63624"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60598/events/63624"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60806/events/65057"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61593/events/65057"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62284/events/65057"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62005/events/64442"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60949/events/64442"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/264062/events/264065"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/264061/events/264065"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/49623.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

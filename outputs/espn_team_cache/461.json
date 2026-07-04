@@ -1,0 +1,55 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/461",
+  "id": "461",
+  "uid": "s:200~t:461",
+  "location": "Australia",
+  "name": "Queensland Academy of Sport",
+  "nickname": "Queensland Academy of Sport",
+  "abbreviation": "QAS",
+  "displayName": "Queensland Academy of Sport",
+  "shortDisplayName": "QAS",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AU",
+  "slug": "queensland-academy-of-sport",
+  "classes": [
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2014-10-08T23:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/11579/events/765579"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/461/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/461/queensland-academy-of-sport",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/461/queensland-academy-of-sport",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

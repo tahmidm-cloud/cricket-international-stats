@@ -1,0 +1,76 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204496",
+  "id": "1204496",
+  "uid": "s:200~t:1204496",
+  "location": "England",
+  "name": "Sunrisers Leeds (Men)",
+  "nickname": "Sunrisers Leeds (Men)",
+  "abbreviation": "SRL-M",
+  "displayName": "Sunrisers Leeds (Men)",
+  "shortDisplayName": "SRL-M",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "sunrisers-leeds-men",
+  "classes": [
+    6
+  ],
+  "event": {
+    "date": "2026-07-21T17:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19601/events/1521231"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19601"
+  },
+  "color": "#6e0d9c",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1204496.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1204496/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1204496/sunrisers-leeds-men",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1204496/sunrisers-leeds-men",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "videos",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/current/video_audio/index.html?object=1204496",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

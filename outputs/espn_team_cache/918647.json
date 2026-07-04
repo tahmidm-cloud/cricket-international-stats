@@ -1,0 +1,66 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/918647",
+  "id": "918647",
+  "uid": "s:200~t:918647",
+  "location": "Hong Kong",
+  "name": "Pakistan Association of Hong Kong",
+  "nickname": "Pakistan Association of Hong Kong",
+  "abbreviation": "PAHKG",
+  "displayName": "Pakistan Association of Hong Kong",
+  "shortDisplayName": "PAHKG",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "HK",
+  "slug": "pakistan-association-of-hong-kong",
+  "classes": [
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2026-03-15T05:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19481/events/1521657"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19481"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/918647.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/918647/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/918647/pakistan-association-of-hong-kong",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/918647/pakistan-association-of-hong-kong",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

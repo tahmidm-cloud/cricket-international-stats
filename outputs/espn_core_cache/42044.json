@@ -1,0 +1,151 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/42044",
+  "id": "42044",
+  "guid": "badad0bf-95bd-244a-8829-98b1fbede361",
+  "uid": "s:200~a:42044",
+  "type": "cricket",
+  "name": "Nadeem Ghauri",
+  "firstName": "Nadeem",
+  "middleName": "",
+  "lastName": "Ghauri",
+  "shortName": "",
+  "fullName": "Mohammad Nadeem Ghauri",
+  "displayName": "Nadeem Ghauri",
+  "weight": 0,
+  "height": 0.0,
+  "age": 63,
+  "dateOfBirthStr": "1962-10-12T00:00Z",
+  "dateOfBirth": "1962-10-12T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Nadeem Ghauri",
+  "fieldingName": "Nadeem Ghauri",
+  "country": 7,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2747"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2833"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3028"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3116"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/7.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PAK",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/7"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/42044/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61478/events/63522"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60563/events/63522"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62021/events/64122"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60777/events/64122"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61478/events/65454"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60900/events/65454"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61630/events/64651"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61060/events/64651"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/343758/events/343764"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/343065/events/343764"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/42044.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

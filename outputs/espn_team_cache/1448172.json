@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1448172",
+  "id": "1448172",
+  "uid": "s:200~t:1448172",
+  "location": "Cayman Islands",
+  "name": "Grand Cayman Jaguars",
+  "nickname": "Grand Cayman Jaguars",
+  "abbreviation": "GCJ",
+  "displayName": "Grand Cayman Jaguars",
+  "shortDisplayName": "GCJ",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "KY",
+  "slug": "grand-cayman-jaguars",
+  "classes": [
+    "16"
+  ],
+  "event": {
+    "date": "2024-08-24T18:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/22858/events/1448196"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1448172.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1448172/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1448172/grand-cayman-jaguars",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1448172/grand-cayman-jaguars",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

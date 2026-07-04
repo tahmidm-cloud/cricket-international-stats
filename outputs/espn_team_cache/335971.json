@@ -1,0 +1,77 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335971",
+  "id": "335971",
+  "uid": "s:200~t:335971",
+  "location": "India",
+  "name": "Kolkata Knight Riders",
+  "nickname": "Kolkata Knight Riders",
+  "abbreviation": "KKR",
+  "displayName": "Kolkata Knight Riders",
+  "shortDisplayName": "KKR",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "kolkata-knight-riders",
+  "classes": [
+    6,
+    16
+  ],
+  "event": {
+    "date": "2026-05-24T14:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8048/events/1529313"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8048"
+  },
+  "color": "#573f82",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/335971.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335971/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/335971/kolkata-knight-riders",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/335971/kolkata-knight-riders",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "videos",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/current/video_audio/index.html?object=335971",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

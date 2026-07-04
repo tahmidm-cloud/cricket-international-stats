@@ -1,0 +1,89 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/146",
+  "id": "146",
+  "uid": "s:200~t:146",
+  "location": "Slovenia",
+  "name": "Slovenia",
+  "nickname": "Slovenia",
+  "abbreviation": "SVN",
+  "displayName": "Slovenia",
+  "shortDisplayName": "SVN",
+  "isNational": true,
+  "isActive": true,
+  "countryCode": "SI",
+  "slug": "slovenia",
+  "classes": [
+    3,
+    16
+  ],
+  "event": {
+    "date": "2026-05-22T12:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20863/events/1534057"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20863"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/146.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/146/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/146/slovenia",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/146/slovenia",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=197;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "players",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/country.html?country=197",
+      "text": "Players",
+      "shortText": "Players",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

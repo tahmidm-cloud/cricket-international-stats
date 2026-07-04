@@ -1,0 +1,160 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/627732",
+  "id": "627732",
+  "guid": "8ff1c5dd-bc1c-e6fe-e4eb-8fc4fcc6a5ce",
+  "uid": "s:200~a:627732",
+  "type": "cricket",
+  "name": "Stuart Whittingham",
+  "firstName": "Stuart",
+  "middleName": "",
+  "lastName": "Whittingham",
+  "shortName": "",
+  "fullName": "Stuart Gordon Whittingham",
+  "displayName": "Stuart Whittingham",
+  "weight": 0,
+  "height": 0.0,
+  "age": 32,
+  "dateOfBirthStr": "1994-02-10T00:00Z",
+  "dateOfBirth": "1994-02-10T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "SG Whittingham",
+  "fieldingName": "Whittingham",
+  "country": 30,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1128"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1371"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1373"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/471894"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/469813"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/469814"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/627732.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/30.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SCOT",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/627732/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870869/events/1105005"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1104995/events/1105005"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1142498/events/1142503"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1142499/events/1142503"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1142500/events/1142503"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/803395/events/804127"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870869/events/1105005"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1104995/events/1105005"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1142498/events/1142503"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1142500/events/1142503"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1142499/events/1142503"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/627732.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/37735",
+  "id": "37735",
+  "guid": "d9fca492-de12-ff38-5168-efff7709f052",
+  "uid": "s:200~a:37735",
+  "type": "cricket",
+  "name": "Darrin Murray",
+  "firstName": "Darrin",
+  "middleName": "",
+  "lastName": "Murray",
+  "shortName": "Murray",
+  "fullName": "Darrin James Murray",
+  "displayName": "Darrin Murray",
+  "weight": 0,
+  "height": 0,
+  "age": 58,
+  "dateOfBirthStr": "1967-09-04T00:00Z",
+  "dateOfBirth": "1967-09-04T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "DJ Murray",
+  "fieldingName": "Murray",
+  "country": 5,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2469"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/37735/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62098/events/63668"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60613/events/63668"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62138/events/66002"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60962/events/66002"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325231/events/325236"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325229/events/325236"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325229/events/325234"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325230/events/325234"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/37735.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

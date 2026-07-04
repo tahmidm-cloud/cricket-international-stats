@@ -1,0 +1,175 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/681681",
+  "id": "681681",
+  "guid": "76a9916b-974f-1b6b-61d1-a9cbd349c342",
+  "uid": "s:200~a:681681",
+  "type": "cricket",
+  "name": "Janith Liyanage",
+  "firstName": "Janith",
+  "middleName": "",
+  "lastName": "Liyanage",
+  "shortName": "Liyanage",
+  "fullName": "Kongala Liyanage Janith Vimukthi",
+  "displayName": "Janith Liyanage",
+  "weight": 0,
+  "height": 5.08,
+  "age": 30,
+  "dateOfBirthStr": "1995-07-12T00:00Z",
+  "dateOfBirth": "1995-07-12T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BTA",
+    "id": "BTA",
+    "name": "Batting allrounder",
+    "abbreviation": "BTA",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BTA"
+    }
+  },
+  "battingName": "J Liyanage",
+  "fieldingName": "Liyanage",
+  "country": 8,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3493"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1095060"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1238375"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1238375"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1095059"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1382877"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1298389"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1238371"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1238371"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3570"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1272206"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3590"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3606"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3617"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3564"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/8.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/681681/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1412536/events/1412539"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1412537/events/1412539"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1263459/events/1263475"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1263460/events/1263475"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/801337/events/801353"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/801339/events/801511"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/854813/events/854845"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/681681.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

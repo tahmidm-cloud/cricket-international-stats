@@ -1,0 +1,118 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1536761",
+  "id": "1536761",
+  "guid": "e25f18cf-1cbe-3f4d-8827-e872240d9c70",
+  "uid": "s:200~a:1536761",
+  "type": "cricket",
+  "name": "Jack Kovacic",
+  "firstName": "Jack",
+  "middleName": "",
+  "lastName": "Kovacic",
+  "shortName": "Kovacic",
+  "fullName": "Jack Ludvik Kovacic",
+  "displayName": "Jack Kovacic",
+  "weight": 0,
+  "height": 0.0,
+  "age": 32,
+  "dateOfBirthStr": "1994-01-26T00:00Z",
+  "dateOfBirth": "1994-01-26T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm medium",
+      "shortDescription": "Lm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm medium",
+      "shortDescription": "Lm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "JL Kovacic",
+  "fieldingName": "Kovacic",
+  "country": 152,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/146"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {},
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/152"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1536761/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1534034/events/1534044"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1534037/events/1534044"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1534027/events/1534044"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1534027/events/1534044"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1534034/events/1534044"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1534037/events/1534044"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1536761.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

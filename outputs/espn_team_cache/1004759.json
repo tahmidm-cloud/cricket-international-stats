@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1004759",
+  "id": "1004759",
+  "uid": "s:200~t:1004759",
+  "location": "Hong Kong",
+  "name": "Kowloon Cantons",
+  "nickname": "Kowloon Cantons",
+  "abbreviation": "KC",
+  "displayName": "Kowloon Cantons",
+  "shortDisplayName": "KC",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "HK",
+  "slug": "kowloon-cantons",
+  "classes": [
+    16
+  ],
+  "event": {
+    "date": "2018-02-11T02:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/11027/events/1125488"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1004759/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1004759/kowloon-cantons",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1004759/kowloon-cantons",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

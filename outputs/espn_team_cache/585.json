@@ -1,0 +1,55 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/585",
+  "id": "585",
+  "uid": "s:200~t:585",
+  "location": "Australia",
+  "name": "Victoria Second XI",
+  "nickname": "Victoria Second XI",
+  "abbreviation": "VIC2",
+  "displayName": "Victoria Second XI",
+  "shortDisplayName": "VIC2",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AU",
+  "slug": "victoria-second-xi",
+  "classes": [
+    "14",
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2020-03-15T23:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19591/events/1202182"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/585/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/585/victoria-second-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/585/victoria-second-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

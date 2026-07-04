@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1795",
+  "id": "1795",
+  "uid": "s:200~t:1795",
+  "location": "India",
+  "name": "India Masters",
+  "nickname": "India Masters",
+  "abbreviation": "IND-M",
+  "displayName": "India Masters",
+  "shortDisplayName": "IND-M",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "india-masters",
+  "classes": [
+    15,
+    16
+  ],
+  "event": {
+    "date": "2025-03-16T14:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/23196/events/1474879"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1795/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1795/india-masters",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1795/india-masters",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

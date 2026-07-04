@@ -1,0 +1,62 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3061",
+  "id": "3061",
+  "uid": "s:200~t:3061",
+  "location": "Pakistan",
+  "name": "Rawalpindi Region",
+  "nickname": "Rawalpindi Region",
+  "abbreviation": "PINDI",
+  "displayName": "Rawalpindi Region",
+  "shortDisplayName": "PINDI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "PK",
+  "slug": "rawalpindi-region",
+  "classes": [
+    4,
+    5,
+    6
+  ],
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1523747"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3061.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3061/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3061/rawalpindi-region",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3061/rawalpindi-region",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

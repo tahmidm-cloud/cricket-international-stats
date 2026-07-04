@@ -1,0 +1,55 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3591",
+  "id": "3591",
+  "uid": "s:200~t:3591",
+  "location": "Sri Lanka",
+  "name": "Sri Lanka Academy XI",
+  "nickname": "Sri Lanka Academy XI",
+  "abbreviation": "SLAca",
+  "displayName": "Sri Lanka Academy XI",
+  "shortDisplayName": "SLAca",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "sri-lanka-academy-xi",
+  "classes": [
+    "4",
+    "14",
+    "15"
+  ],
+  "event": {
+    "date": "2008-09-25T04:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/13886/events/368434"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3591/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3591/sri-lanka-academy-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3591/sri-lanka-academy-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

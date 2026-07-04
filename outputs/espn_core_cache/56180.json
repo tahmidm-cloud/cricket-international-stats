@@ -1,0 +1,142 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/56180",
+  "id": "56180",
+  "guid": "69b46782-6cd9-a482-5b3a-102d5d162b28",
+  "uid": "s:200~a:56180",
+  "type": "cricket",
+  "name": "Talha Jubair",
+  "firstName": "Talha",
+  "middleName": "",
+  "lastName": "Jubair",
+  "shortName": "",
+  "fullName": "Talha Jubair",
+  "displayName": "Talha Jubair",
+  "weight": 0,
+  "height": 0.0,
+  "age": 40,
+  "dateOfBirthStr": "1985-12-10T00:00Z",
+  "dateOfBirth": "1985-12-10T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Talha Jubair",
+  "fieldingName": "Talha Jubair",
+  "country": 25,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/598353"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/683"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/25.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/56180/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62189/events/63995"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60730/events/63995"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62191/events/66191"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61114/events/66191"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62125/events/66191"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/547342/events/551059"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/329917/events/329956"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/329916/events/329956"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/96480/events/329956"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/56180.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

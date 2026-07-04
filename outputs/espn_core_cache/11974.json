@@ -1,0 +1,158 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/11974",
+  "id": "11974",
+  "guid": "c443c04e-1796-9cf6-bd5a-778899eb4bc0",
+  "uid": "s:200~a:11974",
+  "type": "cricket",
+  "name": "Jamie Dalrymple",
+  "firstName": "Jamie",
+  "middleName": "",
+  "lastName": "Dalrymple",
+  "shortName": "Dalrymple",
+  "fullName": "James William Murray Dalrymple",
+  "displayName": "Jamie Dalrymple",
+  "weight": 0,
+  "height": 6.0,
+  "age": 45,
+  "dateOfBirthStr": "1981-01-21T00:00Z",
+  "dateOfBirth": "1981-01-21T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "JWM Dalrymple",
+  "fieldingName": "Dalrymple",
+  "country": 1,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/12444"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1029"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1166"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1190"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1261"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/292457"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/11974.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/11974/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/224900/events/225171"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/224899/events/225171"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/211972/events/225271"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/224906/events/225271"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/134471/events/304790"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327409/events/327414"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/85148/events/327414"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327410/events/327411"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/85148/events/327411"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/11974.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

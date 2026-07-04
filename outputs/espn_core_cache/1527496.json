@@ -1,0 +1,111 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1527496",
+  "id": "1527496",
+  "guid": "1d1dc757-ddfe-3503-9543-3aea5eadb205",
+  "uid": "s:200~a:1527496",
+  "type": "cricket",
+  "name": "Inshaf Farook",
+  "firstName": "Inshaf",
+  "middleName": "",
+  "lastName": "Farook",
+  "shortName": "",
+  "fullName": "Mohammed Inshaf Farook",
+  "displayName": "Inshaf Farook",
+  "weight": 0,
+  "height": 0.0,
+  "age": 34,
+  "dateOfBirthStr": "1992-05-21T00:00Z",
+  "dateOfBirth": "1992-05-21T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Inshaf Farook",
+  "fieldingName": "Inshaf Farook",
+  "country": 108,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/108"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/108.png",
+    "width": 500,
+    "height": 500,
+    "alt": "LES",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/108"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1527496/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1527275/events/1527277"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1527276/events/1527277"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1527275/events/1527277"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1527276/events/1527277"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1527496.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

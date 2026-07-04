@@ -1,0 +1,114 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1495162",
+  "id": "1495162",
+  "guid": "3a08f2e9-593f-3fb9-abbe-a053229a98b7",
+  "uid": "s:200~a:1495162",
+  "type": "cricket",
+  "name": "Liam Basson",
+  "firstName": "Liam",
+  "middleName": "",
+  "lastName": "Basson",
+  "shortName": "Basson",
+  "fullName": "Liam Basson",
+  "displayName": "Liam Basson",
+  "weight": 0,
+  "height": 0.0,
+  "age": 18,
+  "dateOfBirthStr": "2007-08-08T00:00Z",
+  "dateOfBirth": "2007-08-08T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "L Basson",
+  "fieldingName": "Basson",
+  "country": 28,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2316"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/28.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NAM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/28"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1495162/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1529136/events/1529146"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1529138/events/1529146"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1494081/events/1494117"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1494083/events/1494117"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1494582/events/1494117"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1495162.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1493463",
+  "id": "1493463",
+  "guid": "",
+  "uid": "s:200~a:1493463",
+  "type": "cricket",
+  "name": "Trust Makaya",
+  "firstName": "Trust",
+  "middleName": "",
+  "lastName": "Makaya",
+  "shortName": "Makaya",
+  "fullName": "Trust Makaya",
+  "displayName": "Trust Makaya",
+  "weight": 0,
+  "height": 0.0,
+  "age": 19,
+  "dateOfBirthStr": "2007-02-25T00:00Z",
+  "dateOfBirth": "2007-02-25T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "T Makaya",
+  "fieldingName": "Makaya",
+  "country": 118,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/118"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/118.png",
+    "width": 500,
+    "height": 500,
+    "alt": "MWI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/118"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1493463/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1492875/events/1492880"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1492878/events/1492880"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1492875/events/1492880"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1492878/events/1492880"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1493463.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

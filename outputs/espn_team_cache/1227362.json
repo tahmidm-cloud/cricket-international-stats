@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1227362",
+  "id": "1227362",
+  "uid": "s:200~t:1227362",
+  "location": "England",
+  "name": "Team Morgan",
+  "nickname": "Team Morgan",
+  "abbreviation": "TM",
+  "displayName": "Team Morgan",
+  "shortDisplayName": "TM",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "team-morgan",
+  "classes": [
+    15,
+    16
+  ],
+  "event": {
+    "date": "2020-11-23T15:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19939/events/1237121"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1227362/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1227362/team-morgan",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1227362/team-morgan",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

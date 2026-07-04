@@ -1,0 +1,148 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/524247",
+  "id": "524247",
+  "guid": "7b385418-b66a-1737-7d99-fa3b32891518",
+  "uid": "s:200~a:524247",
+  "type": "cricket",
+  "name": "Alei Nao",
+  "firstName": "Alei",
+  "middleName": "",
+  "lastName": "Nao",
+  "shortName": "Nao",
+  "fullName": "Alei Nao",
+  "displayName": "Alei Nao",
+  "weight": 0,
+  "height": 0.0,
+  "age": 32,
+  "dateOfBirthStr": "1993-12-09T00:00Z",
+  "dateOfBirth": "1993-12-09T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "A Nao",
+  "fieldingName": "Nao",
+  "country": 20,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/20"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3147"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/524247.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/20.png",
+    "width": 500,
+    "height": 500,
+    "alt": "PNG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/20"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/524247/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870869/events/1068736"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1068727/events/1068736"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1089199/events/1068736"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1068727/events/1089202"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1089201/events/1089202"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870869/events/1014845"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1014841/events/1014845"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1089201/events/1089202"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1068727/events/1089202"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/554570/events/554553"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/526969/events/554553"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/554576/events/554553"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/524247.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

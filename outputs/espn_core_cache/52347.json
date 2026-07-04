@@ -1,0 +1,133 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52347",
+  "id": "52347",
+  "guid": "106dab46-13c2-da54-7c31-e659650e5e84",
+  "uid": "s:200~a:52347",
+  "type": "cricket",
+  "name": "Gus Logie",
+  "firstName": "Gus",
+  "middleName": "",
+  "lastName": "Logie",
+  "shortName": "Logie",
+  "fullName": "Augustine Lawrence Logie",
+  "displayName": "Gus Logie",
+  "weight": 0,
+  "height": 0.0,
+  "age": 65,
+  "dateOfBirthStr": "1960-09-28T00:00Z",
+  "dateOfBirth": "1960-09-28T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "AL Logie",
+  "fieldingName": "Logie",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3790"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/52347.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52347/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62309/events/63335"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60508/events/63335"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61476/events/65325"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61900/events/65325"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60816/events/65325"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325133/events/325135"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325134/events/325135"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/52347.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

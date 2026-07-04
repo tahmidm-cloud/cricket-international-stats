@@ -1,0 +1,148 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/333002",
+  "id": "333002",
+  "guid": "245921c9-3007-763e-9a6b-255a0eace771",
+  "uid": "s:200~a:333002",
+  "type": "cricket",
+  "name": "Njabulo Ncube",
+  "firstName": "Njabulo",
+  "middleName": "",
+  "lastName": "Ncube",
+  "shortName": "Ncube",
+  "fullName": "Njabulo Ncube",
+  "displayName": "Njabulo Ncube",
+  "weight": 0,
+  "height": 0.0,
+  "age": 36,
+  "dateOfBirthStr": "1989-10-14T00:00Z",
+  "dateOfBirth": "1989-10-14T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "N Ncube",
+  "fieldingName": "Ncube",
+  "country": 9,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/424008"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/287570"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3871"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3872"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/9.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ZIM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/9"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/333002/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/527011/events/527017"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/527008/events/527017"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/527008/events/527016"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/527010/events/527016"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/387892/events/387897"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/391962/events/391963"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/342325/events/342336"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/316950/events/316979"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/316949/events/316979"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/288278/events/316979"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/333002.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

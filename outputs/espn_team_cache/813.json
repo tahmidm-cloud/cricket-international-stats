@@ -1,0 +1,56 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/813",
+  "id": "813",
+  "uid": "s:200~t:813",
+  "location": "England",
+  "name": "Bedfordshire",
+  "nickname": "Bedfordshire",
+  "abbreviation": "Beds",
+  "displayName": "Bedfordshire",
+  "shortDisplayName": "Beds",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "bedfordshire",
+  "classes": [
+    5,
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2022-08-21T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20128/events/1317221"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/813/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/813/bedfordshire",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/813/bedfordshire",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

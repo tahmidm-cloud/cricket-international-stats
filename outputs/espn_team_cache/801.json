@@ -1,0 +1,63 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/801",
+  "id": "801",
+  "uid": "s:200~t:801",
+  "location": "Pakistan",
+  "name": "Balochistan",
+  "nickname": "Balochistan",
+  "abbreviation": "BALO",
+  "displayName": "Balochistan",
+  "shortDisplayName": "BALO",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "PK",
+  "slug": "balochistan",
+  "classes": [
+    4,
+    5,
+    6
+  ],
+  "event": {
+    "date": "2023-01-02T05:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/17924/events/1349078"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/801.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/801/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/801/balochistan",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/801/balochistan",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/549986",
+  "id": "549986",
+  "uid": "s:200~t:549986",
+  "location": "Bangladesh",
+  "name": "Dhaka Gladiators",
+  "nickname": "Dhaka Gladiators",
+  "abbreviation": "Glads",
+  "displayName": "Dhaka Gladiators",
+  "shortDisplayName": "Glads",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "BD",
+  "slug": "dhaka-gladiators",
+  "classes": [
+    6
+  ],
+  "event": {
+    "date": "2013-02-19T12:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8653/events/599910"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/549986/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/549986/dhaka-gladiators",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/549986/dhaka-gladiators",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

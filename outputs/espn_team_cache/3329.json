@@ -1,0 +1,52 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3329",
+  "id": "3329",
+  "uid": "s:200~t:3329",
+  "location": "South Africa",
+  "name": "South Africa XI",
+  "nickname": "South Africa XI",
+  "abbreviation": "SAfXI",
+  "displayName": "South Africa XI",
+  "shortDisplayName": "SAfXI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZA",
+  "slug": "south-africa-xi",
+  "classes": [
+    "4",
+    "5",
+    "6",
+    "15"
+  ],
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3329/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3329/south-africa-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3329/south-africa-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

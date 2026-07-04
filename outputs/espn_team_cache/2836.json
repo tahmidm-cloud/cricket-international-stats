@@ -1,0 +1,55 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2836",
+  "id": "2836",
+  "uid": "s:200~t:2836",
+  "location": "Pakistan",
+  "name": "Lahore Lions",
+  "nickname": "Lahore Lions",
+  "abbreviation": "Lions",
+  "displayName": "Lahore Lions",
+  "shortDisplayName": "Lions",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "PK",
+  "slug": "lahore-lions",
+  "classes": [
+    4,
+    5,
+    6
+  ],
+  "event": {
+    "date": "2015-05-18T14:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8660/events/872589"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2836/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/2836/lahore-lions",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/2836/lahore-lions",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

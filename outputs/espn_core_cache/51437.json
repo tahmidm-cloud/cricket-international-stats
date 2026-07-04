@@ -1,0 +1,138 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/51437",
+  "id": "51437",
+  "guid": "70197248-ac2a-3785-48f3-4f003bb1fec7",
+  "uid": "s:200~a:51437",
+  "type": "cricket",
+  "name": "Patrick Browne",
+  "firstName": "Patrick",
+  "middleName": "",
+  "lastName": "Browne",
+  "shortName": "Browne",
+  "fullName": "Patrick Anderson Browne",
+  "displayName": "Patrick Browne",
+  "weight": 0,
+  "height": 0.0,
+  "age": 44,
+  "dateOfBirthStr": "1982-01-26T00:00Z",
+  "dateOfBirth": "1982-01-26T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT",
+    "id": "BT",
+    "name": "Batter",
+    "abbreviation": "BT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT"
+    }
+  },
+  "battingName": "PA Browne",
+  "fieldingName": "Browne",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3719"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3800"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3801"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3812"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/51437/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/298788/events/298807"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/287844/events/298807"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/266311/events/240202"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/221774/events/240202"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/300764/events/300891"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327601/events/327610"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/95864/events/327610"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327602/events/327608"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/95864/events/327608"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/51437.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

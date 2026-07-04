@@ -1,0 +1,142 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/220613",
+  "id": "220613",
+  "guid": "46b46052-0825-4eba-50a0-655c4c698120",
+  "uid": "s:200~a:220613",
+  "type": "cricket",
+  "name": "Munir Dar",
+  "firstName": "Munir",
+  "middleName": "",
+  "lastName": "Dar",
+  "shortName": "Munir Dar",
+  "fullName": "Munir Ahmed Dar",
+  "displayName": "Munir Dar",
+  "weight": 0,
+  "height": 0.0,
+  "age": 52,
+  "dateOfBirthStr": "1974-03-04T00:00Z",
+  "dateOfBirth": "1974-03-04T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "Munir Dar",
+  "fieldingName": "Munir Dar",
+  "country": 19,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/19"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2731"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/220613.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/19.png",
+    "width": 500,
+    "height": 500,
+    "alt": "HKG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/19"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/220613/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/355153/events/335347"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/298014/events/335347"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/696643/events/682905"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/696641/events/682905"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/628368/events/682905"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/298014/events/335347"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/355153/events/335347"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/532912/events/546412"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/546494/events/546412"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/546492/events/546412"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/220613.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

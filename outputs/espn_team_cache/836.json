@@ -1,0 +1,64 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/836",
+  "id": "836",
+  "uid": "s:200~t:836",
+  "location": "England",
+  "name": "Buckinghamshire",
+  "nickname": "Buckinghamshire",
+  "abbreviation": "Bucks",
+  "displayName": "Buckinghamshire",
+  "shortDisplayName": "Bucks",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "buckinghamshire",
+  "classes": [
+    "5",
+    "14",
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2022-08-21T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20128/events/1317223"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/836.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/836/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/836/buckinghamshire",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/836/buckinghamshire",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

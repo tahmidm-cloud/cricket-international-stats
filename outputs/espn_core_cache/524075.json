@@ -1,0 +1,148 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/524075",
+  "id": "524075",
+  "guid": "c049d74c-faad-c6ab-5229-a7240e1ab3f4",
+  "uid": "s:200~a:524075",
+  "type": "cricket",
+  "name": "Tangeni Lungameni",
+  "firstName": "Tangeni",
+  "middleName": "",
+  "lastName": "Lungameni",
+  "shortName": "Lungameni",
+  "fullName": "Tangeni Lungameni",
+  "displayName": "Tangeni Lungameni",
+  "weight": 0,
+  "height": 0.0,
+  "age": 34,
+  "dateOfBirthStr": "1992-04-17T00:00Z",
+  "dateOfBirth": "1992-04-17T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm medium",
+      "shortDescription": "Lm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm medium",
+      "shortDescription": "Lm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "T Lungameni",
+  "fieldingName": "Lungameni",
+  "country": 28,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/28"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2317"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/524075.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/28.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NAM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/28"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/524075/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1302612/events/1302617"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1302611/events/1302617"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1196667/events/1302617"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1184251/events/1184258"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1184250/events/1184258"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1184248/events/1184258"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/875065/events/874849"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/874761/events/874849"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/875071/events/875037"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/874763/events/875037"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/875071/events/874963"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/874765/events/874963"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/524075.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1381359",
+  "id": "1381359",
+  "uid": "s:200~t:1381359",
+  "location": "United States of America",
+  "name": "Seattle Orcas",
+  "nickname": "Seattle Orcas",
+  "abbreviation": "SEO",
+  "displayName": "Seattle Orcas",
+  "shortDisplayName": "SEO",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "seattle-orcas",
+  "classes": [
+    6,
+    16
+  ],
+  "event": {
+    "date": "2026-07-03T01:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/21266/events/1528573"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/21266"
+  },
+  "color": "#99da0b",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1381359.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1381359/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1381359/seattle-orcas",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1381359/seattle-orcas",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3661",
+  "id": "3661",
+  "uid": "s:200~t:3661",
+  "location": "Uganda",
+  "name": "Nile Knights",
+  "nickname": "Nile Knights",
+  "abbreviation": "Nile",
+  "displayName": "Nile Knights",
+  "shortDisplayName": "Nile",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "UG",
+  "slug": "nile-knights",
+  "classes": [
+    15,
+    16
+  ],
+  "event": {
+    "date": "2013-09-08T06:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8741/events/663209"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3661/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3661/nile-knights",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3661/nile-knights",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1182027",
+  "id": "1182027",
+  "guid": "7889baf9-692e-ec08-d9c8-1e3646f2c835",
+  "uid": "s:200~a:1182027",
+  "type": "cricket",
+  "name": "Zain ul Tashnam",
+  "firstName": "Zain",
+  "middleName": "",
+  "lastName": "Tashnam",
+  "shortName": "",
+  "fullName": "Zain ul Tashnam",
+  "displayName": "Zain ul Tashnam",
+  "weight": 0,
+  "height": 0.0,
+  "age": 38,
+  "dateOfBirthStr": "1987-12-17T00:00Z",
+  "dateOfBirth": "1987-12-17T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Zain ul Tashnam",
+  "fieldingName": "Zain ul Tashnam",
+  "country": 218210,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/218210"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/218210.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CRC",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/218210"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1182027/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1181402/events/1181406"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1181403/events/1181406"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1181399/events/1181406"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1181399/events/1181406"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1181402/events/1181406"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1181403/events/1181406"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1182027.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

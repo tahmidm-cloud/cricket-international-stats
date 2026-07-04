@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/228126",
+  "id": "228126",
+  "uid": "s:200~t:228126",
+  "location": "Bahrain",
+  "name": "Bahrain Under-19s",
+  "nickname": "Bahrain Under-19s",
+  "abbreviation": "Bah19",
+  "displayName": "Bahrain Under-19s",
+  "shortDisplayName": "Bah19",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "BH",
+  "slug": "bahrain-under-19s",
+  "classes": [
+    "15"
+  ],
+  "event": {
+    "date": "2022-10-07T05:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19037/events/1337093"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/228126.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/228126/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/228126/bahrain-under-19s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/228126/bahrain-under-19s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

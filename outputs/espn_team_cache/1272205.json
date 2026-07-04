@@ -1,0 +1,64 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1272205",
+  "id": "1272205",
+  "uid": "s:200~t:1272205",
+  "location": "Sri Lanka",
+  "name": "SLC Greens",
+  "nickname": "SLC Greens",
+  "abbreviation": "SLC-G",
+  "displayName": "SLC Greens",
+  "shortDisplayName": "SLC-G",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "slc-greens",
+  "classes": [
+    6
+  ],
+  "event": {
+    "date": "2025-08-16T08:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20939/events/1498178"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20939"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1272205.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1272205/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1272205/slc-greens",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1272205/slc-greens",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

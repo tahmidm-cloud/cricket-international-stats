@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/16975",
+  "id": "16975",
+  "guid": "e7ce1cb6-2a10-636b-6fdd-55f2290fac9a",
+  "uid": "s:200~a:16975",
+  "type": "cricket",
+  "name": "Anthony McGrath",
+  "firstName": "Anthony",
+  "middleName": "",
+  "lastName": "McGrath",
+  "shortName": "McGrath",
+  "fullName": "Anthony McGrath",
+  "displayName": "Anthony McGrath",
+  "weight": 0,
+  "height": 6.02,
+  "age": 50,
+  "dateOfBirthStr": "1975-10-06T00:00Z",
+  "dateOfBirth": "1975-10-06T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "A McGrath",
+  "fieldingName": "McGrath",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1464"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/16975/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61990/events/64032"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60744/events/64032"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61464/events/65029"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61130/events/65029"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/134471/events/304804"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326663/events/326667"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326662/events/326667"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326664/events/326665"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326662/events/326665"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/16975.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

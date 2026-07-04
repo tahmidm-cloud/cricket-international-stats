@@ -1,0 +1,142 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/6235",
+  "id": "6235",
+  "guid": "95aa10b9-777d-c27b-3817-b438d0661a6e",
+  "uid": "s:200~a:6235",
+  "type": "cricket",
+  "name": "Jason Krejza",
+  "firstName": "Jason",
+  "middleName": "",
+  "lastName": "Krejza",
+  "shortName": "Krejza",
+  "fullName": "Jason John Krejza",
+  "displayName": "Jason Krejza",
+  "weight": 0,
+  "height": 1.84,
+  "age": 43,
+  "dateOfBirthStr": "1983-01-14T00:00Z",
+  "dateOfBirth": "1983-01-14T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "JJ Krejza",
+  "fieldingName": "Krejza",
+  "country": 2,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/49"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1133"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/387"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/560"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/6235.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/6235/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/345666/events/345672"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/345667/events/345672"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/446950/events/446968"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/428730/events/446968"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/135547/events/142451"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/135649/events/142706"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/298314/events/298378"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/6235.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/997",
+  "id": "997",
+  "uid": "s:200~t:997",
+  "location": "England",
+  "name": "Free Foresters",
+  "nickname": "Free Foresters",
+  "abbreviation": "",
+  "displayName": "Free Foresters",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "free-foresters",
+  "classes": [
+    "4",
+    "15"
+  ],
+  "event": {
+    "date": "2015-05-17T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/11434/events/877797"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/997/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/997/free-foresters",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/997/free-foresters",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

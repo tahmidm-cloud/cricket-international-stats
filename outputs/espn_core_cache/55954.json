@@ -1,0 +1,120 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55954",
+  "id": "55954",
+  "guid": "201213c5-cef4-31fe-4c6d-cfe1adc4a987",
+  "uid": "s:200~a:55954",
+  "type": "cricket",
+  "name": "Khaled Mashud",
+  "firstName": "Khaled",
+  "middleName": "",
+  "lastName": "Mashud",
+  "shortName": "",
+  "fullName": "Khaled Mashud",
+  "displayName": "Khaled Mashud",
+  "weight": 0,
+  "height": 0.0,
+  "age": 50,
+  "dateOfBirthStr": "1976-02-08T00:00Z",
+  "dateOfBirth": "1976-02-08T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "Khaled Mashud",
+  "fieldingName": "Khaled Mashud",
+  "country": 25,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/711"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/55954.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/25.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/55954/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62353/events/63898"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60694/events/63898"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60971/events/65685"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62199/events/65685"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62372/events/65685"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/455175/events/455176"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/55954.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/51649",
+  "id": "51649",
+  "guid": "dc8dd11a-74ca-d2f3-4793-b49b0dc8eafd",
+  "uid": "s:200~a:51649",
+  "type": "cricket",
+  "name": "Rajindra Dhanraj",
+  "firstName": "Rajindra",
+  "middleName": "",
+  "lastName": "Dhanraj",
+  "shortName": "Dhanraj",
+  "fullName": "Rajindra Dhanraj",
+  "displayName": "Rajindra Dhanraj",
+  "weight": 0,
+  "height": 0,
+  "age": 57,
+  "dateOfBirthStr": "1969-02-06T00:00Z",
+  "dateOfBirth": "1969-02-06T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "R Dhanraj",
+  "fieldingName": "Dhanraj",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3790"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/51649/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61946/events/63660"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60611/events/63660"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62138/events/65998"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61946/events/65998"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60962/events/65998"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325324/events/325327"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325325/events/325327"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/329560/events/329567"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/232503/events/329567"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/51649.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

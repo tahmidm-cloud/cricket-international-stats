@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3741",
+  "id": "3741",
+  "uid": "s:200~t:3741",
+  "location": "West Indies",
+  "name": "Grenada",
+  "nickname": "Grenada",
+  "abbreviation": "GRNDA",
+  "displayName": "Grenada",
+  "shortDisplayName": "GRNDA",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "grenada",
+  "classes": [
+    "6",
+    "15"
+  ],
+  "event": {
+    "date": "2014-08-17T14:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/11653/events/771517"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3741/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3741/grenada",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3741/grenada",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

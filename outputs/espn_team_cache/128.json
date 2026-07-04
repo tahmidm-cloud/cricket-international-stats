@@ -1,0 +1,90 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/128",
+  "id": "128",
+  "uid": "s:200~t:128",
+  "location": "Philippines",
+  "name": "Philippines",
+  "nickname": "Philippines",
+  "abbreviation": "PHI",
+  "displayName": "Philippines",
+  "shortDisplayName": "PHI",
+  "isNational": true,
+  "isActive": true,
+  "countryCode": "PH",
+  "slug": "philippines",
+  "classes": [
+    3,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2026-05-18T05:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/23373/events/1532661"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/23373"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/128.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/128/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/128/philippines",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/128/philippines",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=179;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "players",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/country.html?country=179",
+      "text": "Players",
+      "shortText": "Players",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

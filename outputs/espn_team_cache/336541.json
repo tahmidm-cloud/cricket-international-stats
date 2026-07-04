@@ -1,0 +1,51 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/336541",
+  "id": "336541",
+  "uid": "s:200~t:336541",
+  "location": "Kenya",
+  "name": "Eastern Aces",
+  "nickname": "Eastern Aces",
+  "abbreviation": "Aces",
+  "displayName": "Eastern Aces",
+  "shortDisplayName": "Aces",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "KE",
+  "slug": "eastern-aces",
+  "classes": [
+    "14",
+    "15",
+    "16"
+  ],
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/336541/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/336541/eastern-aces",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/336541/eastern-aces",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

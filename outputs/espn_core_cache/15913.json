@@ -1,0 +1,142 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/15913",
+  "id": "15913",
+  "guid": "dbd71e6b-e6e8-0bdd-59f0-7a4daf535325",
+  "uid": "s:200~a:15913",
+  "type": "cricket",
+  "name": "Nick Knight",
+  "firstName": "Nick",
+  "middleName": "",
+  "lastName": "Knight",
+  "shortName": "Knight",
+  "fullName": "Nicholas Verity Knight",
+  "displayName": "Nick Knight",
+  "weight": 0,
+  "height": 6.01,
+  "age": 56,
+  "dateOfBirthStr": "1969-11-28T00:00Z",
+  "dateOfBirth": "1969-11-28T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "NV Knight",
+  "fieldingName": "Knight",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/984"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1428"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/15913/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61884/events/63687"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60620/events/63687"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60988/events/65020"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61454/events/65020"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/124121/events/129597"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325718/events/325721"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325716/events/325721"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325717/events/325725"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325716/events/325725"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/15913.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/475816",
+  "id": "475816",
+  "guid": "ff806ca4-9f35-7030-116b-fcab0006f103",
+  "uid": "s:200~a:475816",
+  "type": "cricket",
+  "name": "Emmanuel Bundi",
+  "firstName": "Emmanuel",
+  "middleName": "",
+  "lastName": "Bundi",
+  "shortName": "Ringera",
+  "fullName": "Emmanuel Bundi Ringera",
+  "displayName": "Emmanuel Bundi",
+  "weight": 0,
+  "height": 0.0,
+  "age": 32,
+  "dateOfBirthStr": "1993-09-08T00:00Z",
+  "dateOfBirth": "1993-09-08T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "EB Ringera",
+  "fieldingName": "Ringera",
+  "country": 26,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/26"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/315042"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2296"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/45273"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/475816.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/26.png",
+    "width": 500,
+    "height": 500,
+    "alt": "KENYA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/26"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/475816/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/523481/events/523483"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/518430/events/523483"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1199485/events/1199536"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1199480/events/1199536"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1199473/events/1199536"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/518430/events/523483"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/523481/events/523483"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/592262/events/628123"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/627905/events/628123"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/475816.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

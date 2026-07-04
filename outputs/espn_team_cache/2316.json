@@ -1,0 +1,67 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2316",
+  "id": "2316",
+  "uid": "s:200~t:2316",
+  "location": "Namibia",
+  "name": "Namibia A",
+  "nickname": "Namibia A",
+  "abbreviation": "NAM-A",
+  "displayName": "Namibia A",
+  "shortDisplayName": "NAM-A",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "NA",
+  "slug": "namibia-a",
+  "classes": [
+    "5",
+    "6",
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2025-07-26T10:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/24127/events/1494112"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/24127"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2316.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2316/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/2316/namibia-a",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/2316/namibia-a",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

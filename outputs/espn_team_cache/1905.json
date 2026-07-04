@@ -1,0 +1,68 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1905",
+  "id": "1905",
+  "uid": "s:200~t:1905",
+  "location": "India",
+  "name": "Maharashtra",
+  "nickname": "Maharashtra",
+  "abbreviation": "MAHA",
+  "displayName": "Maharashtra",
+  "shortDisplayName": "MAHA",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "maharashtra",
+  "classes": [
+    4,
+    5,
+    6,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2026-01-29T04:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8050/events/1492506"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8890"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1905.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1905/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1905/maharashtra",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1905/maharashtra",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

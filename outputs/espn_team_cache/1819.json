@@ -1,0 +1,55 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1819",
+  "id": "1819",
+  "uid": "s:200~t:1819",
+  "location": "",
+  "name": "International XI",
+  "nickname": "International XI",
+  "abbreviation": "IntXI",
+  "displayName": "International XI",
+  "shortDisplayName": "IntXI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "international-xi",
+  "classes": [
+    "14",
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2012-05-12T15:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/12512/events/564726"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1819/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1819/international-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1819/international-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

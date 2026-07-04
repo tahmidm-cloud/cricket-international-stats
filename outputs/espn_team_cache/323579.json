@@ -1,0 +1,55 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/323579",
+  "id": "323579",
+  "uid": "s:200~t:323579",
+  "location": "England",
+  "name": "England Performance Programme",
+  "nickname": "England Performance Programme",
+  "abbreviation": "EPP",
+  "displayName": "England Performance Programme",
+  "shortDisplayName": "EPP",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "england-performance-programme",
+  "classes": [
+    "14",
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2013-12-10T02:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/11875/events/673795"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/323579/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/323579/england-performance-programme",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/323579/england-performance-programme",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/7619",
+  "id": "7619",
+  "guid": "b210eb67-c89e-7a69-eae2-222bdc8767f0",
+  "uid": "s:200~a:7619",
+  "type": "cricket",
+  "name": "Bob Simpson",
+  "firstName": "Bob",
+  "middleName": "",
+  "lastName": "Simpson",
+  "shortName": "Simpson",
+  "fullName": "Robert Baddeley Simpson",
+  "displayName": "Bob Simpson",
+  "weight": 0,
+  "height": 0.0,
+  "age": 89,
+  "dateOfBirthStr": "1936-02-03T00:00Z",
+  "dateOfBirth": "1936-02-03T00:00Z",
+  "dateOfDeathStr": "2025-08-16T00:00Z",
+  "dateOfDeath": "2025-08-16T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BTA",
+    "id": "BTA",
+    "name": "Batting allrounder",
+    "abbreviation": "BTA",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BTA"
+    }
+  },
+  "battingName": "RB Simpson",
+  "fieldingName": "Simpson",
+  "country": 2,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/5656"
+      },
+      "relation": "Son-in-law"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/437447"
+      },
+      "relation": "Grandson"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/387"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/602"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/7619/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61375/events/62830"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60376/events/62830"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60652/events/63775"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61642/events/63775"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60801/events/64163"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61386/events/64163"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/7619.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/940593",
+  "id": "940593",
+  "guid": "24d4b87a-c3b2-dc25-9e2d-e0f3224bc0af",
+  "uid": "s:200~a:940593",
+  "type": "cricket",
+  "name": "Aqib Ilyas",
+  "firstName": "Aqib",
+  "middleName": "",
+  "lastName": "Ilyas",
+  "shortName": "Aqib",
+  "fullName": "Aqib Ilyas Sulehri",
+  "displayName": "Aqib Ilyas",
+  "weight": 0,
+  "height": 0.0,
+  "age": 33,
+  "dateOfBirthStr": "1992-09-05T00:00Z",
+  "dateOfBirth": "1992-09-05T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "Aqib Ilyas",
+  "fieldingName": "Aqib Ilyas",
+  "country": 37,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/26038"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/37"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/953835"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/940593.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/37.png",
+    "width": 500,
+    "height": 500,
+    "alt": "OMA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/37"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/940593/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1174827/events/1174845"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1174825/events/1174845"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/930509/events/930575"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/930555/events/930575"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/911021/events/930575"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1133922/events/1133931"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1133928/events/1133931"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1133927/events/1133931"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/930555/events/930575"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/930509/events/930575"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/911021/events/930575"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/940593.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

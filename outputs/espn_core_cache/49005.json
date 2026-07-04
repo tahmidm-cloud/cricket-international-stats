@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/49005",
+  "id": "49005",
+  "guid": "0d598c8e-195f-6d80-757d-c8ee0fef4181",
+  "uid": "s:200~a:49005",
+  "type": "cricket",
+  "name": "Asanka Gurusinha",
+  "firstName": "Asanka",
+  "middleName": "",
+  "lastName": "Gurusinha",
+  "shortName": "Gurusinha",
+  "fullName": "Asanka Pradeep Gurusinha",
+  "displayName": "Asanka Gurusinha",
+  "weight": 0,
+  "height": 0.0,
+  "age": 59,
+  "dateOfBirthStr": "1966-09-16T00:00Z",
+  "dateOfBirth": "1966-09-16T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "AP Gurusinha",
+  "fieldingName": "Gurusinha",
+  "country": 8,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3554"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3630"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/49005.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/8.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/49005/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61631/events/63414"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60529/events/63414"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60854/events/64267"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61631/events/64267"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324148/events/324156"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324147/events/324156"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324149/events/324161"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324147/events/324161"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/49005.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

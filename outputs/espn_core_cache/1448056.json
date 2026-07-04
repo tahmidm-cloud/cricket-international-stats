@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1448056",
+  "id": "1448056",
+  "guid": "df561a5e-63c7-35c4-a6c5-19d121ab66e1",
+  "uid": "s:200~a:1448056",
+  "type": "cricket",
+  "name": "Rockey Dianish",
+  "firstName": "Rockey",
+  "middleName": "",
+  "lastName": "Dianish",
+  "shortName": "Dianish",
+  "fullName": "Rockey Dianish",
+  "displayName": "Rockey Dianish",
+  "weight": 0,
+  "height": 0.0,
+  "age": 39,
+  "dateOfBirthStr": "1987-01-29T00:00Z",
+  "dateOfBirth": "1987-01-29T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "R Dianish",
+  "fieldingName": "Dianish",
+  "country": 45,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/45"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/45.png",
+    "width": 500,
+    "height": 500,
+    "alt": "MLT",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/45"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1448056/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1443759/events/1443769"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1443765/events/1443769"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1443752/events/1443769"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1443752/events/1443769"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1443759/events/1443769"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1443765/events/1443769"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1448056.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1388276",
+  "id": "1388276",
+  "uid": "s:200~t:1388276",
+  "location": "South Africa",
+  "name": "Johannesburg Buffaloes",
+  "nickname": "Johannesburg Buffaloes",
+  "abbreviation": "JBU",
+  "displayName": "Johannesburg Buffaloes",
+  "shortDisplayName": "JBU",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZA",
+  "slug": "johannesburg-buffaloes",
+  "classes": [
+    "16"
+  ],
+  "event": {
+    "date": "2023-07-29T15:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/21596/events/1388301"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1388276.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1388276/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1388276/johannesburg-buffaloes",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1388276/johannesburg-buffaloes",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

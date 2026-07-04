@@ -1,0 +1,142 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/15403",
+  "id": "15403",
+  "guid": "c7fbe29d-aeab-d6d1-666f-1ee4d6a9445c",
+  "uid": "s:200~a:15403",
+  "type": "cricket",
+  "name": "Ronnie Irani",
+  "firstName": "Ronnie",
+  "middleName": "",
+  "lastName": "Irani",
+  "shortName": "Irani",
+  "fullName": "Ronald Charles Irani",
+  "displayName": "Ronnie Irani",
+  "weight": 0,
+  "height": 6.04,
+  "age": 54,
+  "dateOfBirthStr": "1971-10-26T00:00Z",
+  "dateOfBirth": "1971-10-26T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "RC Irani",
+  "fieldingName": "Irani",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/984"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1116"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/15403.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/15403/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62278/events/63713"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60630/events/63713"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60986/events/65017"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62278/events/65017"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/124121/events/304748"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326251/events/326252"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326249/events/326252"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326112/events/326114"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326111/events/326114"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/15403.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/143",
+  "id": "143",
+  "uid": "s:200~t:143",
+  "location": "Seychelles",
+  "name": "Seychelles",
+  "nickname": "Seychelles",
+  "abbreviation": "SEY",
+  "displayName": "Seychelles",
+  "shortDisplayName": "SEY",
+  "isNational": true,
+  "isActive": true,
+  "countryCode": "SC",
+  "slug": "seychelles",
+  "classes": [
+    3,
+    16
+  ],
+  "event": {
+    "date": "2026-03-29T09:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/22990/events/1526852"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/22990"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/143.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/143/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/143/seychelles",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/143/seychelles",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=194;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "players",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/country.html?country=194",
+      "text": "Players",
+      "shortText": "Players",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

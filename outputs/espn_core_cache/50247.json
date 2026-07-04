@@ -1,0 +1,167 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/50247",
+  "id": "50247",
+  "guid": "8874b74d-2412-fc04-b27f-dc87cf01684d",
+  "uid": "s:200~a:50247",
+  "type": "cricket",
+  "name": "Sanjeeva Ranatunga",
+  "firstName": "Sanjeeva",
+  "middleName": "",
+  "lastName": "Ranatunga",
+  "shortName": "Ranatunga",
+  "fullName": "Sanjeeva Ranatunga",
+  "displayName": "Sanjeeva Ranatunga",
+  "weight": 0,
+  "height": 0.0,
+  "age": 57,
+  "dateOfBirthStr": "1969-04-25T00:00Z",
+  "dateOfBirth": "1969-04-25T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Left-hand bat",
+      "shortDescription": "Lhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "S Ranatunga",
+  "fieldingName": "Ranatunga",
+  "country": 8,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/50245"
+      },
+      "relation": "Brother"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/50244"
+      },
+      "relation": "Brother"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/50246"
+      },
+      "relation": "Brother"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1290324"
+      },
+      "relation": "Son"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3507"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3554"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3630"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/8.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SL",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/8"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/50247/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61513/events/63653"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60608/events/63653"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61513/events/64470"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60957/events/64470"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324868/events/324935"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324867/events/324935"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324867/events/324926"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324927/events/324926"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/50247.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

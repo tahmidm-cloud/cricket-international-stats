@@ -1,0 +1,152 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/10816",
+  "id": "10816",
+  "guid": "cfd2feaa-5481-63f3-78b3-ca0f60c579d2",
+  "uid": "s:200~a:10816",
+  "type": "cricket",
+  "name": "Dominic Cork",
+  "firstName": "Dominic",
+  "middleName": "",
+  "lastName": "Cork",
+  "shortName": "Cork",
+  "fullName": "Dominic Gerald Cork",
+  "displayName": "Dominic Cork",
+  "weight": 0,
+  "height": 6.02,
+  "age": 54,
+  "dateOfBirthStr": "1971-08-07T00:00Z",
+  "dateOfBirth": "1971-08-07T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "DG Cork",
+  "fieldingName": "Cork",
+  "country": 1,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/567040"
+      },
+      "relation": "Son"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/904"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1051"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1116"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/10816/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61884/events/63685"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60620/events/63685"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60926/events/65007"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61462/events/65007"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/124121/events/304749"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325718/events/325721"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325716/events/325721"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325717/events/325727"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325716/events/325727"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/10816.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

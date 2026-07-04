@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1530386",
+  "id": "1530386",
+  "guid": "963dd3fc-3a32-3460-80a1-4171652a49f2",
+  "uid": "s:200~a:1530386",
+  "type": "cricket",
+  "name": "Syed Jawad Haider",
+  "firstName": "Syed",
+  "middleName": "",
+  "lastName": "Haider",
+  "shortName": "",
+  "fullName": "Syed Jawad Haider",
+  "displayName": "Syed Jawad Haider",
+  "weight": 0,
+  "height": 0.0,
+  "age": 36,
+  "dateOfBirthStr": "1989-08-06T00:00Z",
+  "dateOfBirth": "1989-08-06T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Syed Jawad Haider",
+  "fieldingName": "Syed Jawad Haider",
+  "country": 124,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/124"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/124.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NOR",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/124"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1530386/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1528297/events/1528303"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1528298/events/1528303"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1528296/events/1528303"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1528298/events/1528303"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1528297/events/1528303"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1528296/events/1528303"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1530386.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

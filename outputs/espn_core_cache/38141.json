@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38141",
+  "id": "38141",
+  "guid": "6b18dad9-94f1-2f9b-590c-12eb40a876f7",
+  "uid": "s:200~a:38141",
+  "type": "cricket",
+  "name": "Jeetan Patel",
+  "firstName": "Jeetan",
+  "middleName": "",
+  "lastName": "Patel",
+  "shortName": "Patel",
+  "fullName": "Jeetan Shashi Patel",
+  "displayName": "Jeetan Patel",
+  "weight": 0,
+  "height": 0.0,
+  "age": 46,
+  "dateOfBirthStr": "1980-05-07T00:00Z",
+  "dateOfBirth": "1980-05-07T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "JS Patel",
+  "fieldingName": "Patel",
+  "country": 5,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1428"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2600"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/38141.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38141/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/212910/events/238206"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/238163/events/238206"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/216614/events/217648"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/144150/events/217648"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/212910/events/222678"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/238166/events/222678"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/212910/events/222678"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/238166/events/222678"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/38141.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

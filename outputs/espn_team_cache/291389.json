@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/291389",
+  "id": "291389",
+  "uid": "s:200~t:291389",
+  "location": "Sri Lanka",
+  "name": "Sri Lanka Cricket Academy",
+  "nickname": "Sri Lanka Cricket Academy",
+  "abbreviation": "SLAca",
+  "displayName": "Sri Lanka Cricket Academy",
+  "shortDisplayName": "SLAca",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "sri-lanka-cricket-academy",
+  "classes": [
+    "14",
+    "15"
+  ],
+  "event": {
+    "date": "2010-08-22T05:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/13155/events/463541"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/291389/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/291389/sri-lanka-cricket-academy",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/291389/sri-lanka-cricket-academy",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/260036",
+  "id": "260036",
+  "guid": "4beea899-b107-4493-fa02-26533d3de2a1",
+  "uid": "s:200~a:260036",
+  "type": "cricket",
+  "name": "Tanwir Afzal",
+  "firstName": "Tanwir",
+  "middleName": "",
+  "lastName": "Afzal",
+  "shortName": "Tanwir Afzal",
+  "fullName": "Tanwir Afzal",
+  "displayName": "Tanwir Afzal",
+  "weight": 0,
+  "height": 0.0,
+  "age": 38,
+  "dateOfBirthStr": "1988-06-12T00:00Z",
+  "dateOfBirth": "1988-06-12T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "Tanwir Afzal",
+  "fieldingName": "Tanwir Afzal",
+  "country": 19,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/19"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/220627"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2964"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/260036.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/19.png",
+    "width": 500,
+    "height": 500,
+    "alt": "HKG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/19"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/260036/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/736533/events/736497"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/736531/events/736497"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/736495/events/736497"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/628368/events/682899"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/696643/events/682899"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/696651/events/682899"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870903/events/870873"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870857/events/870873"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/696917/events/696703"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/696909/events/696703"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/681019/events/696703"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/660011/events/660103"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/660283/events/660103"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/660297/events/660103"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/259394/events/259398"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/259393/events/259398"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/260036.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

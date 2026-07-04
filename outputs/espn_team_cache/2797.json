@@ -1,0 +1,55 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2797",
+  "id": "2797",
+  "uid": "s:200~t:2797",
+  "location": "Pakistan",
+  "name": "Karachi Whites",
+  "nickname": "Karachi Whites",
+  "abbreviation": "KarWh",
+  "displayName": "Karachi Whites",
+  "shortDisplayName": "KarWh",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "PK",
+  "slug": "karachi-whites",
+  "classes": [
+    4,
+    5,
+    6
+  ],
+  "event": {
+    "date": "2018-12-24T06:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8660/events/1168563"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2797/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/2797/karachi-whites",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/2797/karachi-whites",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

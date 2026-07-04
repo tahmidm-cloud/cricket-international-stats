@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1121917",
+  "id": "1121917",
+  "uid": "s:200~t:1121917",
+  "location": "Kuwait",
+  "name": "Kuwait Crusaders",
+  "nickname": "Kuwait Crusaders",
+  "abbreviation": "KC",
+  "displayName": "Kuwait Crusaders",
+  "shortDisplayName": "KC",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "KW",
+  "slug": "kuwait-crusaders",
+  "classes": [
+    "16"
+  ],
+  "event": {
+    "date": "2017-10-04T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18061/events/1121991"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1121917/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1121917/kuwait-crusaders",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1121917/kuwait-crusaders",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

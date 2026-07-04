@@ -1,0 +1,55 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/287570",
+  "id": "287570",
+  "uid": "s:200~t:287570",
+  "location": "Zimbabwe",
+  "name": "Westerns",
+  "nickname": "Westerns",
+  "abbreviation": "West",
+  "displayName": "Westerns",
+  "shortDisplayName": "West",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZW",
+  "slug": "westerns",
+  "classes": [
+    4,
+    5,
+    6
+  ],
+  "event": {
+    "date": "2009-05-16T12:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8803/events/404148"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/287570/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/287570/westerns",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/287570/westerns",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

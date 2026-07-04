@@ -1,0 +1,132 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1076579",
+  "id": "1076579",
+  "guid": "dc02feee-9553-7fa7-0e55-7a5261728867",
+  "uid": "s:200~a:1076579",
+  "type": "cricket",
+  "name": "Mohammad Ishaq",
+  "firstName": "Mohammad",
+  "middleName": "",
+  "lastName": "Ishaq",
+  "shortName": "",
+  "fullName": "Mohammad Ishaq Shirzad",
+  "displayName": "Mohammad Ishaq",
+  "weight": 0,
+  "height": 0.0,
+  "age": 21,
+  "dateOfBirthStr": "2005-02-01T00:00Z",
+  "dateOfBirth": "2005-02-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "Mohammad Ishaq",
+  "fieldingName": "Mohammad Ishaq",
+  "country": 40,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/40"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/603606"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/228132"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1076100"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/40.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AFG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/40"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1076579/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1416071/events/1416079"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1416068/events/1416079"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1137686/events/1137711"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1151359/events/1151376"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1324545/events/1324552"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1160907/events/1160929"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1160908/events/1160929"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1160914/events/1160929"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1076579.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

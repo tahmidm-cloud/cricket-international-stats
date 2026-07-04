@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2104",
+  "id": "2104",
+  "uid": "s:200~t:2104",
+  "location": "India",
+  "name": "Southern Punjab",
+  "nickname": "Southern Punjab",
+  "abbreviation": "SPnjb",
+  "displayName": "Southern Punjab",
+  "shortDisplayName": "SPnjb",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "southern-punjab",
+  "classes": [
+    "4"
+  ],
+  "event": {
+    "date": "1967-12-19T03:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8050/events/1529833"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2104/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/2104/southern-punjab",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/2104/southern-punjab",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

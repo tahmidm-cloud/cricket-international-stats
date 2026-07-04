@@ -1,0 +1,141 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/297524",
+  "id": "297524",
+  "guid": "9f381dc7-966f-0bcb-ba10-244689352f3f",
+  "uid": "s:200~a:297524",
+  "type": "cricket",
+  "name": "David Murphy",
+  "firstName": "David",
+  "middleName": "",
+  "lastName": "Murphy",
+  "shortName": "Murphy",
+  "fullName": "David Murphy",
+  "displayName": "David Murphy",
+  "weight": 0,
+  "height": 0.0,
+  "age": 37,
+  "dateOfBirthStr": "1989-06-24T00:00Z",
+  "dateOfBirth": "1989-06-24T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "D Murphy",
+  "fieldingName": "Murphy",
+  "country": 30,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1128"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1128"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1221"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1222"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/297524.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/30.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SCOT",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/30"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/297524/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/518430/events/592270"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/592258/events/592270"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/592259/events/592270"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/592260/events/592272"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/592259/events/592272"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/592258/events/592272"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/382822/events/383226"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/435131/events/435613"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/435913/events/435613"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/435130/events/435747"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/297524.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

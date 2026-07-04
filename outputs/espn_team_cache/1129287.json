@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1129287",
+  "id": "1129287",
+  "uid": "s:200~t:1129287",
+  "location": "United Arab Emirates",
+  "name": "Punjabi Legends",
+  "nickname": "Punjabi Legends",
+  "abbreviation": "PL",
+  "displayName": "Punjabi Legends",
+  "shortDisplayName": "PL",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AE",
+  "slug": "punjabi-legends",
+  "classes": [
+    "16"
+  ],
+  "event": {
+    "date": "2018-11-29T16:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18522/events/1163326"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1129287.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1129287/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1129287/punjabi-legends",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1129287/punjabi-legends",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

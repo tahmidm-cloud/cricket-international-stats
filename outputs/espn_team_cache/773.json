@@ -1,0 +1,66 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/773",
+  "id": "773",
+  "uid": "s:200~t:773",
+  "location": "Denmark",
+  "name": "Denmark Under-19s",
+  "nickname": "Denmark Under-19s",
+  "abbreviation": "DEN19",
+  "displayName": "Denmark Under-19s",
+  "shortDisplayName": "DEN19",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "DK",
+  "slug": "denmark-under-19s",
+  "classes": [
+    21,
+    15
+  ],
+  "event": {
+    "date": "2019-08-01T09:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19421/events/1194319"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/773/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/773/denmark-under-19s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/773/denmark-under-19s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=824;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

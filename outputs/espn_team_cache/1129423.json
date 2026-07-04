@@ -1,0 +1,51 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1129423",
+  "id": "1129423",
+  "uid": "s:200~t:1129423",
+  "location": "Uganda",
+  "name": "Mighty Rhinos",
+  "nickname": "Mighty Rhinos",
+  "abbreviation": "MR",
+  "displayName": "Mighty Rhinos",
+  "shortDisplayName": "MR",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "UG",
+  "slug": "mighty-rhinos",
+  "classes": [],
+  "event": {
+    "date": "2017-12-29T09:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18523/events/1129604"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1129423/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1129423/mighty-rhinos",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1129423/mighty-rhinos",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

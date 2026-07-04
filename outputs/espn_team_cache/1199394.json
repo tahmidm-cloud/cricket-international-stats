@@ -1,0 +1,63 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1199394",
+  "id": "1199394",
+  "uid": "s:200~t:1199394",
+  "location": "Pakistan",
+  "name": "Northern (Pakistan)",
+  "nickname": "Northern (Pakistan)",
+  "abbreviation": "NORTH",
+  "displayName": "Northern (Pakistan)",
+  "shortDisplayName": "NORTH",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "PK",
+  "slug": "northern-pakistan",
+  "classes": [
+    4,
+    5,
+    6
+  ],
+  "event": {
+    "date": "2022-12-29T05:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/17924/events/1349075"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1199394.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1199394/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1199394/northern-pakistan",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1199394/northern-pakistan",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

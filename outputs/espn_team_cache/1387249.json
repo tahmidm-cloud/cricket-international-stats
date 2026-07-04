@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1387249",
+  "id": "1387249",
+  "uid": "s:200~t:1387249",
+  "location": "Canada",
+  "name": "Surrey Jaguars",
+  "nickname": "Surrey Jaguars",
+  "abbreviation": "SUJ",
+  "displayName": "Surrey Jaguars",
+  "shortDisplayName": "SUJ",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "CA",
+  "slug": "surrey-jaguars",
+  "classes": [
+    "16"
+  ],
+  "event": {
+    "date": "2024-08-06T20:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18746/events/1443998"
+  },
+  "color": "#a206b7",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1387249.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1387249/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1387249/surrey-jaguars",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1387249/surrey-jaguars",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

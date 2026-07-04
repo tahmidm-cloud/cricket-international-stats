@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/345450",
+  "id": "345450",
+  "uid": "s:200~t:345450",
+  "location": "Sri Lanka",
+  "name": "Schools Invitation XI",
+  "nickname": "Schools Invitation XI",
+  "abbreviation": "SchIn",
+  "displayName": "Schools Invitation XI",
+  "shortDisplayName": "SchIn",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "schools-invitation-xi",
+  "classes": [
+    "6"
+  ],
+  "event": {
+    "date": "2009-03-31T04:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8673/events/385773"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/345450/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/345450/schools-invitation-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/345450/schools-invitation-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

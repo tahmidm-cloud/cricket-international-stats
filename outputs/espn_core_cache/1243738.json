@@ -1,0 +1,132 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1243738",
+  "id": "1243738",
+  "guid": "5429a756-3b3e-3248-bb5f-82dcca0ffb8e",
+  "uid": "s:200~a:1243738",
+  "type": "cricket",
+  "name": "Mitchell Hay",
+  "firstName": "Mitchell",
+  "middleName": "",
+  "lastName": "Hay",
+  "shortName": "Hay",
+  "fullName": "Mitchell James Hay",
+  "displayName": "Mitchell Hay",
+  "weight": 0,
+  "height": 0.0,
+  "age": 25,
+  "dateOfBirthStr": "2000-08-20T00:00Z",
+  "dateOfBirth": "2000-08-20T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "MJ Hay",
+  "fieldingName": "Hay",
+  "country": 5,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2469"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1243738/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1472510/events/1491733"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1491681/events/1491733"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1491684/events/1491733"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1456440/events/1456443"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1456439/events/1456443"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1456438/events/1456441"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1456440/events/1456441"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1279954/events/1280010"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1234905/events/1234943"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1289602/events/1289609"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1243738.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

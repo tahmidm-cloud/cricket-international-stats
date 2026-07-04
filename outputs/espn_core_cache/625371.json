@@ -1,0 +1,158 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/625371",
+  "id": "625371",
+  "guid": "345443cf-9d44-d113-d69e-dbde2a4564e6",
+  "uid": "s:200~a:625371",
+  "type": "cricket",
+  "name": "Hardik Pandya",
+  "firstName": "Hardik",
+  "middleName": "",
+  "lastName": "Pandya",
+  "shortName": "Hardik",
+  "fullName": "Hardik Himanshu Pandya",
+  "displayName": "Hardik Pandya",
+  "weight": 0,
+  "height": 0.0,
+  "age": 32,
+  "dateOfBirthStr": "1993-10-11T00:00Z",
+  "dateOfBirth": "1993-10-11T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "HH Pandya",
+  "fieldingName": "Pandya",
+  "country": 6,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/471342"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1559"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1298769"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1781"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1786"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335978"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/625371.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/625371/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1109595/events/1109602"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1109590/events/1109602"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1030193/events/1030219"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1030211/events/1030219"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/895801/events/895817"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/895805/events/895817"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/649131/events/649271"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/775447/events/775913"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/576166/events/576225"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/625371.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

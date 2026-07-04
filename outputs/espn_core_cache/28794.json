@@ -1,0 +1,174 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/28794",
+  "id": "28794",
+  "guid": "5e964f78-923d-d8ac-fdf9-f6387d93e8eb",
+  "uid": "s:200~a:28794",
+  "type": "cricket",
+  "name": "Sunil Gavaskar",
+  "firstName": "Sunil",
+  "middleName": "",
+  "lastName": "Gavaskar",
+  "shortName": "Gavaskar",
+  "fullName": "Sunil Manohar Gavaskar",
+  "displayName": "Sunil Gavaskar",
+  "weight": 0,
+  "height": 5.05,
+  "age": 76,
+  "dateOfBirthStr": "1949-07-10T00:00Z",
+  "dateOfBirth": "1949-07-10T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "SM Gavaskar",
+  "fieldingName": "Gavaskar",
+  "country": 6,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/30950"
+      },
+      "relation": "Uncle"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/35712"
+      },
+      "relation": "Brother-in-law"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/28792"
+      },
+      "relation": "Son"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/917051"
+      },
+      "relation": "Nephew"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1603"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1333"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/28794/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62312/events/63067"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60434/events/63067"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60603/events/63637"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61748/events/63637"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60789/events/64951"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62274/events/64951"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60951/events/64446"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61748/events/64446"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/28794.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

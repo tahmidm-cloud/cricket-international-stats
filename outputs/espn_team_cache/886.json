@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/886",
+  "id": "886",
+  "uid": "s:200~t:886",
+  "location": "England",
+  "name": "Combined Universities",
+  "nickname": "Combined Universities",
+  "abbreviation": "CUniv",
+  "displayName": "Combined Universities",
+  "shortDisplayName": "CUniv",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "combined-universities",
+  "classes": [
+    4,
+    5
+  ],
+  "event": {
+    "date": "1995-05-16T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8642/events/491619"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/886/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/886/combined-universities",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/886/combined-universities",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

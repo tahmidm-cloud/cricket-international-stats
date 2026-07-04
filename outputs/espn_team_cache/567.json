@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/567",
+  "id": "567",
+  "uid": "s:200~t:567",
+  "location": "Australia",
+  "name": "Tasmania Under-17s",
+  "nickname": "Tasmania Under-17s",
+  "abbreviation": "Tas",
+  "displayName": "Tasmania Under-17s",
+  "shortDisplayName": "Tas",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AU",
+  "slug": "tasmania-under-17s",
+  "classes": [
+    "14",
+    "15"
+  ],
+  "event": {
+    "date": "2010-01-13T00:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8698/events/437231"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/567/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/567/tasmania-under-17s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/567/tasmania-under-17s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

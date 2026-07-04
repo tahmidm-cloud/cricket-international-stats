@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1192",
+  "id": "1192",
+  "uid": "s:200~t:1192",
+  "location": "England",
+  "name": "Middlesex Cricket Board",
+  "nickname": "Middlesex Cricket Board",
+  "abbreviation": "",
+  "displayName": "Middlesex Cricket Board",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "middlesex-cricket-board",
+  "classes": [
+    "5"
+  ],
+  "event": {
+    "date": "2002-09-12T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8629/events/368924"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1192/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1192/middlesex-cricket-board",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1192/middlesex-cricket-board",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

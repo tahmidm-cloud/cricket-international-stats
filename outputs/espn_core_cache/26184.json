@@ -1,0 +1,157 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/26184",
+  "id": "26184",
+  "guid": "2cafb566-280f-c4a0-dfd4-6b49f872268f",
+  "uid": "s:200~a:26184",
+  "type": "cricket",
+  "name": "Ajit Agarkar",
+  "firstName": "Ajit",
+  "middleName": "",
+  "lastName": "Agarkar",
+  "shortName": "Agarkar",
+  "fullName": "Ajit Bhalchandra Agarkar",
+  "displayName": "Ajit Agarkar",
+  "weight": 0,
+  "height": 0.0,
+  "age": 48,
+  "dateOfBirthStr": "1977-12-04T00:00Z",
+  "dateOfBirth": "1977-12-04T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast",
+      "shortDescription": "Rf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "AB Agarkar",
+  "fieldingName": "Agarkar",
+  "country": 6,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335975"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335971"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1190"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1603"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/26184/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62306/events/63813"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60665/events/63813"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61024/events/66137"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61431/events/66137"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/255953/events/255954"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/249039/events/255954"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/255953/events/255954"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/249039/events/255954"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327183/events/327187"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327182/events/327187"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327184/events/327190"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327182/events/327190"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/26184.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

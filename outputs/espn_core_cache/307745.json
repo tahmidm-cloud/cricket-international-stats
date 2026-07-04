@@ -1,0 +1,130 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/307745",
+  "id": "307745",
+  "guid": "81c9912e-77e9-fb72-e5d5-7c3527bdcad2",
+  "uid": "s:200~a:307745",
+  "type": "cricket",
+  "name": "Nopphon Senamontree",
+  "firstName": "Nopphon",
+  "middleName": "",
+  "lastName": "Senamontree",
+  "shortName": "",
+  "fullName": "Nopphon Senamontree",
+  "displayName": "Nopphon Senamontree",
+  "weight": 0,
+  "height": 0.0,
+  "age": 35,
+  "dateOfBirthStr": "1991-04-28T00:00Z",
+  "dateOfBirth": "1991-04-28T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Slow left-arm orthodox",
+      "shortDescription": "Sla",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "N Senamontree",
+  "fieldingName": "Senamontree",
+  "country": 156,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/156"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3655"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/387517"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3656"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/156.png",
+    "width": 500,
+    "height": 500,
+    "alt": "THA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/156"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/307745/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1217732/events/1217738"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1217733/events/1217738"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1217732/events/1217738"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1217733/events/1217738"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/307745.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

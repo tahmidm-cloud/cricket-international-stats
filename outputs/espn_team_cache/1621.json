@@ -1,0 +1,55 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1621",
+  "id": "1621",
+  "uid": "s:200~t:1621",
+  "location": "India",
+  "name": "Bengal Cricket Association XI",
+  "nickname": "Bengal Cricket Association XI",
+  "abbreviation": "CABXI",
+  "displayName": "Bengal Cricket Association XI",
+  "shortDisplayName": "CABXI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "bengal-cricket-association-xi",
+  "classes": [
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2011-08-23T03:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8705/events/527158"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1621/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1621/bengal-cricket-association-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1621/bengal-cricket-association-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

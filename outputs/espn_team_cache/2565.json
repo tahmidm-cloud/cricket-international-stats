@@ -1,0 +1,66 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2565",
+  "id": "2565",
+  "uid": "s:200~t:2565",
+  "location": "New Zealand",
+  "name": "New Zealand XI",
+  "nickname": "New Zealand XI",
+  "abbreviation": "NZ-XI",
+  "displayName": "New Zealand XI",
+  "shortDisplayName": "NZ-XI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "NZ",
+  "slug": "new-zealand-xi",
+  "classes": [
+    4,
+    5,
+    6,
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2025-11-25T22:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/23727/events/1491731"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2565.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2565/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/2565/new-zealand-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/2565/new-zealand-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/232730",
+  "id": "232730",
+  "guid": "ae3ddcf1-35b8-e822-4b09-157c15a81442",
+  "uid": "s:200~a:232730",
+  "type": "cricket",
+  "name": "James Hall",
+  "firstName": "James",
+  "middleName": "",
+  "lastName": "Hall",
+  "shortName": "Hall",
+  "fullName": "James Douglas Hall",
+  "displayName": "James Hall",
+  "weight": 0,
+  "height": 0.0,
+  "age": 37,
+  "dateOfBirthStr": "1988-10-19T00:00Z",
+  "dateOfBirth": "1988-10-19T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "JD Hall",
+  "fieldingName": "Hall",
+  "country": 29,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/29"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2230"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/232730.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/29.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IRE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/29"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/232730/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/449745/events/450371"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/450368/events/450371"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/450369/events/450371"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/408325/events/438896"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/464719/events/438896"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/319688/events/319818"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/344411/events/319818"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/309668/events/309678"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/309701/events/309678"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/223559/events/309678"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/232730.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

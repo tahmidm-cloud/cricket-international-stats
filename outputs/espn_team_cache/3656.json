@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3656",
+  "id": "3656",
+  "uid": "s:200~t:3656",
+  "location": "Thailand",
+  "name": "Thailand Under-19s",
+  "nickname": "Thailand Under-19s",
+  "abbreviation": "Tha19",
+  "displayName": "Thailand Under-19s",
+  "shortDisplayName": "Tha19",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "TH",
+  "slug": "thailand-under-19s",
+  "classes": [
+    15
+  ],
+  "event": {
+    "date": "2022-10-04T05:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19037/events/1337089"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3656.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3656/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3656/thailand-under-19s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3656/thailand-under-19s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

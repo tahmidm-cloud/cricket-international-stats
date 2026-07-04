@@ -1,0 +1,175 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/56056",
+  "id": "56056",
+  "guid": "737db63e-a4b0-32a1-704b-1f3bae685692",
+  "uid": "s:200~a:56056",
+  "type": "cricket",
+  "name": "Nazmul Hossain",
+  "firstName": "Nazmul",
+  "middleName": "",
+  "lastName": "Hossain",
+  "shortName": "Nazmul",
+  "fullName": "Mohammad Nazmul Hossain",
+  "displayName": "Nazmul Hossain",
+  "weight": 0,
+  "height": 0.0,
+  "age": 38,
+  "dateOfBirthStr": "1987-10-05T00:00Z",
+  "dateOfBirth": "1987-10-05T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "Nazmul Hossain",
+  "fieldingName": "Nazmul Hossain",
+  "country": 25,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/668"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/672"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/663"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/718"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/549989"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/56056.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/25.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/56056/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62350/events/64112"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60774/events/64112"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61157/events/66199"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61811/events/66199"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62176/events/66199"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/401064/events/401076"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/380896/events/401076"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60774/events/64112"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62350/events/64112"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62176/events/66199"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61811/events/66199"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61157/events/66199"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/353228/events/353230"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327784/events/327786"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327783/events/327786"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/125288/events/330036"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/330017/events/330036"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/56056.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

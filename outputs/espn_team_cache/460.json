@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/460",
+  "id": "460",
+  "uid": "s:200~t:460",
+  "location": "Australia",
+  "name": "Queensland Second XI",
+  "nickname": "Queensland Second XI",
+  "abbreviation": "QLD2",
+  "displayName": "Queensland Second XI",
+  "shortDisplayName": "QLD2",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "AU",
+  "slug": "queensland-second-xi",
+  "classes": [
+    "14",
+    "16"
+  ],
+  "event": {
+    "date": "2020-02-24T00:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19591/events/1202179"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/460/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/460/queensland-second-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/460/queensland-second-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

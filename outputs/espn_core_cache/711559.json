@@ -1,0 +1,150 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/711559",
+  "id": "711559",
+  "guid": "c1ac5d49-2781-ac72-a22b-a9d3ac75225a",
+  "uid": "s:200~a:711559",
+  "type": "cricket",
+  "name": "Usman Ghani",
+  "firstName": "Usman",
+  "middleName": "",
+  "lastName": "Ghani",
+  "shortName": "Ghani",
+  "fullName": "Usman Ghani",
+  "displayName": "Usman Ghani",
+  "weight": 0,
+  "height": 0.0,
+  "age": 29,
+  "dateOfBirthStr": "1996-11-20T00:00Z",
+  "dateOfBirth": "1996-11-20T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "Usman Ghani",
+  "fieldingName": "Usman Ghani",
+  "country": 40,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/40"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/228132"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/942837"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/789647"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/711559.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/40.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AFG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/40"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/711559/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/736531/events/736497"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/736533/events/736497"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/736495/events/736497"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/924625/events/924637"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/924621/events/924637"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1124055/events/1124066"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/736495/events/736497"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/736531/events/736497"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/736533/events/736497"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/924625/events/924637"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/924621/events/924637"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/701103/events/700341"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/700273/events/700341"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/701101/events/700341"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/711559.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

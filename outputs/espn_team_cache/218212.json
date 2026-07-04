@@ -1,0 +1,88 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/218212",
+  "id": "218212",
+  "uid": "s:200~t:218212",
+  "location": "Mali",
+  "name": "Mali",
+  "nickname": "Mali",
+  "abbreviation": "Mali",
+  "displayName": "Mali",
+  "shortDisplayName": "Mali",
+  "isNational": true,
+  "isActive": true,
+  "countryCode": "ML",
+  "slug": "mali",
+  "classes": [
+    3
+  ],
+  "event": {
+    "date": "2026-05-30T07:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20446/events/1535431"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20446"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/218212.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/218212/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/218212/mali",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/218212/mali",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=4084;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "players",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/country.html?country=4084",
+      "text": "Players",
+      "shortText": "Players",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

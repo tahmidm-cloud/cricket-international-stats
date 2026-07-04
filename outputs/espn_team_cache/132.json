@@ -1,0 +1,90 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/132",
+  "id": "132",
+  "uid": "s:200~t:132",
+  "location": "Panama",
+  "name": "Panama",
+  "nickname": "Panama",
+  "abbreviation": "PAN",
+  "displayName": "Panama",
+  "shortDisplayName": "PAN",
+  "isNational": true,
+  "isActive": true,
+  "countryCode": "PA",
+  "slug": "panama",
+  "classes": [
+    3,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2026-06-25T13:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/24527/events/1539735"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/24527"
+  },
+  "color": "#c00c0c",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/132.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/132/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/132/panama",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/132/panama",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=183;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "players",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/country.html?country=183",
+      "text": "Players",
+      "shortText": "Players",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

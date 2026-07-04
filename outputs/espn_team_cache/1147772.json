@@ -1,0 +1,65 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1147772",
+  "id": "1147772",
+  "uid": "s:200~t:1147772",
+  "location": "Nepal",
+  "name": "Koshi Province",
+  "nickname": "Koshi Province",
+  "abbreviation": "KP",
+  "displayName": "Koshi Province",
+  "shortDisplayName": "KP",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "NP",
+  "slug": "koshi-province",
+  "classes": [
+    15,
+    16
+  ],
+  "event": {
+    "date": "2026-04-13T03:45Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/11132/events/1527970"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/11132"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1147772.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1147772/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1147772/koshi-province",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1147772/koshi-province",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

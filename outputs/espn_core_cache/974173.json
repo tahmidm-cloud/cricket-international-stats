@@ -1,0 +1,151 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/974173",
+  "id": "974173",
+  "guid": "9801846b-cf21-fe69-3b94-c88323aae93b",
+  "uid": "s:200~a:974173",
+  "type": "cricket",
+  "name": "Abdul Wasi",
+  "firstName": "Abdul",
+  "middleName": "",
+  "lastName": "Wasi",
+  "shortName": "Abdul Wasi",
+  "fullName": "Abdul Wasi Noori",
+  "displayName": "Abdul Wasi",
+  "weight": 0,
+  "height": 0.0,
+  "age": 23,
+  "dateOfBirthStr": "2002-07-06T00:00Z",
+  "dateOfBirth": "2002-07-06T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "Abdul Wasi",
+  "fieldingName": "Abdul Wasi",
+  "country": 40,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/40"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1088912"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/789649"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/775635"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/973739"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/776157"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/40.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AFG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/40"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/974173/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1252051/events/1252056"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1252053/events/1252056"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1252054/events/1252056"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1137686/events/1137689"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1151359/events/1151362"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1202450/events/1202463"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1125938/events/1125956"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1125939/events/1125956"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1125930/events/1125956"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/974173.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

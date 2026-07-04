@@ -1,0 +1,105 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1046629",
+  "id": "1046629",
+  "guid": "7a9fdd96-47c3-b844-fa4a-fd0e66d09e89",
+  "uid": "s:200~a:1046629",
+  "type": "cricket",
+  "name": "Eitamar Kahamker",
+  "firstName": "Eitamar",
+  "middleName": "",
+  "lastName": "Kahamker",
+  "shortName": "",
+  "fullName": "Eitamar Kahamker",
+  "displayName": "Eitamar Kahamker",
+  "weight": 0,
+  "height": 0,
+  "age": 33,
+  "dateOfBirthStr": "1992-07-20T00:00Z",
+  "dateOfBirth": "1992-07-20T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [],
+  "styles": [],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "E Kahamker",
+  "fieldingName": "Kahamker",
+  "country": 22,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/22"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/22.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ISR",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/22"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1046629/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1320967/events/1320972"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1320968/events/1320972"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1320959/events/1320972"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1320959/events/1320972"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1320967/events/1320972"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1320968/events/1320972"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1046629.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

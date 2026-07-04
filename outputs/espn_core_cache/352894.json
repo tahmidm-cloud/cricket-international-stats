@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/352894",
+  "id": "352894",
+  "guid": "40ea5b36-bb0f-7d1c-bb8a-b8f23792f365",
+  "uid": "s:200~a:352894",
+  "type": "cricket",
+  "name": "Seren Waters",
+  "firstName": "Seren",
+  "middleName": "",
+  "lastName": "Waters",
+  "shortName": "Waters",
+  "fullName": "Seren Robert Waters",
+  "displayName": "Seren Waters",
+  "weight": 0,
+  "height": 6.0,
+  "age": 36,
+  "dateOfBirthStr": "1990-04-11T00:00Z",
+  "dateOfBirth": "1990-04-11T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "SR Waters",
+  "fieldingName": "Waters",
+  "country": 26,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/26"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/928"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/10032"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1359"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/352894.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/26.png",
+    "width": 500,
+    "height": 500,
+    "alt": "KENYA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/26"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/352894/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325552/events/325582"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325553/events/325582"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/292158/events/325566"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325552/events/325566"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325552/events/325582"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325553/events/325582"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/352894.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

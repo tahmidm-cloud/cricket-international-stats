@@ -1,0 +1,65 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1420",
+  "id": "1420",
+  "uid": "s:200~t:1420",
+  "location": "Wales",
+  "name": "Wales",
+  "nickname": "Wales",
+  "abbreviation": "Wales",
+  "displayName": "Wales",
+  "shortDisplayName": "Wales",
+  "isNational": true,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "wales",
+  "classes": [
+    15
+  ],
+  "event": {
+    "date": "2004-06-19T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18223/events/139570"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1420/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1420/wales",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1420/wales",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "players",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/country.html?country=1471",
+      "text": "Players",
+      "shortText": "Players",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

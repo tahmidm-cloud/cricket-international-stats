@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/6056",
+  "id": "6056",
+  "guid": "d614d338-f288-18e8-276b-70a0d9d5c7a0",
+  "uid": "s:200~a:6056",
+  "type": "cricket",
+  "name": "Brendon Julian",
+  "firstName": "Brendon",
+  "middleName": "",
+  "lastName": "Julian",
+  "shortName": "Julian",
+  "fullName": "Brendon Paul Julian",
+  "displayName": "Brendon Julian",
+  "weight": 0,
+  "height": 0.0,
+  "age": 55,
+  "dateOfBirthStr": "1970-08-10T00:00Z",
+  "dateOfBirth": "1970-08-10T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm fast-medium",
+      "shortDescription": "Lfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm fast-medium",
+      "shortDescription": "Lfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "BP Julian",
+  "fieldingName": "Julian",
+  "country": 2,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1358"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/602"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/6056/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61338/events/63609"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60594/events/63609"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61338/events/65010"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60942/events/65010"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325648/events/325694"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325542/events/325694"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325646/events/325690"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325542/events/325690"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/6056.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

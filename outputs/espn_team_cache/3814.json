@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3814",
+  "id": "3814",
+  "uid": "s:200~t:3814",
+  "location": "West Indies",
+  "name": "West Indies Under-23s",
+  "nickname": "West Indies Under-23s",
+  "abbreviation": "",
+  "displayName": "West Indies Under-23s",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "west-indies-under-23s",
+  "classes": [
+    4
+  ],
+  "event": {
+    "date": "2000-04-27T14:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/15689/events/90718"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3814.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3814/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3814/west-indies-under-23s",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3814/west-indies-under-23s",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

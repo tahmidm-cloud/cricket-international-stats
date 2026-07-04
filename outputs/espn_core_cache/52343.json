@@ -1,0 +1,154 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52343",
+  "id": "52343",
+  "guid": "1b5bc357-810d-1e8f-6740-c19257c7e962",
+  "uid": "s:200~a:52343",
+  "type": "cricket",
+  "name": "Rawl Lewis",
+  "firstName": "Rawl",
+  "middleName": "",
+  "lastName": "Lewis",
+  "shortName": "Lewis",
+  "fullName": "Rawl Nicholas Lewis",
+  "displayName": "Rawl Lewis",
+  "weight": 0,
+  "height": 0.0,
+  "age": 51,
+  "dateOfBirthStr": "1974-09-05T00:00Z",
+  "dateOfBirth": "1974-09-05T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak googly",
+      "shortDescription": "Lbg",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "RN Lewis",
+  "fieldingName": "Lewis",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3741"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3789"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3821"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52343/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61920/events/63772"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60651/events/63772"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61014/events/66124"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61633/events/66124"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61920/events/66124"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/298790/events/298804"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/287844/events/298804"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/228881/events/252976"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326547/events/326553"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326548/events/326553"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326549/events/326554"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/326547/events/326554"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/52343.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

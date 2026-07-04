@@ -1,0 +1,148 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/56032",
+  "id": "56032",
+  "guid": "244957f3-f8cb-b07f-958d-ddd5456dc08a",
+  "uid": "s:200~a:56032",
+  "type": "cricket",
+  "name": "Mahbubul Alam",
+  "firstName": "Mahbubul",
+  "middleName": "",
+  "lastName": "Alam",
+  "shortName": "Mahbubul",
+  "fullName": "Mahbubul Alam",
+  "displayName": "Mahbubul Alam",
+  "weight": 0,
+  "height": 0.0,
+  "age": 42,
+  "dateOfBirthStr": "1983-12-01T00:00Z",
+  "dateOfBirth": "1983-12-01T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium-fast",
+      "shortDescription": "Rmf",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL",
+    "id": "BL",
+    "name": "Bowler",
+    "abbreviation": "BL",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BL"
+    }
+  },
+  "battingName": "Mahbubul Alam",
+  "fieldingName": "Mahbubul Alam",
+  "country": 25,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/668"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/271443"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/682"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/549986"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/683"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/430685"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/25.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/56032/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/361750/events/361759"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/361752/events/361759"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/378739/events/378753"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/378748/events/378753"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/431660/events/431673"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/431661/events/431703"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/353228/events/353230"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/56032.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

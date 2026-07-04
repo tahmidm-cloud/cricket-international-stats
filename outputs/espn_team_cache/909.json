@@ -1,0 +1,64 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/909",
+  "id": "909",
+  "uid": "s:200~t:909",
+  "location": "England",
+  "name": "Devon",
+  "nickname": "Devon",
+  "abbreviation": "Devon",
+  "displayName": "Devon",
+  "shortDisplayName": "Devon",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "devon",
+  "classes": [
+    5,
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2022-08-21T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20128/events/1317225"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/909.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/909/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/909/devon",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/909/devon",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

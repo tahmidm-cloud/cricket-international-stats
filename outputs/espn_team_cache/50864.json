@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/50864",
+  "id": "50864",
+  "uid": "s:200~t:50864",
+  "location": "Sri Lanka",
+  "name": "Dharmaraja College",
+  "nickname": "Dharmaraja College",
+  "abbreviation": "Dharm",
+  "displayName": "Dharmaraja College",
+  "shortDisplayName": "Dharm",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "dharmaraja-college",
+  "classes": [
+    "16"
+  ],
+  "event": {
+    "date": "2015-10-09T04:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8811/events/923429"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/50864/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/50864/dharmaraja-college",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/50864/dharmaraja-college",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

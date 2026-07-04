@@ -1,0 +1,137 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/21502",
+  "id": "21502",
+  "guid": "d0d9adb4-77e1-1884-496c-872a0f941d04",
+  "uid": "s:200~a:21502",
+  "type": "cricket",
+  "name": "Paul Terry",
+  "firstName": "Paul",
+  "middleName": "",
+  "lastName": "Terry",
+  "shortName": "Terry",
+  "fullName": "Vivian Paul Terry",
+  "displayName": "Paul Terry",
+  "weight": 0,
+  "height": 6.0,
+  "age": 67,
+  "dateOfBirthStr": "1959-01-14T00:00Z",
+  "dateOfBirth": "1959-01-14T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "VP Terry",
+  "fieldingName": "Terry",
+  "country": 1,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/467420"
+      },
+      "relation": "Son"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1051"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/21502/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61869/events/63377"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60519/events/63377"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/323983/events/324994"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/323981/events/324994"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/323793/events/323801"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/323893/events/323801"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/21502.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

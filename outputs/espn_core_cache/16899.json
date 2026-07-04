@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/16899",
+  "id": "16899",
+  "guid": "b96c77b9-a79f-04bb-a522-77cf57cbc38c",
+  "uid": "s:200~a:16899",
+  "type": "cricket",
+  "name": "Vic Marks",
+  "firstName": "Vic",
+  "middleName": "",
+  "lastName": "Marks",
+  "shortName": "Marks",
+  "fullName": "Victor James Marks",
+  "displayName": "Vic Marks",
+  "weight": 0,
+  "height": 5.09,
+  "age": 71,
+  "dateOfBirthStr": "1955-06-25T00:00Z",
+  "dateOfBirth": "1955-06-25T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "VJ Marks",
+  "fieldingName": "Marks",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/292457"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1333"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/602"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/16899/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61453/events/63319"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60503/events/63319"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60809/events/64966"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61870/events/64966"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324973/events/324975"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324972/events/324975"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/16899.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

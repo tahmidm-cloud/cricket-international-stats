@@ -1,0 +1,164 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/303437",
+  "id": "303437",
+  "guid": "65460d26-eaa8-3275-e8ab-7424c7a88fbb",
+  "uid": "s:200~a:303437",
+  "type": "cricket",
+  "name": "James Shannon",
+  "firstName": "James",
+  "middleName": "",
+  "lastName": "Shannon",
+  "shortName": "Shannon",
+  "fullName": "James Norman Knight Shannon",
+  "displayName": "James Shannon",
+  "weight": 0,
+  "height": 0.0,
+  "age": 36,
+  "dateOfBirthStr": "1990-02-12T00:00Z",
+  "dateOfBirth": "1990-02-12T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "JNK Shannon",
+  "fieldingName": "Shannon",
+  "country": 29,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/417408"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/29"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/865"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2227"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2228"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2230"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/303437.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/29.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IRE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/29"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/303437/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/601611/events/601613"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/578646/events/601613"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/660011/events/660235"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/660279/events/660235"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/657629/events/660235"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/566528/events/566539"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/566528/events/566541"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/592253/events/592265"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/592252/events/592265"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/316944/events/316974"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/288278/events/316974"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/316948/events/316974"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/303437.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

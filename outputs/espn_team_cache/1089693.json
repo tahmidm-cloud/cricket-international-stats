@@ -1,0 +1,61 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1089693",
+  "id": "1089693",
+  "uid": "s:200~t:1089693",
+  "location": "Nepal",
+  "name": "Dhangadhi Stars",
+  "nickname": "Dhangadhi Stars",
+  "abbreviation": "DS",
+  "displayName": "Dhangadhi Stars",
+  "shortDisplayName": "DS",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "NP",
+  "slug": "dhangadhi-stars",
+  "classes": [
+    "16"
+  ],
+  "event": {
+    "date": "2019-02-18T03:15Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/17913/events/1173334"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1089693.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1089693/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1089693/dhangadhi-stars",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1089693/dhangadhi-stars",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

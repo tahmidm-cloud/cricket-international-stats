@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1369678",
+  "id": "1369678",
+  "guid": "087a1019-192d-36b8-9c68-bc1894f347fe",
+  "uid": "s:200~a:1369678",
+  "type": "cricket",
+  "name": "Parvindar Kumar",
+  "firstName": "Parvindar",
+  "middleName": "",
+  "lastName": "Kumar",
+  "shortName": "",
+  "fullName": "Parvindar Kumar",
+  "displayName": "Parvindar Kumar",
+  "weight": 0,
+  "height": 0.0,
+  "age": 36,
+  "dateOfBirthStr": "1989-12-20T00:00Z",
+  "dateOfBirth": "1989-12-20T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Parvindar Kumar",
+  "fieldingName": "Parvindar Kumar",
+  "country": 38,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/38"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/38.png",
+    "width": 500,
+    "height": 500,
+    "alt": "KUW",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/38"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1369678/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1392790/events/1392802"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1392792/events/1392802"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1392788/events/1392802"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1392788/events/1392802"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1392790/events/1392802"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1392792/events/1392802"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1369678.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

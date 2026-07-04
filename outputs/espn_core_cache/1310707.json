@@ -1,0 +1,127 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1310707",
+  "id": "1310707",
+  "guid": "5d6c3964-ee81-31cf-9be4-1400622e132b",
+  "uid": "s:200~a:1310707",
+  "type": "cricket",
+  "name": "Thilina Hewa",
+  "firstName": "Thilina",
+  "middleName": "",
+  "lastName": "Hewa",
+  "shortName": "Hewa",
+  "fullName": "Thilina Hewa",
+  "displayName": "Thilina Hewa",
+  "weight": 0,
+  "height": 0.0,
+  "age": 33,
+  "dateOfBirthStr": "1993-03-18T00:00Z",
+  "dateOfBirth": "1993-03-18T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm medium",
+      "shortDescription": "Lm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm medium",
+      "shortDescription": "Lm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "T Hewa",
+  "fieldingName": "Hewa",
+  "country": 39,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/39"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/39.png",
+    "width": 500,
+    "height": 500,
+    "alt": "CAY",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/39"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1310707/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1359779/events/1359795"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1359782/events/1359795"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1359778/events/1359795"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1359778/events/1359795"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1359779/events/1359795"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1359782/events/1359795"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1310707.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

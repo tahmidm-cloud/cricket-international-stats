@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/663413",
+  "id": "663413",
+  "guid": "62b3c272-cd73-babd-4a41-cc0439775784",
+  "uid": "s:200~a:663413",
+  "type": "cricket",
+  "name": "Amjad Khan",
+  "firstName": "Amjad",
+  "middleName": "",
+  "lastName": "Khan",
+  "shortName": "Amjad Khan",
+  "fullName": "Amjad Gul Khan",
+  "displayName": "Amjad Khan",
+  "weight": 0,
+  "height": 0.0,
+  "age": 37,
+  "dateOfBirthStr": "1989-02-25T00:00Z",
+  "dateOfBirth": "1989-02-25T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Amjad Khan",
+  "fieldingName": "Amjad Khan",
+  "country": 27,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1121918"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/27.png",
+    "width": 500,
+    "height": 500,
+    "alt": "UAE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/663413/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/930509/events/930573"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/942823/events/930573"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/638943/events/638932"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/638946/events/638932"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/638924/events/638932"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/930509/events/930573"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/942823/events/930573"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/663413.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

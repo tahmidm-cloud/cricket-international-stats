@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/549989",
+  "id": "549989",
+  "uid": "s:200~t:549989",
+  "location": "Bangladesh",
+  "name": "Sylhet Royals",
+  "nickname": "Sylhet Royals",
+  "abbreviation": "Royal",
+  "displayName": "Sylhet Royals",
+  "shortDisplayName": "Royal",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "BD",
+  "slug": "sylhet-royals",
+  "classes": [
+    6
+  ],
+  "event": {
+    "date": "2013-02-18T12:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8653/events/605286"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/549989/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/549989/sylhet-royals",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/549989/sylhet-royals",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

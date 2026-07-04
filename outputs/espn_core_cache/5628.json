@@ -1,0 +1,145 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/5628",
+  "id": "5628",
+  "guid": "97d2b3f2-637c-8e7d-5804-12289b74d405",
+  "uid": "s:200~a:5628",
+  "type": "cricket",
+  "name": "Ian Healy",
+  "firstName": "Ian",
+  "middleName": "",
+  "lastName": "Healy",
+  "shortName": "Healy",
+  "fullName": "Ian Andrew Healy",
+  "displayName": "Ian Healy",
+  "weight": 0,
+  "height": 0.0,
+  "age": 62,
+  "dateOfBirthStr": "1964-04-30T00:00Z",
+  "dateOfBirth": "1964-04-30T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "IA Healy",
+  "fieldingName": "Healy",
+  "country": 2,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/5747"
+      },
+      "relation": "Brother"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/774215"
+      },
+      "relation": "Son"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/275486"
+      },
+      "relation": "Niece"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/459"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/5628/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61396/events/63490"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60554/events/63490"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61396/events/64331"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60887/events/64331"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324137/events/324142"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324136/events/324142"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324136/events/324140"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/324138/events/324140"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/5628.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

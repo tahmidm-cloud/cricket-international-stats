@@ -1,0 +1,157 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/387845",
+  "id": "387845",
+  "guid": "f62ff327-1b47-f3d7-c0b8-e8cbd1556d2b",
+  "uid": "s:200~a:387845",
+  "type": "cricket",
+  "name": "Christi Viljoen",
+  "firstName": "Christi",
+  "middleName": "",
+  "lastName": "Viljoen",
+  "shortName": "Viljoen",
+  "fullName": "Christoffel Viljoen",
+  "displayName": "Christi Viljoen",
+  "weight": 0,
+  "height": 0.0,
+  "age": 38,
+  "dateOfBirthStr": "1987-09-28T00:00Z",
+  "dateOfBirth": "1987-09-28T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "C Viljoen",
+  "fieldingName": "Viljoen",
+  "country": 28,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/28"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/545651"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1222"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2570"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3326"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/362855"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/28.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NAM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/28"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/387845/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1174825/events/1174845"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1174827/events/1174845"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1184248/events/1184258"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1184250/events/1184258"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1184251/events/1184258"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/422882/events/423156"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/423317/events/423156"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/422880/events/423247"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/423317/events/423247"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/448139/events/414376"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/414289/events/414376"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/387845.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

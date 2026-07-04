@@ -1,0 +1,51 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1037747",
+  "id": "1037747",
+  "uid": "s:200~t:1037747",
+  "location": "Zimbabwe",
+  "name": "Eastern Lions",
+  "nickname": "Eastern Lions",
+  "abbreviation": "ELION",
+  "displayName": "Eastern Lions",
+  "shortDisplayName": "ELION",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "ZW",
+  "slug": "eastern-lions",
+  "classes": [],
+  "event": {
+    "date": "2016-09-03T07:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/10874/events/1037983"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1037747/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1037747/eastern-lions",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1037747/eastern-lions",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

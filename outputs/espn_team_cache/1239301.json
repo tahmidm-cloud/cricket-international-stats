@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1239301",
+  "id": "1239301",
+  "uid": "s:200~t:1239301",
+  "location": "Bangladesh",
+  "name": "Gemcon Khulna",
+  "nickname": "Gemcon Khulna",
+  "abbreviation": "KHULN",
+  "displayName": "Gemcon Khulna",
+  "shortDisplayName": "KHULN",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "BD",
+  "slug": "gemcon-khulna",
+  "classes": [
+    "6"
+  ],
+  "event": {
+    "date": "2020-12-18T10:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/19950/events/1239584"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1239301/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1239301/gemcon-khulna",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1239301/gemcon-khulna",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

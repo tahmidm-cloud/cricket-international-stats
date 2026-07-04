@@ -1,0 +1,92 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/38",
+  "id": "38",
+  "uid": "s:200~t:38",
+  "location": "Kuwait",
+  "name": "Kuwait",
+  "nickname": "Kuwait",
+  "abbreviation": "KUW",
+  "displayName": "Kuwait",
+  "shortDisplayName": "KUW",
+  "isNational": true,
+  "isActive": true,
+  "countryCode": "KW",
+  "slug": "kuwait",
+  "classes": [
+    3,
+    5,
+    14,
+    15,
+    16
+  ],
+  "event": {
+    "date": "2026-03-07T01:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/24191/events/1525165"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8768"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/38.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/38/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/38/kuwait",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/38/kuwait",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "statistics",
+        "desktop"
+      ],
+      "href": "https://stats.espncricinfo.com/ci/engine/records/index.html?id=38;type=team",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "players",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/country.html?country=38",
+      "text": "Players",
+      "shortText": "Players",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

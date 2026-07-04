@@ -1,0 +1,65 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1256753",
+  "id": "1256753",
+  "uid": "s:200~t:1256753",
+  "location": "Hong Kong",
+  "name": "Hong Kong Islanders",
+  "nickname": "Hong Kong Islanders",
+  "abbreviation": "HKG-I",
+  "displayName": "Hong Kong Islanders",
+  "shortDisplayName": "HKG-I",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "HK",
+  "slug": "hong-kong-islanders",
+  "classes": [
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2026-01-18T05:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20049/events/1519319"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20049"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1256753.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1256753/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1256753/hong-kong-islanders",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1256753/hong-kong-islanders",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

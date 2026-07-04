@@ -1,0 +1,64 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1475731",
+  "id": "1475731",
+  "uid": "s:200~t:1475731",
+  "location": "Bangladesh",
+  "name": "Gulshan Cricket Club",
+  "nickname": "Gulshan Cricket Club",
+  "abbreviation": "GCC",
+  "displayName": "Gulshan Cricket Club",
+  "shortDisplayName": "GCC",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "BD",
+  "slug": "gulshan-cricket-club",
+  "classes": [
+    5
+  ],
+  "event": {
+    "date": "2026-06-12T03:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8738/events/1540299"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8738"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1475731.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1475731/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1475731/gulshan-cricket-club",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1475731/gulshan-cricket-club",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1175488",
+  "id": "1175488",
+  "guid": "1cf6e5fd-3fee-6e1c-501f-e17a5355be1b",
+  "uid": "s:200~a:1175488",
+  "type": "cricket",
+  "name": "Dhruv Jurel",
+  "firstName": "Dhruv",
+  "middleName": "",
+  "lastName": "Jurel",
+  "shortName": "Jurel",
+  "fullName": "Dhruv Chand Jurel",
+  "displayName": "Dhruv Jurel",
+  "weight": 0,
+  "height": 0.0,
+  "age": 25,
+  "dateOfBirthStr": "2001-01-21T00:00Z",
+  "dateOfBirth": "2001-01-21T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "DC Jurel",
+  "fieldingName": "Jurel",
+  "country": 6,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1632"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1781"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1174370"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335977"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2059"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2161"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/1175488.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1175488/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1389387/events/1389401"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1389386/events/1389401"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1345943/events/1389401"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420218/events/1420223"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420219/events/1420223"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1280196/events/1280420"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1386983/events/1387006"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1386990/events/1387006"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1386991/events/1387006"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1244188/events/1244307"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1192828/events/1192838"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1192832/events/1192838"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1175488.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

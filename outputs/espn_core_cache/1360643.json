@@ -1,0 +1,117 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1360643",
+  "id": "1360643",
+  "guid": "ca536176-5ee6-3ec5-bb59-a6d982d96b79",
+  "uid": "s:200~a:1360643",
+  "type": "cricket",
+  "name": "Ashok Nair",
+  "firstName": "Ashok",
+  "middleName": "",
+  "lastName": "Nair",
+  "shortName": "Ashok Nair",
+  "fullName": "Ashok Ramachandran Nair",
+  "displayName": "Ashok Nair",
+  "weight": 0,
+  "height": 0.0,
+  "age": 46,
+  "dateOfBirthStr": "1979-12-05T00:00Z",
+  "dateOfBirth": "1979-12-05T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "AR Nair",
+  "fieldingName": "Nair",
+  "country": 60,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/60"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/60.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BHM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/60"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1360643/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1462861/events/1462893"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1462864/events/1462893"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1462865/events/1462893"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1462861/events/1462893"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1462864/events/1462893"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1462865/events/1462893"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1360643.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

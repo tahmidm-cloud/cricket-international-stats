@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2393",
+  "id": "2393",
+  "uid": "s:200~t:2393",
+  "location": "Netherlands",
+  "name": "KNCB XI",
+  "nickname": "KNCB XI",
+  "abbreviation": "KNCB",
+  "displayName": "KNCB XI",
+  "shortDisplayName": "KNCB",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "NL",
+  "slug": "kncb-xi",
+  "classes": [
+    5
+  ],
+  "event": {
+    "date": "2017-10-01T07:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18060/events/1121708"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2393/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/2393/kncb-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/2393/kncb-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

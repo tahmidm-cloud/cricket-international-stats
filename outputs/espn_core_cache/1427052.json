@@ -1,0 +1,139 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1427052",
+  "id": "1427052",
+  "guid": "a4a53150-9644-314e-b856-d6fbc0c1950a",
+  "uid": "s:200~a:1427052",
+  "type": "cricket",
+  "name": "Juanoy Drysdale",
+  "firstName": "Juanoy",
+  "middleName": "",
+  "lastName": "Drysdale",
+  "shortName": "Drysdale",
+  "fullName": "Juanoy Drysdale",
+  "displayName": "Juanoy Drysdale",
+  "weight": 0,
+  "height": 0.0,
+  "age": 34,
+  "dateOfBirthStr": "1992-01-05T00:00Z",
+  "dateOfBirth": "1992-01-05T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR",
+    "id": "AR",
+    "name": "Allrounder",
+    "abbreviation": "AR",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/AR"
+    }
+  },
+  "battingName": "J Drysdale",
+  "fieldingName": "Drysdale",
+  "country": 11,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/11"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1381357"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/584"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/11.png",
+    "width": 500,
+    "height": 500,
+    "alt": "USA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/11"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1427052/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420525/events/1445036"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1445033/events/1445036"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1445032/events/1446762"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1445033/events/1446762"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1446760/events/1446762"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1420525/events/1445036"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1445033/events/1445036"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1432722/events/1432745"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1427052.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1272206",
+  "id": "1272206",
+  "uid": "s:200~t:1272206",
+  "location": "Sri Lanka",
+  "name": "SLC Blues",
+  "nickname": "SLC Blues",
+  "abbreviation": "SLC-B",
+  "displayName": "SLC Blues",
+  "shortDisplayName": "SLC-B",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "LK",
+  "slug": "slc-blues",
+  "classes": [
+    "6"
+  ],
+  "event": {
+    "date": "2025-08-13T08:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20939/events/1498176"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20939"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1272206.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1272206/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1272206/slc-blues",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1272206/slc-blues",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

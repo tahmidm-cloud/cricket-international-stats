@@ -1,0 +1,57 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2705",
+  "id": "2705",
+  "uid": "s:200~t:2705",
+  "location": "Pakistan",
+  "name": "Faisalabad",
+  "nickname": "Faisalabad",
+  "abbreviation": "FSLBD",
+  "displayName": "Faisalabad",
+  "shortDisplayName": "FSLBD",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "PK",
+  "slug": "faisalabad",
+  "classes": [
+    "4",
+    "5",
+    "6",
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2018-02-06T04:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/17927/events/1133913"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2705/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/2705/faisalabad",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/2705/faisalabad",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

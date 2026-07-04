@@ -1,0 +1,146 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1306047",
+  "id": "1306047",
+  "guid": "8645ca99-f158-3411-a06e-6910f066e0ca",
+  "uid": "s:200~a:1306047",
+  "type": "cricket",
+  "name": "Zacheo van Vuuren",
+  "firstName": "Zacheo",
+  "middleName": "",
+  "lastName": "Vuuren",
+  "shortName": "van Vuuren",
+  "fullName": "Zacheo Rudolf Jansen Van Vuuren",
+  "displayName": "Zacheo van Vuuren",
+  "weight": 0,
+  "height": 0.0,
+  "age": 20,
+  "dateOfBirthStr": "2005-12-02T00:00Z",
+  "dateOfBirth": "2005-12-02T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "ZJ van Vuuren",
+  "fieldingName": "van Vuuren",
+  "country": 28,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24825"
+      },
+      "relation": "Father"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/28"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1219136"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2317"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/28.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NAM",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/28"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/1306047/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1529138/events/1529145"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1529136/events/1529145"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1494582/events/1494117"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1494083/events/1494117"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1494081/events/1494117"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1413222/events/1399732"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1399722/events/1399732"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1413228/events/1399732"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/1306047.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

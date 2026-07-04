@@ -1,0 +1,157 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/301847",
+  "id": "301847",
+  "guid": "69b1486b-fd09-206a-37a7-44f6552e4536",
+  "uid": "s:200~a:301847",
+  "type": "cricket",
+  "name": "Subashis Roy",
+  "firstName": "Subashis",
+  "middleName": "",
+  "lastName": "Roy",
+  "shortName": "Subashis",
+  "fullName": "Subashis Roy",
+  "displayName": "Subashis Roy",
+  "weight": 0,
+  "height": 0.0,
+  "age": 37,
+  "dateOfBirthStr": "1988-11-29T00:00Z",
+  "dateOfBirth": "1988-11-29T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "Subashis Roy",
+  "fieldingName": "Subashis Roy",
+  "country": 25,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/668"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/271443"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/672"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/942833"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/536705"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/718"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/25.png",
+    "width": 500,
+    "height": 500,
+    "alt": "BAN",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/25"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/301847/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1019967/events/1019985"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1019965/events/1019985"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1019969/events/1019975"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1019965/events/1019975"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/314051/events/314062"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/314052/events/314092"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/637312/events/637319"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/295044/events/295901"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/295043/events/295901"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/295045/events/295902"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/295043/events/295902"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/301847.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2753",
+  "id": "2753",
+  "uid": "s:200~t:2753",
+  "location": "Pakistan",
+  "name": "Hyderabad Region",
+  "nickname": "Hyderabad Region",
+  "abbreviation": "HYD-R",
+  "displayName": "Hyderabad Region",
+  "shortDisplayName": "HYD-R",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "PK",
+  "slug": "hyderabad-region",
+  "classes": [
+    "4",
+    "5",
+    "6",
+    "14",
+    "15"
+  ],
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1523747"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2753.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2753/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/2753/hyderabad-region",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/2753/hyderabad-region",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3715",
+  "id": "3715",
+  "uid": "s:200~t:3715",
+  "location": "West Indies",
+  "name": "Anguilla",
+  "nickname": "Anguilla",
+  "abbreviation": "ANGUI",
+  "displayName": "Anguilla",
+  "shortDisplayName": "ANGUI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "anguilla",
+  "classes": [
+    "6"
+  ],
+  "event": {
+    "date": "2008-02-03T23:15Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/18839/events/300884"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3715/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3715/anguilla",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3715/anguilla",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/76",
+  "id": "76",
+  "uid": "s:200~t:76",
+  "location": "",
+  "name": "East Asia-Pacific",
+  "nickname": "East Asia-Pacific",
+  "abbreviation": "",
+  "displayName": "East Asia-Pacific",
+  "shortDisplayName": "",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "east-asia-pacific",
+  "classes": [
+    14
+  ],
+  "event": {
+    "date": "2007-01-02T00:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8697/events/275642"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/76/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/76/east-asia-pacific",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/76/east-asia-pacific",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

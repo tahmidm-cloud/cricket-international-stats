@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/568133",
+  "id": "568133",
+  "uid": "s:200~t:568133",
+  "location": "Bangladesh",
+  "name": "Bangladesh XI",
+  "nickname": "Bangladesh XI",
+  "abbreviation": "BanXI",
+  "displayName": "Bangladesh XI",
+  "shortDisplayName": "BanXI",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "BD",
+  "slug": "bangladesh-xi",
+  "classes": [
+    "6",
+    "16"
+  ],
+  "event": {
+    "date": "2021-10-08T14:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/20399/events/1281816"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/568133/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/568133/bangladesh-xi",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/568133/bangladesh-xi",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

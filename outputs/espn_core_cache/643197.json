@@ -1,0 +1,164 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/643197",
+  "id": "643197",
+  "guid": "0588e87a-1b83-f711-dc51-af9761e7ff97",
+  "uid": "s:200~a:643197",
+  "type": "cricket",
+  "name": "Max O'Dowd",
+  "firstName": "Max",
+  "middleName": "",
+  "lastName": "O'Dowd",
+  "shortName": "O'Dowd",
+  "fullName": "Maxwell Patrick O'Dowd",
+  "displayName": "Max O'Dowd",
+  "weight": 0,
+  "height": 0.0,
+  "age": 32,
+  "dateOfBirthStr": "1994-03-04T00:00Z",
+  "dateOfBirth": "1994-03-04T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "MP O'Dowd",
+  "fieldingName": "O'Dowd",
+  "country": 15,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38069"
+      },
+      "relation": "Father"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/15"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2460"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2463"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1195379"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/942833"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/742063"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1232"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/643197.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/15.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NED",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/15"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/643197/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1188375/events/1188377"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1168501/events/1188377"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/883337/events/883343"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/883339/events/883343"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870915/events/870879"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870857/events/870879"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/870869/events/911037"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/917741/events/911037"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/883337/events/883343"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/883339/events/883343"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/643197.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

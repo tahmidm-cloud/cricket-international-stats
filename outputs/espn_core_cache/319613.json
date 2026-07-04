@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/319613",
+  "id": "319613",
+  "guid": "714c2792-9be5-a60e-8269-073719d5d8aa",
+  "uid": "s:200~a:319613",
+  "type": "cricket",
+  "name": "Aman Ali",
+  "firstName": "Aman",
+  "middleName": "",
+  "lastName": "Ali",
+  "shortName": "Aman Ali",
+  "fullName": "Mohammad Aman Ali",
+  "displayName": "Aman Ali",
+  "weight": 0,
+  "height": 0.0,
+  "age": 36,
+  "dateOfBirthStr": "1989-09-29T00:00Z",
+  "dateOfBirth": "1989-09-29T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm fast-medium",
+      "shortDescription": "Lfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Left-arm fast-medium",
+      "shortDescription": "Lfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "Aman Ali",
+  "fieldingName": "Aman Ali",
+  "country": 27,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3675"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/27.png",
+    "width": 500,
+    "height": 500,
+    "alt": "UAE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/27"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/319613/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/298014/events/335350"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/355155/events/335350"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/355156/events/335350"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/292158/events/325166"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/344771/events/325166"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/322096/events/314681"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/322100/events/314681"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/314541/events/314681"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/319613.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

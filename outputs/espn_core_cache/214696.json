@@ -1,0 +1,148 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/214696",
+  "id": "214696",
+  "guid": "dfce8a81-e20e-b4ea-d3cc-dd6d5ef1f5df",
+  "uid": "s:200~a:214696",
+  "type": "cricket",
+  "name": "Eric Szwarczynski",
+  "firstName": "Eric",
+  "middleName": "",
+  "lastName": "Szwarczynski",
+  "shortName": "Eric",
+  "fullName": "Eric Stefan Szwarczynski",
+  "displayName": "Eric Szwarczynski",
+  "weight": 0,
+  "height": 0.0,
+  "age": 43,
+  "dateOfBirthStr": "1983-02-13T00:00Z",
+  "dateOfBirth": "1983-02-13T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm medium",
+      "shortDescription": "Rm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT",
+    "id": "BT",
+    "name": "Batter",
+    "abbreviation": "BT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/BT"
+    }
+  },
+  "battingName": "ES Szwarczynski",
+  "fieldingName": "Szwarczynski",
+  "country": 15,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/15"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/214696.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/15.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NED",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/15"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/214696/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/247643/events/247828"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/247645/events/247828"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/353665/events/354453"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325549/events/354453"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325544/events/354453"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/305765/events/214697"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/143791/events/214697"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/250657/events/245231"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/250656/events/245231"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/243268/events/245231"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325544/events/354453"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325549/events/354453"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/353665/events/354453"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/214696.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

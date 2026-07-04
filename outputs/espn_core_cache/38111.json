@@ -1,0 +1,136 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38111",
+  "id": "38111",
+  "guid": "1b5157c8-d968-8757-211b-197d4afbaa72",
+  "uid": "s:200~a:38111",
+  "type": "cricket",
+  "name": "Michael Papps",
+  "firstName": "Michael",
+  "middleName": "",
+  "lastName": "Papps",
+  "shortName": "Papps",
+  "fullName": "Michael Hugh William Papps",
+  "displayName": "Michael Papps",
+  "weight": 0,
+  "height": 0.0,
+  "age": 47,
+  "dateOfBirthStr": "1979-07-02T00:00Z",
+  "dateOfBirth": "1979-07-02T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT",
+    "id": "OBT",
+    "name": "Opening batter",
+    "abbreviation": "OBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/OBT"
+    }
+  },
+  "battingName": "MHW Papps",
+  "fieldingName": "Papps",
+  "country": 5,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38237"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2469"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/5.png",
+    "width": 500,
+    "height": 500,
+    "alt": "NZ",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/5"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/38111/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61847/events/64074"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60760/events/64074"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61143/events/64867"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61847/events/64867"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/232574/events/264918"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327339/events/327341"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327337/events/327341"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327338/events/327345"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/327337/events/327345"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/38111.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

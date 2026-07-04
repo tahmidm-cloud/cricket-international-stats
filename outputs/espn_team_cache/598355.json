@@ -1,0 +1,65 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/598355",
+  "id": "598355",
+  "uid": "s:200~t:598355",
+  "location": "Bangladesh",
+  "name": "North Zone (Bangladesh)",
+  "nickname": "North Zone (Bangladesh)",
+  "abbreviation": "NZBSH",
+  "displayName": "North Zone (Bangladesh)",
+  "shortDisplayName": "NZBSH",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "BD",
+  "slug": "north-zone-bangladesh",
+  "classes": [
+    4,
+    5
+  ],
+  "event": {
+    "date": "2026-04-21T03:30Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8701/events/1533067"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8701"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/598355.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/598355/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/598355/north-zone-bangladesh",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/598355/north-zone-bangladesh",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

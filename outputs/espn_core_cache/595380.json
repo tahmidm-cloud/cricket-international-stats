@@ -1,0 +1,153 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/595380",
+  "id": "595380",
+  "guid": "6730e90d-44ad-678f-86dd-e04c619a67f9",
+  "uid": "s:200~a:595380",
+  "type": "cricket",
+  "name": "Raynard van Tonder",
+  "firstName": "Raynard",
+  "middleName": "",
+  "lastName": "Tonder",
+  "shortName": "van Tonder",
+  "fullName": "Raynard van Tonder",
+  "displayName": "Raynard van Tonder",
+  "weight": 0,
+  "height": 0.0,
+  "age": 27,
+  "dateOfBirthStr": "1998-09-26T00:00Z",
+  "dateOfBirth": "1998-09-26T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "R van Tonder",
+  "fieldingName": "van Tonder",
+  "country": 3,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3222"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/594839"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/594840"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3202"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3278"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3304"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3324"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/3.png",
+    "width": 500,
+    "height": 500,
+    "alt": "SA",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/595380/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1345943/events/1388221"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1388186/events/1388221"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1388187/events/1388221"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1024703/events/1024725"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1024915/events/1024925"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1116068/events/1116086"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1116202/events/1116086"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1019323/events/1027205"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1019325/events/1027205"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1019327/events/1019335"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1019323/events/1019335"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/595380.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

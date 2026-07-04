@@ -1,0 +1,54 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3000",
+  "id": "3000",
+  "uid": "s:200~t:3000",
+  "location": "Pakistan",
+  "name": "Pakistan Emerging Team",
+  "nickname": "Pakistan Emerging Team",
+  "abbreviation": "PAK-E",
+  "displayName": "Pakistan Emerging Team",
+  "shortDisplayName": "PAK-E",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "PK",
+  "slug": "pakistan-emerging-team",
+  "classes": [
+    "5",
+    "15"
+  ],
+  "event": {
+    "date": "2019-11-23T03:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/17914/events/1202400"
+  },
+  "color": "",
+  "logos": [],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3000/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/3000/pakistan-emerging-team",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/3000/pakistan-emerging-team",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

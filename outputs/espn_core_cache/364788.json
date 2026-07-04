@@ -1,0 +1,162 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/364788",
+  "id": "364788",
+  "guid": "a6a5766c-e483-6780-dd6d-51512439189e",
+  "uid": "s:200~a:364788",
+  "type": "cricket",
+  "name": "Ben Foakes",
+  "firstName": "Ben",
+  "middleName": "",
+  "lastName": "Foakes",
+  "shortName": "Foakes",
+  "fullName": "Benjamin Thomas Foakes",
+  "displayName": "Ben Foakes",
+  "weight": 0,
+  "height": 0.0,
+  "age": 33,
+  "dateOfBirthStr": "1993-02-15T00:00Z",
+  "dateOfBirth": "1993-02-15T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "BT Foakes",
+  "fieldingName": "Foakes",
+  "country": 1,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3507"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/952"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/968"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/971"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/984"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/985"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1358"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1359"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/364788.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1.png",
+    "width": 500,
+    "height": 500,
+    "alt": "ENG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/364788/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1140378/events/1140385"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1140375/events/1140385"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1161013/events/1161014"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1161012/events/1161014"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1152833/events/1152840"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1144417/events/1152840"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/474449/events/492531"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/584535/events/584538"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/691693/events/693023"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/489782/events/489786"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/489783/events/489786"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/489782/events/489789"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/489785/events/489789"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/364788.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

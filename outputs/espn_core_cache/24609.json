@@ -1,0 +1,153 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24609",
+  "id": "24609",
+  "guid": "16971c66-62df-f886-c33c-c90e03ebf812",
+  "uid": "s:200~a:24609",
+  "type": "cricket",
+  "name": "Gary Wilson",
+  "firstName": "Gary",
+  "middleName": "",
+  "lastName": "Wilson",
+  "shortName": "Wilson",
+  "fullName": "Gary Craig Wilson",
+  "displayName": "Gary Wilson",
+  "weight": 0,
+  "height": 5.1,
+  "age": 40,
+  "dateOfBirthStr": "1986-02-05T00:00Z",
+  "dateOfBirth": "1986-02-05T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT",
+    "id": "WBT",
+    "name": "Wicketkeeper batter",
+    "abbreviation": "WBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/WBT"
+    }
+  },
+  "battingName": "GC Wilson",
+  "fieldingName": "Wilson",
+  "country": 29,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/29"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/904"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2230"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1358"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1359"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/24609.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/29.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IRE",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/29"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24609/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1127280/events/1127284"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1119523/events/1127284"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/293067/events/293071"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/258449/events/293071"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/353665/events/354454"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/325550/events/354454"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/305764/events/215946"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/143791/events/215946"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/243268/events/250660"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/250655/events/250660"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/319695/events/320153"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/125288/events/330042"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/330029/events/330042"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/330030/events/330042"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/24609.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

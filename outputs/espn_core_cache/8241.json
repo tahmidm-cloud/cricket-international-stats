@@ -1,0 +1,148 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/8241",
+  "id": "8241",
+  "guid": "53262b1e-306f-e963-519b-756df41ccbe7",
+  "uid": "s:200~a:8241",
+  "type": "cricket",
+  "name": "Paul Wilson",
+  "firstName": "Paul",
+  "middleName": "",
+  "lastName": "Wilson",
+  "shortName": "Wilson",
+  "fullName": "Paul Wilson",
+  "displayName": "Paul Wilson",
+  "weight": 0,
+  "height": 0.0,
+  "age": 54,
+  "dateOfBirthStr": "1972-01-12T00:00Z",
+  "dateOfBirth": "1972-01-12T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "P Wilson",
+  "fieldingName": "Wilson",
+  "country": 2,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/520"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/602"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/8241/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61431/events/63795"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60658/events/63795"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197133/events/1197138"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/1197134/events/1197138"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/62091/events/65560"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61015/events/65560"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/765549/events/791633"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/791625/events/791633"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/791627/events/791633"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/636158/events/636165"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/592391/events/636165"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/8241.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

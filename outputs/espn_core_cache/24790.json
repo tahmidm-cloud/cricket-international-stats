@@ -1,0 +1,154 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24790",
+  "id": "24790",
+  "guid": "5e7acced-016b-24b6-b0e0-b8e041673ef9",
+  "uid": "s:200~a:24790",
+  "type": "cricket",
+  "name": "Tanmay Mishra",
+  "firstName": "Tanmay",
+  "middleName": "",
+  "lastName": "Mishra",
+  "shortName": "Mishra",
+  "fullName": "Tanmay Mishra",
+  "displayName": "Tanmay Mishra",
+  "weight": 0,
+  "height": 0.0,
+  "age": 39,
+  "dateOfBirthStr": "1986-12-22T00:00Z",
+  "dateOfBirth": "1986-12-22T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT",
+    "id": "MBT",
+    "name": "Middle-order batter",
+    "abbreviation": "MBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/MBT"
+    }
+  },
+  "battingName": "T Mishra",
+  "fieldingName": "Mishra",
+  "country": 6,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/26"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/213709"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335980"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/335970"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2149"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/24790.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/6.png",
+    "width": 500,
+    "height": 500,
+    "alt": "IND",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/6"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/24790/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/238143/events/238208"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/236405/events/238208"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/287838/events/306987"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/306979/events/306987"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/134115/events/305726"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/305734/events/305726"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/305735/events/305726"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/236405/events/238208"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/238143/events/238208"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/287838/events/306987"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/306979/events/306987"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/24790.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

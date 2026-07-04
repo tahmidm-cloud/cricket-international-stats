@@ -1,0 +1,77 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/642413",
+  "id": "642413",
+  "uid": "s:200~t:642413",
+  "location": "West Indies",
+  "name": "Guyana Amazon Warriors",
+  "nickname": "Guyana Amazon Warriors",
+  "abbreviation": "GAW",
+  "displayName": "Guyana Amazon Warriors",
+  "shortDisplayName": "GAW",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "guyana-amazon-warriors",
+  "classes": [
+    6,
+    16
+  ],
+  "event": {
+    "date": "2026-07-23T14:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/23077/events/1533126"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8623"
+  },
+  "color": "#2a7416",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/642413.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/642413/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/642413/guyana-amazon-warriors",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/642413/guyana-amazon-warriors",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "videos",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/current/video_audio/index.html?object=642413",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

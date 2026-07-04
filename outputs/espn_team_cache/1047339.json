@@ -1,0 +1,76 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1047339",
+  "id": "1047339",
+  "uid": "s:200~t:1047339",
+  "location": "India",
+  "name": "Dindigul Dragons",
+  "nickname": "Dindigul Dragons",
+  "abbreviation": "DD",
+  "displayName": "Dindigul Dragons",
+  "shortDisplayName": "DD",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "IN",
+  "slug": "dindigul-dragons",
+  "classes": [
+    16
+  ],
+  "event": {
+    "date": "2025-07-06T13:45Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/10784/events/1489138"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/10784"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1047339.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1047339/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1047339/dindigul-dragons",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1047339/dindigul-dragons",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "videos",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/current/video_audio/index.html?object=1047339",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

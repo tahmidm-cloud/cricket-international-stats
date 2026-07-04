@@ -1,0 +1,76 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1117814",
+  "id": "1117814",
+  "uid": "s:200~t:1117814",
+  "location": "Pakistan",
+  "name": "Multan Sultans",
+  "nickname": "Multan Sultans",
+  "abbreviation": "MS",
+  "displayName": "Multan Sultans",
+  "shortDisplayName": "MS",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "PK",
+  "slug": "multan-sultans",
+  "classes": [
+    6
+  ],
+  "event": {
+    "date": "2026-04-29T14:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8679/events/1527593"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8679"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1117814.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1117814/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1117814/multan-sultans",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1117814/multan-sultans",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "videos",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/current/video_audio/index.html?object=1117814",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

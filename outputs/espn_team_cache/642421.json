@@ -1,0 +1,77 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/642421",
+  "id": "642421",
+  "uid": "s:200~t:642421",
+  "location": "West Indies",
+  "name": "Trinbago Knight Riders",
+  "nickname": "Trinbago Knight Riders",
+  "abbreviation": "TKR",
+  "displayName": "Trinbago Knight Riders",
+  "shortDisplayName": "TKR",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "trinbago-knight-riders",
+  "classes": [
+    6,
+    16
+  ],
+  "event": {
+    "date": "2026-08-08T23:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8623/events/1534180"
+  },
+  "defaultLeague": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8623"
+  },
+  "color": "#cc0df2",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/642421.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/642421/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/642421/trinbago-knight-riders",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/642421/trinbago-knight-riders",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "videos",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/current/video_audio/index.html?object=642421",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

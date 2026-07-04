@@ -1,0 +1,63 @@
+{
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1185",
+  "id": "1185",
+  "uid": "s:200~t:1185",
+  "location": "England",
+  "name": "Marylebone Cricket Club Young Cricketers",
+  "nickname": "Marylebone Cricket Club Young Cricketers",
+  "abbreviation": "MCCYC",
+  "displayName": "Marylebone Cricket Club Young Cricketers",
+  "shortDisplayName": "MCCYC",
+  "isNational": false,
+  "isActive": true,
+  "countryCode": "www",
+  "slug": "marylebone-cricket-club-young-cricketers",
+  "classes": [
+    "14",
+    "15",
+    "16"
+  ],
+  "event": {
+    "date": "2019-08-06T10:00Z",
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/8859/events/1177142"
+  },
+  "color": "",
+  "logos": [
+    {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1185.png",
+      "rel": [
+        "full",
+        "default"
+      ]
+    }
+  ],
+  "athletes": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1185/athletes"
+  },
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "clubhouse",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/team/_/id/1185/marylebone-cricket-club-young-cricketers",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "fixtures",
+        "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/scores/team/1185/marylebone-cricket-club-young-cricketers",
+      "text": "Fixtures",
+      "shortText": "Fixtures",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}
