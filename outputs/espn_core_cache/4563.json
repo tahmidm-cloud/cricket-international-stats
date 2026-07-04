@@ -1,7 +1,125 @@
 {
-  "_error": true,
-  "error_type": "http_503",
-  "status_code": 503,
-  "url": "http://core.espnuk.org/v2/sports/cricket/athletes/4563",
-  "text_preview": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>503 Backend fetch failed</title>\n  </head>\n  <body>\n    <h1>Error 503 Backend fetch failed</h1>\n    <p>Backend fetch failed</p>\n    <h3>Guru Meditation:</h3>\n    <p>XID: 395219464</p>\n    <hr>\n    <p>Varnish cache server</p>\n  </body>\n</html>\n"
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/4563",
+  "id": "4563",
+  "guid": "a015192b-296c-0c59-09d8-f7b99ced91b0",
+  "uid": "s:200~a:4563",
+  "type": "cricket",
+  "name": "Percie Charlton",
+  "firstName": "Percie",
+  "middleName": "",
+  "lastName": "Charlton",
+  "shortName": "Charlton",
+  "fullName": "Percie Chater Charlton",
+  "displayName": "Percie Charlton",
+  "weight": 0,
+  "height": 0.0,
+  "age": 87,
+  "dateOfBirthStr": "1867-04-09T00:00Z",
+  "dateOfBirth": "1867-04-09T00:00Z",
+  "dateOfDeathStr": "1954-09-30T00:00Z",
+  "dateOfDeath": "1954-09-30T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm fast-medium",
+      "shortDescription": "Rfm",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "PC Charlton",
+  "fieldingName": "Charlton",
+  "country": 2,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/7962"
+      },
+      "relation": "Nephew"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/387"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/2.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AUS",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/2"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/4563/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60274/events/62428"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61339/events/62428"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/4563.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
 }

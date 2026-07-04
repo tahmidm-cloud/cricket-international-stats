@@ -1,9 +1,11 @@
 item,value
 players_requested,8127
-profiles_saved,8075
-errors,52
-teams_resolved,1845
+profiles_saved,8125
+errors,2
+teams_resolved,1853
 home_probe_rows,0
 fetch_home_enabled,False
 resolve_teams_enabled,True
-sleep_seconds,0.2
+sleep_seconds,0.5
+retry_successful,50
+retry_still_failed,2

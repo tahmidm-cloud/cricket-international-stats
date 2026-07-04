@@ -1,7 +1,164 @@
 {
-  "_error": true,
-  "error_type": "http_503",
-  "status_code": 503,
-  "url": "http://core.espnuk.org/v2/sports/cricket/athletes/318334",
-  "text_preview": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>503 Backend fetch failed</title>\n  </head>\n  <body>\n    <h1>Error 503 Backend fetch failed</h1>\n    <p>Backend fetch failed</p>\n    <h3>Guru Meditation:</h3>\n    <p>XID: 340863137</p>\n    <hr>\n    <p>Varnish cache server</p>\n  </body>\n</html>\n"
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/318334",
+  "id": "318334",
+  "guid": "aa1569ea-78b7-815d-60f1-cbb7183eecf5",
+  "uid": "s:200~a:318334",
+  "type": "cricket",
+  "name": "Nawroz Mangal",
+  "firstName": "Nawroz",
+  "middleName": "",
+  "lastName": "Mangal",
+  "shortName": "Mangal",
+  "fullName": "Nawroz Khan Mangal",
+  "displayName": "Nawroz Mangal",
+  "weight": 0,
+  "height": 0.0,
+  "age": 41,
+  "dateOfBirthStr": "1984-07-15T00:00Z",
+  "dateOfBirth": "1984-07-15T00:00Z",
+  "dateOfDeathStr": "",
+  "dateOfDeath": "",
+  "isActive": true,
+  "active": true,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT",
+    "id": "TBT",
+    "name": "Top-order batter",
+    "abbreviation": "TBT",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/TBT"
+    }
+  },
+  "battingName": "Nawroz Mangal",
+  "fieldingName": "Nawroz Mangal",
+  "country": 40,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/703323"
+      },
+      "relation": "Brother"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/40"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/819067"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/1298093"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/318334.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/40.png",
+    "width": 500,
+    "height": 500,
+    "alt": "AFG",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/40"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/318334/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/384067/events/390253"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/390257/events/390253"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/390269/events/390253"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440158/events/440224"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440159/events/440224"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440215/events/440224"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/408325/events/415165"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/415166/events/415165"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/390269/events/390201"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/390270/events/390201"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/384067/events/390201"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440158/events/440224"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440159/events/440224"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/440215/events/440224"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/318334.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
 }

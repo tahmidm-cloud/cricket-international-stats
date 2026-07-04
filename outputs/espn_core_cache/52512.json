@@ -1,7 +1,118 @@
 {
-  "_error": true,
-  "error_type": "http_503",
-  "status_code": 503,
-  "url": "http://core.espnuk.org/v2/sports/cricket/athletes/52512",
-  "text_preview": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>503 Backend fetch failed</title>\n  </head>\n  <body>\n    <h1>Error 503 Backend fetch failed</h1>\n    <p>Backend fetch failed</p>\n    <h3>Guru Meditation:</h3>\n    <p>XID: 5997971</p>\n    <hr>\n    <p>Varnish cache server</p>\n  </body>\n</html>\n"
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52512",
+  "id": "52512",
+  "guid": "bb539861-b88c-7ae4-be99-4cf50fbd8eb4",
+  "uid": "s:200~a:52512",
+  "type": "cricket",
+  "name": "Easton McMorris",
+  "firstName": "Easton",
+  "middleName": "",
+  "lastName": "McMorris",
+  "shortName": "McMorris",
+  "fullName": "Easton Dudley Ashton St John McMorris",
+  "displayName": "Easton McMorris",
+  "weight": 0,
+  "height": 0.0,
+  "age": 86,
+  "dateOfBirthStr": "1935-04-04T00:00Z",
+  "dateOfBirth": "1935-04-04T00:00Z",
+  "dateOfDeathStr": "2022-02-01T00:00Z",
+  "dateOfDeath": "2022-02-01T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Right-arm offbreak",
+      "shortDescription": "Ob",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "EDAS McMorris",
+  "fieldingName": "McMorris",
+  "country": 4,
+  "relations": [],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3751"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/default-player-logo-500.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52512/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60377/events/62836"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61496/events/62836"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/52512.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
 }

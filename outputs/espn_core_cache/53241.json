@@ -1,7 +1,149 @@
 {
-  "_error": true,
-  "error_type": "http_503",
-  "status_code": 503,
-  "url": "http://core.espnuk.org/v2/sports/cricket/athletes/53241",
-  "text_preview": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>503 Backend fetch failed</title>\n  </head>\n  <body>\n    <h1>Error 503 Backend fetch failed</h1>\n    <p>Backend fetch failed</p>\n    <h3>Guru Meditation:</h3>\n    <p>XID: 337582794</p>\n    <hr>\n    <p>Varnish cache server</p>\n  </body>\n</html>\n"
+  "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/53241",
+  "id": "53241",
+  "guid": "72dec16f-8f24-7121-0d40-d63a89516753",
+  "uid": "s:200~a:53241",
+  "type": "cricket",
+  "name": "Everton Weekes",
+  "firstName": "Everton",
+  "middleName": "",
+  "lastName": "Weekes",
+  "shortName": "Weekes",
+  "fullName": "Everton de Courcy Weekes",
+  "displayName": "Everton Weekes",
+  "weight": 0,
+  "height": 0.0,
+  "age": 95,
+  "dateOfBirthStr": "1925-02-26T00:00Z",
+  "dateOfBirth": "1925-02-26T00:00Z",
+  "dateOfDeathStr": "2020-07-01T00:00Z",
+  "dateOfDeath": "2020-07-01T00:00Z",
+  "isActive": false,
+  "active": false,
+  "gender": "M",
+  "debutYear": null,
+  "birthPlace": {},
+  "jersey": null,
+  "style": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "styles": [
+    {
+      "description": "Right-hand bat",
+      "shortDescription": "Rhb",
+      "type": "batting"
+    },
+    {
+      "description": "Legbreak",
+      "shortDescription": "Lb",
+      "type": "bowling"
+    }
+  ],
+  "position": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN",
+    "id": "UKN",
+    "name": "Unknown",
+    "abbreviation": "UKN",
+    "leaf": true,
+    "parent": {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/positions/UKN"
+    }
+  },
+  "battingName": "ED Weekes",
+  "fieldingName": "Weekes",
+  "country": 4,
+  "relations": [
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52439"
+      },
+      "relation": "Son"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/22829"
+      },
+      "relation": "Nephew"
+    },
+    {
+      "athlete": {
+        "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/52068"
+      },
+      "relation": "Grandson"
+    }
+  ],
+  "majorTeams": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/3719"
+    }
+  ],
+  "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/cricket/players/full/53241.png",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "flag": {
+    "href": "https://a.espncdn.com/i/teamlogos/cricket/500/4.png",
+    "width": 500,
+    "height": 500,
+    "alt": "WI",
+    "rel": [
+      "full",
+      "default"
+    ]
+  },
+  "team": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/teams/4"
+  },
+  "news": {
+    "$ref": "http://core.espnuk.org/v2/sports/cricket/athletes/53241/news"
+  },
+  "debuts": [
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60341/events/62681"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61753/events/62681"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60601/events/63631"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61639/events/63631"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/60950/events/64445"
+    },
+    {
+      "$ref": "http://core.espnuk.org/v2/sports/cricket/leagues/61639/events/64445"
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "playercard",
+        "desktop"
+      ],
+      "href": "https://www.espncricinfo.com/ci/content/player/53241.html",
+      "text": "Player Card",
+      "shortText": "Player Card",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
 }
