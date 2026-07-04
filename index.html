@@ -2,157 +2,177 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <title>International Cricket Stats Database</title>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover"
+  />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="theme-color" content="#061018" />
+  <title>My Cricket Player Database</title>
 
   <style>
     :root {
-      --bg: #020617;
+      --bg: #061018;
+      --bg2: #020617;
       --panel: rgba(15, 23, 42, 0.96);
-      --panel2: rgba(30, 41, 59, 0.95);
+      --panel2: rgba(30, 41, 59, 0.92);
+      --panel3: rgba(2, 6, 23, 0.72);
       --line: rgba(148, 163, 184, 0.22);
+      --line2: rgba(148, 163, 184, 0.13);
       --text: #e5e7eb;
       --muted: #94a3b8;
       --gold: #facc15;
-      --green: #22c55e;
       --blue: #38bdf8;
+      --green: #22c55e;
       --red: #fb7185;
       --white: #ffffff;
-      --shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+      --shadow: 0 22px 70px rgba(0, 0, 0, 0.48);
+      --radius: 20px;
+      --safe-top: env(safe-area-inset-top);
+      --safe-bottom: env(safe-area-inset-bottom);
     }
 
     * {
       box-sizing: border-box;
     }
 
+    html,
     body {
       margin: 0;
-      min-height: 100vh;
+      min-height: 100%;
       background:
-        radial-gradient(circle at top left, rgba(56, 189, 248, 0.18), transparent 35%),
-        radial-gradient(circle at top right, rgba(250, 204, 21, 0.12), transparent 30%),
-        linear-gradient(180deg, #020617 0%, #0f172a 100%);
+        radial-gradient(circle at top left, rgba(56, 189, 248, 0.16), transparent 34%),
+        radial-gradient(circle at top right, rgba(250, 204, 21, 0.10), transparent 28%),
+        linear-gradient(180deg, var(--bg) 0%, var(--bg2) 100%);
       color: var(--text);
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      overflow-x: hidden;
+    }
+
+    button,
+    input,
+    select {
+      font: inherit;
     }
 
     .page {
-      width: min(1450px, 100%);
+      width: min(1460px, 100%);
       margin: 0 auto;
-      padding: 18px;
+      padding: calc(14px + var(--safe-top)) 14px calc(18px + var(--safe-bottom));
     }
 
-    .hero {
-      background: linear-gradient(135deg, rgba(15, 23, 42, 0.98), rgba(30, 41, 59, 0.88));
+    .top-card {
       border: 1px solid var(--line);
+      background: linear-gradient(135deg, rgba(15, 23, 42, 0.98), rgba(30, 41, 59, 0.88));
       border-radius: 24px;
-      padding: 18px;
+      padding: 16px;
       box-shadow: var(--shadow);
-      margin-bottom: 16px;
+      margin-bottom: 12px;
     }
 
-    .hero-top {
+    .top-row {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
-      gap: 14px;
+      gap: 12px;
       flex-wrap: wrap;
     }
 
+    .back-main-btn {
+      border: 1px solid var(--line);
+      background: rgba(2, 6, 23, 0.7);
+      color: var(--text);
+      border-radius: 999px;
+      padding: 9px 12px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
     h1 {
-      margin: 0;
-      font-size: clamp(24px, 4vw, 42px);
-      line-height: 1.05;
+      margin: 10px 0 4px;
+      font-size: clamp(24px, 6vw, 42px);
+      line-height: 1.02;
       letter-spacing: -0.04em;
     }
 
     .subtitle {
-      margin-top: 8px;
       color: var(--muted);
-      font-size: 14px;
+      font-size: 13px;
+      line-height: 1.4;
     }
 
     .status-pill {
       border: 1px solid var(--line);
-      background: rgba(2, 6, 23, 0.6);
+      background: rgba(2, 6, 23, 0.62);
       color: var(--muted);
-      padding: 8px 12px;
+      padding: 8px 11px;
       border-radius: 999px;
-      font-size: 13px;
+      font-size: 12px;
       white-space: nowrap;
     }
 
     .controls {
       display: grid;
-      grid-template-columns: minmax(180px, 1fr) 150px 150px 120px;
+      grid-template-columns: minmax(180px, 1fr) 150px 150px 110px;
       gap: 10px;
-      margin-top: 16px;
-    }
-
-    input,
-    select,
-    button {
-      font: inherit;
+      margin-top: 14px;
     }
 
     .search-input,
     .filter-select {
       width: 100%;
       border: 1px solid var(--line);
-      background: rgba(2, 6, 23, 0.78);
+      background: rgba(2, 6, 23, 0.76);
       color: var(--text);
       border-radius: 14px;
-      padding: 12px 13px;
+      padding: 12px;
       outline: none;
+      min-width: 0;
     }
 
     .search-input:focus,
     .filter-select:focus {
       border-color: rgba(56, 189, 248, 0.75);
-      box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.16);
+      box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.14);
     }
 
     .main-btn {
       border: 0;
       border-radius: 14px;
-      padding: 12px 14px;
+      padding: 12px;
       color: #020617;
-      background: linear-gradient(135deg, #facc15, #38bdf8);
-      font-weight: 800;
+      background: linear-gradient(135deg, var(--gold), var(--blue));
+      font-weight: 950;
       cursor: pointer;
-      transition: transform 0.15s ease, opacity 0.15s ease;
     }
 
-    .main-btn:active {
-      transform: scale(0.98);
-    }
-
-    .stats-row {
+    .summary-row {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 10px;
-      margin: 16px 0;
+      margin: 12px 0;
     }
 
-    .stat-box {
-      background: rgba(15, 23, 42, 0.82);
+    .summary-box {
       border: 1px solid var(--line);
+      background: rgba(15, 23, 42, 0.78);
       border-radius: 18px;
-      padding: 13px;
+      padding: 12px;
     }
 
-    .stat-label {
+    .summary-label {
       color: var(--muted);
-      font-size: 12px;
+      font-size: 11px;
       text-transform: uppercase;
       letter-spacing: 0.08em;
     }
 
-    .stat-value {
-      margin-top: 5px;
-      font-size: 23px;
-      font-weight: 900;
+    .summary-value {
+      margin-top: 4px;
       color: var(--white);
+      font-size: 22px;
+      font-weight: 950;
     }
 
     .toolbar {
@@ -160,13 +180,13 @@
       justify-content: space-between;
       align-items: center;
       gap: 10px;
-      margin: 10px 0 14px;
+      margin: 10px 0 12px;
       flex-wrap: wrap;
     }
 
     .result-count {
       color: var(--muted);
-      font-size: 14px;
+      font-size: 13px;
     }
 
     .small-actions {
@@ -183,103 +203,116 @@
       padding: 8px 11px;
       cursor: pointer;
       font-size: 13px;
+      font-weight: 750;
     }
 
     .ghost-btn:hover {
       border-color: rgba(250, 204, 21, 0.55);
     }
 
-    .player-grid {
+    .player-list {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(245px, 1fr));
-      gap: 12px;
+      gap: 11px;
       padding-bottom: 40px;
     }
 
     .player-card {
       border: 1px solid var(--line);
       background: linear-gradient(180deg, rgba(15, 23, 42, 0.96), rgba(2, 6, 23, 0.9));
-      border-radius: 20px;
-      padding: 14px;
+      border-radius: 18px;
+      padding: 13px;
       cursor: pointer;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.22);
-      transition: transform 0.16s ease, border-color 0.16s ease, background 0.16s ease;
+      transition: transform 0.15s ease, border-color 0.15s ease;
+      min-width: 0;
     }
 
     .player-card:hover {
       transform: translateY(-2px);
       border-color: rgba(56, 189, 248, 0.65);
-      background: linear-gradient(180deg, rgba(30, 41, 59, 0.98), rgba(15, 23, 42, 0.94));
     }
 
     .player-name {
-      font-weight: 900;
-      font-size: 17px;
-      margin-bottom: 5px;
       color: var(--white);
+      font-size: 16px;
+      font-weight: 950;
+      line-height: 1.2;
+      margin-bottom: 6px;
+      overflow-wrap: anywhere;
     }
 
     .player-meta {
       display: flex;
-      gap: 8px;
+      gap: 6px;
       flex-wrap: wrap;
-      color: var(--muted);
-      font-size: 12px;
-      margin-bottom: 12px;
+      margin-bottom: 10px;
     }
 
     .chip {
       border: 1px solid var(--line);
+      background: rgba(2, 6, 23, 0.56);
+      color: var(--muted);
       border-radius: 999px;
-      padding: 4px 8px;
-      background: rgba(2, 6, 23, 0.55);
+      padding: 4px 7px;
+      font-size: 11px;
+      max-width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
 
-    .mini-stat-row {
+    .mini-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 8px;
+      grid-template-columns: 1fr 1fr;
+      gap: 7px;
     }
 
-    .mini-stat {
-      border: 1px solid rgba(148, 163, 184, 0.16);
-      background: rgba(2, 6, 23, 0.45);
-      border-radius: 14px;
+    .mini-box {
+      border: 1px solid rgba(148, 163, 184, 0.14);
+      background: rgba(2, 6, 23, 0.42);
+      border-radius: 12px;
       padding: 8px;
-      min-height: 58px;
+      min-width: 0;
     }
 
     .mini-label {
       color: var(--muted);
-      font-size: 11px;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 2px;
     }
 
     .mini-value {
-      margin-top: 3px;
-      font-weight: 900;
-      font-size: 16px;
+      font-size: 13px;
+      font-weight: 850;
+      color: var(--text);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
 
     .loading,
     .empty {
+      grid-column: 1 / -1;
       text-align: center;
       color: var(--muted);
-      padding: 40px 10px;
+      padding: 34px 10px;
       border: 1px dashed var(--line);
-      border-radius: 22px;
-      background: rgba(15, 23, 42, 0.55);
+      border-radius: 20px;
+      background: rgba(15, 23, 42, 0.52);
     }
 
     .modal-backdrop {
       position: fixed;
       inset: 0;
-      background: rgba(2, 6, 23, 0.76);
-      backdrop-filter: blur(8px);
       display: none;
       align-items: center;
       justify-content: center;
-      padding: 14px;
-      z-index: 1000;
+      padding: calc(8px + var(--safe-top)) 8px calc(8px + var(--safe-bottom));
+      background: rgba(2, 6, 23, 0.78);
+      backdrop-filter: blur(8px);
+      z-index: 2000;
     }
 
     .modal-backdrop.show {
@@ -287,158 +320,299 @@
     }
 
     .modal {
-      width: min(980px, 100%);
-      max-height: 92vh;
-      overflow: hidden;
+      width: min(1000px, calc(100vw - 16px));
+      max-height: calc(100dvh - 18px - var(--safe-top) - var(--safe-bottom));
       background: linear-gradient(180deg, rgba(15, 23, 42, 0.99), rgba(2, 6, 23, 0.98));
       border: 1px solid var(--line);
-      border-radius: 24px;
+      border-radius: 22px;
       box-shadow: var(--shadow);
       display: flex;
       flex-direction: column;
+      overflow: hidden;
     }
 
     .modal-header {
-      padding: 16px;
+      padding: 14px;
       border-bottom: 1px solid var(--line);
       display: flex;
-      align-items: flex-start;
       justify-content: space-between;
       gap: 10px;
+      align-items: flex-start;
     }
 
     .modal-title {
-      font-size: 25px;
-      font-weight: 950;
-      line-height: 1.1;
+      color: var(--white);
+      font-size: 24px;
+      font-weight: 1000;
+      line-height: 1.08;
+      overflow-wrap: anywhere;
     }
 
     .modal-subtitle {
+      margin-top: 5px;
       color: var(--muted);
-      margin-top: 4px;
-      font-size: 13px;
+      font-size: 12px;
+      line-height: 1.35;
     }
 
     .close-btn {
+      flex: 0 0 auto;
+      width: 38px;
+      height: 38px;
       border: 1px solid var(--line);
       background: rgba(2, 6, 23, 0.6);
       color: var(--text);
-      width: 38px;
-      height: 38px;
       border-radius: 999px;
       cursor: pointer;
-      font-size: 18px;
-      font-weight: 900;
+      font-size: 20px;
+      font-weight: 950;
     }
 
     .modal-body {
+      padding: 12px;
       overflow: auto;
-      padding: 14px;
+      -webkit-overflow-scrolling: touch;
     }
 
-    .format-tabs,
-    .type-tabs {
-      display: flex;
+    .toggle-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
       gap: 8px;
-      flex-wrap: wrap;
       margin-bottom: 12px;
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      background: linear-gradient(180deg, rgba(15, 23, 42, 0.99), rgba(15, 23, 42, 0.86));
+      padding-bottom: 8px;
     }
 
-    .tab-btn {
+    .toggle-btn {
       border: 1px solid var(--line);
-      background: rgba(15, 23, 42, 0.8);
+      background: rgba(15, 23, 42, 0.84);
       color: var(--text);
       border-radius: 999px;
-      padding: 9px 12px;
+      padding: 10px;
       cursor: pointer;
-      font-weight: 800;
+      font-weight: 900;
       font-size: 13px;
     }
 
-    .tab-btn.active {
-      background: linear-gradient(135deg, rgba(250, 204, 21, 0.95), rgba(56, 189, 248, 0.95));
+    .toggle-btn.active {
+      background: linear-gradient(135deg, var(--gold), var(--blue));
       color: #020617;
       border-color: transparent;
     }
 
-    .stats-panel {
-      border: 1px solid var(--line);
-      border-radius: 20px;
+    .profile-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 9px;
+    }
+
+    .profile-card {
+      border: 1px solid var(--line2);
       background: rgba(15, 23, 42, 0.72);
-      overflow: hidden;
+      border-radius: 15px;
+      padding: 10px;
+      min-width: 0;
     }
 
-    .table-wrap {
-      overflow-x: auto;
+    .profile-card.wide {
+      grid-column: 1 / -1;
     }
 
-    table {
+    .profile-label {
+      color: var(--muted);
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 4px;
+    }
+
+    .profile-value {
+      color: var(--white);
+      font-size: 14px;
+      font-weight: 850;
+      line-height: 1.35;
+      overflow-wrap: anywhere;
+    }
+
+    .profile-value.small {
+      font-size: 12px;
+      font-weight: 650;
+      color: var(--text);
+    }
+
+    .active-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      border-radius: 999px;
+      padding: 4px 8px;
+      font-size: 12px;
+      font-weight: 900;
+      border: 1px solid rgba(148, 163, 184, 0.2);
+      background: rgba(2, 6, 23, 0.5);
+    }
+
+    .active-pill.active {
+      color: #bbf7d0;
+      border-color: rgba(34, 197, 94, 0.36);
+    }
+
+    .active-pill.inactive {
+      color: #fecdd3;
+      border-color: rgba(251, 113, 133, 0.36);
+    }
+
+    .stats-section-title {
+      color: var(--text);
+      font-weight: 950;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      font-size: 13px;
+      margin: 12px 0 8px;
+    }
+
+    .stats-table-wrap {
       width: 100%;
-      border-collapse: collapse;
-      min-width: 720px;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      border: 1px solid var(--line2);
+      border-radius: 14px;
+      background: rgba(15, 23, 42, 0.64);
     }
 
-    th,
-    td {
-      text-align: left;
-      padding: 11px 12px;
-      border-bottom: 1px solid rgba(148, 163, 184, 0.13);
+    .stats-table {
+      width: 100%;
+      min-width: 860px;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    .stats-table th,
+    .stats-table td {
+      border-bottom: 1px solid rgba(148, 163, 184, 0.12);
+      border-right: 1px solid rgba(148, 163, 184, 0.08);
+      padding: 9px 10px;
+      text-align: center;
       white-space: nowrap;
     }
 
-    th {
+    .stats-table th {
       color: var(--gold);
-      font-size: 12px;
+      background: rgba(2, 6, 23, 0.66);
+      font-size: 11px;
       text-transform: uppercase;
-      letter-spacing: 0.08em;
-      background: rgba(2, 6, 23, 0.45);
+      letter-spacing: 0.06em;
+      position: sticky;
+      top: 0;
+      z-index: 2;
     }
 
-    td {
+    .stats-table td {
       color: var(--text);
-      font-size: 14px;
+    }
+
+    .stats-table th:first-child,
+    .stats-table td:first-child {
+      text-align: left;
+      position: sticky;
+      left: 0;
+      z-index: 3;
+      background: rgba(7, 14, 27, 0.98);
+      font-weight: 900;
+      color: var(--white);
+    }
+
+    .stats-table th:first-child {
+      z-index: 4;
+      color: var(--gold);
+      background: rgba(2, 6, 23, 0.98);
+    }
+
+    .strong-stat {
+      font-weight: 950;
+      color: var(--white);
     }
 
     .source-note {
       color: var(--muted);
-      font-size: 12px;
+      font-size: 11px;
+      line-height: 1.4;
       margin-top: 10px;
-      line-height: 1.45;
     }
 
-    .error-box {
-      background: rgba(251, 113, 133, 0.1);
-      border: 1px solid rgba(251, 113, 133, 0.4);
-      color: #fecdd3;
-      padding: 14px;
-      border-radius: 18px;
-      line-height: 1.5;
+    .load-more-wrap {
+      grid-column: 1 / -1;
+      display: flex;
+      justify-content: center;
+      padding: 8px 0 30px;
     }
 
     @media (max-width: 760px) {
       .page {
-        padding: 12px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      .top-card {
+        border-radius: 20px;
+        padding: 13px;
       }
 
       .controls {
         grid-template-columns: 1fr;
       }
 
-      .stats-row {
+      .summary-row {
         grid-template-columns: repeat(2, 1fr);
       }
 
-      .player-grid {
+      .summary-value {
+        font-size: 20px;
+      }
+
+      .player-list {
         grid-template-columns: 1fr;
+        gap: 9px;
+      }
+
+      .player-card {
+        border-radius: 16px;
+        padding: 12px;
       }
 
       .modal {
-        max-height: 94vh;
-        border-radius: 20px;
+        width: calc(100vw - 12px);
+        max-height: calc(100dvh - 12px - var(--safe-top) - var(--safe-bottom));
+        border-radius: 18px;
+      }
+
+      .modal-header {
+        padding: 12px;
       }
 
       .modal-title {
-        font-size: 21px;
+        font-size: 20px;
+      }
+
+      .modal-body {
+        padding: 10px;
+      }
+
+      .profile-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .stats-table {
+        min-width: 820px;
+        font-size: 12px;
+      }
+
+      .stats-table th,
+      .stats-table td {
+        padding: 8px 9px;
       }
     }
   </style>
@@ -446,14 +620,18 @@
 
 <body>
   <main class="page">
-    <section class="hero">
-      <div class="hero-top">
+    <section class="top-card">
+      <div class="top-row">
         <div>
-          <h1>International Cricket Stats Database</h1>
+          <button class="back-main-btn" type="button" onclick="window.location.href='index.html'">
+            ← Back to Main Menu
+          </button>
+          <h1>Player Database</h1>
           <div class="subtitle">
-            Search players, click a card, and view Test / ODI / T20I batting, bowling, and fielding stats.
+            Lists every player from the slim ESPN player index. Tap a player to view profile or stats.
           </div>
         </div>
+
         <div class="status-pill" id="loadStatus">Loading JSON...</div>
       </div>
 
@@ -462,7 +640,7 @@
           id="searchInput"
           class="search-input"
           type="search"
-          placeholder="Search player, country, or Cricinfo ID..."
+          placeholder="Search player, country, role, style, Cricinfo ID..."
           autocomplete="off"
         />
 
@@ -470,128 +648,140 @@
           <option value="">All Countries</option>
         </select>
 
-        <select id="formatFilter" class="filter-select">
-          <option value="">Any Format</option>
-          <option value="test">Has Test</option>
-          <option value="odi">Has ODI</option>
-          <option value="t20i">Has T20I</option>
+        <select id="activeFilter" class="filter-select">
+          <option value="">All Status</option>
+          <option value="active">Active</option>
+          <option value="inactive">Inactive</option>
+          <option value="blank">Unknown</option>
         </select>
 
-        <button class="main-btn" id="searchBtn">Search</button>
+        <button class="main-btn" id="resetBtn" type="button">Reset</button>
       </div>
     </section>
 
-    <section class="stats-row">
-      <div class="stat-box">
-        <div class="stat-label">Players</div>
-        <div class="stat-value" id="totalPlayers">—</div>
+    <section class="summary-row">
+      <div class="summary-box">
+        <div class="summary-label">Total Players</div>
+        <div class="summary-value" id="totalPlayers">—</div>
       </div>
-      <div class="stat-box">
-        <div class="stat-label">Countries</div>
-        <div class="stat-value" id="totalCountries">—</div>
+
+      <div class="summary-box">
+        <div class="summary-label">Countries</div>
+        <div class="summary-value" id="totalCountries">—</div>
       </div>
-      <div class="stat-box">
-        <div class="stat-label">Showing</div>
-        <div class="stat-value" id="showingCount">—</div>
+
+      <div class="summary-box">
+        <div class="summary-label">Showing</div>
+        <div class="summary-value" id="showingCount">—</div>
       </div>
-      <div class="stat-box">
-        <div class="stat-label">Source</div>
-        <div class="stat-value" style="font-size:16px;">Enriched JSON</div>
+
+      <div class="summary-box">
+        <div class="summary-label">Stats Source</div>
+        <div class="summary-value" style="font-size: 16px;">Profile + Stats</div>
       </div>
     </section>
 
     <div class="toolbar">
       <div class="result-count" id="resultCount">Preparing player list...</div>
+
       <div class="small-actions">
-        <button class="ghost-btn" id="sortNameBtn">Sort A-Z</button>
-        <button class="ghost-btn" id="sortRunsBtn">Sort by Runs</button>
-        <button class="ghost-btn" id="clearBtn">Clear</button>
+        <button class="ghost-btn" id="sortNameBtn" type="button">Sort A-Z</button>
+        <button class="ghost-btn" id="sortCountryBtn" type="button">Sort Country</button>
+        <button class="ghost-btn" id="sortActiveBtn" type="button">Sort Active</button>
       </div>
     </div>
 
-    <section id="playerGrid" class="player-grid">
+    <section id="playerList" class="player-list">
       <div class="loading">Loading players...</div>
     </section>
   </main>
 
   <div class="modal-backdrop" id="modalBackdrop">
-    <div class="modal" role="dialog" aria-modal="true">
+    <section class="modal" role="dialog" aria-modal="true">
       <div class="modal-header">
         <div>
           <div class="modal-title" id="modalTitle">Player</div>
-          <div class="modal-subtitle" id="modalSubtitle">Country • ID</div>
+          <div class="modal-subtitle" id="modalSubtitle">Country • Cricinfo ID</div>
         </div>
-        <button class="close-btn" id="closeModalBtn">×</button>
+
+        <button class="close-btn" id="closeModalBtn" type="button">×</button>
       </div>
 
       <div class="modal-body">
-        <div class="format-tabs">
-          <button class="tab-btn active" data-format-tab="test">Test</button>
-          <button class="tab-btn" data-format-tab="odi">ODI</button>
-          <button class="tab-btn" data-format-tab="t20i">T20I</button>
+        <div class="toggle-row">
+          <button class="toggle-btn active" id="profileToggle" type="button">Player Profile</button>
+          <button class="toggle-btn" id="statsToggle" type="button">Player Stats</button>
         </div>
 
-        <div class="type-tabs">
-          <button class="tab-btn active" data-type-tab="batting">Batting</button>
-          <button class="tab-btn" data-type-tab="bowling">Bowling</button>
-          <button class="tab-btn" data-type-tab="fielding">Fielding</button>
-        </div>
-
-        <div class="stats-panel">
-          <div class="table-wrap" id="modalStats"></div>
-        </div>
-
-        <div class="source-note">
-          Missing or unavailable values are shown as —. Older matches may not have full balls faced, fours, sixes, or maiden data.
-        </div>
+        <div id="modalContent"></div>
       </div>
-    </div>
+    </section>
   </div>
 
   <script>
-    const JSON_PATH = "outputs/all_international_stats_enriched.json";
+    const PROFILE_JSON_PATH = "outputs/player_index_espn_slim_keyed.json";
+    const STATS_JSON_PATH = "outputs/all_international_stats_enriched.json";
 
     let allPlayers = [];
     let filteredPlayers = [];
+    let statsIndex = {};
     let currentPlayer = null;
-    let currentFormat = "test";
-    let currentType = "batting";
+    let currentView = "profile";
     let currentSort = "name";
+    let visibleLimit = 300;
+
+    const FORMAT_ROWS = [
+      { key: "test", altKeys: ["test", "tests"], label: "Tests" },
+      { key: "odi", altKeys: ["odi", "odis"], label: "ODIs" },
+      { key: "t20", altKeys: ["t20", "t20i", "t20is"], label: "T20Is" },
+      { key: "fc", altKeys: ["fc", "firstclass", "first_class"], label: "FC" },
+      { key: "lista", altKeys: ["lista", "list_a", "listA"], label: "List A" },
+      { key: "t20s", altKeys: ["t20s", "domestic_t20"], label: "T20s" }
+    ];
 
     const els = {
       loadStatus: document.getElementById("loadStatus"),
       searchInput: document.getElementById("searchInput"),
-      searchBtn: document.getElementById("searchBtn"),
       countryFilter: document.getElementById("countryFilter"),
-      formatFilter: document.getElementById("formatFilter"),
+      activeFilter: document.getElementById("activeFilter"),
+      resetBtn: document.getElementById("resetBtn"),
       totalPlayers: document.getElementById("totalPlayers"),
       totalCountries: document.getElementById("totalCountries"),
       showingCount: document.getElementById("showingCount"),
       resultCount: document.getElementById("resultCount"),
-      playerGrid: document.getElementById("playerGrid"),
+      playerList: document.getElementById("playerList"),
       sortNameBtn: document.getElementById("sortNameBtn"),
-      sortRunsBtn: document.getElementById("sortRunsBtn"),
-      clearBtn: document.getElementById("clearBtn"),
+      sortCountryBtn: document.getElementById("sortCountryBtn"),
+      sortActiveBtn: document.getElementById("sortActiveBtn"),
       modalBackdrop: document.getElementById("modalBackdrop"),
       closeModalBtn: document.getElementById("closeModalBtn"),
       modalTitle: document.getElementById("modalTitle"),
       modalSubtitle: document.getElementById("modalSubtitle"),
-      modalStats: document.getElementById("modalStats")
+      profileToggle: document.getElementById("profileToggle"),
+      statsToggle: document.getElementById("statsToggle"),
+      modalContent: document.getElementById("modalContent")
     };
 
-    function clean(value) {
+    function cleanText(value) {
       if (
         value === null ||
         value === undefined ||
         value === "" ||
-        value === "NA" ||
+        value === "null" ||
+        value === "None" ||
+        value === "none" ||
         value === "NaN" ||
-        value === "null"
+        value === "nan"
       ) {
-        return "—";
+        return "";
       }
 
-      return value;
+      return String(value).trim();
+    }
+
+    function showValue(value, fallback = "—") {
+      const cleaned = cleanText(value);
+      return cleaned || fallback;
     }
 
     function num(value) {
@@ -599,202 +789,304 @@
       return Number.isFinite(n) ? n : 0;
     }
 
-    function hasFormat(player, format) {
-      const bat = player?.batting?.[format];
-      const bowl = player?.bowling?.[format];
-      const field = player?.fielding?.[format];
-
-      return (
-        num(bat?.Matches) > 0 ||
-        num(bowl?.Matches) > 0 ||
-        num(field?.Matches) > 0
-      );
+    function escapeHtml(value) {
+      return String(showValue(value, ""))
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
     }
 
-    function getBestRuns(player) {
-      return Math.max(
-        num(player?.batting?.test?.Runs),
-        num(player?.batting?.odi?.Runs),
-        num(player?.batting?.t20i?.Runs)
-      );
+    function getId(player) {
+      return cleanText(player.cricinfo_id || player.unique_player_id || player.id);
     }
 
-    function getPlayerName(player) {
-      return player?.player_info?.final_player_name || "Unknown Player";
+    function getName(player) {
+      return cleanText(
+        player.final_player_name ||
+        player.espn_display_name ||
+        player.espn_full_name
+      ) || "Unknown Player";
     }
 
-    function getPlayerCountry(player) {
-      return player?.player_info?.final_country || "Unknown";
+    function getFullName(player) {
+      return cleanText(player.espn_full_name || player.espn_display_name || getName(player));
     }
 
-    function getPlayerId(player) {
-      return player?.player_info?.cricinfo_id || player?.player_info?.unique_player_id || "missing";
+    function getCountry(player) {
+      return cleanText(player.espn_country_name || player.source_country_text) || "Unknown";
     }
 
-    async function loadData() {
+    function getStatus(player) {
+      return cleanText(player.espn_active_status);
+    }
+
+    function getStatusLabel(player) {
+      const status = getStatus(player);
+
+      if (status === "active") return "Active";
+      if (status === "inactive") return "Inactive";
+
+      return "Unknown";
+    }
+
+    function calculateAge(dob) {
+      dob = cleanText(dob);
+
+      if (!dob) return "";
+
+      const birthDate = new Date(dob);
+
+      if (Number.isNaN(birthDate.getTime())) return "";
+
+      const today = new Date();
+      let age = today.getFullYear() - birthDate.getFullYear();
+      const monthDiff = today.getMonth() - birthDate.getMonth();
+      const dayDiff = today.getDate() - birthDate.getDate();
+
+      if (monthDiff < 0 || (monthDiff === 0 && dayDiff < 0)) {
+        age--;
+      }
+
+      return age > 0 ? String(age) : "";
+    }
+
+    async function fetchJson(path, fallback) {
       try {
-        els.loadStatus.textContent = "Loading JSON...";
-
-        const response = await fetch(JSON_PATH, { cache: "no-store" });
+        const response = await fetch(path, { cache: "no-store" });
 
         if (!response.ok) {
-          throw new Error(`Could not load ${JSON_PATH}. Status: ${response.status}`);
+          console.warn(`Could not load ${path}. Status ${response.status}`);
+          return fallback;
         }
 
-        const data = await response.json();
-
-        allPlayers = Object.entries(data).map(([id, player]) => {
-          return {
-            id,
-            ...player
-          };
-        });
-
-        allPlayers.sort((a, b) => getPlayerName(a).localeCompare(getPlayerName(b)));
-
-        filteredPlayers = [...allPlayers];
-
-        buildCountryFilter();
-        updateSummary();
-        renderPlayers();
-
-        els.loadStatus.textContent = "Loaded successfully";
+        return await response.json();
       } catch (err) {
-        console.error(err);
-        els.loadStatus.textContent = "Error loading JSON";
-        els.playerGrid.innerHTML = `
-          <div class="error-box">
-            <strong>Could not load stats JSON.</strong><br>
-            Make sure this file exists and is committed to GitHub:<br>
-            <code>${JSON_PATH}</code><br><br>
-            If testing locally, run a local server instead of opening the file directly:
-            <br><code>python3 -m http.server 8000</code>
-          </div>
-        `;
+        console.warn(`Could not load ${path}`, err);
+        return fallback;
       }
     }
 
-    function buildCountryFilter() {
-      const countries = [...new Set(allPlayers.map(getPlayerCountry).filter(Boolean))]
-        .sort((a, b) => a.localeCompare(b));
+    function normalizeProfiles(data) {
+      if (Array.isArray(data)) {
+        return data;
+      }
 
-      const options = [`<option value="">All Countries</option>`]
-        .concat(countries.map(country => `<option value="${escapeHtml(country)}">${escapeHtml(country)}</option>`));
+      if (data && typeof data === "object") {
+        return Object.entries(data).map(([id, player]) => ({
+          cricinfo_id: player.cricinfo_id || id,
+          ...player
+        }));
+      }
 
-      els.countryFilter.innerHTML = options.join("");
+      return [];
     }
 
-    function updateSummary() {
-      const countries = new Set(allPlayers.map(getPlayerCountry).filter(Boolean));
+    async function loadData() {
+      els.loadStatus.textContent = "Loading JSON...";
 
-      els.totalPlayers.textContent = allPlayers.length.toLocaleString();
-      els.totalCountries.textContent = countries.size.toLocaleString();
-      els.showingCount.textContent = filteredPlayers.length.toLocaleString();
-      els.resultCount.textContent = `Showing ${filteredPlayers.length.toLocaleString()} of ${allPlayers.length.toLocaleString()} players`;
+      const [profileData, statsData] = await Promise.all([
+        fetchJson(PROFILE_JSON_PATH, {}),
+        fetchJson(STATS_JSON_PATH, {})
+      ]);
+
+      allPlayers = normalizeProfiles(profileData);
+      statsIndex = statsData || {};
+
+      allPlayers.sort((a, b) => getName(a).localeCompare(getName(b)));
+      filteredPlayers = [...allPlayers];
+
+      buildFilters();
+      updateSummary();
+      renderPlayers();
+
+      els.loadStatus.textContent = `Loaded ${allPlayers.length.toLocaleString()} players`;
+    }
+
+    function buildFilters() {
+      const countries = [...new Set(allPlayers.map(getCountry).filter(Boolean))]
+        .sort((a, b) => a.localeCompare(b));
+
+      els.countryFilter.innerHTML = `
+        <option value="">All Countries</option>
+        ${countries.map(country => `
+          <option value="${escapeHtml(country)}">${escapeHtml(country)}</option>
+        `).join("")}
+      `;
     }
 
     function applyFilters() {
       const q = els.searchInput.value.trim().toLowerCase();
       const country = els.countryFilter.value;
-      const format = els.formatFilter.value;
+      const active = els.activeFilter.value;
 
       filteredPlayers = allPlayers.filter(player => {
-        const name = getPlayerName(player).toLowerCase();
-        const countryName = getPlayerCountry(player);
-        const id = String(getPlayerId(player)).toLowerCase();
+        const status = getStatus(player);
 
-        const matchesSearch =
-          !q ||
-          name.includes(q) ||
-          countryName.toLowerCase().includes(q) ||
-          id.includes(q);
+        const blob = [
+          getId(player),
+          getName(player),
+          getFullName(player),
+          getCountry(player),
+          player.source_country_text,
+          player.espn_playing_role,
+          player.espn_playing_role_id,
+          player.standard_batting_code,
+          player.standard_batting_style,
+          player.standard_bowling_code,
+          player.standard_bowling_style,
+          player.espn_major_teams,
+          status
+        ].join(" ").toLowerCase();
 
-        const matchesCountry = !country || countryName === country;
-        const matchesFormat = !format || hasFormat(player, format);
+        const matchesSearch = !q || blob.includes(q);
+        const matchesCountry = !country || getCountry(player) === country;
 
-        return matchesSearch && matchesCountry && matchesFormat;
+        let matchesActive = true;
+
+        if (active === "active") {
+          matchesActive = status === "active";
+        } else if (active === "inactive") {
+          matchesActive = status === "inactive";
+        } else if (active === "blank") {
+          matchesActive = !status;
+        }
+
+        return matchesSearch && matchesCountry && matchesActive;
       });
 
+      visibleLimit = 300;
       sortPlayers();
       updateSummary();
       renderPlayers();
     }
 
     function sortPlayers() {
-      if (currentSort === "runs") {
-        filteredPlayers.sort((a, b) => getBestRuns(b) - getBestRuns(a));
+      if (currentSort === "country") {
+        filteredPlayers.sort((a, b) => {
+          const c = getCountry(a).localeCompare(getCountry(b));
+          return c || getName(a).localeCompare(getName(b));
+        });
         return;
       }
 
-      filteredPlayers.sort((a, b) => getPlayerName(a).localeCompare(getPlayerName(b)));
+      if (currentSort === "active") {
+        filteredPlayers.sort((a, b) => {
+          const s = getStatusLabel(a).localeCompare(getStatusLabel(b));
+          return s || getName(a).localeCompare(getName(b));
+        });
+        return;
+      }
+
+      filteredPlayers.sort((a, b) => getName(a).localeCompare(getName(b)));
+    }
+
+    function updateSummary() {
+      const countries = new Set(allPlayers.map(getCountry).filter(Boolean));
+
+      els.totalPlayers.textContent = allPlayers.length.toLocaleString();
+      els.totalCountries.textContent = countries.size.toLocaleString();
+      els.showingCount.textContent = filteredPlayers.length.toLocaleString();
+      els.resultCount.textContent =
+        `Showing ${Math.min(visibleLimit, filteredPlayers.length).toLocaleString()} of ${filteredPlayers.length.toLocaleString()} filtered players`;
     }
 
     function renderPlayers() {
-      if (filteredPlayers.length === 0) {
-        els.playerGrid.innerHTML = `<div class="empty">No players found.</div>`;
+      if (!filteredPlayers.length) {
+        els.playerList.innerHTML = `<div class="empty">No players found.</div>`;
         return;
       }
 
-      const fragment = document.createDocumentFragment();
+      const visiblePlayers = filteredPlayers.slice(0, visibleLimit);
 
-      filteredPlayers.forEach(player => {
-        const card = document.createElement("article");
-        card.className = "player-card";
-        card.tabIndex = 0;
+      const cards = visiblePlayers.map((player, index) => {
+        const status = getStatus(player);
+        const statusClass = status === "active" ? "active" : status === "inactive" ? "inactive" : "";
 
-        const name = getPlayerName(player);
-        const country = getPlayerCountry(player);
-        const id = getPlayerId(player);
+        return `
+          <article class="player-card" data-index="${index}" tabindex="0">
+            <div class="player-name">${escapeHtml(getName(player))}</div>
 
-        const testRuns = clean(player?.batting?.test?.Runs);
-        const odiRuns = clean(player?.batting?.odi?.Runs);
-        const t20iRuns = clean(player?.batting?.t20i?.Runs);
-
-        card.innerHTML = `
-          <div class="player-name">${escapeHtml(name)}</div>
-          <div class="player-meta">
-            <span class="chip">${escapeHtml(country)}</span>
-            <span class="chip">ID: ${escapeHtml(id)}</span>
-          </div>
-
-          <div class="mini-stat-row">
-            <div class="mini-stat">
-              <div class="mini-label">Test Runs</div>
-              <div class="mini-value">${escapeHtml(testRuns)}</div>
+            <div class="player-meta">
+              <span class="chip">${escapeHtml(getCountry(player))}</span>
+              <span class="chip">ID: ${escapeHtml(getId(player))}</span>
+              <span class="chip">${escapeHtml(getStatusLabel(player))}</span>
             </div>
-            <div class="mini-stat">
-              <div class="mini-label">ODI Runs</div>
-              <div class="mini-value">${escapeHtml(odiRuns)}</div>
+
+            <div class="mini-grid">
+              <div class="mini-box">
+                <div class="mini-label">Role</div>
+                <div class="mini-value">${escapeHtml(showValue(player.espn_playing_role))}</div>
+              </div>
+
+              <div class="mini-box">
+                <div class="mini-label">Bat</div>
+                <div class="mini-value">${escapeHtml(showValue(player.standard_batting_code))}</div>
+              </div>
+
+              <div class="mini-box">
+                <div class="mini-label">Bowl</div>
+                <div class="mini-value">${escapeHtml(showValue(player.standard_bowling_code, "None"))}</div>
+              </div>
+
+              <div class="mini-box">
+                <div class="mini-label">DOB</div>
+                <div class="mini-value">${escapeHtml(showValue(player.espn_date_of_birth))}</div>
+              </div>
             </div>
-            <div class="mini-stat">
-              <div class="mini-label">T20I Runs</div>
-              <div class="mini-value">${escapeHtml(t20iRuns)}</div>
-            </div>
-          </div>
+          </article>
         `;
+      }).join("");
 
-        card.addEventListener("click", () => openPlayer(player));
-        card.addEventListener("keydown", event => {
-          if (event.key === "Enter") openPlayer(player);
+      const loadMore =
+        visibleLimit < filteredPlayers.length
+          ? `
+            <div class="load-more-wrap">
+              <button class="main-btn" id="loadMoreBtn" type="button">
+                Load More Players
+              </button>
+            </div>
+          `
+          : "";
+
+      els.playerList.innerHTML = cards + loadMore;
+
+      document.querySelectorAll(".player-card").forEach(card => {
+        card.addEventListener("click", () => {
+          const index = Number(card.dataset.index);
+          openModal(visiblePlayers[index]);
         });
 
-        fragment.appendChild(card);
+        card.addEventListener("keydown", event => {
+          if (event.key === "Enter") {
+            const index = Number(card.dataset.index);
+            openModal(visiblePlayers[index]);
+          }
+        });
       });
 
-      els.playerGrid.innerHTML = "";
-      els.playerGrid.appendChild(fragment);
+      const loadMoreBtn = document.getElementById("loadMoreBtn");
+
+      if (loadMoreBtn) {
+        loadMoreBtn.addEventListener("click", () => {
+          visibleLimit += 300;
+          updateSummary();
+          renderPlayers();
+        });
+      }
     }
 
-    function openPlayer(player) {
+    function openModal(player) {
       currentPlayer = player;
-      currentFormat = "test";
-      currentType = "batting";
+      currentView = "profile";
 
-      els.modalTitle.textContent = getPlayerName(player);
-      els.modalSubtitle.textContent = `${getPlayerCountry(player)} • Cricinfo ID: ${getPlayerId(player)}`;
+      els.modalTitle.textContent = getFullName(player);
+      els.modalSubtitle.textContent =
+        `${getCountry(player)} • Cricinfo ID: ${getId(player)}`;
 
-      setActiveTabs();
-      renderModalStats();
+      updateModalToggles();
+      renderModalContent();
 
       els.modalBackdrop.classList.add("show");
       document.body.style.overflow = "hidden";
@@ -806,173 +1098,339 @@
       currentPlayer = null;
     }
 
-    function setActiveTabs() {
-      document.querySelectorAll("[data-format-tab]").forEach(btn => {
-        btn.classList.toggle("active", btn.dataset.formatTab === currentFormat);
-      });
-
-      document.querySelectorAll("[data-type-tab]").forEach(btn => {
-        btn.classList.toggle("active", btn.dataset.typeTab === currentType);
-      });
+    function updateModalToggles() {
+      els.profileToggle.classList.toggle("active", currentView === "profile");
+      els.statsToggle.classList.toggle("active", currentView === "stats");
     }
 
-    function renderModalStats() {
+    function renderModalContent() {
       if (!currentPlayer) return;
 
-      const stats = currentPlayer?.[currentType]?.[currentFormat] || {};
-      const rows = getRowsForType(currentType, stats);
+      if (currentView === "profile") {
+        renderProfile();
+      } else {
+        renderStats();
+      }
+    }
 
-      const formatLabel = {
-        test: "Test",
-        odi: "ODI",
-        t20i: "T20I"
-      }[currentFormat];
+    function renderProfile() {
+      const p = currentPlayer;
+      const age = calculateAge(p.espn_date_of_birth);
+      const status = getStatus(p);
+      const statusClass = status === "active" ? "active" : status === "inactive" ? "inactive" : "";
 
-      const typeLabel = currentType.charAt(0).toUpperCase() + currentType.slice(1);
+      els.modalContent.innerHTML = `
+        <div class="profile-grid">
+          <div class="profile-card">
+            <div class="profile-label">Display Name</div>
+            <div class="profile-value">${escapeHtml(showValue(p.espn_display_name || p.final_player_name))}</div>
+          </div>
 
-      els.modalStats.innerHTML = `
-        <table>
-          <thead>
-            <tr>
-              <th colspan="2">${formatLabel} ${typeLabel}</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${rows.map(row => `
-              <tr>
-                <td>${escapeHtml(row.label)}</td>
-                <td><strong>${escapeHtml(clean(row.value))}</strong></td>
-              </tr>
-            `).join("")}
-          </tbody>
-        </table>
+          <div class="profile-card">
+            <div class="profile-label">Full Name</div>
+            <div class="profile-value">${escapeHtml(showValue(p.espn_full_name))}</div>
+          </div>
+
+          <div class="profile-card">
+            <div class="profile-label">First Name</div>
+            <div class="profile-value">${escapeHtml(showValue(p.espn_first_name))}</div>
+          </div>
+
+          <div class="profile-card">
+            <div class="profile-label">Last Name</div>
+            <div class="profile-value">${escapeHtml(showValue(p.espn_last_name))}</div>
+          </div>
+
+          <div class="profile-card">
+            <div class="profile-label">Date of Birth</div>
+            <div class="profile-value">${escapeHtml(showValue(p.espn_date_of_birth))}</div>
+          </div>
+
+          <div class="profile-card">
+            <div class="profile-label">Age</div>
+            <div class="profile-value">${escapeHtml(showValue(age))}</div>
+          </div>
+
+          <div class="profile-card">
+            <div class="profile-label">Active Status</div>
+            <div class="profile-value">
+              <span class="active-pill ${statusClass}">
+                ${escapeHtml(getStatusLabel(p))}
+              </span>
+            </div>
+          </div>
+
+          <div class="profile-card">
+            <div class="profile-label">Country</div>
+            <div class="profile-value">${escapeHtml(showValue(p.espn_country_name || p.source_country_text))}</div>
+          </div>
+
+          <div class="profile-card">
+            <div class="profile-label">Playing Role</div>
+            <div class="profile-value">${escapeHtml(showValue(p.espn_playing_role))}</div>
+          </div>
+
+          <div class="profile-card">
+            <div class="profile-label">Role ID</div>
+            <div class="profile-value">${escapeHtml(showValue(p.espn_playing_role_id))}</div>
+          </div>
+
+          <div class="profile-card">
+            <div class="profile-label">Batting Style</div>
+            <div class="profile-value">
+              ${escapeHtml(showValue(p.standard_batting_style))}
+              <span style="color: var(--muted); font-size: 12px;">
+                ${escapeHtml(showValue(p.standard_batting_code, ""))}
+              </span>
+            </div>
+          </div>
+
+          <div class="profile-card">
+            <div class="profile-label">Bowling Style</div>
+            <div class="profile-value">
+              ${escapeHtml(showValue(p.standard_bowling_style, "No Bowling"))}
+              <span style="color: var(--muted); font-size: 12px;">
+                ${escapeHtml(showValue(p.standard_bowling_code, ""))}
+              </span>
+            </div>
+          </div>
+
+          <div class="profile-card wide">
+            <div class="profile-label">Major Teams</div>
+            <div class="profile-value small">${escapeHtml(showValue(p.espn_major_teams))}</div>
+          </div>
+        </div>
       `;
     }
 
-    function getRowsForType(type, s) {
-      if (type === "batting") {
-        return [
-          { label: "Span", value: s.Span },
-          { label: "Matches", value: s.Matches },
-          { label: "Innings", value: s.Innings },
-          { label: "Not Outs", value: s.NotOuts },
-          { label: "Runs", value: s.Runs },
-          { label: "High Score", value: formatHighScore(s.HighScore, s.HighScoreNotOut) },
-          { label: "Average", value: s.Average },
-          { label: "Balls Faced", value: s.BallsFaced },
-          { label: "Strike Rate", value: s.StrikeRate },
-          { label: "100s", value: s.Hundreds },
-          { label: "50s", value: s.Fifties },
-          { label: "Ducks", value: s.Ducks },
-          { label: "4s", value: s.Fours },
-          { label: "6s", value: s.Sixes }
-        ];
+    function getStatsObject(player) {
+      const id = getId(player);
+      return statsIndex[id] || {};
+    }
+
+    function getFormatData(stats, type, formatRow) {
+      const bucket = stats?.[type] || {};
+
+      for (const key of formatRow.altKeys) {
+        if (bucket[key]) {
+          return bucket[key];
+        }
       }
 
-      if (type === "bowling") {
-        return [
-          { label: "Span", value: s.Span },
-          { label: "Matches", value: s.Matches },
-          { label: "Innings", value: s.Innings },
-          { label: "Balls", value: s.Balls },
-          { label: "Overs", value: s.Overs },
-          { label: "Maidens", value: s.Maidens },
-          { label: "Runs Conceded", value: s.RunsConceded },
-          { label: "Wickets", value: s.Wickets },
-          { label: "Best Bowling Innings", value: s.BestBowlingInnings },
-          { label: "Best Bowling Match", value: s.BestBowlingMatch },
-          { label: "Average", value: s.Average },
-          { label: "Economy", value: s.Economy },
-          { label: "Strike Rate", value: s.StrikeRate },
-          { label: "4 Wickets", value: s.FourWickets },
-          { label: "5 Wickets", value: s.FiveWickets },
-          { label: "10 Wickets", value: s.TenWickets }
-        ];
+      return {};
+    }
+
+    function hasAnyData(obj) {
+      if (!obj || typeof obj !== "object") return false;
+
+      return Object.values(obj).some(value => {
+        if (value === null || value === undefined || value === "") return false;
+        if (String(value).toLowerCase() === "nan") return false;
+        return true;
+      });
+    }
+
+    function formatSpan(s) {
+      if (s.Span) return s.Span;
+
+      const start = cleanText(s.Start);
+      const end = cleanText(s.End);
+
+      if (start || end) {
+        return `${start || "?"}-${end || "?"}`;
       }
 
-      return [
-        { label: "Span", value: s.Span },
-        { label: "Matches", value: s.Matches },
-        { label: "Innings", value: s.Innings },
-        { label: "Dismissals", value: s.Dismissals },
-        { label: "Caught", value: s.Caught },
-        { label: "Stumped", value: s.Stumped },
-        { label: "Caught Behind", value: s.CaughtBehind },
-        { label: "Caught Fielder", value: s.CaughtFielder },
-        { label: "Max Dismissals Innings", value: s.MaxDismissalsInnings },
-        { label: "Dismissals Per Innings", value: s.DismissalsPerInnings }
-      ];
+      return "";
     }
 
     function formatHighScore(score, notOut) {
-      if (score === null || score === undefined || score === "") return "—";
-      return `${score}${notOut === true ? "*" : ""}`;
+      if (score === null || score === undefined || score === "") return "";
+
+      const isNotOut =
+        notOut === true ||
+        notOut === "true" ||
+        notOut === "1" ||
+        notOut === "*";
+
+      return `${score}${isNotOut ? "*" : ""}`;
     }
 
-    function escapeHtml(value) {
-      return String(value)
-        .replaceAll("&", "&amp;")
-        .replaceAll("<", "&lt;")
-        .replaceAll(">", "&gt;")
-        .replaceAll('"', "&quot;")
-        .replaceAll("'", "&#039;");
+    function renderStats() {
+      const stats = getStatsObject(currentPlayer);
+
+      if (!stats || Object.keys(stats).length === 0) {
+        els.modalContent.innerHTML = `
+          <div class="empty">
+            No real-world stats found for this player.
+          </div>
+        `;
+        return;
+      }
+
+      els.modalContent.innerHTML = `
+        <div class="stats-section-title">Batting & Fielding</div>
+        <div class="stats-table-wrap">
+          <table class="stats-table">
+            <thead>
+              <tr>
+                <th>Format</th>
+                <th>Mat</th>
+                <th>Inns</th>
+                <th>NO</th>
+                <th>Runs</th>
+                <th>HS</th>
+                <th>Ave</th>
+                <th>BF</th>
+                <th>SR</th>
+                <th>100s</th>
+                <th>50s</th>
+                <th>4s</th>
+                <th>6s</th>
+                <th>Ct</th>
+                <th>St</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${FORMAT_ROWS.map(row => renderBatFieldRow(stats, row)).join("")}
+            </tbody>
+          </table>
+        </div>
+
+        <div class="stats-section-title">Bowling</div>
+        <div class="stats-table-wrap">
+          <table class="stats-table">
+            <thead>
+              <tr>
+                <th>Format</th>
+                <th>Mat</th>
+                <th>Inns</th>
+                <th>Balls</th>
+                <th>Runs</th>
+                <th>Wkts</th>
+                <th>BBI</th>
+                <th>BBM</th>
+                <th>Ave</th>
+                <th>Econ</th>
+                <th>SR</th>
+                <th>4w</th>
+                <th>5w</th>
+                <th>10w</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${FORMAT_ROWS.map(row => renderBowlingRow(stats, row)).join("")}
+            </tbody>
+          </table>
+        </div>
+
+        <div class="source-note">
+          Tables use your enriched international stats JSON. If FC, List A, or domestic T20 data is not present, those rows show —.
+        </div>
+      `;
     }
 
-    els.searchBtn.addEventListener("click", applyFilters);
+    function renderBatFieldRow(stats, row) {
+      const bat = getFormatData(stats, "batting", row);
+      const field = getFormatData(stats, "fielding", row);
 
-    els.searchInput.addEventListener("input", () => {
+      const empty = !hasAnyData(bat) && !hasAnyData(field);
+
+      return `
+        <tr>
+          <td>${escapeHtml(row.label)}</td>
+          <td>${escapeHtml(empty ? "—" : showValue(bat.Matches || field.Matches))}</td>
+          <td>${escapeHtml(empty ? "—" : showValue(bat.Innings))}</td>
+          <td>${escapeHtml(empty ? "—" : showValue(bat.NotOuts))}</td>
+          <td class="strong-stat">${escapeHtml(empty ? "—" : showValue(bat.Runs))}</td>
+          <td>${escapeHtml(empty ? "—" : showValue(formatHighScore(bat.HighScore, bat.HighScoreNotOut)))}</td>
+          <td>${escapeHtml(empty ? "—" : showValue(bat.Average))}</td>
+          <td>${escapeHtml(empty ? "—" : showValue(bat.BallsFaced))}</td>
+          <td>${escapeHtml(empty ? "—" : showValue(bat.StrikeRate))}</td>
+          <td>${escapeHtml(empty ? "—" : showValue(bat.Hundreds))}</td>
+          <td>${escapeHtml(empty ? "—" : showValue(bat.Fifties))}</td>
+          <td>${escapeHtml(empty ? "—" : showValue(bat.Fours))}</td>
+          <td>${escapeHtml(empty ? "—" : showValue(bat.Sixes))}</td>
+          <td>${escapeHtml(empty ? "—" : showValue(field.Caught || field.CaughtFielder || field.CaughtBehind))}</td>
+          <td>${escapeHtml(empty ? "—" : showValue(field.Stumped))}</td>
+        </tr>
+      `;
+    }
+
+    function renderBowlingRow(stats, row) {
+      const bowl = getFormatData(stats, "bowling", row);
+      const empty = !hasAnyData(bowl);
+
+      return `
+        <tr>
+          <td>${escapeHtml(row.label)}</td>
+          <td>${escapeHtml(empty ? "—" : showValue(bowl.Matches))}</td>
+          <td>${escapeHtml(empty ? "—" : showValue(bowl.Innings))}</td>
+          <td>${escapeHtml(empty ? "—" : showValue(bowl.Balls))}</td>
+          <td>${escapeHtml(empty ? "—" : showValue(bowl.RunsConceded || bowl.Runs))}</td>
+          <td class="strong-stat">${escapeHtml(empty ? "—" : showValue(bowl.Wickets))}</td>
+          <td>${escapeHtml(empty ? "—" : showValue(bowl.BestBowlingInnings))}</td>
+          <td>${escapeHtml(empty ? "—" : showValue(bowl.BestBowlingMatch))}</td>
+          <td>${escapeHtml(empty ? "—" : showValue(bowl.Average))}</td>
+          <td>${escapeHtml(empty ? "—" : showValue(bowl.Economy))}</td>
+          <td>${escapeHtml(empty ? "—" : showValue(bowl.StrikeRate))}</td>
+          <td>${escapeHtml(empty ? "—" : showValue(bowl.FourWickets))}</td>
+          <td>${escapeHtml(empty ? "—" : showValue(bowl.FiveWickets))}</td>
+          <td>${escapeHtml(empty ? "—" : showValue(bowl.TenWickets))}</td>
+        </tr>
+      `;
+    }
+
+    els.searchInput.addEventListener("input", applyFilters);
+    els.countryFilter.addEventListener("change", applyFilters);
+    els.activeFilter.addEventListener("change", applyFilters);
+
+    els.resetBtn.addEventListener("click", () => {
+      els.searchInput.value = "";
+      els.countryFilter.value = "";
+      els.activeFilter.value = "";
+      currentSort = "name";
       applyFilters();
     });
-
-    els.searchInput.addEventListener("keydown", event => {
-      if (event.key === "Enter") applyFilters();
-    });
-
-    els.countryFilter.addEventListener("change", applyFilters);
-    els.formatFilter.addEventListener("change", applyFilters);
 
     els.sortNameBtn.addEventListener("click", () => {
       currentSort = "name";
       applyFilters();
     });
 
-    els.sortRunsBtn.addEventListener("click", () => {
-      currentSort = "runs";
+    els.sortCountryBtn.addEventListener("click", () => {
+      currentSort = "country";
       applyFilters();
     });
 
-    els.clearBtn.addEventListener("click", () => {
-      els.searchInput.value = "";
-      els.countryFilter.value = "";
-      els.formatFilter.value = "";
-      currentSort = "name";
+    els.sortActiveBtn.addEventListener("click", () => {
+      currentSort = "active";
       applyFilters();
+    });
+
+    els.profileToggle.addEventListener("click", () => {
+      currentView = "profile";
+      updateModalToggles();
+      renderModalContent();
+    });
+
+    els.statsToggle.addEventListener("click", () => {
+      currentView = "stats";
+      updateModalToggles();
+      renderModalContent();
     });
 
     els.closeModalBtn.addEventListener("click", closeModal);
 
     els.modalBackdrop.addEventListener("click", event => {
-      if (event.target === els.modalBackdrop) closeModal();
+      if (event.target === els.modalBackdrop) {
+        closeModal();
+      }
     });
 
     document.addEventListener("keydown", event => {
-      if (event.key === "Escape") closeModal();
-    });
-
-    document.querySelectorAll("[data-format-tab]").forEach(btn => {
-      btn.addEventListener("click", () => {
-        currentFormat = btn.dataset.formatTab;
-        setActiveTabs();
-        renderModalStats();
-      });
-    });
-
-    document.querySelectorAll("[data-type-tab]").forEach(btn => {
-      btn.addEventListener("click", () => {
-        currentType = btn.dataset.typeTab;
-        setActiveTabs();
-        renderModalStats();
-      });
+      if (event.key === "Escape") {
+        closeModal();
+      }
     });
 
     loadData();
