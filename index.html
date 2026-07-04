@@ -17,7 +17,6 @@
       --bg2: #020617;
       --panel: rgba(15, 23, 42, 0.96);
       --panel2: rgba(30, 41, 59, 0.92);
-      --panel3: rgba(2, 6, 23, 0.72);
       --line: rgba(148, 163, 184, 0.22);
       --line2: rgba(148, 163, 184, 0.13);
       --text: #e5e7eb;
@@ -28,7 +27,6 @@
       --red: #fb7185;
       --white: #ffffff;
       --shadow: 0 22px 70px rgba(0, 0, 0, 0.48);
-      --radius: 20px;
       --safe-top: env(safe-area-inset-top);
       --safe-bottom: env(safe-area-inset-bottom);
     }
@@ -120,7 +118,9 @@
     }
 
     .search-input,
-    .filter-select {
+    .filter-select,
+    .edit-input,
+    .edit-select {
       width: 100%;
       border: 1px solid var(--line);
       background: rgba(2, 6, 23, 0.76);
@@ -132,7 +132,9 @@
     }
 
     .search-input:focus,
-    .filter-select:focus {
+    .filter-select:focus,
+    .edit-input:focus,
+    .edit-select:focus {
       border-color: rgba(56, 189, 248, 0.75);
       box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.14);
     }
@@ -232,6 +234,10 @@
       border-color: rgba(56, 189, 248, 0.65);
     }
 
+    .player-card.edited-card {
+      border-color: rgba(250, 204, 21, 0.65);
+    }
+
     .player-name {
       color: var(--white);
       font-size: 16px;
@@ -259,6 +265,11 @@
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
+    }
+
+    .chip.edited-chip {
+      color: #fef3c7;
+      border-color: rgba(250, 204, 21, 0.45);
     }
 
     .mini-grid {
@@ -403,13 +414,23 @@
       border-color: transparent;
     }
 
-    .profile-grid {
+    .profile-actions {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin: 4px 0 12px;
+    }
+
+    .profile-grid,
+    .edit-grid {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 9px;
     }
 
-    .profile-card {
+    .profile-card,
+    .edit-card {
       border: 1px solid var(--line2);
       background: rgba(15, 23, 42, 0.72);
       border-radius: 15px;
@@ -417,11 +438,13 @@
       min-width: 0;
     }
 
-    .profile-card.wide {
+    .profile-card.wide,
+    .edit-card.wide {
       grid-column: 1 / -1;
     }
 
-    .profile-label {
+    .profile-label,
+    .edit-label {
       color: var(--muted);
       font-size: 10px;
       text-transform: uppercase;
@@ -460,9 +483,45 @@
       border-color: rgba(34, 197, 94, 0.36);
     }
 
-    .active-pill.inactive {
+    .active-pill.retired {
+      color: #fde68a;
+      border-color: rgba(250, 204, 21, 0.36);
+    }
+
+    .active-pill.passed_away {
       color: #fecdd3;
       border-color: rgba(251, 113, 133, 0.36);
+    }
+
+    .stats-control-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin: 4px 0 10px;
+    }
+
+    .domestic-note {
+      color: rgba(148, 163, 184, 0.95);
+      font-size: 11px;
+    }
+
+    .domestic-toggle-btn {
+      border: 1px solid rgba(148, 163, 184, 0.28);
+      background: rgba(15, 23, 42, 0.84);
+      color: #e5e7eb;
+      border-radius: 999px;
+      padding: 9px 12px;
+      font-weight: 900;
+      cursor: pointer;
+      font-size: 12px;
+    }
+
+    .domestic-toggle-btn.active {
+      background: linear-gradient(135deg, var(--gold), var(--blue));
+      color: #020617;
+      border-color: transparent;
     }
 
     .stats-section-title {
@@ -511,7 +570,8 @@
     }
 
     .stats-table td {
-      color: var(--text);
+      color: #f8fafc;
+      font-weight: 800;
     }
 
     .stats-table th:first-child,
@@ -521,7 +581,7 @@
       left: 0;
       z-index: 3;
       background: rgba(7, 14, 27, 0.98);
-      font-weight: 900;
+      font-weight: 950;
       color: var(--white);
     }
 
@@ -532,8 +592,8 @@
     }
 
     .strong-stat {
-      font-weight: 950;
-      color: var(--white);
+      font-weight: 1000 !important;
+      color: #ffffff !important;
     }
 
     .source-note {
@@ -541,13 +601,6 @@
       font-size: 11px;
       line-height: 1.4;
       margin-top: 10px;
-    }
-
-    .load-more-wrap {
-      grid-column: 1 / -1;
-      display: flex;
-      justify-content: center;
-      padding: 8px 0 30px;
     }
 
     @media (max-width: 760px) {
@@ -601,7 +654,8 @@
         padding: 10px;
       }
 
-      .profile-grid {
+      .profile-grid,
+      .edit-grid {
         grid-template-columns: 1fr;
       }
 
@@ -628,7 +682,7 @@
           </button>
           <h1>Player Database</h1>
           <div class="subtitle">
-            Lists every player from the slim ESPN player index. Tap a player to view profile or stats.
+            Lists every player. Tap a player to view profile, edit standardized fields, or view stats.
           </div>
         </div>
 
@@ -651,7 +705,8 @@
         <select id="activeFilter" class="filter-select">
           <option value="">All Status</option>
           <option value="active">Active</option>
-          <option value="inactive">Inactive</option>
+          <option value="retired">Retired</option>
+          <option value="passed_away">Passed Away</option>
           <option value="blank">Unknown</option>
         </select>
 
@@ -676,8 +731,8 @@
       </div>
 
       <div class="summary-box">
-        <div class="summary-label">Stats Source</div>
-        <div class="summary-value" style="font-size: 16px;">Profile + Stats</div>
+        <div class="summary-label">Edited</div>
+        <div class="summary-value" id="editedCount">0</div>
       </div>
     </section>
 
@@ -687,7 +742,9 @@
       <div class="small-actions">
         <button class="ghost-btn" id="sortNameBtn" type="button">Sort A-Z</button>
         <button class="ghost-btn" id="sortCountryBtn" type="button">Sort Country</button>
-        <button class="ghost-btn" id="sortActiveBtn" type="button">Sort Active</button>
+        <button class="ghost-btn" id="sortActiveBtn" type="button">Sort Status</button>
+        <button class="ghost-btn" id="downloadJsonBtn" type="button">Download Combined JSON</button>
+        <button class="ghost-btn" id="downloadCsvBtn" type="button">Download Combined CSV</button>
       </div>
     </div>
 
@@ -728,12 +785,56 @@
     let currentPlayer = null;
     let currentView = "profile";
     let currentSort = "name";
-    let visibleLimit = 300;
+    let showDomesticStats = false;
+    let isEditingProfile = false;
 
-    const FORMAT_ROWS = [
+    const ROLE_OPTIONS = [
+      { id: "", label: "Unknown" },
+      { id: "OP", label: "Opener" },
+      { id: "TBT", label: "Top-order batter" },
+      { id: "MBT", label: "Middle-order batter" },
+      { id: "BAT", label: "Batter" },
+      { id: "FIN", label: "Finisher" },
+      { id: "WKT", label: "Wicketkeeper" },
+      { id: "WKBT", label: "Wicketkeeper batter" },
+      { id: "AR", label: "Allrounder" },
+      { id: "BTAR", label: "Batting allrounder" },
+      { id: "BWAR", label: "Bowling allrounder" },
+      { id: "BWL", label: "Bowler" },
+      { id: "FB", label: "Fast bowler" },
+      { id: "SPIN", label: "Spin bowler" }
+    ];
+
+    const BATTING_STYLE_OPTIONS = [
+      { code: "", style: "" },
+      { code: "RHB", style: "Right Hand Bat" },
+      { code: "LHB", style: "Left Hand Bat" }
+    ];
+
+    const BOWLING_STYLE_OPTIONS = [
+      { code: "", style: "" },
+      { code: "RF", style: "Right Arm Fast" },
+      { code: "RFM", style: "Right Arm Fast Medium" },
+      { code: "RMF", style: "Right Arm Medium Fast" },
+      { code: "RM", style: "Right Arm Medium" },
+      { code: "LF", style: "Left Arm Fast" },
+      { code: "LFM", style: "Left Arm Fast Medium" },
+      { code: "LMF", style: "Left Arm Medium Fast" },
+      { code: "LM", style: "Left Arm Medium" },
+      { code: "OB", style: "Right Arm Off Break" },
+      { code: "LB", style: "Leg Break" },
+      { code: "LBG", style: "Leg Break Googly" },
+      { code: "SLA", style: "Slow Left Arm Orthodox" },
+      { code: "LWS", style: "Left Arm Wrist Spin" }
+    ];
+
+    const INTERNATIONAL_FORMAT_ROWS = [
       { key: "test", altKeys: ["test", "tests"], label: "Tests" },
       { key: "odi", altKeys: ["odi", "odis"], label: "ODIs" },
-      { key: "t20", altKeys: ["t20", "t20i", "t20is"], label: "T20Is" },
+      { key: "t20", altKeys: ["t20", "t20i", "t20is"], label: "T20Is" }
+    ];
+
+    const DOMESTIC_FORMAT_ROWS = [
       { key: "fc", altKeys: ["fc", "firstclass", "first_class"], label: "FC" },
       { key: "lista", altKeys: ["lista", "list_a", "listA"], label: "List A" },
       { key: "t20s", altKeys: ["t20s", "domestic_t20"], label: "T20s" }
@@ -748,11 +849,14 @@
       totalPlayers: document.getElementById("totalPlayers"),
       totalCountries: document.getElementById("totalCountries"),
       showingCount: document.getElementById("showingCount"),
+      editedCount: document.getElementById("editedCount"),
       resultCount: document.getElementById("resultCount"),
       playerList: document.getElementById("playerList"),
       sortNameBtn: document.getElementById("sortNameBtn"),
       sortCountryBtn: document.getElementById("sortCountryBtn"),
       sortActiveBtn: document.getElementById("sortActiveBtn"),
+      downloadJsonBtn: document.getElementById("downloadJsonBtn"),
+      downloadCsvBtn: document.getElementById("downloadCsvBtn"),
       modalBackdrop: document.getElementById("modalBackdrop"),
       closeModalBtn: document.getElementById("closeModalBtn"),
       modalTitle: document.getElementById("modalTitle"),
@@ -784,11 +888,6 @@
       return cleaned || fallback;
     }
 
-    function num(value) {
-      const n = Number(value);
-      return Number.isFinite(n) ? n : 0;
-    }
-
     function escapeHtml(value) {
       return String(showValue(value, ""))
         .replaceAll("&", "&amp;")
@@ -796,6 +895,18 @@
         .replaceAll(">", "&gt;")
         .replaceAll('"', "&quot;")
         .replaceAll("'", "&#039;");
+    }
+
+    function cleanDate(value) {
+      const text = cleanText(value);
+
+      if (!text) return "";
+
+      if (text.includes("T")) {
+        return text.split("T")[0];
+      }
+
+      return text.slice(0, 10);
     }
 
     function getId(player) {
@@ -818,38 +929,71 @@
       return cleanText(player.espn_country_name || player.source_country_text) || "Unknown";
     }
 
-    function getStatus(player) {
-      return cleanText(player.espn_active_status);
+    function getDeathDate(player) {
+      return cleanDate(
+        player.espn_date_of_death ||
+        player.date_of_death ||
+        player.date_of_death_str ||
+        player.espn_date_of_death_str
+      );
+    }
+
+    function getStatusKey(player) {
+      const deathDate = getDeathDate(player);
+      const raw = cleanText(player.espn_active_status).toLowerCase();
+
+      if (
+        deathDate ||
+        raw === "passed_away" ||
+        raw === "passed away" ||
+        raw === "deceased" ||
+        raw === "dead"
+      ) {
+        return "passed_away";
+      }
+
+      if (raw === "active") {
+        return "active";
+      }
+
+      if (raw === "inactive" || raw === "retired") {
+        return "retired";
+      }
+
+      return "";
     }
 
     function getStatusLabel(player) {
-      const status = getStatus(player);
+      const status = getStatusKey(player);
 
       if (status === "active") return "Active";
-      if (status === "inactive") return "Inactive";
+      if (status === "retired") return "Retired";
+      if (status === "passed_away") return "Passed Away";
 
       return "Unknown";
     }
 
-    function calculateAge(dob) {
-      dob = cleanText(dob);
+    function calculateAge(dob, deathDate) {
+      dob = cleanDate(dob);
+      deathDate = cleanDate(deathDate);
 
       if (!dob) return "";
 
       const birthDate = new Date(dob);
-
       if (Number.isNaN(birthDate.getTime())) return "";
 
-      const today = new Date();
-      let age = today.getFullYear() - birthDate.getFullYear();
-      const monthDiff = today.getMonth() - birthDate.getMonth();
-      const dayDiff = today.getDate() - birthDate.getDate();
+      const endDate = deathDate ? new Date(deathDate) : new Date();
+      if (Number.isNaN(endDate.getTime())) return "";
+
+      let age = endDate.getFullYear() - birthDate.getFullYear();
+      const monthDiff = endDate.getMonth() - birthDate.getMonth();
+      const dayDiff = endDate.getDate() - birthDate.getDate();
 
       if (monthDiff < 0 || (monthDiff === 0 && dayDiff < 0)) {
         age--;
       }
 
-      return age > 0 ? String(age) : "";
+      return age >= 0 ? String(age) : "";
     }
 
     async function fetchJson(path, fallback) {
@@ -883,6 +1027,20 @@
       return [];
     }
 
+    function normalizeLoadedPlayer(player) {
+      player.espn_date_of_birth = cleanDate(player.espn_date_of_birth || player.date_of_birth || player.date_of_birth_str);
+      player.espn_date_of_death = getDeathDate(player);
+      player.espn_active_status = getStatusKey(player);
+
+      if (player.espn_active_status === "active") {
+        player.espn_is_active = true;
+      } else if (player.espn_active_status === "retired" || player.espn_active_status === "passed_away") {
+        player.espn_is_active = false;
+      }
+
+      return player;
+    }
+
     async function loadData() {
       els.loadStatus.textContent = "Loading JSON...";
 
@@ -891,7 +1049,7 @@
         fetchJson(STATS_JSON_PATH, {})
       ]);
 
-      allPlayers = normalizeProfiles(profileData);
+      allPlayers = normalizeProfiles(profileData).map(normalizeLoadedPlayer);
       statsIndex = statsData || {};
 
       allPlayers.sort((a, b) => getName(a).localeCompare(getName(b)));
@@ -922,7 +1080,7 @@
       const active = els.activeFilter.value;
 
       filteredPlayers = allPlayers.filter(player => {
-        const status = getStatus(player);
+        const status = getStatusKey(player);
 
         const blob = [
           getId(player),
@@ -947,8 +1105,10 @@
 
         if (active === "active") {
           matchesActive = status === "active";
-        } else if (active === "inactive") {
-          matchesActive = status === "inactive";
+        } else if (active === "retired") {
+          matchesActive = status === "retired";
+        } else if (active === "passed_away") {
+          matchesActive = status === "passed_away";
         } else if (active === "blank") {
           matchesActive = !status;
         }
@@ -956,7 +1116,6 @@
         return matchesSearch && matchesCountry && matchesActive;
       });
 
-      visibleLimit = 300;
       sortPlayers();
       updateSummary();
       renderPlayers();
@@ -984,12 +1143,14 @@
 
     function updateSummary() {
       const countries = new Set(allPlayers.map(getCountry).filter(Boolean));
+      const edited = allPlayers.filter(p => p._edited === true).length;
 
       els.totalPlayers.textContent = allPlayers.length.toLocaleString();
       els.totalCountries.textContent = countries.size.toLocaleString();
       els.showingCount.textContent = filteredPlayers.length.toLocaleString();
+      els.editedCount.textContent = edited.toLocaleString();
       els.resultCount.textContent =
-        `Showing ${Math.min(visibleLimit, filteredPlayers.length).toLocaleString()} of ${filteredPlayers.length.toLocaleString()} filtered players`;
+        `Showing ${filteredPlayers.length.toLocaleString()} of ${allPlayers.length.toLocaleString()} players`;
     }
 
     function renderPlayers() {
@@ -998,20 +1159,19 @@
         return;
       }
 
-      const visiblePlayers = filteredPlayers.slice(0, visibleLimit);
-
-      const cards = visiblePlayers.map((player, index) => {
-        const status = getStatus(player);
-        const statusClass = status === "active" ? "active" : status === "inactive" ? "inactive" : "";
+      const cards = filteredPlayers.map((player, index) => {
+        const status = getStatusKey(player);
+        const deathDate = getDeathDate(player);
 
         return `
-          <article class="player-card" data-index="${index}" tabindex="0">
+          <article class="player-card ${player._edited ? "edited-card" : ""}" data-index="${index}" tabindex="0">
             <div class="player-name">${escapeHtml(getName(player))}</div>
 
             <div class="player-meta">
               <span class="chip">${escapeHtml(getCountry(player))}</span>
               <span class="chip">ID: ${escapeHtml(getId(player))}</span>
               <span class="chip">${escapeHtml(getStatusLabel(player))}</span>
+              ${player._edited ? `<span class="chip edited-chip">Edited</span>` : ""}
             </div>
 
             <div class="mini-grid">
@@ -1031,55 +1191,36 @@
               </div>
 
               <div class="mini-box">
-                <div class="mini-label">DOB</div>
-                <div class="mini-value">${escapeHtml(showValue(player.espn_date_of_birth))}</div>
+                <div class="mini-label">${status === "passed_away" ? "Died" : "DOB"}</div>
+                <div class="mini-value">${escapeHtml(showValue(status === "passed_away" ? deathDate : player.espn_date_of_birth))}</div>
               </div>
             </div>
           </article>
         `;
       }).join("");
 
-      const loadMore =
-        visibleLimit < filteredPlayers.length
-          ? `
-            <div class="load-more-wrap">
-              <button class="main-btn" id="loadMoreBtn" type="button">
-                Load More Players
-              </button>
-            </div>
-          `
-          : "";
-
-      els.playerList.innerHTML = cards + loadMore;
+      els.playerList.innerHTML = cards;
 
       document.querySelectorAll(".player-card").forEach(card => {
         card.addEventListener("click", () => {
           const index = Number(card.dataset.index);
-          openModal(visiblePlayers[index]);
+          openModal(filteredPlayers[index]);
         });
 
         card.addEventListener("keydown", event => {
           if (event.key === "Enter") {
             const index = Number(card.dataset.index);
-            openModal(visiblePlayers[index]);
+            openModal(filteredPlayers[index]);
           }
         });
       });
-
-      const loadMoreBtn = document.getElementById("loadMoreBtn");
-
-      if (loadMoreBtn) {
-        loadMoreBtn.addEventListener("click", () => {
-          visibleLimit += 300;
-          updateSummary();
-          renderPlayers();
-        });
-      }
     }
 
     function openModal(player) {
       currentPlayer = player;
       currentView = "profile";
+      showDomesticStats = false;
+      isEditingProfile = false;
 
       els.modalTitle.textContent = getFullName(player);
       els.modalSubtitle.textContent =
@@ -1096,6 +1237,7 @@
       els.modalBackdrop.classList.remove("show");
       document.body.style.overflow = "";
       currentPlayer = null;
+      isEditingProfile = false;
     }
 
     function updateModalToggles() {
@@ -1107,7 +1249,11 @@
       if (!currentPlayer) return;
 
       if (currentView === "profile") {
-        renderProfile();
+        if (isEditingProfile) {
+          renderProfileEditor();
+        } else {
+          renderProfile();
+        }
       } else {
         renderStats();
       }
@@ -1115,11 +1261,17 @@
 
     function renderProfile() {
       const p = currentPlayer;
-      const age = calculateAge(p.espn_date_of_birth);
-      const status = getStatus(p);
-      const statusClass = status === "active" ? "active" : status === "inactive" ? "inactive" : "";
+      const deathDate = getDeathDate(p);
+      const age = calculateAge(p.espn_date_of_birth, deathDate);
+      const status = getStatusKey(p);
+      const statusClass = status || "";
 
       els.modalContent.innerHTML = `
+        <div class="profile-actions">
+          <button class="ghost-btn" id="editProfileBtn" type="button">Edit Profile</button>
+          <button class="ghost-btn" id="downloadThisJsonBtn" type="button">Download This Player</button>
+        </div>
+
         <div class="profile-grid">
           <div class="profile-card">
             <div class="profile-label">Display Name</div>
@@ -1147,7 +1299,7 @@
           </div>
 
           <div class="profile-card">
-            <div class="profile-label">Age</div>
+            <div class="profile-label">${status === "passed_away" ? "Age at Death" : "Age"}</div>
             <div class="profile-value">${escapeHtml(showValue(age))}</div>
           </div>
 
@@ -1158,6 +1310,11 @@
                 ${escapeHtml(getStatusLabel(p))}
               </span>
             </div>
+          </div>
+
+          <div class="profile-card">
+            <div class="profile-label">Date of Death</div>
+            <div class="profile-value">${escapeHtml(showValue(deathDate))}</div>
           </div>
 
           <div class="profile-card">
@@ -1173,6 +1330,11 @@
           <div class="profile-card">
             <div class="profile-label">Role ID</div>
             <div class="profile-value">${escapeHtml(showValue(p.espn_playing_role_id))}</div>
+          </div>
+
+          <div class="profile-card">
+            <div class="profile-label">Cricinfo ID</div>
+            <div class="profile-value">${escapeHtml(showValue(getId(p)))}</div>
           </div>
 
           <div class="profile-card">
@@ -1201,6 +1363,167 @@
           </div>
         </div>
       `;
+
+      document.getElementById("editProfileBtn").addEventListener("click", () => {
+        isEditingProfile = true;
+        renderModalContent();
+      });
+
+      document.getElementById("downloadThisJsonBtn").addEventListener("click", () => {
+        downloadSinglePlayerJson(currentPlayer);
+      });
+    }
+
+    function makeSelectOptions(options, currentValue, valueKey, labelKey) {
+      return options.map(option => {
+        const value = option[valueKey];
+        const label = option[labelKey] || "No Bowling";
+        const selected = value === currentValue ? "selected" : "";
+
+        return `<option value="${escapeHtml(value)}" ${selected}>${escapeHtml(label)}</option>`;
+      }).join("");
+    }
+
+    function renderProfileEditor() {
+      const p = currentPlayer;
+      const currentRoleId = cleanText(p.espn_playing_role_id);
+      const currentBatCode = cleanText(p.standard_batting_code);
+      const currentBowlCode = cleanText(p.standard_bowling_code);
+      const currentStatus = getStatusKey(p);
+      const deathDate = getDeathDate(p);
+
+      els.modalContent.innerHTML = `
+        <div class="profile-actions">
+          <button class="main-btn" id="saveProfileBtn" type="button">Save Changes</button>
+          <button class="ghost-btn" id="cancelEditBtn" type="button">Cancel</button>
+        </div>
+
+        <div class="edit-grid">
+          <div class="edit-card">
+            <div class="edit-label">Playing Role</div>
+            <select class="edit-select" id="editRole">
+              ${makeSelectOptions(ROLE_OPTIONS, currentRoleId, "id", "label")}
+            </select>
+          </div>
+
+          <div class="edit-card">
+            <div class="edit-label">Active Status</div>
+            <select class="edit-select" id="editStatus">
+              <option value="" ${currentStatus === "" ? "selected" : ""}>Unknown</option>
+              <option value="active" ${currentStatus === "active" ? "selected" : ""}>Active</option>
+              <option value="retired" ${currentStatus === "retired" ? "selected" : ""}>Retired</option>
+              <option value="passed_away" ${currentStatus === "passed_away" ? "selected" : ""}>Passed Away</option>
+            </select>
+          </div>
+
+          <div class="edit-card">
+            <div class="edit-label">Date of Birth</div>
+            <input class="edit-input" id="editDob" type="date" value="${escapeHtml(cleanDate(p.espn_date_of_birth))}" />
+          </div>
+
+          <div class="edit-card">
+            <div class="edit-label">Date of Death</div>
+            <input class="edit-input" id="editDeathDate" type="date" value="${escapeHtml(deathDate)}" />
+          </div>
+
+          <div class="edit-card">
+            <div class="edit-label">Batting Style</div>
+            <select class="edit-select" id="editBattingStyle">
+              ${makeSelectOptions(BATTING_STYLE_OPTIONS, currentBatCode, "code", "style")}
+            </select>
+          </div>
+
+          <div class="edit-card">
+            <div class="edit-label">Bowling Style</div>
+            <select class="edit-select" id="editBowlingStyle">
+              ${makeSelectOptions(BOWLING_STYLE_OPTIONS, currentBowlCode, "code", "style")}
+            </select>
+          </div>
+
+          <div class="edit-card wide">
+            <div class="edit-label">Note</div>
+            <div class="profile-value small">
+              Status display rule: Active stays Active. Inactive is now shown as Retired. If Date of Death is filled, status becomes Passed Away.
+            </div>
+          </div>
+        </div>
+      `;
+
+      document.getElementById("saveProfileBtn").addEventListener("click", saveProfileChanges);
+
+      document.getElementById("cancelEditBtn").addEventListener("click", () => {
+        isEditingProfile = false;
+        renderModalContent();
+      });
+
+      document.getElementById("editStatus").addEventListener("change", event => {
+        const deathInput = document.getElementById("editDeathDate");
+
+        if (event.target.value === "passed_away" && !deathInput.value) {
+          deathInput.focus();
+        }
+      });
+
+      document.getElementById("editDeathDate").addEventListener("change", event => {
+        if (event.target.value) {
+          document.getElementById("editStatus").value = "passed_away";
+        }
+      });
+    }
+
+    function saveProfileChanges() {
+      const roleId = document.getElementById("editRole").value;
+      const status = document.getElementById("editStatus").value;
+      const dob = cleanDate(document.getElementById("editDob").value);
+      const deathDate = cleanDate(document.getElementById("editDeathDate").value);
+      const batCode = document.getElementById("editBattingStyle").value;
+      const bowlCode = document.getElementById("editBowlingStyle").value;
+
+      const role = ROLE_OPTIONS.find(item => item.id === roleId) || ROLE_OPTIONS[0];
+      const bat = BATTING_STYLE_OPTIONS.find(item => item.code === batCode) || BATTING_STYLE_OPTIONS[0];
+      const bowl = BOWLING_STYLE_OPTIONS.find(item => item.code === bowlCode) || BOWLING_STYLE_OPTIONS[0];
+
+      currentPlayer.espn_playing_role_id = role.id;
+      currentPlayer.espn_playing_role = role.id ? role.label : "";
+
+      currentPlayer.espn_date_of_birth = dob;
+      currentPlayer.espn_date_of_death = deathDate;
+
+      currentPlayer.standard_batting_code = bat.code;
+      currentPlayer.standard_batting_style = bat.style;
+
+      currentPlayer.standard_bowling_code = bowl.code;
+      currentPlayer.standard_bowling_style = bowl.style;
+
+      if (deathDate) {
+        currentPlayer.espn_active_status = "passed_away";
+        currentPlayer.espn_is_active = false;
+      } else if (status === "active") {
+        currentPlayer.espn_active_status = "active";
+        currentPlayer.espn_is_active = true;
+      } else if (status === "retired") {
+        currentPlayer.espn_active_status = "retired";
+        currentPlayer.espn_is_active = false;
+      } else if (status === "passed_away") {
+        currentPlayer.espn_active_status = "passed_away";
+        currentPlayer.espn_is_active = false;
+      } else {
+        currentPlayer.espn_active_status = "";
+        currentPlayer.espn_is_active = "";
+      }
+
+      currentPlayer._edited = true;
+      currentPlayer._edited_at = new Date().toISOString();
+
+      isEditingProfile = false;
+
+      applyFilters();
+
+      els.modalTitle.textContent = getFullName(currentPlayer);
+      els.modalSubtitle.textContent =
+        `${getCountry(currentPlayer)} • Cricinfo ID: ${getId(currentPlayer)}`;
+
+      renderModalContent();
     }
 
     function getStatsObject(player) {
@@ -1230,19 +1553,6 @@
       });
     }
 
-    function formatSpan(s) {
-      if (s.Span) return s.Span;
-
-      const start = cleanText(s.Start);
-      const end = cleanText(s.End);
-
-      if (start || end) {
-        return `${start || "?"}-${end || "?"}`;
-      }
-
-      return "";
-    }
-
     function formatHighScore(score, notOut) {
       if (score === null || score === undefined || score === "") return "";
 
@@ -1267,7 +1577,25 @@
         return;
       }
 
+      const rowsToShow = showDomesticStats
+        ? [...INTERNATIONAL_FORMAT_ROWS, ...DOMESTIC_FORMAT_ROWS]
+        : INTERNATIONAL_FORMAT_ROWS;
+
       els.modalContent.innerHTML = `
+        <div class="stats-control-row">
+          <div class="domestic-note">
+            Showing ${showDomesticStats ? "international + domestic" : "international only"} stats
+          </div>
+
+          <button
+            class="domestic-toggle-btn ${showDomesticStats ? "active" : ""}"
+            id="domesticStatsToggleBtn"
+            type="button"
+          >
+            ${showDomesticStats ? "Hide Domestic" : "Show Domestic"}
+          </button>
+        </div>
+
         <div class="stats-section-title">Batting & Fielding</div>
         <div class="stats-table-wrap">
           <table class="stats-table">
@@ -1291,7 +1619,7 @@
               </tr>
             </thead>
             <tbody>
-              ${FORMAT_ROWS.map(row => renderBatFieldRow(stats, row)).join("")}
+              ${rowsToShow.map(row => renderBatFieldRow(stats, row)).join("")}
             </tbody>
           </table>
         </div>
@@ -1318,15 +1646,24 @@
               </tr>
             </thead>
             <tbody>
-              ${FORMAT_ROWS.map(row => renderBowlingRow(stats, row)).join("")}
+              ${rowsToShow.map(row => renderBowlingRow(stats, row)).join("")}
             </tbody>
           </table>
         </div>
 
         <div class="source-note">
-          Tables use your enriched international stats JSON. If FC, List A, or domestic T20 data is not present, those rows show —.
+          Default view shows international stats only. Tap Show Domestic to reveal FC, List A, and T20s if those rows exist in your JSON.
         </div>
       `;
+
+      const domesticBtn = document.getElementById("domesticStatsToggleBtn");
+
+      if (domesticBtn) {
+        domesticBtn.addEventListener("click", () => {
+          showDomesticStats = !showDomesticStats;
+          renderStats();
+        });
+      }
     }
 
     function renderBatFieldRow(stats, row) {
@@ -1380,6 +1717,158 @@
       `;
     }
 
+    function getCleanProfileForDownload(player) {
+      return {
+        cricinfo_id: getId(player),
+        unique_player_id: cleanText(player.unique_player_id),
+        final_player_name: cleanText(player.final_player_name),
+        source_country_text: cleanText(player.source_country_text),
+        espn_profile_found: player.espn_profile_found === true || player.espn_profile_found === "true",
+
+        espn_full_name: cleanText(player.espn_full_name),
+        espn_display_name: cleanText(player.espn_display_name),
+        espn_first_name: cleanText(player.espn_first_name),
+        espn_last_name: cleanText(player.espn_last_name),
+        espn_date_of_birth: cleanDate(player.espn_date_of_birth),
+        espn_date_of_death: getDeathDate(player),
+
+        espn_is_active: player.espn_active_status === "active",
+        espn_active_status: getStatusKey(player),
+
+        standard_batting_code: cleanText(player.standard_batting_code),
+        standard_batting_style: cleanText(player.standard_batting_style),
+
+        standard_bowling_code: cleanText(player.standard_bowling_code),
+        standard_bowling_style: cleanText(player.standard_bowling_style),
+
+        espn_playing_role: cleanText(player.espn_playing_role),
+        espn_playing_role_id: cleanText(player.espn_playing_role_id),
+
+        espn_country_name: cleanText(player.espn_country_name),
+        espn_major_teams: cleanText(player.espn_major_teams),
+
+        edited: player._edited === true,
+        edited_at: cleanText(player._edited_at)
+      };
+    }
+
+    function downloadTextFile(filename, content, mimeType) {
+      const blob = new Blob([content], { type: mimeType });
+      const url = URL.createObjectURL(blob);
+
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+
+      URL.revokeObjectURL(url);
+    }
+
+    function downloadCombinedJson() {
+      const out = {};
+
+      allPlayers.forEach(player => {
+        const id = getId(player);
+
+        if (!id) return;
+
+        out[id] = {
+          profile: getCleanProfileForDownload(player),
+          stats: statsIndex[id] || {}
+        };
+      });
+
+      downloadTextFile(
+        "players_profile_stats_combined_edited.json",
+        JSON.stringify(out, null, 2),
+        "application/json"
+      );
+    }
+
+    function csvEscape(value) {
+      const text = String(value ?? "");
+      return `"${text.replaceAll('"', '""')}"`;
+    }
+
+    function statValue(stats, type, formatKey, field) {
+      const row = INTERNATIONAL_FORMAT_ROWS.find(item => item.key === formatKey);
+      if (!row) return "";
+
+      const obj = getFormatData(stats, type, row);
+      return cleanText(obj?.[field]);
+    }
+
+    function downloadCombinedCsv() {
+      const rows = allPlayers.map(player => {
+        const id = getId(player);
+        const profile = getCleanProfileForDownload(player);
+        const stats = statsIndex[id] || {};
+
+        return {
+          cricinfo_id: profile.cricinfo_id,
+          final_player_name: profile.final_player_name,
+          espn_full_name: profile.espn_full_name,
+          espn_country_name: profile.espn_country_name,
+          active_status: profile.espn_active_status,
+          date_of_birth: profile.espn_date_of_birth,
+          date_of_death: profile.espn_date_of_death,
+          playing_role: profile.espn_playing_role,
+          playing_role_id: profile.espn_playing_role_id,
+          batting_code: profile.standard_batting_code,
+          batting_style: profile.standard_batting_style,
+          bowling_code: profile.standard_bowling_code,
+          bowling_style: profile.standard_bowling_style,
+          major_teams: profile.espn_major_teams,
+          edited: profile.edited,
+          edited_at: profile.edited_at,
+
+          test_matches: statValue(stats, "batting", "test", "Matches"),
+          test_runs: statValue(stats, "batting", "test", "Runs"),
+          test_bat_avg: statValue(stats, "batting", "test", "Average"),
+          test_wickets: statValue(stats, "bowling", "test", "Wickets"),
+
+          odi_matches: statValue(stats, "batting", "odi", "Matches"),
+          odi_runs: statValue(stats, "batting", "odi", "Runs"),
+          odi_bat_avg: statValue(stats, "batting", "odi", "Average"),
+          odi_wickets: statValue(stats, "bowling", "odi", "Wickets"),
+
+          t20_matches: statValue(stats, "batting", "t20", "Matches"),
+          t20_runs: statValue(stats, "batting", "t20", "Runs"),
+          t20_bat_avg: statValue(stats, "batting", "t20", "Average"),
+          t20_wickets: statValue(stats, "bowling", "t20", "Wickets")
+        };
+      });
+
+      const headers = Object.keys(rows[0] || {});
+      const csv = [
+        headers.map(csvEscape).join(","),
+        ...rows.map(row => headers.map(header => csvEscape(row[header])).join(","))
+      ].join("\n");
+
+      downloadTextFile(
+        "players_profile_stats_combined_edited.csv",
+        csv,
+        "text/csv"
+      );
+    }
+
+    function downloadSinglePlayerJson(player) {
+      const id = getId(player);
+
+      const out = {
+        profile: getCleanProfileForDownload(player),
+        stats: statsIndex[id] || {}
+      };
+
+      downloadTextFile(
+        `${id || "player"}_profile_stats.json`,
+        JSON.stringify(out, null, 2),
+        "application/json"
+      );
+    }
+
     els.searchInput.addEventListener("input", applyFilters);
     els.countryFilter.addEventListener("change", applyFilters);
     els.activeFilter.addEventListener("change", applyFilters);
@@ -1407,14 +1896,19 @@
       applyFilters();
     });
 
+    els.downloadJsonBtn.addEventListener("click", downloadCombinedJson);
+    els.downloadCsvBtn.addEventListener("click", downloadCombinedCsv);
+
     els.profileToggle.addEventListener("click", () => {
       currentView = "profile";
+      isEditingProfile = false;
       updateModalToggles();
       renderModalContent();
     });
 
     els.statsToggle.addEventListener("click", () => {
       currentView = "stats";
+      isEditingProfile = false;
       updateModalToggles();
       renderModalContent();
     });
