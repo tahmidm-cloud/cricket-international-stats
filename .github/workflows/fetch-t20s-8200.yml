@@ -1,0 +1,127 @@
+name: Fetch Bio + T20s 8200 Players
+
+on:
+  workflow_dispatch:
+    inputs:
+      sleep_seconds:
+        description: "Sleep between Cricinfo requests"
+        required: true
+        default: "0.60"
+      force_refresh:
+        description: "Ignore shard cache? 1=yes, 0=no"
+        required: true
+        default: "0"
+      commit_outputs:
+        description: "Commit final outputs to repo? true/false"
+        required: true
+        default: "true"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-shards:
+    name: Fetch shard ${{ matrix.shard_index }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        shard_index: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+
+    env:
+      SHARD_INDEX: ${{ matrix.shard_index }}
+      SHARD_TOTAL: 20
+      SLEEP_SECONDS: ${{ github.event.inputs.sleep_seconds }}
+      FORCE_REFRESH: ${{ github.event.inputs.force_refresh }}
+      MAX_PLAYERS: 0
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install requirements
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Restore shard cache
+        uses: actions/cache@v4
+        with:
+          path: outputs/bio_t20s_only_cache/shard_${{ matrix.shard_index }}_of_20
+          key: bio-t20s-cache-v1-shard-${{ matrix.shard_index }}-of-20
+          restore-keys: |
+            bio-t20s-cache-v1-shard-${{ matrix.shard_index }}-
+
+      - name: Run T20s scraper shard
+        run: |
+          python scripts/fetch_bio_t20s_only_github.py
+
+      - name: Upload shard output
+        uses: actions/upload-artifact@v4
+        with:
+          name: t20s-shard-${{ matrix.shard_index }}
+          path: |
+            outputs/shards/bio_t20s_only_shard_${{ matrix.shard_index }}_of_20.csv
+            outputs/shards/bio_t20s_only_shard_${{ matrix.shard_index }}_of_20_keyed.json
+            outputs/shards/bio_t20s_only_shard_${{ matrix.shard_index }}_of_20_errors.csv
+            outputs/shards/bio_t20s_only_shard_${{ matrix.shard_index }}_of_20_report.csv
+
+  merge-shards:
+    name: Merge shards
+    runs-on: ubuntu-latest
+    needs: fetch-shards
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install merge requirements
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas
+
+      - name: Download shard artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+
+      - name: Merge outputs
+        run: |
+          python scripts/merge_t20s_shards.py
+
+      - name: Upload final combined files
+        uses: actions/upload-artifact@v4
+        with:
+          name: bio-t20s-final-combined
+          path: |
+            outputs/bio_t20s_only.csv
+            outputs/bio_t20s_only_keyed.json
+            outputs/bio_t20s_only_errors.csv
+            outputs/bio_t20s_only_report.csv
+
+      - name: Commit final outputs
+        if: ${{ github.event.inputs.commit_outputs == 'true' }}
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add outputs/bio_t20s_only.csv
+          git add outputs/bio_t20s_only_keyed.json
+          git add outputs/bio_t20s_only_errors.csv
+          git add outputs/bio_t20s_only_report.csv
+
+          git commit -m "Update bio and T20s player data" || echo "No changes to commit"
+          git push
