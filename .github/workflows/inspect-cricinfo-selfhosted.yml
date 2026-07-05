@@ -1,0 +1,44 @@
+name: Inspect Cricinfo Self Hosted
+
+on:
+  workflow_dispatch:
+    inputs:
+      player_id:
+        description: "Cricinfo player ID"
+        required: true
+        default: "8166"
+      player_slug:
+        description: "Player slug"
+        required: true
+        default: "shane-warne"
+
+jobs:
+  inspect:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install Python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 lxml pandas
+
+      - name: Create output folder
+        run: |
+          mkdir -p outputs/cricinfo_stats_page_inspect
+
+      - name: Inspect Cricinfo stats page
+        env:
+          PLAYER_ID: ${{ github.event.inputs.player_id }}
+          PLAYER_SLUG: ${{ github.event.inputs.player_slug }}
+        run: |
+          python scripts/inspect_cricinfo_stats_page.py
+
+      - name: Upload output
+        uses: actions/upload-artifact@v4
+        with:
+          name: selfhosted-cricinfo-stats-${{ github.event.inputs.player_id }}
+          path: |
+            outputs/cricinfo_stats_page_inspect/*
