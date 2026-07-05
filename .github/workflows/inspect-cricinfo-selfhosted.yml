@@ -16,25 +16,40 @@ jobs:
   inspect:
     runs-on: self-hosted
 
+    defaults:
+      run:
+        shell: cmd
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Check Python
+        run: |
+          python --version
+          python -m pip --version
+
       - name: Install Python packages
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 lxml pandas
+          python -m pip install requests beautifulsoup4 lxml pandas
 
       - name: Create output folder
         run: |
-          mkdir -p outputs/cricinfo_stats_page_inspect
+          if not exist outputs mkdir outputs
+          if not exist outputs\cricinfo_stats_page_inspect mkdir outputs\cricinfo_stats_page_inspect
 
       - name: Inspect Cricinfo stats page
         env:
           PLAYER_ID: ${{ github.event.inputs.player_id }}
           PLAYER_SLUG: ${{ github.event.inputs.player_slug }}
         run: |
-          python scripts/inspect_cricinfo_stats_page.py
+          python scripts\inspect_cricinfo_stats_page.py
 
       - name: Upload output
         uses: actions/upload-artifact@v4
