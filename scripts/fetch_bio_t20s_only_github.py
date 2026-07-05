@@ -12,30 +12,54 @@ from tqdm import tqdm
 from cricdata import CricinfoClient
 
 
+# ------------------------------------------------------------
+# INPUT FILES
+# ------------------------------------------------------------
+
 PLAYER_INDEX_CANDIDATES = [
     Path("outputs/player_index_espn_slim.csv"),
     Path("outputs/player_index_enriched.csv"),
     Path("outputs/player_index.csv"),
 ]
 
+EXISTING_PROFILE_CANDIDATES = [
+    Path("outputs/player_index_espn_slim.csv"),
+    Path("outputs/espn_profiles_styles_final.csv"),
+    Path("outputs/player_index_enriched.csv"),
+    Path("outputs/player_index.csv"),
+]
+
 EXISTING_INTERNATIONAL_STATS = Path("outputs/all_international_stats_enriched.json")
+
+
+# ------------------------------------------------------------
+# OUTPUT FILES
+# ------------------------------------------------------------
 
 OUT_DIR = Path("outputs")
 SHARD_DIR = OUT_DIR / "shards"
 SHARD_DIR.mkdir(parents=True, exist_ok=True)
+
+
+# ------------------------------------------------------------
+# GITHUB / LOCAL SETTINGS
+# ------------------------------------------------------------
 
 SHARD_INDEX = int(os.getenv("SHARD_INDEX", "0"))
 SHARD_TOTAL = int(os.getenv("SHARD_TOTAL", "1"))
 
 MAX_PLAYERS = int(os.getenv("MAX_PLAYERS", "0"))
 TEST_ID = os.getenv("TEST_ID", "").strip()
-SLEEP_SECONDS = float(os.getenv("SLEEP_SECONDS", "0.60"))
+SLEEP_SECONDS = float(os.getenv("SLEEP_SECONDS", "0.35"))
 FORCE_REFRESH = os.getenv("FORCE_REFRESH", "0") == "1"
+
+# Important: v4 forces a fresh cache path so old cached records that missed 4w/5w do not block the fix.
+CACHE_VERSION = os.getenv("CACHE_VERSION", "v4")
 
 CURRENT_YEAR = datetime.now().year
 T20_FORMAT = "t20"
 
-CACHE_DIR = OUT_DIR / "bio_t20s_only_cache" / f"shard_{SHARD_INDEX}_of_{SHARD_TOTAL}"
+CACHE_DIR = OUT_DIR / "bio_t20s_only_cache" / CACHE_VERSION / f"shard_{SHARD_INDEX}_of_{SHARD_TOTAL}"
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
 OUT_CSV = SHARD_DIR / f"bio_t20s_only_shard_{SHARD_INDEX}_of_{SHARD_TOTAL}.csv"
@@ -43,6 +67,10 @@ OUT_JSON = SHARD_DIR / f"bio_t20s_only_shard_{SHARD_INDEX}_of_{SHARD_TOTAL}_keye
 OUT_ERRORS = SHARD_DIR / f"bio_t20s_only_shard_{SHARD_INDEX}_of_{SHARD_TOTAL}_errors.csv"
 OUT_REPORT = SHARD_DIR / f"bio_t20s_only_shard_{SHARD_INDEX}_of_{SHARD_TOTAL}_report.csv"
 
+
+# ------------------------------------------------------------
+# CLEANING HELPERS
+# ------------------------------------------------------------
 
 def clean_value(x):
     if x is None:
@@ -53,6 +81,9 @@ def clean_value(x):
             return ""
     except Exception:
         pass
+
+    if isinstance(x, (dict, list)):
+        return json.dumps(x, ensure_ascii=False)
 
     x = str(x).strip()
 
@@ -84,33 +115,108 @@ def parse_date(value):
         return ""
 
 
-def find_deep(obj, keys):
+def first_nonblank(*values):
+    for value in values:
+        cleaned = clean_value(value)
+        if cleaned:
+            return cleaned
+    return ""
+
+
+def raw_find_deep(obj, keys):
     wanted = {k.lower() for k in keys}
 
     if isinstance(obj, dict):
         for k, v in obj.items():
             if str(k).lower() in wanted:
-                val = clean_value(v)
-                if val:
-                    return val
+                if v is not None and v != "":
+                    return v
 
         for v in obj.values():
-            found = find_deep(v, keys)
-            if found:
+            found = raw_find_deep(v, keys)
+            if found is not None and found != "":
                 return found
 
     elif isinstance(obj, list):
         for item in obj:
-            found = find_deep(item, keys)
-            if found:
+            found = raw_find_deep(item, keys)
+            if found is not None and found != "":
                 return found
 
     return ""
 
 
+def find_deep(obj, keys):
+    return clean_value(raw_find_deep(obj, keys))
+
+
+def extract_name_from_obj(value):
+    if isinstance(value, dict):
+        return first_nonblank(
+            value.get("name"),
+            value.get("displayName"),
+            value.get("fullName"),
+            value.get("label"),
+            value.get("description"),
+            value.get("abbreviation"),
+        )
+
+    if isinstance(value, list):
+        parts = []
+        for item in value:
+            name = extract_name_from_obj(item)
+            if name:
+                parts.append(name)
+        return ", ".join(parts)
+
+    return clean_value(value)
+
+
+def extract_id_from_obj(value):
+    if isinstance(value, dict):
+        return first_nonblank(
+            value.get("id"),
+            value.get("abbreviation"),
+            value.get("code"),
+            value.get("slug"),
+        )
+
+    return ""
+
+
+def cache_path(player_id):
+    return CACHE_DIR / f"{player_id}.json"
+
+
+def load_cached(player_id):
+    path = cache_path(player_id)
+
+    if FORCE_REFRESH or not path.exists():
+        return None
+
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+
+
+def save_cached(player_id, record):
+    cache_path(player_id).write_text(
+        json.dumps(record, indent=2, ensure_ascii=False),
+        encoding="utf-8",
+    )
+
+
+# ------------------------------------------------------------
+# STYLE + ROLE STANDARDIZATION
+# ------------------------------------------------------------
+
 def normalize_batting_style(raw):
-    raw = clean_value(raw)
+    raw = extract_name_from_obj(raw)
     low = raw.lower().replace("-", " ")
+
+    if not raw:
+        return "", ""
 
     if "right" in low and "bat" in low:
         return "RHB", "Right Hand Bat"
@@ -122,7 +228,7 @@ def normalize_batting_style(raw):
 
 
 def normalize_bowling_style(raw):
-    raw = clean_value(raw)
+    raw = extract_name_from_obj(raw)
     low = raw.lower().replace("-", " ")
 
     if not raw or low in {"right arm bowler", "left arm bowler", "unknown"}:
@@ -161,62 +267,61 @@ def normalize_bowling_style(raw):
 
 
 def normalize_role(raw):
-    raw = clean_value(raw)
-    low = raw.lower()
+    raw_id = extract_id_from_obj(raw)
+    raw_name = extract_name_from_obj(raw)
+    low = raw_name.lower()
 
-    if not raw:
+    if not raw_name and raw_id:
+        raw_name = raw_id
+        low = raw_name.lower()
+
+    if not raw_name:
         return "", ""
+
+    if raw_id.upper() == "UKN" or raw_name.lower() == "unknown":
+        return "UKN", "Unknown"
 
     if "opening" in low or low == "opener":
         return "OP", "Opener"
+
     if "top-order" in low or "top order" in low:
         return "TBT", "Top-order batter"
+
     if "middle-order" in low or "middle order" in low:
         return "MBT", "Middle-order batter"
-    if "wicketkeeper" in low or "wicket-keeper" in low:
+
+    if "wicketkeeper" in low or "wicket-keeper" in low or "wicket keeper" in low:
         if "batter" in low or "batsman" in low:
             return "WKBT", "Wicketkeeper batter"
         return "WKT", "Wicketkeeper"
+
     if "batting allrounder" in low or "batting all-rounder" in low:
         return "BTAR", "Batting allrounder"
+
     if "bowling allrounder" in low or "bowling all-rounder" in low:
         return "BWAR", "Bowling allrounder"
+
     if "allrounder" in low or "all-rounder" in low:
         return "AR", "Allrounder"
+
     if "fast bowler" in low:
         return "FB", "Fast bowler"
+
     if "spinner" in low or "spin bowler" in low:
         return "SPIN", "Spin bowler"
+
     if "bowler" in low:
         return "BWL", "Bowler"
+
     if "batter" in low or "batsman" in low:
         return "BAT", "Batter"
 
-    return "", raw
+    return raw_id, raw_name
 
 
-def cache_path(player_id):
-    return CACHE_DIR / f"{player_id}.json"
-
-
-def load_cached(player_id):
-    path = cache_path(player_id)
-
-    if FORCE_REFRESH or not path.exists():
-        return None
-
-    try:
-        return json.loads(path.read_text(encoding="utf-8"))
-    except Exception:
-        return None
-
-
-def save_cached(player_id, record):
-    cache_path(player_id).write_text(
-        json.dumps(record, indent=2, ensure_ascii=False),
-        encoding="utf-8",
-    )
-
+# ------------------------------------------------------------
+# INPUT LOADERS
+# ------------------------------------------------------------
 
 def load_player_index():
     index_path = None
@@ -266,11 +371,29 @@ def load_player_index():
     if MAX_PLAYERS > 0:
         df = df.head(MAX_PLAYERS).copy()
 
-    # shard split
     if not TEST_ID and SHARD_TOTAL > 1:
         df = df.iloc[SHARD_INDEX::SHARD_TOTAL].copy()
 
     return df, index_path
+
+
+def load_existing_profile_index():
+    for path in EXISTING_PROFILE_CANDIDATES:
+        if path.exists():
+            df = pd.read_csv(path, dtype=str).fillna("")
+
+            if "cricinfo_id" not in df.columns:
+                continue
+
+            df["cricinfo_id"] = df["cricinfo_id"].map(clean_id)
+
+            return {
+                row["cricinfo_id"]: row.to_dict()
+                for _, row in df.iterrows()
+                if row["cricinfo_id"]
+            }
+
+    return {}
 
 
 def load_existing_stats():
@@ -282,6 +405,10 @@ def load_existing_stats():
     except Exception:
         return {}
 
+
+# ------------------------------------------------------------
+# STATUS LOGIC
+# ------------------------------------------------------------
 
 def get_last_year_from_existing_stats(stats_player):
     years = []
@@ -357,61 +484,77 @@ def infer_status(date_of_death, last_year):
     return "unknown", "no_status_signal"
 
 
+# ------------------------------------------------------------
+# BIO EXTRACTION
+# ------------------------------------------------------------
+
 def extract_bio_fields(bio):
-    full_name = (
-        find_deep(bio, ["fullName", "full_name", "name"])
-        or find_deep(bio, ["displayName", "display_name"])
+    full_name_raw = (
+        raw_find_deep(bio, ["fullName", "full_name", "name"])
+        or raw_find_deep(bio, ["displayName", "display_name"])
     )
 
-    display_name = find_deep(bio, ["displayName", "display_name", "shortName", "short_name"])
-    first_name = find_deep(bio, ["firstName", "first_name"])
-    last_name = find_deep(bio, ["lastName", "last_name"])
-    country = find_deep(bio, ["country", "countryName", "country_name", "team", "teamName"])
+    display_name_raw = raw_find_deep(bio, ["displayName", "display_name", "shortName", "short_name"])
+    first_name_raw = raw_find_deep(bio, ["firstName", "first_name"])
+    last_name_raw = raw_find_deep(bio, ["lastName", "last_name"])
+    country_raw = raw_find_deep(bio, ["country", "countryName", "country_name", "team", "teamName"])
 
-    dob = parse_date(find_deep(bio, ["dateOfBirth", "date_of_birth", "displayDOB", "dob", "birthDate", "born"]))
-    dod = parse_date(find_deep(bio, ["dateOfDeath", "date_of_death", "displayDOD", "dod", "deathDate", "died"]))
+    dob = parse_date(raw_find_deep(bio, ["dateOfBirth", "date_of_birth", "displayDOB", "dob", "birthDate", "born"]))
+    dod = parse_date(raw_find_deep(bio, ["dateOfDeath", "date_of_death", "displayDOD", "dod", "deathDate", "died"]))
 
-    batting_raw = find_deep(bio, ["battingStyle", "batting_style", "batting", "batStyle"])
-    bowling_raw = find_deep(bio, ["bowlingStyle", "bowling_style", "bowling", "bowlStyle"])
-    role_raw = find_deep(bio, ["playingRole", "playing_role", "role", "position", "playerType"])
+    batting_raw = raw_find_deep(bio, ["battingStyle", "batting_style", "batting", "batStyle"])
+    bowling_raw = raw_find_deep(bio, ["bowlingStyle", "bowling_style", "bowling", "bowlStyle"])
+    role_raw = raw_find_deep(bio, ["playingRole", "playing_role", "role", "position", "playerType"])
 
     bat_code, bat_style = normalize_batting_style(batting_raw)
     bowl_code, bowl_style = normalize_bowling_style(bowling_raw)
     role_id, role = normalize_role(role_raw)
 
     return {
-        "full_name": clean_value(full_name),
-        "display_name": clean_value(display_name),
-        "first_name": clean_value(first_name),
-        "last_name": clean_value(last_name),
-        "country": clean_value(country),
+        "full_name": extract_name_from_obj(full_name_raw),
+        "display_name": extract_name_from_obj(display_name_raw),
+        "first_name": extract_name_from_obj(first_name_raw),
+        "last_name": extract_name_from_obj(last_name_raw),
+        "country": extract_name_from_obj(country_raw),
+
         "date_of_birth": dob,
         "date_of_death": dod,
-        "batting_style_raw": clean_value(batting_raw),
-        "bowling_style_raw": clean_value(bowling_raw),
-        "playing_role_raw": clean_value(role_raw),
+
+        "batting_style_raw": extract_name_from_obj(batting_raw),
+        "bowling_style_raw": extract_name_from_obj(bowling_raw),
+        "playing_role_raw": extract_name_from_obj(role_raw),
+
         "standard_batting_code": bat_code,
         "standard_batting_style": bat_style,
         "standard_bowling_code": bowl_code,
         "standard_bowling_style": bowl_style,
+
         "playing_role_id": role_id,
         "playing_role": role,
     }
 
+
+# ------------------------------------------------------------
+# T20S STAT EXTRACTION
+# ------------------------------------------------------------
 
 def flatten_summary(data):
     if not isinstance(data, dict):
         return {}
 
     if isinstance(data.get("summary"), dict):
-        return data["summary"]
+        summary = data["summary"]
+    else:
+        summary = data
 
     keep_keys = [
         "Span", "Start", "End",
+
         "Mat", "Matches",
         "Inns", "Innings",
         "NO", "NotOuts",
-        "Runs", "HS", "HighScore",
+        "Runs",
+        "HS", "HighScore",
         "Ave", "Average",
         "BF", "BallsFaced",
         "SR", "StrikeRate",
@@ -420,15 +563,20 @@ def flatten_summary(data):
         "0", "Ducks",
         "4s", "Fours",
         "6s", "Sixes",
-        "Balls", "Overs",
+
+        "Balls",
+        "Overs",
         "Mdns", "Maidens",
         "Wkts", "Wickets",
         "BBI", "BestBowlingInnings",
         "BBM", "BestBowlingMatch",
         "Econ", "Economy",
-        "4w", "FourWickets",
-        "5w", "FiveWickets",
-        "10w", "TenWickets",
+
+        # These fix the missing haul problem.
+        "4", "4w", "4W", "FourWickets", "FourWicketHauls",
+        "5", "5w", "5W", "FiveWickets", "FiveWicketHauls",
+        "10", "10w", "10W", "TenWickets", "TenWicketHauls",
+
         "Ct", "Caught",
         "St", "Stumped",
         "Dismissals",
@@ -437,9 +585,10 @@ def flatten_summary(data):
     out = {}
 
     for key in keep_keys:
-        val = clean_value(data.get(key))
-        if val:
-            out[key] = val
+        if isinstance(summary, dict):
+            val = clean_value(summary.get(key))
+            if val:
+                out[key] = val
 
     return out
 
@@ -482,6 +631,53 @@ def get_stat(t20s, stat_type, *keys):
     return ""
 
 
+def overs_to_balls(overs):
+    overs = clean_value(overs)
+
+    if not overs:
+        return ""
+
+    try:
+        if "." in overs:
+            whole, balls = overs.split(".", 1)
+            whole = int(whole)
+            balls = int(balls[:1])
+            if balls > 5:
+                return ""
+            return str((whole * 6) + balls)
+
+        return str(int(float(overs)) * 6)
+
+    except Exception:
+        return ""
+
+
+def safe_int(value):
+    value = clean_value(value)
+
+    if not value:
+        return 0
+
+    try:
+        return int(float(value))
+    except Exception:
+        return 0
+
+
+def derived_dismissals(catches, stumpings):
+    c = safe_int(catches)
+    s = safe_int(stumpings)
+
+    if c == 0 and s == 0 and not clean_value(catches) and not clean_value(stumpings):
+        return ""
+
+    return str(c + s)
+
+
+# ------------------------------------------------------------
+# RECORD FLATTENING
+# ------------------------------------------------------------
+
 def flatten_record(record):
     p = record["profile"]
     t = record["t20s"]
@@ -506,6 +702,7 @@ def flatten_record(record):
     row["t20s_bowl_innings"] = get_stat(t, "bowling", "Innings", "Inns")
     row["t20s_bowl_balls"] = get_stat(t, "bowling", "Balls")
     row["t20s_bowl_overs"] = get_stat(t, "bowling", "Overs")
+    row["t20s_bowl_balls_derived"] = row["t20s_bowl_balls"] or overs_to_balls(row["t20s_bowl_overs"])
     row["t20s_bowl_maidens"] = get_stat(t, "bowling", "Maidens", "Mdns")
     row["t20s_bowl_runs"] = get_stat(t, "bowling", "RunsConceded", "Runs")
     row["t20s_bowl_wkts"] = get_stat(t, "bowling", "Wickets", "Wkts")
@@ -514,13 +711,44 @@ def flatten_record(record):
     row["t20s_bowl_avg"] = get_stat(t, "bowling", "Average", "Ave")
     row["t20s_bowl_econ"] = get_stat(t, "bowling", "Economy", "Econ")
     row["t20s_bowl_sr"] = get_stat(t, "bowling", "StrikeRate", "SR")
-    row["t20s_bowl_4w"] = get_stat(t, "bowling", "FourWickets", "4w")
-    row["t20s_bowl_5w"] = get_stat(t, "bowling", "FiveWickets", "5w")
-    row["t20s_bowl_10w"] = get_stat(t, "bowling", "TenWickets", "10w")
+
+    row["t20s_bowl_4w"] = get_stat(
+        t,
+        "bowling",
+        "FourWickets",
+        "FourWicketHauls",
+        "4w",
+        "4W",
+        "4",
+    )
+
+    row["t20s_bowl_5w"] = get_stat(
+        t,
+        "bowling",
+        "FiveWickets",
+        "FiveWicketHauls",
+        "5w",
+        "5W",
+        "5",
+    )
+
+    row["t20s_bowl_10w"] = get_stat(
+        t,
+        "bowling",
+        "TenWickets",
+        "TenWicketHauls",
+        "10w",
+        "10W",
+        "10",
+    )
 
     row["t20s_field_catches"] = get_stat(t, "fielding", "Caught", "Ct")
     row["t20s_field_stumpings"] = get_stat(t, "fielding", "Stumped", "St")
     row["t20s_field_dismissals"] = get_stat(t, "fielding", "Dismissals")
+    row["t20s_field_dismissals_derived"] = row["t20s_field_dismissals"] or derived_dismissals(
+        row["t20s_field_catches"],
+        row["t20s_field_stumpings"],
+    )
 
     row["t20s_batting_error"] = clean_value(t.get("errors", {}).get("batting"))
     row["t20s_bowling_error"] = clean_value(t.get("errors", {}).get("bowling"))
@@ -529,11 +757,17 @@ def flatten_record(record):
     return row
 
 
-def fetch_one(ci, player_id, input_name, existing_stats):
+# ------------------------------------------------------------
+# FETCH ONE PLAYER
+# ------------------------------------------------------------
+
+def fetch_one(ci, player_id, input_name, existing_profiles, existing_stats):
     cached = load_cached(player_id)
 
     if cached is not None:
         return cached
+
+    base = existing_profiles.get(player_id, {})
 
     bio_error = ""
 
@@ -549,27 +783,90 @@ def fetch_one(ci, player_id, input_name, existing_stats):
 
     t20s = fetch_t20s_stats(ci, player_id)
 
+    date_of_birth = first_nonblank(
+        bio_fields.get("date_of_birth"),
+        parse_date(base.get("espn_date_of_birth")),
+        parse_date(base.get("date_of_birth")),
+        parse_date(base.get("dob")),
+    )
+
+    date_of_death = first_nonblank(
+        bio_fields.get("date_of_death"),
+        parse_date(base.get("espn_date_of_death")),
+        parse_date(base.get("date_of_death")),
+        parse_date(base.get("date_of_death_str")),
+    )
+
     last_year_t20s = get_last_year_from_t20s(t20s)
     last_year_international = get_last_year_from_existing_stats(existing_stats.get(player_id, {}))
     last_year = last_year_t20s or last_year_international
 
-    status, status_source = infer_status(
-        bio_fields.get("date_of_death", ""),
-        last_year,
+    status, status_source = infer_status(date_of_death, last_year)
+
+    role_id = first_nonblank(
+        bio_fields.get("playing_role_id"),
+        base.get("playing_role_id"),
+        base.get("espn_playing_role_id"),
     )
+
+    role = first_nonblank(
+        bio_fields.get("playing_role"),
+        base.get("playing_role"),
+        base.get("espn_playing_role"),
+    )
+
+    # Final role cleanup if fallback gave dict-like text.
+    if role.startswith("{") and role.endswith("}"):
+        try:
+            role_obj = json.loads(role.replace("'", '"'))
+            role_id2, role2 = normalize_role(role_obj)
+            role_id = role_id or role_id2
+            role = role2
+        except Exception:
+            pass
+
+    if role_id.upper() == "UKN" and not role:
+        role = "Unknown"
+
+    if role.lower() == "unknown" and not role_id:
+        role_id = "UKN"
 
     profile = {
         "cricinfo_id": player_id,
         "input_name": input_name,
 
-        "final_full_name": bio_fields.get("full_name") or input_name,
-        "final_display_name": bio_fields.get("display_name") or input_name,
-        "final_first_name": bio_fields.get("first_name", ""),
-        "final_last_name": bio_fields.get("last_name", ""),
-        "final_country_name": bio_fields.get("country", ""),
+        "final_full_name": first_nonblank(
+            bio_fields.get("full_name"),
+            base.get("espn_full_name"),
+            base.get("final_player_name"),
+            input_name,
+        ),
+        "final_display_name": first_nonblank(
+            bio_fields.get("display_name"),
+            base.get("espn_display_name"),
+            base.get("final_player_name"),
+            input_name,
+        ),
+        "final_first_name": first_nonblank(
+            bio_fields.get("first_name"),
+            base.get("espn_first_name"),
+            base.get("First Name"),
+        ),
+        "final_last_name": first_nonblank(
+            bio_fields.get("last_name"),
+            base.get("espn_last_name"),
+            base.get("Last Name"),
+        ),
+        "final_country_name": first_nonblank(
+            bio_fields.get("country"),
+            base.get("espn_country_name"),
+            base.get("country_name"),
+            base.get("source_country_text"),
+            base.get("final_country"),
+        ),
 
-        "final_date_of_birth": bio_fields.get("date_of_birth", ""),
-        "final_date_of_death": bio_fields.get("date_of_death", ""),
+        "final_date_of_birth": date_of_birth,
+        "final_date_of_death": date_of_death,
 
         "final_player_status": status,
         "status_source": status_source,
@@ -577,19 +874,45 @@ def fetch_one(ci, player_id, input_name, existing_stats):
         "last_played_year_t20s": last_year_t20s,
         "last_played_year_international": last_year_international,
 
-        "final_batting_style_raw": bio_fields.get("batting_style_raw", ""),
-        "standard_batting_code": bio_fields.get("standard_batting_code", ""),
-        "standard_batting_style": bio_fields.get("standard_batting_style", ""),
+        "final_batting_style_raw": first_nonblank(
+            bio_fields.get("batting_style_raw"),
+            base.get("batting_style"),
+            base.get("standard_batting_style"),
+        ),
+        "standard_batting_code": first_nonblank(
+            bio_fields.get("standard_batting_code"),
+            base.get("standard_batting_code"),
+        ),
+        "standard_batting_style": first_nonblank(
+            bio_fields.get("standard_batting_style"),
+            base.get("standard_batting_style"),
+        ),
 
-        "final_bowling_style_raw": bio_fields.get("bowling_style_raw", ""),
-        "standard_bowling_code": bio_fields.get("standard_bowling_code", ""),
-        "standard_bowling_style": bio_fields.get("standard_bowling_style", ""),
+        "final_bowling_style_raw": first_nonblank(
+            bio_fields.get("bowling_style_raw"),
+            base.get("bowling_style"),
+            base.get("standard_bowling_style"),
+        ),
+        "standard_bowling_code": first_nonblank(
+            bio_fields.get("standard_bowling_code"),
+            base.get("standard_bowling_code"),
+        ),
+        "standard_bowling_style": first_nonblank(
+            bio_fields.get("standard_bowling_style"),
+            base.get("standard_bowling_style"),
+        ),
 
-        "final_playing_role_raw": bio_fields.get("playing_role_raw", ""),
-        "playing_role_id": bio_fields.get("playing_role_id", ""),
-        "playing_role": bio_fields.get("playing_role", ""),
+        "final_playing_role_raw": first_nonblank(
+            bio_fields.get("playing_role_raw"),
+            base.get("playing_role"),
+            base.get("espn_playing_role"),
+        ),
+        "playing_role_id": role_id,
+        "playing_role": role,
 
         "bio_error": bio_error,
+        "bio_needs_retry": bool(bio_error),
+        "bio_quality": "error" if bio_error else "good",
     }
 
     record = {
@@ -601,15 +924,23 @@ def fetch_one(ci, player_id, input_name, existing_stats):
     return record
 
 
+# ------------------------------------------------------------
+# MAIN
+# ------------------------------------------------------------
+
 def main():
     players, index_path = load_player_index()
+    existing_profiles = load_existing_profile_index()
     existing_stats = load_existing_stats()
 
     print("Using player index:", index_path)
     print("Shard:", SHARD_INDEX, "of", SHARD_TOTAL)
     print("Players in this shard:", len(players))
+    print("Existing profile rows:", len(existing_profiles))
+    print("Existing stats rows:", len(existing_stats))
     print("Sleep:", SLEEP_SECONDS)
     print("Force refresh:", FORCE_REFRESH)
+    print("Cache version:", CACHE_VERSION)
 
     ci = CricinfoClient()
 
@@ -622,7 +953,14 @@ def main():
         input_name = player["input_name"]
 
         try:
-            record = fetch_one(ci, player_id, input_name, existing_stats)
+            record = fetch_one(
+                ci=ci,
+                player_id=player_id,
+                input_name=input_name,
+                existing_profiles=existing_profiles,
+                existing_stats=existing_stats,
+            )
+
             keyed[player_id] = record
             rows.append(flatten_record(record))
 
@@ -647,20 +985,54 @@ def main():
 
     err_df.to_csv(OUT_ERRORS, index=False)
 
-    report = pd.DataFrame([
+    report_rows = [
         {"item": "shard_index", "value": SHARD_INDEX},
         {"item": "shard_total", "value": SHARD_TOTAL},
         {"item": "players_in_shard", "value": len(players)},
         {"item": "rows_saved", "value": len(out_df)},
         {"item": "errors", "value": len(err_df)},
-        {"item": "with_t20s_batting", "value": int((out_df.get("t20s_bat_matches", "") != "").sum()) if len(out_df) else 0},
-        {"item": "with_t20s_bowling", "value": int((out_df.get("t20s_bowl_matches", "") != "").sum()) if len(out_df) else 0},
-        {"item": "status_active", "value": int((out_df.get("final_player_status", "") == "active").sum()) if len(out_df) else 0},
-        {"item": "status_retired", "value": int((out_df.get("final_player_status", "") == "retired").sum()) if len(out_df) else 0},
-        {"item": "status_passed_away", "value": int((out_df.get("final_player_status", "") == "passed_away").sum()) if len(out_df) else 0},
-        {"item": "status_unknown", "value": int((out_df.get("final_player_status", "") == "unknown").sum()) if len(out_df) else 0},
-    ])
+    ]
 
+    if len(out_df):
+        for status in ["active", "retired", "passed_away", "unknown"]:
+            report_rows.append({
+                "item": f"status_{status}",
+                "value": int((out_df.get("final_player_status", "") == status).sum()),
+            })
+
+        check_cols = [
+            "final_date_of_birth",
+            "final_date_of_death",
+            "playing_role",
+            "playing_role_id",
+            "t20s_bat_matches",
+            "t20s_bat_runs",
+            "t20s_bat_avg",
+            "t20s_bat_sr",
+            "t20s_bowl_matches",
+            "t20s_bowl_wkts",
+            "t20s_bowl_avg",
+            "t20s_bowl_econ",
+            "t20s_bowl_4w",
+            "t20s_bowl_5w",
+            "t20s_bowl_balls_derived",
+            "t20s_field_dismissals_derived",
+        ]
+
+        for col in check_cols:
+            if col in out_df.columns:
+                report_rows.append({
+                    "item": f"with_{col}",
+                    "value": int((out_df[col].astype(str).str.strip() != "").sum()),
+                })
+
+        if "bio_needs_retry" in out_df.columns:
+            report_rows.append({
+                "item": "bio_needs_retry",
+                "value": int((out_df["bio_needs_retry"].astype(str).str.lower() == "true").sum()),
+            })
+
+    report = pd.DataFrame(report_rows)
     report.to_csv(OUT_REPORT, index=False)
 
     print("Saved:")
