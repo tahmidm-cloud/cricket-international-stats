@@ -1,16 +1,18 @@
-name: Fetch Bio + T20s 8200 Players
+name: Fetch Bio + T20s 8200 Players Ultra Fast
 
 on:
   workflow_dispatch:
     inputs:
       sleep_seconds:
-        description: "Sleep between Cricinfo requests"
+        description: "Sleep between Cricinfo requests. Fast = 0.15, safer = 0.35"
         required: true
-        default: "0.60"
+        default: "0.15"
+
       force_refresh:
         description: "Ignore shard cache? 1=yes, 0=no"
         required: true
         default: "0"
+
       commit_outputs:
         description: "Commit final outputs to repo? true/false"
         required: true
@@ -21,19 +23,36 @@ permissions:
 
 jobs:
   fetch-shards:
-    name: Fetch shard ${{ matrix.shard_index }}
+    name: Fetch shard ${{ matrix.shard_index }} of 160
     runs-on: ubuntu-latest
-    timeout-minutes: 360
+    timeout-minutes: 180
 
     strategy:
       fail-fast: false
-      max-parallel: 2
+      max-parallel: 160
       matrix:
-        shard_index: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+        shard_index: [
+          0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+          10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+          20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
+          30, 31, 32, 33, 34, 35, 36, 37, 38, 39,
+          40, 41, 42, 43, 44, 45, 46, 47, 48, 49,
+          50, 51, 52, 53, 54, 55, 56, 57, 58, 59,
+          60, 61, 62, 63, 64, 65, 66, 67, 68, 69,
+          70, 71, 72, 73, 74, 75, 76, 77, 78, 79,
+          80, 81, 82, 83, 84, 85, 86, 87, 88, 89,
+          90, 91, 92, 93, 94, 95, 96, 97, 98, 99,
+          100, 101, 102, 103, 104, 105, 106, 107, 108, 109,
+          110, 111, 112, 113, 114, 115, 116, 117, 118, 119,
+          120, 121, 122, 123, 124, 125, 126, 127, 128, 129,
+          130, 131, 132, 133, 134, 135, 136, 137, 138, 139,
+          140, 141, 142, 143, 144, 145, 146, 147, 148, 149,
+          150, 151, 152, 153, 154, 155, 156, 157, 158, 159
+        ]
 
     env:
       SHARD_INDEX: ${{ matrix.shard_index }}
-      SHARD_TOTAL: 20
+      SHARD_TOTAL: 160
       SLEEP_SECONDS: ${{ github.event.inputs.sleep_seconds }}
       FORCE_REFRESH: ${{ github.event.inputs.force_refresh }}
       MAX_PLAYERS: 0
@@ -55,10 +74,10 @@ jobs:
       - name: Restore shard cache
         uses: actions/cache@v4
         with:
-          path: outputs/bio_t20s_only_cache/shard_${{ matrix.shard_index }}_of_20
-          key: bio-t20s-cache-v1-shard-${{ matrix.shard_index }}-of-20
+          path: outputs/bio_t20s_only_cache/shard_${{ matrix.shard_index }}_of_160
+          key: bio-t20s-cache-v3-shard-${{ matrix.shard_index }}-of-160
           restore-keys: |
-            bio-t20s-cache-v1-shard-${{ matrix.shard_index }}-
+            bio-t20s-cache-v3-shard-${{ matrix.shard_index }}-
 
       - name: Run T20s scraper shard
         run: |
@@ -67,15 +86,15 @@ jobs:
       - name: Upload shard output
         uses: actions/upload-artifact@v4
         with:
-          name: t20s-shard-${{ matrix.shard_index }}
+          name: t20s-shard-${{ matrix.shard_index }}-of-160
           path: |
-            outputs/shards/bio_t20s_only_shard_${{ matrix.shard_index }}_of_20.csv
-            outputs/shards/bio_t20s_only_shard_${{ matrix.shard_index }}_of_20_keyed.json
-            outputs/shards/bio_t20s_only_shard_${{ matrix.shard_index }}_of_20_errors.csv
-            outputs/shards/bio_t20s_only_shard_${{ matrix.shard_index }}_of_20_report.csv
+            outputs/shards/bio_t20s_only_shard_${{ matrix.shard_index }}_of_160.csv
+            outputs/shards/bio_t20s_only_shard_${{ matrix.shard_index }}_of_160_keyed.json
+            outputs/shards/bio_t20s_only_shard_${{ matrix.shard_index }}_of_160_errors.csv
+            outputs/shards/bio_t20s_only_shard_${{ matrix.shard_index }}_of_160_report.csv
 
   merge-shards:
-    name: Merge shards
+    name: Merge 160 shards
     runs-on: ubuntu-latest
     needs: fetch-shards
 
@@ -105,7 +124,7 @@ jobs:
       - name: Upload final combined files
         uses: actions/upload-artifact@v4
         with:
-          name: bio-t20s-final-combined
+          name: bio-t20s-final-combined-160-shards
           path: |
             outputs/bio_t20s_only.csv
             outputs/bio_t20s_only_keyed.json
@@ -123,5 +142,5 @@ jobs:
           git add outputs/bio_t20s_only_errors.csv
           git add outputs/bio_t20s_only_report.csv
 
-          git commit -m "Update bio and T20s player data" || echo "No changes to commit"
+          git commit -m "Update bio and T20s player data 160 shard run" || echo "No changes to commit"
           git push
