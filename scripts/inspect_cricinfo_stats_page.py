@@ -16,41 +16,24 @@ OUT_DIR = Path("outputs/cricinfo_stats_page_inspect")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 URLS = [
-<<<<<<< HEAD
-    f"https://www.cricinfo.com/cricketers/{PLAYER_SLUG}-{PLAYER_ID}/bowling-batting-stats",
     f"https://www.espncricinfo.com/cricketers/{PLAYER_SLUG}-{PLAYER_ID}/bowling-batting-stats",
-    f"https://www.cricinfo.com/cricketers/{PLAYER_SLUG}-{PLAYER_ID}",
+    f"https://www.cricinfo.com/cricketers/{PLAYER_SLUG}-{PLAYER_ID}/bowling-batting-stats",
     f"https://www.espncricinfo.com/cricketers/{PLAYER_SLUG}-{PLAYER_ID}",
+    f"https://www.cricinfo.com/cricketers/{PLAYER_SLUG}-{PLAYER_ID}",
     f"https://www.espncricinfo.com/ci/content/player/{PLAYER_ID}.html",
-=======
-    f"https://www.espncricinfo.com/cricketers/{PLAYER_SLUG}-{PLAYER_ID}/bowling-batting-stats",
-    f"https://www.cricinfo.com/cricketers/{PLAYER_SLUG}-{PLAYER_ID}/bowling-batting-stats",
-    f"https://www.espncricinfo.com/cricketers/{PLAYER_SLUG}-{PLAYER_ID}",
-    f"https://www.cricinfo.com/cricketers/{PLAYER_SLUG}-{PLAYER_ID}",
->>>>>>> 8540048 (see)
 ]
 
 HEADERS = {
     "User-Agent": (
-<<<<<<< HEAD
-        "Mozilla/5.0 (X11; Linux x86_64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/126.0.0.0 Safari/537.36"
-=======
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/126.0 Safari/537.36"
->>>>>>> 8540048 (see)
     ),
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/json;q=0.8,*/*;q=0.7",
     "Accept-Language": "en-US,en;q=0.9",
     "Referer": "https://www.espncricinfo.com/",
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 8540048 (see)
 KEYWORDS = [
     "Tests",
     "ODIs",
@@ -70,28 +53,11 @@ KEYWORDS = [
 ]
 
 
-def clean_text(x):
-    return re.sub(r"\s+", " ", str(x)).strip()
+def clean_text(value):
+    return re.sub(r"\s+", " ", str(value)).strip()
 
 
-<<<<<<< HEAD
 def save_text(path, text):
-    Path(path).write_text(text, encoding="utf-8", errors="ignore")
-
-
-def get_next_data(html):
-    soup = BeautifulSoup(html, "lxml")
-    script = soup.find("script", id="__NEXT_DATA__")
-
-    if not script:
-        return {}
-
-    raw = script.string or script.get_text() or ""
-
-    if not raw.strip():
-        return {}
-=======
-def save(path, text):
     Path(path).write_text(text, encoding="utf-8", errors="ignore")
 
 
@@ -103,7 +69,9 @@ def extract_next_data(html):
         return {}
 
     raw = tag.string or tag.get_text() or ""
->>>>>>> 8540048 (see)
+
+    if not raw.strip():
+        return {}
 
     try:
         return json.loads(raw)
@@ -116,15 +84,6 @@ def walk_json(obj, path="root", hits=None):
         hits = []
 
     if isinstance(obj, dict):
-<<<<<<< HEAD
-        preview_parts = []
-
-        for k, v in obj.items():
-            if not isinstance(v, (dict, list)):
-                preview_parts.append(f"{k}: {v}")
-
-        preview = clean_text(" ".join(preview_parts))
-=======
         preview = clean_text(
             " ".join(
                 f"{k}: {v}"
@@ -133,84 +92,55 @@ def walk_json(obj, path="root", hits=None):
             )
         )
 
->>>>>>> 8540048 (see)
         low = preview.lower()
 
-        if any(k.lower() in low for k in KEYWORDS):
+        if any(keyword.lower() in low for keyword in KEYWORDS):
             hits.append({
                 "path": path,
                 "type": "dict",
-<<<<<<< HEAD
-                "preview": preview[:500],
-                "keys": list(obj.keys()),
-=======
                 "keys": list(obj.keys()),
                 "preview": preview[:700],
->>>>>>> 8540048 (see)
             })
 
-        for k, v in obj.items():
-            if isinstance(v, (dict, list)):
-                walk_json(v, f"{path}.{k}", hits)
+        for key, value in obj.items():
+            if isinstance(value, (dict, list)):
+                walk_json(value, f"{path}.{key}", hits)
 
     elif isinstance(obj, list):
-<<<<<<< HEAD
-        preview_parts = []
-
-        for item in obj:
-            if not isinstance(item, (dict, list)):
-                preview_parts.append(str(item))
-
-        preview = clean_text(" ".join(preview_parts))
-=======
         preview = clean_text(
             " ".join(
-                str(x)
-                for x in obj
-                if not isinstance(x, (dict, list))
+                str(item)
+                for item in obj
+                if not isinstance(item, (dict, list))
             )
         )
 
->>>>>>> 8540048 (see)
         low = preview.lower()
 
-        if any(k.lower() in low for k in KEYWORDS):
+        if any(keyword.lower() in low for keyword in KEYWORDS):
             hits.append({
                 "path": path,
                 "type": f"list[{len(obj)}]",
-<<<<<<< HEAD
-                "preview": preview[:500],
-                "keys": [],
-=======
                 "keys": [],
                 "preview": preview[:700],
->>>>>>> 8540048 (see)
             })
 
-        for i, item in enumerate(obj):
+        for index, item in enumerate(obj):
             if isinstance(item, (dict, list)):
-                walk_json(item, f"{path}[{i}]", hits)
+                walk_json(item, f"{path}[{index}]", hits)
 
     return hits
 
 
 def extract_tables(html):
-<<<<<<< HEAD
-    tables_out = []
-
-=======
->>>>>>> 8540048 (see)
     try:
         tables = pd.read_html(StringIO(html))
     except Exception as exc:
         return [], str(exc)
 
-<<<<<<< HEAD
-=======
     output = []
 
->>>>>>> 8540048 (see)
-    for i, df in enumerate(tables):
+    for index, df in enumerate(tables):
         df = df.fillna("")
 
         if isinstance(df.columns, pd.MultiIndex):
@@ -219,46 +149,23 @@ def extract_tables(html):
                 for col in df.columns
             ]
 
-        df.columns = [str(c).strip() for c in df.columns]
+        df.columns = [str(col).strip() for col in df.columns]
 
-<<<<<<< HEAD
-        preview = df.head(12).to_dict(orient="records")
-
-        tables_out.append({
-            "table_index": i,
-            "shape": list(df.shape),
-            "columns": list(df.columns),
-            "preview": preview,
-        })
-
-    return tables_out, ""
-=======
         output.append({
-            "table_index": i,
+            "table_index": index,
             "shape": list(df.shape),
             "columns": list(df.columns),
             "preview": df.head(20).to_dict(orient="records"),
         })
 
     return output, ""
->>>>>>> 8540048 (see)
 
 
 def main():
     report = []
 
-<<<<<<< HEAD
-    for idx, url in enumerate(URLS):
-        label = f"url_{idx + 1}"
-        print(f"\nTrying {label}: {url}")
-
-        try:
-            r = requests.get(url, headers=HEADERS, timeout=30, allow_redirects=True)
-            status = r.status_code
-            html = r.text or ""
-=======
-    for i, url in enumerate(URLS, start=1):
-        label = f"url_{i}"
+    for index, url in enumerate(URLS, start=1):
+        label = f"url_{index}"
 
         print("=" * 80)
         print("Trying:", url)
@@ -274,7 +181,6 @@ def main():
             status = response.status_code
             html = response.text or ""
 
->>>>>>> 8540048 (see)
         except Exception as exc:
             report.append({
                 "label": label,
@@ -285,63 +191,38 @@ def main():
             continue
 
         html_path = OUT_DIR / f"{label}_{PLAYER_ID}.html"
-<<<<<<< HEAD
+        text_path = OUT_DIR / f"{label}_{PLAYER_ID}_text.txt"
+        next_data_path = OUT_DIR / f"{label}_{PLAYER_ID}_next_data.json"
+        hits_path = OUT_DIR / f"{label}_{PLAYER_ID}_json_hits.json"
+        tables_path = OUT_DIR / f"{label}_{PLAYER_ID}_tables.json"
+
         save_text(html_path, html)
-
-        text = BeautifulSoup(html, "lxml").get_text("\n")
-        text_clean = clean_text(text)
-
-        text_path = OUT_DIR / f"{label}_{PLAYER_ID}_text.txt"
-        save_text(text_path, text_clean)
-
-        next_data = get_next_data(html)
-        next_path = OUT_DIR / f"{label}_{PLAYER_ID}_next_data.json"
-        save_text(next_path, json.dumps(next_data, indent=2, ensure_ascii=False, default=str))
-
-        hits = walk_json(next_data) if next_data else []
-        hits_path = OUT_DIR / f"{label}_{PLAYER_ID}_json_hits.json"
-        save_text(hits_path, json.dumps(hits, indent=2, ensure_ascii=False, default=str))
-
-        tables, table_error = extract_tables(html)
-        tables_path = OUT_DIR / f"{label}_{PLAYER_ID}_tables.json"
-        save_text(tables_path, json.dumps(tables, indent=2, ensure_ascii=False, default=str))
-
-        keyword_hits = {}
-
-        for keyword in KEYWORDS:
-            keyword_hits[keyword] = keyword.lower() in text_clean.lower()
-
-        report.append({
-            "label": label,
-            "url": url,
-            "final_url": r.url,
-            "status": status,
-            "html_chars": len(html),
-            "text_chars": len(text_clean),
-=======
-        text_path = OUT_DIR / f"{label}_{PLAYER_ID}_text.txt"
-        next_path = OUT_DIR / f"{label}_{PLAYER_ID}_next_data.json"
-        hits_path = OUT_DIR / f"{label}_{PLAYER_ID}_json_hits.json"
-        tables_path = OUT_DIR / f"{label}_{PLAYER_ID}_tables.json"
-
-        save(html_path, html)
 
         soup = BeautifulSoup(html, "lxml")
         text = clean_text(soup.get_text("\n"))
-        save(text_path, text)
+        save_text(text_path, text)
 
         next_data = extract_next_data(html)
-        save(next_path, json.dumps(next_data, indent=2, ensure_ascii=False, default=str))
+        save_text(
+            next_data_path,
+            json.dumps(next_data, indent=2, ensure_ascii=False, default=str),
+        )
 
         hits = walk_json(next_data) if next_data else []
-        save(hits_path, json.dumps(hits, indent=2, ensure_ascii=False, default=str))
+        save_text(
+            hits_path,
+            json.dumps(hits, indent=2, ensure_ascii=False, default=str),
+        )
 
         tables, table_error = extract_tables(html)
-        save(tables_path, json.dumps(tables, indent=2, ensure_ascii=False, default=str))
+        save_text(
+            tables_path,
+            json.dumps(tables, indent=2, ensure_ascii=False, default=str),
+        )
 
         keyword_hits = {
-            k: k.lower() in text.lower()
-            for k in KEYWORDS
+            keyword: keyword.lower() in text.lower()
+            for keyword in KEYWORDS
         }
 
         item = {
@@ -351,7 +232,6 @@ def main():
             "status": status,
             "html_chars": len(html),
             "text_chars": len(text),
->>>>>>> 8540048 (see)
             "has_next_data": bool(next_data),
             "json_hit_count": len(hits),
             "table_count": len(tables),
@@ -359,25 +239,9 @@ def main():
             "keyword_hits": keyword_hits,
             "saved_html": str(html_path),
             "saved_text": str(text_path),
-            "saved_next_data": str(next_path),
+            "saved_next_data": str(next_data_path),
             "saved_json_hits": str(hits_path),
             "saved_tables": str(tables_path),
-<<<<<<< HEAD
-        })
-
-        print("Status:", status)
-        print("Final URL:", r.url)
-        print("HTML chars:", len(html))
-        print("Has __NEXT_DATA__:", bool(next_data))
-        print("JSON hits:", len(hits))
-        print("Tables:", len(tables))
-        print("Keyword hits:", {k: v for k, v in keyword_hits.items() if v})
-
-    report_path = OUT_DIR / f"{PLAYER_ID}_inspect_report.json"
-    save_text(report_path, json.dumps(report, indent=2, ensure_ascii=False, default=str))
-
-    summary_path = OUT_DIR / f"{PLAYER_ID}_summary.txt"
-=======
         }
 
         report.append(item)
@@ -394,30 +258,15 @@ def main():
     report_path = OUT_DIR / f"{PLAYER_ID}_inspect_report.json"
     summary_path = OUT_DIR / f"{PLAYER_ID}_summary.txt"
 
-    save(report_path, json.dumps(report, indent=2, ensure_ascii=False, default=str))
+    save_text(
+        report_path,
+        json.dumps(report, indent=2, ensure_ascii=False, default=str),
+    )
 
->>>>>>> 8540048 (see)
     lines = []
 
     for item in report:
         lines.append("=" * 90)
-<<<<<<< HEAD
-        lines.append(f"{item.get('label')}: {item.get('url')}")
-        lines.append(f"status: {item.get('status')}")
-        lines.append(f"final_url: {item.get('final_url', '')}")
-        lines.append(f"html_chars: {item.get('html_chars', '')}")
-        lines.append(f"has_next_data: {item.get('has_next_data', '')}")
-        lines.append(f"json_hit_count: {item.get('json_hit_count', '')}")
-        lines.append(f"table_count: {item.get('table_count', '')}")
-        lines.append(f"table_error: {item.get('table_error', '')}")
-        lines.append(f"keyword_hits: {item.get('keyword_hits', '')}")
-        lines.append("")
-
-    save_text(summary_path, "\n".join(lines))
-
-    print("\nSaved report:")
-    print(report_path)
-=======
         lines.append(f"label: {item.get('label')}")
         lines.append(f"url: {item.get('url')}")
         lines.append(f"final_url: {item.get('final_url', '')}")
@@ -431,10 +280,11 @@ def main():
         lines.append(f"keyword_hits: {item.get('keyword_hits')}")
         lines.append("")
 
-    save(summary_path, "\n".join(lines))
+    save_text(summary_path, "\n".join(lines))
 
+    print("\nSaved report:")
+    print(report_path)
     print("\nSaved summary:")
->>>>>>> 8540048 (see)
     print(summary_path)
 
 
